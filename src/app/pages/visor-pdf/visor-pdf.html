@@ -1,0 +1,19 @@
+<div class="container-fluid mt-3 px-4">
+  @if (pdfUrl()) {
+    <div class="card shadow-sm border-0">
+      <div class="card-body p-0 bg-dark rounded overflow-hidden">
+        <iframe 
+          [src]="pdfUrl()!" 
+          width="100%" 
+          height="850px" 
+          frameborder="0"
+          style="display: block;">
+        </iframe>
+      </div>
+    </div>
+  } @else {
+    <div class="alert alert-warning d-flex align-items-center m-3" role="alert">
+      <span>⚠️ No se ha podido cargar el archivo PDF solicitado o no existe en el directorio activo.</span>
+    </div>
+  }
+</div>

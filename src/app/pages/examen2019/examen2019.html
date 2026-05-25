@@ -1,0 +1,40 @@
+<div class="container mt-4">
+  @if (cargando()) {
+  <p>Cargando preguntas...</p>
+  } @else { @for (pregunta of preguntas(); track pregunta.globalId) {
+  <div class="card mb-3">
+    <div class="card-body">
+      <h6>{{ pregunta.globalId }}. {{ pregunta.pregunta }}</h6>
+
+      @for (opcion of pregunta.opciones; track $index) {
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          [id]="'opcion-' + pregunta.globalId + '-' + $index"
+          [name]="'pregunta-' + pregunta.globalId"
+          [value]="$index"
+          (change)="responder(pregunta.globalId, $index)"
+        />
+        <label
+          class="form-check-label"
+          [for]="'opcion-' + pregunta.globalId + '-' + $index"
+          [class.text-success]="respuestas.has(pregunta.globalId) && pregunta.respuestaCorrecta === $index"
+          [class.text-danger]="respuestas.get(pregunta.globalId) === $index && esCorrecta(pregunta.globalId) === false"
+        >
+          {{ opcion }}
+        </label>
+      </div>
+      } @if (esCorrecta(pregunta.globalId) === true) {
+      <p class="text-success mt-2">✅ {{ pregunta.explicacion }}</p>
+      } @else if (esCorrecta(pregunta.globalId) === false) {
+      <p class="text-danger mt-2">❌ Incorrecta.</p>
+      }
+    </div>
+  </div>
+  }}
+</div>
+
+
+
+
