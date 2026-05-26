@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
   <div class="container-fluid px-4">
     
-    <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#">
+    <a class="navbar-brand fw-bold d-flex align-items-center gap-2" routerLink="/">
       🎯 Oposición 2026
     </a>
     
@@ -50,28 +50,28 @@
           <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-3 mt-lg-2" aria-labelledby="pdfDropdown">
             
             <li><h6 class="dropdown-header text-primary fw-bold">Examen 2024 - Bloque A</h6></li>
-            <li><a class="dropdown-item py-2" href="assets/data/Tai_oposion_A_2024/cuestionario.pdf" target="_blank">📄 Cuestionario Preguntas (A)</a></li>
-            <li><a class="dropdown-item py-2" href="assets/data/Tai_oposion_A_2024/plantilla.pdf" target="_blank">✅ Plantilla Corrección (A)</a></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_A_2024', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas (A)</a></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_A_2024', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección (A)</a></li>
             <li><hr class="dropdown-divider my-1"></li>
 
             <li><h6 class="dropdown-header text-primary fw-bold">Examen 2024 - Bloque B</h6></li>
-            <li><a class="dropdown-item py-2" href="assets/data/Tai_oposion_B_2024/cuestionario.pdf" target="_blank">📄 Cuestionario Preguntas (B)</a></li>
-            <li><a class="dropdown-item py-2" href="assets/data/Tai_oposion_B_2024/plantilla.pdf" target="_blank">✅ Plantilla Corrección (B)</a></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_B_2024', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas (B)</a></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_B_2024', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección (B)</a></li>
             <li><hr class="dropdown-divider my-1"></li>
 
             <li><h6 class="dropdown-header text-primary fw-bold">Examen 2023</h6></li>
-            <li><a class="dropdown-item py-2" href="assets/data/Tai_oposion_2023/cuestionario.pdf" target="_blank">📄 Cuestionario Preguntas</a></li>
-            <li><a class="dropdown-item py-2" href="assets/data/Tai_oposion_2023/plantilla.pdf" target="_blank">✅ Plantilla Corrección</a></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_2023', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas</a></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_2023', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección</a></li>
             <li><hr class="dropdown-divider my-1"></li>
 
             <li><h6 class="dropdown-header text-primary fw-bold">Examen 2019</h6></li>
-            <li><a class="dropdown-item py-2" href="assets/data/Tai_oposion_2019/cuestionario.pdf" target="_blank">📄 Cuestionario Preguntas</a></li>
-            <li><a class="dropdown-item py-2" href="assets/data/Tai_oposion_2019/plantilla.pdf" target="_blank">✅ Plantilla Corrección</a></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_2019', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas</a></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_2019', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección</a></li>
             <li><hr class="dropdown-divider my-1"></li>
 
             <li><h6 class="dropdown-header text-primary fw-bold">Examen 2018</h6></li>
-            <li><a class="dropdown-item py-2" href="assets/data/Tai_oposion_2018/cuestionario.pdf" target="_blank">📄 Cuestionario Preguntas</a></li>
-            <li><a class="dropdown-item py-2" href="assets/data/Tai_oposion_2018/plantilla.pdf" target="_blank">✅ Plantilla Corrección</a></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_2018', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas</a></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_2018', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección</a></li>
           </ul>
         </li>
 
