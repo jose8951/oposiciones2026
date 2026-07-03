@@ -19,21 +19,28 @@
     
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav align-items-lg-center gap-1 my-2 my-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link px-3" routerLink="/examen2025a" routerLinkActive="active fw-bold text-white">2025A</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3" routerLink="/examen2025b" routerLinkActive="active fw-bold text-white">2025B</a>
+        </li>
         
         <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2024a" routerLinkActive="active fw-bold text-white">Examen 2024-A</a>
+          <a class="nav-link px-3" routerLink="/examen2024a" routerLinkActive="active fw-bold text-white">2024A</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2024b" routerLinkActive="active fw-bold text-white">Examen 2024-B</a>
+          <a class="nav-link px-3" routerLink="/examen2024b" routerLinkActive="active fw-bold text-white">2024B</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2023" routerLinkActive="active fw-bold text-white">Examen 2023</a>
+          <a class="nav-link px-3" routerLink="/examen2023" routerLinkActive="active fw-bold text-white">2023</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2019" routerLinkActive="active fw-bold text-white">Examen 2019</a>
+          <a class="nav-link px-3" routerLink="/examen2019" routerLinkActive="active fw-bold text-white">2019</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2018" routerLinkActive="active fw-bold text-white">Examen 2018</a>
+          <a class="nav-link px-3" routerLink="/examen2018" routerLinkActive="active fw-bold text-white">2018</a>
         </li>
 
         <li class="nav-item dropdown mx-lg-2">
@@ -48,6 +55,16 @@
             📚 PDFs Oficiales
           </a>
           <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-3 mt-lg-2" aria-labelledby="pdfDropdown">
+
+            <li><h6 class="dropdown-header text-primary fw-bold">Examen 2025 - Bloque A</h6></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_A_2025', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas (A)</a></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_A_2025', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección (A)</a></li>
+            <li><hr class="dropdown-divider my-1"></li>
+
+            <li><h6 class="dropdown-header text-primary fw-bold">Examen 2025 - Bloque B</h6></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_B_2025', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas (B)</a></li>
+            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_B_2025', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección (B)</a></li>
+            <li><hr class="dropdown-divider my-1"></li>
             
             <li><h6 class="dropdown-header text-primary fw-bold">Examen 2024 - Bloque A</h6></li>
             <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_A_2024', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas (A)</a></li>

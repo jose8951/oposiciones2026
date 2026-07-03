@@ -1,0 +1,2032 @@
+Código JSON: Examen TAI 2025 - Modelo A
+
+{
+  "examen": "TAI Ingreso Libre 2025 - Modelo A",
+  "preguntas": [
+    {
+      "id": 1,
+      "globalId": 1,
+      "seccion": "Primera Parte",
+      "enunciado": "En la Constitución Española de 1978, en relación con la sucesión al trono se prefiere siempre:",
+      "opciones": [
+        "En la misma línea, el grado más lejano al más próximo.",
+        "En el mismo grado, la línea anterior a las posteriores.",
+        "En la misma línea, el grado más próximo al más remoto.",
+        "En el mismo grado, la línea posterior a las anteriores."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "De acuerdo con el Art. 57.1 de la Constitución Española, se prioriza el grado más próximo en la misma línea sucesoria.",
+      "anulada": false
+    },
+    {
+      "id": 2,
+      "globalId": 2,
+      "seccion": "Primera Parte",
+      "enunciado": "Indique cuál de los siguientes principios se garantiza en el artículo 9 de la Constitución Española de 1978:",
+      "opciones": [
+        "La retroactividad de disposiciones sancionadoras no favorables o restrictivas de derechos individuales.",
+        "La retroactividad de disposiciones sancionadoras favorables.",
+        "La interdicción de la arbitrariedad de los poderes públicos.",
+        "La irretroactividad de disposiciones sancionadoras favorables o restrictivas de derechos colectivos."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "El Art. 9.3 establece explícitamente el principio de interdicción de la arbitrariedad de los poderes públicos.",
+      "anulada": false
+    },
+    {
+      "id": 3,
+      "globalId": 3,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre la Diputación Permanente es correcta, según el artículo 78 de la Constitución Española de 1978?",
+      "opciones": [
+        "Cada Cámara contará con una Diputación Permanente de al menos quince miembros, elegidos por sufragio directo de entre los parlamentarios de cada grupo.",
+        "La Diputación Permanente del Congreso será presidida por el Presidente del Senado, y la del Senado por el Presidente del Congreso.",
+        "En cada Cámara habrá una Diputación Permanente compuesta de un mínimo de veintiún miembros, que representarán a los grupos parlamentarios en proporción a su importancia numérica.",
+        "La Diputación Permanente solo puede ejercer sus funciones durante los períodos entre sesiones ordinarias, quedando suspendidas en caso de disolución de las Cámaras."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "El Art. 78 de la CE establece un mínimo de 21 miembros con representación proporcional a los grupos parlamentarios.",
+      "anulada": false
+    },
+    {
+      "id": 4,
+      "globalId": 4,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuáles son las funciones que el artículo 66 de la Constitución Española de 1978 atribuye directamente a las Cortes Generales?",
+      "opciones": [
+        "Ejercer la potestad legislativa del Estado, aprobar los Presupuestos y controlar la acción del Gobierno.",
+        "Elegir al Presidente del Gobierno, aprobar los Presupuestos y ratificar los tratados internacionales.",
+        "Dictar decretos-leyes, aprobar los Presupuestos y controlar la acción del Gobierno.",
+        "Ejercer la potestad legislativa del Estado, nombrar al Defensor del Pueblo y elegir a los magistrados del Tribunal Supremo."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "El Art. 66.2 de la CE define las potestades legislativas, presupuestarias y de control gubernamental.",
+      "anulada": false
+    },
+    {
+      "id": 5,
+      "globalId": 5,
+      "seccion": "Primera Parte",
+      "enunciado": "Conforme al artículo 21 de la Ley 50/1997, de 27 de noviembre, del Gobierno, ¿cuál de las siguientes opciones es una función del Gobierno en funciones?",
+      "opciones": [
+        "Aprobar el Proyecto de Ley de Presupuestos Generales del Estado.",
+        "Presentar Proyectos de Ley al Congreso de los Diputados.",
+        "Proponer al Rey la disolución del Congreso de los Diputados.",
+        "Limitar su gestión al despacho ordinario de los asuntos públicos."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "La Ley del Gobierno restringe la actuación del Gobierno cesante al despacho ordinario de asuntos públicos.",
+      "anulada": false
+    },
+    {
+      "id": 6,
+      "globalId": 6,
+      "seccion": "Primera Parte",
+      "enunciado": "Según establece el artículo 99 de la Constitución Española de 1978 que regula el proceso de investidura del Presidente del Gobierno, ¿qué mayoría se exige en la primera votación?",
+      "opciones": [
+        "Mayoría simple del Congreso de los Diputados.",
+        "Mayoría absoluta del Congreso de los Diputados.",
+        "Mayoría absoluta del Senado.",
+        "Mayoría de dos tercios del Congreso de los Diputados."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "El Art. 99.3 exige mayoría absoluta en la primera votación para la investidura.",
+      "anulada": false
+    },
+    {
+      "id": 7,
+      "globalId": 7,
+      "seccion": "Primera Parte",
+      "enunciado": "Dentro del marco de la Agenda 2030, señale cuál de los siguientes es el Objetivo de Desarrollo Sostenible número 1:",
+      "opciones": [
+        "Lucha contra el hambre.",
+        "Consumo responsable.",
+        "Paz y justicia.",
+        "Erradicación de la pobreza."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "El ODS 1 se define oficialmente como 'Fin de la pobreza'.",
+      "anulada": false
+    },
+    {
+      "id": 8,
+      "globalId": 8,
+      "seccion": "Primera Parte",
+      "enunciado": "Según establece el artículo 78 del Real Decreto Legislativo 5/2015, de 30 de octubre, señale cuál de los siguientes NO es uno de los principios de provisión de puestos de trabajo del personal funcionario de carrera:",
+      "opciones": [
+        "Mérito.",
+        "Conocimiento.",
+        "Igualdad.",
+        "Publicidad."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "El TREBEP establece mérito, igualdad y publicidad, pero 'conocimiento' no figura como principio autónomo en dicho artículo.",
+      "anulada": false
+    },
+    {
+      "id": 9,
+      "globalId": 9,
+      "seccion": "Primera Parte",
+      "enunciado": "Según establece la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, señale cuál de los siguientes es miembro de la Comisión de Transparencia y Buen Gobierno:",
+      "opciones": [
+        "Un representante del Defensor del Pueblo.",
+        "Un representante de la Subsecretaría de Estado del Ministerio de Hacienda.",
+        "Un representante del Tribunal Constitucional.",
+        "Un representante de la Agencia Estatal de Administración Tributaria."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "La composición de la Comisión incluye por ley a un representante del Defensor del Pueblo.",
+      "anulada": false
+    },
+    {
+      "id": 10,
+      "globalId": 10,
+      "seccion": "Primera Parte",
+      "enunciado": "De conformidad con el artículo 4 de la Ley Orgánica 1/2004, de 28 de diciembre, de Medidas de Protección Integral contra la Violencia de Género, indique cuál de las siguientes opciones es correcta en relación con los principios y valores del sistema educativo:",
+      "opciones": [
+        "La Educación Infantil contribuirá a desarrollar habilidades en resolución pacífica de conflictos.",
+        "La Educación Primaria contribuirá a valorar la igualdad de oportunidades.",
+        "La Educación Secundaria Obligatoria contribuirá a consolidar la madurez personal y moral.",
+        "Las Universidades incluirán y fomentarán en todos los ámbitos académicos la formación, docencia e investigación en igualdad de género."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "El Art. 4.7 impone a las Universidades el fomento transversal de la formación en igualdad de género.",
+      "anulada": false
+    },
+    {
+      "id": 11,
+      "globalId": 11,
+      "seccion": "Primera Parte",
+      "enunciado": "De conformidad con el artículo 4.2 del Real Decreto Legislativo 1/2013, de 29 de noviembre, ¿cuál es el grado mínimo reconocido a partir del cual se tiene la consideración de persona con discapacidad?",
+      "opciones": [
+        "30 por ciento.",
+        "33 por ciento.",
+        "35 por ciento.",
+        "38 por ciento."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Legalmente, se considera persona con discapacidad a aquella que tenga un grado igual o superior al 33%.",
+      "anulada": false
+    },
+    {
+      "id": 12,
+      "globalId": 12,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Qué información está almacenada en la zona de seguridad del DNI electrónico, accesible en lectura por el ciudadano en los Puntos de Actualización del DNIe?",
+      "opciones": [
+        "El certificado de Firma (No Repudio).",
+        "El certificado de Autenticación (Digital Signature).",
+        "El certificado CA intermedia emisora.",
+        "La imagen de la fotografía."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "La zona pública/seguridad permite el acceso a datos biométricos como la fotografía del titular.",
+      "anulada": false
+    },
+    {
+      "id": 13,
+      "globalId": 13,
+      "seccion": "Primera Parte",
+      "enunciado": "De conformidad con el Anexo III del Reglamento 910/2014 (eIDAS), los certificados cualificados de sello electrónico contendrán:",
+      "opciones": [
+        "El nombre o los nombres de dominio explotados por la persona física.",
+        "Al menos, el nombre del creador del sello y, cuando proceda, el número de registro oficial.",
+        "La ciudad y el Estado de la persona física o jurídica solamente.",
+        "Para personas físicas: al menos el nombre de la persona a la que se expida."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "El Reglamento eIDAS especifica la identificación del creador del sello para certificados de sello electrónico.",
+      "anulada": false
+    },
+    {
+      "id": 14,
+      "globalId": 14,
+      "seccion": "Primera Parte",
+      "enunciado": "En relación con el uso de pseudónimos en los certificados cualificados, la Ley 6/2020 establece que:",
+      "opciones": [
+        "Está prohibido el uso de pseudónimos.",
+        "El prestador debe revelar la identidad únicamente con autorización del titular.",
+        "El prestador está obligado a revelar la identidad real a solicitud de órganos judiciales.",
+        "Solo los certificados de sello electrónico admiten pseudónimo."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "La ley obliga a los prestadores a facilitar la identidad real a las autoridades competentes en el ejercicio de sus funciones.",
+      "anulada": false
+    },
+    {
+      "id": 15,
+      "globalId": 15,
+      "seccion": "Primera Parte",
+      "enunciado": "De conformidad con el artículo 96 de la LOPDGDD, ¿a qué hace referencia el derecho al testamento digital?",
+      "opciones": [
+        "A la transmisión automática de activos financieros.",
+        "Al acceso a contenidos gestionados por prestadores de servicios de la sociedad de la información sobre personas fallecidas.",
+        "A la herencia de dispositivos físicos.",
+        "A la supresión obligatoria de datos personales del fallecido."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "El testamento digital regula el acceso de herederos o personas vinculadas a los contenidos en línea del fallecido.",
+      "anulada": false
+    },
+    {
+      "id": 16,
+      "globalId": 16,
+      "seccion": "Primera Parte",
+      "enunciado": "Según el artículo 79 de la LOPDGDD, indique cuándo son aplicables los derechos y libertades consagrados en la Constitución y Tratados en Internet:",
+      "opciones": [
+        "Solo fuera de Internet.",
+        "Únicamente cuando exista tratamiento de datos personales.",
+        "Son plenamente aplicables en Internet.",
+        "Solo si lo establece un desarrollo reglamentario posterior."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "La LOPDGDD garantiza la plena aplicación de los derechos constitucionales en el entorno digital.",
+      "anulada": false
+    },
+    {
+      "id": 17,
+      "globalId": 17,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuál NO está considerada una norma técnica de interoperabilidad de obligado cumplimiento según el Real Decreto 4/2010 (ENI)?",
+      "opciones": [
+        "Norma Técnica de Interoperabilidad de Reutilización de Activos.",
+        "Norma Técnica de Interoperabilidad de Plan de Seguridad para gestión de ciberataques.",
+        "Norma Técnica de Interoperabilidad de Plan de Direccionamiento.",
+        "Norma Técnica de Interoperabilidad de Sistema de Referencia de documentos."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Los planes de seguridad y gestión de ataques son propios del ENS, no de las NTI del ENI.",
+      "anulada": false
+    },
+    {
+      "id": 18,
+      "globalId": 18,
+      "seccion": "Primera Parte",
+      "enunciado": "Con base en el RD 311/2022 (ENS), ¿cómo se define el incidente en el que una información queda expuesta por violación de medidas técnicas?",
+      "opciones": [
+        "Ciberincidente.",
+        "Ciberataque.",
+        "Compromiso de la seguridad.",
+        "Categoría de seguridad de un sistema."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "El ENS define el 'compromiso de seguridad' como la exposición efectiva o potencial de información o servicios.",
+      "anulada": false
+    },
+    {
+      "id": 19,
+      "globalId": 19,
+      "seccion": "Primera Parte",
+      "enunciado": "De conformidad con el ENS, ¿a quién le corresponde desarrollar la forma concreta de implementar la seguridad y supervisar la operación diaria?",
+      "opciones": [
+        "Al responsable de la seguridad.",
+        "Al responsable del sistema.",
+        "Al responsable del servicio.",
+        "Al responsable de la Inspección Técnica."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "El rol de Responsable de Seguridad se encarga de la implementación efectiva de las medidas y su supervisión.",
+      "anulada": false
+    },
+    {
+      "id": 20,
+      "globalId": 20,
+      "seccion": "Primera Parte",
+      "enunciado": "Según el RD 209/2003 sobre registros telemáticos, indique la sentencia INCORRECTA:",
+      "opciones": [
+        "Días inhábiles serán los declarados para todo el territorio nacional.",
+        "La entrada en día inhábil se entenderá efectuada en la primera hora del primer día hábil siguiente.",
+        "Los registros telemáticos no pueden realizar anotaciones en días inhábiles.",
+        "Se consideran inhábiles los declarados en el ámbito territorial correspondiente (CCAA/Provincia)."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Los registros telemáticos están operativos los 365 días las 24 horas, permitiendo anotaciones aunque no computen plazos.",
+      "anulada": false
+    },
+    {
+      "id": 21,
+      "globalId": 21,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuál de los siguientes NO es uno de los servicios de la Plataforma de Intermediación de Datos?",
+      "opciones": [
+        "Consulta de datos de identidad.",
+        "Consulta de situación actual de prestaciones por desempleo.",
+        "Consulta de datos de patrimonio.",
+        "Consulta de títulos no universitarios por documentación."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "La consulta de datos de patrimonio no es un servicio estándar ofrecido por la Plataforma de Intermediación de Datos.",
+      "anulada": false
+    },
+    {
+      "id": 22,
+      "globalId": 22,
+      "seccion": "Primera Parte",
+      "enunciado": "Según el RD 203/2021, el principio de personalización y proactividad se entiende como la capacidad para:",
+      "opciones": [
+        "Proporcionar servicios precumplimentados y anticiparse a necesidades del usuario.",
+        "Personalizar la imagen de la sede electrónica.",
+        "Compartir datos y posibilitar intercambio personalizado.",
+        "Verificar identidad mediante múltiples factores."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "La proactividad administrativa busca evitar cargas al ciudadano mediante el uso del conocimiento previo de sus datos.",
+      "anulada": false
+    },
+    {
+      "id": 23,
+      "globalId": 23,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Qué nivel de caché está integrado físicamente dentro del núcleo del procesador, es el más rápido y tiene la menor capacidad?",
+      "opciones": [
+        "Caché L1.",
+        "Caché L2.",
+        "Caché L3.",
+        "Caché L4."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "La caché Level 1 (L1) es la memoria más cercana a la ALU y opera a la frecuencia del core del procesador.",
+      "anulada": false
+    },
+    {
+      "id": 24,
+      "globalId": 24,
+      "seccion": "Primera Parte",
+      "enunciado": "En relación con los componentes de un ordenador, ¿cuál es la función principal del bus del sistema?",
+      "opciones": [
+        "Ejecutar las instrucciones del sistema.",
+        "Suministrar energía eléctrica.",
+        "Almacenar de forma permanente el SO.",
+        "Transferir datos, direcciones y señales de control entre la CPU, memoria y periféricos."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "El bus del sistema actúa como el canal de comunicación troncal uniendo el procesador con el resto de componentes.",
+      "anulada": false
+    },
+    {
+      "id": 25,
+      "globalId": 25,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuál de las siguientes características describe correctamente una unidad de estado sólido (SSD)?",
+      "opciones": [
+        "Almacena datos en discos magnéticos giratorios.",
+        "Utiliza memoria RAM volátil para almacenamiento persistente.",
+        "Es un dispositivo para almacenar datos en memoria no volátil sin partes móviles.",
+        "Requiere cabezales de lectura mecánicos."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "A diferencia de los HDD, los SSD utilizan memorias NAND-Flash sin componentes mecánicos sujetos a latencia de rotación.",
+      "anulada": false
+    },
+    {
+      "id": 26,
+      "globalId": 26,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuál es el ancho de banda máximo de la especificación HDMI 2.1?",
+      "opciones": [
+        "10 Gbps.",
+        "18 Gbps.",
+        "32 Gbps.",
+        "48 Gbps."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "La norma HDMI 2.1 soporta hasta 48 Gbps permitiendo resoluciones 8K a 60Hz o 4K a 120Hz.",
+      "anulada": false
+    },
+    {
+      "id": 27,
+      "globalId": 27,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuántos fallos de dispositivo puede tolerar un conjunto RAID 5 sin pérdida de datos?",
+      "opciones": [
+        "Ningún fallo.",
+        "Un fallo de dispositivo.",
+        "Dos fallos de dispositivo.",
+        "Tres fallos de dispositivo."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "RAID 5 utiliza paridad distribuida, lo que permite la reconstrucción de los datos con la pérdida de un único disco.",
+      "anulada": false
+    },
+    {
+      "id": 28,
+      "globalId": 28,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Qué es el Internet Printing Protocol (IPP)?",
+      "opciones": [
+        "Una colección de estándares abiertos que define un protocolo de impresión en red de alto nivel.",
+        "Un protocolo de compresión de datos para impresoras.",
+        "Un formato de archivo vectorial.",
+        "Un estándar de conexión física USB."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "IPP utiliza HTTP para gestionar trabajos de impresión, siendo el estándar actual para impresión en red.",
+      "anulada": false
+    },
+    {
+      "id": 29,
+      "globalId": 29,
+      "seccion": "Primera Parte",
+      "enunciado": "En el formato de ficheros CSV (RFC 4180), ¿qué regla es correcta?",
+      "opciones": [
+        "Las comillas dobles están prohibidas.",
+        "Cada registro va en una línea separada por CRLF; campos con comas deben ir entre comillas dobles.",
+        "Los campos nunca pueden contener comas.",
+        "El tipo MIME es 'application/csv'."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "La RFC 4180 especifica CRLF como separador de registros y comillas dobles para escapar caracteres especiales.",
+      "anulada": false
+    },
+    {
+      "id": 30,
+      "globalId": 30,
+      "seccion": "Primera Parte",
+      "enunciado": "Según la RFC 8259, un valor JSON debe pertenecer a uno de estos tipos o literales:",
+      "opciones": [
+        "object, array, number, string, date y undefined.",
+        "object, array, number, string, boolean y function.",
+        "object, array, number, string, true, false y null.",
+        "object, array, number, string, boolean y NaN."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "JSON no soporta nativamente tipos como date, undefined o NaN según el estándar estricto.",
+      "anulada": false
+    },
+    {
+      "id": 31,
+      "globalId": 31,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuál es el kernel sobre el que se basa Android?",
+      "opciones": [
+        "Mach Kernel.",
+        "Windows NT Kernel.",
+        "Kernel de Linux.",
+        "Microkernel L4."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Android utiliza una versión modificada del kernel de Linux para la gestión de hardware y procesos.",
+      "anulada": false
+    },
+    {
+      "id": 32,
+      "globalId": 32,
+      "seccion": "Primera Parte",
+      "enunciado": "En el contexto de iOS, ¿cómo se denomina la técnica que garantiza que las aplicaciones solo accedan a sus propios recursos?",
+      "opciones": [
+        "Sandboxing.",
+        "Jailbreaking.",
+        "Sideloading.",
+        "Hypervisioning."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "El sandboxing es el mecanismo de seguridad que aísla los procesos de las aplicaciones en su propio contenedor.",
+      "anulada": false
+    },
+    {
+      "id": 33,
+      "globalId": 33,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuál de las siguientes bases de datos utiliza Cypher como lenguaje de consulta?",
+      "opciones": [
+        "MongoDB.",
+        "CouchDB.",
+        "Cassandra.",
+        "Neo4j."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Cypher es el lenguaje de consulta declarativo optimizado para grafos utilizado en Neo4j.",
+      "anulada": false
+    },
+    {
+      "id": 34,
+      "globalId": 34,
+      "seccion": "Primera Parte",
+      "enunciado": "En bases de datos orientadas a objetos, ¿cuál NO es un constructor de tipo de colección?",
+      "opciones": [
+        "Columna.",
+        "Array.",
+        "Bolsa.",
+        "Lista."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "La columna es un concepto relacional; las colecciones OO incluyen bags (bolsas), sets, lists y arrays.",
+      "anulada": false
+    },
+    {
+      "id": 35,
+      "globalId": 35,
+      "seccion": "Primera Parte",
+      "enunciado": "En bases de datos orientadas a objetos, sobre el identificador de objeto único (OID):",
+      "opciones": [
+        "Es visible para el usuario externo.",
+        "Puede depender de atributos del objeto.",
+        "Está generado por el sistema.",
+        "Está almacenado en el programa de aplicación."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "El OID es un identificador persistente, inmutable e independiente del valor de los atributos, gestionado por el DBMS.",
+      "anulada": false
+    },
+    {
+      "id": 36,
+      "globalId": 36,
+      "seccion": "Primera Parte",
+      "enunciado": "Indique cuál de las siguientes opciones se corresponde con tipos de bases de datos NoSQL:",
+      "opciones": [
+        "Sistemáticos y documentales.",
+        "Clave-valor y sistemáticos.",
+        "Documentales y clave-valor.",
+        "Grafos y metodológicas."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Las cuatro categorías principales de NoSQL son: clave-valor, documentales, orientadas a columnas y grafos.",
+      "anulada": false
+    },
+    {
+      "id": 37,
+      "globalId": 37,
+      "seccion": "Primera Parte",
+      "enunciado": "En el modelo dimensional de Kimball, una dimensión outrigger es:",
+      "opciones": [
+        "Una tabla de hechos enlazada en otra tabla de hechos.",
+        "Una tabla de dimensión enlazada en otra tabla de dimensión.",
+        "Una tabla de dimensión enlazada en una tabla de hechos.",
+        "Una tabla de hechos enlazada en una tabla de dimensión."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Se utiliza para normalizar parcialmente dimensiones muy grandes o compartidas mediante niveles adicionales.",
+      "anulada": false
+    },
+    {
+      "id": 38,
+      "globalId": 38,
+      "seccion": "Primera Parte",
+      "enunciado": "En una entidad de base de datos con 4 columnas y 7 filas:",
+      "opciones": [
+        "El grado es 4 y la cardinalidad 7.",
+        "La cardinalidad es 4 y el grado 7.",
+        "El grado es 4 y el dominio 7.",
+        "El dominio es 4 y la cardinalidad 7."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "En el modelo relacional, el grado es el número de atributos (columnas) y la cardinalidad el número de tuplas (filas).",
+      "anulada": false
+    },
+    {
+      "id": 39,
+      "globalId": 39,
+      "seccion": "Primera Parte",
+      "enunciado": "Un atributo representado con una elipse discontinua en un diagrama E-R significa que es un atributo:",
+      "opciones": [
+        "Clave primaria.",
+        "Compuesto.",
+        "Multivaluado.",
+        "Derivado."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Los atributos derivados son aquellos cuyo valor se calcula a partir de otros atributos o entidades.",
+      "anulada": false
+    },
+    {
+      "id": 40,
+      "globalId": 40,
+      "seccion": "Primera Parte",
+      "enunciado": "En JavaScript, siendo a = 10, b = 4 y c = 4, la expresión (a + b) % 2 == 0 ? c + 4 : c - 2 da:",
+      "opciones": [
+        "8",
+        "4",
+        "7",
+        "9"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "14 % 2 es 0, por lo que se ejecuta la parte verdadera (c + 4), resultando 4 + 4 = 8.",
+      "anulada": false
+    },
+    {
+      "id": 41,
+      "globalId": 41,
+      "seccion": "Primera Parte",
+      "enunciado": "Señale la opción correcta en relación a los árboles rojo-negro:",
+      "opciones": [
+        "Un nodo negro puede tener más de 2 subárboles.",
+        "Si un nodo es rojo, sus hijos son nodos rojos.",
+        "El camino a las hojas contiene la misma cantidad de nodos rojos.",
+        "La raíz es un nodo negro."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Una propiedad fundamental de los Red-Black Trees es que la raíz siempre debe ser negra.",
+      "anulada": false
+    },
+    {
+      "id": 42,
+      "globalId": 42,
+      "seccion": "Primera Parte",
+      "enunciado": "¿A qué tipo de comandos SQL pertenece la instrucción DENY en Transact-SQL?",
+      "opciones": [
+        "DCL.",
+        "DQL.",
+        "DML.",
+        "TCL."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "Data Control Language (DCL) se encarga de gestionar permisos (GRANT, REVOKE, DENY).",
+      "anulada": false
+    },
+    {
+      "id": 43,
+      "globalId": 43,
+      "seccion": "Primera Parte",
+      "enunciado": "En SQL, para restituir modificaciones desde el inicio de una transacción se usa:",
+      "opciones": [
+        "SAVEPOINT",
+        "DELETE",
+        "ROLLBACK",
+        "RETURNBACK"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "La sentencia ROLLBACK deshace todos los cambios realizados en la transacción actual no confirmados.",
+      "anulada": false
+    },
+    {
+      "id": 44,
+      "globalId": 44,
+      "seccion": "Primera Parte",
+      "enunciado": "Forma válida de comenzar la creación de un Trigger en el estándar ANSI SQL para validar antes del evento:",
+      "opciones": [
+        "CREATE TRIGGER Validar_cambio BEFORE UPDATE OF TABLE Departamento",
+        "CREATE NEW TRIGGER Validar_cambio OF Departamento BEFORE UPDATE",
+        "CREATE TRIGGER Validar_cambio ON TABLE Departamento BEFORE UPDATE",
+        "CREATE TRIGGER Validar_cambio BEFORE UPDATE ON Departamento"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Sintaxis estándar ANSI: CREATE TRIGGER [nombre] [momento] [evento] ON [tabla].",
+      "anulada": false
+    },
+    {
+      "id": 45,
+      "globalId": 45,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Qué patrón de diseño se utiliza para notificar cambios de estado a múltiples objetos con acoplamiento débil?",
+      "opciones": [
+        "Singleton.",
+        "Observer.",
+        "Adapter.",
+        "Factory Method."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "El patrón Observer establece una suscripción 'uno a muchos' para la sincronización de estados.",
+      "anulada": false
+    },
+    {
+      "id": 46,
+      "globalId": 46,
+      "seccion": "Primera Parte",
+      "enunciado": "En herencia simple, si una subclase define un método con la misma firma que la superclase:",
+      "opciones": [
+        "Sobrecarga (Overloading).",
+        "Ocultación de atributos.",
+        "Sobrescritura (Overriding).",
+        "Agregación."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "La sobrescritura permite a una clase hija proporcionar una implementación específica de un método heredado.",
+      "anulada": false
+    },
+    {
+      "id": 47,
+      "globalId": 47,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Qué componente compila el código intermedio a código máquina en tiempo de ejecución en Java?",
+      "opciones": [
+        "Garbage Collector.",
+        "Bytecode.",
+        "JIT (Just-In-Time Compiler).",
+        "SDK."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "El compilador JIT optimiza el rendimiento transformando bytecode en instrucciones nativas durante la ejecución.",
+      "anulada": false
+    },
+    {
+      "id": 48,
+      "globalId": 48,
+      "seccion": "Primera Parte",
+      "enunciado": "En .NET, componente encargado de excepciones y recolección de basura:",
+      "opciones": [
+        "MSBuild.",
+        "Kestrel.",
+        "CLR (Common Language Runtime).",
+        "NuGet."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "El CLR es el entorno de ejecución gestionado que administra memoria y seguridad en .NET.",
+      "anulada": false
+    },
+    {
+      "id": 49,
+      "globalId": 49,
+      "seccion": "Primera Parte",
+      "enunciado": "Sobre los ensamblados en la plataforma .NET, es cierto que:",
+      "opciones": [
+        "Tienen extensión .jpx o .dtl.",
+        "Usan la caché global (GAP).",
+        "Informan a IIS de las versiones de archivos.",
+        "Solo se cargan en memoria si son necesarios."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "La carga dinámica de ensamblados permite optimizar el uso de recursos del sistema.",
+      "anulada": false
+    },
+    {
+      "id": 50,
+      "globalId": 50,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuál es la finalidad de WSDL 2.0 según el W3C?",
+      "opciones": [
+        "Ser un lenguaje XML para describir servicios web a partir de un modelo abstracto.",
+        "Ser un protocolo de mensajería 'envelope'.",
+        "Ser un protocolo de aplicación (GET, POST).",
+        "Ser un protocolo de comunicación TCP bidireccional."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "WSDL es el estándar para definir la interfaz y localización de servicios web SOAP.",
+      "anulada": false
+    },
+    {
+      "id": 51,
+      "globalId": 51,
+      "seccion": "Primera Parte",
+      "enunciado": "Según métodos HTTP, ¿cuál es idempotente pero NO seguro?",
+      "opciones": [
+        "GET",
+        "POST",
+        "PUT",
+        "CONNECT"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "PUT es idempotente (varias llamadas mismo resultado) pero no seguro porque modifica el estado del servidor.",
+      "anulada": false
+    },
+    {
+      "id": 52,
+      "globalId": 52,
+      "seccion": "Primera Parte",
+      "enunciado": "¿En qué posición debe aparecer DOCTYPE en HTML?",
+      "opciones": [
+        "En la primera línea, antes de <html>.",
+        "Dentro de <head>.",
+        "Dentro de <html>.",
+        "Al inicio de <body>."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "La declaración DOCTYPE debe preceder a cualquier elemento para activar el modo estándar del navegador.",
+      "anulada": false
+    },
+    {
+      "id": 53,
+      "globalId": 53,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuántos elementos raíz puede contener un documento XML bien formado?",
+      "opciones": [
+        "Ninguno.",
+        "Varios separados por instrucciones.",
+        "Solo dos.",
+        "Solo uno."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Un documento XML debe tener exactamente un elemento raíz que contenga a todos los demás.",
+      "anulada": false
+    },
+    {
+      "id": 54,
+      "globalId": 54,
+      "seccion": "Primera Parte",
+      "enunciado": "Según el RD 1112/2018 sobre accesibilidad, el contenido accesible incluye:",
+      "opciones": [
+        "Información textual y no textual solamente.",
+        "Información textual/no textual, documentos descargables, multimedia pregrabada, procesos de firma y pago.",
+        "Documentos descargables no están incluidos.",
+        "Procesos de pago no están incluidos."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "La norma exige accesibilidad integral en todos los pasos de la interacción con la administración.",
+      "anulada": false
+    },
+    {
+      "id": 55,
+      "globalId": 55,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuál de los siguientes NO se considera un mecanismo de MFA según el CCN-CERT?",
+      "opciones": [
+        "Contraseña + Token OTP.",
+        "Escáner de Iris + Huella dactilar.",
+        "Contraseña + Escáner de Iris.",
+        "Tarjeta de identificación + Reconocimiento facial."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Dos factores del mismo tipo (Iris y Huella son 'algo que eres') no constituyen MFA robusto según CCN-CERT.",
+      "anulada": false
+    },
+    {
+      "id": 56,
+      "globalId": 56,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuál NO es un producto orientado a pruebas de software?",
+      "opciones": [
+        "Avocado.",
+        "Cucumber.",
+        "TestLink.",
+        "OneTrust."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "OneTrust es una plataforma de gestión de privacidad y cumplimiento, no de QA/Testing.",
+      "anulada": false
+    },
+    {
+      "id": 57,
+      "globalId": 57,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Qué describe mejor una 'pull request'?",
+      "opciones": [
+        "Comando Git que fusiona automáticamente.",
+        "Propuesta para fusionar cambios de una rama en otra.",
+        "Mecanismo para crear etiquetas (tags).",
+        "Solicitud para retirar código de producción."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Es el flujo de trabajo colaborativo para revisar código antes de su integración definitiva.",
+      "anulada": false
+    },
+    {
+      "id": 58,
+      "globalId": 58,
+      "seccion": "Primera Parte",
+      "enunciado": "Señala la respuesta correcta acerca de las pruebas de software:",
+      "opciones": [
+        "Las pruebas de regresión comprueban que los cambios no introducen errores en otros componentes.",
+        "Las pruebas de 'caja blanca' no se preocupan por la estructura interna.",
+        "Las pruebas unitarias sirven para la aceptación final del usuario.",
+        "Las pruebas circunstanciales examinan interfaces entre subsistemas."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "La regresión asegura la estabilidad del sistema tras modificaciones o correcciones de bugs.",
+      "anulada": false
+    },
+    {
+      "id": 59,
+      "globalId": 59,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Qué formato de disco es nativo tanto en Windows (>32GB) como en macOS?",
+      "opciones": [
+        "ExFAT",
+        "APFS",
+        "HFS+",
+        "ReFS"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "ExFAT es el sistema de archivos de intercambio universal compatible con soporte nativo de lectura/escritura en ambos SO.",
+      "anulada": false
+    },
+    {
+      "id": 60,
+      "globalId": 60,
+      "seccion": "Primera Parte",
+      "enunciado": "En Linux, para ver en tiempo real el contenido de un log:",
+      "opciones": [
+        "tail -r",
+        "tail -f",
+        "tail -w",
+        "tail -u"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "El flag --follow (-f) mantiene el archivo abierto y muestra las nuevas líneas añadidas por otros procesos.",
+      "anulada": false
+    },
+    {
+      "id": 61,
+      "globalId": 61,
+      "seccion": "Primera Parte",
+      "enunciado": "Una tarea Crontab con '0 5 8 11 *' se ejecutará:",
+      "opciones": [
+        "00:05 del 11 de agosto.",
+        "05:00 del 8 de noviembre.",
+        "05:00 del 11 de agosto.",
+        "00:05 del 8 de noviembre."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Formato: min (0), hora (5), día (8), mes (11). Noviembre es el mes 11.",
+      "anulada": false
+    },
+    {
+      "id": 62,
+      "globalId": 62,
+      "seccion": "Primera Parte",
+      "enunciado": "Un hipervisor de tipo 1 se caracteriza por:",
+      "opciones": [
+        "Ejecutarse sobre un SO anfitrión.",
+        "Ejecutarse directamente sobre el hardware físico.",
+        "Requerir almacenamiento compartido.",
+        "Limitar la ejecución a una única VM."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "También conocidos como 'bare-metal', son más eficientes al no tener la sobrecarga de un SO de propósito general.",
+      "anulada": false
+    },
+    {
+      "id": 63,
+      "globalId": 63,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Diferencia principal entre snapshot y copia de seguridad?",
+      "opciones": [
+        "Snapshot es permanente.",
+        "Snapshot sustituye al backup con redundancia.",
+        "Snapshot replica datos en sistema independiente.",
+        "Snapshot es una captura de estado completo; backup es una réplica para restauración tras pérdida."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Los snapshots son dependientes del origen; los backups son independientes y externos.",
+      "anulada": false
+    },
+    {
+      "id": 64,
+      "globalId": 64,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Qué comando de Docker crea, inicia y ejecuta un comando en un nuevo contenedor?",
+      "opciones": [
+        "docker run",
+        "docker start",
+        "docker exec",
+        "docker play"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "Docker run combina create + start + ejecución inicial de la imagen.",
+      "anulada": false
+    },
+    {
+      "id": 65,
+      "globalId": 65,
+      "seccion": "Primera Parte",
+      "enunciado": "En Kubernetes, ¿qué componente decide en qué nodo debe ejecutarse un Pod?",
+      "opciones": [
+        "kube-apiserver",
+        "etcd",
+        "kube-scheduler",
+        "kube-controller-manager"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "El scheduler evalúa los recursos requeridos y disponibles para asignar la carga de trabajo.",
+      "anulada": false
+    },
+    {
+      "id": 66,
+      "globalId": 66,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Qué objeto de AD permite aplicar políticas de contraseña diferentes en un mismo dominio?",
+      "opciones": [
+        "Password Settings Object (PSO).",
+        "Group Policy Container (GPC).",
+        "Fine-Grained Schema Object (FGSO).",
+        "Account Lockout Controller (ALC)."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "Los PSO permiten definir 'Fine-Grained Password Policies' para grupos o usuarios específicos.",
+      "anulada": false
+    },
+    {
+      "id": 67,
+      "globalId": 67,
+      "seccion": "Primera Parte",
+      "enunciado": "¿En qué consiste una dirección MAC de tipo 'sticky'?",
+      "opciones": [
+        "Dirección aprendida dinámicamente que se guarda de forma permanente.",
+        "Dirección que se borra tras reinicio.",
+        "Dirección que apaga el puerto si recibe BPDU.",
+        "Dirección que ignora Spanning Tree."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "Utilizado en Port Security de Cisco para evitar reconfiguraciones manuales de MACs permitidas.",
+      "anulada": false
+    },
+    {
+      "id": 68,
+      "globalId": 68,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Cuál es una base de datos de vulnerabilidades?",
+      "opciones": [
+        "NVD.",
+        "UTM.",
+        "CVDB.",
+        "SCAP."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "La National Vulnerability Database (NVD) es el repositorio estándar basado en el sistema CVE.",
+      "anulada": false
+    },
+    {
+      "id": 69,
+      "globalId": 69,
+      "seccion": "Primera Parte",
+      "enunciado": "Requisito para contraseña robusta según CCN-CERT:",
+      "opciones": [
+        "7 caracteres.",
+        "Incluir datos del usuario.",
+        "Usar frases cortas sin sentido.",
+        "Apuntarla en papel en bolso personal."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "La longitud y la aleatoriedad/falta de sentido son claves contra ataques de diccionario.",
+      "anulada": false
+    },
+    {
+      "id": 70,
+      "globalId": 70,
+      "seccion": "Primera Parte",
+      "enunciado": "Según TIA 942-B, la zona del CPD donde se ubican servidores se denomina:",
+      "opciones": [
+        "MDA.",
+        "EDA.",
+        "HDA.",
+        "IDA."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Equipment Distribution Area (EDA) es el espacio destinado a los racks de servidores y almacenamiento.",
+      "anulada": false
+    },
+    {
+      "id": 71,
+      "globalId": 71,
+      "seccion": "Primera Parte",
+      "enunciado": "Capa OSI para negociación de sintaxis, cifrado y compresión:",
+      "opciones": [
+        "Capa de sesión.",
+        "Capa de presentación.",
+        "Capa de aplicación.",
+        "Capa de transporte."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "La Capa 6 (Presentación) traduce los datos del formato de red al formato de la aplicación.",
+      "anulada": false
+    },
+    {
+      "id": 72,
+      "globalId": 72,
+      "seccion": "Primera Parte",
+      "enunciado": "Característica definitoria de conmutación de circuitos frente a paquetes:",
+      "opciones": [
+        "Aprovechamiento eficiente compartido.",
+        "Cada paquete sigue una ruta distinta.",
+        "Establecimiento de camino físico o lógico dedicado y exclusivo.",
+        "Almacenamiento en nodos intermedios."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "La conmutación de circuitos reserva recursos fijos durante toda la sesión (ej. telefonía tradicional).",
+      "anulada": false
+    },
+    {
+      "id": 73,
+      "globalId": 73,
+      "seccion": "Primera Parte",
+      "enunciado": "Red 10.0.0.0/8, se necesitan 600 subredes. Máscara mínima:",
+      "opciones": [
+        "/17",
+        "/18",
+        "/16",
+        "/19"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "2^10 = 1024 > 600. /8 + 10 bits = /18.",
+      "anulada": false
+    },
+    {
+      "id": 74,
+      "globalId": 74,
+      "seccion": "Primera Parte",
+      "enunciado": "Propósito del campo 'Hop Limit' en cabecera IPv6:",
+      "opciones": [
+        "Prioridad QoS.",
+        "Número máximo de saltos antes de descarte.",
+        "Tamaño de carga útil.",
+        "Identificar cabecera de extensión."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Equivale al TTL de IPv4, evitando bucles infinitos de paquetes en la red.",
+      "anulada": false
+    },
+    {
+      "id": 75,
+      "globalId": 75,
+      "seccion": "Primera Parte",
+      "enunciado": "Ventaja técnica de TLS 1.3 respecto a TLS 1.2:",
+      "opciones": [
+        "Aumenta pasos de verificación.",
+        "Elimina certificados digitales.",
+        "Obliga a misma subred física.",
+        "Permite completar handshake en 1-RTT."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "TLS 1.3 optimiza el establecimiento de conexión reduciendo la latencia y eliminando algoritmos obsoletos.",
+      "anulada": false
+    },
+    {
+      "id": 76,
+      "globalId": 76,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Qué códigos HTTP indican error del cliente?",
+      "opciones": [
+        "Códigos 2xx",
+        "Códigos 3xx",
+        "Códigos 4xx",
+        "Códigos 5xx"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "La familia 400 (ej. 404 Not Found) indica que la petición tiene problemas o el recurso no existe.",
+      "anulada": false
+    },
+    {
+      "id": 77,
+      "globalId": 77,
+      "seccion": "Primera Parte",
+      "enunciado": "¿En qué consiste la técnica de 'Pharming'?",
+      "opciones": [
+        "Alteración de resolución de nombres (hosts/DNS) para redirigir a web falsa.",
+        "Envío masivo de correos suplantando entidad financiera.",
+        "Instalación de keylogger.",
+        "Ingeniería social telefónica."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "El pharming ataca la infraestructura de red para que incluso escribiendo la URL correcta se llegue al sitio atacante.",
+      "anulada": false
+    },
+    {
+      "id": 78,
+      "globalId": 78,
+      "seccion": "Primera Parte",
+      "enunciado": "¿Qué configuración perimetral aísla servidores externos de la red interna?",
+      "opciones": [
+        "VPN de acceso remoto.",
+        "Creación de una DMZ mediante cortafuegos.",
+        "IDS en modo promiscuo.",
+        "IPs públicas en terminales internos."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "La Zona Desmilitarizada (DMZ) segmenta servicios expuestos para mitigar movimientos laterales en caso de intrusión.",
+      "anulada": false
+    },
+    {
+      "id": 79,
+      "globalId": 79,
+      "seccion": "Primera Parte",
+      "enunciado": "Función de los terminadores en topología física de bus:",
+      "opciones": [
+        "Amplificar la señal.",
+        "Absorber la energía al final y evitar reflexión de señal.",
+        "Asignar IPs automáticamente.",
+        "Cifrar el tráfico."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Los terminadores impiden el rebote de la señal eléctrica que causaría colisiones y ruido en el bus.",
+      "anulada": false
+    },
+    {
+      "id": 80,
+      "globalId": 80,
+      "seccion": "Primera Parte",
+      "enunciado": "Campo de 802.1Q que define 8 niveles de prioridad de tráfico:",
+      "opciones": [
+        "VID.",
+        "CFI.",
+        "PCP.",
+        "TPID."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Priority Code Point (PCP) utiliza 3 bits para marcar tramas según la prioridad QoS/CoS.",
+      "anulada": false
+    },
+    {
+      "id": 1,
+      "globalId": 81,
+      "seccion": "Reserva Primera Parte",
+      "enunciado": "Sobre la Agenda España Digital 2026, indique la respuesta correcta:",
+      "opciones": [
+        "La Dirección General del Dato ejecuta todos los espacios sectoriales.",
+        "Prioridad de Tecnologías Cuánticas: demostrar impacto de sensórica y metrología.",
+        "ALIA está coordinado por AESIA.",
+        "Actúa en infraestructuras y tecnología, y servicios públicos."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "La estrategia cuántica nacional pone foco en aplicaciones prácticas de medición y sensores de alta precisión.",
+      "anulada": false
+    },
+    {
+      "id": 2,
+      "globalId": 82,
+      "seccion": "Reserva Primera Parte",
+      "enunciado": "Según el CCN-CERT, fortaleza mínima de Key Exchange autorizada:",
+      "opciones": [
+        "192 bits.",
+        "128 bits.",
+        "112 bits.",
+        "256 bits."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "CCN-CERT establece 112 bits como el umbral de seguridad mínima aceptable para intercambio de claves.",
+      "anulada": false
+    },
+    {
+      "id": 3,
+      "globalId": 83,
+      "seccion": "Reserva Primera Parte",
+      "enunciado": "Según Ley 4/2023 LGTBI, ¿qué infracción se califica como grave?",
+      "opciones": [
+        "Obstrucción absoluta a servicios de inspección.",
+        "Acoso discriminatorio no penal.",
+        "Uso de materiales didácticos discriminatorios en centros educativos.",
+        "Victimización secundaria por parte de AAPP."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "La negativa a la inspección es una infracción grave tipificada en el régimen sancionador de la Ley 4/2023.",
+      "anulada": false
+    },
+    {
+      "id": 4,
+      "globalId": 84,
+      "seccion": "Reserva Primera Parte",
+      "enunciado": "¿Cuál de estos algoritmos de ordenación se ejecuta en tiempo lineal?",
+      "opciones": [
+        "Heapsort.",
+        "Mergesort.",
+        "Radix.",
+        "Quicksort."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Radix Sort es O(n) al no ser un algoritmo basado en comparaciones directas.",
+      "anulada": false
+    },
+    {
+      "id": 5,
+      "globalId": 85,
+      "seccion": "Reserva Primera Parte",
+      "enunciado": "¿Cuántos canales BLE utiliza Extended Advertising en Bluetooth 5.0?",
+      "opciones": [
+        "3 canales.",
+        "22 canales.",
+        "37 canales.",
+        "40 canales."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Extended Advertising permite usar los 40 canales del espectro para anuncios, no solo los 3 tradicionales.",
+      "anulada": false
+    },
+    {
+      "id": 1,
+      "globalId": 86,
+      "seccion": "Supuesto I",
+      "enunciado": "Garantizar en Oracle que el DNI en ALUMNO no sea duplicado con máximo rendimiento de búsqueda:",
+      "opciones": [
+        "CREATE INDEX idx_dni ON ALUMNO (dni);",
+        "ALTER TABLE ALUMNO ADD CONSTRAINT dni_unique UNIQUE (dni);",
+        "ALTER TABLE ALUMNO MODIFY dni PRIMARY KEY;",
+        "CREATE VIEW v_alumno AS SELECT DISTINCT dni FROM ALUMNO;"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "La restricción UNIQUE crea automáticamente un índice único que optimiza búsquedas y garantiza integridad.",
+      "anulada": false
+    },
+    {
+      "id": 2,
+      "globalId": 87,
+      "seccion": "Supuesto I",
+      "enunciado": "Consultar datos de alumnos que tienen matrículas asociadas según el modelo EDUCA-DATA:",
+      "opciones": [
+        "SELECT * FROM ALUMNO, MATRICULA;",
+        "SELECT * FROM ALUMNO INNER JOIN MATRICULA ON ALUMNO.id_alumno = MATRICULA.id_alumno;",
+        "SELECT * FROM ALUMNO WHERE id_alumno IN MATRICULA;",
+        "SELECT * FROM MATRICULA WHERE ALUMNO.id_alumno = MATRICULA.id_alumno;"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Uso de JOIN estándar para relacionar tablas por sus claves primaria y foránea.",
+      "anulada": false
+    },
+    {
+      "id": 3,
+      "globalId": 88,
+      "seccion": "Supuesto I",
+      "enunciado": "Obtener número total de matrículas por programa formativo:",
+      "opciones": [
+        "SELECT COUNT(*) FROM MATRICULA GROUP id_programa;",
+        "SELECT id_programa, COUNT(id_programa) FROM MATRICULA;",
+        "SELECT id_programa, COUNT(*) FROM MATRICULA GROUP BY id_programa;",
+        "SELECT id_programa, SUM(*) FROM MATRICULA GROUP BY id_programa;"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Sintaxis SQL agregada: requiere seleccionar la columna de agrupación y aplicar la función COUNT.",
+      "anulada": false
+    },
+    {
+      "id": 4,
+      "globalId": 89,
+      "seccion": "Supuesto I",
+      "enunciado": "Controlador REST en Spring Boot para obtener alumnos vía GET:",
+      "opciones": [
+        "@RestController public class AlumnoController { @GetMapping(\"/alumnos\") public List<Alumno> obtenerAlumnos() { return repository.findAll(); } }",
+        "@Controller public class AlumnoController { @Get(\"/alumnos\") ... }",
+        "@WebController public class AlumnoController { ... }",
+        "@Rest public class AlumnoController {}"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "Uso de la anotación @RestController y @GetMapping integrada en Spring Web.",
+      "anulada": false
+    },
+    {
+      "id": 5,
+      "globalId": 90,
+      "seccion": "Supuesto I",
+      "enunciado": "Verificar con JUnit que AlumnoService lanza IllegalArgumentException ante valor negativo:",
+      "opciones": [
+        "assertEquals(IllegalArgumentException.class, service.obtenerMatriculas(-1));",
+        "assertThrows(IllegalArgumentException.class, () -> service.obtenerMatriculas(-1));",
+        "service.obtenerMatriculas(-1);",
+        "assertThrows(Exception.class);"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "assertThrows es el método estándar de JUnit 5/6 para verificar excepciones esperadas.",
+      "anulada": false
+    },
+    {
+      "id": 6,
+      "globalId": 91,
+      "seccion": "Supuesto I",
+      "enunciado": "¿Qué ocurrirá al ejecutar javac Alumno.java si se usa idAlumno.equals(id) siendo int?",
+      "opciones": [
+        "Error de compilación: int no tiene método equals().",
+        "Compila correctamente.",
+        "Error de ejecución únicamente.",
+        "Error por versión de Java."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "En Java, los tipos primitivos no son objetos y no poseen métodos; se debe usar '==' o clases envolventes.",
+      "anulada": false
+    },
+    {
+      "id": 7,
+      "globalId": 92,
+      "seccion": "Supuesto I",
+      "enunciado": "Comando Maven para ejecutar la aplicación Spring Boot:",
+      "opciones": [
+        "mvn spring-boot:launch",
+        "mvn run spring-boot",
+        "mvn spring-boot:run",
+        "mvn launch spring-boot"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "El plugin de spring-boot expone el goal 'run' para arranque en desarrollo.",
+      "anulada": false
+    },
+    {
+      "id": 8,
+      "globalId": 93,
+      "seccion": "Supuesto I",
+      "enunciado": "Incluir traza informativa en aplicación .NET:",
+      "opciones": [
+        "logger.Log(“Ejecución finalizada”);",
+        "logger.LogWarn(“Ejecución con errores”);",
+        "logger.LogInformation(“Ejecución finalizada correctamente.”);",
+        "logger.Error(“Ejecución incorrecta”);"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "LogInformation es el nivel estándar para trazas de flujo normal en ILogger de .NET.",
+      "anulada": false
+    },
+    {
+      "id": 9,
+      "globalId": 94,
+      "seccion": "Supuesto I",
+      "enunciado": "Definir método asíncrono 'DevolverDato' en C#:",
+      "opciones": [
+        "Thread int DevolverDato()",
+        "async Task DevolverDato()",
+        "async Thread<int> DevolverDato()",
+        "await int DevolverDato()"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "La firma requiere el modificador async y el tipo de retorno Task o Task<T>.",
+      "anulada": false
+    },
+    {
+      "id": 10,
+      "globalId": 95,
+      "seccion": "Supuesto I",
+      "enunciado": "Estructura HTML5 válida según estándar W3C:",
+      "opciones": [
+        "<html><body><div id=\"alumnos\"></div></body></html>",
+        "<!DOCTYPE html><html><head><title>EducaData</title></head><body><div id=\"alumnos\"></div></body></html>",
+        "<html version=\"5\"><body>...</body>",
+        "<!HTML5><body>...</body>"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Incluye el DOCTYPE obligatorio, cabecera y cuerpo requeridos para un documento bien formado.",
+      "anulada": false
+    },
+    {
+      "id": 11,
+      "globalId": 96,
+      "seccion": "Supuesto I",
+      "enunciado": "Fragmento XML bien formado según especificación 1.0:",
+      "opciones": [
+        "<alumno><id_alumno>10</nombre>...",
+        "<alumno><id_alumno>10</id_alumno><nombre>Juan Pérez</nombre></alumno>",
+        "<alumno><id_alumno>10</id_alumno><nombre>Juan Pérez</nombre>",
+        "<alumno><id_alumno>10</id_alumno><nombre>Juan Pérez</id_alumno>"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Las etiquetas de apertura y cierre coinciden y están correctamente anidadas.",
+      "anulada": false
+    },
+    {
+      "id": 12,
+      "globalId": 97,
+      "seccion": "Supuesto I",
+      "enunciado": "Implementación correcta de atributo XML id_alumno:",
+      "opciones": [
+        "<alumno id_alumno:\"10\">",
+        "<alumno id_alumno=10>",
+        "<alumno id_alumno=\"10\"><nombre>Juan Pérez</nombre></alumno>",
+        "<alumno>id_alumno=\"10\"..."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Los atributos XML deben tener el valor entre comillas y usar '=' para la asignación.",
+      "anulada": false
+    },
+    {
+      "id": 13,
+      "globalId": 98,
+      "seccion": "Supuesto I",
+      "enunciado": "Llamada REST Fetch en JavaScript nativo:",
+      "opciones": [
+        "fetch(\"http://localhost:8080/alumnos\").then(response => response.json()).then(data => console.log(data));",
+        "get(\"http://localhost:8080/alumnos\");",
+        "http.get(\"http://localhost:8080/alumnos\");",
+        "request.fetch(\"/alumnos\");"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "API Fetch es el estándar moderno para peticiones HTTP asíncronas en el navegador.",
+      "anulada": false
+    },
+    {
+      "id": 14,
+      "globalId": 99,
+      "seccion": "Supuesto I",
+      "enunciado": "Cargar TensorFlow en Python:",
+      "opciones": [
+        "import tensorflow as tf",
+        "include tensorflow",
+        "load tensorflow",
+        "using tensorflow"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "Sintaxis estándar de importación con alias para facilitar el acceso al framework.",
+      "anulada": false
+    },
+    {
+      "id": 15,
+      "globalId": 100,
+      "seccion": "Supuesto I",
+      "enunciado": "¿Qué lenguaje ejecutan nativamente Chrome, Edge y Firefox?",
+      "opciones": [
+        "Python 3.11",
+        "Oracle SQL",
+        "Java JDK 17",
+        "JavaScript ECMAScript 2022"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "JavaScript es el único lenguaje de scripting de cliente con soporte nativo universal en motores de navegador.",
+      "anulada": false
+    },
+    {
+      "id": 16,
+      "globalId": 101,
+      "seccion": "Supuesto I",
+      "enunciado": "Código HTTP tras crear correctamente un recurso en el Web Service:",
+      "opciones": [
+        "200 OK",
+        "201 Created",
+        "204 No Content",
+        "202 Accepted"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "El código 201 indica éxito y creación efectiva de un nuevo objeto en el servidor.",
+      "anulada": false
+    },
+    {
+      "id": 17,
+      "globalId": 102,
+      "seccion": "Supuesto I",
+      "enunciado": "Actuación recomendada WCAG 2.1 para estructura accesible:",
+      "opciones": [
+        "Tablas para estructurar todo.",
+        "Etiquetas <div> con clases.",
+        "Etiquetas semánticas HTML5 (<main>, <section>).",
+        "Solo estilos CSS."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "La semántica ayuda a los lectores de pantalla a entender la jerarquía y regiones de la página.",
+      "anulada": false
+    },
+    {
+      "id": 18,
+      "globalId": 103,
+      "seccion": "Supuesto I",
+      "enunciado": "Atributo ARIA para informar que un menú está desplegado:",
+      "opciones": [
+        "aria-expanded=\"true\"",
+        "role=\"dropdown-status\"",
+        "alt=\"menu-state\"",
+        "tabindex=\"1\""
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "aria-expanded comunica dinámicamente el estado de visibilidad de componentes colapsables.",
+      "anulada": false
+    },
+    {
+      "id": 19,
+      "globalId": 104,
+      "seccion": "Supuesto I",
+      "enunciado": "¿Qué hace el comando 'git fetch'?",
+      "opciones": [
+        "Fusiona automáticamente cambios remotos.",
+        "Envía commits locales.",
+        "Reescribe historial local.",
+        "Descarga objetos y actualiza ramas de seguimiento sin integrar cambios en la actual."
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Actualiza la base de datos local de Git con el estado remoto sin afectar el working directory.",
+      "anulada": false
+    },
+    {
+      "id": 20,
+      "globalId": 105,
+      "seccion": "Supuesto I",
+      "enunciado": "Recomendación OWASP para prevenir XSS:",
+      "opciones": [
+        "Validar y escapar correctamente los datos antes de mostrarlos.",
+        "Utilizar conexiones HTTP.",
+        "Alojar en servidores redundantes.",
+        "Almacenar solo en Oracle."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "El saneamiento de entradas y salidas es la defensa primaria contra inyecciones de scripts maliciosos.",
+      "anulada": false
+    },
+    {
+      "id": 1,
+      "globalId": 106,
+      "seccion": "Reserva Supuesto I",
+      "enunciado": "Ubicación de workflows de GitHub Actions:",
+      "opciones": [
+        "En .github/actions y extensión .yml",
+        "En .github/workflows y extensión .yml o .yaml",
+        "En workflows/ y extensión .json",
+        "En .git/workflows y extensión .yaml"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "GitHub busca automáticamente los archivos de configuración de CI/CD en dicho subdirectorio.",
+      "anulada": false
+    },
+    {
+      "id": 2,
+      "globalId": 107,
+      "seccion": "Reserva Supuesto I",
+      "enunciado": "Ejecutar código de limpieza antes de finalizar la JVM en Tomcat:",
+      "opciones": [
+        "Registrar un shutdown hook.",
+        "Anotación @PreDestroy.",
+        "Implementar un LifecycleListener registrado en el elemento <Server>.",
+        "Valve personalizada."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Los LifecycleListeners permiten interceptar eventos globales del ciclo de vida del contenedor Catalina.",
+      "anulada": false
+    },
+    {
+      "id": 3,
+      "globalId": 108,
+      "seccion": "Reserva Supuesto I",
+      "enunciado": "Tipos de datos básicos que componen el modelo de Git:",
+      "opciones": [
+        "Commits, Trees, Blobs, y Tags.",
+        "Objects, References, Index y Reflogs.",
+        "Objects, References, Trees y Tags.",
+        "File, Directory, Commit y Branch."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "Git gestiona internamente estos cuatro tipos de objetos en su base de datos direccionable por contenido.",
+      "anulada": false
+    },
+    {
+      "id": 4,
+      "globalId": 109,
+      "seccion": "Reserva Supuesto I",
+      "enunciado": "Un algoritmo greedy (voraz):",
+      "opciones": [
+        "Alcanza siempre la solución óptima.",
+        "Toma la decisión que parece más buena en el momento.",
+        "Solo sirve para selección de actividades.",
+        "Divide en subproblemas pequeños."
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Busca el óptimo local con la esperanza de llegar al óptimo global, de forma heurística.",
+      "anulada": false
+    },
+    {
+      "id": 5,
+      "globalId": 110,
+      "seccion": "Reserva Supuesto I",
+      "enunciado": "Crear usuario EDUCA_USER en Oracle con contraseña:",
+      "opciones": [
+        "REGISTER USER EDUCA_USER...",
+        "ADD USER EDUCA_USER...",
+        "NEW USER EDUCA_USER...",
+        "CREATE USER EDUCA_USER IDENTIFIED BY password123;"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Sintaxis estándar de DDL para la gestión de usuarios en bases de datos Oracle.",
+      "anulada": false
+    },
+    {
+      "id": 1,
+      "globalId": 111,
+      "seccion": "Supuesto II",
+      "enunciado": "Red 10.30.16.0/20. Si VLAN 10 usa la primera subred con /25, red y broadcast son:",
+      "opciones": [
+        "10.30.16.0 y 10.30.16.191",
+        "10.30.16.1 y 10.30.16.191",
+        "10.30.16.1 y 10.30.16.127",
+        "10.30.16.0 y 10.30.16.127"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Una máscara /25 divide el último octeto en bloques de 128 (0-127).",
+      "anulada": false
+    },
+    {
+      "id": 2,
+      "globalId": 112,
+      "seccion": "Supuesto II",
+      "enunciado": "Número máximo de hosts de la red interna 10.30.16.0/20:",
+      "opciones": [
+        "254",
+        "1022",
+        "4094",
+        "8190"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "2^(32-20) - 2 = 2^12 - 2 = 4096 - 2 = 4094.",
+      "anulada": false
+    },
+    {
+      "id": 3,
+      "globalId": 113,
+      "seccion": "Supuesto II",
+      "enunciado": "Segmentar 10.30.24.0/21 en 4 subredes. ¿Tercera subred?",
+      "opciones": [
+        "10.30.28.0/22",
+        "10.30.26.0/23",
+        "10.30.28.0/23",
+        "10.30.28.0/24"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "División /21 en 4 implica /23 (paso de 2 en el tercer octeto: .24, .26, .28).",
+      "anulada": false
+    },
+    {
+      "id": 4,
+      "globalId": 114,
+      "seccion": "Supuesto II",
+      "enunciado": "Cisco IOS 15.x: habilitar DHCP relay hacia 10.30.20.5 en SVI VLAN 10:",
+      "opciones": [
+        "ip helper-address 10.30.20.5",
+        "ip dhcp server 10.30.20.5",
+        "service dhcp forward 10.30.20.5",
+        "relay dhcp 10.30.20.5"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "El comando 'ip helper-address' reenvía peticiones broadcast UDP (como DHCP) a una IP unicast específica.",
+      "anulada": false
+    },
+    {
+      "id": 5,
+      "globalId": 115,
+      "seccion": "Supuesto II",
+      "enunciado": "Comando para ver tabla de enrutamiento en RHEL (web01):",
+      "opciones": [
+        "route print",
+        "netstat -p tcp",
+        "ip route show",
+        "tracert -r"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Comando de la suite iproute2, estándar en distribuciones Linux modernas basadas en kernel reciente.",
+      "anulada": false
+    },
+    {
+      "id": 6,
+      "globalId": 116,
+      "seccion": "Supuesto II",
+      "enunciado": "Habilitar nginx automáticamente en el arranque (RHEL):",
+      "opciones": [
+        "systemctl enable nginx",
+        "systemctl autostart nginx",
+        "service nginx start-enable",
+        "systemctl run nginx -onboot"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "Crea los enlaces simbólicos en los targets de systemd para que el servicio inicie tras el boot.",
+      "anulada": false
+    },
+    {
+      "id": 7,
+      "globalId": 117,
+      "seccion": "Supuesto II",
+      "enunciado": "Interrumpir inmediatamente contenedor Docker con ID '3f7':",
+      "opciones": [
+        "docker kill 3f7",
+        "docker end 3f7",
+        "docker interrupt 3f7",
+        "docker block 3f7"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "Envía una señal SIGKILL al proceso principal del contenedor para su detención inmediata.",
+      "anulada": false
+    },
+    {
+      "id": 8,
+      "globalId": 118,
+      "seccion": "Supuesto II",
+      "enunciado": "Eliminar un contenedor Docker:",
+      "opciones": [
+        "docker delete 3f7",
+        "docker rm 3f7",
+        "docker eliminate 3f7",
+        "docker excise 3f7"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Elimina el contenedor de la lista de contenedores creados (requiere que esté parado o forzado).",
+      "anulada": false
+    },
+    {
+      "id": 9,
+      "globalId": 119,
+      "seccion": "Supuesto II",
+      "enunciado": "Descargar imagen 'ImagenA' de Docker Hub:",
+      "opciones": [
+        "docker download ImagenA",
+        "docker get ImagenA",
+        "docker images ImagenA",
+        "docker pull ImagenA"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Pull sincroniza la imagen local con la versión del registro remoto.",
+      "anulada": false
+    },
+    {
+      "id": 10,
+      "globalId": 120,
+      "seccion": "Supuesto II",
+      "enunciado": "Comprobar si HTTPS está permitido en zona public del firewall (web01):",
+      "opciones": [
+        "firewall-cmd --zone=public --list-services",
+        "firewall-cmd --get-active-zones=public",
+        "firewall-cmd --list-ports",
+        "iptables -L -n nat"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "Muestra todos los servicios (como http, https, ssh) habilitados en dicha zona.",
+      "anulada": false
+    },
+    {
+      "id": 11,
+      "globalId": 121,
+      "seccion": "Supuesto II",
+      "enunciado": "Verificar ruta efectiva hacia db01 (10.30.20.30) desde el kernel de web01:",
+      "opciones": [
+        "ip route neigh 10.30.20.30",
+        "ip route get 10.30.20.30",
+        "ip net show 10.30.20.30",
+        "ip route net 10.30.20.30"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Simula la decisión del kernel para mostrar qué interfaz y gateway se usarán.",
+      "anulada": false
+    },
+    {
+      "id": 12,
+      "globalId": 122,
+      "seccion": "Supuesto II",
+      "enunciado": "Probar conectividad Capa 4 (TCP) a db01:3306 sin cliente MySQL:",
+      "opciones": [
+        "curl -vk https://10.30.20.30:3306",
+        "nc -vz 10.30.20.30 3306",
+        "telnet 10.30.20.30 3306/udp",
+        "ping 10.30.20.30 -p 3306"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Netcat con flags -v (verbose) y -z (scan mode) verifica si el puerto está abierto.",
+      "anulada": false
+    },
+    {
+      "id": 13,
+      "globalId": 123,
+      "seccion": "Supuesto II",
+      "enunciado": "Listar puertos en escucha en RHEL:",
+      "opciones": [
+        "route -n",
+        "arp -an",
+        "hostnamectl",
+        "ss -ltn"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Socket Statistics (ss) es el reemplazo moderno de netstat para visualizar estados de socket.",
+      "anulada": false
+    },
+    {
+      "id": 14,
+      "globalId": 124,
+      "seccion": "Supuesto II",
+      "enunciado": "Estrategia de copia 3-2-1:",
+      "opciones": [
+        "3 copias, 2 soportes fuera sede, 1 cifrada.",
+        "3 copias, 2 servidores fuera sede, 1 nube.",
+        "3 copias, 2 soportes distintos, 1 copia fuera de la sede.",
+        "3 copias, 2 soportes distintos, 1 cifrada."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Regla de oro del backup: Diversificación de medios y separación física de una copia.",
+      "anulada": false
+    },
+    {
+      "id": 15,
+      "globalId": 125,
+      "seccion": "Supuesto II",
+      "enunciado": "Generar copia .tar.gz de /srv/app/config/ en config_backup.tar.gz:",
+      "opciones": [
+        "tar -xzf config_backup.tar.gz /srv/app/config/",
+        "tar -czf config_backup.tar.gz /srv/app/config/",
+        "gzip -cf /srv/app/config/ > config_backup.tar",
+        "zip -r config_backup.tar.gz /srv/app/config/"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "Flags: c (create), z (gzip), f (file).",
+      "anulada": false
+    },
+    {
+      "id": 16,
+      "globalId": 126,
+      "seccion": "Supuesto II",
+      "enunciado": "Componente en RHEL para auditoría detallada de accesos a archivos:",
+      "opciones": [
+        "traceguardian",
+        "top",
+        "journalctl",
+        "auditd"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "El daemon de auditoría permite registrar syscalls y accesos a ficheros según reglas definidas en /etc/audit/audit.rules.",
+      "anulada": false
+    },
+    {
+      "id": 17,
+      "globalId": 127,
+      "seccion": "Supuesto II",
+      "enunciado": "Puerto estándar IANA para IMAPS:",
+      "opciones": [
+        "143",
+        "110",
+        "995",
+        "993"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Puerto asignado para el servicio IMAP sobre TLS/SSL.",
+      "anulada": false
+    },
+    {
+      "id": 18,
+      "globalId": 128,
+      "seccion": "Supuesto II",
+      "enunciado": "Herramienta gráfica nativa para agregar usuario a grupo global en Windows DC:",
+      "opciones": [
+        "Active Directory Users and Computers (dsa.msc).",
+        "Local Users and Groups en el DC (lusrmgr.msc).",
+        "Panel de control de cuentas de usuario (netplwiz).",
+        "Administrador de certificados (certmgr.msc)."
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "La consola dsa.msc es la herramienta principal para la administración de objetos de directorio en AD.",
+      "anulada": false
+    },
+    {
+      "id": 19,
+      "globalId": 129,
+      "seccion": "Supuesto II",
+      "enunciado": "Cmdlet para instalar el rol de Servicios de Dominio de AD:",
+      "opciones": [
+        "Add-ADDSRole AD-Domain-Services...",
+        "Install-ADDSForest...",
+        "Install-WindowsFeature -name AD-Domain-Services -IncludeManagementTools",
+        "New-ADDomainService..."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Instala los binarios del rol antes de proceder con la promoción del servidor (DCPromo).",
+      "anulada": false
+    },
+    {
+      "id": 20,
+      "globalId": 130,
+      "seccion": "Supuesto II",
+      "enunciado": "PowerShell en Windows 11: copiar C:\\DirectorioA\\* en C:\\DirectorioB de forma recursiva:",
+      "opciones": [
+        "Copy-Item “C:\\DirectorioA*” “C:\\DirectorioB” -Recursive",
+        "Copy-Path “C:\\DirectorioA*” “C:\\DirectorioB” -Recurse",
+        "Copy-Item -Path “C:\\DirectorioA*” -Destination “C:\\DirectorioB” -Recurse",
+        "Copy-Path “C:\\DirectorioA*” -Destination “C:\\DirectorioB” -Recursive"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Sintaxis estándar de PowerShell; el flag correcto es -Recurse.",
+      "anulada": false
+    },
+    {
+      "id": 1,
+      "globalId": 131,
+      "seccion": "Reserva Supuesto II",
+      "enunciado": "Comando para añadir regla persistente en zona public permitiendo 3306/TCP desde la DMZ:",
+      "opciones": [
+        "firewall-cmd --permanent --zone=public --add-rich-rule='rule family=\"ipv4\" address=\"172.19.50.0/27\" port protocol=\"tcp\" port number=\"3306\" accept'",
+        "firewall-cmd --permanent-direct --zone=public --add-rich-rule...",
+        "firewall-cmd --permanent-direct --add-rule...",
+        "firewall-cmd --permanent --zone=public --add-rich-rule='rule family=\"ipv4\" source address=\"172.19.50.0/27\" port protocol=\"tcp\" port=\"3306\" accept'"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Sintaxis correcta de firewalld que especifica familia, origen y puerto.",
+      "anulada": false
+    },
+    {
+      "id": 2,
+      "globalId": 132,
+      "seccion": "Reserva Supuesto II",
+      "enunciado": "Ajuste de sysctl para mitigar IP spoofing en RHEL 8.8:",
+      "opciones": [
+        "Activar net.ipv4.ip_forward",
+        "Configurar net.ipv4.conf.all.rp_filter=1",
+        "Deshabilitar net.ipv4.tcp_syncookies",
+        "Activar net.ipv4.conf.all.accept_ra=1"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "El filtrado de ruta inversa (Reverse Path Filtering) valida que el paquete llegue por la interfaz por la que se respondería.",
+      "anulada": false
+    },
+    {
+      "id": 3,
+      "globalId": 133,
+      "seccion": "Reserva Supuesto II",
+      "enunciado": "Regla Windows Defender \"Puerto8443\" para entrada TCP 8443 vía netsh:",
+      "opciones": [
+        "netsh advfirewall firewall create rule name=\"Puerto8443\" dir=in action=permit protocol=TCP localport=8443",
+        "netsh firewall add portopening TCP 8443 \"Puerto8443\" dir=in action=permit",
+        "netsh advfirewall set rule name=\"Puerto8443\" dir=in action=allow protocol=TCP localport=8443",
+        "netsh advfirewall firewall add rule name=\"Puerto8443\" dir=in action=allow protocol=TCP localport=8443"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Sintaxis de netsh avanzada; requiere el contexto 'firewall add rule' y el parámetro 'action=allow'.",
+      "anulada": false
+    },
+    {
+      "id": 4,
+      "globalId": 134,
+      "seccion": "Reserva Supuesto II",
+      "enunciado": "Comando para resumen de estado de replicación entre DCs en Windows Server:",
+      "opciones": [
+        "dcdiag /q",
+        "netdom query fsmo",
+        "repadmin /replsummary",
+        "nltest /sc_verify"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Repadmin es la herramienta específica para diagnóstico y resolución de problemas de replicación de AD.",
+      "anulada": false
+    },
+    {
+      "id": 5,
+      "globalId": 135,
+      "seccion": "Reserva Supuesto II",
+      "enunciado": "Ampliación de /contenido (XFS sobre LVM) de 500 a 600 GiB sin discos nuevos:",
+      "opciones": [
+        "Crear volumen nuevo y sustituir en fstab.",
+        "Crear snapshot y ampliar sobre él.",
+        "Extender volumen lógico a 600 GiB y ampliar en línea el sistema de ficheros XFS.",
+        "Añadir PV nuevo y fsck previo."
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "XFS permite la ampliación en caliente (xfs_growfs), previa extensión del LV que lo soporta (lvextend).",
+      "anulada": false
+    }
+  ]
+}

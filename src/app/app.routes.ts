@@ -4,6 +4,8 @@ import { Examen2019 } from './pages/examen2019/examen2019';
 import { Examen2023 } from './pages/examen2023/examen2023';
 import { Examen2024A } from './pages/examen2024-a/examen2024a';
 import { Examen2024B } from './pages/examen2024-b/examen2024b';
+import { Examen2025A } from './pages/examen2025-a/examen2025-a';
+import { Examen2025B } from './pages/examen2025-b/examen2025-b';
 import { CE } from './pages/CE/ce';
 import { inject } from '@angular/core';
 import { VisorPdf } from './pages/visor-pdf/visor-pdf';
@@ -30,10 +32,16 @@ export const routes: Routes = [
   { path: 'examen2023', component: Examen2023, canActivate: [authGuard] },
   { path: 'examen2024a', component: Examen2024A, canActivate: [authGuard] },
   { path: 'examen2024b', component: Examen2024B, canActivate: [authGuard] },
+  { path: 'examen2025a', component: Examen2025A, canActivate: [authGuard] },
+  { path: 'examen2025b', component: Examen2025B, canActivate: [authGuard] },
   { path: 'ce', component: CE, canActivate: [authGuard] },
 
   // 📄 NUEVA RUTA DINÁMICA: Acepta la carpeta y el nombre del PDF, protegida por tu Guard
-  { path: 'pdf/:carpeta/:archivo', component: VisorPdf, canActivate: [authGuard] },
+  {
+    path: 'pdf/:carpeta/:archivo',
+    component: VisorPdf,
+    canActivate: [authGuard],
+  },
 
   // Ruta inicial por defecto
   { path: '', redirectTo: 'examen2024a', pathMatch: 'full' },

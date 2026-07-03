@@ -3,7 +3,7 @@ import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-nav',
-  imports: [RouterModule,RouterModule],
+  imports: [RouterModule],
   templateUrl: './nav.html',
   styleUrl: './nav.css',
 })
