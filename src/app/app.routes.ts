@@ -9,6 +9,7 @@ import { Examen2025B } from './pages/examen2025-b/examen2025-b';
 import { CE } from './pages/CE/ce';
 import { inject } from '@angular/core';
 import { VisorPdf } from './pages/visor-pdf/visor-pdf';
+import { Examen2026 } from './pages/examen2026/examen2026';
 
 // 🔒 GUARD DE SEGURIDAD (Simulado para el futuro Login)
 const authGuard: CanActivateFn = (route, state) => {
@@ -34,6 +35,7 @@ export const routes: Routes = [
   { path: 'examen2024b', component: Examen2024B, canActivate: [authGuard] },
   { path: 'examen2025a', component: Examen2025A, canActivate: [authGuard] },
   { path: 'examen2025b', component: Examen2025B, canActivate: [authGuard] },
+  { path: 'examen2026', component: Examen2026, canActivate: [authGuard] },
   { path: 'ce', component: CE, canActivate: [authGuard] },
 
   // 📄 NUEVA RUTA DINÁMICA: Acepta la carpeta y el nombre del PDF, protegida por tu Guard

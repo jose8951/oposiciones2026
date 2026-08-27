@@ -1,0 +1,2030 @@
+{
+  "examen": "TAI Ingreso Libre 2025 - Caso Extraordinario",
+  "preguntas": [
+    {
+      "id": 1,
+      "globalId": 1,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Cuántas veces se ha reformado la Constitución Española de 1978 desde su aprobación?",
+      "opciones": [
+        "Una vez.",
+        "Dos veces.",
+        "Tres veces.",
+        "Cuatro veces."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La Constitución Española de 1978 ha sido reformada en dos ocasiones: la primera en 1992 (artículo 13.2 para permitir el sufragio pasivo de extranjeros en elecciones municipales) y la segunda en 2011 (artículo 135 para establecer el principio de estabilidad presupuestaria)."
+    },
+    {
+      "id": 2,
+      "globalId": 2,
+      "seccion": "Primera Parte",
+      "pregunta": "Según el artículo 55 de la Constitución Española de 1978, cuando se acuerde declarado el estado de excepción, ¿qué derecho reconocido podrá ser suspendido?",
+      "opciones": [
+        "A comunicar o recibir libremente información veraz por cualquier medio de difusión.",
+        "A la libertad de cátedra.",
+        "A sindicarse libremente.",
+        "A participar en los asuntos públicos."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El artículo 55.1 de la Constitución Española de 1978 establece los derechos que pueden ser suspendidos cuando se acuerde la declaración del estado de excepción o de sitio, incluyendo la inviolabilidad del domicilio, secreto de comunicaciones, libertad de residencia y circulación, y el derecho a comunicar o recibir libremente información veraz."
+    },
+    {
+      "id": 3,
+      "globalId": 3,
+      "seccion": "Primera Parte",
+      "pregunta": "Según establece el artículo 66 de la Constitución Española de 1978, las Cortes Generales están formadas por:",
+      "opciones": [
+        "El Congreso de los Diputados y el Senado.",
+        "El Congreso de los Diputados, el Senado y el Gobierno.",
+        "El Congreso de los Senadores y Diputados.",
+        "El Congreso de los Diputados, el Senado y el Consejo de Estado."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Según el artículo 66.1 de la Constitución Española de 1978, las Cortes Generales representan al pueblo español y están formadas por el Congreso de los Diputados y el Senado."
+    },
+    {
+      "id": 4,
+      "globalId": 4,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué establece la Constitución Española de 1978 sobre el mandato imperativo de los miembros de las Cortes Generales?",
+      "opciones": [
+        "Los miembros de las Cortes Generales están ligados por el mandato imperativo de sus grupos parlamentarios.",
+        "El mandato imperativo es obligatorio en las votaciones sobre reformas constitucionales.",
+        "El mandato imperativo solo se prohíbe para los Senadores, no para los Diputados.",
+        "Los miembros de las Cortes Generales no estarán ligados por mandato imperativo."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El artículo 67.2 de la Constitución Española de 1978 prohíbe taxativamente que los miembros de las Cortes Generales estén ligados por mandato imperativo."
+    },
+    {
+      "id": 5,
+      "globalId": 5,
+      "seccion": "Primera Parte",
+      "pregunta": "Según el artículo 161 de la Constitución Española de 1978, cuando el Gobierno impugna ante el Tribunal Constitucional una disposición adoptada por los órganos de una Comunidad Autónoma, ¿qué efecto produce dicha impugnación y en qué plazo debe resolverla el Tribunal?",
+      "opciones": [
+        "Produce la suspensión automática de la disposición impugnada; el Tribunal Constitucional deberá ratificarla o levantarla en un plazo no superior a seis meses.",
+        "No produce suspensión automática; el Tribunal Constitucional puede acordarla cautelarmente a petición fundada del Gobierno. Gobierno.",
+        "Produce la suspensión de la disposición o resolución recurrida; el Tribunal Constitucional deberá ratificarla o levantarla en un plazo no superior a cinco meses.",
+        "Produce la suspensión cautelar solo si el Tribunal Constitucional la ratifica expresamente en el plazo de tres meses."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Según el artículo 161.2 de la Constitución Española, la impugnación por el Gobierno de disposiciones de las Comunidades Autónomas producirá su suspensión, y el Tribunal Constitucional deberá ratificarla o levantarla en un plazo no superior a cinco meses."
+    },
+    {
+      "id": 6,
+      "globalId": 6,
+      "seccion": "Primera Parte",
+      "pregunta": "Según el artículo 101 de la Constitución Española de 1978, ¿cuál es causa de cese del Gobierno?",
+      "opciones": [
+        "Por dimisión de cualquier Ministro.",
+        "Por dimisión de su Presidente.",
+        "Por dimisión de un Vicepresidente.",
+        "Por dimisión de un tercio de sus miembros."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El artículo 101.1 de la Constitución Española establece que el Gobierno cesa tras la celebración de elecciones generales, en los casos de pérdida de la confianza parlamentaria, o por dimisión o fallecimiento de su Presidente."
+    },
+    {
+      "id": 7,
+      "globalId": 7,
+      "seccion": "Primera Parte",
+      "pregunta": "Según establece el artículo 18 de la ley 50/1997, de 27 de noviembre, del Gobierno, que regula el funcionamiento del Consejo de Ministros, ¿quién actúa como Secretario de este órgano colegiado?",
+      "opciones": [
+        "El Vicepresidente Primero.",
+        "El Ministro portavoz del Gobierno.",
+        "El Ministro de la Presidencia.",
+        "El Ministro de Justicia."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "De acuerdo con el artículo 18.2 de la Ley 50/1997 del Gobierno, el Ministro de la Presidencia actúa como Secretario del Consejo de Ministros."
+    },
+    {
+      "id": 8,
+      "globalId": 8,
+      "seccion": "Primera Parte",
+      "pregunta": "De acuerdo con el artículo 17.2 de la Ley 19/2013, de 9 de diciembre, de transparencia, acceso a la información pública y buen gobierno, la solicitud de acceso a la información podrá presentarse por cualquier medio que permita tener constancia de:",
+      "opciones": [
+        "Una dirección de contacto, preferentemente electrónica, a efectos de comunicaciones.",
+        "La identidad del requerido.",
+        "La huella normativa.",
+        "La motivación de la solicitud."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Según el artículo 17.2 de la Ley 19/2013 de Transparencia, la solicitud de acceso debe permitir tener constancia de la identidad del solicitante, la información solicitada, una dirección de contacto (preferiblemente electrónica) y la modalidad de acceso preferida."
+    },
+    {
+      "id": 9,
+      "globalId": 9,
+      "seccion": "Primera Parte",
+      "pregunta": "Conforme establece el artículo 18 de la Ley 53/1984, de 26 de diciembre, de Incompatibilidades del personal al servicio de las Administraciones Públicas, todas las resoluciones de compatibilidad para desempeñar un segundo puesto o actividad en el sector público o el ejercicio de actividades privadas se inscribirán:",
+      "opciones": [
+        "En el Registro Administrativo de Compatibilidades del organismo (RAC).",
+        "En la Oficina de Conflicto de Intereses.",
+        "En el Registro Común de Actividades del Personal de las Administraciones Públicas (RCAP).",
+        "En los Registros de Personal correspondientes."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "De acuerdo con el artículo 18 de la Ley 53/1984 de Incompatibilidades, las resoluciones de compatibilidad se inscribirán en los Registros de Personal correspondientes."
+    },
+    {
+      "id": 10,
+      "globalId": 10,
+      "seccion": "Primera Parte",
+      "pregunta": "Según establece el artículo 9 de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, cualquier trato adverso o effecto negativo que se produzca en una persona como consecuencia de la presentación por su parte de queja, reclamación, denuncia, demanda o recurso, de cualquier tipo, destinados a impedir su discriminación y a exigir el cumplimiento efectivo del principio de igualdad de trato entre mujeres y hombres, se considerará:",
+      "opciones": [
+        "Discriminación directa.",
+        "Discriminación indirecta.",
+        "Discriminación por razón de sexo.",
+        "Discriminación por actuación administrativa."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El artículo 9 de la Ley Orgánica 3/2007 define que cualquier trato adverso o efecto negativo por reclamaciones o denuncias destinadas a exigir el principio de igualdad se considerará discriminación por razón de sexo."
+    },
+    {
+      "id": 11,
+      "globalId": 11,
+      "seccion": "Primera Parte",
+      "pregunta": "Según establece el artículo 49 de la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, para impulsar la adopción voluntaria de planes de igualdad el Gobierno establecerá:",
+      "opciones": [
+        "Medidas de fomento, especialmente dirigidas a las medianas y las grandes empresas, que incluirán el apoyo técnico necesario.",
+        "Medidas de fomento, especialmente dirigidas a las empresas de 50 o más trabajadores, que incluirán el apoyo técnico necesario.",
+        "Medidas de fomento, especialmente dirigidas a las pequeñas y las medianas empresas, que incluirán el apoyo técnico necesario.",
+        "Medidas de acción positiva, dirigidas a cualquier empresa, sea de capital público o privado, que incluirán el apoyo técnico necesario."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Según el artículo 49 de la Ley Orgánica 3/2007, el Gobierno establecerá medidas de fomento especialmente dirigidas a las pequeñas y medianas empresas para impulsar la adopción voluntaria de planes de igualdad, incluyendo soporte técnico."
+    },
+    {
+      "id": 12,
+      "globalId": 12,
+      "seccion": "Primera Parte",
+      "pregunta": "De acuerdo con el artículo 8 del Reglamento (UE) 910/2014 (eIDAS), un sistema de identificación electrónica notificado, para los medios de identificación electrónica expedidos en virtud del mismo, deberá especificar los niveles de seguridad:",
+      "opciones": [
+        "Inseguro, seguro y muy seguro.",
+        "Básico, medio y avanzado.",
+        "Bajo, sustancial y alto.",
+        "Nivel 1, nivel 2 y nivel 3."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El artículo 8 del Reglamento (UE) 910/2014 (eIDAS) regula los niveles de seguridad de los sistemas de identificación electrónica, clasificándolos en bajo, sustancial y alto."
+    },
+    {
+      "id": 13,
+      "globalId": 13,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Cuál de las siguientes opciones NO se incluye entre los ejes estratégicos de la Agenda Digital \"España Digital 2026\"?",
+      "opciones": [
+        "Las competencias digitales.",
+        "El eLearning y la Universidad Digital.",
+        "Los derechos digitales.",
+        "La ciberseguridad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La Agenda Digital 'España Digital 2026' se estructura en torno a ejes estratégicos como competencias digitales, derechos digitales y ciberseguridad. El eLearning y la Universidad Digital no forma parte de estos ejes principales."
+    },
+    {
+      "id": 14,
+      "globalId": 14,
+      "seccion": "Primera Parte",
+      "pregunta": "Señale la respuesta correcta respecto a la garantía de los derechos digitales reflejada en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales:",
+      "opciones": [
+        "La garantía efectiva del derecho de acceso a Internet atenderá la reality específica de los entornos digitales.",
+        "El empleador podrá acceder a los contenidos derivados del uso de medios digitales, tanto personales como facilitados a los trabajadores, a los solos efectos de controlar el cumplimiento de las obligations laborales o estatutarias y de garantizar la integridad de dichos dispositivos.",
+        "Los trabajadores y los empleados públicos tendrán derecho a la desconexión digital a fin de garantizar, fuera del tiempo de trabajo legal o convencionalmente establecido, el respeto de su tiempo de descanso, permisos y vacaciones, así como de su intimidad personal y familiar.",
+        "El ejercicio del derecho al olvido en las búsquedas de internet impedirá el acceso a la información publicada en el sitio web a través de la utilización de búsqueda del nombre de quien ejerciera el derecho, así como de cualquier otro criterio de búsqueda."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La LOPDGDD 3/2018, en su artículo 87, garantiza explícitamente el derecho a la desconexión digital de los trabajadores y empleados públicos para respetar su tiempo de descanso, vacaciones e intimidad."
+    },
+    {
+      "id": 15,
+      "globalId": 15,
+      "seccion": "Primera Parte",
+      "pregunta": "De acuerdo con lo que establece el artículo 4 del Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, entre los canales de asistencia para el acceso a los servicios electrónicos NO se encuentra:",
+      "opciones": [
+        "Portales de internet y sedes electrónicas.",
+        "Redes sociales.",
+        "Cita previa.",
+        "Correo electrónico."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "De acuerdo con el artículo 4 del Real Decreto 203/2021, entre los canales de asistencia para el acceso a servicios electrónicos se incluyen las sedes electrónicas, oficinas de asistencia, teléfono y correo, pero las redes sociales no se configuran formalmente como un canal oficial de asistencia general."
+    },
+    {
+      "id": 16,
+      "globalId": 16,
+      "seccion": "Primera Parte",
+      "pregunta": "Con base en el Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad, indique cuál de las siguientes medidas de seguridad pertenece al marco operacional:",
+      "opciones": [
+        "Protección del correo electrónico.",
+        "Protección de la integridad y de la autenticidad.",
+        "Protección frente a código dañino.",
+        "Protección de dispositivos portátiles."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El Real Decreto 311/2022 (ENS) clasifica la 'Protección frente a código dañino' como una medida operacional (dentro de la categoría de explotación de sistemas)."
+    },
+    {
+      "id": 17,
+      "globalId": 17,
+      "seccion": "Primera Parte",
+      "pregunta": "Señale la respuesta correcta sobre la Carpeta Ciudadana del sector público estatal:",
+      "opciones": [
+        "Permite el seguimiento de la solicitud de cualquier procedimiento de los familiares del interesado.",
+        "Es accesible a través de la sede electrónica del PAGe de la Administración General del Estado.",
+        "Da a conocer los datos del interesado que obran en poder del sector público estatal, sin ninguna limitación.",
+        "Únicamente permite el acceso a las comunicaciones con el interesado."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La Carpeta Ciudadana es accesible a través de la sede electrónica del Punto de Acceso General (PAGe) de la Administración General del Estado."
+    },
+    {
+      "id": 18,
+      "globalId": 18,
+      "seccion": "Primera Parte",
+      "pregunta": "Según establece el Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, indique qué afirmación es correcta sobre el funcionamiento del Registro de Funcionarios Habilitados:",
+      "opciones": [
+        "Deberá ser plenamente interoperable con los registros u otros sistemas equivalentes que se creen por las comunidades autónomas y las entidades locales a los efectos de comprobar la validez de las habilitaciones de los funcionarios habilitados.",
+        "Deberá ser plenamente interoperable con los registros u otros sistemas equivalentes de las Administraciones Públicas de los países que integran la Unión Europea a los efectos de comprobar la validez de las habilitaciones de los funcionarios habilitados.",
+        "Deberá ser plenamente interoperable con el Sistema de Interconexión de Registros (SIR) a los efectos de comprobar la validez de las habilitaciones de los funcionarios habilitados.",
+        "Deberá ser plenamente interoperable con la Plataforma de Intermediación de Datos (PID) a los efectos de comprobar la validez de las habilitaciones de los funcionarios habilitados."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El Real Decreto 203/2021 establece que el Registro de Funcionarios Habilitados deberá ser plenamente interoperable con los registros u sistemas equivalentes autonómicos y locales para la verificación de habilitaciones."
+    },
+    {
+      "id": 19,
+      "globalId": 19,
+      "seccion": "Primera Parte",
+      "pregunta": "Señale cuál de los siguientes NO es un producto incluido dentro del Portfolio SCSPv3 (Sustitución de Certificados en Soporte Papel):",
+      "opciones": [
+        "Librerías SCSPv3.",
+        "Cliente Ligero SCSPv3.",
+        "SCSP – SOAP.",
+        "SCSP – WS."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El portfolio de SCSPv3 (Sustitución de Certificados en Soporte Papel) incluye librerías, cliente ligero y servicios WS (Web Services), pero no el protocolo SOAP directamente como producto."
+    },
+    {
+      "id": 20,
+      "globalId": 20,
+      "seccion": "Primera Parte",
+      "pregunta": "Según la Norma Técnica de Interoperabilidad de Digitalización de Documentos, el nivel de resolución mínimo en píxeles por pulgada (ppp) para imágenes electrónicas será de:",
+      "opciones": [
+        "200 ppp para imágenes en blanco y negro, y 200 ppp para imágenes en color o escala de grises.",
+        "200 ppp para imágenes en blanco y negro, y 150 ppp para imágenes en color o escala de grises.",
+        "150 ppp para imágenes en blanco y negro, y 200 ppp para imágenes en color o escala de grises.",
+        "150 ppp para imágenes en color, y 200 ppp para imágenes en blanco y negro o escala de grises."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La NTI de Digitalización de Documentos establece un nivel de resolución mínimo de 200 ppp para imágenes en blanco y negro, y 150 ppp para imágenes en color o escala de grises."
+    },
+    {
+      "id": 21,
+      "globalId": 21,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Cuál es la función del registro de instrucción dentro de la unidad de control?",
+      "opciones": [
+        "Almacenar la dirección de memoria de la siguiente instrucción a ejecutar.",
+        "Obtener la dirección de memoria de la instrucción actual.",
+        "Almacenar la instrucción que está siendo ejecutada.",
+        "Obtener la dirección de memoria de la instrucción previamente leída."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La función principal del registro de instrucción (RI) en la unidad de control de la CPU es almacenar la instrucción que está actualmente en proceso de ejecución."
+    },
+    {
+      "id": 22,
+      "globalId": 22,
+      "seccion": "Primera Parte",
+      "pregunta": "Para recorrer un árbol binario no vacío en preorden se deben realizar las siguientes operaciones recursivamente en cada nodo:",
+      "opciones": [
+        "Visitar el nodo raíz, recorrer el subárbol derecho y recorrer el subárbol izquierdo.",
+        "Recorrer el subárbol izquierdo, visitar el nodo raíz y recorrer el subárbol derecho.",
+        "Recorrer el subárbol izquierdo, recorrer el subárbol derecho y visitar el nodo raíz.",
+        "Visitar el nodo raíz, recorrer el subárbol izquierdo and recorrer el subárbol derecho."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El recorrido en preorden de un árbol binario consiste en visitar secuencialmente primero la raíz, luego recorrer el subárbol izquierdo y finalmente el subárbol derecho (Raíz-Izquierda-Derecha)."
+    },
+    {
+      "id": 23,
+      "globalId": 23,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué es la latencia rotacional en los discos duros HDD?",
+      "opciones": [
+        "El tiempo medio que tarda el disco en leer o escribir nueva información.",
+        "El tiempo medio que tarda la aguja en situarse en el sector físico deseado.",
+        "El tiempo medio necesario para mover la cabeza desde el cilindro actual al cilindro sobre el que se quiere operar.",
+        "El tiempo medio que tarda la aguja en situarse en la pista deseada."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La latencia rotacional en un disco duro HDD es el tiempo medio que tarda el sector físico deseado en girar hasta colocarse bajo la cabeza de lectura/escritura."
+    },
+    {
+      "id": 24,
+      "globalId": 24,
+      "seccion": "Primera Parte",
+      "pregunta": "Respecto a los sistemas RAID, señale la respuesta INCORRECTA:",
+      "opciones": [
+        "RAID 1 está configurado como espejo, los datos son duplicados en otra unidad (mínimo dos) de forma sincronizada.",
+        "RAID 5 es una implementación del striping de discos en la que se incluye información de paridad con cada escritura en disco.",
+        "RAID 10 conocido como RAID 1+0, mantiene configuración de espejo con striping.",
+        "RAID 6 es una variante de RAID 5 que implementa un doble sistema de paridad distribuida, lo que le permite funcionar con un mínimo de tres discos y tolerar el fallo simultáneo de hasta un solo disco."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "RAID 6 es una variante de RAID 5 que implementa un doble sistema de paridad distribuida, permitiendo tolerar el fallo simultáneo de hasta dos discos, y requiere un mínimo de cuatro discos para su configuración."
+    },
+    {
+      "id": 25,
+      "globalId": 25,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Cuál de los siguientes algoritmos de planificación de CPU asigna un quantum de tiempo de CPU a cada proceso?",
+      "opciones": [
+        "FCFS.",
+        "SJF.",
+        "Por prioridades.",
+        "Round Robin."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El algoritmo Round Robin (RR) es un método de planificación de CPU que asigna un intervalo constante de tiempo (quantum) a cada proceso de forma circular."
+    },
+    {
+      "id": 26,
+      "globalId": 26,
+      "seccion": "Primera Parte",
+      "pregunta": "Considerando el nodo raíz como nivel 1, ¿cuál es el número máximo de nodos en un árbol binario que tiene 4 niveles?",
+      "opciones": [
+        "15",
+        "9",
+        "16",
+        "10"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En un árbol binario completo, el número máximo de nodos para un nivel L es 2^(L-1). Para 4 niveles, el número máximo acumulado de nodos es 2^4 - 1 = 15."
+    },
+    {
+      "id": 27,
+      "globalId": 27,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué es Active Directory Domain Services (AD DS) en el ecosistema Windows Server?",
+      "opciones": [
+        "Un mecanismo para implementar la protección y verificación de integridad del sistema de archivos.",
+        "Un servicio que almacena información sobre los objetos de la red y facilita a los administradores y usuarios la búsqueda y uso.",
+        "Un dispositivo físico de seguridad diseñado para el control de acceso de los usuarios a las distintas aplicaciones, sistemas, recursos y dispositivos.",
+        "Una herramienta integrada en el sistema operativo para la monitorización de las acciones del usuario y administradores."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Active Directory Domain Services (AD DS) es un servicio de directorio desarrollado por Microsoft que almacena información sobre los objetos de la red y facilita su administración y uso."
+    },
+    {
+      "id": 28,
+      "globalId": 28,
+      "seccion": "Primera Parte",
+      "pregunta": "Según el estándar JSON (RFC 8259), ¿cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        "Un objeto JSON mantiene el orden de inserción de sus elementos por definición.",
+        "JSON permite definir tipos de datos personalizados.",
+        "Un objeto JSON es una colección no ordenada de pares nombre/valor.",
+        "JSON admite comentarios dentro de su sintaxis estándar."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Según el estándar RFC 8259, un objeto JSON es una colección no ordenada de cero o más pares de nombre/valor."
+    },
+    {
+      "id": 29,
+      "globalId": 29,
+      "seccion": "Primera Parte",
+      "pregunta": "En un sistema Linux, el directorio /etc contiene:",
+      "opciones": [
+        "Los ficheros y directorios del usuario.",
+        "Los ficheros de configuración del sistema.",
+        "Los directorios de los usuarios.",
+        "Los ficheros binarios ejecutables esenciales del sistema."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En los sistemas operativos basados en Linux, el directorio `/etc` está reservado para almacenar los ficheros de configuración del sistema y de los servicios instalados."
+    },
+    {
+      "id": 30,
+      "globalId": 30,
+      "seccion": "Primera Parte",
+      "pregunta": "En Linux si queremos renombrar el archivo denominado “PAGOS” con el nuevo nombre “RECIBOS”, ejecutaremos el comando:",
+      "opciones": [
+        "rm PAGOS RECIBOS",
+        "mv PAGOS RECIBOS",
+        "mv RECIBOS PAGOS",
+        "rm RECIBOS PAGOS"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El comando `mv` (move) se utiliza en Linux tanto para mover archivos como para renombrarlos en el mismo directorio (ej. `mv PAGOS RECIBOS`)."
+    },
+    {
+      "id": 31,
+      "globalId": 31,
+      "seccion": "Primera Parte",
+      "pregunta": "El framework de Wi-Fi en Android 14 y superior tiene tres HAL de Wi-Fi. Señale cuál es uno de ellos:",
+      "opciones": [
+        "HAL de Supervisor.",
+        "HAL de Comunicación.",
+        "HAL de Hostapd.",
+        "HAL de Wi-Fi."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Android 14 y superior incluye tres HAL de Wi-Fi en su framework, siendo una de ellas la HAL de Hostapd para el control del punto de acceso."
+    },
+    {
+      "id": 32,
+      "globalId": 32,
+      "seccion": "Primera Parte",
+      "pregunta": "Dentro de los elementos constitutivos de un sistema operativo, ¿cómo se denomina la estructura de datos que contiene información sobre un proceso?",
+      "opciones": [
+        "Tabla de páginas.",
+        "Vector de interrupciones.",
+        "Descriptor de segmento.",
+        "Bloque de control de proceso."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El Bloque de Control de Proceso (PCB) es la estructura de datos del kernel del sistema operativo que contiene toda la información necesaria para gestionar un proceso."
+    },
+    {
+      "id": 33,
+      "globalId": 33,
+      "seccion": "Primera Parte",
+      "pregunta": "De las siguientes afirmaciones sobre bases de datos relacionales, indique cuál de ellas es INCORRECTA:",
+      "opciones": [
+        "Se llama clave primaria o clave principal a un campo o a una combinación de campos que identifica de forma única a cada fila de una tabla.",
+        "Un dominio es el conjunto válido de valores que puede tomar un atributo.",
+        "Una superclave es cualquier conjunto de atributos que identifica unívocamente a cada tupla de una relación.",
+        "Las bases de datos relacionales utilizan un método simple de clave-valor para almacenar datos."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Las bases de datos relacionales organizan los datos en tablas estructuradas (relaciones) mediante filas y columnas, a diferencia de los almacenes clave-valor no relacionales."
+    },
+    {
+      "id": 34,
+      "globalId": 34,
+      "seccion": "Primera Parte",
+      "pregunta": "Señale cuál de las siguientes es una base datos orientada a grafos:",
+      "opciones": [
+        "DynamoDB.",
+        "CouchDB.",
+        "JanusGraph.",
+        "HBase."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "JanusGraph es una base de datos distribuida de código abierto orientada a grafos, optimizada para almacenar y consultar grafos muy grandes."
+    },
+    {
+      "id": 35,
+      "globalId": 35,
+      "seccion": "Primera Parte",
+      "pregunta": "En el diseño conceptual de bases de datos, un atributo es:",
+      "opciones": [
+        "Un objeto, real o abstracto, distinguible de otros objetos.",
+        "Una conexión semántica entre dos, o más, conjuntos de entidades.",
+        "Una propiedad asociada a un conjunto de entidades.",
+        "Una asociación que se establece entre tipos de entidad."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En el diseño conceptual de bases de datos mediante el modelo Entidad/Relación, un atributo representa una propiedad o característica asociada a un conjunto de entidades."
+    },
+    {
+      "id": 36,
+      "globalId": 36,
+      "seccion": "Primera Parte",
+      "pregunta": "Indique cuál de las siguientes definiciones es correcta respecto al modelo Entidad/Relación extendido.",
+      "opciones": [
+        "La generalización permite abstraer un tipo de entidad de nivel inferior (subtipo) a partir de varios tipos de entidad (supertipos).",
+        "En la especialización, un subtipo se descompone en uno o varios supertipos, los cuales heredan todos los atributos y relaciones del subtipo, además de tener los suyos propios. **36. Indique cuál de las siguientes definiciones es correcta respecto al modelo Entidad/Relación extendido.**",
+        "La agregación consiste en construir un nuevo tipo de entidad como composición de otros y su tipo de relación y así poder manejarlo en un nivel de abstracción mayor.",
+        "En una asociación se relacionan dos tipos de entidades independientes que pertenecen al mismo dominio y que coyunturalmente no se asocian."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En el modelo Entidad/Relación extendido, la agregación permite construir un nuevo tipo de entidad abstrayendo la composición de otros tipos de entidades y sus relaciones."
+    },
+    {
+      "id": 37,
+      "globalId": 37,
+      "seccion": "Primera Parte",
+      "pregunta": "En el contexto de las bases de datos relacionales, ¿cómo se denomina a una columna o grupo de columnas de una tabla que contiene valores que coinciden con la clave primaria de otra tabla?",
+      "opciones": [
+        "Clave primaria externa.",
+        "Clave referencia.",
+        "Clave foránea.",
+        "Clave compuesta."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Una clave foránea (o clave ajena) es una columna o grupo de columnas en una tabla de base de datos cuyos valores deben coincidir con la clave primaria de otra tabla."
+    },
+    {
+      "id": 38,
+      "globalId": 38,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué tipos de disparadores o triggers contempla SQL Server?",
+      "opciones": [
+        "DML, DMC y AFTER.",
+        "DML, DDL y LOGON.",
+        "DML, DDL y EXTENDS.",
+        "DML, DMZ y FTL."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "SQL Server soporta tres tipos principales de disparadores o triggers: triggers DML (Data Manipulation Language), triggers DDL (Data Definition Language) y triggers LOGON."
+    },
+    {
+      "id": 39,
+      "globalId": 39,
+      "seccion": "Primera Parte",
+      "pregunta": "En relación a los niveles de aislamiento de transacción que se definen mediante ANSI SQL, indique cuál de las siguientes sentencias es correcta:",
+      "opciones": [
+        "La lectura repetible protege contra la lectura sucia y la lectura no repetible, pero no contra la lectura fantasma.",
+        "La lectura no confirmada protege contra la lectura sucia, pero no contra la lectura no repetible, ni contra la lectura fantasma.",
+        "La lectura confirmada no protege contra la lectura sucia, ni contra la lectura no repetible, ni contra la lectura fantasma.",
+        "Serializable protege contra la lectura sucia y la lectura fantasma, pero no contra la lectura no repetible."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El nivel de aislamiento 'Lectura repetible' (Repeatable Read) de ANSI SQL protege contra lecturas sucias y lecturas no repetibles, pero no evita las lecturas fantasma."
+    },
+    {
+      "id": 40,
+      "globalId": 40,
+      "seccion": "Primera Parte",
+      "pregunta": "En el sistema gestor de base de datos Oracle, indique qué valor numérico devolverá la ejecución de la siguiente sentencia: SELECT INSTR('Corporate Floor','or', 3, 2) \"Prueba\" FROM DUAL;",
+      "opciones": [
+        "2",
+        "5",
+        "13",
+        "14"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "En Oracle, `INSTR('Corporate Floor', 'or', 3, 2)` busca la subcadena 'or' empezando en la posición 3, buscando la segunda ocurrencia. Las ocurrencias son: la primera está en la posición 2 (comienza antes de la 3), la segunda en la 5 (Floor tiene 'or' al final, la posición de 'or' en 'Corporate Floor' es: 'or' en Corporate en la pos 2, 'or' en Floor en la pos 14). Empezando en 3, la primera ocurrencia encontrada es 'or' de Corporate (que empieza en la pos 2, pero como empezamos en la pos 3, no cuenta). Las ocurrencias desde la pos 3 son: 'or' en la pos 14 (Floor). Por tanto, devuelve 14."
+    },
+    {
+      "id": 41,
+      "globalId": 41,
+      "seccion": "Primera Parte",
+      "pregunta": "En diseño modular de software, ¿qué tipo de acoplamiento se produce cuando varios módulos comparten una estructura global de datos?",
+      "opciones": [
+        "Acoplamiento de datos.",
+        "Acoplamiento de control.",
+        "Acoplamiento común.",
+        "Acoplamiento de contenido."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El acoplamiento común se produce cuando dos o más módulos de software comparten una misma estructura de datos global."
+    },
+    {
+      "id": 42,
+      "globalId": 42,
+      "seccion": "Primera Parte",
+      "pregunta": "En un diagrama de clases UML, ¿qué significado tiene el símbolo de resta ( - ) colocado antes del nombre de un atributo o método?",
+      "opciones": [
+        "Indica que el elemento tiene una visibilidad de tipo private.",
+        "Indica que el elemento tiene una visibilidad de tipo public.",
+        "Indica que el elemento tiene que ser revisado.",
+        "Indica que el elemento almacena únicamente valores numéricos negativos."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En los diagramas de clases de UML, el símbolo de resta ( - ) prefijado a un atributo o método denota que posee una visibilidad de tipo privado (private)."
+    },
+    {
+      "id": 43,
+      "globalId": 43,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué principio de diseño establece que las clases de alto nivel no deben depender de las de bajo nivel, sino que ambas deben depender de abstracciones?",
+      "opciones": [
+        "Dependency Inversion Principle (DIP).",
+        "Single Responsibility Principle (SRP).",
+        "Liskov Substitution Principle (LSP).",
+        "Interface Segregation Principle (ISP)."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El Principio de Inversión de Dependencias (DIP), que forma parte de los principios SOLID, establece que los módulos de alto nivel no deben depender de módulos de bajo nivel, sino que ambos deben depender de abstracciones."
+    },
+    {
+      "id": 44,
+      "globalId": 44,
+      "seccion": "Primera Parte",
+      "pregunta": "Dentro de los patrones de diseño del \"Gang of Four\" (GoF), ¿cuál es la diferencia fundamental entre el patrón Factory Method y el patrón Abstract Factory?",
+      "opciones": [
+        "Factory Method es un patrón de comportamiento, mientras que Abstract Factory es creacional.",
+        "Factory Method crea objetos de diferentes tipos de datos, mientras que Abstract Factory sólo crea objetos de un único tipo.",
+        "Factory Method requiere obligatoriamente el uso de interfaces, mientras que Abstract Factory sólo funciona con clases abstractas.",
+        "Factory Method sirve para crear objetos de un mismo tipo, mientras que Abstract Factory permite crear objetos de una misma familia."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El patrón Factory Method se centra en la creación de un único tipo de objeto (producto), delegando la instanciación a las subclases, mientras que Abstract Factory se utiliza para crear familias de objetos relacionados o dependientes sin especificar sus clases concretas."
+    },
+    {
+      "id": 45,
+      "globalId": 45,
+      "seccion": "Primera Parte",
+      "pregunta": "Las aplicaciones de .NET 10 se pueden escribir en los siguientes lenguajes de programación:",
+      "opciones": [
+        "C#, F# y Visual Basic.",
+        "C#, Java y Visual Basic.",
+        "C#, F#, Java, R y Visual Basic.",
+        "Java, PHP y Visual Basic."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Las aplicaciones de .NET 10 soportan nativamente lenguajes como C#, F# y Visual Basic desarrollados bajo el ecosistema de Microsoft."
+    },
+    {
+      "id": 46,
+      "globalId": 46,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué especificación de la Arquitectura Jakarta EE es la homóloga funcional a 'Entity Framework Core' en la plataforma .NET para la gestión de la persistencia?",
+      "opciones": [
+        "Jakarta JDBC.",
+        "Jakarta Transactions.",
+        "Jakarta Persistence.",
+        "Jakarta Validation."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Jakarta Persistence (anteriormente JPA - Java Persistence API) es la especificación estándar de persistencia de Jakarta EE, análoga a Entity Framework Core en .NET."
+    },
+    {
+      "id": 47,
+      "globalId": 47,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Cuál es la última versión de SOAP (Simple Object Access Protocol)?",
+      "opciones": [
+        "SOAP 1.1",
+        "SOAP 1.2",
+        "SOAP 2.0",
+        "SOAP 2.1"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La última especificación estándar de SOAP (Simple Object Access Protocol) es la versión 1.2 recomendada por el W3C."
+    },
+    {
+      "id": 48,
+      "globalId": 48,
+      "seccion": "Primera Parte",
+      "pregunta": "Indique cuál de las siguientes afirmaciones es INCORRECTA:",
+      "opciones": [
+        "XSD se refiere al lenguaje de definición de esquemas XML.",
+        "DTD proporciona medios para validar archivos XML en relación con un conjunto de normas.",
+        "En XHTML todos los elementos tienen que llevar cierre.",
+        "jQuery es un lenguaje de programación que permite la mejora de JavaScript."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "jQuery no es un lenguaje de programación, sino una biblioteca o framework escrito en JavaScript diseñado para simplificar la interacción con el DOM, el manejo de eventos y peticiones AJAX."
+    },
+    {
+      "id": 49,
+      "globalId": 49,
+      "seccion": "Primera Parte",
+      "pregunta": "Señale la afirmación correcta con respecto a REST:",
+      "opciones": [
+        "Es un protocolo estándar de la capa de aplicación diseñado para garantizar el intercambio de mensajes NTP entre plataformas heterogéneas.",
+        "Es un conjunto de principios arquitectónicos que se ajusta a las necesidades de las aplicaciones móviles y los servicios web ligeros.",
+        "Es un protocolo propietario desarrollado por el consorcio W3C para sustituir las especificaciones basadas en RPC en entornos de escritorio.",
+        "Es un patrón de diseño exclusivo para aplicaciones web tradicionales que prohíbe explícitamente la transferencia de datos en formatos JSON."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "REST (Representational State Transfer) es un estilo arquitectónico de software para diseñar servicios web ligeros basado en el protocolo HTTP sin estado."
+    },
+    {
+      "id": 50,
+      "globalId": 50,
+      "seccion": "Primera Parte",
+      "pregunta": "En JavaScript, cuál de las siguientes afirmaciones es INCORRECTA:",
+      "opciones": [
+        "Entre los tipos de datos JavaScript están String, Boolean, Undefined y Number.",
+        "Una variable declarada sin valor asignado tiene el valor undefined.",
+        "123 == '123' devolverá falso.",
+        "El alcance de una variable declarada con let es de bloque."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En JavaScript, la comparación con doble igual `123 == '123'` realiza una conversión implícita de tipos, por lo que evalúa como verdadero (true). El operador de igualdad estricta `===` sí devolvería falso."
+    },
+    {
+      "id": 51,
+      "globalId": 51,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué significan las siglas que dan nombre a una matriz RACI?",
+      "opciones": [
+        "Reliable Algorithm for Confidential Information.",
+        "Reasonably Allocated and Centrally Implemented.",
+        "Responsible, Accountable, Consulted, Informed.",
+        "Random, Asignated, Controlled, Isolated."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El acrónimo RACI representa los roles de una matriz de asignación de responsabilidades: Responsible (Responsable), Accountable (Aprobador/Último responsable), Consulted (Consultado) e Informed (Informado)."
+    },
+    {
+      "id": 52,
+      "globalId": 52,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Cuál de las siguientes afirmaciones es FALSA?",
+      "opciones": [
+        "En JavaScript, la ejecución de isNaN(\"hola\") dará como resultado true.",
+        "El lenguaje de programación JavaScript forma parte de la plataforma Java.",
+        "XML es la base de un gran número de normas tales como el Lenguaje Universal de Negocios, entre otros.",
+        "React es una biblioteca de código abierto de JavaScript para crear interfaces de usuario de front-end."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El lenguaje JavaScript es independiente de la plataforma Java; no forma parte de ella y posee una sintaxis, semántica y propósito de ejecución diferentes."
+    },
+    {
+      "id": 53,
+      "globalId": 53,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué práctica de seguridad en el desarrollo de software previene de forma directa las vulnerabilidades de inyección como SQLi o XSS?",
+      "opciones": [
+        "Uso de contraseñas complejas por parte de los usuarios.",
+        "Validación y saneamiento de las entradas de usuario al sistema.",
+        "Instalación de un antivirus en el servidor.",
+        "Minimizar el número de ventanas abiertas durante el desarrollo."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La validación y el saneamiento (sanitization) riguroso de las entradas proporcionadas por el usuario es la medida directa más efectiva para prevenir vulnerabilidades de inyección de código como SQLi o Cross-Site Scripting (XSS)."
+    },
+    {
+      "id": 54,
+      "globalId": 54,
+      "seccion": "Primera Parte",
+      "pregunta": "Señale la respuesta correcta según la Directiva (UE) 2016/2102 del Parlamento Europeo y del Consejo, de 26 de octubre de 2016, sobre la accesibilidad de los sitios web y aplicaciones para dispositivos móviles de los organismos del sector público:",
+      "opciones": [
+        "El diseño universal debe permitir que todas las personas puedan usar productos o servicios, en la mayor medida posible, sin adaptación o diseño especializado, pero no excluye dispositivos de apoyo para ciertos grupos cuando sean necesarios.",
+        "El diseño universal implica que no deben existir ayudas técnicas (dispositivos de apoyo), porque todo debe funcionar igual para todos sin excepciones.",
+        "La Directiva incluye en su ámbito de aplicación los sitios web y aplicaciones para dispositivos móviles de prestadores del servicio público de radiodifusión y sus filiales.",
+        "La Directiva incluye en su ámbito de aplicación el contenido multimedia en directo de base temporal publicado después del 23 de septiembre de 2020."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La Directiva (UE) 2016/2102 establece que el 'diseño universal' busca permitir que todas las personas puedan utilizar los productos y servicios en la mayor medida posible sin requerir adaptaciones, aunque no descarta el uso de ayudas técnicas si es necesario."
+    },
+    {
+      "id": 55,
+      "globalId": 55,
+      "seccion": "Primera Parte",
+      "pregunta": "En Git, ¿qué significa el estado 'Staged'?",
+      "opciones": [
+        "Que el archivo tiene conflictos de fusión y no se puede compilar.",
+        "Que los cambios han sido marcados para ser incluidos en el próximo 'commit'.",
+        "Que los cambios han sido subidos al servidor remoto con éxito.",
+        "Que se ha modificado el archivo pero todavía no se ha hecho 'commit' en la base de datos."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En el sistema de control de versiones Git, el estado 'Staged' indica que los archivos modificados han sido marcados o preparados para ser incluidos en la próxima confirmación de cambios (commit)."
+    },
+    {
+      "id": 56,
+      "globalId": 56,
+      "seccion": "Primera Parte",
+      "pregunta": "En Git, ¿qué comando se utiliza para guardar en el repositorio local una instantánea de los cambios previamente preparados?",
+      "opciones": [
+        "git push",
+        "git clone",
+        "git commit",
+        "git status"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El comando `git commit` registra una instantánea (snapshot) de los cambios que han sido previamente preparados en el área de ensayo (staged) en el repositorio local."
+    },
+    {
+      "id": 57,
+      "globalId": 57,
+      "seccion": "Primera Parte",
+      "pregunta": "De acuerdo con la Guía de Scrum, ¿cuál de los siguientes es uno de los roles que compone el Equipo de Scrum?",
+      "opciones": [
+        "Sprint Owner.",
+        "Scrum Planner.",
+        "Scrum Master.",
+        "Stakeholder."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "De acuerdo con la Guía Oficial de Scrum, el Equipo Scrum está compuesto exclusivamente por tres roles: el Product Owner, el Scrum Master y los Developers."
+    },
+    {
+      "id": 58,
+      "globalId": 58,
+      "seccion": "Primera Parte",
+      "pregunta": "Señale cuál de las siguientes es una plataforma integrada para monitorización y seguridad entre cuyos servicios está la monitorización del rendimiento de aplicaciones:",
+      "opciones": [
+        "Datadog.",
+        "Voldemort.",
+        "Atohalan.",
+        "Cockroach."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Datadog es una plataforma SaaS de monitorización y seguridad en la nube que proporciona supervisión detallada del rendimiento de aplicaciones (APM), infraestructura y registros."
+    },
+    {
+      "id": 59,
+      "globalId": 59,
+      "seccion": "Primera Parte",
+      "pregunta": "En virtualización de sistemas, ¿qué caracteriza a un hipervisor de tipo 1?",
+      "opciones": [
+        "Se ejecuta directamente sobre el hardware físico y permite ejecutar sistemas operativos invitados.",
+        "Se ejecuta como una aplicación dentro de un sistema operativo anfitrión.",
+        "Se utiliza exclusivamente para virtualizar periféricos de impresión.",
+        "Es una herramienta destinada exclusivamente a realizar copias de seguridad."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Un hipervisor de tipo 1 (o bare-metal) se ejecuta directamente sobre el hardware físico del servidor anfitrión para gestionar los sistemas operativos invitados, ofreciendo alto rendimiento y control."
+    },
+    {
+      "id": 60,
+      "globalId": 60,
+      "seccion": "Primera Parte",
+      "pregunta": "¿En qué arquitectura de almacenamiento se permite que varios usuarios y dispositivos en la red de área local accedan a los datos desde un área de almacenamiento centralizada en la red?",
+      "opciones": [
+        "Arquitectura NAS.",
+        "Arquitectura SAN.",
+        "Arquitectura DAS.",
+        "Arquitectura de Disco Interno."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "NAS (Network Attached Storage) es una arquitectura de almacenamiento a nivel de ficheros que permite a múltiples usuarios y dispositivos de red acceder a un almacenamiento centralizado a través de la red de área local."
+    },
+    {
+      "id": 61,
+      "globalId": 61,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Cuál de las siguientes opciones es un ejemplo de hipervisor de tipo 1?",
+      "opciones": [
+        "VirtualBox.",
+        "VMware Workstation.",
+        "VMware ESXi.",
+        "Parallels Desktop."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "VMware ESXi es un ejemplo típico de hipervisor de tipo 1 de nivel empresarial, ejecutándose directamente sobre el hardware físico sin sistema operativo anfitrión."
+    },
+    {
+      "id": 62,
+      "globalId": 62,
+      "seccion": "Primera Parte",
+      "pregunta": "Señale la respuesta correcta en el ámbito de la infraestructura de escritorio virtual (VDI):",
+      "opciones": [
+        "VDI es el alojamiento de entornos de escritorio en un servidor central.",
+        "En VDI persistente el cliente final puede estar conectado al mismo escritorio cada vez o a uno aleatorio del grupo.",
+        "En VDI no persistente cada vez que un usuario accede al entorno VDI, se conecta al mismo escritorio con todos sus cambios retenidos en la imagen del sistema operativo virtual, incluso después de reiniciar la conexión.",
+        "No es necesario que los clientes finales estén constantemente conectados al servidor para que puedan mantener el acceso a los escritorios virtualizados."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En la infraestructura de escritorio virtual (VDI), el entorno de escritorio del usuario final se aloja y ejecuta en servidores centrales virtualizados en el centro de datos."
+    },
+    {
+      "id": 63,
+      "globalId": 63,
+      "seccion": "Primera Parte",
+      "pregunta": "En Oracle 11g, ¿cuál es el comando de RMAN para listar los scripts globales y locales disponibles para ejecutar?",
+      "opciones": [
+        "RMAN> list script;",
+        "RMAN> list script names;",
+        "RMAN> list;",
+        "RMAN> list global script names;"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En RMAN de Oracle, el comando `list script names;` permite enumerar los scripts globales y locales guardados en el catálogo de recuperación."
+    },
+    {
+      "id": 64,
+      "globalId": 64,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué es Kubernetes?",
+      "opciones": [
+        "Un emulador para ejecutar aplicaciones sobre arquitecturas de procesador diferentes.",
+        "Una plataforma de orquestación de contenedores de código abierto.",
+        "Un simulador de carga de bases de datos no relacionales.",
+        "Un sistema de virtualización de contenedores a nivel de sistema operativo."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Kubernetes (K8s) es una plataforma portable y extensible de código abierto para la automatización del despliegue, escalado y gestión de aplicaciones en contenedores."
+    },
+    {
+      "id": 65,
+      "globalId": 65,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Cuál de las siguientes soluciones de gestión de dispositivos móviles es exclusiva para dispositivos Apple?",
+      "opciones": [
+        "Citrix Endpoint Management.",
+        "Miradore.",
+        "Jamf Now.",
+        "Scalefusion."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Jamf Now es una solución de gestión de dispositivos móviles (MDM) diseñada de forma exclusiva para el ecosistema y dispositivos de Apple."
+    },
+    {
+      "id": 66,
+      "globalId": 66,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Cuál de los siguientes es un sistema de gestión de servicios (ITSM)?",
+      "opciones": [
+        "RabbitMQ.",
+        "Remedy/Helix.",
+        "Hibernate.",
+        "Snort."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Remedy/Helix de BMC es una plataforma integral de gestión de servicios de TI (ITSM) alineada con las mejores prácticas de ITIL."
+    },
+    {
+      "id": 67,
+      "globalId": 67,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Cuál de las siguientes metodologías NO se corresponde a una metodología de riesgos?",
+      "opciones": [
+        "OCTAVE.",
+        "MAGERIT.",
+        "NIST SP 800-30.",
+        "PRICE3."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "PRICE3 no corresponde a ninguna metodología estándar de análisis o gestión de riesgos; las metodologías ampliamente reconocidas incluyen OCTAVE, MAGERIT y la guía NIST SP 800-30."
+    },
+    {
+      "id": 68,
+      "globalId": 68,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué es el plenum, de acuerdo con el estándar ANSI/TIA 942-B?",
+      "opciones": [
+        "Un compartimento donde uno o más conductos de aire están conectados y que forma parte del sistema de distribución del aire.",
+        "Un conductor metálico sólido o trenzado aislado individualmente.",
+        "Una unión de conductores destinada a ser permanente.",
+        "Un cable utilizado para establecer conexiones en un panel de conexión."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Según el estándar de centros de datos ANSI/TIA 942-B, el 'plenum' es un espacio o compartimento utilizado para albergar conductos de ventilación y movimiento de aire."
+    },
+    {
+      "id": 69,
+      "globalId": 69,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué es la tecnología VPLS?",
+      "opciones": [
+        "Es una tecnología que permite unir redes Ethernet geográficamente dispersas haciendo que compartan un mismo dominio de difusión.",
+        "Es una tecnología de reenvío de paquetes que utiliza etiquetas para tomar decisiones relativas al reenvío de datos.",
+        "Es un conjunto de protocolos que proporcionan seguridad a las comunicaciones Internet en la capa IP.",
+        "Es un protocolo de enrutado entre sistemas autónomos."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "VPLS (Virtual Private LAN Service) es una tecnología VPN de capa 2 basada en multiprotocolo (MPLS) que permite conectar múltiples sitios LAN geográficamente dispersos simulando un único dominio de difusión Ethernet."
+    },
+    {
+      "id": 70,
+      "globalId": 70,
+      "seccion": "Primera Parte",
+      "pregunta": "El estándar H.245 propuesto por ITU es descrito como:",
+      "opciones": [
+        "Sistemas de comunicación multimedia basados en paquetes.",
+        "Protocolos de señalización de llamada y paquetización de trenes de medios para sistemas de comunicación multimedia por paquetes.",
+        "Gestión de funciones y canales de medios adicionales para terminales de la serie H.300.",
+        "Protocolo de control para comunicación multimedia."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El estándar H.245 de la ITU define el protocolo de control y negociación de capacidades para canales multimedia en sistemas de comunicación basados en la serie H.300."
+    },
+    {
+      "id": 71,
+      "globalId": 71,
+      "seccion": "Primera Parte",
+      "pregunta": "La gestión de una red de comunicaciones, según el modelo OSI, puede descomponerse en cinco áreas funcionales conocidas por el acrónimo FCAPS. Señale cuál NO es una de ellas:",
+      "opciones": [
+        "Gestión de Fallos (Fault).",
+        "Gestión del Almacenamiento (Storage).",
+        "Gestión de la Configuración (Configuration).",
+        "Gestión del Rendimiento (Performance)."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El modelo de gestión de red FCAPS de OSI abarca cinco áreas funcionales: Fault (Fallos), Configuration (Configuración), Accounting (Contabilidad), Performance (Rendimiento) y Security (Seguridad). 'Storage' no es una de ellas."
+    },
+    {
+      "id": 72,
+      "globalId": 72,
+      "seccion": "Primera Parte",
+      "pregunta": "El protocolo SIP (Session Initiation Protocol) utiliza por defecto el puerto:",
+      "opciones": [
+        "Solo 5060 UDP.",
+        "Solo 6050 UDP.",
+        "5060 tanto en TCP como en UDP.",
+        "6050 tanto en TCP como en UDP."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El protocolo de señalización SIP (Session Initiation Protocol) utiliza por defecto el puerto 5060 tanto para transmisiones sobre TCP como sobre UDP."
+    },
+    {
+      "id": 73,
+      "globalId": 73,
+      "seccion": "Primera Parte",
+      "pregunta": "Señale la respuesta correcta con respecto a CG-NAT:",
+      "opciones": [
+        "Es una solución de los operadores que hace que muchos clientes se conecten a Internet utilizando la misma dirección IPv4.",
+        "Es una solución que hace que muchos clientes que se conectan a Internet utilicen varias direcciones IP.",
+        "Es una solución que permite la asignación de varias direcciones IP privadas a una dirección IP pública entre direcciones locales y globales.",
+        "Es una solución que permite la creación de una red de área extensa definida por software."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "CG-NAT (Carrier-Grade NAT) es una tecnología que permite a los proveedores de servicios de internet mitigar el agotamiento de direcciones IPv4, compartiendo una única dirección IPv4 pública entre múltiples clientes."
+    },
+    {
+      "id": 74,
+      "globalId": 74,
+      "seccion": "Primera Parte",
+      "pregunta": "De entre las siguientes direcciones IPv4, ¿cuál es la que pertenece a la Clase A?",
+      "opciones": [
+        "2.17.39.162",
+        "142.250.200.131",
+        "239.255.255.255",
+        "192.168.0.59"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Las direcciones IPv4 de Clase A tienen su primer octeto en el rango de 1 a 126. Por tanto, la dirección `2.17.39.162` pertenece a la Clase A."
+    },
+    {
+      "id": 75,
+      "globalId": 75,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué protocolo usa por defecto el puerto TCP/23?",
+      "opciones": [
+        "FTP.",
+        "SMTP.",
+        "SSH.",
+        "TELNET."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El protocolo Telnet utiliza tradicionalmente el puerto TCP 23 por defecto para establecer conexiones de terminal virtuales no cifradas."
+    },
+    {
+      "id": 76,
+      "globalId": 76,
+      "seccion": "Primera Parte",
+      "pregunta": "En el desarrollo de una aplicación web segura con HTTPS, ¿cuál es el propósito técnico del atributo \"HttpOnly\" en una cabecera \"Set-Cookie\"?",
+      "opciones": [
+        "Obliga a que la cookie sólo se envíe si la conexión está cifrada mediante TLS.",
+        "Impide que los scripts del lado del cliente accedan a la cookie, mitigando ataques XSS.",
+        "Define que la cookie es válida para el dominio de segundo nivel y todos sus subdominios.",
+        "Establece que la cookie debe eliminarse automáticamente al cerrar el navegador."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El atributo 'HttpOnly' en una cookie de cabecera HTTP impide que los scripts del lado del cliente (como JavaScript) accedan a su contenido, protegiendo contra el robo de cookies mediante ataques XSS."
+    },
+    {
+      "id": 77,
+      "globalId": 77,
+      "seccion": "Primera Parte",
+      "pregunta": "Según las recomendaciones del CCN-CERT sobre seguridad en redes privadas virtuales, ¿qué nombre recibe el túnel de red seguro que opera en la capa de red y que se implementa como un kernel de interfaz virtual de red para Linux?",
+      "opciones": [
+        "MACsec.",
+        "IKEV2.",
+        "EAPoL.",
+        "WireGuard."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "WireGuard es un protocolo VPN extremadamente simple, rápido y moderno que funciona en la capa de red y está integrado directamente como interfaz virtual en el kernel de Linux."
+    },
+    {
+      "id": 78,
+      "globalId": 78,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué especifica el estándar IEEE 802.3 dentro de la familia de normas IEEE 802?",
+      "opciones": [
+        "El funcionamiento de redes inalámbricas Wi‑Fi.",
+        "Los métodos de acceso y transmisión para redes Ethernet.",
+        "Los protocolos de seguridad para redes móviles.",
+        "Las características de redes Bluetooth de largo alcance."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La norma IEEE 802.3 define el estándar internacional para las especificaciones de la capa física y de control de acceso al medio (MAC) de las redes Ethernet cableadas."
+    },
+    {
+      "id": 79,
+      "globalId": 79,
+      "seccion": "Primera Parte",
+      "pregunta": "¿Qué tipo de cifrado es el algoritmo RSA?",
+      "opciones": [
+        "Un criptosistema de clave privada.",
+        "Un criptosistema de clave pública.",
+        "Un criptosistema lineal.",
+        "Un criptosistema elipsoidal."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "RSA es un algoritmo de criptografía asimétrica o de clave pública basado en la dificultad matemática de la factorización de números enteros grandes."
+    },
+    {
+      "id": 80,
+      "globalId": 80,
+      "seccion": "Primera Parte",
+      "pregunta": "En redes Ethernet, ¿qué velocidad agregada se asocia habitualmente al formato QSFP+?",
+      "opciones": [
+        "Admite velocidades de datos de hasta 5 Gbps.",
+        "Admite velocidades de datos de hasta 100 Gbps.",
+        "Admite velocidades de datos de hasta 16 Gbps.",
+        "Admite velocidades de datos de hasta 40 Gbps."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El formato QSFP+ (Quad Small Form-factor Pluggable Plus) se asocia típicamente con velocidades agregadas de transmisión de datos de hasta 40 Gbps en redes Ethernet de alta velocidad."
+    },
+    {
+      "id": 1,
+      "globalId": 81,
+      "seccion": "Reserva Primera Parte",
+      "pregunta": "En el sistema operativo Android, ¿qué extensión tienen los archivos ejecutables Dalvik?",
+      "opciones": [
+        ".dex",
+        ".apk",
+        ".dvk",
+        ".dxk"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Los archivos ejecutables optimizados para la máquina virtual Dalvik y el runtime de Android (ART) utilizan la extensión `.dex` (Dalvik Executable)."
+    },
+    {
+      "id": 2,
+      "globalId": 82,
+      "seccion": "Reserva Primera Parte",
+      "pregunta": "¿Cuál de los siguientes estándares NO está incluido en la Norma Técnica de Interoperabilidad de \"Catálogo de Estándares\" en la categoría de \"Formatos ficheros - Imagen y/o texto\"?",
+      "opciones": [
+        "CSS.",
+        "JPEG.",
+        "TIFF.",
+        "BMP."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La Norma Técnica de Interoperabilidad (NTI) de Catálogo de Estándares especifica los formatos válidos para intercambio de documentos de texto e imagen (como JPEG, TIFF, BMP). El estándar CSS no pertenece a esta categoría, sino a la presentación de contenidos web."
+    },
+    {
+      "id": 3,
+      "globalId": 83,
+      "seccion": "Reserva Primera Parte",
+      "pregunta": "Señale cuál es un estándar que especifica un conjunto de protocolos que proporcionan medidas de seguridad para la protección de los datos en la capa de enlace de redes de área local tipo Ethernet, conocido como MAC Security:",
+      "opciones": [
+        "IEEE 802.1AE",
+        "IEEE 802.1AP",
+        "IEEE 802.1AF",
+        "IEEE 802.1AZ"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "IEEE 802.1AE es el estándar que define Media Access Control Security (MACsec), el cual proporciona cifrado y autenticación de datos en la capa de enlace de datos de redes Ethernet."
+    },
+    {
+      "id": 4,
+      "globalId": 84,
+      "seccion": "Reserva Primera Parte",
+      "pregunta": "¿Cuáles son los tipos de procedimientos almacenados que se pueden usar en SQL Server?",
+      "opciones": [
+        "Definidos por el usuario, temporales, de sistema y extendidos.",
+        "Definidos por el usuario, locales, de sistema, almacenados y extendidos.",
+        "Definidos por el usuario, locales, de sistema y almacenados.",
+        "Definidos por el usuario, globales, de sistema y extendidos."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "SQL Server permite crear cuatro tipos de procedimientos almacenados: definidos por el usuario, temporales (locales o globales), del sistema y extendidos."
+    },
+    {
+      "id": 5,
+      "globalId": 85,
+      "seccion": "Reserva Primera Parte",
+      "pregunta": "En UML, ¿qué tipo de diagrama se utiliza para representar la interacción entre objetos o participantes mediante los mensajes que se intercambian entre ellos?",
+      "opciones": [
+        "Diagrama de clases.",
+        "Diagrama de secuencia.",
+        "Diagrama de despliegue.",
+        "Diagrama de componentes."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En UML, el diagrama de secuencia es un diagrama de interacción que detalla cómo los objetos colaboran a lo largo del tiempo mediante el intercambio secuencial de mensajes."
+    },
+    {
+      "id": 1,
+      "globalId": 86,
+      "seccion": "Supuesto I",
+      "pregunta": "Se necesita establecer un enlace bidireccional entre un campo de entrada y una propiedad del componente de Angular. Señale la opción correcta para ello:",
+      "opciones": [
+        "<input type=\"text\" [ngModel]=\"email\" />",
+        "<input type=\"text\" (ngModel)=\"email\" />",
+        "<input type=\"text\" [(ngModel)]=\"email\" />",
+        "<input type=\"text\" ngModel=\"email\" />"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En Angular, la sintaxis del 'banana-in-a-box' `[(ngModel)]` se utiliza para establecer una vinculación de datos bidireccional (two-way data binding) entre la vista y la propiedad del componente."
+    },
+    {
+      "id": 2,
+      "globalId": 87,
+      "seccion": "Supuesto I",
+      "pregunta": "Se quiere mostrar la fecha y hora en una parte de la aplicación. Esta información está en una propiedad del componente de Angular llamada fechaHora y un ejemplo del formato deseado es: 12/04/2026 19:32. ¿Cuál sería la opción correcta?",
+      "opciones": [
+        "<p>Fecha y hora: { fechaHora | date: dd/MM/YYYY hh:mm }</p>",
+        "<p>Fecha y hora: {{ fechaHora | date: 'dd/MM/yyyy HH:mm' }}</p>",
+        "<p> Fecha y hora: { fechaHora | date: 'DD/MM/yyyy hh:mm' }</p>",
+        "<p>Fecha y hora: {{ fechaHora | date: DD/MM/YYYY hh:mm }}</p>"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Para formatear fechas en la vista de Angular se utiliza el pipe `date` con interpolación `{{ fechaHora | date: 'dd/MM/yyyy HH:mm' }}` con las comillas simples especificando la máscara de formato."
+    },
+    {
+      "id": 3,
+      "globalId": 88,
+      "seccion": "Supuesto I",
+      "pregunta": "Dada la siguiente clase CSS: div { text-align: center; font-weight: bold; border-radius: 20px; box-shadow: 4px 4px 4px black; background-color: limegreen; } ¿Qué pasará visualmente con el siguiente elemento HTML?: <div>Bienvenido</div>",
+      "opciones": [
+        "El texto se mostrará centrado, en negrita y con sombra negra sobre una caja rectangular de color verde lima y con borde redondo.",
+        "El texto se mostrará centrado y en negrita sobre una caja rectangular de color verde lima, con borde recto y con sombra negra aplicada a la caja.",
+        "El texto se mostrará centrado, en negrita y con sombra negra sobre una caja redonda de color verde lima.",
+        "El texto se mostrará centrado y en negrita sobre una caja rectangular de color verde lima, con borde redondo y con sombra negra aplicada a la caja."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El estilo CSS define un div con texto centrado, fuente en negrita, bordes redondeados (`border-radius: 20px`), sombra aplicada a la caja (`box-shadow: 4px 4px 4px black`) y fondo verde lima, produciendo una caja rectangular redondeada con sombra."
+    },
+    {
+      "id": 4,
+      "globalId": 89,
+      "seccion": "Supuesto I",
+      "pregunta": "En una clase de TypeScript se definen los siguientes arrays: const menuAdministrador = [\"Usuarios\", \"Permisos\"]; const menuGestor = [\"Notificaciones\", \"Usuarios\", \"Asientos registrales\"]; En esa misma clase hay una función que ejecuta la siguiente operación: return […menuAdministrador, …menuGestor] ¿Qué hace esta operación?",
+      "opciones": [
+        "Sustituye el contenido de menuGestor por el de menuAdministrador.",
+        "Sustituye el contenido de menuAdministrador por el de menuGestor.",
+        "Genera un nuevo array que contiene únicamente los elementos comunes entre menuGestor and menuAdministrador.",
+        "Genera un nuevo array con el contenido de menuAdministrador y menuGestor."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El operador de propagación (spread operator) `...` en TypeScript y ES6 expande los elementos de un array. `[...menuAdministrador, ...menuGestor]` genera un nuevo array concatenando los elementos de ambos."
+    },
+    {
+      "id": 5,
+      "globalId": 90,
+      "seccion": "Supuesto I",
+      "pregunta": "Necesita instalar Entity Framework en la API de .NET. ¿Con qué comando se puede hacer?",
+      "opciones": [
+        "dotnet package add Microsoft.EntityFrameworkCore",
+        "dotnet add package Microsoft.EntityFrameworkCore",
+        "dotnet add Microsoft.EntityFrameworkCore",
+        "dotnet package Microsoft.EntityFrameworkCore"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando oficial de la CLI de .NET para añadir un paquete de NuGet a un proyecto es `dotnet add package <NombrePaquete>`."
+    },
+    {
+      "id": 6,
+      "globalId": 91,
+      "seccion": "Supuesto I",
+      "pregunta": "Se va a desarrollar una nueva consulta en la API de .NET para obtener todos los usuarios cuyo primer apellido contenga una cadena de texto almacenada en una variable llamada “texto”. ¿Cuál sería la forma correcta de hacerlo?",
+      "opciones": [
+        "await context.Usuarios.Where(u => u.Apellido1.Contains(texto)).ToListAsync();",
+        "await context.Usuarios.Where(u => u.Apellido1.Like(texto)).ToListAsync();",
+        "await context.Usuarios(u => u.Apellido1.Where(texto)).ToListAsync();",
+        "await context.Usuarios(u => u.Apellido1.Contains(texto)).ToListAsync();"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En Entity Framework Core, la consulta asíncrona se realiza mediante `context.Usuarios.Where(u => u.Apellido1.Contains(texto)).ToListAsync()` usando expresiones lambda."
+    },
+    {
+      "id": 7,
+      "globalId": 92,
+      "seccion": "Supuesto I",
+      "pregunta": "Se está implementando un sistema de informes en la API de Java y uno de los datos a incluir es el total de asientos registrales recibidos en el año 2026. ¿Cuál es la forma correcta de hacerlo?",
+      "opciones": [
+        "asientos.collection().filter(n -> n.getAñoPresentacion() == 2026).sum();",
+        "asientos.stream().filter(n -> n.getAñoPresentacion() == 2026).count();",
+        "asientos.list().filter(n -> n.getAñoPresentacion() == 2026).sum();",
+        "asientos.set().filter(n -> n.getAñoPresentacion() == 2026).count();"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En Java 8 y versiones superiores, se utiliza `stream()` sobre una colección para filtrar elementos mediante predicados con `filter()` y contar el total acumulado utilizando el método terminal `count()`."
+    },
+    {
+      "id": 8,
+      "globalId": 93,
+      "seccion": "Supuesto I",
+      "pregunta": "Se desea añadir a la API de Java la integración con los servicios de Notifica. ¿Cómo podría, a partir del fichero notifica.wsdl, generar las clases Java para esos servicios web en un paquete llamado “notificaciones”?",
+      "opciones": [
+        "wsgen -d notificaciones notifica.wsdl",
+        "schemagen -p notificaciones notifica.wsdl",
+        "xjc -d notificaciones notifica.wsdl",
+        "wsimport -p notificaciones notifica.wsdl"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La herramienta de JDK `wsimport` genera artefactos portables de JAX-WS (clases Java de cliente) a partir de un archivo WSDL de definición de servicio web."
+    },
+    {
+      "id": 9,
+      "globalId": 94,
+      "seccion": "Supuesto I",
+      "pregunta": "Se necesita crear una vista en la base de datos SQL Server para saber cuántos expedientes ha tramitado cada usuario. ¿Cuál sería la forma correcta de crearla?",
+      "opciones": [
+        "CREATE VIEW ExpTramitados AS SELECT IdUsuarioTramitador, COUNT(IdExpediente) AS TotalExpedientes FROM Expedientes;",
+        "CREATE VIEW ExpTramitados AS SELECT IdUsuarioTramitador, IdExpediente FROM Expedientes GROUP BY IdUsuarioTramitador;",
+        "CREATE VIEW ExpTramitados AS SELECT IdUsuarioTramitador, COUNT(IdExpediente) FROM Expedientes GROUP BY IdUsuarioTramitador;",
+        "CREATE VIEW ExpTramitados AS SELECT IdUsuarioTramitador, SUM(IdExpediente) FROM Expedientes GROUP BY IdUsuarioTramitador."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La sentencia correcta en T-SQL de SQL Server para crear una vista agrupada con recuento es `CREATE VIEW ExpTramitados AS SELECT IdUsuarioTramitador, COUNT(IdExpediente) FROM Expedientes GROUP BY IdUsuarioTramitador;` sin usar alias que omitan campos del GROUP BY."
+    },
+    {
+      "id": 10,
+      "globalId": 95,
+      "seccion": "Supuesto I",
+      "pregunta": "Al acceder a la aplicación se quiere mostrar una serie de información para los administradores. ¿Qué sentencia de SQL Server es la correcta para obtener los últimos 10 usuarios dados de alta en una tabla de 100 usuarios?",
+      "opciones": [
+        "SELECT TOP(10) Nombre, Apellido1, Apellido2 FROM Usuarios ORDER BY FechaCreacion DESC;",
+        "SELECT TOP(10) Nombre, Apellido1, Apellido2 FROM Usuarios WHERE FechaCreacion > '2026-01-22T00:00:00';",
+        "SELECT TOP(10) Nombre, Apellido1, Apellido2 FROM Usuarios ORDER BY FechaCreacion ASC;",
+        "SELECT Nombre, Apellido1, Apellido2, TOP(10) FechaCreacion FROM Usuarios ORDER BY FechaCreacion;"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Para obtener los últimos registros en SQL Server, se usa `SELECT TOP(10)` ordenando los resultados en orden descendente (`ORDER BY FechaCreacion DESC`)."
+    },
+    {
+      "id": 11,
+      "globalId": 96,
+      "seccion": "Supuesto I",
+      "pregunta": "Debido a unas pruebas realizadas en el entorno de preproducción, la secuencia de la identidad de una tabla de SQL Server se ha desajustado y necesita reiniciarla. ¿Cómo lo haría?",
+      "opciones": [
+        "DBCC RESETIDENT(‘TablaPruebas’);",
+        "DBCC CHECKIDENT(‘TablaPruebas’);",
+        "DBCC RESETIDENT(‘TablaPruebas, NORESEED);",
+        "DBCC CHECKIDENT(‘TablaPruebas’, NORESEED)."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Para verificar o restablecer el valor actual de identidad de una tabla en SQL Server se ejecuta el comando de consola DBCC CHECKIDENT."
+    },
+    {
+      "id": 12,
+      "globalId": 97,
+      "seccion": "Supuesto I",
+      "pregunta": "Para evitar ataques XSS mediante rastreo MIME se va a añadir una cabecera a las respuestas de las dos APIs al frontend. ¿De qué cabecera se trata?",
+      "opciones": [
+        "X-Frame-Options: DENY",
+        "X-Content-Type-Options: nosniff",
+        "X-XSS-Protection: 0",
+        "Content-Security-Policy: default-src https:"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La cabecera de seguridad HTTP `X-Content-Type-Options: nosniff` previene que los navegadores realicen sniffing de tipo MIME, mitigando ataques de inyección XSS basados en archivos maliciosos disfrazados."
+    },
+    {
+      "id": 13,
+      "globalId": 98,
+      "seccion": "Supuesto I",
+      "pregunta": "En las peticiones a la API de persistencia observa que se incluye la cabecera: Authorization: Bearer eyJhbG.eyJzdW.KMUFsI ¿De qué tipo de autenticación se trata?",
+      "opciones": [
+        "Básica.",
+        "A través de una API Key.",
+        "A través de una cookie.",
+        "A través de un JWT (JSON Web Token)."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La cabecera `Authorization: Bearer <token>` indica un mecanismo de autenticación por tokens mediante el estándar JWT (JSON Web Token)."
+    },
+    {
+      "id": 14,
+      "globalId": 99,
+      "seccion": "Supuesto I",
+      "pregunta": "Revisando el código HTML del apartado de gestión de usuarios de la aplicación ha detectado un problema de accesibilidad web: <h1>Gestión de usuarios</h1> <span><strong>Seleccione un usuario para ver acciones</strong></span> <h3>Administradores</h3> Indique cuál es:",
+      "opciones": [
+        "Se está usando <strong>, en lugar de <b>, para dar mayor importancia semántica al texto.",
+        "Se está usando <span>, en lugar de <p>, para mostrar un texto.",
+        "Hay un salto en la jerarquía de encabezados, de <h1> a <h3>, sin pasar por <h2>.",
+        "Falta un elemento <div> para contener a todos los demás elementos."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En la jerarquía semántica de accesibilidad HTML (WCAG), no se debe saltar niveles de encabezados (por ejemplo, pasar de `<h1>` a `<h3>` directamente sin que exista un `<h2>` intermedio)."
+    },
+    {
+      "id": 15,
+      "globalId": 100,
+      "seccion": "Supuesto I",
+      "pregunta": "En la API de persistencia encuentra una clase con el siguiente método: public void crearExpediente() { this.expediente.crearCarpetas(); this.expediente.crearDocumentos(); this.expediente.crearIndice(); } ¿Qué patrón de diseño se está utilizando?",
+      "opciones": [
+        "Abstract factory.",
+        "Composite.",
+        "Factory method.",
+        "Builder."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El método `crearExpediente()` actúa como un director coordinando la construcción paso a paso de las partes de un expediente complejo, lo cual caracteriza al patrón de diseño Builder."
+    },
+    {
+      "id": 16,
+      "globalId": 101,
+      "seccion": "Supuesto I",
+      "pregunta": "Se va a proceder a realizar pruebas unitarias en la API de persistencia con la herramienta Nunit 3.0. ¿Cuál de las siguientes opciones es una definición correcta de una clase de pruebas?",
+      "opciones": [
+        "[TestFixture] public sealed class Tests { [Test] public void Test() {} }",
+        "[TestFixture] public sealed class Tests { [TestSample] public void Test() {} }",
+        "[TestGroup] public sealed class Tests { [TestCase] public void Test() {} }",
+        "[TestCaseSource] public sealed class Tests { [TestCase] public void Test() {} }"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En NUnit 3, una clase que contiene pruebas se decora con el atributo `[TestFixture]` y cada método de prueba individual se marca con `[Test]`."
+    },
+    {
+      "id": 17,
+      "globalId": 102,
+      "seccion": "Supuesto I",
+      "pregunta": "Uno de sus compañeros ha desarrollado un servicio REST que recibe un JSON y le ha pedido ayuda para probar su funcionamiento, para lo cual va a utilizar la herramienta Postman versión 12. ¿Con qué tipo de dato debería enviar el cuerpo de la petición?",
+      "opciones": [
+        "none",
+        "GraphQL",
+        "raw",
+        "x-www-form-urlencoded"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Para enviar un objeto JSON en el cuerpo de una petición HTTP en Postman, se debe seleccionar la opción `raw` y establecer el tipo de formato a JSON."
+    },
+    {
+      "id": 18,
+      "globalId": 103,
+      "seccion": "Supuesto I",
+      "pregunta": "Se ha detectado un error en una de las últimas subidas de código a la rama develop del repositorio. Tras una fase de investigación, sospecha que el error está en un commit concreto. ¿Con qué operación de Git puede incorporar ese commit a una rama aparte para continuar su investigación?",
+      "opciones": [
+        "git banana-pick",
+        "git cherry-pick",
+        "git berry-pick",
+        "git grape-pick"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La operación `git cherry-pick <commit-hash>` permite aplicar selectivamente los cambios introducidos por un commit específico de otra rama sobre la rama actual de trabajo."
+    },
+    {
+      "id": 19,
+      "globalId": 104,
+      "seccion": "Supuesto I",
+      "pregunta": "Un compañero le consulta por los formatos en los que puede generar la documentación de OpenAPI/Swagger. ¿Cuáles son?",
+      "opciones": [
+        "YAML y HTML.",
+        "JSON y XML.",
+        "YAML y JSON.",
+        "HTML y XML."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La especificación OpenAPI/Swagger permite definir la documentación de APIs en formatos estructurados de serialización de datos como YAML y JSON."
+    },
+    {
+      "id": 20,
+      "globalId": 105,
+      "seccion": "Supuesto I",
+      "pregunta": "Para evitar ataques de denegación de servicio se ha decidido implementar un control de peticiones máximas en un periodo de tiempo concreto (rate limiting). ¿Qué código HTTP deberá devolverse cuando un usuario alcance el límite establecido?",
+      "opciones": [
+        "425",
+        "429",
+        "502",
+        "503"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El código de estado HTTP `429 Too Many Requests` indica que el cliente ha superado el límite de peticiones permitido en un periodo de tiempo determinado (rate limiting)."
+    },
+    {
+      "id": 1,
+      "globalId": 106,
+      "seccion": "Reserva Supuesto I",
+      "pregunta": "¿Con qué tipo de fichero debe trabajar si desea implementar pruebas unitarias en un componente del frontend?",
+      "opciones": [
+        "component.ts",
+        "test.ts",
+        "module.ts",
+        "spec.ts"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "En los desarrollos de Angular, los archivos de pruebas unitarias de los componentes se nombran tradicionalmente con la extensión `.spec.ts`."
+    },
+    {
+      "id": 2,
+      "globalId": 107,
+      "seccion": "Reserva Supuesto I",
+      "pregunta": "En uno de los componentes del frontend detecta la siguiente expresión regular para controlar el campo de entrada del teléfono: [\\+34|34]*[ -]*(3)[0-9]{8} ¿Cuál de las siguientes opciones cumple la expresión regular?",
+      "opciones": [
+        "641992011",
+        "641 992 011",
+        "+34 641992011",
+        "+34641992011"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La expresión regular valida números telefónicos que empiecen con prefijos opcionales y contengan el número '3' seguido de 8 dígitos numéricos."
+    },
+    {
+      "id": 3,
+      "globalId": 108,
+      "seccion": "Reserva Supuesto I",
+      "pregunta": "Le consultan si conoce alguna herramienta para formatear el código de la aplicación. ¿Cuál de las siguientes es una opción válida para ello?",
+      "opciones": [
+        "SonarQube.",
+        "Prettier.",
+        "Quokka.",
+        "PMD."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Prettier es una herramienta automatizada y muy popular de formateo de código para múltiples lenguajes que mantiene un estilo visual consistente."
+    },
+    {
+      "id": 4,
+      "globalId": 109,
+      "seccion": "Reserva Supuesto I",
+      "pregunta": "En la Subdirección se han sustituido los ordenadores utilizados para desarrollar aplicaciones, y por tanto, debe clonarse el repositorio de código de la aplicación para continuar su trabajo. ¿Con qué comando de Git puede hacerlo?",
+      "opciones": [
+        "git clone",
+        "git init",
+        "git add",
+        "git create"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando `git clone <url>` descarga una copia completa del repositorio Git remoto en la máquina local para iniciar el desarrollo."
+    },
+    {
+      "id": 5,
+      "globalId": 110,
+      "seccion": "Reserva Supuesto I",
+      "pregunta": "Tras realizar una modificación en la API de Java se necesita aumentar el número de versión de la API. ¿Qué fichero deberá modificar para ello, suponiendo que se usa Maven 3.9?",
+      "opciones": [
+        "package.json",
+        "pom.xml",
+        ".csproj",
+        "package-lock.json"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En proyectos gestionados con Maven en Java, la versión de la aplicación y sus dependencias se configuran en el archivo XML raíz llamado `pom.xml`."
+    },
+    {
+      "id": 1,
+      "globalId": 111,
+      "seccion": "Supuesto II",
+      "pregunta": "En el servidor RHEL se tiene un fichero script.sh con permisos -rw-r--r--, ¿qué comando permite hacerlo ejecutable solo por el propietario, sin modificar los permisos de grupo ni otros usuarios?",
+      "opciones": [
+        "chmod +x script.sh",
+        "chmod 755 script.sh",
+        "chmod u+x script.sh",
+        "chmod a+x script.sh"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En Linux, `chmod u+x` añade de forma exclusiva permisos de ejecución (+x) para el propietario (u) del archivo sin alterar los permisos de los demás roles."
+    },
+    {
+      "id": 2,
+      "globalId": 112,
+      "seccion": "Supuesto II",
+      "pregunta": "También necesita saber en RHEL cuál de los siguientes comandos se utiliza para crear un nuevo directorio en la ubicación actual:",
+      "opciones": [
+        "mkdir nuevo_directorio",
+        "md nuevo_directorio",
+        "touch nuevo_directorio",
+        "create nuevo_directorio"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando `mkdir nuevo_directorio` (make directory) crea un nuevo directorio en la ruta actual de sistemas tipo Unix/Linux."
+    },
+    {
+      "id": 3,
+      "globalId": 113,
+      "seccion": "Supuesto II",
+      "pregunta": "Le han asignado una incidencia referida a un sistema Linux y le preguntan qué muestra el comando hostname -f",
+      "opciones": [
+        "Muestra la forma abreviada del nombre del equipo.",
+        "Muestra el formato del nombre del sistema.",
+        "Muestra la función de resolución del nombre del equipo.",
+        "Muestra el nombre completo cualificado (FQDN) del equipo."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La opción `-f` en el comando `hostname` devuelve el FQDN (Fully Qualified Domain Name) completo del sistema."
+    },
+    {
+      "id": 4,
+      "globalId": 114,
+      "seccion": "Supuesto II",
+      "pregunta": "En los servidores Windows 2019 Standard del organismo se le solicita comprobar con netsh advfirewall el estado del perfil activo del Firewall de Windows. Indique cómo debería realizarlo desde la línea de comandos:",
+      "opciones": [
+        "netsh advfirewall get currentprofile",
+        "netsh advfirewall show currentprofile",
+        "netsh advfirewall show profile",
+        "netsh advfirewall show currentprofile status"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En sistemas Windows Server, `netsh advfirewall show currentprofile` muestra las propiedades y configuración del perfil del Firewall que está activo."
+    },
+    {
+      "id": 5,
+      "globalId": 115,
+      "seccion": "Supuesto II",
+      "pregunta": "También se necesita activar el Firewall de Windows para el perfil actual con netsh advfirewall. ¿Qué comando utilizaría?",
+      "opciones": [
+        "netsh advfirewall enable currentprofile",
+        "netsh advfirewall set state on currentprofile",
+        "netsh advfirewall set currentprofile on",
+        "netsh advfirewall set currentprofile state on"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Para habilitar el perfil del Firewall actual se ejecuta `netsh advfirewall set currentprofile state on`."
+    },
+    {
+      "id": 6,
+      "globalId": 116,
+      "seccion": "Supuesto II",
+      "pregunta": "En un servidor con IIS 10 sobre Windows Server 2019, se necesita crear una copia de seguridad manual de la configuración actual del servidor utilizando AppCmd, a la que debe llamar \"BackupManual\". ¿Qué comando utilizaría?",
+      "opciones": [
+        "appcmd create backup \"BackupManual\"",
+        "appcmd backup add \"BackupManual\"",
+        "appcmd add backup \"BackupManual\"",
+        "appcmd new backup \"BackupManual\""
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La utilidad de administración de IIS AppCmd permite realizar copias de seguridad de la configuración mediante `appcmd add backup \"BackupManual\"`."
+    },
+    {
+      "id": 7,
+      "globalId": 117,
+      "seccion": "Supuesto II",
+      "pregunta": "Y, ¿qué comando utilizaría para conocer todas las copias de seguridad de configuración del IIS?",
+      "opciones": [
+        "appcmd show backup",
+        "appcmd list backup",
+        "appcmd get backup",
+        "appcmd enumerate backup"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Para enumerar y listar todas las copias de seguridad de configuración de IIS disponibles con AppCmd se utiliza `appcmd list backup`."
+    },
+    {
+      "id": 8,
+      "globalId": 118,
+      "seccion": "Supuesto II",
+      "pregunta": "En el organismo se están planteando cambiar el sistema de copias de seguridad. ¿Con qué sistema se podrían eliminar las cintas?",
+      "opciones": [
+        "VTL",
+        "VDL",
+        "VDI",
+        "CDI"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Una librería de cintas virtuales (VTL - Virtual Tape Library) permite a los sistemas de backup tradicionales sustituir el uso de cintas magnéticas físicas por almacenamiento en disco."
+    },
+    {
+      "id": 9,
+      "globalId": 119,
+      "seccion": "Supuesto II",
+      "pregunta": "Está en una reunión de comunicaciones sobre TLS 1.3, cuando un servidor negocia la comunicación, recibe el mensaje \"ClientHello\" y acepta los parámetros propuestos, ¿qué ocurre en un flujo válido?",
+      "opciones": [
+        "Se termina la conexión y se recibe el mensaje o alerta \"reset\".",
+        "El servidor manda el mensaje ServerHello.",
+        "Se termina la conexión y se recibe el mensaje o alerta \"end\".",
+        "Se continúa la comunicación con un mensaje \"ack\"."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En el protocolo de enlace (handshake) de TLS 1.3, el servidor responde al ClientHello inicial enviando de vuelta un mensaje ServerHello con los parámetros criptográficos seleccionados."
+    },
+    {
+      "id": 10,
+      "globalId": 120,
+      "seccion": "Supuesto II",
+      "pregunta": "En los servidores que funcionan con Tomcat 9 se le solicita reiniciar el servicio de Tomcat, ¿cómo lo haría?",
+      "opciones": [
+        "systemctl restart tomcat9",
+        "systemctl restart tomcat",
+        "systemctl start -r tomcat",
+        "sudo -i systemctl tomcat -r"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En sistemas Linux modernos con systemd, la gestión de servicios se realiza con systemctl; para reiniciar el servicio de Tomcat 9 se ejecuta `systemctl restart tomcat9`."
+    },
+    {
+      "id": 11,
+      "globalId": 121,
+      "seccion": "Supuesto II",
+      "pregunta": "En el organismo se usa como servicio de correo Microsoft 365, y se quiere configurar una aplicación para que envíe correos de manera segura. ¿Cuál es el puerto que se debería usar para poder utilizar el SMTP autenticado con STARTTLS?",
+      "opciones": [
+        "995",
+        "993",
+        "587",
+        "143"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El puerto TCP 587 es el puerto estándar recomendado para el envío de correo SMTP con autenticación de cliente y cifrado oportunista mediante STARTTLS."
+    },
+    {
+      "id": 12,
+      "globalId": 122,
+      "seccion": "Supuesto II",
+      "pregunta": "También, para el servidor Windows 2019 Standard que contiene el DA (Directorio Activo), le preguntan cuál sería el comando cmdlet de PowerShell para crear un nuevo sitio llamado PLANI:",
+      "opciones": [
+        "New-ADSite PLANI",
+        "New-ADReplicationSite PLANI",
+        "New-ADReplication PLANI",
+        "Set-ADReplication PLANI"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En PowerShell para Directorio Activo, el cmdlet `New-ADReplicationSite` se utiliza para crear un nuevo sitio de replicación física en la infraestructura."
+    },
+    {
+      "id": 13,
+      "globalId": 123,
+      "seccion": "Supuesto II",
+      "pregunta": "En un puerto de un switch Cisco se quiere conectar un PC de la VLAN de usuarios, denominada VLAN 10, ¿con qué sentencia/s se configura correctamente?",
+      "opciones": [
+        "\"switchport mode trunk\" y \"switchport trunk access vlan 10\"",
+        "\"switchport mode access\" y \"switchport access vlan 10\"",
+        "\"switchport mode dynamic desirable\"",
+        "\"switchport mode trunk\" y \"switchport trunk allowed vlan 10\""
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En switches Cisco, para configurar un puerto de acceso conectado a un equipo en una VLAN de usuarios específica, se configuran los comandos `switchport mode access` y `switchport access vlan <ID>`."
+    },
+    {
+      "id": 14,
+      "globalId": 124,
+      "seccion": "Supuesto II",
+      "pregunta": "Le solicitan revisar rápidamente las 50 últimas líneas del registro del servicio nginx usando el journal, ¿qué orden es correcta?",
+      "opciones": [
+        "journalctl -u nginx --last=50",
+        "journalctl nginx -t 50",
+        "tail -n 50 /var/log/messages",
+        "journalctl -u nginx -n 50"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El comando `journalctl -u nginx -n 50` filtra las bitácoras del servicio systemd de nginx devolviendo exclusivamente las últimas 50 líneas."
+    },
+    {
+      "id": 15,
+      "globalId": 125,
+      "seccion": "Supuesto II",
+      "pregunta": "Se ha observado que el servicio nginx del servidor web01 no arranca y el log indica un error “permission denied” al acceder a /var/www/html. El sistema tiene configurado SELinux en modo enforcing. ¿Qué herramienta permite analizar la causa concreta del bloqueo?",
+      "opciones": [
+        "semange",
+        "getsebool",
+        "restorecon",
+        "sealert"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La herramienta `sealert` (parte de setroubleshoot) decodifica y analiza los mensajes de auditoría del sistema de SELinux, sugiriendo soluciones para los bloqueos de políticas."
+    },
+    {
+      "id": 16,
+      "globalId": 126,
+      "seccion": "Supuesto II",
+      "pregunta": "En el organismo se quiere disponer de un sistema de vigilancia de la red y se ha optado por la sonda SAT INET del CCN-CERT. Según su arquitectura, ¿cómo se realizan las comunicaciones de la sonda con el sistema central?",
+      "opciones": [
+        "Por medio de un túnel cifrado se inicia desde la sonda hacia el sistema central.",
+        "Por medio de un túnel cifrado se inicia desde el sistema central hacia la sonda.",
+        "Por medio de un túnel cifrado siempre que la comunicación se efectúe por Internet.",
+        "Por medio de un túnel cifrado que discurre siempre a través del AC del organismo."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La sonda de red SAT INET inicia las comunicaciones seguras estableciendo de forma proactiva un túnel cifrado hacia el sistema central de supervisión del CCN-CERT."
+    },
+    {
+      "id": 17,
+      "globalId": 127,
+      "seccion": "Supuesto II",
+      "pregunta": "El organismo dispone de una red con dirección 192.168.1.0/24 y necesita dividirla en subredes de modo que cada subred disponga de al menos 100 hosts utilizables. ¿Cuál de las siguientes máscaras sería la más adecuada?",
+      "opciones": [
+        "/25",
+        "/26",
+        "/27",
+        "/28"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Una red `/25` proporciona 128 direcciones IP totales, de las cuales 126 son utilizables para hosts, cumpliendo el requisito de albergar un mínimo de 100 hosts en una subred."
+    },
+    {
+      "id": 18,
+      "globalId": 128,
+      "seccion": "Supuesto II",
+      "pregunta": "Le preguntan cuál de los siguientes prefijos de dirección IPv6 define direcciones de tipo Multicast:",
+      "opciones": [
+        "FF00::/8",
+        "FEC0::/10",
+        "FE80::/10",
+        "FC00::/7"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El prefijo IPv6 `FF00::/8` está reservado por la IANA de forma exclusiva para la asignación de direcciones de multidifusión (multicast)."
+    },
+    {
+      "id": 19,
+      "globalId": 129,
+      "seccion": "Supuesto II",
+      "pregunta": "Su organismo dispone de un sistema Docker en uno de los servidores RHEL. ¿Qué comando permite listar todos los contenedores, incluidos los detenidos independientemente de su estado?",
+      "opciones": [
+        "docker ls -a",
+        "docker ps -a",
+        "docker container ls",
+        "docker list -a"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El comando de la CLI de Docker `docker ps -a` (o `docker container ls -a`) enumera todos los contenedores del sistema, mostrando tanto los que están activos como los detenidos."
+    },
+    {
+      "id": 20,
+      "globalId": 130,
+      "seccion": "Supuesto II",
+      "pregunta": "Se necesita obtener los nombres de los servicios que están en ejecución en un sistema Windows mediante PowerShell. ¿Cuál de los siguientes comandos devuelve ese resultado?",
+      "opciones": [
+        "Get-Service | Where-Object {$_.Status -eq \"Enabled\"} | Select-Object Name",
+        "Get-Service | Where-Object {$_.Status -eq \"Running\"} | Select-Object Name",
+        "Get-Service | Where-Object {$_.Status -eq \"Started\"} | Select-Object Name",
+        "Get-Service | Where-Object {$_.Status -eq \"Active\"} | Select-Object Name"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En PowerShell de Windows, `Get-Service | Where-Object {$_.Status -eq \"Running\"} | Select-Object Name` filtra por objetos de servicios activos cuyo estado actual sea de ejecución y proyecta únicamente sus nombres."
+    },
+    {
+      "id": 1,
+      "globalId": 131,
+      "seccion": "Reserva Supuesto II",
+      "pregunta": "Señale la respuesta correcta acerca de la técnica de multiplexación CDMA:",
+      "opciones": [
+        "Separa ortogonalmente las subportadoras en el espectro del tiempo.",
+        "Define pequeños intervalos de guarda de frecuencia para acomodar las diferentes variaciones en los slots de transmisión.",
+        "Verifica la ausencia de señal antes de transmitir en un medio compartido.",
+        "Utiliza una secuencia de bits (chips) de modo que permite que diferentes señales compartan una misma banda de frecuencia."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La multiplexación CDMA (Code Division Multiple Access) asigna un código matemático único de secuencia de bits (chips) a cada transmisión para compartir la misma banda de frecuencia."
+    },
+    {
+      "id": 2,
+      "globalId": 132,
+      "seccion": "Reserva Supuesto II",
+      "pregunta": "Si en el organismo se desea desplegar una red inalámbrica de nueva generación basada en WiFi 6, ¿qué estándar IEEE corresponde a esta tecnología?",
+      "opciones": [
+        "802.11an",
+        "802.11ax",
+        "802.11ac",
+        "802.11be"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El estándar internacional IEEE 802.11ax especifica los requisitos físicos de funcionamiento para la tecnología de redes inalámbricas WiFi 6."
+    },
+    {
+      "id": 3,
+      "globalId": 133,
+      "seccion": "Reserva Supuesto II",
+      "pregunta": "En SNMP, el conjunto de OID (Object IDentifier) que tiene disponible un dispositivo se conoce como:",
+      "opciones": [
+        "MIB (Management Information Base).",
+        "MIR (Management Information Repository).",
+        "OID Database.",
+        "OID Group."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La MIB (Management Information Base) define la base de datos jerárquica estructurada que contiene los identificadores de objetos (OID) gestionables por el protocolo SNMP."
+    },
+    {
+      "id": 4,
+      "globalId": 134,
+      "seccion": "Reserva Supuesto II",
+      "pregunta": "En el servidor de Base de Datos SQL Server del organismo, ¿qué puerto por defecto usa el Motor de base de datos (instancia predeterminad",
+      "opciones": [
+        "?** a) UDP 5430",
+        "TCP 5431",
+        "TCP 1433",
+        "UDP 2000"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El motor de base de datos predeterminado de Microsoft SQL Server utiliza el puerto de red TCP 1433 de forma estática para la comunicación cliente-servidor."
+    },
+    {
+      "id": 5,
+      "globalId": 135,
+      "seccion": "Reserva Supuesto II",
+      "pregunta": "¿Qué registro DNS dirige el correo entrante al servidor del dominio?",
+      "opciones": [
+        "A",
+        "CNAME",
+        "MX",
+        "TXT"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El registro MX (Mail Exchanger) en el servidor de nombres DNS indica hacia qué servidor de correo específico deben redirigirse los correos entrantes del dominio."
+    }
+  ]
+}
