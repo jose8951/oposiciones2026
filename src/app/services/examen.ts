@@ -11,6 +11,7 @@ export class ExamenService {
 
   // Dejamos las rutas mapeadas con una clave para identificarlas fácilmente
   private rutasExamenes: { [key: string]: string } = {
+    '2026':'assets/data/examen2026.json',
     '2025a': 'assets/data/examen2025a.json', // <-- Añadido
     '2025b': 'assets/data/examen2025b.json', // <-- Añadido
     '2024a': 'assets/data/examen2024a.json',

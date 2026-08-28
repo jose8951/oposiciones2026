@@ -46,7 +46,7 @@ export const routes: Routes = [
   },
 
   // Ruta inicial por defecto
-  { path: '', redirectTo: 'examen2025a', pathMatch: 'full' },
+  { path: '', redirectTo: 'examen2026', pathMatch: 'full' },
   // 🛡️ CONTROL DE ERRORES: Si ponen cualquier URL inventada, redirige a la página principal
-  { path: '**', redirectTo: 'examen2025a' },
+  { path: '**', redirectTo: 'examen2026' },
 ];

@@ -1,98 +1,48 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
   <div class="container-fluid px-4">
     
-    <a class="navbar-brand fw-bold d-flex align-items-center gap-2" routerLink="/">
+    <a class="navbar-brand fw-bold d-flex align-items-center gap-2" routerLink="/examen2026">
       🎯 Oposición 2026
     </a>
-    
-    <button 
-      class="navbar-toggler border-0" 
-      type="button" 
-      data-bs-toggle="collapse" 
-      data-bs-target="#navbarNav" 
-      aria-controls="navbarNav" 
-      aria-expanded="false" 
-      aria-label="Toggle navigation"
-    >
+
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
+
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav align-items-lg-center gap-1 my-2 my-lg-0">
 
-   <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2026" routerLinkActive="active fw-bold text-white">2026</a>
-        </li>
+        <!-- Generación dinámica de botones de exámenes -->
+        @for (item of examenes; track item.route) {
+          <li class="nav-item">
+            <a class="nav-link px-3" [routerLink]="item.route" routerLinkActive="active fw-bold text-white">
+              {{ item.label }}
+            </a>
+          </li>
+        }
 
-        <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2025a" routerLinkActive="active fw-bold text-white">2025A</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2025b" routerLinkActive="active fw-bold text-white">2025B</a>
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2024a" routerLinkActive="active fw-bold text-white">2024A</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2024b" routerLinkActive="active fw-bold text-white">2024B</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2023" routerLinkActive="active fw-bold text-white">2023</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2019" routerLinkActive="active fw-bold text-white">2019</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link px-3" routerLink="/examen2018" routerLinkActive="active fw-bold text-white">2018</a>
-        </li>
-
+        <!-- Desplegable dinámico de PDFs -->
         <li class="nav-item dropdown mx-lg-2">
-          <a 
-            class="nav-link dropdown-toggle d-flex align-items-center gap-1 px-3" 
-            href="#" 
-            id="pdfDropdown" 
-            role="button" 
-            data-bs-toggle="dropdown" 
-            aria-expanded="false"
-          >
+          <a class="nav-link dropdown-toggle d-flex align-items-center gap-1 px-3" href="#" id="pdfDropdown" role="button" data-bs-toggle="dropdown">
             📚 PDFs Oficiales
           </a>
           <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-3 mt-lg-2" aria-labelledby="pdfDropdown">
-
-            <li><h6 class="dropdown-header text-primary fw-bold">Examen 2025 - Bloque A</h6></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_A_2025', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas (A)</a></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_A_2025', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección (A)</a></li>
-            <li><hr class="dropdown-divider my-1"></li>
-
-            <li><h6 class="dropdown-header text-primary fw-bold">Examen 2025 - Bloque B</h6></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_B_2025', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas (B)</a></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_B_2025', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección (B)</a></li>
-            <li><hr class="dropdown-divider my-1"></li>
-            
-            <li><h6 class="dropdown-header text-primary fw-bold">Examen 2024 - Bloque A</h6></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_A_2024', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas (A)</a></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_A_2024', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección (A)</a></li>
-            <li><hr class="dropdown-divider my-1"></li>
-
-            <li><h6 class="dropdown-header text-primary fw-bold">Examen 2024 - Bloque B</h6></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_B_2024', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas (B)</a></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_B_2024', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección (B)</a></li>
-            <li><hr class="dropdown-divider my-1"></li>
-
-            <li><h6 class="dropdown-header text-primary fw-bold">Examen 2023</h6></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_2023', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas</a></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_2023', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección</a></li>
-            <li><hr class="dropdown-divider my-1"></li>
-
-            <li><h6 class="dropdown-header text-primary fw-bold">Examen 2019</h6></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_2019', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas</a></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_2019', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección</a></li>
-            <li><hr class="dropdown-divider my-1"></li>
-
-            <li><h6 class="dropdown-header text-primary fw-bold">Examen 2018</h6></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_2018', 'preguntas']" target="_blank" routerLinkActive="active text-white">📄 Cuestionario Preguntas</a></li>
-            <li><a class="dropdown-item py-2" [routerLink]="['/pdf', 'Tai_oposion_2018', 'resultados']" target="_blank" routerLinkActive="active text-white">✅ Plantilla Corrección</a></li>
+            @for (pdf of pdfs; track pdf.id; let last = $last) {
+              <li><h6 class="dropdown-header text-primary fw-bold">{{ pdf.titulo }}</h6></li>
+              <li>
+                <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'preguntas']" target="_blank" routerLinkActive="active text-white">
+                  📄 Cuestionario Preguntas{{ pdf.suffix }}
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'resultados']" target="_blank" routerLinkActive="active text-white">
+                  ✅ Plantilla Corrección{{ pdf.suffix }}
+                </a>
+              </li>
+              @if (!last) {
+                <li><hr class="dropdown-divider my-1" /></li>
+              }
+            }
           </ul>
         </li>
 
@@ -104,6 +54,6 @@
 
       </ul>
     </div>
-    
+
   </div>
 </nav>
