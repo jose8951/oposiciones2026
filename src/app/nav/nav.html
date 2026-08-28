@@ -10,33 +10,31 @@
     </button>
 
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav align-items-lg-center gap-1 my-2 my-lg-0">
+      <ul class="navbar-nav align-items-lg-center gap-1 my-2 my-lg-0 me-3">
 
-        <!-- Generación dinámica de botones de exámenes -->
         @for (item of examenes; track item.route) {
           <li class="nav-item">
-            <a class="nav-link px-3" [routerLink]="item.route" routerLinkActive="active fw-bold text-white">
+            <a class="nav-link px-2" [routerLink]="item.route" routerLinkActive="active fw-bold text-white">
               {{ item.label }}
             </a>
           </li>
         }
 
-        <!-- Desplegable dinámico de PDFs -->
-        <li class="nav-item dropdown mx-lg-2">
-          <a class="nav-link dropdown-toggle d-flex align-items-center gap-1 px-3" href="#" id="pdfDropdown" role="button" data-bs-toggle="dropdown">
-            📚 PDFs Oficiales
+        <li class="nav-item dropdown mx-lg-1">
+          <a class="nav-link dropdown-toggle d-flex align-items-center gap-1 px-2" href="#" id="pdfDropdown" role="button" data-bs-toggle="dropdown">
+            📚 PDFs
           </a>
           <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-3 mt-lg-2" aria-labelledby="pdfDropdown">
             @for (pdf of pdfs; track pdf.id; let last = $last) {
               <li><h6 class="dropdown-header text-primary fw-bold">{{ pdf.titulo }}</h6></li>
               <li>
-                <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'preguntas']" target="_blank" routerLinkActive="active text-white">
-                  📄 Cuestionario Preguntas{{ pdf.suffix }}
+                <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'preguntas']" target="_blank">
+                  📄 Cuestionario Preguntas{{ pdf.label }}
                 </a>
               </li>
               <li>
-                <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'resultados']" target="_blank" routerLinkActive="active text-white">
-                  ✅ Plantilla Corrección{{ pdf.suffix }}
+                <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'resultados']" target="_blank">
+                  ✅ Plantilla Corrección{{ pdf.label }}
                 </a>
               </li>
               @if (!last) {
@@ -46,13 +44,23 @@
           </ul>
         </li>
 
-        <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
-          <a class="btn btn-warning btn-sm fw-bold px-3 rounded-pill shadow-sm d-inline-block" routerLink="/ce" routerLinkActive="bg-white text-dark">
+        <li class="nav-item ms-lg-1">
+          <a class="btn btn-warning btn-sm fw-bold px-3 rounded-pill shadow-sm" routerLink="/ce" routerLinkActive="bg-white text-dark">
             ⚖️ C.E.
           </a>
         </li>
 
       </ul>
+
+  <li class="nav-item ms-lg-2">
+  <a 
+    class="btn btn-outline-light btn-sm fw-bold px-3 rounded-pill" 
+    routerLink="/buscar" 
+    routerLinkActive="active bg-white text-primary">
+    🔍 Buscar
+  </a>
+</li>
+
     </div>
 
   </div>

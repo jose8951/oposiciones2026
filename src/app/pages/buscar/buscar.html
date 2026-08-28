@@ -1,0 +1,78 @@
+<div class="container my-5">
+  <!-- Cabecera y Buscador Central -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-md-8 text-center">
+      <h2 class="fw-bold mb-3">🔍 Buscador Global de Exámenes</h2>
+      <p class="text-muted">Consulta preguntas, respuestas y explicaciones en todos los exámenes guardados.</p>
+      
+      <div class="input-group input-group-lg shadow-sm rounded-pill overflow-hidden">
+        <input 
+          type="text" 
+          class="form-control border-0 px-4" 
+          placeholder="Escribe una palabra clave (ej. PHP, IP, Docker...)" 
+          [(ngModel)]="textoBusqueda"
+          (keyup.enter)="buscar()"
+        />
+        <button class="btn btn-primary px-4 fw-bold" type="button" (click)="buscar()">
+          Buscar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Indicador de Carga -->
+  @if (cargando) {
+    <div class="text-center my-5">
+      <div class="spinner-border text-primary" role="status"></div>
+      <p class="mt-2 text-muted">Buscando en todos los archivos JSON...</p>
+    </div>
+  }
+
+  <!-- Sin Resultados -->
+  @if (!cargando && busquedaRealizada && resultados.length === 0) {
+    <div class="alert alert-warning text-center rounded-3">
+      No se encontraron coincidencias para <strong>"{{ textoBusqueda }}"</strong>.
+    </div>
+  }
+
+  <!-- Lista de Resultados -->
+  @if (!cargando && resultados.length > 0) {
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h5 class="text-muted">Resultados encontrados: <span class="badge bg-primary">{{ resultados.length }}</span></h5>
+    </div>
+
+    <div class="d-flex flex-column gap-3">
+      @for (item of resultados; track $index) {
+        <div class="card border-0 shadow-sm rounded-3">
+          <div class="card-header bg-light d-flex justify-content-between align-items-center border-0 py-3 px-4">
+            <span class="badge bg-secondary px-3 py-2 fs-6">{{ item.examenOrigen }}</span>
+            @if (item.id) { <small class="text-muted">Pregunta #{{ item.id }}</small> }
+          </div>
+          <div class="card-body p-4">
+            <h5 class="card-title fw-bold text-dark mb-3">{{ item.pregunta }}</h5>
+            
+            <div class="list-group mb-3">
+              @for (opcion of item.opciones; track $index) {
+                <div class="list-group-item border-light py-2">
+                  {{ opcion }}
+                </div>
+              }
+            </div>
+
+            @if (item.respuestaCorrecta !== undefined) {
+              <div class="alert alert-success border-0 mb-2 py-2">
+                <strong>✅ Respuesta Correcta:</strong> {{ item.respuestaCorrecta }}
+              </div>
+            }
+
+            @if (item.explicacion) {
+              <div class="alert alert-info border-0 mb-0 py-2">
+                <strong>💡 Explicación:</strong> {{ item.explicacion }}
+              </div>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  }
+</div>
