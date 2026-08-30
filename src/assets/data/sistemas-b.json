@@ -1,0 +1,2005 @@
+{
+  "examen": "Banco de Preguntas Unificado - Opción B: Sistemas y Comunicaciones",
+  "preguntas": [
+    {
+      "id": 1,
+      "globalId": 111,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "En el servidor RHEL se tiene un fichero script.sh con permisos -rw-r--r--, ¿qué comando permite hacerlo ejecutable solo por el propietario, sin modificar los permisos de grupo ni otros usuarios?",
+      "opciones": [
+        "chmod +x script.sh",
+        "chmod 755 script.sh",
+        "chmod u+x script.sh",
+        "chmod a+x script.sh"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El comando `chmod u+x` añade el permiso de ejecución (`+x`) únicamente al propietario (`u`) del archivo script.sh, sin alterar los permisos para el grupo o para otros."
+    },
+    {
+      "id": 2,
+      "globalId": 112,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "También necesita saber en RHEL cuál de los siguientes comandos se utiliza para crear un nuevo directorio en la ubicación actual:",
+      "opciones": [
+        "mkdir nuevo_directorio",
+        "md nuevo_directorio",
+        "touch nuevo_directorio",
+        "create nuevo_directorio"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando estándar de Unix/Linux para crear directorios es `mkdir` (make directory)."
+    },
+    {
+      "id": 3,
+      "globalId": 113,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "Le han asignado una incidencia referida a un sistema Linux y le preguntan qué muestra el comando hostname -f",
+      "opciones": [
+        "Muestra la forma abreviada del nombre del equipo.",
+        "Muestra el formato del nombre del sistema.",
+        "Muestra la función de resolución del nombre del equipo.",
+        "Muestra el nombre completo cualificado (FQDN) del equipo."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La opción `-f` en el comando `hostname` en Linux muestra el FQDN (Fully Qualified Domain Name) o nombre completo cualificado del equipo."
+    },
+    {
+      "id": 4,
+      "globalId": 114,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "En los servidores Windows 2019 Standard del organismo se le solicita comprobar con netsh advfirewall el estado del perfil activo del Firewall de Windows. Indique cómo debería realizarlo desde la línea de comandos:",
+      "opciones": [
+        "netsh advfirewall get currentprofile",
+        "netsh advfirewall show currentprofile",
+        "netsh advfirewall show profile",
+        "netsh advfirewall show currentprofile status"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Para visualizar la configuración y estado del perfil actualmente activo del cortafuegos con seguridad avanzada de Windows Defender se utiliza `netsh advfirewall show currentprofile`."
+    },
+    {
+      "id": 5,
+      "globalId": 115,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "También se necesita activar el Firewall de Windows para el perfil actual con netsh advfirewall. ¿Qué comando utilizaría?",
+      "opciones": [
+        "netsh advfirewall enable currentprofile",
+        "netsh advfirewall set state on currentprofile",
+        "netsh advfirewall set currentprofile on",
+        "netsh advfirewall set currentprofile state on"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El comando correcto de netsh para cambiar el estado del perfil actual de firewall a encendido es `netsh advfirewall set currentprofile state on`."
+    },
+    {
+      "id": 6,
+      "globalId": 116,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "En un servidor con IIS 10 sobre Windows Server 2019, se necesita crear una copia de seguridad manual de la configuración actual del servidor utilizando AppCmd, a la que debe llamar \"BackupManual\". ¿Qué comando utilizaría?",
+      "opciones": [
+        "appcmd create backup \"BackupManual\"",
+        "appcmd backup add \"BackupManual\"",
+        "appcmd add backup \"BackupManual\"",
+        "appcmd new backup \"BackupManual\""
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La herramienta AppCmd.exe permite realizar una copia de seguridad manual de la configuración global del servidor IIS mediante el comando `appcmd add backup \"BackupManual\"`."
+    },
+    {
+      "id": 7,
+      "globalId": 117,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "Y, ¿qué comando utilizaría para conocer todas las copias de seguridad de configuración del IIS?",
+      "opciones": [
+        "appcmd show backup",
+        "appcmd list backup",
+        "appcmd get backup",
+        "appcmd enumerate backup"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El comando para listar todas las copias de seguridad de configuración disponibles en IIS mediante AppCmd es `appcmd list backup`."
+    },
+    {
+      "id": 8,
+      "globalId": 118,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "En el organismo se están planteando cambiar el sistema de copias de seguridad. ¿Con qué sistema se podrían eliminar las cintas?",
+      "opciones": [
+        "VTL",
+        "VDL",
+        "VDI",
+        "CDI"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Una VTL (Virtual Tape Library) emula el comportamiento de cintas de copia de seguridad tradicionales utilizando almacenamiento en disco duro, lo que permite eliminar las cintas magnéticas físicas conservando el mismo flujo de backup."
+    },
+    {
+      "id": 9,
+      "globalId": 119,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "Está en una reunión de comunicaciones sobre TLS 1.3, cuando un servidor negocia la comunicación, recibe el mensaje \"ClientHello\" y acepta los parámetros propuestos, ¿qué ocurre en un flujo válido?",
+      "opciones": [
+        "Se termina la conexión y se recibe el mensaje o alerta \"reset\".",
+        "El servidor manda el mensaje ServerHello.",
+        "Se termina la conexión y se recibe el mensaje o alerta \"end\".",
+        "Se continúa la comunicación con un mensaje \"ack\"."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En la fase inicial de negociación de TLS 1.3, tras recibir un mensaje válido de 'ClientHello' del cliente, el servidor responde enviando de inmediato el mensaje 'ServerHello' con la suite criptográfica acordada."
+    },
+    {
+      "id": 10,
+      "globalId": 120,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "En los servidores que funcionan con Tomcat 9 se le solicita reiniciar el servicio de Tomcat, ¿cómo lo haría?",
+      "opciones": [
+        "systemctl restart tomcat9",
+        "systemctl restart tomcat",
+        "systemctl start -r tomcat",
+        "sudo -i systemctl tomcat -r"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El servicio Tomcat 9 registrado en systemd se puede reiniciar mediante la orden de control estándar `systemctl restart tomcat9`."
+    },
+    {
+      "id": 11,
+      "globalId": 121,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "En el organismo se usa como servicio de correo Microsoft 365, y se quiere configurar una aplicación para que envíe correos de manera segura. ¿Cuál es el puerto que se debería usar para poder utilizar el SMTP autenticado con STARTTLS?",
+      "opciones": [
+        "995",
+        "993",
+        "587",
+        "143"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El puerto estándar 587 TCP se utiliza formalmente para la comunicación SMTP autenticada que se inicia con el comando de negociación de seguridad STARTTLS."
+    },
+    {
+      "id": 12,
+      "globalId": 122,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "También, para el servidor Windows 2019 Standard que contiene el DA (Directorio Activo), le preguntan cuál sería el comando cmdlet de PowerShell para crear un nuevo sitio llamado PLANI:",
+      "opciones": [
+        "New-ADSite PLANI",
+        "New-ADReplicationSite PLANI",
+        "New-ADReplication PLANI",
+        "Set-ADReplication PLANI"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El cmdlet de Active Directory en PowerShell diseñado para agregar un nuevo sitio lógico de replicación dentro de la topología de red es `New-ADReplicationSite`."
+    },
+    {
+      "id": 13,
+      "globalId": 123,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "En un puerto de un switch Cisco se quiere conectar un PC de la VLAN de usuarios, denominada VLAN 10, ¿con qué sentencia/s se configura correctamente?",
+      "opciones": [
+        "\"switchport mode trunk\" y \"switchport trunk access vlan 10\"",
+        "\"switchport mode access\" y \"switchport access vlan 10\"",
+        "\"switchport mode dynamic desirable\"",
+        "\"switchport mode trunk\" y \"switchport trunk allowed vlan 10\""
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Para conectar un PC a un conmutador Cisco, el puerto del switch debe configurarse en modo de acceso con `switchport mode access` y luego asignarse a la VLAN con `switchport access vlan 10`."
+    },
+    {
+      "id": 14,
+      "globalId": 124,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "Le solicitan revisar rápidamente las 50 últimas líneas del registro del servicio nginx usando el journal, ¿qué orden es correcta?",
+      "opciones": [
+        "journalctl -u nginx --last=50",
+        "journalctl nginx -t 50",
+        "tail -n 50 /var/log/messages",
+        "journalctl -u nginx -n 50"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "En systemd, para visualizar las últimas líneas de logs de un servicio (como nginx) filtradas de forma interactiva en la salida, se utiliza `journalctl -u nginx -n 50`."
+    },
+    {
+      "id": 15,
+      "globalId": 125,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "Se ha observado que el servicio nginx del servidor web01 no arranca y el log indica un error “permission denied” al acceder a /var/www/html. El sistema tiene configurado SELinux en modo enforcing. ¿Qué herramienta permite analizar la causa concreta del bloqueo?",
+      "opciones": [
+        "semange",
+        "getsebool",
+        "restorecon",
+        "sealert"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La herramienta `sealert` (parte de setroubleshoot) es el programa de diagnóstico que lee, interpreta y genera informes didácticos detallados sobre las violaciones de políticas causadas por SELinux (modo enforcing)."
+    },
+    {
+      "id": 16,
+      "globalId": 126,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "En el organismo se quiere disponer de un sistema de vigilancia de la red y se ha optado por la sonda SAT INET del CCN-CERT. Según su arquitectura, ¿cómo se realizan las comunicaciones de la sonda con el sistema central?",
+      "opciones": [
+        "Por medio de un túnel cifrado se inicia desde la sonda hacia el sistema central.",
+        "Por medio de un túnel cifrado se inicia desde el sistema central hacia la sonda.",
+        "Por medio de un túnel cifrado siempre que la comunicación se efectúe por Internet.",
+        "Por medio de un túnel cifrado que discurre siempre a través del AC del organismo."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En la arquitectura de monitorización del CCN-CERT para SAT INET, las sondas se configuran de modo que se inicie un túnel seguro cifrado desde la sonda local hacia el servidor central."
+    },
+    {
+      "id": 17,
+      "globalId": 127,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "El organismo dispone de una red con dirección 192.168.1.0/24 and necesita dividirla en subredes de modo que cada subred disponga de al menos 100 hosts utilizables. ¿Cuál de las siguientes máscaras sería la más adecuada?",
+      "opciones": [
+        "/25",
+        "/26",
+        "/27",
+        "/28"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El direccionamiento 192.168.1.0/24 tiene 256 IPs. Para dividirlo en subredes que admitan al menos 100 hosts, la máscara óptima es /25 (que divide la red en dos subredes de 128 IPs, dejando 126 hosts útiles por cada una)."
+    },
+    {
+      "id": 18,
+      "globalId": 128,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "Le preguntan cuál de los siguientes prefijos de dirección IPv6 define direcciones de tipo Multicast:",
+      "opciones": [
+        "FF00::/8",
+        "FEC0::/10",
+        "FE80::/10",
+        "FC00::/7"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El prefijo reservado por el estándar de IPv6 para identificar de forma unívoca de direcciones Multicast (difusión de un punto a grupo) es `FF00::/8`."
+    },
+    {
+      "id": 19,
+      "globalId": 129,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "Su organismo dispone de un sistema Docker en uno de los servidores RHEL. ¿Qué comando permite listar todos los contenedores, incluidos los detenidos independientemente de su estado?",
+      "opciones": [
+        "docker ls -a",
+        "docker ps -a",
+        "docker container ls",
+        "docker list -a"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El comando `docker ps -a` (o list con parámetro todo) permite enumerar todos los contenedores existentes en el sistema, mostrando tanto los que están en ejecución como los detenidos."
+    },
+    {
+      "id": 20,
+      "globalId": 130,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "Se necesita obtener los nombres de los servicios que están en ejecución en un sistema Windows mediante PowerShell. ¿Cuál de los siguientes comandos devuelve ese resultado?",
+      "opciones": [
+        "Get-Service | Where-Object {$_.Status -eq \"Enabled\"} | Select-Object Name",
+        "Get-Service | Where-Object {$_.Status -eq \"Running\"} | Select-Object Name",
+        "Get-Service | Where-Object {$_.Status -eq \"Started\"} | Select-Object Name",
+        "Get-Service | Where-Object {$_.Status -eq \"Active\"} | Select-Object Name"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En PowerShell, el comando `Get-Service` obtiene los servicios, que luego se filtran mediante `Where-Object {$_.Status -eq \"Running\"}` para ver solo los que están activos y se formatea la salida con `Select-Object Name`."
+    },
+    {
+      "id": 21,
+      "globalId": 131,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "Señale la respuesta correcta acerca de la técnica de multiplexación CDMA:",
+      "opciones": [
+        "Separa ortogonalmente las subportadoras en el espectro del tiempo.",
+        "Define pequeños intervalos de guarda de frecuencia para acomodar las diferentes variaciones en los slots de transmisión.",
+        "Verifica la ausencia de señal antes de transmitir en un medio compartido.",
+        "Utiliza una secuencia de bits (chips) de modo que permite que diferentes señales compartan una misma banda de frecuencia."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "CDMA (Code Division Multiple Access) es una técnica de multiplexación donde cada transmisión se codifica con una secuencia de bits única llamada 'chip', permitiendo que diferentes señales compartan simultáneamente el mismo espectro."
+    },
+    {
+      "id": 22,
+      "globalId": 132,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "Si en el organismo se desea desplegar una red inalámbrica de nueva generación basada en WiFi 6, ¿qué estándar IEEE corresponde a esta tecnología?",
+      "opciones": [
+        "802.11an",
+        "802.11ax",
+        "802.11ac",
+        "802.11be"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El estándar IEEE correspondiente a la tecnología WiFi 6 es el 802.11ax, que introduce mejoras de modulación y capacidad multipropósito (OFDMA)."
+    },
+    {
+      "id": 23,
+      "globalId": 133,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "En SNMP, el conjunto de OID (Object IDentifier) que tiene disponible un dispositivo se conoce como:",
+      "opciones": [
+        "MIB (Management Information Base).",
+        "MIR (Management Information Repository).",
+        "OID Database.",
+        "OID Group."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En SNMP, la base de datos de administración de objetos en un dispositivo que se estructura en formato jerárquico se conoce como MIB (Management Information Base)."
+    },
+    {
+      "id": 24,
+      "globalId": 134,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "En el servidor de Base de Datos SQL Server del organismo, ¿qué puerto por defecto usa el Motor de base de datos (instancia predeterminada)?",
+      "opciones": [
+        "UDP 5430",
+        "TCP 5431",
+        "TCP 1433",
+        "UDP 2000"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El puerto predeterminado en redes TCP/IP que utiliza la instancia estándar del motor de base de datos de Microsoft SQL Server es el 1433."
+    },
+    {
+      "id": 25,
+      "globalId": 135,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción B: Sistemas y Comunicaciones)",
+      "año": 2026,
+      "pregunta": "¿Qué registro DNS dirige el correo entrante al servidor del dominio?",
+      "opciones": [
+        "A",
+        "CNAME",
+        "MX",
+        "TXT"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El registro DNS de tipo MX (Mail Exchanger) indica qué servidores son responsables de recibir los correos electrónicos entrantes en representación del dominio."
+    },
+    {
+      "id": 26,
+      "globalId": 111,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Se le asigna la gestión de la red interna 10.30.16.0/20. Si la VLAN 10 usa la primera subred del rango de direccionamiento de esa red, con 25 bits de máscara de red, ¿cuáles son su dirección de red y broadcast, respectivamente?",
+      "opciones": [
+        "10.30.16.0 y 10.30.16.191",
+        "10.30.16.1 y 10.30.16.191",
+        "10.30.16.1 y 10.30.16.127",
+        "10.30.16.0 y 10.30.16.127"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Una máscara de 25 bits tiene un tamaño de bloque de 128 direcciones IP. La primera subred de la red 10.30.16.0/20 comienza en 10.30.16.0, por lo que su rango va de 10.30.16.0 a 10.30.16.127. La dirección de red es 10.30.16.0 y la de broadcast es 10.30.16.127."
+    },
+    {
+      "id": 27,
+      "globalId": 112,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "También se le solicita el número máximo de hosts disponibles de la red interna 10.30.16.0/20, indique la respuesta correcta:",
+      "opciones": [
+        "254",
+        "1022",
+        "4094",
+        "8190"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Una subred /20 tiene 12 bits para hosts (32 - 20 = 12). El número máximo de hosts es 2^12 - 2 = 4096 - 2 = 4094 hosts utilizables."
+    },
+    {
+      "id": 28,
+      "globalId": 113,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Se le pide segmentar la subred 10.30.24.0/21 en 4 subredes de igual tamaño. ¿Cuál será la dirección de red y la máscara de la tercera subred?",
+      "opciones": [
+        "10.30.28.0/22",
+        "10.30.26.0/23",
+        "10.30.28.0/23",
+        "10.30.28.0/24"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Segmentar una red /21 en 4 subredes requiere pedir prestados 2 bits (2^2 = 4 subredes), lo que aumenta la máscara a /23. Los bloques de tamaño /23 avanzan de 2 en 2 en el tercer octeto. Las subredes creadas son: 1ª) 10.30.24.0/23, 2ª) 10.30.26.0/23, 3ª) 10.30.28.0/23, 4ª) 10.30.30.0/23. Por lo tanto, la dirección de la tercera subred es 10.30.28.0/23."
+    },
+    {
+      "id": 29,
+      "globalId": 114,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "En la SVI (Switched Virtual Interface) de la VLAN 10 del router de distribución, ¿qué comando de Cisco IOS 15.x habilita el DHCP relay hacia el servidor 10.30.20.5?",
+      "opciones": [
+        "ip helper-address 10.30.20.5",
+        "ip dhcp server 10.30.20.5",
+        "service dhcp forward 10.30.20.5",
+        "relay dhcp 10.30.20.5"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En conmutadores y routers Cisco, el comando utilizado para reenviar las peticiones de difusión DHCP (DHCP relay) hacia un servidor de otra subred es `ip helper-address <IP_Servidor>` configurado en la interfaz de capa 3 correspondiente."
+    },
+    {
+      "id": 30,
+      "globalId": 115,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "También le preguntan qué comando usaría para ver la tabla de enrutamiento en el servidor web01 (RHEL):",
+      "opciones": [
+        "route print",
+        "netstat -p tcp",
+        "ip route show",
+        "tracert -r"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En distribuciones Linux modernas basadas en el paquete iproute2 (como RHEL 8), el comando estándar recomendado para mostrar la tabla de enrutamiento es `ip route show`."
+    },
+    {
+      "id": 31,
+      "globalId": 116,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Para habilitar el servicio nginx automáticamente en el arranque del servidor web01, ¿qué orden de systemd resulta adecuada?",
+      "opciones": [
+        "systemctl enable nginx",
+        "systemctl autostart nginx",
+        "service nginx start-enable",
+        "systemctl run nginx -onboot"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En sistemas basados en systemd, la instrucción `systemctl enable nginx` crea los enlaces simbólicos necesarios para asegurar que el servicio nginx se inicie de forma automática en el arranque del sistema operativo."
+    },
+    {
+      "id": 32,
+      "globalId": 117,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "En el servidor web01, un contenedor con ID '3f7' está consumiendo demasiados recursos y debe interrumpirse inmediatamente. ¿Cuál es el comando que debe ejecutar?",
+      "opciones": [
+        "docker kill 3f7",
+        "docker end 3f7",
+        "docker interrupt 3f7",
+        "docker block 3f7"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando `docker kill` envía una señal SIGKILL inmediata para forzar la detención de un contenedor problemático."
+    },
+    {
+      "id": 33,
+      "globalId": 118,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Adicionalmente, habiendo comprobado que ya no es necesario, le solicitan eliminarlo también. ¿Cuál es el comando a ejecutar?",
+      "opciones": [
+        "docker delete 3f7",
+        "docker rm 3f7",
+        "docker eliminate 3f7",
+        "docker excise 3f7"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Para eliminar físicamente uno o más contenedores del sistema que previamente han sido detenidos, se utiliza el comando `docker rm <ID_Contenedor>`."
+    },
+    {
+      "id": 34,
+      "globalId": 119,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Se necesita descargar una imagen desde Docker Hub, ¿qué comando utilizaría para descargar la imagen “ImagenA” al equipo local?",
+      "opciones": [
+        "docker download ImagenA",
+        "docker get ImagenA",
+        "docker images ImagenA",
+        "docker pull ImagenA"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El comando para descargar o sincronizar imágenes de contenedores desde un registro remoto (como Docker Hub) hacia el almacenamiento local es `docker pull <Nombre_Imagen>`."
+    },
+    {
+      "id": 35,
+      "globalId": 120,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Se quiere comprobar si el servicio HTTPS está permitido en la zona pública del cortafuegos del servidor web01. ¿Qué comando ofrece la verificación correcta?",
+      "opciones": [
+        "firewall-cmd --zone=public --list-services",
+        "firewall-cmd --get-active-zones=public",
+        "firewall-cmd --list-ports",
+        "iptables -L -n nat"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En Firewalld (gestor de cortafuegos de RHEL), el parámetro `--list-services` junto con la zona pública (`--zone=public`) permite listar todos los servicios autorizados (como http, https, ssh) en dicha zona perimetral."
+    },
+    {
+      "id": 36,
+      "globalId": 121,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Desde web01 se le pide verificar qué ruta efectiva (interfaz/next hop) usa el kernel para llegar a db01 (10.30.20.30). ¿Qué orden sería la adecuada?",
+      "opciones": [
+        "ip route neigh 10.30.20.30",
+        "ip route get 10.30.20.30",
+        "ip net show 10.30.20.30",
+        "ip route net 10.30.20.30"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El comando `ip route get <IP>` es un recurso diagnóstico de iproute2 de gran utilidad que simula una consulta de enrutamiento al kernel y devuelve detalladamente la interfaz de salida, la dirección de origen que se usará y el salto siguiente (next hop)."
+    },
+    {
+      "id": 37,
+      "globalId": 122,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Le piden probar conectividad de capa 4 (TCP connect) desde web01 a db01 (10.30.20.30:3306) sin cliente MySQL. ¿Qué sonda simple es adecuada?",
+      "opciones": [
+        "curl -vk https://10.30.20.30:3306",
+        "nc -vz 10.30.20.30 3306",
+        "telnet 10.30.20.30 3306/udp",
+        "ping 10.30.20.30 -p 3306"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El comando Netcat (`nc`), con los parámetros `-v` (verbose) y `-z` (zero-I/O mode), es ideal para comprobar rápidamente si un puerto TCP específico (como el 3306 de MySQL) está abierto y escuchando peticiones en un host remoto."
+    },
+    {
+      "id": 38,
+      "globalId": 123,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Le solicitan listar rápidamente los puertos en escucha del sistema. En RHEL, ¿cuál indicaría que es un comando válido?",
+      "opciones": [
+        "route -n",
+        "arp -an",
+        "hostnamectl",
+        "ss -ltn"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El comando `ss` (socket statistics) es el sustituto moderno de netstat. Los parámetros `-l` (listening), `-t` (TCP sockets) y `-n` (numeric, sin resolución DNS) permiten listar de forma muy eficiente todos los sockets de tipo TCP en estado de escucha."
+    },
+    {
+      "id": 39,
+      "globalId": 124,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "¿Qué opción refleja correctamente la estrategia 3-2-1?",
+      "opciones": [
+        "3 copias de los datos, en 2 soportes fuera de la sede, con 1 copia cifrada.",
+        "3 copias de los datos, en 2 servidores fuera de la sede, con 1 copia en nube.",
+        "3 copias de los datos, en 2 soportes distintos, con 1 copia fuera de la sede.",
+        "3 copias de los datos, en 2 soportes distintos, con 1 copia cifrada."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La regla clásica de copias de seguridad 3-2-1 establece la necesidad de mantener: al menos 3 copias de los datos (la de producción y 2 backups), almacenadas en al menos 2 tipos de soportes diferentes (ej. disco duro y cinta), con al menos 1 copia ubicada fuera de la sede principal."
+    },
+    {
+      "id": 40,
+      "globalId": 125,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Se necesita generar una copia de seguridad en formato de compresión .tar.gz, del directorio “/srv/app/config/”, en un fichero llamado “config_backup.tar.gz”. El comando correcto es:",
+      "opciones": [
+        "tar -xzf config_backup.tar.gz /srv/app/config/",
+        "tar -czf config_backup.tar.gz /srv/app/config/",
+        "gzip -cf /srv/app/config/ > config_backup.tar",
+        "zip -r config_backup.tar.gz /srv/app/config/"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En el comando `tar`, la opción `-c` (create) crea el archivo, `-z` (gzip) lo comprime con la biblioteca gzip, y `-f` especifica el nombre del fichero resultante. Por tanto, `tar -czf config_backup.tar.gz /srv/app/config/` es la sintaxis correcta."
+    },
+    {
+      "id": 41,
+      "globalId": 126,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Para el cumplimiento de normativas de seguridad, en RHEL se quiere realizar una auditoría detallada que permita monitorizar accesos y modificaciones a archivos o directorios, basándose en reglas de auditoria preconfiguradas. ¿Qué componente del sistema diría que está diseñado para ello?",
+      "opciones": [
+        "traceguardian",
+        "top",
+        "journalctl",
+        "auditd"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El demonio `auditd` es el núcleo del subsistema de auditoría de Linux, diseñado para registrar eventos del sistema de forma pormenorizada (ej. accesos a ficheros, llamadas al sistema) en base a las reglas configuradas."
+    },
+    {
+      "id": 42,
+      "globalId": 127,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Se desea reforzar la seguridad en el correo. Para IMAP seguro (IMAPS), ¿qué puerto estándar, indicado por IANA, debe exponerse?",
+      "opciones": [
+        "143",
+        "110",
+        "995",
+        "993"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La IANA reserva el puerto estándar TCP/993 para el tráfico de correo de tipo IMAPS (IMAP seguro sobre SSL/TLS), mientras que el puerto 143 corresponde al tráfico IMAP en texto claro."
+    },
+    {
+      "id": 43,
+      "globalId": 128,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "En el servidor de Windows Server 2019, se quiere agregar un usuario a un grupo global desde el Controlador de Dominio (DC), ¿qué herramienta gráfica nativa usaría?",
+      "opciones": [
+        "Active Directory Users and Computers (dsa.msc).",
+        "Local Users and Groups en el DC (lusrmgr.msc).",
+        "Panel de control de cuentas de usuario (netplwiz).",
+        "Administrador de certificados (certmgr.msc) del equipo."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La consola nativa `dsa.msc` (Active Directory Users and Computers) es la herramienta principal en entornos de Controlador de Dominio para administrar los objetos del directorio, incluyendo la pertenencia a grupos globales."
+    },
+    {
+      "id": 44,
+      "globalId": 129,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Se necesita instalar un nuevo controlador de dominio en un servidor Windows Server 2019, ¿qué comando cmdlet de PowerShell permite instalar el rol de Servicios de Dominio de Active Directory (AD)?",
+      "opciones": [
+        "Add-ADDSRole AD-Domain-Services -IncludeManagementTools",
+        "Install-ADDSForest -IncludeManagementTools",
+        "Install-WindowsFeature -name AD-Domain-Services -IncludeManagementTools",
+        "New-ADDomainService -IncludeManagementTools"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En Windows Server, el cmdlet `Install-WindowsFeature` se utiliza para instalar características o roles del sistema. Para Active Directory, se instala el rol `AD-Domain-Services` junto con sus herramientas de gestión mediante `-IncludeManagementTools`."
+    },
+    {
+      "id": 45,
+      "globalId": 130,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "En Windows 11, le piden copiar todo el contenido de un directorio de origen, “C:\\DirectorioA”, en un directorio de destino existente, “C:\\DirectorioB”, de forma recursiva. ¿Qué comando cmdlet de PowerShell le permite hacer lo solicitado?",
+      "opciones": [
+        "Copy-Item “C:\\DirectorioA\\*” “C:\\DirectorioB” -Recursive",
+        "Copy-Path “C:\\DirectorioA\\*” “C:\\DirectorioB” -Recurse",
+        "Copy-Item -Path “C:\\DirectorioA\\*” -Destination “C:\\DirectorioB” -Recurse",
+        "Copy-Path “C:\\DirectorioA\\*” -Destination “C:\\DirectorioB” -Recursive"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En PowerShell, el comando `Copy-Item` acepta los parámetros `-Path` para el origen, `-Destination` para el destino, y `-Recurse` (parámetro estándar de recursividad) para indicar que se copien todos los directorios y archivos secundarios recursivamente."
+    },
+    {
+      "id": 46,
+      "globalId": 131,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "En el servidor db01 (RHEL 8.8), se desea añadir de forma persistente una regla que permita el acceso al puerto 3306/TCP solo desde la DMZ 172.19.50.0/27. La zona efectiva del servidor es public. La activación en tiempo de ejecución se realizará posteriormente según el procedimiento estándar. ¿Qué comando añade la regla persistente correcta en la zona public?",
+      "opciones": [
+        "firewall-cmd --permanent --zone=public --add-rich-rule='rule family=\"ipv4\" address=\"172.19.50.0/27\" port protocol=\"tcp\" port number=\"3306\" accept'",
+        "firewall-cmd --permanent-direct --zone=public --add-rich-rule='rule ip=\"ipv4\" address=\"172.19.50.0/27\" protocol=\"tcp\" port=\"3306\" accept'",
+        "firewall-cmd --permanent-direct --add-rule='rule ip=\"ipv4\" source address=\"172.19.50.0/27\" protocol=\"tcp\" port number=\"3306\" accept'",
+        "firewall-cmd --permanent --zone=public --add-rich-rule='rule family=\"ipv4\" source address=\"172.19.50.0/27\" port protocol=\"tcp\" port=\"3306\" accept'"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "En firewalld, una regla compleja o enriquecida (rich rule) se añade con el parámetro `--add-rich-rule`. La sintaxis correcta debe contener la familia de IP, la dirección de origen (`source address`), el puerto, el protocolo y la acción (`accept`)."
+    },
+    {
+      "id": 47,
+      "globalId": 132,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "¿Qué ajuste de sysctl del kernel resulta adecuado para mitigar ataques de suplantación de IP (IP spoofing) mediante filtrado de ruta inversa en RHEL 8.8?",
+      "opciones": [
+        "Activar net.ipv4.ip_forward",
+        "Configurar net.ipv4.conf.all.rp_filter=1",
+        "Deshabilitar net.ipv4.tcp_syncookies",
+        "Activar net.ipv4.conf.all.accept_ra=1"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El filtro de ruta inversa (`rp_filter = 1`) fuerza al kernel de Linux a verificar si la interfaz por la que recibe un paquete coincide con la interfaz de salida que usaría para responder a dicho origen, lo que mitiga eficazmente los ataques de IP spoofing."
+    },
+    {
+      "id": 48,
+      "globalId": 133,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "En un equipo Windows 11 de la red de usuarios, necesita añadir una regla de firewall de Windows Defender llamada \"Puerto8443\" para permitir conexiones entrantes TCP al puerto 8443. ¿Cuál es el comando correcto que ejecutaría desde la línea de comandos con privilegios de administrador?",
+      "opciones": [
+        "netsh advfirewall firewall create rule name=\"Puerto8443\" dir=in action=permit protocol=TCP localport=8443",
+        "netsh firewall add portopening TCP 8443 \"Puerto8443\" dir=in action=permit",
+        "netsh advfirewall set rule name=\"Puerto8443\" dir=in action=allow protocol=TCP localport=8443",
+        "netsh advfirewall firewall add rule name=\"Puerto8443\" dir=in action=allow protocol=TCP localport=8443"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El comando netsh para añadir una nueva regla de cortafuegos en Windows Defender sigue la estructura: `netsh advfirewall firewall add rule name=\"<nombre>\" dir=in action=allow protocol=TCP localport=8443`."
+    },
+    {
+      "id": 49,
+      "globalId": 134,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "Tras la instalación del nuevo controlador de dominio en Windows Server 2019, se observa que presenta errores de replicación. ¿Qué comando le permitiría obtener un resumen del estado de replicación entre controladores de dominio?",
+      "opciones": [
+        "dcdiag /q",
+        "netdom query fsmo",
+        "repadmin /replsummary",
+        "nltest /sc_verify"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La herramienta de línea de comandos de replicación en Active Directory `repadmin` con la opción `/replsummary` proporciona de forma rápida un cuadro resumen sobre el estado y errores de replicación de todos los controladores del bosque."
+    },
+    {
+      "id": 50,
+      "globalId": 135,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción B)",
+      "año": 2026,
+      "pregunta": "En db01 (RHEL 8.8) existe un grupo de volúmenes LVM2 llamado vg_datos con 200 GiB libres. El volumen lógico lv_contenido (actualmente 500 GiB) contiene un sistema de ficheros XFS montado en /contenido. No hay snapshots activos. Se requiere ampliar la capacidad disponible en /contenido hasta 600 GiB, sin cambiar el punto de montaje ni la estructura del volumen y sin añadir discos nuevos. ¿Cuál es la secuencia de acciones correcta a nivel lógico para realizar la ampliación?",
+      "opciones": [
+        "Crear un volumen lógico nuevo de 600 GiB, formatearlo y sustituir el actual en /etc/fstab.",
+        "Crear un snapshot del volumen lógico, montar el snapshot y ejecutar la ampliación sobre el snapshot.",
+        "Extender el volumen lógico a 600 GiB y, a continuación, ampliar en línea el sistema de ficheros XFS sobre /contenido.",
+        "Añadir un PV nuevo al grupo vg_datos y ejecutar fsck sobre /contenido antes de ampliar el sistema de ficheros."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En LVM con sistemas de ficheros como XFS (que soporta redimensión en caliente), la secuencia consiste en: 1) extender el volumen lógico al tamaño deseado usando `lvextend`, y 2) ampliar el sistema de ficheros montado en caliente mediante el comando `xfs_growfs`."
+    },
+    {
+      "id": 51,
+      "globalId": 71,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Se quiere aplicar políticas de seguridad al grupo de usuarios Profesores utilizando Directorio Activo y GPOs. Una buena práctica es definir primero:",
+      "opciones": [
+        "Una Unidad Organizativa (OU) para el grupo de usuarios Profesores.",
+        "Las ACLs (Access Control Lists) que tendrán las GPO del grupo de usuarios Profesores.",
+        "Un nuevo bosque de Directorio Activo.",
+        "Relaciones de confianza entre el Directorio Activo actual y el dominio de seguridad del grupo de usuarios Profesores."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Una Unidad Organizativa (OU) es el contenedor de Active Directory más pequeño sobre el cual se pueden aplicar GPOs de políticas de seguridad para usuarios o equipos de forma segmentada."
+    },
+    {
+      "id": 52,
+      "globalId": 72,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Se necesita saber los usuarios que acceden a la base de datos de la biblioteca y desde qué host o IP. Para averiguarlo, en la consola de administración de la base de datos, ejecutará el comando:",
+      "opciones": [
+        "SELECT * FROM all_users",
+        "mysql> SELECT user FROM mysql.user",
+        "mysql> SELECT user,host FROM mysql.user",
+        "sudo mysql -u root -p"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En MySQL, la tabla `user` de la base de datos del sistema `mysql` almacena tanto el nombre del usuario (`user`) como el host de origen desde el que se le permite conectarse (`host`), de ahí el uso de `SELECT user, host FROM mysql.user`."
+    },
+    {
+      "id": 53,
+      "globalId": 73,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Se ha instalado un servidor de correo con Postfix y se está decidiendo si utilizar POP3 o IMAP en los clientes de correo. ¿Cuál de las siguientes opciones es INCORRECTA?",
+      "opciones": [
+        "Con IMAP, los mensajes se almacenan en un servidor remoto y los usuarios pueden iniciar sesión en varios clientes de correo electrónico y leer los mismos mensajes.",
+        "POP3 solo admite la sincronización de correo unidireccional, lo que solo permite a los usuarios descargar correos electrónicos desde un servidor a un cliente.",
+        "Con IMAP, el correo enviado y recibido se almacena en el servidor hasta que el usuario lo elimina permanentemente.",
+        "Con POP3, si los usuarios organizan sus correos electrónicos en un dispositivo mediante carpetas, ya no tendrán que hacerlo en el resto de dispositivos porque se replica la organización en carpetas."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "POP3 descarga los correos de forma local y no mantiene sincronizadas las carpetas ni estructuras lógicas entre múltiples dispositivos del usuario, a diferencia de IMAP."
+    },
+    {
+      "id": 54,
+      "globalId": 74,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Se ha implantado una solución VoIP que usa el protocolo SIP pero, al establecer sesiones con usuarios de fuera del organismo, la llamada se corta o congela y después, se restablece. Este problema no sucede en sesiones entre usuarios internos del organismo, ¿por qué puede ser?",
+      "opciones": [
+        "Se están usando incorrectamente los códecs.",
+        "La salida a Internet está empleando NAT.",
+        "El tráfico entre origen y destino está interceptado en el cortafuegos de Internet.",
+        "La CPU del ordenador es insuficiente y provoca estos problemas."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El protocolo SIP utiliza NAT traversal complejo (p. ej. STUN, TURN) ya que el tráfico de control SIP viaja por puertos distintos del tráfico de medios RTP, lo que provoca desconexiones o congelamiento si el NAT del router de salida no está bien configurado."
+    },
+    {
+      "id": 55,
+      "globalId": 75,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Se ha descargado del sitio web del CCN-CERT una herramienta de antimalware y justo debajo aparece un hash de comprobación. ¿Qué tipo de medida de seguridad es este hash en este contexto?",
+      "opciones": [
+        "Una medida antimalware, pues el hash aplicado al fichero descargado nos sanitiza el fichero y ya se puede usar sin problemas, pues está limpio de malware, lo cual en una herramienta antimalware es altamente necesario.",
+        "Una medida para asegurar la integridad del fichero de descarga, pues si al calcular nosotros el hash del fichero descargado no coincide con el que nos aparece en la página del CCN, el fichero descargado no sería válido para su uso.",
+        "El hash es la firma del CCN como autoridad de certificación de productos que garantiza que el software descargado es apto para ser usado en sistemas categorizados como de nivel ALTO o incluso en sistemas clasificados como reservado nacional.",
+        "El hash es la firma del CCN de la página web donde se presenta la herramienta que estamos intentando descargar y es una medida para evitar que los hackers puedan manipular la página y subir otro fichero en vez del que se pretende descargar."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Los algoritmos de hash (como SHA-256) generan una huella digital unívoca para un archivo, permitiendo al usuario verificar su integridad matemática completa al comparar el hash local con el publicado oficialmente."
+    },
+    {
+      "id": 56,
+      "globalId": 76,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Se está instalando la nueva climatización del CPD y se plantea utilizar una toma derivada de la climatización del resto del edificio. ¿Cuál es la razón principal por la que NO se aconseja hacer eso?",
+      "opciones": [
+        "Porque la humedad recomendada para un CPD es mucho menor que la recomendada para las personas.",
+        "Porque la temperatura recomendada para un CPD es mucho mayor que la recomendada para las personas.",
+        "Porque el filtro de impurezas y polvo para las personas es mucho más sensible que lo que se recomienda para un CPD.",
+        "Porque el aire acondicionado para un CPD siempre debe provenir del techo y para las personas puede provenir lateralmente."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": true,
+      "explicacion": "Esta pregunta fue formalmente anulada por el tribunal en la plantilla correctora definitiva."
+    },
+    {
+      "id": 57,
+      "globalId": 77,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Para poder atender las llamadas de las guardias de sistemas, se han comprado veinte móviles. Su responsable le pide realizar el enrolamiento de estos móviles, pero, ¿en qué consiste esta tarea?",
+      "opciones": [
+        "Emparejar, en el sistema MDM (Mobile Device Management) de la organización, a cada usuario con su móvil.",
+        "Dar de alta en una base de datos de administración todos los dispositivos móviles.",
+        "Insertar la tarjeta SIM correspondiente a cada móvil.",
+        "Formatear a fábrica todos los dispositivos móviles."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El enrolamiento (enrollment) consiste en vincular un dispositivo móvil físico y a su usuario asignado dentro de la plataforma MDM para permitir la descarga e implantación de perfiles y políticas corporativas."
+    },
+    {
+      "id": 58,
+      "globalId": 78,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Para mejorar la escalabilidad del sistema, está estudiando implantar una arquitectura de microservicios con Kubernetes. ¿Qué protocolos para servicios pueden utilizarse con Kubernetes?",
+      "opciones": [
+        "SCTP, TCP (por defecto) y UDP.",
+        "HTTP (por defecto), HTTPS y FTP.",
+        "SSH, SFTP (por defecto) y UDP.",
+        "UDP (por defecto) y TCP."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Kubernetes soporta de manera estándar protocolos de transporte de capa 4 como TCP (el predeterminado), UDP y SCTP para definir servicios y enrutar tráfico hacia los pods."
+    },
+    {
+      "id": 59,
+      "globalId": 79,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Para la detección de malware complejo y movimiento lateral relacionado con APTs (Advanced Persistent Threats), se ha instalado en los PC de los profesores, la solución del CCN, CLAUDIA. ¿Cómo define el Centro Criptológico Nacional una APT?",
+      "opciones": [
+        "Es un tipo de ransomware como, por ejemplo, WannaCry, que te cifra los archivos del PC y se requiere la clave de descifrado a cambio del pago de un rescate.",
+        "Es un ataque de suplantación de identidad de un usuario corriente en un organismo para después mediante escalada de privilegios obtener las credenciales de un alto cargo de la empresa u organización.",
+        "Es un ataque selectivo de ciberespionaje o cibersabotaje llevado a cabo bajo el auspicio o la dirección de un país u organización adversaria, por razones que van más allá de las meramente financieras/delictivas o de protesta política.",
+        "Es un ataque masivo a una organización ocurrido por un fallo que no se había advertido hasta ese momento y, por tanto, no se cuenta con la salvaguarda o parche para prevenirlo."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Una Amenaza Persistente Avanzada (APT) es un ataque planificado y prolongado dirigido a organizaciones específicas, impulsado frecuentemente por motivos geopolíticos o de espionaje a gran escala."
+    },
+    {
+      "id": 60,
+      "globalId": 80,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Para descargar algunos ficheros del servidor BIBLIOTECA, los administradores están sopesando entre el uso de SFTP y FTPS. Indique, de las siguientes afirmaciones, la INCORRECTA:",
+      "opciones": [
+        "SFTP usa típicamente el puerto 22 de SSH mientras que FTPS usa el puerto en el que tengamos definido el protocolo SSL/TLS.",
+        "SFTP usa autenticación con certificado (clave pública) mientras que FTPS usa autenticación con usuario y contraseña.",
+        "FTPS usa dos puertos, uno para los comandos y otro para descargarse los datos mientras que SFTP usa el mismo puerto para ambas tareas.",
+        "FTPS no contiene comandos estandarizados para manipular directorios o listar atributos, mientras que SFTP sí."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Es incorrecto afirmar que SFTP utiliza únicamente certificados y FTPS usuario y contraseña; ambos protocolos son versátiles y admiten autenticación mediante credenciales tradicionales o criptografía asimétrica."
+    },
+    {
+      "id": 61,
+      "globalId": 81,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Nos anuncian que hay una vulnerabilidad que afecta a una determinada versión del kernel de Linux Ubuntu. ¿Con qué comando podemos saber qué versión del kernel tiene nuestro sistema operativo Ubuntu?",
+      "opciones": [
+        "sudo dpkg -i linux*.deb",
+        "uname -r",
+        "uname -o",
+        "kexec -l"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El comando `uname -r` (kernel release) muestra la versión del núcleo o kernel que está cargado y ejecutándose en el sistema operativo Linux."
+    },
+    {
+      "id": 62,
+      "globalId": 82,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "La red de área local está implementada con Gigabit Ethernet y, al conectar un nuevo dispositivo a la red, en su tarjeta, parpadea una luz de color naranja. ¿A qué puede deberse?",
+      "opciones": [
+        "A que está mal configurada la VLAN donde está ubicado el dispositivo.",
+        "A que la tarjeta de red del dispositivo transmite a menor velocidad de la que permite la red.",
+        "A que la tarjeta de red está estropeada y no hay conexión entre el dispositivo y la red.",
+        "A que el cable del dispositivo es coaxial y no Ethernet."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En las interfaces de red Ethernet Gigabit de los conmutadores y adaptadores, la luz naranja o ámbar suele indicar que se ha negociado una velocidad de transferencia inferior (ej. 10/100 Mbps) a la máxima disponible de 1 Gbps."
+    },
+    {
+      "id": 63,
+      "globalId": 83,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "La base de datos se ha corrompido y además, los usuarios no pueden acceder a la información. Se tiene toda la información de cómo se produjo el incidente y cuál es la persona que lo ha causado y por qué, pero, este incidente, ¿a qué dimensión o dimensiones de la seguridad afecta?",
+      "opciones": [
+        "A la disponibilidad porque no está accesible la base de datos y la integridad porque el fichero de la base de datos está corrupto.",
+        "A la confidencialidad porque los datos, una vez dañados, pueden ser accesibles por cualquiera.",
+        "Sólo a la disponibilidad porque la base de datos está temporalmente fuera de servicio hasta que se repare si es posible el fichero donde se aloja.",
+        "A la trazabilidad, porque no podremos averiguar lo que ha pasado por mucho que nos esforcemos, la seguridad es así."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Dado que el archivo de base de datos está dañado o alterado, se ha violado la dimensión de Integridad. Puesto que los usuarios no pueden consultar el servicio, también se ha violado la dimensión de Disponibilidad."
+    },
+    {
+      "id": 64,
+      "globalId": 84,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "En un switch Cisco que hay en la organización, se ejecuta el comando “switchport access vlan 1”. Esto permitirá:",
+      "opciones": [
+        "Asignar un puerto a la VLAN 1.",
+        "Asignar el puerto 1 del switch a la VLAN donde estamos situados en la consola del switch.",
+        "Visualizar todos los hosts asignados a la VLAN 1.",
+        "Asignar todos los hosts conectados a cualquier puerto del switch a la VLAN 1."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando `switchport access vlan 1` configura el puerto específico en el que nos encontramos para que funcione en modo de acceso exclusivo para la VLAN 1 (VLAN predeterminada o nativa)."
+    },
+    {
+      "id": 65,
+      "globalId": 85,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "En el sistema se utilizan los protocolos DNS y FTP seguro. De acuerdo con el modelo TCP/IP, estos protocolos se diferencian en que:",
+      "opciones": [
+        "DNS es un protocolo de usuario y FTP es un protocolo de soporte.",
+        "DNS es siempre un protocolo orientado a la conexión mientras que FTP no.",
+        "No existe diferencia entre ambos protocolos, ambos son protocolos de soporte.",
+        "FTP es un protocolo de usuario y DNS es un protocolo de soporte."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "FTP es un protocolo orientado a la interacción directa con el usuario final (transferencia de ficheros), mientras que DNS es un protocolo de soporte o infraestructura de red (resolución de nombres)."
+    },
+    {
+      "id": 66,
+      "globalId": 86,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "El organismo tiene, para controlar la seguridad física del CPD, un circuito cerrado de televisión con cámaras que usa una red coaxial y se necesita interconectar esta red a la red local Ethernet para poder monitorizarlas. ¿Con qué dispositivo de red puede hacerlo?",
+      "opciones": [
+        "Un cortafuegos (firewall).",
+        "Una pasarela (gateway).",
+        "Un conmutador (switch).",
+        "Un repetidor (repeater)."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Una pasarela (gateway) es el dispositivo que trabaja en capas superiores para intercomunicar dos tecnologías o protocolos de red completamente heterogéneos, traduciendo el tráfico analógico o digital de la red coaxial hacia Ethernet."
+    },
+    {
+      "id": 67,
+      "globalId": 87,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "El CPD donde está alojado el sistema tiene una puerta cuyo control de acceso es con tarjeta inteligente y PIN, que sólo conocen los operadores. Hace dos días, se supo que alguien no autorizado había entrado esperando agazapado a que alguien autorizado entrase, pasando detrás de él sin que éste advirtiera que tenía a un intruso detrás. Este incidente de ingeniería social en seguridad física se conoce con el nombre de:",
+      "opciones": [
+        "Tailgating o piggybacking.",
+        "Quid pro quo.",
+        "Pretexto.",
+        "Disrupción."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En seguridad física, el acceso de un intruso aprovechando de forma física y silenciosa la apertura autorizada por parte de otro usuario legítimo se conoce como Tailgating o Piggybacking."
+    },
+    {
+      "id": 68,
+      "globalId": 88,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Analizando la seguridad del sistema, surge la duda de si abrir o no el puerto 80 en un servidor web expuesto mediante HTTPS. El Centro Criptológico Nacional recomienda:",
+      "opciones": [
+        "Exhibir una web estática en el puerto 80 indicando que esa no es la web actual.",
+        "Cambiar el puerto HTTPS al 8892.",
+        "Utilizar un analizador de peticiones en las cabeceras HTTP en el puerto 80.",
+        "Disponer del puerto TCP/80, configurando el servidor web para que lleve a cabo una redirección automática de HTTP a HTTPS."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La guía del CCN-CERT indica que se mantenga expuesto el puerto estándar HTTP/80 configurado únicamente para realizar una redirección forzada y transparente hacia HTTPS en el puerto 443."
+    },
+    {
+      "id": 69,
+      "globalId": 89,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Al arrancar el servidor donde se aloja la web de profesores, aparecen errores en la partición sda8. ¿Qué comando hay que usar para reparar de forma automática los errores en el sistema de ficheros correspondiente, que no ha podido montarse?",
+      "opciones": [
+        "mount –T /dev/sda8",
+        "fsck -y /dev/sda8",
+        "fsck -m /dev/sda8",
+        "checkdisk /dev/sda8"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El comando `fsck` (file system consistency check) analiza y repara sistemas de ficheros en Linux. El modificador `-y` responde automáticamente con un 'sí' a todas las preguntas de reparación."
+    },
+    {
+      "id": 70,
+      "globalId": 90,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "¿Cuántas direcciones hay disponibles para hosts en la subred del organismo?",
+      "opciones": [
+        "4094",
+        "65534",
+        "4096",
+        "65536"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En la subred asignada (tamaño de bloque /20), disponemos de 12 bits para hosts. Restando la dirección de red y la de difusión (broadcast), la capacidad total utilizable es de 2^12 - 2 = 4094 direcciones utilizables."
+    },
+    {
+      "id": 71,
+      "globalId": 91,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Como administrador de correo, quiere cambiar el mensaje HELO que aparece cuando se establecen conexiones al servidor SMTP. Actualmente aparece el nombre del servidor, pero quiere que muestre \"CORREOBIBLIOTECA\" y además, que el cambio se aplique en todos los servidores SMTP que existan, no solo en aquel en el que está trabajando. ¿Cómo lo haría?",
+      "opciones": [
+        "Editando el parámetro $client en el fichero /etc/postfix/main.cf y reiniciando posteriormente el servidor Postfix.",
+        "Accediendo al servidor SMTP y ejecutando EHLO -name CORREOBIBLIOTECA en la consola.",
+        "Editando el parámetro smtp_helo en el fichero /etc/postfix/master.cf y reiniciando posteriormente el servidor Postfix.",
+        "Editando el parámetro $helo_name en /etc/postfix/main.cf y reiniciando posteriormente el servidor Postfix."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "En Postfix, el parámetro `$helo_name` definido en el archivo de configuración global `/etc/postfix/main.cf` modifica la cabecera HELO que el servidor SMTP enviará por defecto."
+    },
+    {
+      "id": 72,
+      "globalId": 92,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Como no hay suficientes tomas Ethernet en la zona física donde están los profesores, se va a instalar una red WiFi con protocolo WPA3-Enterprise. En este caso, para acceder a la red WiFi habrá que utilizar:",
+      "opciones": [
+        "Una contraseña de 64 bits.",
+        "Una contraseña de 128 bits.",
+        "Un servidor RADIUS o cualquier solución que permita EAP-TLS.",
+        "Una contraseña de 192 bits usando el algoritmo GMCP-256."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "A diferencia de las redes inalámbricas domésticas (WPA-Personal), la variante WPA3-Enterprise utiliza autenticación basada en el estándar 802.1X, lo que requiere un servidor RADIUS corporativo y métodos basados en certificados (como EAP-TLS)."
+    },
+    {
+      "id": 73,
+      "globalId": 93,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "En la base de datos MySQL de Profesores, nos piden que añadamos una tabla de los profesores para el curso de INGLES BASICO, que se llamará \"ProfesoresIngles\" con sus nombres y apellidos. Para ello, y tras acceder como root a MYSQL, ingresaremos el comando:",
+      "opciones": [
+        "CREATE TABLE ProfesoresIngles (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, nombre VARCHAR(30), apellido1 VARCHAR(30), apellido2 VARCHAR(30));",
+        "CREATE TABLE ProfesoresIngles KEY id, nombre, apellidos;",
+        "CREAR TABLA ProfesoresIngles KEY apellidos, nombre;",
+        "CREATE TABLE ProfesoresIngles (nombre, apellido);"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La sintaxis SQL correcta para crear una tabla en MySQL requiere la instrucción `CREATE TABLE <nombre>` seguida de la declaración de columnas entre paréntesis, especificando sus tipos, restricciones de clave primaria e incrementos automáticos."
+    },
+    {
+      "id": 74,
+      "globalId": 94,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Ha instalado el servicio Nagios para monitorizar los servidores y servicios en su sistema y quiere monitorizar, además, la URL de profesores (https://profesores.es), pero antes quiere comprobar que este servicio está configurado correctamente. Para ello, utilizará el comando:",
+      "opciones": [
+        "nagios –v /usr/local/nagios/etc/nagios.cfg",
+        "/mnt/nagios –check",
+        "systemctl status nagios",
+        "https://profesores.es nagios"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Nagios permite verificar de forma rápida la validez y consistencia del archivo principal de configuración (`nagios.cfg`) mediante el comando `nagios -v /ruta/nagios.cfg` antes de iniciar el servicio."
+    },
+    {
+      "id": 75,
+      "globalId": 95,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción B)",
+      "año": 2025,
+      "pregunta": "Se ha instalado un servidor web con HTTPS y certificado SSL de servidor para proteger la conexión entre los clientes y el servidor, para lo cual la conexión usará TLS. Según las recomendaciones del Centro Criptológico Nacional, ¿cuál es la versión mínima y la recomendada a usar en TLS?",
+      "opciones": [
+        "La versión mínima aceptable es la 1.1 y se recomienda usar esa misma versión 1.1",
+        "La versión mínima aceptable es la 1.0 y se recomienda usar 1.1",
+        "La versión mínima aceptable es la 1.2 y se recomienda usar la 1.3",
+        "La versión mínima aceptable es la 1.1 y se recomienda usar la 1.3"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La guía del Centro Criptológico Nacional sobre canales seguros establece que para TLS se debe usar la versión 1.2 como mínima aceptable y se recomienda encarecidamente migrar hacia la versión 1.3."
+    },
+    {
+      "id": 76,
+      "globalId": 81,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "En los PCs de los usuarios hay que purgar la memoria caché de la resolución DNS. ¿Cuál de los siguientes comandos habría que lanzar desde la consola de PowerShell?",
+      "opciones": [
+        "ipconfig /dnsflush",
+        "ipconfig /flushdns",
+        "ifconifg --erase dnscache",
+        "ifconifg --clean dnscache"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En Windows, el comando de consola estándar para purgar o limpiar de forma inmediata la caché local de resolución DNS es `ipconfig /flushdns`."
+    },
+    {
+      "id": 77,
+      "globalId": 82,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "En todos los PCs de usuario existe un usuario local llamado Infocentro utilizado para labores de mantenimiento. ¿Qué comando utilizaríamos desde la línea de comandos de Windows PowerShell para ver más información sobre este usuario?",
+      "opciones": [
+        "net user Infocentro",
+        "netuser Infocentro",
+        "info user Infocentro",
+        "infouser Infocentro"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando nativo de administración de cuentas de usuario en Windows es `net user`. Al añadir el nombre del usuario (`net user Infocentro`), se detallan sus propiedades locales."
+    },
+    {
+      "id": 78,
+      "globalId": 83,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "En el contexto de la administración del almacenamiento, ¿qué es el “Thin Provisioning”?",
+      "opciones": [
+        "Es un mecanismo de despliegue de discos en red para clientes ligeros.",
+        "Es una tecnología que permite agregar discos físicos en caliente a las cabinas de la SAN.",
+        "Es un método de virtualización de almacenamiento que permite asignar el espacio de almacenamiento de una manera flexible bajo demanda.",
+        "Es un método por el que se asigna todo el espacio virtualizado disponible y se va a reduciendo (shrinking) a medida que el cliente lo descarta."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El Thin Provisioning (aprovisionamiento fino) es una técnica de virtualización de almacenamiento que optimiza la eficiencia del espacio asignándolo dinámicamente bajo demanda física real."
+    },
+    {
+      "id": 79,
+      "globalId": 84,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "En uno de los servidores de la Subred de Aplicaciones del Modelo B se va a instalar un software de monitorización para Linux. Indique de entre los siguientes, cuál cumpliría esa función:",
+      "opciones": [
+        "Check_MK",
+        "Reddis",
+        "Jenkins",
+        "Nagstamon"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Check_MK es una solución de monitorización de sistemas y redes libre y de alto rendimiento, desarrollada como una extensión para simplificar y potenciar la monitorización clásica de Nagios."
+    },
+    {
+      "id": 80,
+      "globalId": 85,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "¿Qué máscara deberá tener la red 10.20.30.0 del modelo A para que haya cuatro subredes como en el Modelo B?",
+      "opciones": [
+        "255.255.255.194",
+        "255.255.255.192",
+        "255.255.255.196",
+        "255.255.255.190"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Para dividir un bloque de red de clase C (/24) en 4 subredes de igual tamaño, necesitamos pedir prestados 2 bits a la parte de host (2^2 = 4 subredes). La nueva máscara tendrá 26 bits (24 + 2 = 26). La máscara decimal equivalente es 255.255.255.192 (/26)."
+    },
+    {
+      "id": 81,
+      "globalId": 86,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "Necesitamos borrar la caché de las direcciones físicas (Mac Address) en uno de los servidores que ofrece la aplicación de Intranet de la Subred de Aplicaciones del Modelo B. ¿Cuál de los siguientes comandos utilizaría?",
+      "opciones": [
+        "ip delete cache",
+        "arp -d",
+        "iptables -d mac",
+        "ip flush"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En sistemas Linux y Windows, el comando `arp -d` permite borrar o purgar una entrada específica de la caché ARP."
+    },
+    {
+      "id": 82,
+      "globalId": 87,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "Si tenemos en cuenta que la primera subred para PCs de Usuario del Modelo B es la 10.20.30.0/26, ¿cuáles son las direcciones de Red y Broadcast?",
+      "opciones": [
+        "10.20.30.0 y 10.20.30.255",
+        "10.20.30.1 y 10.20.30.62",
+        "10.20.30.0 y 10.20.30.63",
+        "10.20.30.64 y 10.20.30.127"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Un bloque con máscara /26 contiene 64 direcciones. Para la primera subred, el rango va de 10.20.30.0 a 10.20.30.63. La dirección de red es 10.20.30.0 y la de broadcast es 10.20.30.63."
+    },
+    {
+      "id": 83,
+      "globalId": 88,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "En uno de los servidores de la subred de DMZ se quiere instalar una solución para realizar filtrado de contenidos HTTP/HTTPS. ¿Cuál de las siguientes soluciones puede realizar dicha función?",
+      "opciones": [
+        "INFLUXDB",
+        "GRAFANA",
+        "CHECK_MK",
+        "SQUID"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Squid es un popular servidor proxy web y caché que ofrece potentes capacidades para realizar el filtrado de contenidos, control de navegación y limitación de acceso a sitios web."
+    },
+    {
+      "id": 84,
+      "globalId": 89,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "Una vez implementado \"teletrabajo\" mediante VPN, se quiere dotar de mayor seguridad mediante el envío de un código por SMS al teléfono móvil del trabajador. ¿Cómo se denomina a este tipo de validación?",
+      "opciones": [
+        "Factor electrónico de autenticación.",
+        "Autenticación electrónica de usuarios.",
+        "Doble factor de autenticación.",
+        "Factor único de autenticación."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La autenticación multifactor o doble factor de autenticación (2FA) combina dos mecanismos independientes para validar la identidad de un usuario: algo que sabe (contraseña) y algo que tiene o recibe (código enviado por SMS)."
+    },
+    {
+      "id": 85,
+      "globalId": 90,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "En la subred de DMZ del Modelo B se quiere implementar un servicio de correo seguro. Cuáles, de entre los siguientes, son los puertos seguros para los protocolos POP, SMTP e IMAP:",
+      "opciones": [
+        "POP:993 / SMTP:465 / IMAP:995",
+        "POP:995 / SMTP:495 / IMAP:963",
+        "POP:995 / SMTP:465 / IMAP:993",
+        "POP:965 / SMTP:495 / IMAP:993"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Los puertos seguros estandarizados por la IANA para la comunicación de correo cifrado SSL/TLS de forma predeterminada son: POP3S (puerto 995), SMTPS (puerto 465) e IMAPS (puerto 993)."
+    },
+    {
+      "id": 86,
+      "globalId": 91,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "Para la aplicacion AutoFirma 1.8.2 de las estaciones de trabajo de la organizacion, ¿qué algoritmo de huella para la firma se permite de los siguientes?",
+      "opciones": [
+        "ECDSA",
+        "MD5",
+        "SHA384",
+        "DSA"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "AutoFirma y los estándares de firma electrónica de la AGE soportan funciones hash seguras de la familia SHA-2, como SHA384, descartando algoritmos rotos u obsoletos como MD5."
+    },
+    {
+      "id": 87,
+      "globalId": 92,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "En la organización se están planteando instalar puntos de acceso WiFi. ¿Cuál de estos estándares puede funcionar a 2,4 GHz, 5 GHz y 6 GHz?",
+      "opciones": [
+        "No existe la banda de los 6 GHz",
+        "802.11ax",
+        "802.11ac",
+        "802.11be"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El estándar IEEE 802.11be (comercializado como WiFi 7) está diseñado para operar de forma simultánea e inteligente en las bandas de frecuencia inalámbricas de 2.4 GHz, 5 GHz y la nueva banda libre de 6 GHz."
+    },
+    {
+      "id": 88,
+      "globalId": 93,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "Desde su equipo en la subred de PCs de Usuarios del Modelo B y como administrador de los equipos del resto de subredes, necesita conectarse mediante SSH y SCP. ¿Qué puerto o puertos estándares deberían tener abiertos en el firewall para realizar esta labor?",
+      "opciones": [
+        "Puerto 21 para SSH y 22 para SCP.",
+        "Puerto 22 para SSH y 21 para SCP.",
+        "Puerto 21 tanto para SSH como SCP.",
+        "Puerto 22 tanto para SSH como SCP."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Tanto el servicio de consola segura (SSH) como el servicio de copia de archivos segura (SCP) utilizan de forma nativa el mismo canal de transporte seguro sobre el puerto estándar TCP/22."
+    },
+    {
+      "id": 89,
+      "globalId": 94,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "Si hubiese instalado un IIS, ¿qué comando utilizaría para reiniciarlo?",
+      "opciones": [
+        "IIS RESET",
+        "IISRESET",
+        "RESET IIS",
+        "RESETIIS"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La herramienta nativa de línea de comandos en Windows para reiniciar de forma inmediata los servicios del servidor web Internet Information Services (IIS) es `iisreset`."
+    },
+    {
+      "id": 90,
+      "globalId": 95,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "En uno de los servidores de la Subred de Aplicaciones del Modelo B se necesita realizar una captura del tráfico que pasa por la interfaz de red eth1 y guardarlo en fichero.out para su posterior análisis, ¿cuál de las siguientes sentencias es la correcta?",
+      "opciones": [
+        "snoop -d eth1 -w fichero.out",
+        "tcpdump -i any -o fichero.out",
+        "tcpdump -i eth1 -w fichero.out",
+        "snoop -d any -o fichero.out"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El comando `tcpdump` con la opción `-i eth1` indica que se escuche en la interfaz física 'eth1', y el modificador `-w` vuelca la captura en un archivo."
+    },
+    {
+      "id": 91,
+      "globalId": 96,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "En el servidor de la Subred de Aplicaciones que sirve las páginas de la intranet en el dominio intranet.sgi.es y que utiliza Apache 2.4, quieren servir páginas de otros dominios. ¿Cuál de las siguientes directivas debe utilizar?",
+      "opciones": [
+        "VirtualMachine",
+        "VirtualDomain",
+        "VirtualHost",
+        "VirtualIp"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En el servidor web Apache, la directiva `VirtualHost` se utiliza para alojar y servir múltiples sitios web o dominios web independientes (virtual hosting) dentro de una misma instancia."
+    },
+    {
+      "id": 92,
+      "globalId": 97,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "Se quiere crear una nueva vLAN en el organismo. ¿Qué opción de las vLAN hace que las tramas Ethernet incorporen la etiqueta \"vLAN ID\"?",
+      "opciones": [
+        "untagged",
+        "tagged",
+        "id",
+        "trunk"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El etiquetado de tramas Ethernet según el estándar IEEE 802.1Q se denomina 'tagged'. Esto añade un identificador de VLAN a la cabecera de la trama."
+    },
+    {
+      "id": 93,
+      "globalId": 98,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "Indique qué herramienta desarrollada por el CCN-CERT, es una plataforma de análisis avanzado de malware:",
+      "opciones": [
+        "NADA",
+        "CADA",
+        "ADA",
+        "SADA"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "ADA es la plataforma de análisis avanzado y automatizado de código dañino (malware) provista por el Centro Criptológico Nacional (CCN-CERT)."
+    },
+    {
+      "id": 94,
+      "globalId": 99,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "En el clúster de Firewalls del modelo B se quiere implementar un módulo de seguridad para filtrar y monitorear el tráfico HTTP desde Internet a nuestros servidores WEB. ¿Cuál de los siguientes módulos debe implementarse para cumplir esta función?",
+      "opciones": [
+        "WAT - Web Administration Tool",
+        "WAF - Web Application Firewall",
+        "VFN - Virtual Firewall Network",
+        "WFL7 - Web Firewall Layer 7"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Un WAF (Web Application Firewall) es un dispositivo de seguridad perimetral diseñado específicamente para monitorizar, filtrar y bloquear ataques dirigidos a nivel de capa de aplicación (capa 7 HTTP/HTTPS)."
+    },
+    {
+      "id": 95,
+      "globalId": 100,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "En la Subred de PCs de Usuario del Modelo B, los PCs tienen el sistema operativo Windows 10. Necesitamos saber la tabla de enrutamiento de los equipos. ¿Cuál de los siguientes comandos permite ver esa información?",
+      "opciones": [
+        "route show",
+        "ip route ls",
+        "route print",
+        "ip route print"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En sistemas operativos Windows, el comando de consola utilizado para visualizar e interactuar con la tabla de enrutamiento local IP es `route print`."
+    },
+    {
+      "id": 96,
+      "globalId": 101,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "¿Qué comando muestra información del conjunto resultante de directivas (RSoP) para un usuario y equipo de destino en los equipos Windows 10 de la Subred de PCs de Usuario del Modelo B?",
+      "opciones": [
+        "gpshow",
+        "gpprint",
+        "gpresult",
+        "gplist"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El comando de consola `gpresult` de Windows permite obtener detalladamente las directivas aplicadas (Resultant Set of Policy - RSoP) para el usuario y ordenador actual de dominio."
+    },
+    {
+      "id": 97,
+      "globalId": 102,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "Una vez implementado el acceso telemático a la oficina o \"teletrabajo\" mediante VPN, en relación con esta tecnología, indique en qué RFC está definido el protocolo PPTP:",
+      "opciones": [
+        "RFC 2661",
+        "RFC 2637",
+        "RFC 1661",
+        "RFC 2472"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El protocolo PPTP (Point-to-Point Tunneling Protocol) utilizado históricamente para construir redes privadas virtuales se encuentra formalmente documentado en el estándar técnico RFC 2637."
+    },
+    {
+      "id": 98,
+      "globalId": 103,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "Los dispositivos de interconexión de redes de nuestro sistema, son compatibles con POE++. Señale la afirmación correcta con respecto a este término:",
+      "opciones": [
+        "Las siglas corresponden a Power-of-Ethernet.",
+        "Como estándar, recibe la denominación IEEE 802.3at.",
+        "La alimentación real recibida es de 25,50 Watts.",
+        "Se subdivide en dos tipos: Tipo 3 y Tipo 4."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La norma PoE++ (Power over Ethernet de alta potencia) regulada bajo el estándar de la industria IEEE 802.3bt se subdivide en Tipo 3 (que provee hasta 60W) y Tipo 4 (que provee hasta 90W)."
+    },
+    {
+      "id": 99,
+      "globalId": 104,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "Si fuese el motor de Base de Datos ORACLE, indique cuál de los siguientes comandos utilizaria para crear una copia de seguridad de la base de datos origen:",
+      "opciones": [
+        "RMAN",
+        "DUMPALL",
+        "ORACLE_BCK",
+        "COPYDB"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "RMAN (Recovery Manager) es la utilidad oficial de Oracle para automatizar y administrar las tareas de copia de seguridad (backups), restauración y recuperación en caliente."
+    },
+    {
+      "id": 100,
+      "globalId": 105,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico II (Opción B)",
+      "año": 2022,
+      "pregunta": "Se ha decidido que la última IP válida de host para la Subred de Aplicaciones del Modelo B sea considerada como Puerta de Enlace o Default Gateway. Según este criterio, señale la opción correcta teniendo en cuenta que esta subred tiene el direccionamiento 10.20.30.128/26",
+      "opciones": [
+        "10.20.30.191",
+        "10.20.30.190",
+        "10.20.30.193",
+        "10.20.30.192"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Un bloque /26 tiene 64 direcciones. La subred 10.20.30.128/26 abarca el rango de IPs de 10.20.30.128 a 10.20.30.191. El identificador de red es .128 y la IP de broadcast es .191. Por lo tanto, la última IP de host válida y asignable es 10.20.30.190."
+    },
+    {
+      "id": 101,
+      "globalId": 81,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "El equipo de comunicaciones le asigna la red 10.0.4.0 con la máscara 255.255.255.128 para el direccionamiento de la DCM. ¿Cuántos bits tiene la máscara de red?",
+      "opciones": [
+        "24",
+        "26",
+        "25",
+        "23"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La máscara decimal 255.255.255.128 activa los primeros 25 bits, lo que equivale a un sufijo de enrutamiento /25."
+    },
+    {
+      "id": 102,
+      "globalId": 82,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "También le preguntan a qué Clase pertenece la red asignada (10.0.4.0).",
+      "opciones": [
+        "Clase A.",
+        "Clase B.",
+        "Clase C.",
+        "Clase D."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En el direccionamiento IP clásico (claseful), las direcciones de Clase A cubren el rango de primer octeto de 1 a 126. Por lo tanto, la red 10.0.4.0 pertenece a la Clase A."
+    },
+    {
+      "id": 103,
+      "globalId": 83,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Para la CHT los compañeros de redes le asignan el direccionamiento 10.0.0.0/21. ¿Cuál es el número máximo de hosts disponible?",
+      "opciones": [
+        "1024",
+        "2046",
+        "32",
+        "256"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Una subred /21 reserva 11 bits para la parte de host (32 - 21 = 11). El número total de hosts posibles es de 2^11 - 2 = 2048 - 2 = 2046 direcciones asignables."
+    },
+    {
+      "id": 104,
+      "globalId": 84,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Dado el direccionamiento anterior (10.0.0.0/21) su responsable le pregunta cuál es el rango de hosts, para poder calcular si el direccionamiento es el adecuado.",
+      "opciones": [
+        "10.0.3.1 - 10.0.3.254",
+        "10.0.0.1 - 10.0.0.254",
+        "10.0.3.0 - 10.0.3.255",
+        "10.0.0.1 - 10.0.7.254"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Un bloque /21 tiene un tamaño de bloque de 8 en el tercer octeto (256 / 2^5 = 8). Por tanto, la red 10.0.0.0/21 abarca de 10.0.0.0 a 10.0.7.255, siendo las IPs de hosts útiles las comprendidas entre 10.0.0.1 y 10.0.7.254."
+    },
+    {
+      "id": 105,
+      "globalId": 85,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "La DCM no es capaz de especificarle la versión de RHEL que tienen sus máquinas, por lo que debe decirles el comando a ejecutar. ¿Cuál de los siguientes sería?",
+      "opciones": [
+        "rm -f /etc/redhat-release",
+        "cat /etc/redhat-version",
+        "cat /etc/redhat-release",
+        "mv /etc/redhat-release"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En de Red Hat, el fichero `/etc/redhat-release` contiene el nombre y versión de lanzamiento oficial del sistema operativo, por lo que se visualiza mediante `cat /etc/redhat-release`."
+    },
+    {
+      "id": 106,
+      "globalId": 86,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Para poder tener conectividad, la CHT necesita poner una ruta persistente en una de sus máquinas Solaris a la red 10.0.5.0/24 con una máscara de red 255.255.255.0 y usando como puerta de enlace la dirección IP 10.0.5.150 ¿Cuál sería el comando correcto?",
+      "opciones": [
+        "route -p add -net 10.0.5.0/24 -gateway 10.0.5.150",
+        "route new -p -net 10.0.5.0/24 -gateway 10.0.5.150",
+        "route -static add -net 10.0.5.0/24 -gateway 10.0.5.150",
+        "route add -static -net 10.0.5.0/24 -gateway 10.0.5.150"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En sistemas Unix Oracle Solaris, la opción `-p` (persistent) en el comando `route` permite crear una regla de enrutamiento estática que sobrevive a reinicios."
+    },
+    {
+      "id": 107,
+      "globalId": 87,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Se está realizando una auditoría de seguridad en uno de los servidores Linux y le preguntan dónde se están guardando las contraseñas encriptadas de los usuarios:",
+      "opciones": [
+        "/etc/passwd",
+        "/etc/users",
+        "/etc/shadow",
+        "/etc/groups"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Para mitigar ataques locales, los sistemas Linux modernos almacenan las contraseñas cifradas (hashes) en el archivo `/etc/shadow`, el cual sólo es legible por el superusuario root."
+    },
+    {
+      "id": 108,
+      "globalId": 88,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Una pieza crucial en cualquier sistema informático son las BBDD. Le han informado que tanto la DCM como la CHT utilizan Oracle, pero no le han dicho la versión. ¿Qué consulta podría hacer en la base de datos para conocer esta información?",
+      "opciones": [
+        "SELECT * FROM V$VERSION",
+        "SELECT * FROM V$VERSIONADO",
+        "SELECT * FROM V$VERSIONDB",
+        "SELECT * FROM V$VERSIONTABLE"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En el motor de base de datos de Oracle, la vista dinámica de rendimiento `V$VERSION` devuelve el nombre completo, edición y nivel de versión de lanzamiento de los componentes principales instalados."
+    },
+    {
+      "id": 109,
+      "globalId": 89,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Se le solicita crear un backup del directorio /home/opositor/temas/ comprimido con gzip en RHEL. Indique el comando correcto para realizarlo.",
+      "opciones": [
+        "tar -czf TEMAS.tar.gz /home/opositor/temas/",
+        "tar -xzf TEMAS.tar.gz /home/opositor/temas/",
+        "tar -xzf /home/opositor/temas/ TEMAS.tar.gz",
+        "tar -cjf /home/opositor/temas/ TEMAS.tar.gz"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando `tar` junto con `-c` (create), `-z` (compresión gzip) y `-f` (archivo resultante) es la sintaxis para generar un empaquetado de backup comprimido con formato .tar.gz."
+    },
+    {
+      "id": 110,
+      "globalId": 90,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Le preguntan sobre las cuentas de usuario que pertenecen al grupo Administradores locales de una máquina, ¿qué comando de Windows debería utilizar?",
+      "opciones": [
+        "net local administradores",
+        "net localgroup admin",
+        "net local admin",
+        "net localgroup administradores"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "En sistemas operativos Windows, el comando de línea para administrar grupos locales es `net localgroup`. Añadiendo el nombre descriptivo del grupo se obtiene el listado de miembros."
+    },
+    {
+      "id": 111,
+      "globalId": 91,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Para recabar información sobre la configuración de directivas locales de Windows, ¿qué comando de Windows muestra esa información?",
+      "opciones": [
+        "net computer",
+        "net localgroup",
+        "net config",
+        "net accounts"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El comando `net accounts` se utiliza en Windows para comprobar o definir las propiedades y políticas globales de las cuentas locales, como la longitud mínima de contraseña."
+    },
+    {
+      "id": 112,
+      "globalId": 92,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Se están realizando en su unidad informes de las capacidades de los discos y requieren de su ayuda. Si se dispone de 5 discos duros de 6 TB, y se decide configurarlos en RAID 6, ¿qué capacidad neta de almacenamiento se obtendrá?",
+      "opciones": [
+        "12 TB",
+        "18 TB",
+        "24 TB",
+        "30 TB"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El nivel RAID 6 utiliza doble bloque de paridad distribuida para proteger los datos de fallos físicos en hasta dos discos a la vez. La capacidad útil de almacenamiento se calcula como (N - 2) * Capacidad, lo que para 5 discos de 6 TB equivale a: (5 - 2) * 6 TB = 18 TB."
+    },
+    {
+      "id": 113,
+      "globalId": 93,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "En sus instalaciones no disponen de un Windows Server 2008, pero como tienen instalado Docker han decidido crear uno y arrancarlo a partir de una imagen llamada SW2008. ¿Con qué sentencia debería realizar esta petición?",
+      "opciones": [
+        "docker run SW2008",
+        "docker start SW2008",
+        "start docker SW2008",
+        "docker start run SW2008"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando `docker run` es la instrucción principal utilizada para crear y arrancar un nuevo contenedor en base a una imagen local o descargada."
+    },
+    {
+      "id": 114,
+      "globalId": 94,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "No está seguro de que el contenedor se haya arrancado correctamente. ¿Qué comando utilizaría para listar todos los contenedores, estén o no en marcha?",
+      "opciones": [
+        "docker ps",
+        "docker ps -a",
+        "docker list",
+        "docker list-container -all"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Por defecto, `docker ps` sólo muestra contenedores activos. Añadiendo el modificador `-a` (all), se enumeran todos los contenedores presentes en el sistema."
+    },
+    {
+      "id": 115,
+      "globalId": 95,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Están estudiando el traslado de algunos equipos de la CHT a su CPD y le informan de que tienen una sonda de alrededor de 70 watios que utilizan 1 hora a la semana y que debe permanecer apagada el resto del tiempo. Le indican que sería necesario poder encenderla remotamente por red. ¿Sería posible hacerlo?",
+      "opciones": [
+        "No, no sería posible.",
+        "Si, mediante PoE IEEE 802.3ct",
+        "Si, mediante PoE IEEE 802.3bt",
+        "Si, mediante PoE IEEE 802.3dt"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El estándar PoE 802.3bt (PoE++ Tipo 4) permite proveer una alimentación de red continua de hasta 90W, lo que es suficiente para alimentar un dispositivo de 70W."
+    },
+    {
+      "id": 116,
+      "globalId": 96,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "La CHT le informa que tienen un acuerdo con la Dirección General de Tráfico y alojan en sus instalaciones un medidor de tráfico que requiere una conexión Ethernet de unos 30 Gbps. Según el estándar ANSI/TIA-568, ¿qué categoría de cableado sería necesitaría?",
+      "opciones": [
+        "Categoría 6.",
+        "Categoría 7.",
+        "Categoría 7A.",
+        "Categoría 8."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Para admitir velocidades agregadas de transmisión de red de hasta 40 Gbps sobre par de cobre, el estándar de telecomunicaciones ANSI/TIA-568-C.2-1 requiere el uso de cable de Categoría 8."
+    },
+    {
+      "id": 117,
+      "globalId": 97,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Durante el proceso de creación de reglas, se da cuenta de un grave problema de seguridad. Algunos de los equipos Windows no tienen habilitado el firewall. ¿Qué comando utilizaría para habilitarlo?",
+      "opciones": [
+        "netsh advfirewall set allprofiles enable",
+        "netsh advfirewall set allprofiles state on",
+        "netsh advfirewall set allprofiles state online",
+        "netsh advfirewall set allprofiles on"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Para habilitar de forma centralizada y simultánea el Firewall de Windows para todos los perfiles de red disponibles, se ejecuta `netsh advfirewall set allprofiles state on`."
+    },
+    {
+      "id": 118,
+      "globalId": 98,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Debido al creciente número de ataques, se decide implantar en su CPD un IPS que analice el comportamiento de la red y que examine el tráfico inusual para detectar posibles ataques DoS y malwares. ¿Qué tipo de IPS necesita?",
+      "opciones": [
+        "DIPS",
+        "WIPS",
+        "NBA",
+        "HIPS"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Un sistema NBA (Network Behavior Analysis) analiza el comportamiento del flujo global de red para identificar anomalías (como picos inusuales de tráfico por ataques de denegación de servicio DoS)."
+    },
+    {
+      "id": 119,
+      "globalId": 99,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Un aspecto importante es el protocolo de correo que se va a utilizar para las comunicaciones vía email. En la DCM están preocupados y no les parece seguro usar SMTP por lo que usted rápidamente sugiere usar SMTPS. ¿Qué puerto por defecto tendrá que solicitar a los compañero de seguridad para este protocolo SMTPS?",
+      "opciones": [
+        "25",
+        "465",
+        "443",
+        "425"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El puerto estándar de la IANA para la comunicación de correo SMTP seguro sobre TLS/SSL (SMTPS) es el puerto TCP/465."
+    },
+    {
+      "id": 120,
+      "globalId": 100,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Para evitar problemas de resolución de nombres en estos equipos Windows donde se está configurando el cliente de correo, han decidido limpiar la caché DNS. ¿Cuál sería el comando adecuado?",
+      "opciones": [
+        "ifconfig /flushdns",
+        "ipconfig /flushdns",
+        "ipconfig /cleardns",
+        "ifconfig /cleardns"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La herramienta estándar en entornos Windows para la configuración y diagnóstico IP es `ipconfig`. Para purgar la resolución de nombres local se utiliza el parámetro `/flushdns`."
+    },
+    {
+      "id": 121,
+      "globalId": 101,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Con el objetivo de recabar información sobre los equipos Windows, disponen de un software de inventariado que necesita acceso por el puerto 4433 (TCP) en los equipos destino. ¿Qué comando utilizaría en estos últimos para añadir la regla al firewall?",
+      "opciones": [
+        "netsh advfirewall firewall create rule name= \"Inventariado\" dir=in action=allow protocol=TCP localport=4433",
+        "netsh advfirewall firewall add rule name= \"Inventariado\" dir=in action=permit protocol=TCP localport=4433",
+        "netsh advfirewall firewall add rule name= \"Inventariado\" dir=in action=allow protocol=TCP localport=4433",
+        "netsh advfirewall firewall new rule name= \"Inventariado\" dir=in action=allow protocol=TCP localport=4433"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Para añadir una regla de cortafuegos en Windows Defender para un puerto TCP, se utiliza la orden `netsh advfirewall firewall add rule` junto con los parámetros requeridos."
+    },
+    {
+      "id": 122,
+      "globalId": 102,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Desde la unidad responsable de la red, le indican que por motivos de seguridad van a realizar la conexión por el puerto 422. ¿Qué comando debería utilizar en sus equipos RHEL para comprobar que la comunicación ya está abierta, si la IP destino es la 10.0.4.22 ?",
+      "opciones": [
+        "nc -v - ip 10.0.4.22 -port 422",
+        "nc -v 10.0.4.22 422",
+        "nc -v 422 10.0.4.22",
+        "nc -v 10.0.4.22:422"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En sistemas Linux RedHat, la utilidad Netcat (`nc`) se utiliza especificando directamente el host remoto seguido del número de puerto: `nc -v 10.0.4.22 422`."
+    },
+    {
+      "id": 123,
+      "globalId": 103,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "La base de datos se ha visto comprometida y han decidido restaurar la copia de seguridad. Le indican que el dispositivo de almacenamiento está cifrado. ¿Qué necesita que le proporcionen para poder restaurar la copia?",
+      "opciones": [
+        "El certificado digital.",
+        "La clave de BitLocker.",
+        "La clave privada.",
+        "La clave de sesión."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Si el dispositivo de almacenamiento que contiene las copias de seguridad de Windows está cifrado con BitLocker, es necesario poseer e introducir la clave de recuperación de BitLocker."
+    },
+    {
+      "id": 124,
+      "globalId": 104,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Desde su unidad también se está valorando el uso de RAID 10, ¿cuántos discos duros son necesarios para crearlo?",
+      "opciones": [
+        "2 discos duros.",
+        "3 discos duros.",
+        "Al menos 4 discos duros.",
+        "Es indiferente."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Una arquitectura RAID 10 combina las técnicas de espejo (RAID 1) y de división en bloques (RAID 0). Debido a este diseño, requiere un número par mínimo de 4 discos."
+    },
+    {
+      "id": 125,
+      "globalId": 105,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico II (Opción B)",
+      "año": 2019,
+      "pregunta": "Muchas de las comunicaciones se van a realizar mediante conexiones ssh y tiene que solicitar las reglas de firewall al equipo de comunicaciones. ¿Cuál es el puerto que debe solicitar?",
+      "opciones": [
+        "21",
+        "63",
+        "69",
+        "22"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El protocolo de conexión y administración remota cifrada por consola SSH (Secure Shell) utiliza por defecto el puerto estándar TCP/22."
+    }
+  ]
+}

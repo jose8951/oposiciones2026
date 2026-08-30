@@ -1,14 +1,14 @@
 export interface Pregunta {
-  id: number;
+  id?: number;
   globalId: number;
-  seccion: string;
+  seccion?: string;
+  anio?: number; // <-- Cambiado 'año' por 'anio'
   pregunta: string;
   opciones: string[];
-  respuestaCorrecta: number | null;
-  anulada: boolean;
+  respuestaCorrecta: number;
+  anulada?: boolean;
   explicacion: string;
 }
-
 export interface Examen {
   examen: string;
   preguntas: Pregunta[];

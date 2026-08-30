@@ -1,0 +1,2005 @@
+{
+  "examen": "Banco de Preguntas Unificado - Opción A: Desarrollo de Sistemas",
+  "preguntas": [
+    {
+      "id": 1,
+      "globalId": 86,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Se necesita establecer un enlace bidireccional entre un campo de entrada y una propiedad del componente de Angular. Señale la opción correcta para ello:",
+      "opciones": [
+        "<input type=\"text\" [ngModel]=\"email\" />",
+        "<input type=\"text\" (ngModel)=\"email\" />",
+        "<input type=\"text\" [(ngModel)]=\"email\" />",
+        "<input type=\"text\" ngModel=\"email\" />"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En Angular, el enlace bidireccional (two-way binding) se representa con la sintaxis de 'banana-in-a-box': [()]. Esto combina el enlace de propiedad [] y el enlace de eventos ()."
+    },
+    {
+      "id": 2,
+      "globalId": 87,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Se quiere mostrar la fecha y hora en una parte de la aplicación. Esta información está en una propiedad del componente de Angular llamada fechaHora y un ejemplo del formato deseado es: 12/04/2026 19:32. ¿Cuál sería la opción correcta?",
+      "opciones": [
+        "<p>Fecha y hora: { fechaHora | date: dd/MM/YYYY hh:mm }</p>",
+        "<p>Fecha y hora: {{ fechaHora | date: 'dd/MM/yyyy' HH:mm }}</p>",
+        "<p> Fecha y hora: { fechaHora | date: 'DD/MM/yyyy hh:mm' }</p>",
+        "<p>Fecha y hora: {{ fechaHora | date: 'dd/MM/yyyy HH:mm' }}</p>"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La sintaxis correcta para interpolación en Angular requiere dobles llaves {{ }}. La tubería (pipe) de fecha utiliza 'dd/MM/yyyy HH:mm' para día, mes en número, año con 4 dígitos, hora en formato 24h y minutos."
+    },
+    {
+      "id": 3,
+      "globalId": 88,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Dada la siguiente clase CSS:\ndiv { text-align: center; font-weight: bold; border-radius: 20px; box-shadow: 4px 4px 4px black; background-color: limegreen; }\n¿Qué pasará visualmente con el siguiente elemento HTML?:\n<div>Bienvenido</div>",
+      "opciones": [
+        "El texto se mostrará centrado, en negrita y con sombra negra sobre una caja rectangular de color verde lima y con borde redondo.",
+        "El texto se mostrará centrado y en negrita sobre una caja rectangular de color verde lima, con borde recto y con sombra negra aplicada a la caja.",
+        "El texto se mostrará centrado, en negrita y con sombra negra sobre una caja redonda de color verde lima.",
+        "El texto se mostrará centrado y en negrita sobre una caja rectangular de color verde lima, con borde redondo y con sombra negra aplicada a la caja."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El elemento se mostrará centrado, en negrita, sobre un contenedor rectangular con bordes redondeados (border-radius: 20px), fondo verde lima y con sombra negra aplicada a la caja (box-shadow)."
+    },
+    {
+      "id": 4,
+      "globalId": 89,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "En una clase de TypeScript se definen los siguientes arrays:\nconst menuAdministrador = [\"Usuarios\", \"Permisos\"];\nconst menuGestor = [\"Notificaciones\", \"Usuarios\", \"Asientos registrales\"];\nEn esa misma clase hay una función que ejecuta la siguiente operación:\nreturn […menuAdministrador, …menuGestor]\n¿Qué hace esta operación?",
+      "opciones": [
+        "Sustituye el contenido de menuGestor por el de menuAdministrador.",
+        "Sustituye el contenido de menuAdministrador por el de menuGestor.",
+        "Genera un nuevo array que contiene únicamente los elementos comunes entre menuGestor y menuAdministrador.",
+        "Genera un nuevo array con el contenido de menuAdministrador y menuGestor."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El operador de propagación (spread operator) '...' expande los elementos de ambos arrays de entrada en un nuevo y único array de salida."
+    },
+    {
+      "id": 5,
+      "globalId": 90,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Necesita instalar Entity Framework en la API de .NET. ¿Con qué comando se puede hacer?",
+      "opciones": [
+        "dotnet package add Microsoft.EntityFrameworkCore",
+        "dotnet add package Microsoft.EntityFrameworkCore",
+        "dotnet add Microsoft.EntityFrameworkCore",
+        "dotnet package Microsoft.EntityFrameworkCore"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El comando CLI de .NET para añadir paquetes NuGet al proyecto es 'dotnet add package <nombre_del_paquete>'."
+    },
+    {
+      "id": 6,
+      "globalId": 91,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Se va a desarrollar una nueva consulta en la API de .NET para obtener todos los usuarios cuyo primer apellido contenga una cadena de texto almacenada en una variable llamada “texto”. ¿Cuál sería la forma correcta de hacerlo?",
+      "opciones": [
+        "await context.Usuarios.Where(u => u.Apellido1.Contains(texto)).ToListAsync();",
+        "await context.Usuarios.Where(u => u.Apellido1.Like(texto)).ToListAsync();",
+        "await context.Usuarios(u => u.Apellido1.Where(texto)).ToListAsync();",
+        "await context.Usuarios(u => u.Apellido1.Contains(texto)).ToListAsync();"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En Entity Framework Core con LINQ, la función '.Contains()' sobre un campo de texto se traduce a la instrucción SQL 'LIKE %texto%'."
+    },
+    {
+      "id": 7,
+      "globalId": 92,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Se está implementando un sistema de informes en la API de Java y uno de los datos a incluir es el total de asientos registrales recibidos en el año 2026. ¿Cuál es la forma correcta de hacerlo?",
+      "opciones": [
+        "asientos.collection().filter(n -> n.getAñoPresentacion() == 2026).sum();",
+        "asientos.stream().filter(n -> n.getAñoPresentacion() == 2026).count();",
+        "asientos.list().filter(n -> n.getAñoPresentacion() == 2026).sum();",
+        "asientos.set().filter(n -> n.getAñoPresentacion() == 2026).count();"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En la API de Streams de Java, se puede filtrar una lista mediante '.filter()' y luego contar los elementos que cumplen la condición con '.count()'."
+    },
+    {
+      "id": 8,
+      "globalId": 93,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Se desea añadir a la API de Java la integración con los servicios de Notifica. ¿Cómo podría, a partir del fichero notifica.wsdl, generar las clases Java para esos servicios web en un paquete llamado “notificaciones”?",
+      "opciones": [
+        "wsgen -d notificaciones notifica.wsdl",
+        "schemagen -p notificaciones notifica.wsdl",
+        "xjc -d notificaciones notifica.wsdl",
+        "wsimport -p notificaciones notifica.wsdl"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La herramienta estándar 'wsimport' de JAX-WS se utiliza para generar artefactos portátiles de servicios web a partir de un archivo WSDL."
+    },
+    {
+      "id": 9,
+      "globalId": 94,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Se necesita crear una vista en la base de datos SQL Server para saber cuántos expedientes ha tramitado cada usuario. ¿Cuál sería la forma correcta de crearla?",
+      "opciones": [
+        "CREATE VIEW ExpTramitados AS SELECT IdUsuarioTramitador, COUNT(IdExpediente) AS TotalExpedientes FROM Expedientes;",
+        "CREATE VIEW ExpTramitados AS SELECT IdUsuarioTramitador, IdExpediente FROM Expedientes GROUP BY IdUsuarioTramitador;",
+        "CREATE VIEW ExpTramitados AS SELECT IdUsuarioTramitador, COUNT(IdExpediente) FROM Expedientes GROUP BY IdUsuarioTramitador;",
+        "CREATE VIEW ExpTramitados AS SELECT IdUsuarioTramitador, SUM(IdExpediente) FROM Expedientes GROUP BY IdUsuarioTramitador;"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Para agrupar elementos y contarlos en SQL, se debe usar la función 'COUNT' junto con la cláusula 'GROUP BY' especificando las columnas que no forman parte de la agregación."
+    },
+    {
+      "id": 10,
+      "globalId": 95,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Al acceder a la aplicación se quiere mostrar una serie de información para los administradores. ¿Qué sentencia de SQL Server es la correcta para obtener los últimos 10 usuarios dados de alta en una tabla de 100 usuarios?",
+      "opciones": [
+        "SELECT TOP(10) Nombre, Apellido1, Apellido2 FROM Usuarios ORDER BY FechaCreacion DESC;",
+        "SELECT TOP(10) Nombre, Apellido1, Apellido2 FROM Usuarios WHERE FechaCreacion > '2026-01-22T00:00:00';",
+        "SELECT TOP(10) Nombre, Apellido1, Apellido2 FROM Usuarios ORDER BY FechaCreacion ASC;",
+        "SELECT Nombre, Apellido1, Apellido2, TOP(10) FechaCreacion FROM Usuarios ORDER BY FechaCreacion;"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Para obtener los últimos 10 registros añadidos en SQL Server, se utiliza el modificador 'TOP(10)' ordenando la tabla de forma descendente por el campo de fecha de creación."
+    },
+    {
+      "id": 11,
+      "globalId": 96,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Debido a unas pruebas realizadas en el entorno de preproducción, la secuencia de la identidad de una tabla de SQL Server se ha desajustado y necesita reiniciarla. ¿Cómo lo haría?",
+      "opciones": [
+        "DBCC RESETIDENT(‘TablaPruebas’);",
+        "DBCC CHECKIDENT(‘TablaPruebas’);",
+        "DBCC RESETIDENT(‘TablaPruebas, NORESEED);",
+        "DBCC CHECKIDENT(‘TablaPruebas’, NORESEED);"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El comando 'DBCC CHECKIDENT' se utiliza para comprobar y, si es necesario, restablecer el valor actual de identidad de una tabla en SQL Server."
+    },
+    {
+      "id": 12,
+      "globalId": 97,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Para evitar ataques XSS mediante rastreo MIME se va a añadir una cabecera a las respuestas de las dos APIs al frontend. ¿De qué cabecera se trata?",
+      "opciones": [
+        "X-Frame-Options: DENY",
+        "X-Content-Type-Options: nosniff",
+        "X-XSS-Protection: 0",
+        "Content-Security-Policy: default-src https:"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La cabecera 'X-Content-Type-Options: nosniff' impide que el navegador intente adivinar (rastrear) el tipo de archivo basándose en su contenido, lo que previene ataques de inyección XSS."
+    },
+    {
+      "id": 13,
+      "globalId": 98,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "En las peticiones a la API de persistencia observa que se incluye la cabecera:\nAuthorization: Bearer eyJhbG.eyJzdW.KMUFsI\n¿De qué tipo de autenticación se trata?",
+      "opciones": [
+        "Básica.",
+        "A través de una API Key.",
+        "A través de una cookie.",
+        "A través de un JWT (JSON Web Token)."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El esquema de autenticación 'Bearer' seguido de una cadena codificada dividida en tres partes por puntos (header, payload, signature) es el estándar de JWT (JSON Web Token)."
+    },
+    {
+      "id": 14,
+      "globalId": 99,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Revisando el código HTML del apartado de gestión de usuarios de la aplicación ha detectado un problema de accesibilidad web:\n<h1>Gestión de usuarios</h1>\n<span><strong>Seleccione un usuario para ver acciones</strong></span>\n<h3>Administradores</h3>\nIndique cuál es:",
+      "opciones": [
+        "Se está usando <strong>, en lugar de <b>, para dar mayor importancia semántica al texto.",
+        "Se está usando <span>, en lugar de <p>, para mostrar un texto.",
+        "Hay un salto en la jerarquía de encabezados, de <h1> a <h3>, sin pasar por <h2>.",
+        "Falta un elemento <div> para contener a todos los demás elementos."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La jerarquía de encabezados debe ser secuencial (<h1> -> <h2> -> <h3>...) para que las tecnologías de asistencia como los lectores de pantalla puedan construir el esquema del sitio adecuadamente."
+    },
+    {
+      "id": 15,
+      "globalId": 100,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "En la API de persistencia encuentra una clase con el siguiente método:\npublic void crearExpediente() {\nthis.expediente.crearCarpetas();\nthis.expediente.crearDocumentos();\nthis.expediente.crearIndice();\n}\n¿Qué patrón de diseño se está utilizando?",
+      "opciones": [
+        "Abstract factory.",
+        "Composite.",
+        "Factory method.",
+        "Builder."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El patrón Builder (Constructor) se centra en la construcción paso a paso de objetos complejos, encapsulando la lógica de creación mediante llamadas secuenciales."
+    },
+    {
+      "id": 16,
+      "globalId": 101,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Se va a proceder a realizar pruebas unitarias en la API de persistencia con la herramienta Nunit 3.0. ¿Cuál de las siguientes opciones es una definición correcta de una clase de pruebas?",
+      "opciones": [
+        "[TestFixture] public sealed class Tests { [Test] public void Test() {} }",
+        "[TestFixture] public sealed class Tests { [TestSample] public void Test() {} }",
+        "[TestGroup] public sealed class Tests { [TestCase] public void Test() {} }",
+        "[TestCaseSource] public sealed class Tests { [TestCase] public void Test() {} }"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En NUnit, una clase de prueba se identifica con el atributo '[TestFixture]' y cada método de prueba individual con el atributo '[Test]'."
+    },
+    {
+      "id": 17,
+      "globalId": 102,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Uno de sus compañeros ha desarrollado un servicio REST que recibe un JSON y le ha pedido ayuda para probar su funcionamiento, para lo cual va a utilizar la herramienta Postman versión 12. ¿Con qué tipo de dato debería enviar el cuerpo de la petición?",
+      "opciones": [
+        "none",
+        "GraphQL",
+        "raw",
+        "x-www-form-urlencoded"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En Postman, para enviar cargas de datos en formatos crudos estructurados (como JSON o XML), se debe seleccionar el formato 'raw' y especificar el tipo MIME correspondiente (ej. application/json)."
+    },
+    {
+      "id": 18,
+      "globalId": 103,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Se ha detectado un error en una de las últimas subidas de código a la rama develop del repositorio. Tras una fase de investigación, sospecha que el error está en un commit concreto. ¿Con qué operación de Git puede incorporar ese commit a una rama aparte para continuar su investigación?",
+      "opciones": [
+        "git banana-pick",
+        "git cherry-pick",
+        "git berry-pick",
+        "git grape-pick"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El comando 'git cherry-pick' permite aplicar un commit específico de una rama sobre la rama actual en la que estamos situados."
+    },
+    {
+      "id": 19,
+      "globalId": 104,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Un compañero le consulta por los formatos en los que puede generar la documentación de OpenAPI/Swagger. ¿Cuáles son?",
+      "opciones": [
+        "YAML y HTML.",
+        "JSON y XML.",
+        "YAML y JSON.",
+        "HTML y XML."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La especificación de OpenAPI/Swagger se define principalmente en formatos estructurados ligeros e interoperables: YAML y JSON."
+    },
+    {
+      "id": 20,
+      "globalId": 105,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Para evitar ataques de denegación de servicio se ha decidido implementar un control de peticiones máximas en un periodo de tiempo concreto (rate limiting). ¿Qué código HTTP deberá devolverse cuando un usuario alcance el límite establecido?",
+      "opciones": [
+        "425",
+        "429",
+        "502",
+        "503"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El código de estado '429 Too Many Requests' indica específicamente que el cliente ha enviado demasiadas peticiones dentro de una ventana de tiempo predefinida."
+    },
+    {
+      "id": 21,
+      "globalId": 106,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "¿Con qué tipo de fichero debe trabajar si desea implementar pruebas unitarias en un componente del frontend?",
+      "opciones": [
+        "component.ts",
+        "test.ts",
+        "module.ts",
+        "spec.ts"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "En frameworks de frontend como Angular, los archivos que contienen las especificaciones y pruebas unitarias de los componentes se nombran tradicionalmente con la extensión '.spec.ts'."
+    },
+    {
+      "id": 22,
+      "globalId": 107,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "En uno de los componentes del frontend detecta la siguiente expresión regular para controlar el campo de entrada del teléfono:\n[\\+34|34]*[ -]*(3)[0-9]{8}\n¿Cuál de las siguientes opciones cumple la expresión regular?",
+      "opciones": [
+        "641992011",
+        "641 992 011",
+        "+34 641992011",
+        "+34641992011"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Nota técnica: Aunque el tribunal publicó en su plantilla como correcta la opción A (641992011), existe una errata en la expresión regular de la pregunta ya que requiere que el número empiece obligatoriamente por '3' ((3)), cuando los móviles de España inician por '6' o '7'."
+    },
+    {
+      "id": 23,
+      "globalId": 108,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Le consultan si conoce alguna herramienta para formatear el código de la aplicación. ¿Cuál de las siguientes es una opción válida para ello?",
+      "opciones": [
+        "SonarQube.",
+        "Prettier.",
+        "Quokka.",
+        "PMD."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Prettier es un formateador de código (code formatter) de opinión consolidada compatible con múltiples lenguajes que automatiza los saltos y espaciados de línea."
+    },
+    {
+      "id": 24,
+      "globalId": 109,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "En la Subdirección se han sustituido los ordenadores utilizados para desarrollar aplicaciones, y por tanto, debe clonarse el repositorio de código de la aplicación para continuar su trabajo. ¿Con qué comando de Git puede hacerlo?",
+      "opciones": [
+        "git clone",
+        "git init",
+        "git add",
+        "git create"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando 'git clone' se utiliza para crear una copia exacta local de un repositorio Git que reside en un servidor remoto."
+    },
+    {
+      "id": 25,
+      "globalId": 110,
+      "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
+      "año": 2026,
+      "pregunta": "Tras realizar una modificación en la API de Java se necesita aumentar el número de versión de la API. ¿Qué fichero deberá modificar para ello, suponiendo que se usa Maven 3.9?",
+      "opciones": [
+        "package.json",
+        "pom.xml",
+        ".csproj",
+        "package-lock.json"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En proyctos de Java construidos con Maven, la configuración del proycto y la declaración de su versión se administran de forma centralizada en el archivo XML llamado 'pom.xml' (Project Object Model)."
+    },
+    {
+      "id": 26,
+      "globalId": 86,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Se desea garantizar en la base de datos que el campo DNI de la tabla ALUMNO no contenga valores duplicados, conforme al modelo de datos definido y asegurando el máximo rendimiento en consultas de búsqueda por dicho campo. ¿Cuál es la sentencia correcta en Oracle?",
+      "opciones": [
+        "CREATE INDEX idx_dni ON ALUMNO (dni);",
+        "ALTER TABLE ALUMNO ADD CONSTRAINT dni_unique UNIQUE (dni);",
+        "ALTER TABLE ALUMNO MODIFY dni PRIMARY KEY;",
+        "CREATE VIEW v_alumno AS SELECT DISTINCT dni FROM ALUMNO;"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La sentencia 'ALTER TABLE ... ADD CONSTRAINT ... UNIQUE' crea una restricción de unicidad que garantiza que no haya valores duplicados en la columna seleccionada, creando además un índice único para optimizar la búsqueda."
+    },
+    {
+      "id": 27,
+      "globalId": 87,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "El equipo técnico desea consultar en la base de datos solamente los datos de todos los alumnos que tienen matrículas asociadas. ¿Cuál de las siguientes consultas SQL en Oracle es correcta conforme al modelo de datos?",
+      "opciones": [
+        "SELECT * FROM ALUMNO, MATRICULA;",
+        "SELECT * FROM ALUMNO INNER JOIN MATRICULA ON ALUMNO.id_alumno = MATRICULA.id_alumno;",
+        "SELECT * FROM ALUMNO WHERE id_alumno IN MATRICULA;",
+        "SELECT * FROM MATRICULA WHERE ALUMNO.id_alumno = MATRICULA.id_alumno;"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La sintaxis 'INNER JOIN ... ON' vincula las tablas 'ALUMNO' y 'MATRICULA' devolviendo únicamente las filas donde existe coincidencia exacta en las claves relacionadas."
+    },
+    {
+      "id": 28,
+      "globalId": 88,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Se quiere obtener de la base de datos el número total de matrículas por programa formativo. ¿Cuál de las siguientes consultas SQL en Oracle cumple correctamente este requisito?",
+      "opciones": [
+        "SELECT COUNT(*) FROM MATRICULA GROUP id_programa;",
+        "SELECT id_programa, COUNT(id_programa) FROM MATRICULA;",
+        "SELECT id_programa, COUNT(*) FROM MATRICULA GROUP BY id_programa;",
+        "SELECT id_programa, SUM(*) FROM MATRICULA GROUP BY id_programa;"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Para agrupar y contar registros asociados a campos no agregados, se debe utilizar la cláusula 'GROUP BY' en combinación con la función agregada 'COUNT(*)'."
+    },
+    {
+      "id": 29,
+      "globalId": 89,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Se le solicita crear un controlador REST que permita obtener todos los alumnos registrados mediante HTTP GET en Spring Boot. ¿Cuál es la implementación correcta?",
+      "opciones": [
+        "@RestController\npublic class AlumnoController {\n@GetMapping(\"/alumnos\")\npublic List<Alumno> obtenerAlumnos() {\nreturn repository.findAll();\n}\n}",
+        "@Controller\npublic class AlumnoController {\n@Get(\"/alumnos\")\npublic List<Alumno> obtenerAlumnos() {\nreturn repository.get();\n}\n}",
+        "@WebController\npublic class AlumnoController {\nreturn repository.getAll();\n}",
+        "@Rest\npublic class AlumnoController {}"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En Spring Boot, '@RestController' define el controlador como un componente REST, y '@GetMapping' mapea el método correspondiente a solicitudes HTTP GET de la ruta '/alumnos'."
+    },
+    {
+      "id": 30,
+      "globalId": 90,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "El sistema incluye un método que lanza una excepción cuando se recibe un valor inválido desde el backend: AlumnoService que lanza IllegalArgumentException si matriculas es menor a 0. Se le pide verificar mediante JUnit que la excepción se lanza correctamente. ¿Cuál es la prueba correcta?",
+      "opciones": [
+        "@Test void testException() {\n   AlumnoService service = new AlumnoService();\n   assertEquals(IllegalArgumentException.class,\n     service.obtenerMatriculas(-1));\n}",
+        "@Test void testException() {\n   AlumnoService service = new AlumnoService();\n   assertThrows(IllegalArgumentException.class,\n     () -> service.obtenerMatriculas(-1));\n}",
+        "@Test void testException() {\n   AlumnoService service = new AlumnoService();\n   service.obtenerMatriculas(-1);\n}",
+        "@Test void testException() {\n   assertThrows(Exception.class);\n}"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En JUnit 5, el método asertivo 'assertThrows' toma la clase de excepción esperada y una expresión lambda ejecutable que invoca al método bajo prueba."
+    },
+    {
+      "id": 31,
+      "globalId": 91,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "El equipo técnico implementa la siguiente clase Java para comparar el identificador de un alumno con un valor específico recibido desde un servicio REST:\npublic class Alumno {\nprivate int idAlumno;\npublic boolean esAlumno(int id) {\nif (idAlumno.equals(id)) {\nreturn true;\n}\nreturn false;\n}\n}\n¿Qué ocurrirá al ejecutar el comando javac Alumno.java ?",
+      "opciones": [
+        "Se producirá error de compilación porque el tipo int no tiene método equals().",
+        "El código compilará correctamente y funcionará correctamente.",
+        "Se producirá error de ejecución, pero no de compilación.",
+        "Se producirá error porque el método equals() solo funciona en Java 18 o superior."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El tipo 'int' en Java es un tipo de dato primitivo, por lo que carece de métodos de instancia como '.equals()'. Solo los objetos (como la clase envolvente Integer) disponen de él."
+    },
+    {
+      "id": 32,
+      "globalId": 92,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Se necesita ejecutar la aplicación Spring Boot. ¿Cuál es el comando de Maven correcto?",
+      "opciones": [
+        "mvn spring-boot:launch",
+        "mvn run spring-boot",
+        "mvn spring-boot:run",
+        "mvn launch spring-boot"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El plugin de Spring Boot para Maven ofrece el comando 'spring-boot:run' para compilar, configurar el classpath y ejecutar la aplicación localmente."
+    },
+    {
+      "id": 33,
+      "globalId": 93,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "En una primera fase de pruebas se detecta un comportamiento erróneo en la aplicación de .NET y se toma la decisión de incluir trazas en ella. ¿Cuál de las siguientes opciones sería la forma correcta de hacerlo?",
+      "opciones": [
+        "logger.Log(“Ejecución del método finalizada”);",
+        "logger.LogWarn(“Ejecución del método finalizada con errores”);",
+        "logger.LogInformation(“Ejecución del método finalizada correctamente.”);",
+        "logger.Error(“Ejecución del método incorrecta”)"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La interfaz 'ILogger' nativa de .NET expone el método 'LogInformation' para registrar trazas en el nivel de información estándar de la infraestructura."
+    },
+    {
+      "id": 34,
+      "globalId": 94,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "El equipo técnico ha decidido modificar la aplicación desarrollada en C# y .NET con métodos que empleen programación asíncrona. ¿Cuál sería la forma correcta de definir un método \"DevolverDato\"?",
+      "opciones": [
+        "Thread int DevolverDato()",
+        "async Task DevolverDato()",
+        "async Thread<int> DevolverDato()",
+        "await int DevolverDato()"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En C#, los métodos asínconos se declaran con el modificador 'async' y deben retornar un objeto de tipo 'Task' (o 'Task<T>' si devuelven un valor)."
+    },
+    {
+      "id": 35,
+      "globalId": 95,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "El equipo técnico necesita definir una estructura HTML5 válida que incluya un contenedor para mostrar el listado de alumnos, cumpliendo el estándar HTML5 W3C y asegurando compatibilidad con navegadores modernos utilizados en el Ministerio. ¿Cuál de las siguientes estructuras es correcta?",
+      "opciones": [
+        "<html><body><div id=\"alumnos\"></div></body></html>",
+        "<!DOCTYPE html><html><head><title>EducaData</title></head><body><div id=\"alumnos\"></div></body></html>",
+        "<html version=\"5\"><body><container id=\"alumnos\"></container></body></html>",
+        "<!HTML5><body><div id=\"alumnos\"></div></body>"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La opción B define un documento estructurado completo y correcto, comenzando por el doctype de HTML5 ('<!DOCTYPE html>') y completando la estructura estándar de cabecera (<head>) y cuerpo (<body>)."
+    },
+    {
+      "id": 36,
+      "globalId": 96,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Se debe garantizar que los documentos XML generados estén bien formados conforme a la especificación XML 1.0 para permitir su procesamiento correcto por sistemas externos. ¿Cuál de los siguientes fragmentos XML está bien formado?",
+      "opciones": [
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?><alumno><id_alumno>10</nombre><nombre>Juan Pérez</nombre></alumno>",
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?><alumno><id_alumno>10</id_alumno><nombre>Juan Pérez</nombre></alumno>",
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?><alumno><id_alumno>10</id_alumno><nombre>Juan Pérez</nombre>",
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?><alumno><id_alumno>10</id_alumno><nombre>Juan Pérez</id_alumno>"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Un documento XML está bien formado si todas sus etiquetas de apertura están cerradas de forma correspondiente, las etiquetas anidadas no se traslapan y tiene un único elemento raíz."
+    },
+    {
+      "id": 37,
+      "globalId": 97,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "También se le pide incluir un atributo id_alumno en el elemento <alumno>, garantizando que el documento XML sea válido. ¿Cuál de los siguientes fragmentos XML lo implementaría correctamente?",
+      "opciones": [
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?><alumno id_alumno:\"10\"><nombre>Juan Pérez</nombre></alumno>",
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?><alumno id_alumno=10><nombre>Juan Pérez</nombre></alumno>",
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?><alumno id_alumno=\"10\"><nombre>Juan Pérez</nombre></alumno>",
+        "<?xml version=\"1.0\" encoding=\"UTF-8\"?><alumno>id_alumno=\"10\"<nombre>Juan Pérez</nombre></alumno>"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Los atributos en XML deben tener su valor delimitado estrictamente por comillas (simples o dobles) y se asocian al elemento con la sintaxis 'nombre_atributo=\"valor\"'."
+    },
+    {
+      "id": 38,
+      "globalId": 98,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Le piden ejecutar una llamada REST al backend Spring Boot utilizando JavaScript para obtener el listado de alumnos desde el endpoint \"http://localhost:8080/alumnos\". ¿Cuál es el código correcto?",
+      "opciones": [
+        "fetch(\"http://localhost:8080/alumnos\").then(response => response.json()).then(data => console.log(data));",
+        "get(\"http://localhost:8080/alumnos\");",
+        "http.get(\"http://localhost:8080/alumnos\");",
+        "request.fetch(\"/alumnos\");"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La API 'fetch' nativa de los navegadores permite realizar llamadas HTTP de forma asíncrona mediante promesas, resolviendo la respuesta intermedia a JSON."
+    },
+    {
+      "id": 39,
+      "globalId": 99,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Se necesita cargar la librería TensorFlow en Python para poder definir un modelo de red neuronal conforme al diseño del sistema. ¿Cuál es la instrucción correcta?",
+      "opciones": [
+        "import tensorflow as tf",
+        "include tensorflow",
+        "load tensorflow",
+        "using tensorflow"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En Python, las bibliotecas externas se importan a la sesión utilizando la instrucción de inicio 'import <modulo> [as alias]'."
+    },
+    {
+      "id": 40,
+      "globalId": 100,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Se requiere mejorar la experiencia del usuario permitiendo interacción dinámica en EDUCA-DATA 2030. ¿Qué lenguaje permite implementar esta funcionalidad, de forma que los navegadores Google Chrome, Microsoft Edge y Mozilla Firefox la ejecuten de forma nativa?",
+      "opciones": [
+        "Python 3.11",
+        "Oracle SQL",
+        "Java JDK 17",
+        "JavaScript ECMAScript 2022"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "JavaScript (bajo el estándar ECMAScript) es el único lenguaje interpretado y ejecutado de manera totalmente nativa por todos los navegadores web modernos de escritorio."
+    },
+    {
+      "id": 41,
+      "globalId": 101,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "El sistema implementa un Web Service REST que permite registrar un nuevo alumno en la base de datos. Lo utiliza una aplicación administrativa que envía una solicitud al backend para crear el nuevo registro. Tras crear correctamente el recurso en la base de datos, el Web Service debe devolver el código HTTP adecuado conforme a los estándares REST. ¿Cuál es el código de estado HTTP que existe específicamente para responder a este caso?",
+      "opciones": [
+        "200 OK",
+        "201 Created",
+        "204 No Content",
+        "202 Accepted"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El código de estado '201 Created' indica específicamente que la solicitud HTTP se ha procesado con éxito y se ha creado un nuevo recurso en el servidor."
+    },
+    {
+      "id": 42,
+      "globalId": 102,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Se debe implementar correctamente la estructura del contenido principal del aplicativo, garantizando accesibilidad a usuarios que utilizan tecnologías de asistencia como lectores de pantalla. ¿Qué actuación se recomienda en las pautas de accesibilidad WCAG 2.1?",
+      "opciones": [
+        "Utilizar tablas HTML <table> para estructurar todo el contenido.",
+        "Utilizar únicamente etiquetas <div> con atributos class para facilitar el diseño visual.",
+        "Utilizar etiquetas semánticas HTML5 como <main>, <section> y <header> para estructurar el contenido.",
+        "Utilizar únicamente estilos CSS para definir visualmente la estructura del contenido."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El uso de marcado semántico en HTML5 (<header>, <main>, <nav>...) facilita la navegación lógica de los lectores de pantalla al estructurar correctamente el diseño."
+    },
+    {
+      "id": 43,
+      "globalId": 103,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Se quiere desarrollar un menú desplegable personalizado para el frontend de la aplicación. ¿Qué atributo es imprescindible para que un lector de pantalla informe al usuario de que el menú está desplegado?",
+      "opciones": [
+        "aria-expanded=\"true\"",
+        "role=\"dropdown-status\"",
+        "alt=\"menu-state\"",
+        "tabindex=\"1\""
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El atributo de accesibilidad ARIA 'aria-expanded' informa dinámicamente a las tecnologías de asistencia si un elemento colapsable está abierto ('true') o cerrado ('false')."
+    },
+    {
+      "id": 44,
+      "globalId": 104,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Para conocer los últimos cambios realizados por otros desarrolladores en la rama del servidor remoto, antes de integrarlos en el repositorio, ha ejecutado el comando git fetch. ¿Qué hace este comando?",
+      "opciones": [
+        "Descarga objetos y referencias del remoto y fusiona automáticamente esos cambios en la rama actual.",
+        "Envía (sube) los commits locales al remoto y actualiza la rama remota correspondiente.",
+        "Sustituye el historial local por el del remoto, reescribiendo commits locales para que coincidan con el remoto.",
+        "Descarga objetos y referencias del remoto y actualiza las ramas de seguimiento remoto, registrando lo obtenido en .git/FETCH_HEAD, sin integrar cambios en la rama actual."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El comando 'git fetch' descarga del servidor remoto el historial de cambios y metadatos nuevos, pero no los fusiona ni los integra en la rama local activa, a diferencia de 'git pull'."
+    },
+    {
+      "id": 45,
+      "globalId": 105,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "¿Cuál de estas opciones recomienda OWASP para prevenir ataques XSS en la aplicación?",
+      "opciones": [
+        "Validar y escapar correctamente los datos antes de mostrarlos en el navegador.",
+        "Utilizar conexiones HTTP entre cliente y servidor.",
+        "Alojar la aplicación en servidores con redundancia física y tolerancia a fallos.",
+        "Almacenar los datos únicamente en Oracle Database 19c."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La principal defensa de OWASP contra el Cross-Site Scripting (XSS) es la correcta validación, saneamiento y codificación o escape de las entradas del usuario antes de ser renderizadas en la interfaz web."
+    },
+    {
+      "id": 46,
+      "globalId": 106,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Se ha optado por utilizar GitHub como repositorio de código, con vistas a usar workflows de GitHub Actions. ¿Dónde deben almacenarse los ficheros de workflows y qué extensión deben tener?",
+      "opciones": [
+        "En .github/actions y con extensión .yml",
+        "En .github/workflows y con extensión .yml o .yaml",
+        "En workflows/ (raíz del repositorio) y con extensión .json",
+        "En .git/workflows y con extensión .yaml"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Los flujos de trabajo de GitHub Actions deben guardarse obligatoriamente en el directorio '.github/workflows/' y redactarse bajo formato YAML (.yml o .yaml)."
+    },
+    {
+      "id": 47,
+      "globalId": 107,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Para el mantenimiento de la aplicación, se requiere ejecutar un código de limpieza cuando el motor Catalina de Tomcat se detenga por completo, pero antes de que la máquina virtual de Java finalice. ¿Cuál es la opción correcta para ello?",
+      "opciones": [
+        "Registrar un shutdown hook.",
+        "Usar una anotación @PreDestroy en la clase del código de limpieza.",
+        "Implementar un LifecycleListener y registrarlo en el elemento <server> del fichero \"server.xml\".",
+        "Definir en Tomcat una Valve personalizada en el elemento <Server> con el método de limpieza."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En Apache Tomcat, para escuchar eventos del ciclo de vida del contenedor (como el paro del servidor), se implementa la interfaz 'LifecycleListener' configurada en el archivo descriptor XML."
+    },
+    {
+      "id": 48,
+      "globalId": 108,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Se va a impartir un taller de formación de Git a los miembros que desconocen su estructura y funcionamiento. ¿Cuál de las siguientes opciones identifica correctamente los 4 tipos de datos que componen el modelo de datos de Git?",
+      "opciones": [
+        "Objects, References, Index y Reflogs.",
+        "Commits, Trees, Blobs, y Tags.",
+        "Objects, References, Trees y Tags.",
+        "File, Directory, Commit y Branch."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El modelo interno de objetos de Git se basa en cuatro tipos de elementos fundamentales de almacenamiento: blobs (archivos), trees (directorios), commits (confirmaciones) y tags (etiquetas)."
+    },
+    {
+      "id": 49,
+      "globalId": 109,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "Tras un debate sobre cómo resolver un problema en la aplicación, se ha optado por utilizar un algoritmo greedy (voraz). Este algoritmo:",
+      "opciones": [
+        "Siempre alcanza la solución más óptima.",
+        "Siempre toma la decisión que parece más buena en el momento.",
+        "Solo se puede aplicar para resolver problemas de selección de actividades.",
+        "Resuelve el problema dividiéndolo en subproblemas pequeños y combinando sus soluciones."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Los algoritmos ávidos o voraces (greedy) toman en cada paso la opción que resulta óptima a nivel estrictamente local (la mejor en ese instante), sin garantizar un óptimo global."
+    },
+    {
+      "id": 50,
+      "globalId": 110,
+      "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
+      "año": 2026,
+      "pregunta": "El equipo técnico necesita crear un usuario en Oracle llamado EDUCA_USER con contraseña segura, conforme a los requisitos del sistema, para que la aplicación pueda conectarse a la base de datos. ¿Cuál es la sentencia correcta en Oracle?",
+      "opciones": [
+        "REGISTER USER EDUCA_USER IDENTIFIED BY password123;",
+        "ADD USER EDUCA_USER PASSWORD password123;",
+        "NEW USER EDUCA_USER IDENTIFIED password123;",
+        "CREATE USER EDUCA_USER IDENTIFIED BY password123;"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La sentencia DDL estándar en Oracle para la provisión de nuevos usuarios y asignación de credenciales es 'CREATE USER <usuario> IDENTIFIED BY <contraseña>'."
+    },
+    {
+      "id": 51,
+      "globalId": 86,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Tras estudiar varias opciones se ha decidido utilizar .NET con C# para desarrollar el backend, ¿cómo puede indicar la opcionalidad de un tipo de dato?",
+      "opciones": [
+        "int? Telefono",
+        "int|null Telefono",
+        "int:null Telefono",
+        "int ?? Telefono"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En C#, se puede declarar un tipo de valor nulable (nullable type) añadiendo el sufijo '?' después de la definición del tipo de dato."
+    },
+    {
+      "id": 52,
+      "globalId": 87,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "También el sistema se integrará con la PID (Plataforma de Intermediación de Datos), cuya plataforma actual se define como una arquitectura orientada a servicios (SOA). ¿Cuáles son los componentes principales de esta arquitectura?",
+      "opciones": [
+        "Servicio, Proveedor de servicios, Consumidor de servicios y Orquestador de servicios.",
+        "Servicio, Proveedor de servicios, Consumidor de servicios y Depurador de servicios.",
+        "Servicio, Proveedor de servicios, Consumidor de servicios y Comparador de servicios.",
+        "Servicio, Proveedor de servicios, Consumidor de servicios y Registro de servicios."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Los componentes fundamentales de SOA son: el servicio físico en sí, el proveedor (publisher), el consumidor (requester) y el registro o directorio de servicios (service registry)."
+    },
+    {
+      "id": 53,
+      "globalId": 88,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Suponiendo que se utilizara la metodología ágil SCRUM, si durante un sprint, se da cuenta de que se está aplicando una mala práctica que puede enlentecer el proyecto, ¿en qué reunión comentará esa mala práctica, para buscar la mejora continua y evitar aplicarla en los siguientes sprints?",
+      "opciones": [
+        "En la Daily Scrum.",
+        "En la Sprint Retrospective.",
+        "En la Sprint Planning.",
+        "En la Sprint Review."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La retrospectiva del sprint (Sprint Retrospective) tiene como objetivo la inspección de procesos y la búsqueda activa de mejoras continuas para el siguiente ciclo."
+    },
+    {
+      "id": 54,
+      "globalId": 89,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Según “Técnicas y Practicas” de Métrica v3, si se quisiera optimizar el modelo físico de datos para reducir o simplificar el número de accesos a la base de datos, ¿cuál de las siguientes acciones se aplicaría?",
+      "opciones": [
+        "Combinar entidades si los accesos son frecuentes en transacciones distintas.",
+        "Eliminar entidades.",
+        "Introducir elementos redundantes.",
+        "Normalizar las tablas en Forma Normal de Boyce-Codd (FNBC)."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Según Métrica v3, la desnormalización controlada (introducir elementos redundantes) es un procedimiento aceptable para optimizar el rendimiento y disminuir lecturas."
+    },
+    {
+      "id": 55,
+      "globalId": 90,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Se quiere utilizar la librería iText de .NET para generar un documento PDF que sirva como justificante de presentación al interesado. ¿Con qué comando instalaría el paquete NuGet?",
+      "opciones": [
+        "dotnet add package iText.",
+        "dotnet install package iText.",
+        "dotnet add iText.",
+        "dotnet install iText."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando CLI estándar de .NET para agregar un paquete a un proyecto mediante NuGet es 'dotnet add package iText'."
+    },
+    {
+      "id": 56,
+      "globalId": 91,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Se ha determinado que es necesaria la integración de la aplicación con GEISER, cuyos servicios web son de naturaleza SOAP. ¿Con qué firmará las peticiones generadas por la aplicación?",
+      "opciones": [
+        "WS-Security.",
+        "SAML.",
+        "JWT.",
+        "XML-Encryption."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "WS-Security es una especificación SOAP estándar que dota de mecanismos de integridad y firma digital para el intercambio de mensajes XML seguros."
+    },
+    {
+      "id": 57,
+      "globalId": 92,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Se espera un alto volumen de concurrencia en el sistema. ¿Qué nivel de aislamiento de base de datos debería configurar para que no se produzcan lecturas sucias ni lecturas no repetibles, pero sí lecturas fantasmas?",
+      "opciones": [
+        "Serializable.",
+        "Read committed.",
+        "Read uncommited.",
+        "Repeatable read."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El aislamiento 'Repeatable read' (lectura repetible) garantiza que no haya lecturas sucias ni lecturas no repetibles, pero tolera la aparición de lecturas fantasma (phantom reads)."
+    },
+    {
+      "id": 58,
+      "globalId": 93,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Se desea añadir una tabla “Subsanacion” con las columnas numéricas IdSubsanacion e IdSolicitudBeca y la columna alfanumérica de 2000 caracteres TextoFundamento. ¿Cuál de las siguientes sentencias sería la correcta?",
+      "opciones": [
+        "CREATE TABLE Subsanacion (IdSubsanacion bigint, IdSolicitudBeca bigint, TextoFundamento varchar(2000));",
+        "CREATE Subsanacion (IdSubsanacion bigint, IdSolicitudBeca bigint, TextoFundamento varchar(2000));",
+        "CREATE NEW TABLE Subsanacion (IdSubsanacion bigint, IdSolicitudBeca bigint, TextoFundamento varchar(2000));",
+        "CREATE TABLE Subsanacion AS (IdSubsanacion bigint, IdSolicitudBeca bigint, TextoFundamento varchar(2000));"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La sintaxis SQL estándar de creación de tablas requiere las palabras clave 'CREATE TABLE' seguidas por el identificador de tabla y su definición de columnas."
+    },
+    {
+      "id": 59,
+      "globalId": 94,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Para que la aplicación de gestión pueda interactuar con esta aplicación, se va a exponer una capa de servicios web. ¿Cuál de las siguientes opciones NO es válida para documentar dichos servicios?",
+      "opciones": [
+        "RAML.",
+        "REST.",
+        "WSDL.",
+        "OpenAPI/Swagger."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "REST (Representational State Transfer) es un estilo arquitectónico de servicios web, no un lenguaje o formato de especificación documental, a diferencia de RAML, WSDL u OpenAPI."
+    },
+    {
+      "id": 60,
+      "globalId": 95,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Necesita controlar el plazo de presentación de solicitudes. Suponiendo que utiliza Java en el backend, ¿qué clase nativa de Java puede utilizar para trabajar con una fecha y hora simultáneamente?",
+      "opciones": [
+        "LocalDateTime.",
+        "LocalDate.",
+        "LocalTime.",
+        "OffsetTime."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La clase nativa 'java.time.LocalDateTime' introducida en Java 8 permite encapsular de forma limpia una fecha y hora completa sin huso horario."
+    },
+    {
+      "id": 61,
+      "globalId": 96,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Está escogiendo herramientas que le permitan analizar y mejorar la calidad del código. ¿Cuál de las siguientes NO le será de ayuda?",
+      "opciones": [
+        "SonarQube.",
+        "Un linter de JavaScript.",
+        "PMD.",
+        "Mercurial."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Mercurial es un sistema de control de versiones distribuido, por lo que no es una herramienta para análisis o calidad estática de código fuente."
+    },
+    {
+      "id": 62,
+      "globalId": 97,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "En un entorno de desarrollo Java, ¿qué utilizaría para mapear elementos XML a clases?",
+      "opciones": [
+        "JAXB.",
+        "JPA.",
+        "JAXR.",
+        "JAX-RS."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "JAXB (Java Architecture for XML Binding) es la especificación para el mapeo mutuo y bidireccional entre documentos XML y clases de Java."
+    },
+    {
+      "id": 63,
+      "globalId": 98,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "En caso de utilizar Java para el backend, ¿qué tecnología puede utilizar para generar un cliente de servicios web?",
+      "opciones": [
+        "Apache Flink.",
+        "Apache Xalan.",
+        "Apache Xerces.",
+        "Apache CXF."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Apache CXF es un framework de servicios web de código abierto que simplifica la creación de servicios SOAP y REST e implementa clientes Java."
+    },
+    {
+      "id": 64,
+      "globalId": 99,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "El proceso de presentación de solicitud implica la autenticación del usuario, la firma de la solicitud, el guardado en base de datos, la generación de un asiento registral y la generación de un justificante de presentación. ¿Qué diagrama UML utilizaría para representar las acciones implicadas en este flujo?",
+      "opciones": [
+        "Diagrama de paquetes.",
+        "Diagrama de objetos.",
+        "Diagrama de secuencia.",
+        "Diagrama de Entidad/Relación."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El diagrama de secuencia en UML modela la interacción entre participantes a través del tiempo, ideal para describir las etapas ordenadas de un flujo transaccional."
+    },
+    {
+      "id": 65,
+      "globalId": 100,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "El formulario de solicitud será extenso y tendrá muchas consultas de datos. ¿Qué utilizaría para renderizar la página en el servidor?",
+      "opciones": [
+        "Server Sent Events.",
+        "Ajax.",
+        "WebSocket.",
+        "Server Side Rendering."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Server-Side Rendering (SSR) es la técnica de renderizado del lado del servidor que produce la estructura HTML final completa y la envía al navegador."
+    },
+    {
+      "id": 66,
+      "globalId": 101,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "A este sistema le es de aplicación la normativa vigente de accesibilidad de sitios web. ¿Qué herramienta automatizada utilizaría para probar que la aplicación cumple con los estándares de accesibilidad?",
+      "opciones": [
+        "QualWeb.",
+        "Equal Automatic Checker.",
+        "AccSite.",
+        "Shovel."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "QualWeb es un motor de evaluación automática de accesibilidad web desarrollado por un grupo de investigadores que permite validar conformidad con las pautas WCAG."
+    },
+    {
+      "id": 67,
+      "globalId": 102,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "¿Qué tipo de correspondencia hay entre las tablas “SolicitudBeca” y “FicheroAdjunto”?",
+      "opciones": [
+        "Un registro de SolicitudBeca puede tener N registros de FicheroAdjunto.",
+        "Un registro de SolicitudBeca puede tener como máximo un registro de FicheroAdjunto.",
+        "N registros de SolicitudBeca pueden tener M registros de FicheroAdjunto.",
+        "Un registro de SolicitudBeca puede tener cero o como máximo un registro de FicheroAdjunto."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Conforme al modelo de datos, existe una relación de uno a muchos (1:N) donde una única solicitud de beca puede tener múltiples archivos o ficheros adjuntos vinculados."
+    },
+    {
+      "id": 68,
+      "globalId": 103,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "¿Qué sentencia habría que ejecutar si se quiere añadir un nuevo registro a la tabla “CuerpoBecado”?",
+      "opciones": [
+        "INSERT INTO CuerpoBecado (Codigo, Denominacion) VALUES ('TAI, 'Técnico Auxiliar de Informática');",
+        "INSERT INTO CuerpoBecado (Codigo, Denominacion) VALUES (TAI, Técnico Auxiliar de Informática);",
+        "INSERT TO CuerpoBecado (Codigo, Denominacion) VALUES ('TAI', 'Técnico Auxiliar de Informática');",
+        "INSERT INTO CuerpoBecado (Codigo, Denominacion) VALUES ('TAI', 'Técnico Auxiliar de Informática');"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La opción D contiene la estructura correcta en SQL: 'INSERT INTO <tabla> (<columnas>) VALUES (<valores_cadena_delimitados_por_comillas_simples)'."
+    },
+    {
+      "id": 69,
+      "globalId": 104,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "¿Qué ORM podría utilizar, en función de la solución de backend escogida?",
+      "opciones": [
+        "JPA en .NET e Hibernate en Java.",
+        "Hibernate en .NET y Entity Framework en Java.",
+        "Entity Framework en .NET e Hibernate en Java.",
+        "Spring Data en .NET e Hibernate en Java."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Entity Framework es el framework ORM nativo recomendado para la plataforma .NET, e Hibernate es la implementación más extendida de JPA en Java."
+    },
+    {
+      "id": 70,
+      "globalId": 105,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "¿Qué elemento HTML utilizaría para impedir que el e-mail exceda los 100 caracteres cuando el interesado lo cumplimente?",
+      "opciones": [
+        "<input type=''email'' id=''email'' name=''email'' size=''100''>",
+        "<input type=''email'' id=''email'' name=''email'' max=''100''>",
+        "<input type=''email'' id=''email'' name=''email'' maxlength=''100''>",
+        "<input type=''email'' id=''email'' name=''email'' length=''100''>"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El atributo HTML 'maxlength' limita la cantidad de caracteres que un usuario puede escribir dentro de un campo de entrada de texto."
+    },
+    {
+      "id": 71,
+      "globalId": 106,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Para diseñar el estilo de los campos de entrada obligatorios del formulario de solicitud se va a hacer uso del siguiente selector CSS: “input:required”. ¿Cuál es su especificidad?",
+      "opciones": [
+        "1-1-0.",
+        "0-1-1.",
+        "1-0-1.",
+        "1-0-0."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La especificidad del selector tiene 0 ID, 1 pseudoclase (:required), y 1 etiqueta (input), lo que resulta en un valor de 0-1-1."
+    },
+    {
+      "id": 72,
+      "globalId": 107,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Se quiere facilitar el uso de herramientas de asistencia en la página. ¿Qué atributo utilizaría para indicar que un elemento se actualizará?",
+      "opciones": [
+        "aria-live.",
+        "aria-cheked.",
+        "aria-flowto.",
+        "aria-valuenow."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El atributo ARIA 'aria-live' le indica a los lectores de pantalla que deben anunciar las actualizaciones dinámicas que ocurren en ese elemento sin requerir el foco."
+    },
+    {
+      "id": 73,
+      "globalId": 108,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Para resolver una incidencia, necesita saber qué ficheros adjuntos de la solicitud del interesado con DNI 00000000T para el año 2024 no son PDF. ¿Cómo los obtendría?",
+      "opciones": [
+        "SELECT * FROM FicheroAdjunto WHERE Denominacion LIKE '%.pdf' AND IdSolicitudBeca = (SELECT IdSolicitudBeca FROM SolicitudBeca WHERE AñoConvocatoria = 2024 AND IdInteresado = (SELECT IdInteresado WHERE DocumentoIdentidad = '00000000T'));",
+        "SELECT * FROM FicheroAdjunto WHERE Denominacion NOT LIKE '%.pdf' AND IdSolicitudBeca = (SELECT IdSolicitudBeca FROM SolicitudBeca WHERE AñoConvocatoria = 2024 AND IdInteresado = (SELECT IdInteresado FROM Interesado));",
+        "SELECT * FROM FicheroAdjunto WHERE Denominacion NOT LIKE '%.pdf' AND IdSolicitudBeca = (SELECT IdSolicitudBeca FROM SolicitudBeca WHERE AñoConvocatoria = 2024 AND IdInteresado = (SELECT IdInteresado FROM Interesado WHERE DocumentoIdentidad = '00000000T'));",
+        "SELECT * FROM FicheroAdjunto WHERE Denominacion NOT LIKE 'pdf' AND IdSolicitudBeca = (SELECT IdSolicitudBeca FROM SolicitudBeca WHERE AñoConvocatoria = 2024 AND IdInteresado = (SELECT IdInteresado FROM Interesado WHERE DocumentoIdentidad = '00000000T'));"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La opción C recupera los archivos cuyo nombre no termine en '.pdf' (NOT LIKE '%.pdf') para el año de convocatoria y el DNI indicados mediante subconsultas relacionadas."
+    },
+    {
+      "id": 74,
+      "globalId": 109,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "¿Qué tendrá que configurar en el backend si quiere restringir que las únicas peticiones HTTP de origen cruzado iniciadas desde scripts que se acepten procedan del frontend?",
+      "opciones": [
+        "HSTS.",
+        "CSP.",
+        "TLS.",
+        "CORS."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "CORS (Cross-Origin Resource Sharing) es la especificación de cabeceras HTTP que determina si los recursos web expuestos pueden ser consumidos desde un origen o dominio diferente."
+    },
+    {
+      "id": 75,
+      "globalId": 110,
+      "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
+      "año": 2025,
+      "pregunta": "Quiere facilitar la incorporación de otros desarrolladores al proyecto y para ello, en el repositorio de código, va a crear un fichero en el que incluirá, entre otra información, el propósito del proyecto y cómo arrancarlo localmente. Esa información se incluirá en el fichero:",
+      "opciones": [
+        "CODEOWNERS.",
+        "README.MD.",
+        "LICENSE.",
+        "CITATION."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Por convención, el archivo con formato markdown llamado 'README.md' ubicado en la raíz del repositorio de código se utiliza para documentar el alcance del proyecto."
+    },
+    {
+      "id": 76,
+      "globalId": 81,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "En el diagrama de clases la relación existente entre “Solicitud Representación” y “Trámite”, ¿qué multiplicidades serían compatibles con los requisitos planteados en el enunciado?",
+      "opciones": [
+        "‘1’ en el recuadro “SR>T” y ‘1’ en el recuadro “T>SR”.",
+        "‘1’ en el recuadro “SR>T” y ‘0..N’ en el recuadro “T>SR”.",
+        "‘0..N’ en el recuadro “SR>T” y ‘1’ en el recuadro “T>SR”.",
+        "‘1..N’ en el recuadro “SR>T” y ‘0..N’ en el recuadro “T>SR”."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Una solicitud de representación se asocia a un único trámite ('1' en la clase Trámite), mientras que un trámite puede ser solicitado por múltiples o ninguna solicitud de representación ('0..N' en la clase Solicitud)."
+    },
+    {
+      "id": 77,
+      "globalId": 82,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "En Java SE 17, ¿con qué visibilidad se deben generar los atributos de la clase Data Access Object Solicitudes si se quiere tener acceso directamente desde cualquier otro objeto, sin mediación de métodos?",
+      "opciones": [
+        "Se usará el modificador \"public\".",
+        "Se usará el modificador \"protected\".",
+        "No se usará ningún modificador.",
+        "Se usará el modificador \"private\"."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El modificador 'public' hace que los miembros de la clase sean accesibles desde cualquier otra clase o paquete de la aplicación sin mediación de getters/setters."
+    },
+    {
+      "id": 78,
+      "globalId": 83,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "Para almacenar los datos de las solicitudes de representación de un interesado en Java SE 17, sabiendo que no se admiten duplicados en el listado de solicitudes, ¿qué tipo de colección de java.util utilizaría?",
+      "opciones": [
+        "List",
+        "Stack",
+        "Collection",
+        "Set"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La interfaz 'Set' de java.util representa una colección que no permite elementos duplicados, garantizando la unicidad de las solicitudes almacenadas."
+    },
+    {
+      "id": 79,
+      "globalId": 84,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "Para crear una tabla llamada Usuario, ¿qué sentencia SQL debemos ejecutar?",
+      "opciones": [
+        "ALTER TABLE Usuario (idUsuario bigint PRIMARY KEY, nombre varchar(255));",
+        "INSERT TABLE Usuario (idUsuario bigint PRIMARY KEY, nombre varchar(255));",
+        "CREATE TABLE Usuario (idUsuario bigint PRIMARY KEY, nombre varchar(255));",
+        "DROP TABLE Usuario (idUsuario bigint PRIMARY KEY, nombre varchar(255));"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La sentencia de definición de datos (DDL) estándar para crear tablas en SQL es 'CREATE TABLE <nombre> (<columnas>);'."
+    },
+    {
+      "id": 80,
+      "globalId": 85,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "Si fuese el motor de Base de Datos ORACLE, indique cuál de los siguientes es un lenguaje de procedimiento cuya sintaxis permite insertar sentencias SQL y se almacena compilado dentro de la base de datos:",
+      "opciones": [
+        "TRANSACT SQL",
+        "PL/SQL",
+        "FORTRAN",
+        "COBOL"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "PL/SQL (Procedural Language/Structured Query Language) es el lenguaje procedimental de Oracle que amplía el estándar SQL con estructuras de programación de control."
+    },
+    {
+      "id": 81,
+      "globalId": 86,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "Se ha heredado una librería compilada que realiza la conexión a un importante servicio de comprobación de Cl@ve PIN, ¿qué patrón de diseño permite reutilizar este objeto adaptando su interfaz a la de la aplicación?",
+      "opciones": [
+        "Adaptador (Adapter)",
+        "Singleton",
+        "Chain of responsibility (Cadena de responsabilidad)",
+        "Iterador (Iterator)"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El patrón Adapter (Adaptador) se utiliza para convertir la interfaz de una clase existente en otra interfaz que el cliente espera, permitiendo la interoperabilidad."
+    },
+    {
+      "id": 82,
+      "globalId": 87,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "La última versión del estándar de UML es:",
+      "opciones": [
+        "2.5",
+        "2.4.1",
+        "2.4",
+        "3.0"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La versión de UML ampliamente adoptada y estandarizada por el Object Management Group (OMG) es la versión 2.5."
+    },
+    {
+      "id": 83,
+      "globalId": 88,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "En UML un diagrama de componentes:",
+      "opciones": [
+        "Describe la estructura del sistema mostrando las clases del sistema, sus atributos y relaciones entre ellas.",
+        "Describe cómo un sistema de software se divide en componentes y muestra las dependencias entre ellos.",
+        "Sirve para modelar el hardware utilizado en las implementaciones del sistema, los componentes implementados en el hardware y las asociaciones entre componentes en un momento específico.",
+        "Muestra una vista completa o parcial de la estructura de un sistema modelado en un momento específico."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Un diagrama de componentes en UML muestra la organización y las dependencias lógicas y físicas de los módulos de software o componentes."
+    },
+    {
+      "id": 84,
+      "globalId": 89,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "¿Qué framework se puede usar para aplicaciones de escritorio nativas .NET?",
+      "opciones": [
+        ".NET MAUI",
+        "Blazor Hybrid",
+        "JavaFX",
+        "WebView"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": ".NET MAUI (Multi-platform App UI) es el framework de Microsoft de nueva generación para el diseño de aplicaciones nativas multiplataforma de escritorio y móviles."
+    },
+    {
+      "id": 85,
+      "globalId": 90,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "¿Cuál es la normativa que define los requisitos de accesibilidad de los sitios web y aplicaciones móviles de los organismos del sector público?",
+      "opciones": [
+        "Orden Ministerial 1112/2018, de 7 de septiembre.",
+        "Ley Orgánica 1112/2018, de 7 de septiembre.",
+        "Ley 1112/2018, de 7 de septiembre.",
+        "Real Decreto 1112/2018, de 7 de septiembre."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El Real Decreto 1112/2018, de 7 de septiembre, transpone la Directiva de la Unión Europea sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público."
+    },
+    {
+      "id": 86,
+      "globalId": 91,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "En nuestra aplicación Java, ¿qué paquetes usaríamos para establecer la conexión a la base de datos de NOTIFICACION?",
+      "opciones": [
+        "java.database",
+        "javax.naming y javax.sql",
+        "javax.io y javax.servlet",
+        "javax.servlet"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Se utiliza JNDI para buscar recursos del servidor de aplicaciones (bajo javax.naming) y las interfaces de conexión JDBC y DataSource de javax.sql."
+    },
+    {
+      "id": 87,
+      "globalId": 92,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "Se quiere desarrollar un microservicio para que el personal funcionario pueda consultar el estado de una notificación enviada. ¿Qué especificación de la comunidad, alineada con Jakarta EE Core Profile, es la indicada para desarrollarlo?",
+      "opciones": [
+        "Jakarta Authentication",
+        "Jakarta Batch",
+        "Microprofile",
+        "Jakarta Connectors"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "MicroProfile es una especificación optimizada de la comunidad para el desarrollo de arquitecturas basadas en microservicios ligeros sobre entornos empresariales de Java."
+    },
+    {
+      "id": 88,
+      "globalId": 93,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "En el equipo de desarrollo se ha decidido usar Selenium WebDriver para:",
+      "opciones": [
+        "Mejorar la accesibilidad de las páginas web facilitando audios a partir del texto.",
+        "Automatizar la ejecución de pruebas en el navegador.",
+        "Minimizar el tiempo de carga de la página web.",
+        "Diseñar páginas web adaptables."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Selenium WebDriver es la herramienta estándar de automatización de navegadores que simula las interacciones de un usuario con fines de pruebas de software."
+    },
+    {
+      "id": 89,
+      "globalId": 94,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "¿Cuál es una herramienta de análisis de seguridad y calidad de código?",
+      "opciones": [
+        "SonarQube",
+        "SonarCode",
+        "SonarCuality",
+        "SonarSrc"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "SonarQube es una plataforma líder para la inspección continua de la calidad y la seguridad del código mediante el análisis estático de código fuente."
+    },
+    {
+      "id": 90,
+      "globalId": 95,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "¿Cuál de los siguientes es un protocolo de seguridad usado en las comunicaciones HTTP?",
+      "opciones": [
+        "TLS",
+        "SSL",
+        "STARTTLS",
+        "WPA2"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": true,
+      "explicacion": "Pregunta anulada por la comisión de selección. El protocolo estándar moderno para dotar de seguridad y cifrado al protocolo HTTP es TLS (Transport Layer Security)."
+    },
+    {
+      "id": 91,
+      "globalId": 96,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "¿Qué tecnología de las siguientes es adecuada para implementar la recepción de notificaciones nativas en los teléfonos inteligentes del representante y del interesado?",
+      "opciones": [
+        "WebView",
+        "Mobile push",
+        "CDMA",
+        "Wi-Fi"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La tecnología de Mobile Push Notifications (notificaciones push móviles) se utiliza para transmitir mensajes en tiempo real directamente al sistema operativo de dispositivos móviles."
+    },
+    {
+      "id": 92,
+      "globalId": 97,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "¿Cuál de los siguientes lenguajes de estilos emplearía si le piden modificar el color de un botón en el frontal web?",
+      "opciones": [
+        "XML",
+        "SGML",
+        "XSL",
+        "CSS"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "CSS (Cascading Style Sheets) es el lenguaje de diseño y de presentación utilizado para dar estilo a los elementos y estructuras de las páginas HTML."
+    },
+    {
+      "id": 93,
+      "globalId": 98,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "¿Cómo se conoce el conjunto de pautas, componentes y herramientas que respaldan las mejores prácticas de diseño de la interfaz de usuario, perteneciente a Google?",
+      "opciones": [
+        "WCAG 2.1",
+        "WAI-ARIA",
+        "Material Design",
+        "Inclusive Design"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Material Design es un sistema de diseño desarrollado por Google que combina principios visuales con tecnología y ciencia cognitiva."
+    },
+    {
+      "id": 94,
+      "globalId": 99,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "¿Cuál de los siguientes ataques en la web, consiste en forzar al navegador del usuario a realizar acciones no deseadas en la aplicación web en la que está actualmente autenticado?",
+      "opciones": [
+        "Cross Site Request Forgery",
+        "Cross Site Repeat Forgery",
+        "Cross Site Reduction Forgery",
+        "Cross Send Request Forgery"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El ataque CSRF (Cross-Site Request Forgery) engaña o fuerza a un navegador autenticado a enviar una solicitud malintencionada a una aplicación web de confianza."
+    },
+    {
+      "id": 95,
+      "globalId": 100,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "Señale el software que permite automatizar la construcción y despliegue de un proyecto utilizando el concepto de pipelines:",
+      "opciones": [
+        "Jenkins",
+        "RabbitMQ",
+        "Apache Kafka",
+        "Subversion"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Jenkins es una de las principales herramientas de servidor de automatización de código abierto que se utiliza para implementar la Integración Continuas y la Entrega Continua (CI/CD) mediante tuberías (pipelines)."
+    },
+    {
+      "id": 96,
+      "globalId": 101,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "En JSON, ¿qué valor mostraría la consola si ejecutamos este código: console.log(4 * 3 ** 2)?",
+      "opciones": [
+        "36",
+        "-1",
+        "24",
+        "Null"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": true,
+      "explicacion": "Pregunta anulada por la comisión de selección. El operador de exponenciación '**' calcula 3^2 = 9, y luego se multiplica por 4, dando un resultado matemático de 36."
+    },
+    {
+      "id": 97,
+      "globalId": 102,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "¿Qué característica o atributo de seguridad de las cookies, permite que el navegador solo envíe la cookie al servidor si ésta se originó en el mismo sitio web al que estamos intentando contactar?",
+      "opciones": [
+        "Domain",
+        "SameSite",
+        "Secure",
+        "HttpOnly"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El atributo 'SameSite' de las cookies restringe el envío cruzado (cross-site) de las cookies al navegador para mitigar ataques CSRF."
+    },
+    {
+      "id": 98,
+      "globalId": 103,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "En PHP, señale qué variable de entorno se puede usar para almacenar datos del inicio de sesión de un usuario:",
+      "opciones": [
+        "$_SESSION",
+        "$SESSION",
+        "$_GLOBAL",
+        "$GLOBAL"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En PHP, la superglobal '$_SESSION' es una matriz asociativa que mantiene la persistencia de datos del usuario a lo largo de las solicitudes del cliente."
+    },
+    {
+      "id": 99,
+      "globalId": 104,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "¿Qué conjunto de herramientas de presentación y comportamiento ofrece componentes para trabajar en la parte dinámica del frontal web HTML?",
+      "opciones": [
+        "NumPy",
+        "ActiveMQ",
+        "Bootstrap",
+        "TensorFlow"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Bootstrap es un potente toolkit de front-end que ofrece una estructura CSS y componentes basados en JavaScript interactivo para interfaces adaptables."
+    },
+    {
+      "id": 100,
+      "globalId": 105,
+      "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
+      "año": 2022,
+      "pregunta": "¿Qué método estático usaría para convertir una cadena JSON en un valor u objeto javascript?:",
+      "opciones": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "let obj = JSON",
+        "let obj = New JSON"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El método estándar 'JSON.parse()' de JavaScript toma una cadena con formato JSON y la deserializa o convierte en un objeto nativo de JavaScript."
+    },
+    {
+      "id": 101,
+      "globalId": 81,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Se necesita presentar una estadística utilizando HTML5 mediante una tabla en la que una de sus columnas contendrá la descripción de cada Proceso Selectivo. Suponiendo que a dicha columna la denominamos \"Proceso\", ¿qué etiqueta deberá utilizar para definir la celda de encabezado de la tabla para dicha columna, con un formato de letra diferenciado?",
+      "opciones": [
+        "<th>Proceso</th>",
+        "<tableheader>Proceso</tableheader>",
+        "<theader>Proceso</theader>",
+        "<tableh>Proceso</tableh>"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En HTML5, la etiqueta <th> se utiliza para definir una celda de encabezado en una tabla, mostrando el texto en negrita y centrado por defecto."
+    },
+    {
+      "id": 102,
+      "globalId": 82,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Le indican que debe presentar también una lista de opositores con las notas correspondientes a los dos primeros ejercicios. Las notas se representarán como una lista anidada para cada opositor, debiendo ser el resultado a obtener: * Opositor o Nota 1 o Nota 2. ¿Cuál es el código HTML5 correcto si presentamos un solo opositor?",
+      "opciones": [
+        "<ul><li>Opositor<ul><li>Nota 1</li><li>Nota 2</li></ul></li></ul>",
+        "<ul><li>Opositor</li></ul><ul><li>Nota 1</li><li>Nota 2</li></ul>",
+        "<ul><li1>Opositor</li1><li2>Nota 1</li2><li2>Nota 2</li2></ul>",
+        "<ul><li>Opositor<li>Nota 1</li><li>Nota 2</li></li></ul>"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La anidación de listas en HTML5 se realiza colocando la lista secundaria (<ul>) dentro de un elemento de lista (<li>) de la lista principal."
+    },
+    {
+      "id": 103,
+      "globalId": 83,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Para desarrollar esta petición, de entre las siguientes opciones de código, ¿cuál debería utilizar para incorporarlo en el fragmento de código marcado como [---------------------------------------] ?: <form> <label for=\"username\">Nombre de Opositor:</label> [---------------------------------------] <input type=\"submit\" value=\"Confirmar\"/> </form>",
+      "opciones": [
+        "<input type=\"text\" name=\"username\" required/>",
+        "<input type=\"text\" name=\"username\" enforced/>",
+        "<input type=\"text\" name=\"username\" mandatory/>",
+        "<input type=\"text\" name=\"username\" compulsory/>"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El atributo 'required' en HTML5 especifica que un campo de entrada debe ser completado obligatoriamente antes de enviar el formulario."
+    },
+    {
+      "id": 104,
+      "globalId": 84,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "En la página web a la que accederán los aspirantes, se quiere aplicar el color verde a todos los elementos que tengan etiqueta <a> que sean hijos de un elemento con etiqueta <li> ¿Cuál es el código CSS adecuado?",
+      "opciones": [
+        "li.a {color: green;}",
+        "li>a {color: green;}",
+        "li#a {color: green;}",
+        "li_a {color: green;}"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El selector de hijo directo '>' en CSS selecciona los elementos 'a' que son hijos directos de un elemento 'li'."
+    },
+    {
+      "id": 105,
+      "globalId": 85,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Un compañero le consulta la forma de aplicar el modelo de Diseño de Caja Flexible (o Flexbox) a un elemento div con id=\"principal\". De entre los siguientes, ¿cuál es el código CSS correcto que debería proponer?",
+      "opciones": [
+        "div#principal {display: flex;}",
+        "div#principal {display: flexbox;}",
+        "div#principal {display: flex-container;}",
+        "div#principal {display:flexible;}"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Para iniciar el modelo de caja flexible en CSS, se utiliza la propiedad 'display' con el valor 'flex' sobre el contenedor principal."
+    },
+    {
+      "id": 106,
+      "globalId": 86,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Se han detectado varios errores en la exportación a XML de los diferentes listados de notas y le solicitan su ayuda. Sin tener en cuenta si la información está bien representada, ¿cuál de los siguientes XML está bien formado?",
+      "opciones": [
+        "<Opositor>Winston Churchill<Nota1>95</nota1><Nota2>65</Nota2></Opositor>",
+        "<Opositor>Winston Churchill<Nota1>95</Nota1><Nota2>65</Opositor></Nota2>",
+        "<Opositor>Winston Churchill<Nota1/>95<Nota2/>65</Opositor>",
+        "<Opositor>Winston Churchill<Nota1>95</><Nota2>65</></>"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El XML de la opción C está bien formado porque las etiquetas vacías están autocerradas (<Nota1/> y <Nota2/>) y el elemento principal <Opositor> se cierra correctamente."
+    },
+    {
+      "id": 107,
+      "globalId": 87,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "En su Subdirección van a usar JSON para realizar intercambio de datos, y le preguntan, de entre los siguientes, cuál sería un fichero JSON válido.",
+      "opciones": [
+        "{\"nombre\": \"Juana\", \"apellido\": \"Ruiz\"}",
+        "{'nombre': 'Juana', 'apellido': 'Ruiz'}",
+        "{nombre: \"Juana\", apellido: \"Ruiz\"}",
+        "{nombre: \"Juana\"; apellido: \"Ruiz\"}"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En el estándar JSON, tanto las claves como los valores de cadena deben estar delimitados obligatoriamente por comillas dobles (\")."
+    },
+    {
+      "id": 108,
+      "globalId": 88,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Dentro de las tecnologías para el desarrollo web utilizadas en su unidad, se contempla utilizar javascript. ¿Qué valor devuelve la siguiente función javascript? Function prueba() { var i = 1; var j = 0; while (i < 7) { j += i; i += 2; } return j; }",
+      "opciones": [
+        "2",
+        "9",
+        "6",
+        "0"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El bucle se ejecuta tres veces para i = 1, 3 y 5 (acumulando j = 1 + 3 + 5 = 9). En i = 7 el bucle termina, devolviendo el valor 9."
+    },
+    {
+      "id": 109,
+      "globalId": 89,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Utilizando el lenguaje Python, a continuación se muestra la variable opositor, en la que se almacena el nombre y las puntuaciones de tres ejercicios por orden: opositor = {'nombre': 'Sandra Gomez', 'notas': [27, 36, 12]} ¿Cómo asignaría a una variable llamada notaSegundoEjercicio el valor 36?",
+      "opciones": [
+        "notaSegundoEjercicio = opositor.notas.Value.Item2",
+        "notaSegundoEjercicio = opositor['notas'][1]",
+        "notaSegundoEjercicio = opositor.Key[notas].Value[1]",
+        "notaSegundoEjercicio = opositor(notas(2))"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En Python, los diccionarios se acceden por clave mediante corchetes (opositor['notas']), y los elementos de una lista por su índice basado en 0, por lo que el segundo elemento es [1]."
+    },
+    {
+      "id": 110,
+      "globalId": 90,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Se está valorando la realización de otros desarrollos de Machine Learning para Python y le preguntan cuál de las siguientes podría ser una librería válida para ello.",
+      "opciones": [
+        "Keras",
+        "Yum",
+        "Mahotas",
+        "Openpyxl"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Keras es una biblioteca de código abierto escrita en Python diseñada para facilitar la creación y experimentación con redes neuronales profundas."
+    },
+    {
+      "id": 111,
+      "globalId": 91,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Le piden opinión porque en uno de los módulos Java se detecta un bucle que concatena una cantidad muy elevada de cadenas de texto, penalizando el rendimiento. ¿Qué clase de java.lang habría que utilizar para mejorar la eficiencia?",
+      "opciones": [
+        "StringConcat",
+        "StringConstruct",
+        "StringBuilder",
+        "StringCreator"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La clase StringBuilder es mutable y no sincronizada (más rápida que StringBuffer), óptima para concatenaciones repetitivas en un único hilo de ejecución."
+    },
+    {
+      "id": 112,
+      "globalId": 92,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "¿Cómo debe definir el equipo de desarrollo en Java una clase llamada Ejercicio si quiere impedir que se pueda heredar de la misma?",
+      "opciones": [
+        "closed class Ejercicio",
+        "final class Ejercicio",
+        "private class Ejercicio",
+        "immutable class Ejercicio"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El modificador 'final' aplicado a una clase en Java impide que otras clases puedan extenderla o heredar de ella."
+    },
+    {
+      "id": 113,
+      "globalId": 93,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "En C# le indican que para evitar el consumo de recursos de base de datos se debe liberar la conexión correspondiente tras su uso, liberando además la memoria gestionada por la misma en el bloque de código que aparece entre llaves. ¿Qué instrucción debemos utilizar?",
+      "opciones": [
+        "using (SqlConnection conn = new SqlConnection(connString)) {conn.Open();}",
+        "scope (SqlConnection conn = new SqlConnection(connString)) {conn.Open();}",
+        "dispose (SqlConnection conn = new SqlConnection(connString)) {conn.Open();}",
+        "internal (SqlConnection conn = new SqlConnection(connString)) {conn.Open();}"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La instrucción 'using' de C# garantiza la llamada automática al método Dispose() del objeto cuando finaliza el bloque, liberando los recursos gestionados."
+    },
+    {
+      "id": 114,
+      "globalId": 94,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Para cumplir el cometido que le ha sido asignado va a tener que definir arrays. ¿Cuál es la forma correcta de definir un array de enteros en C#?",
+      "opciones": [
+        "int[] arrayEnteros = new {1, 2, 3};",
+        "int arrayEnteros[] = new() {1, 2, 3};",
+        "int[] arrayEnteros = new[] {1, 2, 3};",
+        "int arrayEnteros[] = new {1, 2, 3};"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En C#, la sintaxis para declarar e inicializar un array de enteros es 'int[] arrayEnteros = new[] {1, 2, 3};' o de forma simplificada 'int[] arrayEnteros = {1, 2, 3};'."
+    },
+    {
+      "id": 115,
+      "globalId": 95,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Su equipo está de acuerdo en estudiar la información existente dispersa en distintas fuentes de datos con el fin de consolidarla. En una base de datos antigua, hay una tabla que contiene el siguiente registro: NIF: 12345678Z Nombre: Emilia PrimerApellido: Pardo SegundoApellido: Bazán Direccion: Atocha 106 Telefonos: 916666666;917777777 ¿En qué forma normal está la tabla?",
+      "opciones": [
+        "En primera forma normal.",
+        "En segunda forma normal.",
+        "En tercera forma normal.",
+        "No está en ninguna forma normal."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La tabla no se encuentra en ninguna forma normal porque el campo 'Telefonos' contiene múltiples valores (un grupo repetitivo o no atómico), lo que viola la Primera Forma Normal (1FN)."
+    },
+    {
+      "id": 116,
+      "globalId": 96,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "En la base de datos, el campo \"IdFormaAcceso\" de la tabla \"Proceso\" es de tipo char(1) y puede tomar los valores \"L\" (Ingreso Libre) y \"P\" (Promocion Interna). ¿Qué instrucción deberá utilizar para obtener un listado de todos los IdProceso de forma que aparezca el nombre descriptivo de la correspondiente Forma de Acceso?",
+      "opciones": [
+        "SELECT IdProceso, IF IdFormaAcceso = 'L' THEN 'Ingreso Libre' ELSE 'Promocion Interna' ENDIF AS FormaAcceso FROM Proceso",
+        "SELECT IdProceso, CASE IdFormaAcceso WHEN 'L' THEN 'Ingreso Libre' WHEN 'P' THEN 'Promocion Interna' END AS FormaAcceso FROM Proceso",
+        "SELECT IdProceso, SWITCH IdFormaAcceso ('L' = 'Ingreso Libre', 'P' = 'Promocion Interna') AS FormaAcceso FROM Proceso",
+        "SELECT IdProceso, IIF(IdFormaAcceso, 'L' = 'Ingreso Libre', 'P' = 'Promocion Interna') AS FormaAcceso FROM Proceso"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En SQL estándar, la expresión condicional para bifurcar lógica según el valor de una columna es la estructura 'CASE WHEN ... THEN ... ELSE ... END'."
+    },
+    {
+      "id": 117,
+      "globalId": 97,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "También le consultan sobre la sentencia SQL a utilizar para obtener el listado del identificador de los opositores (IdOpositor) que tienen más de una entrada en la tabla Solicitud.",
+      "opciones": [
+        "SELECT IdOpositor, COUNT(IdSolicitud) AS NumeroSolicitudes FROM Solicitud GROUP BY IdOpositor WHERE NumeroSolicitudes > 1",
+        "SELECT IdOpositor, IdSolicitud FROM Solicitud WHERE COUNT(IdSolicitud) > 1",
+        "SELECT IdOpositor, COUNT(IdSolicitud) FROM Solicitud WHERE COUNT(IdSolicitud) > 1 GROUP BY IdOpositor",
+        "SELECT IdOpositor, COUNT(IdSolicitud) FROM Solicitud GROUP BY IdOpositor HAVING COUNT(IdSolicitud) > 1"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Para filtrar grupos basados en una función agregada como COUNT, se debe agrupar primero usando 'GROUP BY' y aplicar el filtro en la cláusula 'HAVING'."
+    },
+    {
+      "id": 118,
+      "globalId": 98,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "¿Con qué instrucción ANSI SQL incrementaría un diez por ciento el valor de la columna Duracion para todos los registros de la tabla Ejercicio?",
+      "opciones": [
+        "UPDATE Duracion = Duracion + (0.10 * Duracion) FROM Ejercicio",
+        "UPDATE Ejercicio SET Duracion = Duracion * 1.1",
+        "UPDATE TABLE Ejercicio (Duracion = Duracion + 10%)",
+        "UPDATE SET Duracion *= 1.10 FROM Ejercicio"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La sintaxis estándar para actualizar registros es 'UPDATE <tabla> SET <columna> = <nuevo_valor>'."
+    },
+    {
+      "id": 119,
+      "globalId": 99,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Si el campo DNI de la tabla Opositor es de tipo char(9), ¿cuál es la instrucción SQL para obtener el listado de todos los registros de la tabla Opositor cuyo DNI empieza por 3?",
+      "opciones": [
+        "SELECT * FROM Opositor WHERE DNI = 3*",
+        "SELECT * FROM Opositor WHERE DNI IN ('3.')",
+        "SELECT * FROM Opositor WHERE DNI LIKE '3%'",
+        "SELECT DNI(3*) FROM Opositor"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El operador 'LIKE' en conjunto con el carácter comodín '%' se utiliza para buscar patrones de cadenas; '3%' representa cualquier cadena que comience por '3'."
+    },
+    {
+      "id": 120,
+      "globalId": 100,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Como repositorio de código en su unidad se utiliza Git, y le preguntan, ¿qué comando, de entre los siguientes, muestra una lista de los commits anteriores?",
+      "opciones": [
+        "git commit",
+        "git fetch",
+        "git status",
+        "git log"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El comando 'git log' se utiliza para explorar el historial de confirmaciones de la rama de trabajo actual en orden cronológico inverso."
+    },
+    {
+      "id": 121,
+      "globalId": 101,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Dentro del código de la página web a la que acceden los opositores, se encuentra el siguiente código HTML: <html><body><h1 id=\"titulo\">Primer ejercicio TAI</h1></body></html> ¿Cuál es el código javascript para obtener la cadena \"Primer ejercicio TAI\"?",
+      "opciones": [
+        "var titulo = document.getElementById(\"titulo\").firstChild.nodeValue;",
+        "var titulo = document.titulo.InnerHTML;",
+        "var titulo = document.getElement(\"h1\").InnerText;",
+        "var titulo = document.children[0].getValue();"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En el DOM de JavaScript, el nodo de texto dentro del elemento <h1> es su primer nodo hijo (firstChild), y su valor se recupera con nodeValue."
+    },
+    {
+      "id": 122,
+      "globalId": 102,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Su equipo está evaluando incorporar herramientas de testing. ¿Para qué sirve el framework de javascript Jest?",
+      "opciones": [
+        "Testeado de código.",
+        "Machine learning.",
+        "Animacion y efectos gráficos.",
+        "Funciones matemáticas y tratamiento de cadenas."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Jest es un framework de testing de JavaScript enfocado en la simplicidad y el rendimiento, muy utilizado para pruebas unitarias en frontend."
+    },
+    {
+      "id": 123,
+      "globalId": 103,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Entre los lenguajes contemplados para el nuevo sistema de información se encuentra Python. De entre los siguientes, ¿cuál es un framework para desarrollo web en Python?",
+      "opciones": [
+        "Django",
+        "Keras",
+        "Pip",
+        "Numpy"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Django es un framework de desarrollo web de alto nivel, gratuito y de código abierto, escrito en Python que fomenta el diseño rápido."
+    },
+    {
+      "id": 124,
+      "globalId": 104,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Se ha realizado un vídeo explicativo para los opositores y se ha publicado en una página web. ¿Qué mostrará el siguiente fragmento de código en un navegador que soporte HTML5?: <video width=\"320\" height=\"240\" controls><source src=\"movie.mp4\" type=\"video/mp4\"><source src=\"movie.ogg\" type=\"video/ogg\">No soportado</video>",
+      "opciones": [
+        "Se mostrarán los dos vídeos \"movie.mp4\" y \"movie.ogg\".",
+        "Se mostrará el mensaje \"No soportado\" en todos los casos.",
+        "Se mostrará el vídeo \"movie.mp4\" si el navegador soporta el formato mp4.",
+        "No se mostrará nada porque el código no está bien formado."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El navegador evaluará las etiquetas <source> secuencialmente y reproducirá la primera opción compatible con sus códecs; si soporta mp4, reproducirá 'movie.mp4'."
+    },
+    {
+      "id": 125,
+      "globalId": 105,
+      "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
+      "año": 2019,
+      "pregunta": "Para intentar obtener información de la base de datos de aspirantes, un usuario malintencionado introduce la siguiente cadena en el campo \"Número de opositor\" de un formulario incluido en la página web de inscripciones al proceso: 100 OR 1=1 ¿Qué técnica está utilizando?",
+      "opciones": [
+        "Denial of Service.",
+        "Phishing",
+        "Malware attack.",
+        "SQL Injection."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La inyección SQL (SQL Injection) consiste en la inserción de código malicioso en parámetros de entrada con el fin de alterar la lógica de las consultas SQL del backend (el patrón 'OR 1=1' evalúa siempre como verdadero)."
+    }
+  ]
+}
