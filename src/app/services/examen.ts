@@ -21,6 +21,7 @@ export class ExamenService {
     '2018': 'assets/data/examen2018.json',
     'desarrollo-a': 'assets/data/desarrollo-a.json',
     'sistemas-b': 'assets/data/sistemas-b.json',
+    'tecnologia':'assets/data/tecnologia.json',
   };
 // Cache para no recargar todos los JSON en cada pulsación de búsqueda
   private cache$?: Observable<(Pregunta & { examenOrigen?: string })[]>;

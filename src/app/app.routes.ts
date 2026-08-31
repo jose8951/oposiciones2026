@@ -11,10 +11,10 @@ import { Examen2025B } from './pages/examen2025-b/examen2025-b';
 import { Examen2026 } from './pages/examen2026/examen2026';
 import { DesarrolloA } from './pages/desarrollo-a/desarrollo-a';
 import { SistemasB } from './pages/sistemas-b/sistemas-b';
-
 import { CE } from './pages/CE/ce';
 import { VisorPdf } from './pages/visor-pdf/visor-pdf';
 import { Buscar } from './pages/buscar/buscar';
+import { Tecnologia } from './pages/tecnologia/tecnologia';
 
 // 🔒 GUARD DE SEGURIDAD (Simulado para el futuro Login)
 const authGuard: CanActivateFn = (route, state) => {
@@ -44,8 +44,9 @@ export const routes: Routes = [
   { path: 'examen2025a', component: Examen2025A, canActivate: [authGuard] },
   { path: 'examen2025b', component: Examen2025B, canActivate: [authGuard] },
   { path: 'examen2026', component: Examen2026, canActivate: [authGuard] },
- { path: 'desarrollo-a', component: DesarrolloA, canActivate: [authGuard] },
+  { path: 'desarrollo-a', component: DesarrolloA, canActivate: [authGuard] },
   { path: 'sistemas-b', component: SistemasB, canActivate: [authGuard] },
+  { path: 'tecnologia', component: Tecnologia, canActivate: [authGuard] },
 
   { path: 'ce', component: CE, canActivate: [authGuard] },
 

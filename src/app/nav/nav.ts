@@ -22,8 +22,9 @@ export class Nav {
     { label: '2023', route: '/examen2023' },
     { label: '2019', route: '/examen2019' },
     { label: '2018', route: '/examen2018' },
-    { label: 'Desarrollo (A)', route: '/desarrollo-a' },
-    { label: 'Sistemas (B)', route: '/sistemas-b' },
+    { label: 'Desarrollo', route: '/desarrollo-a' },
+    { label: 'Sistemas', route: '/sistemas-b' },
+    { label: 'Tecnología', route: '/tecnologia' },
   ];
 
   pdfs = [
