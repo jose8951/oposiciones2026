@@ -7,6 +7,8 @@ import { Pregunta } from '../../models/pregunta.model';
 // Tipo extendido para incluir el nombre del examen
 export type PreguntaConOrigen = Pregunta & { examenOrigen?: string };
 
+
+//
 @Component({
   selector: 'app-buscar',
   standalone: true,
