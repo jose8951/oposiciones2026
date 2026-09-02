@@ -10,12 +10,12 @@
           type="text" 
           class="form-control border-0 px-4" 
           placeholder="Escribe una palabra clave (ej. PHP, IP, Docker...)" 
-          [(ngModel)]="textoBusqueda"
-          (keyup.enter)="buscar()"
+          [(ngModel)]="textoBusqueda"        
+          (ngModelChange)="buscar()"
         />
-        <button class="btn btn-primary px-4 fw-bold" type="button" (click)="buscar()">
+        <!-- <button class="btn btn-primary px-4 fw-bold" type="button" (click)="buscar()">
           Buscar
-        </button>
+        </button> -->
       </div>
     </div>
   </div>
