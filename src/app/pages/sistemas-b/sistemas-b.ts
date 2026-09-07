@@ -4,10 +4,10 @@ import { ExamenService } from '../../services/examen';
 import { Pregunta } from '../../models/pregunta.model';
 
 @Component({
-  selector: 'app-sistemas-b', // o 'app-desarrollo-a' según el componente
+  selector: 'app-sistemas-b',
   imports: [CommonModule],
-  templateUrl: './sistemas-b.html', // o './desarrollo-a.html'
-  styleUrl: './sistemas-b.css',     // o './desarrollo-a.css'
+  templateUrl: './sistemas-b.html',
+  styleUrl: './sistemas-b.css',
 })
 export class SistemasB implements OnInit {
 
@@ -17,12 +17,13 @@ export class SistemasB implements OnInit {
   cargando = signal<boolean>(false);
   nombreExamen = signal<string>('');
 
-  respuestas = new Map<number, number>();
+  // Reemplazamos el Map por una Signal con un Record plano
+  respuestas = signal<Record<number, number>>({});
 
   ngOnInit(): void {
     this.cargando.set(true);
 
-    this.examenService.obtenerExamen('sistemas-b').subscribe({ // o 'desarrollo-a'
+    this.examenService.obtenerExamen('sistemas-b').subscribe({
       next: (resultado) => {
         this.nombreExamen.set(resultado.examen);
         this.preguntas.set(resultado.preguntas);
@@ -35,13 +36,24 @@ export class SistemasB implements OnInit {
     });
   }
 
-  responder(globalId: number, indice: number) {
-    this.respuestas.set(globalId, indice);
+  responder(event: Event, globalId: number, indice: number) {
+    // Detiene el comportamiento por defecto y la propagación de eventos que alteran el scroll
+    event.stopPropagation();
+
+    // Actualización inmutable para notificar cambios precisos a la vista
+    this.respuestas.update((prev) => ({
+      ...prev,
+      [globalId]: indice,
+    }));
   }
 
   esCorrecta(globalId: number): boolean | null {
+    const seleccion = this.respuestas()[globalId];
+    if (seleccion === undefined) return null;
+
     const pregunta = this.preguntas().find((p) => p.globalId === globalId);
-    if (!pregunta || !this.respuestas.has(globalId)) return null;
-    return this.respuestas.get(globalId) === pregunta.respuestaCorrecta;
+    if (!pregunta) return null;
+
+    return seleccion === pregunta.respuestaCorrecta;
   }
 }

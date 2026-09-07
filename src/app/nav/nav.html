@@ -21,7 +21,8 @@
         }
 
         <li class="nav-item dropdown mx-lg-1">
-          <a class="nav-link dropdown-toggle d-flex align-items-center gap-1 px-2" href="#" id="pdfDropdown" role="button" data-bs-toggle="dropdown">
+          <!-- Se elimina href="#" y se sustituye por role="button" y style="cursor: pointer" -->
+          <a class="nav-link dropdown-toggle d-flex align-items-center gap-1 px-2" id="pdfDropdown" role="button" style="cursor: pointer;" data-bs-toggle="dropdown" aria-expanded="false">
             📚 PDFs
           </a>
           <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-3 mt-lg-2" aria-labelledby="pdfDropdown">
@@ -52,14 +53,14 @@
 
       </ul>
 
-  <li class="nav-item ms-lg-2">
-  <a 
-    class="btn btn-outline-light btn-sm fw-bold px-3 rounded-pill" 
-    routerLink="/buscar" 
-    routerLinkActive="active bg-white text-primary">
-    🔍 Buscar
-  </a>
-</li>
+      <li class="nav-item ms-lg-2 style-none" style="list-style: none;">
+        <a 
+          class="btn btn-outline-light btn-sm fw-bold px-3 rounded-pill" 
+          routerLink="/buscar" 
+          routerLinkActive="active bg-white text-primary">
+          🔍 Buscar
+        </a>
+      </li>
 
     </div>
 

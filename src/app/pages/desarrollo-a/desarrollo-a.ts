@@ -13,17 +13,20 @@ export class DesarrolloA implements OnInit {
 
   private examenService = inject(ExamenService);
 
-  // Signals locales del componente (Garantizan la reactividad)
   preguntas = signal<Pregunta[]>([]);
   cargando = signal<boolean>(false);
   nombreExamen = signal<string>('');
 
-  respuestas = new Map<number, number>();
+  // Estado inmutable usando Record en lugar de Map
+  respuestas = signal<Record<number, number>>({});
 
   ngOnInit(): void {
+    this.cargarExamen();
+  }
+
+  cargarExamen() {
     this.cargando.set(true);
 
-    // Solicitamos el examen de Desarrollo (A) mapeado en el servicio
     this.examenService.obtenerExamen('desarrollo-a').subscribe({
       next: (resultado) => {
         this.nombreExamen.set(resultado.examen);
@@ -37,13 +40,23 @@ export class DesarrolloA implements OnInit {
     });
   }
 
-  responder(globalId: number, indice: number) {
-    this.respuestas.set(globalId, indice);
+  responder(event: Event, globalId: number, indice: number) {
+    // Detenemos cualquier comportamiento nativo del radio/label que mueva el foco o el scroll
+    event.stopPropagation();
+
+    this.respuestas.update((prev) => ({
+      ...prev,
+      [globalId]: indice,
+    }));
   }
 
   esCorrecta(globalId: number): boolean | null {
+    const seleccion = this.respuestas()[globalId];
+    if (seleccion === undefined) return null;
+
     const pregunta = this.preguntas().find((p) => p.globalId === globalId);
-    if (!pregunta || !this.respuestas.has(globalId)) return null;
-    return this.respuestas.get(globalId) === pregunta.respuestaCorrecta;
+    if (!pregunta) return null;
+
+    return seleccion === pregunta.respuestaCorrecta;
   }
 }

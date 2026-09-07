@@ -10,7 +10,6 @@ import { Pregunta } from '../../models/pregunta.model';
   styleUrl: './examen2026.css',
 })
 export class Examen2026 implements OnInit {
-
   private examenService = inject(ExamenService);
 
   // Signals locales del componente (Garantizan la reactividad)
@@ -21,8 +20,17 @@ export class Examen2026 implements OnInit {
   respuestas = new Map<number, number>();
 
   ngOnInit(): void {
-    this.cargando.set(true);
+    const datosBase = { rol: 'usuario', activo: true };
+    const datosExtra = { activo: false, tema: 'oscuro' };
+    const perfilfinal = { ...datosBase, ...datosExtra };
+    console.log(perfilfinal);
 
+
+
+
+    
+
+    this.cargando.set(true);
     // Le pedimos los datos del examen del 2026 al servicio
     this.examenService.obtenerExamen('2026').subscribe({
       next: (resultado) => {
