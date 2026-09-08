@@ -10,14 +10,13 @@ import { Pregunta } from '../../models/pregunta.model';
   styleUrl: './desarrollo-a.css',
 })
 export class DesarrolloA implements OnInit {
-
   private examenService = inject(ExamenService);
 
   preguntas = signal<Pregunta[]>([]);
   cargando = signal<boolean>(false);
   nombreExamen = signal<string>('');
 
-  // Estado inmutable usando Record en lugar de Map
+  // Diccionario inmutable de respuestas seleccionadas
   respuestas = signal<Record<number, number>>({});
 
   ngOnInit(): void {
@@ -40,22 +39,16 @@ export class DesarrolloA implements OnInit {
     });
   }
 
-  responder(event: Event, globalId: number, indice: number) {
-    // Detenemos cualquier comportamiento nativo del radio/label que mueva el foco o el scroll
-    event.stopPropagation();
-
+  responder(globalId: number, indice: number) {
     this.respuestas.update((prev) => ({
       ...prev,
       [globalId]: indice,
     }));
   }
 
-  esCorrecta(globalId: number): boolean | null {
-    const seleccion = this.respuestas()[globalId];
+  esCorrecta(pregunta: Pregunta): boolean | null {
+    const seleccion = this.respuestas()[pregunta.globalId];
     if (seleccion === undefined) return null;
-
-    const pregunta = this.preguntas().find((p) => p.globalId === globalId);
-    if (!pregunta) return null;
 
     return seleccion === pregunta.respuestaCorrecta;
   }
