@@ -1347,7 +1347,7 @@
         "dotnet add Microsoft.EntityFrameworkCore",
         "dotnet package Microsoft.EntityFrameworkCore"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "El comando oficial de la CLI de .NET para añadir un paquete de NuGet a un proyecto es `dotnet add package <NombrePaquete>`."
     },
@@ -1595,7 +1595,7 @@
       "id": 2,
       "globalId": 107,
       "seccion": "Reserva Supuesto I",
-      "pregunta": "En uno de los componentes del frontend detecta la siguiente expresión regular para controlar el campo de entrada del teléfono: [\\+34|34]*[ -]*(3)[0-9]{8} ¿Cuál de las siguientes opciones cumple la expresión regular?",
+      "pregunta": "En uno de los componentes del frontend detecta la siguiente expresión regular para controlar el campo de entrada del teléfono: \n[+34|34]*[ -]*(3)[0-9]{8}\n ¿Cuál de las siguientes opciones cumple la expresión regular?",
       "opciones": [
         "641992011",
         "641 992 011",
