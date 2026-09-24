@@ -1,1 +1,37 @@
-<p>normativa169 works!</p>
+<div class="container mt-4">
+  @if (cargando()) {
+  <div class="text-center my-5">
+    <div class="spinner-border text-primary" role="status">
+      <span class="visually-hidden">Cargando...</span>
+    </div>
+  </div>
+  } @else {
+  <h2 class="mb-4 text-primary">{{ tituloNormativa() }}</h2>
+
+  @for (bloque of bloques(); track bloque.bloqueId) { @if (bloque.preguntas &&
+  bloque.preguntas.length > 0) {
+  <div class="card mb-4 shadow-sm border-primary">
+    <div class="card-header bg-primary text-white">
+      <h5 class="mb-0">{{ bloque.nombreBloque }}</h5>
+      <small>{{ bloque.normativaRef }}</small>
+    </div>
+    <div class="card-body">
+      @for (p of bloque.preguntas; track p.numeroPregunta) {
+      <div class="mb-4">
+        <!-- Letra más legible e intermedia con fs-5 -->
+        <p class="fw-bold text-dark fs-5">
+         <strong style="color: #3605e7cc; font-weight: 800">Pregunta:</strong>   {{ p.numeroPregunta }}: {{ p.pregunta }}
+        </p>
+
+        <!-- Respuesta con un verde fuerte y brillante -->
+        <p class="mt-2 fs-5" style="color: #198754; font-weight: 700">
+          <strong style="color: #ee0404; font-weight: 700">Respuesta:</strong> {{ p.explicacion }}
+        </p>
+
+       <hr style="border-top: 1px solid #6c757d; opacity: 1;" class="my-4" />
+      </div>
+      }
+    </div>
+  </div>
+  } } }
+</div>

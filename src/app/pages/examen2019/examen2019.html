@@ -1,13 +1,13 @@
 <div class="container mt-4">
   @if (cargando()) {
-  <p>Cargando preguntas...</p>
+  <p style="color: #000000 !important;">Cargando preguntas...</p>
   } @else { @for (pregunta of preguntas(); track pregunta.globalId) {
   <div class="card mb-3">
     <div class="card-body">
-      <h6>{{ pregunta.globalId }}. {{ pregunta.pregunta }}</h6>
+      <h6 style="color: #000000 !important; font-weight: bold;">{{ pregunta.globalId }}. {{ pregunta.pregunta }}</h6>
 
       @for (opcion of pregunta.opciones; track $index) {
-      <div class="form-check">
+      <div class="form-check my-2">
         <input
           class="form-check-input"
           type="radio"
@@ -18,6 +18,7 @@
         />
         <label
           class="form-check-label"
+          style="color: #000000 !important;"
           [for]="'opcion-' + pregunta.globalId + '-' + $index"
           [class.text-success]="respuestas.has(pregunta.globalId) && pregunta.respuestaCorrecta === $index"
           [class.text-danger]="respuestas.get(pregunta.globalId) === $index && esCorrecta(pregunta.globalId) === false"
@@ -26,15 +27,11 @@
         </label>
       </div>
       } @if (esCorrecta(pregunta.globalId) === true) {
-      <p class="text-success mt-2">✅ {{ pregunta.explicacion }}</p>
+      <p class="text-success mt-2 fw-bold">✅ {{ pregunta.explicacion }}</p>
       } @else if (esCorrecta(pregunta.globalId) === false) {
-      <p class="text-danger mt-2">❌ Incorrecta.</p>
+      <p class="text-danger mt-2 fw-bold">❌ Incorrecta.</p>
       }
     </div>
   </div>
   }}
 </div>
-
-
-
-
