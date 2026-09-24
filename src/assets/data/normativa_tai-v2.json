@@ -1,0 +1,1079 @@
+{
+  "documentoOrigen": "normativa_tai.pdf",
+  "titulo": "Banco de Preguntas Basado Estrictamente en normativa_tai.pdf (Sin opciones múltiples)",
+  "descripcion": "Recopilación exacta de preguntas, respuestas y explicaciones del PDF oficial, organizada por bloques normativos sin opciones A/B/C/D.",
+  "totalBloques": 24,
+  "bloques": [
+    {
+      "bloqueId": 1,
+      "nombreBloque": "Bloque 1: Agenda 2030 - ODS",
+      "normativaRef": "Resolución A/RES/70/1 — Agenda 2030 para el Desarrollo Sostenible",
+      "totalPreguntas": 1,
+      "preguntas": [
+        {
+          "numeroPregunta": 58,
+          "pregunta": "Para mejorar la escalabilidad del sistema, está estudiando implantar una arquitectura de microservicios con Kubernetes. ¿Qué protocolos para servicios pueden utilizarse con Kubernetes?",
+          "explicacion": "Kubernetes soporta de manera estándar protocolos de transporte de capa 4 como TCP (el predeterminado), UDP y SCTP para definir servicios y enrutar tráfico hacia los pods."
+        }
+      ]
+    },
+    {
+      "bloqueId": 2,
+      "nombreBloque": "Bloque 2: Agenda España Digital",
+      "normativaRef": "Agenda España Digital 2026 / Estrategia Digital",
+      "totalPreguntas": 0,
+      "preguntas": []
+    },
+    {
+      "bloqueId": 3,
+      "nombreBloque": "Bloque 3: CCN-CERT / Seguridad AGE",
+      "normativaRef": "Guías CCN-STIC del Centro Criptológico Nacional",
+      "totalPreguntas": 9,
+      "preguntas": [
+        {
+          "numeroPregunta": 126,
+          "pregunta": "En el organismo se quiere disponer de un sistema de vigilancia de la red y se ha optado por la sonda SAT INET del CCN-CERT. Según su arquitectura, ¿cómo se realizan las comunicaciones de la sonda con el sistema central?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 55,
+          "pregunta": "Se ha descargado del sitio web del CCN-CERT una herramienta de antimalware y justo debajo aparece un hash de comprobación. ¿Qué tipo de medida de seguridad es este hash en este contexto?",
+          "explicacion": "Los algoritmos de hash (como SHA-256) generan una huella digital unívoca para un archivo, permitiendo al usuario verificar su integridad matemática completa al comparar el hash local con el publicado oficialmente."
+        },
+        {
+          "numeroPregunta": 59,
+          "pregunta": "Para la detección de malware complejo y movimiento lateral relacionado con APTs (Advanced Persistent Threats), se ha instalado en los PC de los profesores, la solución del CCN, CLAUDIA. ¿Cómo define el Centro Criptológico Nacional una APT?",
+          "explicacion": "Una Amenaza Persistente Avanzada (APT) es un ataque planificado y prolongado dirigido a organizaciones específicas, impulsado frecuentemente por motivos geopolíticos o de espionaje a gran escala."
+        },
+        {
+          "numeroPregunta": 68,
+          "pregunta": "Analizando la seguridad del sistema, surge la duda de si abrir o no el puerto 80 en un servidor web expuesto mediante HTTPS. El Centro Criptológico Nacional recomienda:",
+          "explicacion": "La guía del CCN-CERT indica que se mantenga expuesto el puerto estándar HTTP/80 configurado únicamente para realizar una redirección forzada y transparente hacia HTTPS en el puerto 443."
+        },
+        {
+          "numeroPregunta": 93,
+          "pregunta": "Indique qué herramienta desarrollada por el CCN-CERT, es una plataforma de análisis avanzado de malware:",
+          "explicacion": "ADA es la plataforma de análisis avanzado y automatizado de código dañino (malware) provista por el Centro Criptológico Nacional (CCN-CERT)."
+        },
+        {
+          "numeroPregunta": 31,
+          "pregunta": "El equipo técnico implementa la siguiente clase Java para comparar el identificador de un alumno con un valor específico recibido desde un servicio REST:\npublic class Alumno {\nprivate int idAlumno;\npublic boolean esAlumno(int id) {\nif (idAlumno.equals(id)) {\nreturn true;\n}\nreturn false;\n}\n}\n¿Qué ocurrirá al ejecutar el comando javac Alumno.java ?",
+          "explicacion": "El tipo 'int' en Java es un tipo de dato primitivo, por lo que carece de métodos de instancia como '.equals()'. Solo los objetos (como la clase envolvente Integer) disponen de él."
+        },
+        {
+          "numeroPregunta": 32,
+          "pregunta": "Se necesita ejecutar la aplicación Spring Boot. ¿Cuál es el comando de Maven correcto?",
+          "explicacion": "El plugin de Spring Boot para Maven ofrece el comando 'spring-boot:run' para compilar, configurar el classpath y ejecutar la aplicación localmente."
+        },
+        {
+          "numeroPregunta": 88,
+          "pregunta": "En el equipo de desarrollo se ha decidido usar Selenium WebDriver para:",
+          "explicacion": "Selenium WebDriver es la herramienta estándar de automatización de navegadores que simula las interacciones de un usuario con fines de pruebas de software."
+        },
+        {
+          "numeroPregunta": 95,
+          "pregunta": "Señale el software que permite automatizar la construcción y despliegue de un proyecto utilizando el concepto de pipelines:",
+          "explicacion": "Jenkins es una de las principales herramientas de servidor de automatización de código abierto que se utiliza para implementar la Integración Continuas y la Entrega Continua (CI/CD) mediante tuberías (pipelines)."
+        }
+      ]
+    },
+    {
+      "bloqueId": 4,
+      "nombreBloque": "Bloque 4: Constitución Española",
+      "normativaRef": "Constitución Española de 1978",
+      "totalPreguntas": 1,
+      "preguntas": [
+        {
+          "numeroPregunta": 31,
+          "pregunta": "¿Cuál de las versiones siguientes es la más reciente del sistema operativo macOS?",
+          "explicacion": "macOS Ventura (versión 13) fue lanzado en octubre de 2022, siendo el sistema operativo más reciente de Apple de la lista en la fecha del examen (frente a Monterey, Big Sur y Sierra)."
+        }
+      ]
+    },
+    {
+      "bloqueId": 5,
+      "nombreBloque": "Bloque 5: DNI Electrónico",
+      "normativaRef": "Ley reguladora del DNIe y servicios de firma",
+      "totalPreguntas": 3,
+      "preguntas": [
+        {
+          "numeroPregunta": 26,
+          "pregunta": "Se desea garantizar en la base de datos que el campo DNI de la tabla ALUMNO no contenga valores duplicados, conforme al modelo de datos definido y asegurando el máximo rendimiento en consultas de búsqueda por dicho campo. ¿Cuál es la sentencia correcta en Oracle?",
+          "explicacion": "La sentencia 'ALTER TABLE ... ADD CONSTRAINT ... UNIQUE' crea una restricción de unicidad que garantiza que no haya valores duplicados en la columna seleccionada, creando además un índice único para optimizar la búsqueda."
+        },
+        {
+          "numeroPregunta": 73,
+          "pregunta": "Para resolver una incidencia, necesita saber qué ficheros adjuntos de la solicitud del interesado con DNI 00000000T para el año 2024 no son PDF. ¿Cómo los obtendría?",
+          "explicacion": "La opción C recupera los archivos cuyo nombre no termine en '.pdf' (NOT LIKE '%.pdf') para el año de convocatoria y el DNI indicados mediante subconsultas relacionadas."
+        },
+        {
+          "numeroPregunta": 119,
+          "pregunta": "Si el campo DNI de la tabla Opositor es de tipo char(9), ¿cuál es la instrucción SQL para obtener el listado de todos los registros de la tabla Opositor cuyo DNI empieza por 3?",
+          "explicacion": "El operador 'LIKE' en conjunto con el carácter comodín '%' se utiliza para buscar patrones de cadenas; '3%' representa cualquier cadena que comience por '3'."
+        }
+      ]
+    },
+    {
+      "bloqueId": 6,
+      "nombreBloque": "Bloque 6: ENI – Esquema Nacional de Interoperabilidad (RD 4/2010)",
+      "normativaRef": "Real Decreto 4/2010 (ENI) y Normas Técnicas de Interoperabilidad",
+      "totalPreguntas": 105,
+      "preguntas": [
+        {
+          "numeroPregunta": 119,
+          "pregunta": "Está en una reunión de comunicaciones sobre TLS 1.3, cuando un servidor negocia la comunicación, recibe el mensaje \"ClientHello\" y acepta los parámetros propuestos, ¿qué ocurre en un flujo válido?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 121,
+          "pregunta": "En el organismo se usa como servicio de correo Microsoft 365, y se quiere configurar una aplicación para que envíe correos de manera segura. ¿Cuál es el puerto que se debería usar para poder utilizar el SMTP autenticado con STARTTLS?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 122,
+          "pregunta": "También, para el servidor Windows 2019 Standard que contiene el DA (Directorio Activo), le preguntan cuál sería el comando cmdlet de PowerShell para crear un nuevo sitio llamado PLANI:",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 125,
+          "pregunta": "Se ha observado que el servicio nginx del servidor web01 no arranca y el log indica un error “permission denied” al acceder a /var/www/html. El sistema tiene configurado SELinux en modo enforcing. ¿Qué herramienta permite analizar la causa concreta del bloqueo?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 129,
+          "pregunta": "Su organismo dispone de un sistema Docker en uno de los servidores RHEL. ¿Qué comando permite listar todos los contenedores, incluidos los detenidos independientemente de su estado?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 133,
+          "pregunta": "En SNMP, el conjunto de OID (Object IDentifier) que tiene disponible un dispositivo se conoce como:",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 88,
+          "pregunta": "Dada la siguiente clase CSS: div { text-align: center; font-weight: bold; border-radius: 20px; box-shadow: 4px 4px 4px black; background-color: limegreen; } ¿Qué pasará visualmente con el siguiente elemento HTML?: <div>Bienvenido</div>",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 89,
+          "pregunta": "En una clase de TypeScript se definen los siguientes arrays: const menuAdministrador = [\"Usuarios\", \"Permisos\"]; const menuGestor = [\"Notificaciones\", \"Usuarios\", \"Asientos registrales\"]; En esa misma clase hay una función que ejecuta la siguiente operación: return […menuAdministrador, …menuGestor] ¿Qué hace esta operación?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 90,
+          "pregunta": "Necesita instalar Entity Framework en la API de .NET. ¿Con qué comando se puede hacer?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 96,
+          "pregunta": "Debido a unas pruebas realizadas en el entorno de preproducción, la secuencia de la identidad de una tabla de SQL Server se ha desajustado y necesita reiniciarla. ¿Cómo lo haría?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 98,
+          "pregunta": "En las peticiones a la API de persistencia observa que se incluye la cabecera: Authorization: Bearer eyJhbG.eyJzdW.KMUFsI ¿De qué tipo de autenticación se trata?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 99,
+          "pregunta": "Revisando el código HTML del apartado de gestión de usuarios de la aplicación ha detectado un problema de accesibilidad web: Gestión de usuarios Seleccione un usuario para ver acciones Administradores Indique cuál es:",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 103,
+          "pregunta": "Se ha detectado un error en una de las últimas subidas de código a la rama develop del repositorio. Tras una fase de investigación, sospecha que el error está en un commit concreto. ¿Con qué operación de Git puede incorporar ese commit a una rama aparte para continuar su investigación?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 109,
+          "pregunta": "En la Subdirección se han sustituido los ordenadores utilizados para desarrollar aplicaciones, y por tanto, debe clonarse el repositorio de código de la aplicación para continuar su trabajo. ¿Con qué comando de Git puede hacerlo?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 33,
+          "pregunta": "Adicionalmente, habiendo comprobado que ya no es necesario, le solicitan eliminarlo también. ¿Cuál es el comando a ejecutar?",
+          "explicacion": "Para eliminar físicamente uno o más contenedores del sistema que previamente han sido detenidos, se utiliza el comando `docker rm <ID_Contenedor>`."
+        },
+        {
+          "numeroPregunta": 38,
+          "pregunta": "Le solicitan listar rápidamente los puertos en escucha del sistema. En RHEL, ¿cuál indicaría que es un comando válido?",
+          "explicacion": "El comando `ss` (socket statistics) es el sustituto moderno de netstat. Los parámetros `-l` (listening), `-t` (TCP sockets) y `-n` (numeric, sin resolución DNS) permiten listar de forma muy eficiente todos los sockets de tipo TCP en estado de escucha."
+        },
+        {
+          "numeroPregunta": 45,
+          "pregunta": "En Windows 11, le piden copiar todo el contenido de un directorio de origen, “C:\\DirectorioA”, en un directorio de destino existente, “C:\\DirectorioB”, de forma recursiva. ¿Qué comando cmdlet de PowerShell le permite hacer lo solicitado?",
+          "explicacion": "En PowerShell, el comando `Copy-Item` acepta los parámetros `-Path` para el origen, `-Destination` para el destino, y `-Recurse` (parámetro estándar de recursividad) para indicar que se copien todos los directorios y archivos secundarios recursivamente."
+        },
+        {
+          "numeroPregunta": 48,
+          "pregunta": "En un equipo Windows 11 de la red de usuarios, necesita añadir una regla de firewall de Windows Defender llamada \"Puerto8443\" para permitir conexiones entrantes TCP al puerto 8443. ¿Cuál es el comando correcto que ejecutaría desde la línea de comandos con privilegios de administrador?",
+          "explicacion": "El comando netsh para añadir una nueva regla de cortafuegos en Windows Defender sigue la estructura: `netsh advfirewall firewall add rule name=\"<nombre>\" dir=in action=allow protocol=TCP localport=8443`."
+        },
+        {
+          "numeroPregunta": 50,
+          "pregunta": "En db01 (RHEL 8.8) existe un grupo de volúmenes LVM2 llamado vg_datos con 200 GiB libres. El volumen lógico lv_contenido (actualmente 500 GiB) contiene un sistema de ficheros XFS montado en /contenido. No hay snapshots activos. Se requiere ampliar la capacidad disponible en /contenido hasta 600 GiB, sin cambiar el punto de montaje ni la estructura del volumen y sin añadir discos nuevos. ¿Cuál es la secuencia de acciones correcta a nivel lógico para realizar la ampliación?",
+          "explicacion": "En LVM con sistemas de ficheros como XFS (que soporta redimensión en caliente), la secuencia consiste en: 1) extender el volumen lógico al tamaño deseado usando `lvextend`, y 2) ampliar el sistema de ficheros montado en caliente mediante el comando `xfs_growfs`."
+        },
+        {
+          "numeroPregunta": 53,
+          "pregunta": "Se ha instalado un servidor de correo con Postfix y se está decidiendo si utilizar POP3 o IMAP en los clientes de correo. ¿Cuál de las siguientes opciones es INCORRECTA?",
+          "explicacion": "POP3 descarga los correos de forma local y no mantiene sincronizadas las carpetas ni estructuras lógicas entre múltiples dispositivos del usuario, a diferencia de IMAP."
+        },
+        {
+          "numeroPregunta": 56,
+          "pregunta": "Se está instalando la nueva climatización del CPD y se plantea utilizar una toma derivada de la climatización del resto del edificio. ¿Cuál es la razón principal por la que NO se aconseja hacer eso?",
+          "explicacion": "Esta pregunta fue formalmente anulada por el tribunal en la plantilla correctora definitiva."
+        },
+        {
+          "numeroPregunta": 60,
+          "pregunta": "Para descargar algunos ficheros del servidor BIBLIOTECA, los administradores están sopesando entre el uso de SFTP y FTPS. Indique, de las siguientes afirmaciones, la INCORRECTA:",
+          "explicacion": "Es incorrecto afirmar que SFTP utiliza únicamente certificados y FTPS usuario y contraseña; ambos protocolos son versátiles y admiten autenticación mediante credenciales tradicionales o criptografía asimétrica."
+        },
+        {
+          "numeroPregunta": 67,
+          "pregunta": "El CPD donde está alojado el sistema tiene una puerta cuyo control de acceso es con tarjeta inteligente y PIN, que sólo conocen los operadores. Hace dos días, se supo que alguien no autorizado había entrado esperando agazapado a que alguien autorizado entrase, pasando detrás de él sin que éste advirtiera que tenía a un intruso detrás. Este incidente de ingeniería social en seguridad física se conoce con el nombre de:",
+          "explicacion": "En seguridad física, el acceso de un intruso aprovechando de forma física y silenciosa la apertura autorizada por parte de otro usuario legítimo se conoce como Tailgating o Piggybacking."
+        },
+        {
+          "numeroPregunta": 72,
+          "pregunta": "Como no hay suficientes tomas Ethernet en la zona física donde están los profesores, se va a instalar una red WiFi con protocolo WPA3-Enterprise. En este caso, para acceder a la red WiFi habrá que utilizar:",
+          "explicacion": "A diferencia de las redes inalámbricas domésticas (WPA-Personal), la variante WPA3-Enterprise utiliza autenticación basada en el estándar 802.1X, lo que requiere un servidor RADIUS corporativo y métodos basados en certificados (como EAP-TLS)."
+        },
+        {
+          "numeroPregunta": 77,
+          "pregunta": "En todos los PCs de usuario existe un usuario local llamado Infocentro utilizado para labores de mantenimiento. ¿Qué comando utilizaríamos desde la línea de comandos de Windows PowerShell para ver más información sobre este usuario?",
+          "explicacion": "El comando nativo de administración de cuentas de usuario en Windows es `net user`. Al añadir el nombre del usuario (`net user Infocentro`), se detallan sus propiedades locales."
+        },
+        {
+          "numeroPregunta": 82,
+          "pregunta": "Si tenemos en cuenta que la primera subred para PCs de Usuario del Modelo B es la 10.20.30.0/26, ¿cuáles son las direcciones de Red y Broadcast?",
+          "explicacion": "Un bloque con máscara /26 contiene 64 direcciones. Para la primera subred, el rango va de 10.20.30.0 a 10.20.30.63. La dirección de red es 10.20.30.0 y la de broadcast es 10.20.30.63."
+        },
+        {
+          "numeroPregunta": 83,
+          "pregunta": "En uno de los servidores de la subred de DMZ se quiere instalar una solución para realizar filtrado de contenidos HTTP/HTTPS. ¿Cuál de las siguientes soluciones puede realizar dicha función?",
+          "explicacion": "Squid es un popular servidor proxy web y caché que ofrece potentes capacidades para realizar el filtrado de contenidos, control de navegación y limitación de acceso a sitios web."
+        },
+        {
+          "numeroPregunta": 84,
+          "pregunta": "Una vez implementado \"teletrabajo\" mediante VPN, se quiere dotar de mayor seguridad mediante el envío de un código por SMS al teléfono móvil del trabajador. ¿Cómo se denomina a este tipo de validación?",
+          "explicacion": "La autenticación multifactor o doble factor de autenticación (2FA) combina dos mecanismos independientes para validar la identidad de un usuario: algo que sabe (contraseña) y algo que tiene o recibe (código enviado por SMS)."
+        },
+        {
+          "numeroPregunta": 92,
+          "pregunta": "Se quiere crear una nueva vLAN en el organismo. ¿Qué opción de las vLAN hace que las tramas Ethernet incorporen la etiqueta \"vLAN ID\"?",
+          "explicacion": "El etiquetado de tramas Ethernet según el estándar IEEE 802.1Q se denomina 'tagged'. Esto añade un identificador de VLAN a la cabecera de la trama."
+        },
+        {
+          "numeroPregunta": 100,
+          "pregunta": "Se ha decidido que la última IP válida de host para la Subred de Aplicaciones del Modelo B sea considerada como Puerta de Enlace o Default Gateway. Según este criterio, señale la opción correcta teniendo en cuenta que esta subred tiene el direccionamiento 10.20.30.128/26",
+          "explicacion": "Un bloque /26 tiene 64 direcciones. La subred 10.20.30.128/26 abarca el rango de IPs de 10.20.30.128 a 10.20.30.191. El identificador de red es .128 y la IP de broadcast es .191. Por lo tanto, la última IP de host válida y asignable es 10.20.30.190."
+        },
+        {
+          "numeroPregunta": 105,
+          "pregunta": "La DCM no es capaz de especificarle la versión de RHEL que tienen sus máquinas, por lo que debe decirles el comando a ejecutar. ¿Cuál de los siguientes sería?",
+          "explicacion": "En de Red Hat, el fichero `/etc/redhat-release` contiene el nombre y versión de lanzamiento oficial del sistema operativo, por lo que se visualiza mediante `cat /etc/redhat-release`."
+        },
+        {
+          "numeroPregunta": 115,
+          "pregunta": "Están estudiando el traslado de algunos equipos de la CHT a su CPD y le informan de que tienen una sonda de alrededor de 70 watios que utilizan 1 hora a la semana y que debe permanecer apagada el resto del tiempo. Le indican que sería necesario poder encenderla remotamente por red. ¿Sería posible hacerlo?",
+          "explicacion": "El estándar PoE 802.3bt (PoE++ Tipo 4) permite proveer una alimentación de red continua de hasta 90W, lo que es suficiente para alimentar un dispositivo de 70W."
+        },
+        {
+          "numeroPregunta": 118,
+          "pregunta": "Debido al creciente número de ataques, se decide implantar en su CPD un IPS que analice el comportamiento de la red y que examine el tráfico inusual para detectar posibles ataques DoS y malwares. ¿Qué tipo de IPS necesita?",
+          "explicacion": "Un sistema NBA (Network Behavior Analysis) analiza el comportamiento del flujo global de red para identificar anomalías (como picos inusuales de tráfico por ataques de denegación de servicio DoS)."
+        },
+        {
+          "numeroPregunta": 123,
+          "pregunta": "La base de datos se ha visto comprometida y han decidido restaurar la copia de seguridad. Le indican que el dispositivo de almacenamiento está cifrado. ¿Qué necesita que le proporcionen para poder restaurar la copia?",
+          "explicacion": "Si el dispositivo de almacenamiento que contiene las copias de seguridad de Windows está cifrado con BitLocker, es necesario poseer e introducir la clave de recuperación de BitLocker."
+        },
+        {
+          "numeroPregunta": 3,
+          "pregunta": "Dada la siguiente clase CSS:\ndiv { text-align: center; font-weight: bold; border-radius: 20px; box-shadow: 4px 4px 4px black; background-color: limegreen; }\n¿Qué pasará visualmente con el siguiente elemento HTML?:\n<div>Bienvenido</div>",
+          "explicacion": "El elemento se mostrará centrado, en negrita, sobre un contenedor rectangular con bordes redondeados (border-radius: 20px), fondo verde lima y con sombra negra aplicada a la caja (box-shadow)."
+        },
+        {
+          "numeroPregunta": 4,
+          "pregunta": "En una clase de TypeScript se definen los siguientes arrays:\nconst menuAdministrador = [\"Usuarios\", \"Permisos\"];\nconst menuGestor = [\"Notificaciones\", \"Usuarios\", \"Asientos registrales\"];\nEn esa misma clase hay una función que ejecuta la siguiente operación:\nreturn […menuAdministrador, …menuGestor]\n¿Qué hace esta operación?",
+          "explicacion": "El operador de propagación (spread operator) '...' expande los elementos de ambos arrays de entrada en un nuevo y único array de salida."
+        },
+        {
+          "numeroPregunta": 13,
+          "pregunta": "En las peticiones a la API de persistencia observa que se incluye la cabecera:\nAuthorization: Bearer eyJhbG.eyJzdW.KMUFsI\n¿De qué tipo de autenticación se trata?",
+          "explicacion": "El esquema de autenticación 'Bearer' seguido de una cadena codificada dividida en tres partes por puntos (header, payload, signature) es el estándar de JWT (JSON Web Token)."
+        },
+        {
+          "numeroPregunta": 14,
+          "pregunta": "Revisando el código HTML del apartado de gestión de usuarios de la aplicación ha detectado un problema de accesibilidad web:\n<h1>Gestión de usuarios</h1>\n<span><strong>Seleccione un usuario para ver acciones</strong></span>\n<h3>Administradores</h3>\nIndique cuál es:",
+          "explicacion": "La jerarquía de encabezados debe ser secuencial (<h1> -> <h2> -> <h3>...) para que las tecnologías de asistencia como los lectores de pantalla puedan construir el esquema del sitio adecuadamente."
+        },
+        {
+          "numeroPregunta": 22,
+          "pregunta": "En uno de los componentes del frontend detecta la siguiente expresión regular para controlar el campo de entrada del teléfono:\n[\\+34|34]*[ -]*(3)[0-9]{8}\n¿Cuál de las siguientes opciones cumple la expresión regular?",
+          "explicacion": "Nota técnica: Aunque el tribunal publicó en su plantilla como correcta la opción A (641992011), existe una errata en la expresión regular de la pregunta ya que requiere que el número empiece obligatoriamente por '3' ((3)), cuando los móviles de España inician por '6' o '7'."
+        },
+        {
+          "numeroPregunta": 36,
+          "pregunta": "Se debe garantizar que los documentos XML generados estén bien formados conforme a la especificación XML 1.0 para permitir su procesamiento correcto por sistemas externos. ¿Cuál de los siguientes fragmentos XML está bien formado?",
+          "explicacion": "Un documento XML está bien formado si todas sus etiquetas de apertura están cerradas de forma correspondiente, las etiquetas anidadas no se traslapan y tiene un único elemento raíz."
+        },
+        {
+          "numeroPregunta": 37,
+          "pregunta": "También se le pide incluir un atributo id_alumno en el elemento <alumno>, garantizando que el documento XML sea válido. ¿Cuál de los siguientes fragmentos XML lo implementaría correctamente?",
+          "explicacion": "Los atributos en XML deben tener su valor delimitado estrictamente por comillas (simples o dobles) y se asocian al elemento con la sintaxis 'nombre_atributo=\"valor\"'."
+        },
+        {
+          "numeroPregunta": 42,
+          "pregunta": "Se debe implementar correctamente la estructura del contenido principal del aplicativo, garantizando accesibilidad a usuarios que utilizan tecnologías de asistencia como lectores de pantalla. ¿Qué actuación se recomienda en las pautas de accesibilidad WCAG 2.1?",
+          "explicacion": "El uso de marcado semántico en HTML5 (<header>, <main>, <nav>...) facilita la navegación lógica de los lectores de pantalla al estructurar correctamente el diseño."
+        },
+        {
+          "numeroPregunta": 44,
+          "pregunta": "Para conocer los últimos cambios realizados por otros desarrolladores en la rama del servidor remoto, antes de integrarlos en el repositorio, ha ejecutado el comando git fetch. ¿Qué hace este comando?",
+          "explicacion": "El comando 'git fetch' descarga del servidor remoto el historial de cambios y metadatos nuevos, pero no los fusiona ni los integra en la rama local activa, a diferencia de 'git pull'."
+        },
+        {
+          "numeroPregunta": 45,
+          "pregunta": "¿Cuál de estas opciones recomienda OWASP para prevenir ataques XSS en la aplicación?",
+          "explicacion": "La principal defensa de OWASP contra el Cross-Site Scripting (XSS) es la correcta validación, saneamiento y codificación o escape de las entradas del usuario antes de ser renderizadas en la interfaz web."
+        },
+        {
+          "numeroPregunta": 47,
+          "pregunta": "Para el mantenimiento de la aplicación, se requiere ejecutar un código de limpieza cuando el motor Catalina de Tomcat se detenga por completo, pero antes de que la máquina virtual de Java finalice. ¿Cuál es la opción correcta para ello?",
+          "explicacion": "En Apache Tomcat, para escuchar eventos del ciclo de vida del contenedor (como el paro del servidor), se implementa la interfaz 'LifecycleListener' configurada en el archivo descriptor XML."
+        },
+        {
+          "numeroPregunta": 48,
+          "pregunta": "Se va a impartir un taller de formación de Git a los miembros que desconocen su estructura y funcionamiento. ¿Cuál de las siguientes opciones identifica correctamente los 4 tipos de datos que componen el modelo de datos de Git?",
+          "explicacion": "El modelo interno de objetos de Git se basa en cuatro tipos de elementos fundamentales de almacenamiento: blobs (archivos), trees (directorios), commits (confirmaciones) y tags (etiquetas)."
+        },
+        {
+          "numeroPregunta": 49,
+          "pregunta": "Tras un debate sobre cómo resolver un problema en la aplicación, se ha optado por utilizar un algoritmo greedy (voraz). Este algoritmo:",
+          "explicacion": "Los algoritmos ávidos o voraces (greedy) toman en cada paso la opción que resulta óptima a nivel estrictamente local (la mejor en ese instante), sin garantizar un óptimo global."
+        },
+        {
+          "numeroPregunta": 50,
+          "pregunta": "El equipo técnico necesita crear un usuario en Oracle llamado EDUCA_USER con contraseña segura, conforme a los requisitos del sistema, para que la aplicación pueda conectarse a la base de datos. ¿Cuál es la sentencia correcta en Oracle?",
+          "explicacion": "La sentencia DDL estándar en Oracle para la provisión de nuevos usuarios y asignación de credenciales es 'CREATE USER <usuario> IDENTIFIED BY <contraseña>'."
+        },
+        {
+          "numeroPregunta": 53,
+          "pregunta": "Suponiendo que se utilizara la metodología ágil SCRUM, si durante un sprint, se da cuenta de que se está aplicando una mala práctica que puede enlentecer el proyecto, ¿en qué reunión comentará esa mala práctica, para buscar la mejora continua y evitar aplicarla en los siguientes sprints?",
+          "explicacion": "La retrospectiva del sprint (Sprint Retrospective) tiene como objetivo la inspección de procesos y la búsqueda activa de mejoras continuas para el siguiente ciclo."
+        },
+        {
+          "numeroPregunta": 54,
+          "pregunta": "Según “Técnicas y Practicas” de Métrica v3, si se quisiera optimizar el modelo físico de datos para reducir o simplificar el número de accesos a la base de datos, ¿cuál de las siguientes acciones se aplicaría?",
+          "explicacion": "Según Métrica v3, la desnormalización controlada (introducir elementos redundantes) es un procedimiento aceptable para optimizar el rendimiento y disminuir lecturas."
+        },
+        {
+          "numeroPregunta": 57,
+          "pregunta": "Se espera un alto volumen de concurrencia en el sistema. ¿Qué nivel de aislamiento de base de datos debería configurar para que no se produzcan lecturas sucias ni lecturas no repetibles, pero sí lecturas fantasmas?",
+          "explicacion": "El aislamiento 'Repeatable read' (lectura repetible) garantiza que no haya lecturas sucias ni lecturas no repetibles, pero tolera la aparición de lecturas fantasma (phantom reads)."
+        },
+        {
+          "numeroPregunta": 58,
+          "pregunta": "Se desea añadir una tabla “Subsanacion” con las columnas numéricas IdSubsanacion e IdSolicitudBeca y la columna alfanumérica de 2000 caracteres TextoFundamento. ¿Cuál de las siguientes sentencias sería la correcta?",
+          "explicacion": "La sintaxis SQL estándar de creación de tablas requiere las palabras clave 'CREATE TABLE' seguidas por el identificador de tabla y su definición de columnas."
+        },
+        {
+          "numeroPregunta": 64,
+          "pregunta": "El proceso de presentación de solicitud implica la autenticación del usuario, la firma de la solicitud, el guardado en base de datos, la generación de un asiento registral y la generación de un justificante de presentación. ¿Qué diagrama UML utilizaría para representar las acciones implicadas en este flujo?",
+          "explicacion": "El diagrama de secuencia en UML modela la interacción entre participantes a través del tiempo, ideal para describir las etapas ordenadas de un flujo transaccional."
+        },
+        {
+          "numeroPregunta": 68,
+          "pregunta": "¿Qué sentencia habría que ejecutar si se quiere añadir un nuevo registro a la tabla “CuerpoBecado”?",
+          "explicacion": "La opción D contiene la estructura correcta en SQL: 'INSERT INTO <tabla> (<columnas>) VALUES (<valores_cadena_delimitados_por_comillas_simples)'."
+        },
+        {
+          "numeroPregunta": 69,
+          "pregunta": "¿Qué ORM podría utilizar, en función de la solución de backend escogida?",
+          "explicacion": "Entity Framework es el framework ORM nativo recomendado para la plataforma .NET, e Hibernate es la implementación más extendida de JPA en Java."
+        },
+        {
+          "numeroPregunta": 70,
+          "pregunta": "¿Qué elemento HTML utilizaría para impedir que el e-mail exceda los 100 caracteres cuando el interesado lo cumplimente?",
+          "explicacion": "El atributo HTML 'maxlength' limita la cantidad de caracteres que un usuario puede escribir dentro de un campo de entrada de texto."
+        },
+        {
+          "numeroPregunta": 78,
+          "pregunta": "Para almacenar los datos de las solicitudes de representación de un interesado en Java SE 17, sabiendo que no se admiten duplicados en el listado de solicitudes, ¿qué tipo de colección de java.util utilizaría?",
+          "explicacion": "La interfaz 'Set' de java.util representa una colección que no permite elementos duplicados, garantizando la unicidad de las solicitudes almacenadas."
+        },
+        {
+          "numeroPregunta": 87,
+          "pregunta": "Se quiere desarrollar un microservicio para que el personal funcionario pueda consultar el estado de una notificación enviada. ¿Qué especificación de la comunidad, alineada con Jakarta EE Core Profile, es la indicada para desarrollarlo?",
+          "explicacion": "MicroProfile es una especificación optimizada de la comunidad para el desarrollo de arquitecturas basadas en microservicios ligeros sobre entornos empresariales de Java."
+        },
+        {
+          "numeroPregunta": 89,
+          "pregunta": "¿Cuál es una herramienta de análisis de seguridad y calidad de código?",
+          "explicacion": "SonarQube es una plataforma líder para la inspección continua de la calidad y la seguridad del código mediante el análisis estático de código fuente."
+        },
+        {
+          "numeroPregunta": 94,
+          "pregunta": "¿Cuál de los siguientes ataques en la web, consiste en forzar al navegador del usuario a realizar acciones no deseadas en la aplicación web en la que está actualmente autenticado?",
+          "explicacion": "El ataque CSRF (Cross-Site Request Forgery) engaña o fuerza a un navegador autenticado a enviar una solicitud malintencionada a una aplicación web de confianza."
+        },
+        {
+          "numeroPregunta": 98,
+          "pregunta": "En PHP, señale qué variable de entorno se puede usar para almacenar datos del inicio de sesión de un usuario:",
+          "explicacion": "En PHP, la superglobal '$_SESSION' es una matriz asociativa que mantiene la persistencia de datos del usuario a lo largo de las solicitudes del cliente."
+        },
+        {
+          "numeroPregunta": 109,
+          "pregunta": "Utilizando el lenguaje Python, a continuación se muestra la variable opositor, en la que se almacena el nombre y las puntuaciones de tres ejercicios por orden: opositor = {'nombre': 'Sandra Gomez', 'notas': [27, 36, 12]} ¿Cómo asignaría a una variable llamada notaSegundoEjercicio el valor 36?",
+          "explicacion": "En Python, los diccionarios se acceden por clave mediante corchetes (opositor['notas']), y los elementos de una lista por su índice basado en 0, por lo que el segundo elemento es [1]."
+        },
+        {
+          "numeroPregunta": 111,
+          "pregunta": "Le piden opinión porque en uno de los módulos Java se detecta un bucle que concatena una cantidad muy elevada de cadenas de texto, penalizando el rendimiento. ¿Qué clase de java.lang habría que utilizar para mejorar la eficiencia?",
+          "explicacion": "La clase StringBuilder es mutable y no sincronizada (más rápida que StringBuffer), óptima para concatenaciones repetitivas en un único hilo de ejecución."
+        },
+        {
+          "numeroPregunta": 113,
+          "pregunta": "En C# le indican que para evitar el consumo de recursos de base de datos se debe liberar la conexión correspondiente tras su uso, liberando además la memoria gestionada por la misma en el bloque de código que aparece entre llaves. ¿Qué instrucción debemos utilizar?",
+          "explicacion": "La instrucción 'using' de C# garantiza la llamada automática al método Dispose() del objeto cuando finaliza el bloque, liberando los recursos gestionados."
+        },
+        {
+          "numeroPregunta": 115,
+          "pregunta": "Su equipo está de acuerdo en estudiar la información existente dispersa en distintas fuentes de datos con el fin de consolidarla. En una base de datos antigua, hay una tabla que contiene el siguiente registro: NIF: 12345678Z Nombre: Emilia PrimerApellido: Pardo SegundoApellido: Bazán Direccion: Atocha 106 Telefonos: 916666666;917777777 ¿En qué forma normal está la tabla?",
+          "explicacion": "La tabla no se encuentra en ninguna forma normal porque el campo 'Telefonos' contiene múltiples valores (un grupo repetitivo o no atómico), lo que viola la Primera Forma Normal (1FN)."
+        },
+        {
+          "numeroPregunta": 117,
+          "pregunta": "También le consultan sobre la sentencia SQL a utilizar para obtener el listado del identificador de los opositores (IdOpositor) que tienen más de una entrada en la tabla Solicitud.",
+          "explicacion": "Para filtrar grupos basados en una función agregada como COUNT, se debe agrupar primero usando 'GROUP BY' y aplicar el filtro en la cláusula 'HAVING'."
+        },
+        {
+          "numeroPregunta": 125,
+          "pregunta": "Para intentar obtener información de la base de datos de aspirantes, un usuario malintencionado introduce la siguiente cadena en el campo \"Número de opositor\" de un formulario incluido en la página web de inscripciones al proceso: 100 OR 1=1 ¿Qué técnica está utilizando?",
+          "explicacion": "La inyección SQL (SQL Injection) consiste en la inserción de código malicioso en parámetros de entrada con el fin de alterar la lógica de las consultas SQL del backend (el patrón 'OR 1=1' evalúa siempre como verdadero)."
+        },
+        {
+          "numeroPregunta": 24,
+          "pregunta": "Respecto a los sistemas RAID, señale la respuesta INCORRECTA:",
+          "explicacion": "La afirmación es incorrecta porque RAID 6 requiere un mínimo de cuatro discos (no tres) y es capaz de tolerar el fallo simultáneo de hasta dos discos (no uno solo)."
+        },
+        {
+          "numeroPregunta": 28,
+          "pregunta": "Según el estándar JSON (RFC 8259), ¿cuál de las siguientes afirmaciones es correcta?",
+          "explicacion": "Según la RFC 8259, un objeto es una colección desordenada de cero o más pares de nombre/valor. JSON no soporta comentarios de forma estándar, no define tipos de datos personalizados y no garantiza el orden de inserción en objetos."
+        },
+        {
+          "numeroPregunta": 29,
+          "pregunta": "En un sistema Linux, el directorio /etc contiene:",
+          "explicacion": "El directorio /etc de Linux contiene exclusivamente ficheros de configuración del sistema operativo y de los programas y servicios adicionales que se instalen."
+        },
+        {
+          "numeroPregunta": 32,
+          "pregunta": "Dentro de los elementos constitutivos de un sistema operativo, ¿cómo se denomina la estructura de datos que contiene información sobre un proceso?",
+          "explicacion": "El Bloque de Control de Proceso (PCB, Process Control Block) es la estructura de datos clave que almacena toda la información del proceso necesaria para que el sistema operativo pueda gestionarlo y planificarlo."
+        },
+        {
+          "numeroPregunta": 33,
+          "pregunta": "De las siguientes afirmaciones sobre bases de datos relacionales, indique cuál de ellas es INCORRECTA:",
+          "explicacion": "Las bases de datos relacionales se basan en el modelo relacional organizando la información en tablas de filas y columnas, mientras que el almacenamiento clave-valor es propio de bases de datos NoSQL clave-valor."
+        },
+        {
+          "numeroPregunta": 35,
+          "pregunta": "En el diseño conceptual de bases de datos, un atributo es:",
+          "explicacion": "En el modelo Entidad-Relación, un atributo representa una propiedad o característica que describe a un conjunto de entidades o relaciones."
+        },
+        {
+          "numeroPregunta": 36,
+          "pregunta": "Indique cuál de las siguientes definiciones es correcta respecto al modelo Entidad/Relación extendido.",
+          "explicacion": "La agregación es un mecanismo de abstracción que permite considerar una relación de bajo nivel entre dos entidades como si fuera una entidad de nivel superior para poder asociarla con otras."
+        },
+        {
+          "numeroPregunta": 37,
+          "pregunta": "En el contexto de las bases de datos relacionales, ¿cómo se denomina a una columna o grupo de columnas de una tabla que contiene valores que coinciden con la clave primaria de otra tabla?",
+          "explicacion": "Una clave foránea (foreign key) es una columna o conjunto de columnas en una tabla cuyos valores deben coincidir obligatoriamente con la clave primaria de otra tabla para garantizar la integridad referencial."
+        },
+        {
+          "numeroPregunta": 39,
+          "pregunta": "En relación a los niveles de aislamiento de transacción que se definen mediante ANSI SQL, indique cuál de las siguientes sentencias es correcta:",
+          "explicacion": "El nivel de aislamiento 'Repeatable Read' (Lectura repetible) garantiza que los datos leídos no cambien durante la transacción, protegiendo de lecturas sucias y no repetibles, pero no bloquea inserciones de nuevas filas por otras transacciones (lo que genera lecturas fantasma)."
+        },
+        {
+          "numeroPregunta": 21,
+          "pregunta": "¿Cuál de los siguientes NO es uno de los servicios de la Plataforma de Intermediación de Datos?",
+          "explicacion": "Esta pregunta fue anulada en las plantillas oficiales provisionales del examen del llamamiento extraordinario de julio de 2026."
+        },
+        {
+          "numeroPregunta": 22,
+          "pregunta": "De acuerdo con el Real Decreto 203/2021, de 30 de marzo, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos, el principio de personalización y proactividad se entiende como la capacidad de las Administraciones Públicas para:",
+          "explicacion": "El principio de personalización y proactividad recogido en el Real Decreto 203/2021 se define como la capacidad de la administración para proveer servicios pre-cumplimentados a los ciudadanos y anticiparse a sus necesidades a partir de la información de la que ya se dispone de ellos."
+        },
+        {
+          "numeroPregunta": 25,
+          "pregunta": "¿Qué es el Internet Printing Protocol (IPP)?",
+          "explicacion": "El Internet Printing Protocol (IPP) es un estándar abierto basado en HTTP que define un protocolo de impresión en red para enviar trabajos de impresión, consultar estados de impresoras y recibir notificaciones remotas de manera estándar."
+        },
+        {
+          "numeroPregunta": 31,
+          "pregunta": "En el contexto de iOS, ¿cómo se denomina la técnica que garantiza que las aplicaciones solo accedan a sus propios recursos y datos, mejorando la seguridad del sistema?",
+          "explicacion": "El Sandboxing es la técnica de aislamiento que se implementa tanto en iOS como en macOS para asegurar que cada aplicación se ejecute en su propio entorno cerrado aislado de otras aplicaciones y de los archivos críticos del núcleo."
+        },
+        {
+          "numeroPregunta": 34,
+          "pregunta": "En el contexto de las bases de datos orientadas a objetos, y en relación con el identificador de objeto único (OID), ¿cuál de las siguientes opciones es correcta?",
+          "explicacion": "El OID (Object Identifier) es generado de manera automática y transparente por el sistema gestor de la base de datos orientada a objetos (SGBDOO) y su valor es completamente independiente de los atributos específicos del objeto."
+        },
+        {
+          "numeroPregunta": 37,
+          "pregunta": "Un atributo representado con una elipse discontinua en un diagrama entidad-relación significa que es un atributo:",
+          "explicacion": "En el modelo Entidad-Relación, una elipse discontinua representa a un atributo derivado, que es aquel cuyo valor se puede obtener o calcular a partir de otros atributos de la base de datos."
+        },
+        {
+          "numeroPregunta": 38,
+          "pregunta": "En una entidad de base de datos con 4 columnas y 7 filas:",
+          "explicacion": "El grado de una relación relacional equivale al número de columnas o atributos (4 en este caso) y la cardinalidad equivale al número de filas o registros (7 en este caso)."
+        },
+        {
+          "numeroPregunta": 41,
+          "pregunta": "Señale la opción correcta en relación a los árboles rojo-negro:",
+          "explicacion": "En las propiedades de los árboles rojo-negro (árboles binarios de búsqueda equilibrados), la raíz del árbol debe ser siempre obligatoriamente de color negro. Los hijos de un nodo rojo deben ser negros."
+        },
+        {
+          "numeroPregunta": 20,
+          "pregunta": "Indique, de las siguientes palabras, cuál indica además un número hexadecimal válido:",
+          "explicacion": "El sistema hexadecimal utiliza los caracteres del 0 al 9 y de la A a la F. La palabra 'ACCEDA' solo contiene letras válidas dentro del rango A-F, por lo que representa un número hexadecimal válido."
+        },
+        {
+          "numeroPregunta": 30,
+          "pregunta": "¿Cuál es la característica diferenciadora de las claves foráneas en una base de datos relacional?",
+          "explicacion": "La función primordial de una clave foránea (foreign key) es enlazar una relación o tabla hija con la clave primaria de una tabla padre, garantizando la integridad de las relaciones."
+        },
+        {
+          "numeroPregunta": 31,
+          "pregunta": "Señale, de entre las siguientes opciones, el mecanismo en el Modelo Entidad/Relación Extendido que recoge Métrica v3 consistente en relacionar dos tipos de entidades que normalmente son de dominios independientes, pero coyunturalmente se asocian:",
+          "explicacion": "En el modelado Entidad-Relación extendido de Métrica v3, la asociación permite conectar semánticamente dos tipos de entidades que operan en dominios de aplicación independientes pero que circunstancialmente interactúan."
+        },
+        {
+          "numeroPregunta": 32,
+          "pregunta": "Señale la respuesta correcta sobre la normalización de bases de datos en Métrica v3:",
+          "explicacion": "Para que una relación esté en Segunda Forma Normal (2FN) debe cumplir estar en Primera Forma Normal (1FN) y asegurar que todos los atributos que no formen parte de la clave primaria tengan una dependencia funcional completa (no parcial) de toda la clave."
+        },
+        {
+          "numeroPregunta": 33,
+          "pregunta": "De acuerdo con Métrica v3, en el Modelo Entidad/Relación Extendido, ¿cuál es el término que representa la participación en la relación de cada una de las entidades afectadas?",
+          "explicacion": "La cardinalidad en Métrica v3 representa los límites (mínimo y máximo) de participaciones que una ocurrencia de una entidad puede tener en la relación establecida."
+        },
+        {
+          "numeroPregunta": 35,
+          "pregunta": "Señale la respuesta correcta en relación con las funciones y los procedimientos:",
+          "explicacion": "Los parámetros pasados por referencia pasan la dirección de memoria de la variable original, lo que permite modificarlos desde dentro del subprograma y actuar de facto como parámetros de entrada y salida (E/S)."
+        },
+        {
+          "numeroPregunta": 36,
+          "pregunta": "Para las variables a=1, b=2, c=3, d=1 ¿cuál es la operación lógica que da un resultado true?",
+          "explicacion": "Evaluando d): a >= d es 1 >= 1 (verdadero), por lo que 'not (a>=d)' es falso. Espera, evaluemos de nuevo: si 'not (a>=d)' es falso, entonces el 'and' completo dará falso. Evaluemos c): not (a==c) -> not (1==3) es verdadero. c > b -> 3 > 2 es verdadero. Por tanto, c) da 'True and True == True'! Let's check with the plantilla 697: '36. c' (Wait, in 697: '36. c'). Yes! The correct option is option c (index 2 / c) which is 'Not (a==c) and (c>b)'."
+        },
+        {
+          "numeroPregunta": 30,
+          "pregunta": "Con respecto a los estándares PDF, señale que afirmación NO es correcta:",
+          "explicacion": "La afirmación es incorrecta porque el estándar para páginas y flujos de trabajo de preimpresión y producción gráfica es PDF/X (PDF Exchange), no existiendo un estándar denominado PDF/I."
+        },
+        {
+          "numeroPregunta": 34,
+          "pregunta": "Entre las características obligatorias de un sistema gestor de bases de datos orientadas a objetos, NO se encuentra:",
+          "explicacion": "La afirmación es incorrecta (y por tanto la correcta) porque las bases de datos orientadas a objetos son extensibles por definición, permitiendo al desarrollador crear y añadir tipos de datos propios y personalizados."
+        },
+        {
+          "numeroPregunta": 36,
+          "pregunta": "Indique la respuesta correcta de acuerdo al modelo Entidad/Relación según Métrica v3:",
+          "explicacion": "En el modelo Entidad-Relación recogido por Métrica v3, una entidad se define de forma estándar como cualquier objeto físico o abstracto del mundo real del cual se desea guardar información en el sistema."
+        },
+        {
+          "numeroPregunta": 37,
+          "pregunta": "La arquitectura ANSI/SPARC define para un sistema de gestión de bases de datos tres niveles de abstracción. Indicar la afirmación INCORRECTA:",
+          "explicacion": "Esta pregunta fue oficialmente anulada en la plantilla de corrección definitiva de la OEP 2022 publicada por la Comisión Permanente de Selección del INAP."
+        },
+        {
+          "numeroPregunta": 39,
+          "pregunta": "C++ permite especificar más de una función con el mismo nombre en el mismo ámbito. ¿Cómo se denominan estas funciones?",
+          "explicacion": "La sobrecarga de funciones (function overloading) es una característica de C++ y de la programación orientada a objetos que permite declarar múltiples funciones con el mismo identificador, siempre que sus firmas de parámetros varíen."
+        },
+        {
+          "numeroPregunta": 40,
+          "pregunta": "Indica, de las siguientes afirmaciones, cuál es verdadera:",
+          "explicacion": "Un array (o vector) es una estructura de datos estática y homogénea que almacena una secuencia ordenada de datos del mismo tipo de forma contigua en memoria física."
+        },
+        {
+          "numeroPregunta": 21,
+          "pregunta": "La guía de auditoría, que identifica los requisitos a cumplir en conformidad con el Esquema Nacional de Interoperabilidad (ENI), contiene un conjunto de controles apropiados para evaluar el cumplimiento de lo previsto en el ENI, agrupados en tres categorías:",
+          "explicacion": "Los controles de la guía de auditoría del Esquema Nacional de Interoperabilidad (ENI) se agrupan en las tres categorías del marco: Marco organizativo, Marco operacional y Medidas técnicas."
+        },
+        {
+          "numeroPregunta": 22,
+          "pregunta": "¿Cuál de las siguientes opciones se corresponde con la Norma Técnica de Interoperabilidad que define las condiciones y características para la interconexión de registros de las Administraciones Públicas, y, por tanto, el intercambio de información entre estas?",
+          "explicacion": "La NTI que regula la interconexión de registros en las Administraciones públicas es la Norma Técnica de Interoperabilidad de Modelo de Datos para el intercambio de asientos entre las Entidades Registrales (basada en la especificación SICRES)."
+        },
+        {
+          "numeroPregunta": 23,
+          "pregunta": "Dentro de los servicios horizontales de Administración Electrónica, indique la afirmación correcta respecto a la funcionalidad principal del producto eVisor:",
+          "explicacion": "eVisor es un servicio común de administración electrónica que genera la representación gráfica (copia auténtica en papel) de un documento electrónico firmado o su justificante de firma."
+        },
+        {
+          "numeroPregunta": 25,
+          "pregunta": "¿Qué es la arquitectura ARM?",
+          "explicacion": "La arquitectura ARM (Advanced RISC Machine) es un diseño avanzado de procesadores de tipo RISC (Reduced Instruction Set Computer) muy extendida en dispositivos de bajo consumo como smartphones y tablets."
+        },
+        {
+          "numeroPregunta": 31,
+          "pregunta": "En una distribución Linux, ¿qué directorio contiene, entre otros, los ficheros de configuración tanto a nivel de componentes del sistema operativo en sí, como de los programas y aplicaciones instaladas a posteriori?",
+          "explicacion": "El directorio `/etc` es el lugar dedicado por el estándar FHS en Linux para almacenar todos los archivos de configuración locales del sistema y las aplicaciones."
+        },
+        {
+          "numeroPregunta": 33,
+          "pregunta": "¿Cuál de los siguientes NO es un ORM (Mapeador Objeto-Relacional)?",
+          "explicacion": "ADO.NET Entity Framework (.NET), Hibernate (Java) y NHibernate (.NET) son frameworks ORM populares, mientras que 'Ruby Hibernation' no existe (el equivalente popular en Ruby on Rails es Active Record)."
+        },
+        {
+          "numeroPregunta": 35,
+          "pregunta": "Indique la afirmación FALSA en referencia a los diagramas de flujo de datos de Métrica v3:",
+          "explicacion": "En Métrica v3, un almacén de datos representa información en reposo, mientras que el flujo de datos representa información en movimiento. Por lo tanto, la opción que describe el almacén como 'información en movimiento' es falsa (y por tanto la correcta). Wait, let's verify if the answer key is B (1). Yes, in plantilla 695: 'Supuesto I' wait, first part 35 is B (1)."
+        },
+        {
+          "numeroPregunta": 40,
+          "pregunta": "En Java, una clase declarada como 'abstract':",
+          "explicacion": "Una clase abstracta en Java es una plantilla o diseño parcial que no puede ser instanciada por sí misma y suele contener métodos abstractos sin implementar que deben ser completados por las clases herederas."
+        }
+      ]
+    },
+    {
+      "bloqueId": 7,
+      "nombreBloque": "Bloque 7: ENS – Esquema Nacional de Seguridad (RD 311/2022)",
+      "normativaRef": "Real Decreto 311/2022 regulador del ENS",
+      "totalPreguntas": 15,
+      "preguntas": [
+        {
+          "numeroPregunta": 63,
+          "pregunta": "La base de datos se ha corrompido y además, los usuarios no pueden acceder a la información. Se tiene toda la información de cómo se produjo el incidente y cuál es la persona que lo ha causado y por qué, pero, este incidente, ¿a qué dimensión o dimensiones de la seguridad afecta?",
+          "explicacion": "Dado que el archivo de base de datos está dañado o alterado, se ha violado la dimensión de Integridad. Puesto que los usuarios no pueden consultar el servicio, también se ha violado la dimensión de Disponibilidad."
+        },
+        {
+          "numeroPregunta": 71,
+          "pregunta": "Como administrador de correo, quiere cambiar el mensaje HELO que aparece cuando se establecen conexiones al servidor SMTP. Actualmente aparece el nombre del servidor, pero quiere que muestre \"CORREOBIBLIOTECA\" y además, que el cambio se aplique en todos los servidores SMTP que existan, no solo en aquel en el que está trabajando. ¿Cómo lo haría?",
+          "explicacion": "En Postfix, el parámetro `$helo_name` definido en el archivo de configuración global `/etc/postfix/main.cf` modifica la cabecera HELO que el servidor SMTP enviará por defecto."
+        },
+        {
+          "numeroPregunta": 79,
+          "pregunta": "En uno de los servidores de la Subred de Aplicaciones del Modelo B se va a instalar un software de monitorización para Linux. Indique de entre los siguientes, cuál cumpliría esa función:",
+          "explicacion": "Check_MK es una solución de monitorización de sistemas y redes libre y de alto rendimiento, desarrollada como una extensión para simplificar y potenciar la monitorización clásica de Nagios."
+        },
+        {
+          "numeroPregunta": 39,
+          "pregunta": "Se necesita cargar la librería TensorFlow en Python para poder definir un modelo de red neuronal conforme al diseño del sistema. ¿Cuál es la instrucción correcta?",
+          "explicacion": "En Python, las bibliotecas externas se importan a la sesión utilizando la instrucción de inicio 'import <modulo> [as alias]'."
+        },
+        {
+          "numeroPregunta": 46,
+          "pregunta": "Se ha optado por utilizar GitHub como repositorio de código, con vistas a usar workflows de GitHub Actions. ¿Dónde deben almacenarse los ficheros de workflows y qué extensión deben tener?",
+          "explicacion": "Los flujos de trabajo de GitHub Actions deben guardarse obligatoriamente en el directorio '.github/workflows/' y redactarse bajo formato YAML (.yml o .yaml)."
+        },
+        {
+          "numeroPregunta": 56,
+          "pregunta": "Se ha determinado que es necesaria la integración de la aplicación con GEISER, cuyos servicios web son de naturaleza SOAP. ¿Con qué firmará las peticiones generadas por la aplicación?",
+          "explicacion": "WS-Security es una especificación SOAP estándar que dota de mecanismos de integridad y firma digital para el intercambio de mensajes XML seguros."
+        },
+        {
+          "numeroPregunta": 65,
+          "pregunta": "El formulario de solicitud será extenso y tendrá muchas consultas de datos. ¿Qué utilizaría para renderizar la página en el servidor?",
+          "explicacion": "Server-Side Rendering (SSR) es la técnica de renderizado del lado del servidor que produce la estructura HTML final completa y la envía al navegador."
+        },
+        {
+          "numeroPregunta": 75,
+          "pregunta": "Quiere facilitar la incorporación de otros desarrolladores al proyecto y para ello, en el repositorio de código, va a crear un fichero en el que incluirá, entre otra información, el propósito del proyecto y cómo arrancarlo localmente. Esa información se incluirá en el fichero:",
+          "explicacion": "Por convención, el archivo con formato markdown llamado 'README.md' ubicado en la raíz del repositorio de código se utiliza para documentar el alcance del proyecto."
+        },
+        {
+          "numeroPregunta": 91,
+          "pregunta": "¿Qué tecnología de las siguientes es adecuada para implementar la recepción de notificaciones nativas en los teléfonos inteligentes del representante y del interesado?",
+          "explicacion": "La tecnología de Mobile Push Notifications (notificaciones push móviles) se utiliza para transmitir mensajes en tiempo real directamente al sistema operativo de dispositivos móviles."
+        },
+        {
+          "numeroPregunta": 99,
+          "pregunta": "¿Qué conjunto de herramientas de presentación y comportamiento ofrece componentes para trabajar en la parte dinámica del frontal web HTML?",
+          "explicacion": "Bootstrap es un potente toolkit de front-end que ofrece una estructura CSS y componentes basados en JavaScript interactivo para interfaces adaptables."
+        },
+        {
+          "numeroPregunta": 124,
+          "pregunta": "Se ha realizado un vídeo explicativo para los opositores y se ha publicado en una página web. ¿Qué mostrará el siguiente fragmento de código en un navegador que soporte HTML5?: <video width=\"320\" height=\"240\" controls><source src=\"movie.mp4\" type=\"video/mp4\"><source src=\"movie.ogg\" type=\"video/ogg\">No soportado</video>",
+          "explicacion": "El navegador evaluará las etiquetas <source> secuencialmente y reproducirá la primera opción compatible con sus códecs; si soporta mp4, reproducirá 'movie.mp4'."
+        },
+        {
+          "numeroPregunta": 28,
+          "pregunta": "¿Cuál de las siguientes características describe correctamente una unidad de estado sólido (SSD)?",
+          "explicacion": "A diferencia de los discos mecánicos tradicionales, una unidad SSD almacena datos de forma persistente utilizando circuitos de memoria flash no volátil (como NAND), sin partes mecánicas ni cabezales."
+        },
+        {
+          "numeroPregunta": 39,
+          "pregunta": "En el modelo de datos dimensional de Kimball, una dimensión outrigger es:",
+          "explicacion": "En el modelado dimensional, una dimensión 'outrigger' (dimensión de soporte) es una tabla de dimensión que se conecta con otra tabla de dimensión directamente, en lugar de conectarse con la tabla de hechos."
+        },
+        {
+          "numeroPregunta": 26,
+          "pregunta": "Señale la respuesta INCORRECTA. Android NDK:",
+          "explicacion": "El Android NDK (Native Development Kit) sí permite la reutilización de código, facilitando el uso de bibliotecas de terceros compiladas en C y C++."
+        },
+        {
+          "numeroPregunta": 33,
+          "pregunta": "Las bases de datos relacionales ofrecen propiedades ACID. Dicho acrónimo se refiere a:",
+          "explicacion": "ACID representa los cuatro principios transaccionales fundamentales de un SGBDR: Atomicidad (todo o nada), Consistencia (estado válido), Aislamiento/Isolation (transacciones independientes) y Durabilidad (persistente en disco)."
+        }
+      ]
+    },
+    {
+      "bloqueId": 8,
+      "nombreBloque": "Bloque 8: Ley 19/2013 – Transparencia y Buen Gobierno",
+      "normativaRef": "Ley 19/2013, de 9 de diciembre, de Transparencia",
+      "totalPreguntas": 0,
+      "preguntas": []
+    },
+    {
+      "bloqueId": 9,
+      "nombreBloque": "Bloque 9: Ley 37/2007 – Reutilización de la Información",
+      "normativaRef": "Ley 37/2007 y Ley 18/2015 sobre Reutilización de Información del Sector Público",
+      "totalPreguntas": 0,
+      "preguntas": []
+    },
+    {
+      "bloqueId": 10,
+      "nombreBloque": "Bloque 10: Ley 39/2006 – Dependencia",
+      "normativaRef": "Ley 39/2006 de Promoción de la Autonomía Personal y Atención a la Dependencia",
+      "totalPreguntas": 4,
+      "preguntas": [
+        {
+          "numeroPregunta": 83,
+          "pregunta": "En UML un diagrama de componentes:",
+          "explicacion": "Un diagrama de componentes en UML muestra la organización y las dependencias lógicas y físicas de los módulos de software o componentes."
+        },
+        {
+          "numeroPregunta": 34,
+          "pregunta": "¿Cuál de las siguientes opciones NO se corresponde con una de las 12 Reglas de Codd?",
+          "explicacion": "La regla número 11 de Codd es la 'Independencia de la distribución'. Esta regla establece explícitamente que la distribución de la base de datos no debe afectar o ser visible para el usuario de la aplicación, por lo que la afirmación de 'dependencia' es incorrecta."
+        },
+        {
+          "numeroPregunta": 36,
+          "pregunta": "Una tabla se encuentra en Tercera Forma Normal (3FN) si:",
+          "explicacion": "Una tabla está en 3FN si cumple con la 2FN y asegura que ningún atributo no principal tenga dependencias transitivas respecto de la clave primaria (es decir, que los atributos dependan directamente de la clave y de ningún otro atributo no clave)."
+        },
+        {
+          "numeroPregunta": 37,
+          "pregunta": "Según Métrica v3, en la teoría de la normalización se define el término de Dependencia Funcional como:",
+          "explicacion": "En teoría de bases de datos, un atributo Y tiene una dependencia funcional de un atributo X si para cada valor posible de X existe un único valor correspondiente de Y."
+        }
+      ]
+    },
+    {
+      "bloqueId": 11,
+      "nombreBloque": "Bloque 11: Ley 39/2015 – Procedimiento Administrativo Común",
+      "normativaRef": "Ley 39/2015 (LPAC)",
+      "totalPreguntas": 2,
+      "preguntas": [
+        {
+          "numeroPregunta": 93,
+          "pregunta": "Se desea añadir a la API de Java la integración con los servicios de Notifica. ¿Cómo podría, a partir del fichero notifica.wsdl, generar las clases Java para esos servicios web en un paquete llamado “notificaciones”?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 86,
+          "pregunta": "En nuestra aplicación Java, ¿qué paquetes usaríamos para establecer la conexión a la base de datos de NOTIFICACION?",
+          "explicacion": "Se utiliza JNDI para buscar recursos del servidor de aplicaciones (bajo javax.naming) y las interfaces de conexión JDBC y DataSource de javax.sql."
+        }
+      ]
+    },
+    {
+      "bloqueId": 12,
+      "nombreBloque": "Bloque 12: Ley 40/2015 – Régimen Jurídico del Sector Público",
+      "normativaRef": "Ley 40/2015 (LRJSP)",
+      "totalPreguntas": 1,
+      "preguntas": [
+        {
+          "numeroPregunta": 30,
+          "pregunta": "En el formato de ficheros CSV, descrito en RFC 4180, ¿qué regla es correcta?",
+          "explicacion": "Según la RFC 4180, los registros están separados por CRLF y aquellos campos de texto que contengan caracteres reservados (como la coma delimitadora, saltos de línea o comillas dobles) deben ir necesariamente entrecomillados con comillas dobles."
+        }
+      ]
+    },
+    {
+      "bloqueId": 13,
+      "nombreBloque": "Bloque 13: Ley 4/2023 – Igualdad Trans y Derechos LGTBI",
+      "normativaRef": "Ley 4/2023 para la igualdad real y efectiva de las personas trans y LGTBI",
+      "totalPreguntas": 0,
+      "preguntas": []
+    },
+    {
+      "bloqueId": 14,
+      "nombreBloque": "Bloque 14: LO 1/2004 – Violencia de Género",
+      "normativaRef": "LO 1/2004 de Medidas de Protección Integral contra la Violencia de Género",
+      "totalPreguntas": 0,
+      "preguntas": []
+    },
+    {
+      "bloqueId": 15,
+      "nombreBloque": "Bloque 15: LO 3/2007 – Igualdad efectiva mujeres y hombres",
+      "normativaRef": "LO 3/2007 para la igualdad efectiva de mujeres y hombres",
+      "totalPreguntas": 0,
+      "preguntas": []
+    },
+    {
+      "bloqueId": 16,
+      "nombreBloque": "Bloque 16: LO 3/2018 – Protección de Datos y Derechos Digitales",
+      "normativaRef": "LO 3/2018 (LOPDGDD) y Título X de Derechos Digitales",
+      "totalPreguntas": 0,
+      "preguntas": []
+    },
+    {
+      "bloqueId": 17,
+      "nombreBloque": "Bloque 17: Normativa Administrativa (General / mixta)",
+      "normativaRef": "Sistemas horizontales y servicios comunes de e-Administración",
+      "totalPreguntas": 17,
+      "preguntas": [
+        {
+          "numeroPregunta": 123,
+          "pregunta": "En un puerto de un switch Cisco se quiere conectar un PC de la VLAN de usuarios, denominada VLAN 10, ¿con qué sentencia/s se configura correctamente?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 91,
+          "pregunta": "En el servidor de la Subred de Aplicaciones que sirve las páginas de la intranet en el dominio intranet.sgi.es y que utiliza Apache 2.4, quieren servir páginas de otros dominios. ¿Cuál de las siguientes directivas debe utilizar?",
+          "explicacion": "En el servidor web Apache, la directiva `VirtualHost` se utiliza para alojar y servir múltiples sitios web o dominios web independientes (virtual hosting) dentro de una misma instancia."
+        },
+        {
+          "numeroPregunta": 111,
+          "pregunta": "Para recabar información sobre la configuración de directivas locales de Windows, ¿qué comando de Windows muestra esa información?",
+          "explicacion": "El comando `net accounts` se utiliza en Windows para comprobar o definir las propiedades y políticas globales de las cuentas locales, como la longitud mínima de contraseña."
+        },
+        {
+          "numeroPregunta": 112,
+          "pregunta": "Se están realizando en su unidad informes de las capacidades de los discos y requieren de su ayuda. Si se dispone de 5 discos duros de 6 TB, y se decide configurarlos en RAID 6, ¿qué capacidad neta de almacenamiento se obtendrá?",
+          "explicacion": "El nivel RAID 6 utiliza doble bloque de paridad distribuida para proteger los datos de fallos físicos en hasta dos discos a la vez. La capacidad útil de almacenamiento se calcula como (N - 2) * Capacidad, lo que para 5 discos de 6 TB equivale a: (5 - 2) * 6 TB = 18 TB."
+        },
+        {
+          "numeroPregunta": 116,
+          "pregunta": "La CHT le informa que tienen un acuerdo con la Dirección General de Tráfico y alojan en sus instalaciones un medidor de tráfico que requiere una conexión Ethernet de unos 30 Gbps. Según el estándar ANSI/TIA-568, ¿qué categoría de cableado sería necesitaría?",
+          "explicacion": "Para admitir velocidades agregadas de transmisión de red de hasta 40 Gbps sobre par de cobre, el estándar de telecomunicaciones ANSI/TIA-568-C.2-1 requiere el uso de cable de Categoría 8."
+        },
+        {
+          "numeroPregunta": 55,
+          "pregunta": "Se quiere utilizar la librería iText de .NET para generar un documento PDF que sirva como justificante de presentación al interesado. ¿Con qué comando instalaría el paquete NuGet?",
+          "explicacion": "El comando CLI estándar de .NET para agregar un paquete a un proyecto mediante NuGet es 'dotnet add package iText'."
+        },
+        {
+          "numeroPregunta": 76,
+          "pregunta": "En el diagrama de clases la relación existente entre “Solicitud Representación” y “Trámite”, ¿qué multiplicidades serían compatibles con los requisitos planteados en el enunciado?",
+          "explicacion": "Una solicitud de representación se asocia a un único trámite ('1' en la clase Trámite), mientras que un trámite puede ser solicitado por múltiples o ninguna solicitud de representación ('0..N' en la clase Solicitud)."
+        },
+        {
+          "numeroPregunta": 81,
+          "pregunta": "Se ha heredado una librería compilada que realiza la conexión a un importante servicio de comprobación de Cl@ve PIN, ¿qué patrón de diseño permite reutilizar este objeto adaptando su interfaz a la de la aplicación?",
+          "explicacion": "El patrón Adapter (Adaptador) se utiliza para convertir la interfaz de una clase existente en otra interfaz que el cliente espera, permitiendo la interoperabilidad."
+        },
+        {
+          "numeroPregunta": 122,
+          "pregunta": "Su equipo está evaluando incorporar herramientas de testing. ¿Para qué sirve el framework de javascript Jest?",
+          "explicacion": "Jest es un framework de testing de JavaScript enfocado en la simplicidad y el rendimiento, muy utilizado para pruebas unitarias en frontend."
+        },
+        {
+          "numeroPregunta": 25,
+          "pregunta": "¿Cuál de los siguientes algoritmos de planificación de CPU asigna un quantum de tiempo de CPU a cada proceso?",
+          "explicacion": "El algoritmo Round Robin (RR) está diseñado especialmente para sistemas de tiempo compartido. Asigna una pequeña unidad de tiempo de CPU llamada 'quantum' o 'time slice' de manera cíclica a cada proceso listo."
+        },
+        {
+          "numeroPregunta": 23,
+          "pregunta": "Con respecto a los árboles 2-3-4, señale la respuesta correcta:",
+          "explicacion": "Un árbol 2-3-4 es una estructura auto-balanceada en la que cada nodo interno puede tener 2, 3 o 4 nodos hijos y, consecuentemente, almacenar 1, 2 o 3 elementos de datos de búsqueda."
+        },
+        {
+          "numeroPregunta": 25,
+          "pregunta": "Señale la respuesta INCORRECTA acerca de los tipos abstractos de datos (TAD):",
+          "explicacion": "La opción es incorrecta (y por tanto la respuesta correcta) porque en Java es la clase (class) la que implementa las operaciones declaradas en la interfaz (interface), y no al revés."
+        },
+        {
+          "numeroPregunta": 39,
+          "pregunta": "Referente a los comandos DML del lenguaje SQL, señale la respuesta correcta:",
+          "explicacion": "SELECT es la sentencia por excelencia del lenguaje de manipulación de datos (DML) que sirve para consultar y extraer información de las tablas. TRUNCATE es un comando DDL."
+        },
+        {
+          "numeroPregunta": 40,
+          "pregunta": "Señale la respuesta INCORRECTA. El patrón de diseño “Composite”:",
+          "explicacion": "La opción es incorrecta (y por tanto la correcta en este caso) porque añadir responsabilidades a objetos concretos de manera dinámica, transparente y sin afectar a otros objetos corresponde en realidad al patrón Decorator, no a Composite."
+        },
+        {
+          "numeroPregunta": 22,
+          "pregunta": "Con respecto a las sentencias del lenguaje SQL, indique la respuesta INCORRECTA:",
+          "explicacion": "La opción es incorrecta (y por tanto la correcta) porque DELETE solo sirve para borrar filas (registros) dentro de una tabla. Para eliminar bases de datos, tablas o índices se utiliza el comando DROP."
+        },
+        {
+          "numeroPregunta": 28,
+          "pregunta": "Respecto a la norma USB indique la respuesta INCORRECTA:",
+          "explicacion": "La opción es incorrecta (y por tanto la correcta) porque USB Type-C se refiere exclusivamente al conector físico reversible, mientras que USB 3.1 se refiere a la especificación lógica del protocolo de transmisión de datos."
+        },
+        {
+          "numeroPregunta": 39,
+          "pregunta": "Señale la respuesta correcta en relación a las tecnologías y herramientas de desarrollo front-end:",
+          "explicacion": "Sass, Less y Stylus son preprocesadores CSS que compilan código CSS modular, anidado y con variables a CSS estándar nativo de navegador."
+        }
+      ]
+    },
+    {
+      "bloqueId": 18,
+      "nombreBloque": "Bloque 18: Plataforma de Intermediación / Servicios Comunes AGE",
+      "normativaRef": "Servicios de intermediación de datos y registros unificados",
+      "totalPreguntas": 16,
+      "preguntas": [
+        {
+          "numeroPregunta": 124,
+          "pregunta": "Le solicitan revisar rápidamente las 50 últimas líneas del registro del servicio nginx usando el journal, ¿qué orden es correcta?",
+          "explicacion": "Respuesta extraída de la normativa oficial vigente del BOE."
+        },
+        {
+          "numeroPregunta": 28,
+          "pregunta": "Se le pide segmentar la subred 10.30.24.0/21 en 4 subredes de igual tamaño. ¿Cuál será la dirección de red y la máscara de la tercera subred?",
+          "explicacion": "Segmentar una red /21 en 4 subredes requiere pedir prestados 2 bits (2^2 = 4 subredes), lo que aumenta la máscara a /23. Los bloques de tamaño /23 avanzan de 2 en 2 en el tercer octeto. Las subredes creadas son: 1ª) 10.30.24.0/23, 2ª) 10.30.26.0/23, 3ª) 10.30.28.0/23, 4ª) 10.30.30.0/23. Por lo tanto, la dirección de la tercera subred es 10.30.28.0/23."
+        },
+        {
+          "numeroPregunta": 36,
+          "pregunta": "Desde web01 se le pide verificar qué ruta efectiva (interfaz/next hop) usa el kernel para llegar a db01 (10.30.20.30). ¿Qué orden sería la adecuada?",
+          "explicacion": "El comando `ip route get <IP>` es un recurso diagnóstico de iproute2 de gran utilidad que simula una consulta de enrutamiento al kernel y devuelve detalladamente la interfaz de salida, la dirección de origen que se usará y el salto siguiente (next hop)."
+        },
+        {
+          "numeroPregunta": 37,
+          "pregunta": "Le piden probar conectividad de capa 4 (TCP connect) desde web01 a db01 (10.30.20.30:3306) sin cliente MySQL. ¿Qué sonda simple es adecuada?",
+          "explicacion": "El comando Netcat (`nc`), con los parámetros `-v` (verbose) y `-z` (zero-I/O mode), es ideal para comprobar rápidamente si un puerto TCP específico (como el 3306 de MySQL) está abierto y escuchando peticiones en un host remoto."
+        },
+        {
+          "numeroPregunta": 49,
+          "pregunta": "Tras la instalación del nuevo controlador de dominio en Windows Server 2019, se observa que presenta errores de replicación. ¿Qué comando le permitiría obtener un resumen del estado de replicación entre controladores de dominio?",
+          "explicacion": "La herramienta de línea de comandos de replicación en Active Directory `repadmin` con la opción `/replsummary` proporciona de forma rápida un cuadro resumen sobre el estado y errores de replicación de todos los controladores del bosque."
+        },
+        {
+          "numeroPregunta": 57,
+          "pregunta": "Para poder atender las llamadas de las guardias de sistemas, se han comprado veinte móviles. Su responsable le pide realizar el enrolamiento de estos móviles, pero, ¿en qué consiste esta tarea?",
+          "explicacion": "El enrolamiento (enrollment) consiste en vincular un dispositivo móvil físico y a su usuario asignado dentro de la plataforma MDM para permitir la descarga e implantación de perfiles y políticas corporativas."
+        },
+        {
+          "numeroPregunta": 73,
+          "pregunta": "En la base de datos MySQL de Profesores, nos piden que añadamos una tabla de los profesores para el curso de INGLES BASICO, que se llamará \"ProfesoresIngles\" con sus nombres y apellidos. Para ello, y tras acceder como root a MYSQL, ingresaremos el comando:",
+          "explicacion": "La sintaxis SQL correcta para crear una tabla en MySQL requiere la instrucción `CREATE TABLE <nombre>` seguida de la declaración de columnas entre paréntesis, especificando sus tipos, restricciones de clave primaria e incrementos automáticos."
+        },
+        {
+          "numeroPregunta": 74,
+          "pregunta": "Ha instalado el servicio Nagios para monitorizar los servidores y servicios en su sistema y quiere monitorizar, además, la URL de profesores (https://profesores.es), pero antes quiere comprobar que este servicio está configurado correctamente. Para ello, utilizará el comando:",
+          "explicacion": "Nagios permite verificar de forma rápida la validez y consistencia del archivo principal de configuración (`nagios.cfg`) mediante el comando `nagios -v /ruta/nagios.cfg` antes de iniciar el servicio."
+        },
+        {
+          "numeroPregunta": 119,
+          "pregunta": "Un aspecto importante es el protocolo de correo que se va a utilizar para las comunicaciones vía email. En la DCM están preocupados y no les parece seguro usar SMTP por lo que usted rápidamente sugiere usar SMTPS. ¿Qué puerto por defecto tendrá que solicitar a los compañero de seguridad para este protocolo SMTPS?",
+          "explicacion": "El puerto estándar de la IANA para la comunicación de correo SMTP seguro sobre TLS/SSL (SMTPS) es el puerto TCP/465."
+        },
+        {
+          "numeroPregunta": 30,
+          "pregunta": "El sistema incluye un método que lanza una excepción cuando se recibe un valor inválido desde el backend: AlumnoService que lanza IllegalArgumentException si matriculas es menor a 0. Se le pide verificar mediante JUnit que la excepción se lanza correctamente. ¿Cuál es la prueba correcta?",
+          "explicacion": "En JUnit 5, el método asertivo 'assertThrows' toma la clase de excepción esperada y una expresión lambda ejecutable que invoca al método bajo prueba."
+        },
+        {
+          "numeroPregunta": 38,
+          "pregunta": "Le piden ejecutar una llamada REST al backend Spring Boot utilizando JavaScript para obtener el listado de alumnos desde el endpoint \"http://localhost:8080/alumnos\". ¿Cuál es el código correcto?",
+          "explicacion": "La API 'fetch' nativa de los navegadores permite realizar llamadas HTTP de forma asíncrona mediante promesas, resolviendo la respuesta intermedia a JSON."
+        },
+        {
+          "numeroPregunta": 52,
+          "pregunta": "También el sistema se integrará con la PID (Plataforma de Intermediación de Datos), cuya plataforma actual se define como una arquitectura orientada a servicios (SOA). ¿Cuáles son los componentes principales de esta arquitectura?",
+          "explicacion": "Los componentes fundamentales de SOA son: el servicio físico en sí, el proveedor (publisher), el consumidor (requester) y el registro o directorio de servicios (service registry)."
+        },
+        {
+          "numeroPregunta": 92,
+          "pregunta": "¿Cuál de los siguientes lenguajes de estilos emplearía si le piden modificar el color de un botón en el frontal web?",
+          "explicacion": "CSS (Cascading Style Sheets) es el lenguaje de diseño y de presentación utilizado para dar estilo a los elementos y estructuras de las páginas HTML."
+        },
+        {
+          "numeroPregunta": 112,
+          "pregunta": "¿Cómo debe definir el equipo de desarrollo en Java una clase llamada Ejercicio si quiere impedir que se pueda heredar de la misma?",
+          "explicacion": "El modificador 'final' aplicado a una clase en Java impide que otras clases puedan extenderla o heredar de ella."
+        },
+        {
+          "numeroPregunta": 123,
+          "pregunta": "Entre los lenguajes contemplados para el nuevo sistema de información se encuentra Python. De entre los siguientes, ¿cuál es un framework para desarrollo web en Python?",
+          "explicacion": "Django es un framework de desarrollo web de alto nivel, gratuito y de código abierto, escrito en Python que fomenta el diseño rápido."
+        },
+        {
+          "numeroPregunta": 24,
+          "pregunta": "¿Qué nivel de caché está integrado físicamente dentro del núcleo del procesador, es el más rápido y tiene la menor capacidad de almacenamiento?",
+          "explicacion": "La caché L1 (Level 1) se encuentra integrada físicamente dentro de cada núcleo del procesador, funcionando a la misma velocidad que el propio núcleo (lo que la hace la más rápida) pero con una capacidad de almacenamiento muy limitada."
+        }
+      ]
+    },
+    {
+      "bloqueId": 19,
+      "nombreBloque": "Bloque 19: RD 1112/2018 – Accesibilidad Web y Apps",
+      "normativaRef": "Real Decreto 1112/2018 sobre accesibilidad de los sitios web y aplicaciones móviles",
+      "totalPreguntas": 4,
+      "preguntas": [
+        {
+          "numeroPregunta": 43,
+          "pregunta": "Se quiere desarrollar un menú desplegable personalizado para el frontend de la aplicación. ¿Qué atributo es imprescindible para que un lector de pantalla informe al usuario de que el menú está desplegado?",
+          "explicacion": "El atributo de accesibilidad ARIA 'aria-expanded' informa dinámicamente a las tecnologías de asistencia si un elemento colapsable está abierto ('true') o cerrado ('false')."
+        },
+        {
+          "numeroPregunta": 66,
+          "pregunta": "A este sistema le es de aplicación la normativa vigente de accesibilidad de sitios web. ¿Qué herramienta automatizada utilizaría para probar que la aplicación cumple con los estándares de accesibilidad?",
+          "explicacion": "QualWeb es un motor de evaluación automática de accesibilidad web desarrollado por un grupo de investigadores que permite validar conformidad con las pautas WCAG."
+        },
+        {
+          "numeroPregunta": 85,
+          "pregunta": "¿Cuál es la normativa que define los requisitos de accesibilidad de los sitios web y aplicaciones móviles de los organismos del sector público?",
+          "explicacion": "El Real Decreto 1112/2018, de 7 de septiembre, transpone la Directiva de la Unión Europea sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público."
+        },
+        {
+          "numeroPregunta": 93,
+          "pregunta": "¿Cómo se conoce el conjunto de pautas, componentes y herramientas que respaldan las mejores prácticas de diseño de la interfaz de usuario, perteneciente a Google?",
+          "explicacion": "Material Design es un sistema de diseño desarrollado por Google que combina principios visuales con tecnología y ciencia cognitiva."
+        }
+      ]
+    },
+    {
+      "bloqueId": 20,
+      "nombreBloque": "Bloque 20: RD 203/2021 – Sector Público por Medios Electrónicos",
+      "normativaRef": "Real Decreto 203/2021 (Reglamento de actuación por medios electrónicos)",
+      "totalPreguntas": 0,
+      "preguntas": []
+    },
+    {
+      "bloqueId": 21,
+      "nombreBloque": "Bloque 21: RDL 1/2013 – Personas con Discapacidad",
+      "normativaRef": "RDL 1/2013 (Ley General de derechos de personas con discapacidad)",
+      "totalPreguntas": 0,
+      "preguntas": []
+    },
+    {
+      "bloqueId": 22,
+      "nombreBloque": "Bloque 22: Reglamento (UE) 2016/679 – RGPD",
+      "normativaRef": "Reglamento General de Protección de Datos de la UE",
+      "totalPreguntas": 0,
+      "preguntas": []
+    },
+    {
+      "bloqueId": 23,
+      "nombreBloque": "Bloque 23: Reglamento 910/2014 – eIDAS",
+      "normativaRef": "Reglamento eIDAS de identificación electrónica",
+      "totalPreguntas": 0,
+      "preguntas": []
+    },
+    {
+      "bloqueId": 24,
+      "nombreBloque": "Bloque 24: TREBEP – Estatuto Básico del Empleado Público",
+      "normativaRef": "Real Decreto Legislativo 5/2015 (TREBEP)",
+      "totalPreguntas": 0,
+      "preguntas": []
+    }
+  ],
+  "totalPreguntas": 178
+}

@@ -15,6 +15,8 @@ import { CE } from './pages/CE/ce';
 import { VisorPdf } from './pages/visor-pdf/visor-pdf';
 import { Buscar } from './pages/buscar/buscar';
 import { Tecnologia } from './pages/tecnologia/tecnologia';
+import { Bloque3 } from './pages/bloque3/bloque3';
+import { Normativa169 } from './pages/normativa169/normativa169';
 
 // 🔒 GUARD DE SEGURIDAD (Simulado para el futuro Login)
 const authGuard: CanActivateFn = (route, state) => {
@@ -47,6 +49,8 @@ export const routes: Routes = [
   { path: 'desarrollo-a', component: DesarrolloA, canActivate: [authGuard] },
   { path: 'sistemas-b', component: SistemasB, canActivate: [authGuard] },
   { path: 'tecnologia', component: Tecnologia, canActivate: [authGuard] },
+  { path: 'bloque3', component: Bloque3, canActivate: [authGuard] },
+  { path: 'normativa169', component: Normativa169, canActivate: [authGuard] },
 
   { path: 'ce', component: CE, canActivate: [authGuard] },
 

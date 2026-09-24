@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
   <div class="container-fluid px-4">
     
+    <!-- Logo / Título principal -->
     <a class="navbar-brand fw-bold d-flex align-items-center gap-2" routerLink="/examen2026">
       🎯 Oposición 2026
     </a>
@@ -9,21 +10,58 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav align-items-lg-center gap-1 my-2 my-lg-0 me-3">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      
+      <!-- GRUPO IZQUIERDA: Dos menús separados -->
+      <ul class="navbar-nav align-items-lg-center gap-1 my-2 my-lg-0">
+        
+        <!-- 1. Desplegable exclusivo de EXÁMENES -->
+        <li class="nav-item dropdown mx-lg-1" style="position: relative;">
+          <a class="nav-link dropdown-toggle d-flex align-items-center gap-1 px-2" (click)="toggleExamenes()" role="button" style="cursor: pointer;">
+            📅 Exámenes
+          </a>
 
-        @for (item of examenes; track item.route) {
-          <li class="nav-item">
-            <a class="nav-link px-2" [routerLink]="item.route" routerLinkActive="active fw-bold text-white">
-              {{ item.label }}
-            </a>
-          </li>
-        }
+          @if (isExamenesOpen) {
+            <ul class="dropdown-menu show shadow-lg border-0 rounded-3 mt-lg-2" style="position: absolute; display: block; left: 0; min-width: 200px; z-index: 1050;">
+              @for (item of examenesAnios; track item.route) {
+                <li>
+                  <a class="dropdown-item py-2" [routerLink]="item.route" (click)="isExamenesOpen = false" routerLinkActive="active">
+                    {{ item.label }}
+                  </a>
+                </li>
+              }
+            </ul>
+          }
+        </li>
 
+        <!-- 2. Desplegable exclusivo de TEMARIOS (Bloques) -->
+        <li class="nav-item dropdown mx-lg-1" style="position: relative;">
+          <a class="nav-link dropdown-toggle d-flex align-items-center gap-1 px-2" (click)="toggleTemarios()" role="button" style="cursor: pointer;">
+            📚 Temarios
+          </a>
+
+          @if (isTemariosOpen) {
+            <ul class="dropdown-menu show shadow-lg border-0 rounded-3 mt-lg-2" style="position: absolute; display: block; left: 0; min-width: 200px; z-index: 1050;">
+              @for (item of temariosBloques; track item.route) {
+                <li>
+                  <a class="dropdown-item py-2" [routerLink]="item.route" (click)="isTemariosOpen = false" routerLinkActive="active">
+                    {{ item.label }}
+                  </a>
+                </li>
+              }
+            </ul>
+          }
+        </li>
+
+      </ul>
+
+      <!-- GRUPO DERECHA: PDFs, C.E. y Buscar -->
+      <ul class="navbar-nav align-items-lg-center gap-1 my-2 my-lg-0 ms-auto">
+
+        <!-- Menú desplegable de PDFs -->
         <li class="nav-item dropdown mx-lg-1">
-          <!-- Se elimina href="#" y se sustituye por role="button" y style="cursor: pointer" -->
           <a class="nav-link dropdown-toggle d-flex align-items-center gap-1 px-2" id="pdfDropdown" role="button" style="cursor: pointer;" data-bs-toggle="dropdown" aria-expanded="false">
-            📚 PDFs
+            📄 PDFs
           </a>
           <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-3 mt-lg-2" aria-labelledby="pdfDropdown">
             @for (pdf of pdfs; track pdf.id; let last = $last) {
@@ -45,24 +83,22 @@
           </ul>
         </li>
 
+        <!-- Botón C.E. -->
         <li class="nav-item ms-lg-1">
           <a class="btn btn-warning btn-sm fw-bold px-3 rounded-pill shadow-sm" routerLink="/ce" routerLinkActive="bg-white text-dark">
             ⚖️ C.E.
           </a>
         </li>
 
+        <!-- Botón Buscar -->
+        <li class="nav-item ms-lg-2">
+          <a class="btn btn-outline-light btn-sm fw-bold px-3 rounded-pill" routerLink="/buscar" routerLinkActive="active bg-white text-primary">
+            🔍 Buscar
+          </a>
+        </li>
+
       </ul>
 
-      <li class="nav-item ms-lg-2 style-none" style="list-style: none;">
-        <a 
-          class="btn btn-outline-light btn-sm fw-bold px-3 rounded-pill" 
-          routerLink="/buscar" 
-          routerLinkActive="active bg-white text-primary">
-          🔍 Buscar
-        </a>
-      </li>
-
     </div>
-
   </div>
 </nav>
