@@ -23,6 +23,7 @@ export class ExamenService {
     'tecnologia': 'assets/data/tecnologia.json',
     'bloque3': 'assets/data/examen-tai-bloque3.json',
     'normativa169': 'assets/data/normativa_tai-v2.json',
+    'banco-fichas-boe': 'assets/data/banco_fichas_boe.json',
   };
 
   // 🗄️ Caché para exámenes individuales y para la búsqueda general

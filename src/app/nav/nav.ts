@@ -44,6 +44,7 @@ export class Nav {
     { label: 'Tecnología', route: '/tecnologia' },
     { label: 'Bloque3', route: '/bloque3' },
     { label: 'Normativa', route: '/normativa169' },
+    {label: 'Administración',route:'/banco-fichas-boe'},
   ];
 
   pdfs = [

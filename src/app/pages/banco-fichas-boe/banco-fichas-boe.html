@@ -1,0 +1,56 @@
+<div class="container mt-4">
+  <!-- Indicador de carga -->
+  @if (cargando()) {
+    <div class="text-center my-5">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Cargando...</span>
+      </div>
+      <p class="mt-2">Cargando contenido...</p>
+    </div>
+  } @else {
+    <!-- Título principal -->
+    <div class="mb-4 text-center">
+      <h1 class="h3 fw-bold">{{ tituloNormativa() }}</h1>
+      <hr>
+    </div>
+
+    <!-- Listado de bloques o apartados -->
+    @for (bloque of bloques(); track bloque.bloqueId) {
+      <div class="card mb-4 shadow-sm">
+        <div class="card-header bg-secondary text-white">
+          <h5 class="mb-0">{{ bloque.nombreBloque }}</h5>
+          @if (bloque.normativaRef) {
+            <small class="text-light"><em>Ref: {{ bloque.normativaRef }}</em></small>
+          }
+        </div>
+        <div class="card-body">
+          <!-- Preguntas del bloque -->
+          @for (preg of bloque.preguntas; track preg.numeroPregunta) {
+            <div class="mb-3 p-3 border-bottom">
+              <p class="fw-bold fs-5">
+                <span class="badge bg-primary me-2">Pregunta {{ preg.numeroPregunta }}</span>
+                {{ preg.pregunta }}
+              </p>
+
+              <!-- Bloque de Respuesta Correcta -->
+              @if (preg.respuestaCorrecta) {
+                <div class="alert alert-success border mt-2 py-2 mb-2 fs-5">
+                  <strong>Respuesta:</strong> {{ preg.respuestaCorrecta }}
+                </div>
+              }
+
+              <!-- Bloque de Explicación -->
+              @if (preg.explicacion) {
+                <div class="alert alert-light border mt-1 py-2 fs-6">
+                  <strong>Explicación:</strong> {{ preg.explicacion }}
+                </div>
+              }
+            </div>
+          } @empty {
+            <p class="text-muted mb-0">No hay preguntas registradas en este apartado actualmente.</p>
+          }
+        </div>
+      </div>
+    }
+  }
+</div>
