@@ -79,7 +79,7 @@
         "dotnet add Microsoft.EntityFrameworkCore",
         "dotnet package Microsoft.EntityFrameworkCore"
       ],
-      "respuestaCorrecta": 3,
+      "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "El comando CLI de .NET para añadir paquetes NuGet al proyecto es 'dotnet add package <nombre_del_paquete>'."
     },
@@ -879,7 +879,7 @@
         "dotnet add iText.",
         "dotnet install iText."
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "El comando CLI estándar de .NET para agregar un paquete a un proyecto mediante NuGet es 'dotnet add package iText'."
     },
