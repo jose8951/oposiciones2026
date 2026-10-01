@@ -415,7 +415,7 @@
         "ALTER TABLE ALUMNO MODIFY dni PRIMARY KEY;",
         "CREATE VIEW v_alumno AS SELECT DISTINCT dni FROM ALUMNO;"
       ],
-      "respuestaCorrecta": 3,
+      "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "La sentencia 'ALTER TABLE ... ADD CONSTRAINT ... UNIQUE' crea una restricción de unicidad que garantiza que no haya valores duplicados en la columna seleccionada, creando además un índice único para optimizar la búsqueda."
     },
@@ -2303,7 +2303,7 @@
         "docker container ls",
         "docker list -a"
       ],
-      "respuestaCorrecta": 3,
+      "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "El comando `docker ps -a` (o list con parámetro todo) permite enumerar todos los contenedores existentes en el sistema, mostrando tanto los que están en ejecución como los detenidos."
     },
@@ -2511,7 +2511,7 @@
         "docker interrupt 3f7",
         "docker block 3f7"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "El comando `docker kill` envía una señal SIGKILL inmediata para forzar la detención de un contenedor problemático."
     },
@@ -2527,7 +2527,7 @@
         "docker eliminate 3f7",
         "docker excise 3f7"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "Para eliminar físicamente uno o más contenedores del sistema que previamente han sido detenidos, se utiliza el comando `docker rm <ID_Contenedor>`."
     },
@@ -2543,7 +2543,7 @@
         "docker images ImagenA",
         "docker pull ImagenA"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "El comando para descargar o sincronizar imágenes de contenedores desde un registro remoto (como Docker Hub) hacia el almacenamiento local es `docker pull <Nombre_Imagen>`."
     },

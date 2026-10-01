@@ -17,11 +17,11 @@ export class Bloque3 implements OnInit {
   cargando = signal<boolean>(false);
   nombreExamen = signal<string>('');
 
-  respuestas = new Map<number, number>();
+  // Usamos el índice de la pregunta (posición en el array) como clave del Map
+  respuestas = signal<Map<number, number>>(new Map());
 
   ngOnInit(): void {
     this.cargando.set(true);
-    // Pedimos el bloque 3 al servicio
     this.examenService.obtenerExamen('bloque3').subscribe({
       next: (resultado) => {
         this.nombreExamen.set(resultado.examen);
@@ -35,13 +35,18 @@ export class Bloque3 implements OnInit {
     });
   }
 
-  responder(globalId: number, indice: number) {
-    this.respuestas.set(globalId, indice);
+  // Guardamos la respuesta usando el índice de la pregunta en la lista
+  responder(preguntaIndex: number, indiceOpcion: number) {
+    const nuevoMapa = new Map(this.respuestas());
+    nuevoMapa.set(preguntaIndex, indiceOpcion);
+    this.respuestas.set(nuevoMapa);
   }
 
-  esCorrecta(globalId: number): boolean | null {
-    const pregunta = this.preguntas().find((p) => p.globalId === globalId);
-    if (!pregunta || !this.respuestas.has(globalId)) return null;
-    return this.respuestas.get(globalId) === pregunta.respuestaCorrecta;
+  // Comprobamos el acierto basándonos en el índice de la pregunta
+  esCorrecta(preguntaIndex: number): boolean | null {
+    const pregunta = this.preguntas()[preguntaIndex];
+    const mapaActual = this.respuestas();
+    if (!pregunta || !mapaActual.has(preguntaIndex)) return null;
+    return mapaActual.get(preguntaIndex) === pregunta.respuestaCorrecta;
   }
 }

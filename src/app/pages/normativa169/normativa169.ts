@@ -14,14 +14,16 @@ export class Normativa169 implements OnInit {
 
   cargando = signal<boolean>(false);
   tituloNormativa = signal<string>('');
-  bloques = signal<any[]>([]);
+  descripcion = signal<string>('');
+  grupos = signal<any[]>([]);
 
   ngOnInit(): void {
     this.cargando.set(true);
     this.examenService.obtenerExamen('normativa169').subscribe({
       next: (resultado: any) => {
         this.tituloNormativa.set(resultado.titulo);
-        this.bloques.set(resultado.bloques);
+        this.descripcion.set(resultado.descripcion);
+        this.grupos.set(resultado.grupos || []);
         this.cargando.set(false);
       },
       error: (err) => {

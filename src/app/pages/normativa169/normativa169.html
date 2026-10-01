@@ -1,37 +1,62 @@
 <div class="container mt-4">
   @if (cargando()) {
-  <div class="text-center my-5">
-    <div class="spinner-border text-primary" role="status">
-      <span class="visually-hidden">Cargando...</span>
-    </div>
-  </div>
-  } @else {
-  <h2 class="mb-4 text-primary">{{ tituloNormativa() }}</h2>
-
-  @for (bloque of bloques(); track bloque.bloqueId) { @if (bloque.preguntas &&
-  bloque.preguntas.length > 0) {
-  <div class="card mb-4 shadow-sm border-primary">
-    <div class="card-header bg-primary text-white">
-      <h5 class="mb-0">{{ bloque.nombreBloque }}</h5>
-      <small>{{ bloque.normativaRef }}</small>
-    </div>
-    <div class="card-body">
-      @for (p of bloque.preguntas; track p.numeroPregunta) {
-      <div class="mb-4">
-        <!-- Letra más legible e intermedia con fs-5 -->
-        <p class="fw-bold text-dark fs-5">
-         <strong style="color: #3605e7cc; font-weight: 800">Pregunta:</strong>   {{ p.numeroPregunta }}: {{ p.pregunta }}
-        </p>
-
-        <!-- Respuesta con un verde fuerte y brillante -->
-        <p class="mt-2 fs-5" style="color: #198754; font-weight: 700">
-          <strong style="color: #ee0404; font-weight: 700">Respuesta:</strong> {{ p.explicacion }}
-        </p>
-
-       <hr style="border-top: 1px solid #6c757d; opacity: 1;" class="my-4" />
+    <div class="text-center my-5">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Cargando...</span>
       </div>
-      }
     </div>
-  </div>
-  } } }
+  } @else {
+    <h2 class="mb-2 text-primary">{{ tituloNormativa() }}</h2>
+    @if (descripcion()) {
+      <p class="text-muted mb-4">{{ descripcion() }}</p>
+    }
+
+    <!-- Recorremos los grupos del JSON -->
+    @for (grupo of grupos(); track grupo.idGrupo) { 
+      @if (grupo.preguntas && grupo.preguntas.length > 0) {
+        <div class="card mb-4 shadow-sm border-primary">
+          <div class="card-header bg-primary text-white">
+            <h5 class="mb-0">{{ grupo.nombreGrupo }}</h5>
+            @if (grupo.descripcion) {
+              <small class="text-light">{{ grupo.descripcion }}</small>
+            }
+          </div>
+          <div class="card-body">
+            @for (p of grupo.preguntas; track $index) {
+              <div class="mb-4 p-3 border rounded bg-light">
+                
+              <!-- Indicador de sección y año si los trae -->
+                @if (p.seccion) {
+                  <span class="badge bg-secondary mb-2 me-2 fs-6">{{ p.seccion }}</span>
+                }
+                
+                @if (p['año'] || p['anio']) {
+                  <span class="badge bg-info text-dark mb-2 fs-6">Año: {{ p['año'] || p['anio'] }}</span>
+                }
+
+                <!-- Enunciado de la pregunta -->
+                <p class="fw-bold text-dark fs-5 mt-1">
+                  <strong style="color: #3605e7cc; font-weight: 800">Pregunta {{ p.numeroPregunta }}:</strong> {{ p.pregunta }}
+                </p>
+
+                <!-- Respuesta correcta -->
+                <p class="mt-2 fs-5" style="color: #198754; font-weight: 700">
+                  <strong style="color: #ee0404; font-weight: 700">Respuesta:</strong> {{ p.respuestaCorrecta }}
+                </p>
+
+                <!-- Explicación detallada -->
+                @if (p.explicacion) {
+                  <p class="mt-2  fs-5" style="font-style: italic;">
+                    <strong>Explicación:</strong> {{ p.explicacion }}
+                  </p>
+                }
+
+                <hr style="border-top: 1px solid #6c757d; opacity: 1;" class="my-3" />
+              </div>
+            }
+          </div>
+        </div>
+      } 
+    } 
+  }
 </div>
