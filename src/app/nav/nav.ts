@@ -35,27 +35,48 @@ export class Nav {
     { label: '2024B', route: '/examen2024b' },
     { label: '2023', route: '/examen2023' },
     { label: '2019', route: '/examen2019' },
-    { label: '2018', route: '/examen2018' },   
+    { label: '2018', route: '/examen2018' },
   ];
 
-  temariosBloques = [ 
+  temariosBloques = [
     { label: 'Desarrollo', route: '/desarrollo-a' },
     { label: 'Sistemas', route: '/sistemas-b' },
     { label: 'Tecnología', route: '/tecnologia' },
     { label: 'Bloque3', route: '/bloque3' },
     { label: 'Normativa', route: '/normativa169' },
-    {label: 'Administración',route:'/banco-fichas-boe'},
+    { label: 'Administración', route: '/banco-fichas-boe' },
   ];
 
   pdfs = [
     { titulo: 'Examen 2026', id: 'Tai_oposion_2026', label: '' },
-    { titulo: 'Examen 2025 - Bloque A', id: 'Tai_oposion_A_2025', label: ' (A)' },
-    { titulo: 'Examen 2025 - Bloque B', id: 'Tai_oposion_B_2025', label: ' (B)' },
-    { titulo: 'Examen 2024 - Bloque A', id: 'Tai_oposion_A_2024', label: ' (A)' },
-    { titulo: 'Examen 2024 - Bloque B', id: 'Tai_oposion_B_2024', label: ' (B)' },
+    {
+      titulo: 'Examen 2025 - Bloque A',
+      id: 'Tai_oposion_A_2025',
+      label: ' (A)',
+    },
+    {
+      titulo: 'Examen 2025 - Bloque B',
+      id: 'Tai_oposion_B_2025',
+      label: ' (B)',
+    },
+    {
+      titulo: 'Examen 2024 - Bloque A',
+      id: 'Tai_oposion_A_2024',
+      label: ' (A)',
+    },
+    {
+      titulo: 'Examen 2024 - Bloque B',
+      id: 'Tai_oposion_B_2024',
+      label: ' (B)',
+    },
     { titulo: 'Examen 2023', id: 'Tai_oposion_2023', label: '' },
     { titulo: 'Examen 2019', id: 'Tai_oposion_2019', label: '' },
     { titulo: 'Examen 2018', id: 'Tai_oposion_2018', label: '' },
+    {
+      titulo: 'Bloque 3',
+      id: 'pregunta_generales_bloque3_buscable',
+      label: ' (Bloque 3)',
+    },
   ];
 
   onSearch() {

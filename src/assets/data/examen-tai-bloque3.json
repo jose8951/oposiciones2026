@@ -15,7 +15,7 @@
         "<input type=\"text\" [(ngModel)]=\"email\" />",
         "<input type=\"text\" ngModel=\"email\" />"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "anulada": false,
       "explicacion": "En Angular, el enlace bidireccional (two-way binding) se representa con la sintaxis de 'banana-in-a-box': [()]. Esto combina el enlace de propiedad [] y el enlace de eventos ()."
     },

@@ -64,22 +64,22 @@
             📄 PDFs
           </a>
           <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-3 mt-lg-2" aria-labelledby="pdfDropdown">
-            @for (pdf of pdfs; track pdf.id; let last = $last) {
-              <li><h6 class="dropdown-header text-primary fw-bold">{{ pdf.titulo }}</h6></li>
-              <li>
-                <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'preguntas']" target="_blank">
-                  📄 Cuestionario Preguntas{{ pdf.label }}
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'resultados']" target="_blank">
-                  ✅ Plantilla Corrección{{ pdf.label }}
-                </a>
-              </li>
-              @if (!last) {
-                <li><hr class="dropdown-divider my-1" /></li>
-              }
-            }
+        @for (pdf of pdfs; track pdf.id; let last = $last) {
+  <li><h6 class="dropdown-header text-primary fw-bold">{{ pdf.titulo }}</h6></li>
+  <li>
+    <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'preguntas']" target="_blank">
+      📄 Cuestionario Preguntas{{ pdf.label }}
+    </a>
+  </li>
+  <li>
+    <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'resultados']" target="_blank">
+      ✅ Plantilla Corrección{{ pdf.label }}
+    </a>
+  </li>
+  @if (!last) {
+    <li><hr class="dropdown-divider my-1" /></li>
+  }
+}
           </ul>
         </li>
 
