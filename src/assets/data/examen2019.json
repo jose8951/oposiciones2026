@@ -653,10 +653,10 @@
       "globalId": 46,
       "seccion": "Primera Parte",
       "pregunta": "De la ejecución del siguiente fragmento de código (en un lenguaje como Java, C o C#): int i = 3; int j = 5; int k = 1; for (int m = 1; m < i; m++) { k = k * j; } ¿cuál es el valor final de la variable k?",
-      "opciones": ["216", "63", "3", "5"],
+      "opciones": ["216", "63", "3", "25"],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "Según la plantilla, la respuesta es la D [1]. Al ejecutarse el bucle, la variable k termina con un valor de 5 [7]."
+      "explicacion": "Nota: La plantilla oficial contenía una errata marcando '5'. Tras realizar las 2 iteraciones del bucle (m=1 y m=2), el valor real de k es 25 (opción situada en el índice 3)."
     },
     {
       "id": 47,
