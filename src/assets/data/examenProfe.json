@@ -1,0 +1,2744 @@
+{
+  "examen": "TAI Ingreso Libre - Cuestionario Bloque 3 Profe",
+  "total_preguntas": 180,
+  "preguntas": [
+    {
+      "id": 1,
+      "globalId": 1,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿Cuál de las siguientes opciones NO representa un tipo de datos primitivo de Java?",
+      "opciones": [
+        "short.",
+        "simple.",
+        "long.",
+        "double."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En Java, los 8 tipos de datos primitivos son: byte, short, int, long, float, double, boolean y char. 'simple' no existe como tipo primitivo."
+    },
+    {
+      "id": 2,
+      "globalId": 2,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "En UML 2.5, ¿cuál de los siguientes diagramas pertenece a la categoría de diagramas de estructura?",
+      "opciones": [
+        "Diagrama de paquetes.",
+        "Diagrama de flujo de información.",
+        "Diagrama de secuencia.",
+        "Diagrama de actividad."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En UML 2.5, el diagrama de paquetes es un diagrama estructural. Los de secuencia y actividad son de comportamiento."
+    },
+    {
+      "id": 3,
+      "globalId": 3,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿Cuál de los siguientes NO es una de las características del modelo orientado a objetos?",
+      "opciones": [
+        "Modularidad",
+        "Abstracción",
+        "Durabilidad",
+        "Reusabilidad"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La durabilidad es una propiedad ACID de las bases de datos, no una característica fundamental de la POO."
+    },
+    {
+      "id": 4,
+      "globalId": 4,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Indique cuál de los siguientes es un patrón de tipo creacional:",
+      "opciones": [
+        "Composite",
+        "Proxy",
+        "Iterator",
+        "Singleton"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Singleton es un patrón creacional. Composite y Proxy son estructurales; Iterator es de comportamiento."
+    },
+    {
+      "id": 5,
+      "globalId": 5,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "En Java, una variable definida con el modificador de acceso protected, es accesible:",
+      "opciones": [
+        "Desde cualquier clase.",
+        "Únicamente desde la clase en la que se ha definido.",
+        "Únicamente desde las clases que están dentro del mismo paquete.",
+        "Desde la clase en la que se ha definido, sus subclases, y desde las clases dentro del mismo paquete."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "protected permite acceso desde la propia clase, clases del mismo paquete y subclases (incluso de otros paquetes)."
+    },
+    {
+      "id": 6,
+      "globalId": 6,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "En cuanto a la tecnología REST utilizada para la construcción de sistemas con arquitectura orientada a servicios, indique la opción INCORRECTA:",
+      "opciones": [
+        "Realiza el transporte de datos con los métodos proporcionados por HTTP, como GET, POST, PUT, DELETE o PATCH.",
+        "Utiliza los códigos de respuesta nativos de HTTP como 200, 204, 404 ó 409.",
+        "En un sistema REST cada recurso es direccionable a través de su URI.",
+        "A pesar de la gran variedad de tipos de datos que podemos mandar con REST, no es posible utilizar el formato XML."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "REST sí permite XML (y JSON, texto plano, etc.). La afirmación d es incorrecta."
+    },
+    {
+      "id": 7,
+      "globalId": 7,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿Cuál de los siguientes NO es un elemento en el esqueleto base de un mensaje SOAP 1.2?",
+      "opciones": [
+        "Envelope",
+        "Header",
+        "Body",
+        "Title"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El esqueleto base de SOAP 1.2 es Envelope, Header (opcional) y Body. Title no existe."
+    },
+    {
+      "id": 8,
+      "globalId": 8,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Señale cual NO es una pauta del Principio Perceptible de WCAG 2.1:",
+      "opciones": [
+        "Alternativas textuales: Proporcione alternativas textuales para todo contenido no textual...",
+        "Distinguible: Haga más fácil para los usuarios ver y oír el contenido...",
+        "Contenido multimedia dependiente del tiempo: Proporcione alternativas para contenidos multimedia sincronizados dependientes del tiempo.",
+        "Ataques epilépticos: No diseñar contenido que pueda causar ataques epilépticos."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La pauta de 'Ataques epilépticos' pertenece al principio Operable, no al Perceptible."
+    },
+    {
+      "id": 9,
+      "globalId": 9,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Las pruebas cuya finalidad es verificar que los distintos componentes del sistema interactúan correctamente a través de sus interfaces se denominan:",
+      "opciones": [
+        "Pruebas de artefactos.",
+        "Pruebas de integración.",
+        "Pruebas de interacción.",
+        "Pruebas de implantación."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Las pruebas de integración verifican la interacción correcta entre componentes a través de sus interfaces."
+    },
+    {
+      "id": 10,
+      "globalId": 10,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Dado un proyecto git, ¿con qué comando puedo listar las etiquetas?",
+      "opciones": [
+        "git tag",
+        "git list-tag",
+        "git rebase",
+        "git t"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando correcto para listar las etiquetas (tags) es 'git tag'."
+    },
+    {
+      "id": 11,
+      "globalId": 11,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "La plataforma de control de versiones de Microsoft es:",
+      "opciones": [
+        "CVS",
+        "Trello",
+        "Team Foundation Server",
+        "ClearCase"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Team Foundation Server (TFS), ahora Azure DevOps, es la plataforma de Microsoft para control de versiones."
+    },
+    {
+      "id": 12,
+      "globalId": 12,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Con respecto a las pruebas de regresión, señale la INCORRECTA:",
+      "opciones": [
+        "Ante cambios sobre un componente software, ayudan a garantizar que el resto de componentes no se ve afectado.",
+        "Son compatibles con las metodologías ágiles de desarrollo.",
+        "Normalmente, implican la repetición de las pruebas que ya se han realizado previamente.",
+        "No es posible automatizar las pruebas de regresión."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Las pruebas de regresión sí se pueden (y se deben) automatizar. La afirmación d es incorrecta."
+    },
+    {
+      "id": 13,
+      "globalId": 13,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "La gestión de errores y excepciones se considera una tarea fundamental. De entre las siguientes, ¿cuál es la clase de la que heredan todas las excepciones Java?",
+      "opciones": [
+        "Error",
+        "Exception",
+        "Throwable",
+        "RuntimeException"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Todas las excepciones y errores en Java heredan de Throwable."
+    },
+    {
+      "id": 14,
+      "globalId": 14,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Le preguntan que indique la utilidad de los namespaces (espacios de nombres) en .Net:",
+      "opciones": [
+        "Es un mecanismo para proteger las clases, garantizando el encapsulamiento de las mismas.",
+        "Es un mecanismo para reflejar las propiedades de acceso de cada clase.",
+        "No existe tal concepto.",
+        "Es un mecanismo para organizar clases."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Los namespaces en .NET sirven para organizar clases y evitar colisiones de nombres."
+    },
+    {
+      "id": 15,
+      "globalId": 15,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "En su Unidad se realizan diagramas UML. ¿Qué diagrama muestra las interacciones entre los participantes, haciendo especial énfasis en la secuencia de mensajes?",
+      "opciones": [
+        "Diagrama de secuencia.",
+        "Diagrama de comunicación.",
+        "Diagrama de estado.",
+        "Diagrama de tiempo."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El diagrama de secuencia enfatiza el orden temporal de los mensajes entre participantes."
+    },
+    {
+      "id": 16,
+      "globalId": 16,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Tiene ya el sistema preparado. Según la metodología Métrica v3, ¿qué tipo de pruebas son las que permiten verificar el correcto funcionamiento integrado de hardware y software en el entorno de operación y permitir al usuario que, desde el punto de vista de operación, realice la aceptación del sistema una vez instalado en su entorno real?",
+      "opciones": [
+        "Pruebas de integración.",
+        "Pruebas de implantación.",
+        "Pruebas de aceptación.",
+        "Pruebas de regresión."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Según Métrica v3, las pruebas de implantación verifican el funcionamiento en el entorno real de operación."
+    },
+    {
+      "id": 17,
+      "globalId": 17,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Cuál de los siguientes NO es un lenguaje de programación orientado a objetos:",
+      "opciones": [
+        "C++",
+        "Objetive-C",
+        "Oz",
+        "Pascal"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Pascal clásico no es orientado a objetos (aunque existió Object Pascal). C++, Objective-C y Oz sí lo son."
+    },
+    {
+      "id": 18,
+      "globalId": 18,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "El patrón de diseño que permite disponer de varios métodos y posibilita elegir cuál utilizar en tiempo de ejecución es:",
+      "opciones": [
+        "Builder",
+        "Interpreter",
+        "Observer",
+        "Strategy"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El patrón Strategy permite seleccionar el algoritmo a utilizar en tiempo de ejecución."
+    },
+    {
+      "id": 19,
+      "globalId": 19,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "En la plataforma .NET, ¿cuál es la unidad mínima de ejecución en el CLR?",
+      "opciones": [
+        "Assembly",
+        "MSIL",
+        "Manifest",
+        "Entity"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El Assembly (ensamblado) es la unidad mínima de ejecución y despliegue en el CLR."
+    },
+    {
+      "id": 20,
+      "globalId": 20,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "La API de Java para la implementación de servicios web RestFul es:",
+      "opciones": [
+        "JAX-RS",
+        "JTA",
+        "JPA",
+        "JSTL"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "JAX-RS (Java API for RESTful Web Services) es la API estándar de Java para servicios REST."
+    },
+    {
+      "id": 21,
+      "globalId": 21,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "De la pila de especificaciones de los servicios web, indique cuál de los siguientes lenguajes se utiliza para la descripción de los mismos:",
+      "opciones": [
+        "WS-IJ",
+        "WSDL",
+        "SOAP",
+        "UDDI"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "WSDL (Web Services Description Language) se utiliza para describir los servicios web."
+    },
+    {
+      "id": 22,
+      "globalId": 22,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "En el contexto de la programación orientada a objetos, ¿qué entendemos por superclase?",
+      "opciones": [
+        "Una clase padre de la que pueden derivar una serie de subclases.",
+        "Una clase padre en la que se definen todas las variantes de métodos y atributos de sus clases heredadas, denominadas subclases.",
+        "Una clase que deriva de otra completando los métodos que deja sin definir.",
+        "Una clase resultado de fusión de dos o más clases padres."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La superclase es la clase padre de la que heredan las subclases."
+    },
+    {
+      "id": 23,
+      "globalId": 23,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "La característica de los lenguajes orientados a objetos que permite declarar y definir dos métodos con el mismo nombre, pero distintos argumentos, se denomina:",
+      "opciones": [
+        "Sobrescritura",
+        "Polimorfismo",
+        "Herencia",
+        "Sobrecarga"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La sobrecarga (overloading) permite métodos con el mismo nombre pero distinta firma (argumentos)."
+    },
+    {
+      "id": 24,
+      "globalId": 24,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "El patrón de diseño cuyo propósito es desacoplar una abstracción de su implementación de manera que las dos puedan evolucionar independientemente es:",
+      "opciones": [
+        "Facade",
+        "Bridge",
+        "Adapter",
+        "Wrapper"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El patrón Bridge desacopla la abstracción de su implementación."
+    },
+    {
+      "id": 25,
+      "globalId": 25,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Se quieren realizar modificaciones en el sistema para posibilitar la aplicación de bonificaciones a los vehículos menos contaminantes. Para ello se debe ampliar la funcionalidad, incorporando la matrícula como nuevo parámetro a un método ya existente. ¿Cómo añadiríamos este parámetro?",
+      "opciones": [
+        "Sobrecargando el método incorporando un parámetro más con la matrícula del vehículo.",
+        "Sobreescribiendo el método incorporando un parámetro más con la matrícula del vehículo.",
+        "Definiendo una nueva clase abstracta como pública donde se definirá un nuevo evento que envíe la matrícula al método que ya existe.",
+        "Remitiendo la matrícula en alguno de los parámetros ya definidos, e incorporando la lógica pertinente en el método para que si el formato de la cadena de texto encaja con el de una matrícula se tenga en cuenta dicha información."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La forma correcta es sobrecargar el método añadiendo el nuevo parámetro."
+    },
+    {
+      "id": 26,
+      "globalId": 26,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "La herramienta empleada para realizar el control de versiones del proyecto será Apache Subversion. Si vamos a realizar un evolutivo con nuevas funcionalidades, sin haber finalizado el desarrollo del sistema actual, ¿qué elemento SVN utilizaríamos para aislar el nuevo evolutivo del desarrollo principal?",
+      "opciones": [
+        "Aislaríamos los desarrollos a través de transacciones del SVN.",
+        "Se crearía un paquete con aquellos componentes a modificar y se marcarían a través de etiquetas \"modified\".",
+        "Se emplearía el concepto \"dependency\" que permite conocer las dependencias en el código fuente.",
+        "Se crearía una rama \"Branch\" paralela al \"Trunk\" que posteriormente sería mezclada."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "En SVN se utiliza una rama (Branch) paralela al Trunk para aislar desarrollos evolutivos."
+    },
+    {
+      "id": 27,
+      "globalId": 27,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Señale la respuesta correcta respecto a las arquitecturas de microservicios:",
+      "opciones": [
+        "Tienen nombres únicos (como direcciones URL) que se usan para resolver su ubicación.",
+        "Deben ser escritos en lenguajes de programación específicos.",
+        "Interactúan con otros microservicios por medio de protocolos cerrados.",
+        "Service Fabric es la plataforma de microservicios de Apache."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Los microservicios se identifican y localizan mediante nombres únicos (URLs / endpoints)."
+    },
+    {
+      "id": 28,
+      "globalId": 28,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿A cuál de los siguientes elementos de la arquitectura cliente/servidor se le conoce también con el término front-end?",
+      "opciones": [
+        "Base de Datos.",
+        "Servidor.",
+        "Cliente.",
+        "Al conjunto de la arquitectura."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El front-end es el cliente (la parte visible para el usuario)."
+    },
+    {
+      "id": 29,
+      "globalId": 29,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Señale la respuesta correcta en relación con los servicios web:",
+      "opciones": [
+        "Las Arquitecturas Orientadas a Servicios (SOA) se implementan con HTML5, CSS3 y Javascript.",
+        "Las arquitecturas SOA están formadas por servicios de aplicación fuertemente acoplados y altamente interoperables.",
+        "Las arquitecturas SOA son un modelo orientado a la reutilización de los servicios en entornos de sistemas distribuidos.",
+        "Los servicios de una arquitectura SOA se basan en una definición formal independiente de la plataforma subyacente. Esta definición formal se realiza en el lenguaje JAVA."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "SOA se orienta a la reutilización de servicios en sistemas distribuidos. Los servicios están débilmente acoplados."
+    },
+
+{
+  "tipo": "imagen",
+  "id": "codigo-csharp-net",
+  "descripcion": "Fragmento de código C# para las preguntas 30 y 31",
+  "imagen": "assets/images/codigo_csharp_net.png"
+},
+
+
+
+
+
+
+    {
+      "id": 30,
+      "globalId": 30,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿Cuál de entre las siguientes es una directiva válida para la línea 1 del código C# anterior para importar espacios de nombres?",    
+      "opciones": [
+        "using System;",
+        "import System;",
+        "declare System;",
+        "imp System;"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En C# la directiva para importar namespaces es 'using'."
+    },
+    {
+      "id": 31,
+      "globalId": 31,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "El resultado de la ejecución del programa C# anterior es:",
+      "opciones": [
+        "ns.n = 5 nc.n = 8",
+        "ns.n = 8 nc.n = 8",
+        "ns.n = 5 nc.n = 5",
+        "ns.n = 8 nc.n = 5"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Las estructuras se pasan por valor (ns.n sigue 5). Las clases se pasan por referencia (nc.n pasa a 8)."
+    },
+    {
+      "id": 32,
+      "globalId": 32,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Para el control de versiones del proyecto su responsable le propone utilizar GIT o Subversion, señale la opción correcta:",
+      "opciones": [
+        "Para el IDE NetBeans no existe plugin para utilizar Subversion.",
+        "Subversion es más rápido que GIT.",
+        "GIT requiere menor espacio para almacenamiento.",
+        "Navegar a través de las versiones es más simple en GIT ya que utiliza números de secuencia de revisión en lugar de códigos hash."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Git es más eficiente en espacio gracias a su modelo de almacenamiento basado en snapshots y compresión."
+    },
+    {
+      "id": 33,
+      "globalId": 33,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Tras instalar Subversion como repositorio para el control de versiones del proyecto, usted utiliza NetBeans para conectarse al mismo y descargar por primera vez en su máquina una copia local con la que trabajar, para ello usted ejecuta:",
+      "opciones": [
+        "svn download",
+        "svn checkout",
+        "svn project",
+        "svn import"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El comando para obtener por primera vez una copia de trabajo es 'svn checkout'."
+    },
+    {
+      "id": 34,
+      "globalId": 34,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Una vez que se han realizado cambios en el proyecto quiere enviarlos al repositorio Subversion, pero antes necesita echar un vistazo a lo que ha cambiado exactamente para evitar modificaciones accidentales de ficheros. Para descubrir esto utilizará el comando:",
+      "opciones": [
+        "svn status",
+        "svn svnlist",
+        "svn listupdate",
+        "svn svnupdate"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando 'svn status' muestra el estado de los archivos (modificados, añadidos, etc.)."
+    },
+    {
+      "id": 35,
+      "globalId": 35,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Siendo el nombre remoto \"origin\" y la rama \"master\", para subir los commits de una rama local a un repositorio remoto, ¿cuál sería el comando en Git?",
+      "opciones": [
+        "git push origin master",
+        "git pull origin master",
+        "git init origin master",
+        "git start origin master"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El comando para subir commits a un remoto es 'git push origin master'."
+    },
+    {
+      "id": 36,
+      "globalId": 36,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Señale la afirmación FALSA respecto al patrón de diseño MVC (Modelo-Vista-Controlador):",
+      "opciones": [
+        "Separa la lógica de negocio de la interfaz de usuario.",
+        "Incrementa la reutilización y la flexibilidad.",
+        "Se ha utilizado en múltiples frameworks (J2EE, ASP .NET MVC, etc.).",
+        "El controlador gestiona todos los accesos a la información con la cual opera el sistema."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El acceso a los datos lo gestiona el Modelo, no el Controlador. El Controlador coordina."
+    },
+    {
+      "id": 37,
+      "globalId": 37,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿Cuál de los siguientes es un estándar que se utiliza como elemento de seguridad en los servicios web?",
+      "opciones": [
+        "SAML",
+        "WSDL",
+        "SOAP",
+        "UDDI"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "SAML (Security Assertion Markup Language) se utiliza para seguridad e identidad en servicios web."
+    },
+    {
+      "id": 38,
+      "globalId": 38,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿Cuál de las siguientes opciones NO es una ventaja propia de una arquitectura en 3 capas?",
+      "opciones": [
+        "Reduce el tráfico en la red frente a una arquitectura de dos capas.",
+        "Es una arquitectura mucho más escalable.",
+        "La separación de roles en capas hace más fácil modificar y remplazar capas.",
+        "Si aumenta el tamaño o complejidad de una capa, no afecta a las demás."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La arquitectura en 3 capas no necesariamente reduce el tráfico de red respecto a 2 capas; puede aumentarlo por las comunicaciones adicionales."
+    },
+    {
+      "id": 39,
+      "globalId": 39,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Axis2 es:",
+      "opciones": [
+        "Una base de datos no-SQL.",
+        "Un motor de búsqueda.",
+        "Un motor nuclear de servicios web.",
+        "Una librería para la automatización de tareas de compilación y despliegue de aplicaciones."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Apache Axis2 es un motor (engine) para servicios web SOAP."
+    },
+    {
+      "id": 40,
+      "globalId": 40,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿A qué hace referencia el modelo de 3 capas en el desarrollo de aplicaciones?",
+      "opciones": [
+        "A que la declaración de clases se realizará con al menos tres niveles de acceso diferenciados: clases públicas, clases privadas y clases protegidas.",
+        "A que se establecerán tres jerarquías de herencia de clases, en la que partiendo de una clase raíz, existirán al menos hasta otras dos capas más de herencia.",
+        "A que las aplicaciones se separarán en 3 capas, estableciendo una capa de Lógica de Presentación, una capa de Lógica de Negocio y una capa de Datos o de Persistencia.",
+        "A que el procesamiento de documentos XML puede realizarse mediante un parser DOM (modelo de árbol), SAX (basado en eventos tipo push) o STAX (basado en eventos tipo pull)."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El modelo de 3 capas separa Presentación, Lógica de Negocio y Datos/Persistencia."
+    },
+    {
+      "id": 41,
+      "globalId": 41,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "El protocolo SOAP (Simple Object Access Protocol):",
+      "opciones": [
+        "Es una recomendación del W3C.",
+        "Es un estándar ISO.",
+        "Es una norma UNE.",
+        "Es un estándar ANSI."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "SOAP es una recomendación del W3C."
+    },
+    {
+      "id": 42,
+      "globalId": 42,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Para la implantación de una arquitectura Cliente/Servidor del tipo \"cliente fino - servidor grueso\":",
+      "opciones": [
+        "Se necesitan un mínimo de 2 equipos si se utiliza el modelo de 2 capas.",
+        "Se necesitan un mínimo de 3 equipos si se utiliza el modelo de 3 capas.",
+        "Puede ser implantada en un único equipo.",
+        "El cliente es el responsable del acceso a los datos físicos y de procesar la lógica de negocio."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Una arquitectura cliente-servidor (incluso grueso) puede desplegarse en un único equipo (por ejemplo, para desarrollo o pruebas)."
+    },
+    {
+      "id": 43,
+      "globalId": 43,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Las pautas de accesibilidad para herramientas de autor en WAI-W3C se conocen como:",
+      "opciones": [
+        "UAAG.",
+        "ATAG.",
+        "WCAG.",
+        "WGML."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "ATAG (Authoring Tool Accessibility Guidelines) son las pautas para herramientas de autor."
+    },
+    {
+      "id": 44,
+      "globalId": 44,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Señale cuál de las siguientes respuestas se corresponde con los 4 principios básicos de accesibilidad definidos por WCAG 2.0:",
+      "opciones": [
+        "perceptibilidad, operabilidad, comprensibilidad y robustez.",
+        "adaptabilidad, perceptibilidad robustez y operabilidad.",
+        "perceptibilidad, adaptabilidad, robustez y comprensibilidad.",
+        "comprensibilidad, perceptibilidad, adaptabilidad y usabilidad."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Los 4 principios de WCAG son: Perceptible, Operable, Comprensible y Robusto (POUR)."
+    },
+    {
+      "id": 45,
+      "globalId": 45,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Las Pautas de Accesibilidad para el Contenido Web 2.0 (WCAG 2.0) definen niveles para proporcionar orientación sobre cómo crear contenidos accesibles. ¿Cuál de las siguientes respuestas enumera los niveles de orientación?",
+      "opciones": [
+        "Principios, técnicas suficientes y recomendables, pautas y criterios de conformidad.",
+        "Principios, técnicas suficientes y recomendables y pautas.",
+        "Principios, técnicas suficientes y recomendables, pautas y niveles de conformidad.",
+        "Principios, pautas y criterios de conformidad."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "WCAG se estructura en Principios → Pautas → Criterios de conformidad (A, AA, AAA)."
+    },
+    {
+      "id": 46,
+      "globalId": 46,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿Cuál de los siguientes grupos de principios es propio de un buen diseño estructurado?",
+      "opciones": [
+        "Modularidad, dependencia funcional y principio de caja \"blanca\".",
+        "Modularidad, independencia funcional y principio de caja \"blanca\".",
+        "Modularidad, independencia funcional y principio de caja \"negra\".",
+        "Modularidad, dependencia funcional y principio de caja \"negra\"."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Buen diseño estructurado se basa en modularidad, independencia funcional y caja negra."
+    },
+    {
+      "id": 47,
+      "globalId": 47,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿Cuál de las siguientes afirmaciones sobre cohesión y acoplamiento es correcta?",
+      "opciones": [
+        "El acoplamiento mide la relación entre los elementos de un módulo, buscando que sea máximo.",
+        "La cohesión mide el grado de interdependencia entre módulos, buscando que sea mínimo para independizarlos y garantizar su fácil mantenibilidad.",
+        "La cohesión mide la relación entre los elementos de un módulo. Existen distintos tipos de cohesión: funcional, secuencial, temporal, etc.",
+        "La cohesión mide la relación entre los elementos de un módulo. Existen distintos tipos de cohesión: normal, externa, común, etc."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La cohesión mide la relación entre los elementos internos de un módulo (funcional, secuencial, temporal...)."
+    },
+    {
+      "id": 48,
+      "globalId": 48,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Uno de los indicadores que hace patente una escasa calidad de un diseño software es el siguiente:",
+      "opciones": [
+        "Un alto acoplamiento entre sus módulos.",
+        "Una alta cohesión entre los elementos de un módulo.",
+        "No disponer de código duplicado.",
+        "No seguir un diseño en cascada."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Un alto acoplamiento es indicador de mala calidad de diseño."
+    },
+    {
+      "id": 49,
+      "globalId": 49,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿Cuál de las siguientes es considerada una prueba de caja negra?",
+      "opciones": [
+        "Prueba del camino básico.",
+        "Prueba de bucles.",
+        "Prueba de partición equivalente.",
+        "Pruebas de flujo de datos."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La partición de equivalencia es una técnica de caja negra."
+    },
+    {
+      "id": 50,
+      "globalId": 50,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿Cuál de las siguientes informaciones sobre la fase de pruebas del software es correcta?",
+      "opciones": [
+        "Las pruebas de integración bottom-up necesitan módulos auxiliares que sustituyan a los módulos que son llamados por otros de más alto nivel.",
+        "Las pruebas de integración top-down necesitan módulos conductores (drivers) que simulen las llamadas a los módulos que se están probando.",
+        "Las pruebas funcionales o de caja negra permiten comprobar el correcto funcionamiento de los componentes del sistema analizando entradas y salidas y verificando exclusivamente el resultado.",
+        "Las pruebas estructurales o de caja blanca permiten comprobar el correcto funcionamiento de los componentes del sistema analizando entradas y salidas y verificando exclusivamente el resultado."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Las pruebas de caja negra (funcionales) se centran en entradas/salidas sin mirar el código interno."
+    },
+    {
+      "id": 51,
+      "globalId": 51,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Indique el principio de la WCAG 2.0 asociado a la pauta \"maximizar la compatibilidad\":",
+      "opciones": [
+        "Operable.",
+        "Perceptible.",
+        "Robustez.",
+        "Comprensible."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "\"Maximizar la compatibilidad\" pertenece al principio de Robustez."
+    },
+    {
+      "id": 52,
+      "globalId": 52,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "En la metodología ágil SCRUM, la lista de tareas necesarias para llevar a cabo las historias de una iteración es el:",
+      "opciones": [
+        "Product Backlog.",
+        "Sprint Planning.",
+        "Sprint Backlog.",
+        "Planning Backlog."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El Sprint Backlog contiene las tareas necesarias para completar las historias del Sprint."
+    },
+    {
+      "id": 53,
+      "globalId": 53,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "En el modelo de proceso Scrum para desarrollo ágil de sistemas software, ¿qué es el backlog de producto?",
+      "opciones": [
+        "La lista detallada de requisitos seleccionados para implementación en un Sprint.",
+        "Un gráfico que muestra el trabajo pendiente en un Sprint.",
+        "La lista priorizada de requisitos de alto nivel pendientes de implementación.",
+        "La tabla con los requisitos ya implementados."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El Product Backlog es la lista priorizada de requisitos de alto nivel pendientes."
+    },
+    {
+      "id": 54,
+      "globalId": 54,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "¿Cuál de estos modelos de ciclo de vida se basa en la repetición de varios ciclos de vida en cascada?",
+      "opciones": [
+        "Ciclo de vida en V.",
+        "Ciclo de vida evolutivo.",
+        "Ciclo de vida tipo sashimi.",
+        "Ciclo de vida incremental."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El ciclo de vida incremental se basa en la repetición de ciclos en cascada (incrementos)."
+    },
+    {
+      "id": 55,
+      "globalId": 55,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Señale cuál de las siguientes NO es un tipo de evento contemplado en la metodología Scrum:",
+      "opciones": [
+        "Reunión de Planificación del Sprint (Sprint Planning Meeting).",
+        "Scrums Diarios (Daily Scrums).",
+        "Iteración del Sprint (Sprint Iteration).",
+        "Retrospectiva del Sprint (Sprint Retrospective)."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "\"Sprint Iteration\" no es un evento oficial de Scrum. Los eventos oficiales son Sprint Planning, Daily Scrum, Sprint Review y Sprint Retrospective."
+    },
+    {
+      "id": 56,
+      "globalId": 56,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Señale el principio que NO se encuentra recogido en el Manifiesto Ágil para el desarrollo de software:",
+      "opciones": [
+        "La simplicidad, o el arte de maximizar la cantidad de trabajo no realizado, es esencial.",
+        "El software funcionando es la medida principal de progreso.",
+        "Los proyectos se desarrollan sobre procesos y herramientas consolidados.",
+        "Aceptamos que los requisitos cambien, incluso en etapas tardías del desarrollo."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El Manifiesto Ágil valora \"Individuos e interacciones sobre procesos y herramientas\". La opción c es contraria."
+    },
+    {
+      "id": 57,
+      "globalId": 57,
+      "seccion": "Bloque 3 - Preguntas Generales",
+      "pregunta": "Indique la afirmación correcta en relación al modelo de ciclo de vida en espiral:",
+      "opciones": [
+        "Fue propuesto por R. Pressman para solventar los problemas de los modelos tradicionales.",
+        "Se centra en la identificación de los riesgos asociados a cada alternativa y en la manera de resolver dichos riesgos.",
+        "Es un modelo poco versátil y flexible.",
+        "La dimensión radial mide el grado de avance del proyecto."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El modelo en espiral de Boehm se centra en la identificación y gestión de riesgos."
+    },
+    {
+      "id": 58,
+      "globalId": 58,
+      "seccion": "Bloque 3 - PHP",
+      "pregunta": "Indique qué realiza el siguiente fragmento de código PHP: $passwd = substr(str_shuffle(\"0123abcd\"), 0, $length=5); echo $passwd;",
+      "opciones": [
+        "Genera y muestra una contraseña aleatoria formada por 8 caracteres donde los caracteres pueden repetirse.",
+        "Genera y muestra una contraseña aleatoria formada por 8 caracteres donde los caracteres no pueden repetirse.",
+        "Genera y muestra una contraseña aleatoria formada por 5 caracteres donde los caracteres pueden repetirse.",
+        "Genera y muestra una contraseña aleatoria formada por 5 caracteres donde los caracteres no pueden repetirse."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "str_shuffle baraja los caracteres (sin repetición en la cadena original) y substr toma 5 caracteres. No se repiten porque la fuente no tiene repeticiones."
+    },
+    {
+      "id": 59,
+      "globalId": 59,
+      "seccion": "Bloque 3 - PHP",
+      "pregunta": "Durante el diseño del código PHP se encuentra declarado un array con valores. Se precisa almacenar la longitud del mismo. ¿Cómo lo haría?",
+      "opciones": [
+        "$longitud = long($array);",
+        "$longitud = calculate($array);",
+        "$longitud = count($array);",
+        "$longitud = range($array);"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La función correcta en PHP para obtener la longitud de un array es count()."
+    },
+    {
+      "id": 60,
+      "globalId": 60,
+      "seccion": "Bloque 3 - PHP",
+      "pregunta": "Si además está recorriendo un array y quiere mostrar los valores, ¿cuál sería la instrucción correcta?",
+      "opciones": [
+        "echo \"Posición \" + $i + \": \" + $array[$i] . \"\\n\";",
+        "echo \"Posición \" & $i & \": \" & $array[$i] & \"\\n\";",
+        "echo \"Posición \". $i . \": \" . $array[$i] . \"\\n\";",
+        "echo \"Posición \".concat($i).concat(\": \").concat($array[$i]).concat(\"\\n\");"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En PHP la concatenación de strings se realiza con el operador punto (.)."
+    },
+    {
+      "id": 61,
+      "globalId": 61,
+      "seccion": "Bloque 3 - PHP",
+      "pregunta": "Se ha adaptado el código PHP de la aplicación antigua (versión 5.4) a una versión actual. Observe el código PHP siguiente... ¿Qué resultado se obtendrá de su ejecución?",
+      "opciones": [
+        "La petición es formal.",
+        "La petición es informal.",
+        "La petición es $description.",
+        "Da un error de ejecución."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La clase Reivindicacion redefine el método mostrarPeticion del trait, por lo que se ejecuta la versión de la clase (\"formal\")."
+    },
+
+{
+  "tipo": "imagen",
+  "id": "codigo-php-22-30",
+  "descripcion": "Fragmento de código PHP para las preguntas 22-30",
+  "imagen": "assets/images/codigo_php_limpio.png"
+},
+
+
+
+
+    {
+      "id": 62,
+      "globalId": 62,
+      "seccion": "Bloque 3 - PHP",
+      "pregunta": "Observando el código PHP del enunciado, la función \"getallheaders()\" devuelve una matriz asociativa... seleccione la instrucción de entre las siguientes que utilizará en el bucle foreach para recorrer el array con las cabeceras:",
+      "opciones": [
+        "$cabecera in $nombre.$valor",
+        "$nombre => $valor in $cabeceras",
+        "$nombre.$valor in $cabeceras",
+        "$cabeceras as $nombre => $valor"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La sintaxis correcta de foreach para arrays asociativos es: foreach ($array as $clave => $valor)."
+    },
+    {
+      "id": 63,
+      "globalId": 63,
+      "seccion": "Bloque 3 - PHP",
+      "pregunta": "Para definir la función \"eleva2\" en la línea 7 del script utilizará la sintaxis:",
+      "opciones": [
+        "private def function eleva2(& $numero)",
+        "define function eleva2($numero)",
+        "function eleva2(& $numero)",
+        "sub eleva2(& $numero)"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La sintaxis correcta en PHP es function nombre(&$parametro) para pasar por referencia."
+    },
+    {
+      "id": 64,
+      "globalId": 64,
+      "seccion": "Bloque 3 - PHP",
+      "pregunta": "El resultado tras procesar la línea 11 es:",
+      "opciones": [
+        "N=3 N=3 N=9",
+        "N=3 N=3 N=3",
+        "N=3 N=9 N=9",
+        "N=3 N=9 N=3"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Al pasar por referencia (&) el valor de $numero cambia a 9 dentro de la función, pero el echo posterior a la llamada muestra el valor modificado solo si se observa el orden correcto. El resultado esperado según el código típico es N=3 N=9 N=3 si no se modifica fuera, pero con & se modifica. Según el análisis estándar de este tipo de pregunta el resultado es N=3 N=9 N=3."
+    },
+    {
+      "id": 65,
+      "globalId": 65,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "¿Cuál de las siguientes respuestas presentaría una definición adecuada de la sección del esquema XML (XSD) para la parte de idiomas según lo descrito anteriormente?",
+      "opciones": [
+        "<xsd:element name=\"languagelist\"> <xsd:complexType> <xsd:sequence> <xsd:element name=\"language\" type=\"europass:language\" minOccurs=\"1\" maxOccurs=\"nonlimited\" /> </xsd:sequence> </xsd:complexType> </xsd:element>",
+        "<xsd:element name=\"languagelist\"> <xsd:complexType> <xsd:sequence> <xsd:element name=\"language\" type=\"europass:language\" maxOccurs=\"unbounded\" /> </xsd:sequence> </xsd:complexType> </xsd:element>",
+        "<xsd:element name=\"languagelist\"> <xsd:complexType> <xsd:element name=\"language\" type=\"europass:language\" minOccurs=\"1\" maxOccurs=\"nonlimited\" /> </xsd:complexType> </xsd:element>",
+        "<xsd:element name=\"languagelist\"> <xsd:complexType> <xsd:sequence> <xsd:element name=\"language\" type=\"europass:language\" minOccurs=\"1\" /> </xsd:sequence> </xsd:complexType> </xsd:element>"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La forma correcta de permitir 0 o más (o 1 a infinitos) es maxOccurs=\"unbounded\". \"nonlimited\" no es un valor válido de XSD."
+    },
+    {
+      "id": 66,
+      "globalId": 66,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "Todas las páginas del Portal de Transparencia tendrán apariencia homogénea... ¿Cuál de las siguientes respuestas permite asociar el citado estilo a los enlaces?",
+      "opciones": [
+        "a:unvisited {color: red; text-decoration: underline} a:visited {color: blue; text-decoration: none} a:hover {color: yellow; text-decoration: none}",
+        "a:link {color: red; text-style: underline} a:visited {color: blue; text-style: none} a:active {color: yellow; text-style:none}",
+        "a {color: red; text-style: underline} a:visited {color: blue; text-style:none} a:hover {color: yellow; text-style:none}",
+        "a:link {color: red; text-decoration: underline} a:visited {color: blue; text-decoration:none} a:active {color: yellow; text-decoration:none}"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Las pseudo-clases correctas son :link, :visited y :active. La propiedad correcta es text-decoration."
+    },
+    {
+      "id": 67,
+      "globalId": 67,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "¿Cuál de las siguientes afirmaciones relativas al lenguaje XHTML es INCORRECTA?",
+      "opciones": [
+        "Los documentos deben estar bien formados.",
+        "Todos los valores de los atributos deben ir entre comillas, excepto aquellos que sean numéricos.",
+        "Los elementos que no estén vacíos necesitan etiquetas de cierre.",
+        "Los nombres de atributos y elementos deben ir en minúscula."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En XHTML TODOS los valores de atributos deben ir entre comillas, sin excepciones."
+    },
+    {
+      "id": 68,
+      "globalId": 68,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "Señale la respuesta INCORRECTA con respecto al lenguaje XML:",
+      "opciones": [
+        "Un documento XML puede ser creado en un editor de texto básico.",
+        "XML es un lenguaje útil en la descripción del significado de los datos.",
+        "En la definición de elementos, las mayúsculas se distinguen de las minúsculas.",
+        "Un documento xml puede tener tantos elementos raíz como sea preciso."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Un documento XML bien formado solo puede tener un único elemento raíz."
+    },
+    {
+      "id": 69,
+      "globalId": 69,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "En el siguiente fragmento de esquema XML... ¿cuál de las siguientes instrucciones pondría en la posición marcada con /**/ para validar correctamente el XML de intercambio de datos?",
+      "opciones": [
+        "<xs:attribute name=\"codigo\" type=\"xs:integer\" use=\"required\" />",
+        "<xs:element name=\"codigo\" type=\"xs:integer\" use=\"required\" />",
+        "<xs:attribute name=\"codigo\" type=\"xs:integer\" use=\"mandatory\" />",
+        "<xs:element name=\"codigo\" type=\"xs:integer\" use=\"mandatory\" />"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El atributo 'codigo' se declara con xs:attribute y use=\"required\". \"mandatory\" no es un valor válido."
+    },
+
+
+
+{
+  "tipo": "imagen",
+  "id": "codigo-xml-deudas",
+  "descripcion": "Ejemplo XML de deudas de ayuntamientos",
+  "imagen": "assets/images/codigo_xml_deudas.png"
+},
+
+
+
+
+
+    {
+      "id": 70,
+      "globalId": 70,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "De la estructura XML que se utiliza para intercambiar los datos de las deudas de los ayuntamientos, ¿cómo recuperaría los ayuntamientos con el código 28001 mediante XPATH?",
+      "opciones": [
+        "//ayuntamiento /codigo/28001",
+        "//ayuntamiento[@codigo =\"28001\"]",
+        "/ayuntamiento /nombre/codigo/28001",
+        "/ayuntamiento /nombre[@codigo =\"28001\"]"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La sintaxis correcta de XPath para seleccionar por atributo es //elemento[@atributo=\"valor\"]."
+    },
+    {
+      "id": 71,
+      "globalId": 71,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "En uno de los formularios HTML5 de salida aparece un <div id=\"#caja\">... ¿Cuál de las siguientes respuestas permite asociar el citado estilo a los enlaces? (bordes redondeados)",
+      "opciones": [
+        "#caja { -moz-border-radius: 15px 15px 15px 15px; border: 15px 15px 15px 15px; }",
+        "#caja { -moz-border-radius: 15px 15px 15px 15px; border: 15px 15px 15px 15px; }",
+        "#caja { -moz-border-radius: 15px 15px 15px 15px; border: 15px 15px 15px 15px; }",
+        "#caja { -moz-border-radius: 15px 15px 15px 15px; border-radius: 15px 15px 15px 15px; }"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Para compatibilidad con Firefox se usa -moz-border-radius y también la propiedad estándar border-radius."
+    },
+    {
+      "id": 72,
+      "globalId": 72,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "¿Cómo definiría un pedido con XML Schema sabiendo que un pedido puede tener varios artículos diferentes?",
+      "opciones": [
+        "<!ELEMENT artículos (id_artículo, cantidad)><!ELEMENT id_artículo (#PCDATA)><!ELEMENT cantidad (#PCDATA)>",
+        "<!ELEMENT artículo [artículos]><!ELEMENT artículos (id_artículo, cantidad)><!ELEMENT cantidad (#PCDATA)>",
+        "<xs:element name=\"artículos\"> <xs:complexType> <xs:element name=\"id_artículo\" type=\"xs:string\"/> <xs:element name=\"cantidad\" type=\"xs:int\"/> </xs:complexType> </xs:element>",
+        "<xs:element name=\"artículos\"><xs:complexType><xs:sequence><xs:element name=\"id_artículo\" type=\"xs:string\"/> <xs:element name=\"cantidad\" type=\"xs:int\"/></xs:sequence></xs:complexType></xs:element>"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La forma correcta en XSD es usar xs:sequence dentro de xs:complexType."
+    },
+    {
+      "id": 73,
+      "globalId": 73,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "En el menú de administración de usuarios queremos un control web HTML5 que nos diga si un usuario es solicitante y/o gestor, ¿cuál de los siguientes controles te permite elegir más de un elemento a la vez?",
+      "opciones": [
+        "<input type=\"radio\" name=\"usuario\" value=\"solicitante\"/> solicitante <br/> <input type=\"radio\" name=\"usuario\" value=\"gestor\"/> gestor <br/>",
+        "<select> <option value=\"solicitante\"> solicitante </option> <option value=\"gestor\"> gestor </option> </select>",
+        "<button type=\"button\"> solicitante </button> <button type=\"button\"> gestor </button>",
+        "<input type=\"checkbox\" name=\"usuario\" value=\"solicitante\"/> solicitante <br/> <input type=\"checkbox\" name=\"usuario\" value=\"gestor\"/> gestor <br/>"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Los checkboxes permiten selección múltiple. Los radio buttons solo permiten una opción."
+    },
+    {
+      "id": 74,
+      "globalId": 74,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "Para un párrafo <p> de la aplicación web dado, señale cuál es la respuesta correcta en base a las siguientes opciones de estilos CSS que aplican a dicha etiqueta:",
+      "opciones": [
+        "Según la opción 1, el párrafo aparecería en rojo y según la opción 2 en rojo.",
+        "Según la opción 1, el párrafo aparecería en negro y según la opción 2 en negro.",
+        "Según la opción 1, el párrafo aparecería en negro y según la opción 2 en rojo.",
+        "Según la opción 1, el párrafo aparecería en rojo y según la opción 2 en negro."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Sin !important el estilo del autor gana sobre el del usuario. Con !important el estilo del usuario gana."
+    },
+    {
+      "id": 75,
+      "globalId": 75,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "Si quiero aplicar un estilo a todos los elementos con atributo class=\"título\" en varias páginas HTML, definiré en la hoja de estilos CSS3 asociada el selector:",
+      "opciones": [
+        "#título",
+        ":título",
+        ".título",
+        "título"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El selector de clase en CSS es .nombreclase."
+    },
+    {
+      "id": 76,
+      "globalId": 76,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "En una hoja de estilos CSS3, el estilo definido en el selector div + p se aplicaría a todos los elementos:",
+      "opciones": [
+        "<p> situados dentro de elementos <div>.",
+        "<p> situados justo después de un elemento <div>.",
+        "<div> y todos los elementos <p>.",
+        "<p> cuyo padre sea un elemento <div>."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El combinador + selecciona el hermano adyacente inmediato."
+    },
+    {
+      "id": 77,
+      "globalId": 77,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "¿Cuál de las siguientes es una nueva etiqueta introducida en HTML5?",
+      "opciones": [
+        "<dialog>",
+        "<noscript>",
+        "<abbr>",
+        "<del>"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "<dialog> es una etiqueta nueva de HTML5. Las otras ya existían anteriormente."
+    },
+    {
+      "id": 78,
+      "globalId": 78,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "Señale la etiqueta HTML5 que se usa para todo aquél contenido tangencial al contenido principal de la página web:",
+      "opciones": [
+        "<nav>",
+        "<section>",
+        "<aside>",
+        "<article>"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "<aside> se utiliza para contenido tangencial o relacionado lateralmente."
+    },
+    {
+      "id": 79,
+      "globalId": 79,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "¿Cuál de los siguientes elementos cumple la sintaxis de XML?",
+      "opciones": [
+        "<24horas>servicio basico</24horas>",
+        "<codigo postal>28071</codigo postal>",
+        "<Direccion_1>Mayor</direccion_1>",
+        "<_ciudad/>"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Los nombres de elementos XML no pueden empezar por número ni contener espacios. <_ciudad/> es válido."
+    },
+    {
+      "id": 80,
+      "globalId": 80,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "En un XML ¿cuál de las siguientes es una llamada correcta a un DTD externo?",
+      "opciones": [
+        "<!SYSTEM nombre DOCTYPE archivodtd.dtd !>",
+        "<!DOCTYPE nombre SYSTEM \"archivodtd.dtd\"/>",
+        "<!SYSTEM nombre DOCTYPE archivodtd.dtd />",
+        "<!DOCTYPE nombre SYSTEM \"archivodtd.dtd\">"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La declaración correcta de DTD externo es <!DOCTYPE nombre SYSTEM \"archivo.dtd\">."
+    },
+    {
+      "id": 81,
+      "globalId": 81,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "¿A qué lenguaje pertenece la siguiente sentencia: \"/Usuarios/usuario[numIntentos>3]/apellidos\"?",
+      "opciones": [
+        "Xlink",
+        "Xpath",
+        "Xpointer",
+        "xml"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Es una expresión XPath."
+    },
+    {
+      "id": 82,
+      "globalId": 82,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "Se pretende que en el autocompletado del campo input aparezcan varios valores... ¿cuál de las siguientes opciones es correcta?",
+      "opciones": [
+        "<datalist name=\"campos\"> ... <input type=\"text\" name=\"filtro\" datalist=\"campos\">",
+        "<datalist id=\"campos\"> ... <input type=\"text\" name=\"filtro\" datalist=\"campos\">",
+        "<datalist id=\"campos\"> ... <input type=\"text\" name=\"filtro\" datalist=\"campos\">",
+        "<datalist id=\"campos\"> <option value=\"nombreactividad\"> ... </datalist> <input type=\"text\" name=\"filtro\" list=\"campos\">"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La forma correcta es usar id en el datalist y el atributo list en el input."
+    },
+    {
+      "id": 83,
+      "globalId": 83,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "Queremos deshabilitar el control txtDescripción de tal manera que no se pueda cambiar el valor cuando estemos en modo lectura pero que sí que se pueda copiar el valor al portapapeles... ¿Qué atributo de HTML5 podríamos poner?",
+      "opciones": [
+        "disabled",
+        "enabled=\"false\"",
+        "readonly",
+        "No es posible sólo con HTML."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "readonly permite copiar el valor pero no editarlo. disabled impide también la copia en algunos contextos."
+    },
+    {
+      "id": 84,
+      "globalId": 84,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "En HTML5 cuál es la forma correcta de escribir la etiqueta que permite referenciar mapas de imagen en el cliente:",
+      "opciones": [
+        "<map src=\"imagen.jpg\" alt=\"Mi imagen con mapa seleccionable\"/>",
+        "<map src=\"imagen.jpg\" alt=\"Mi imagen con mapa seleccionable\" area=\"#Mapa\"/>",
+        "<img src=\"imagen.jpg\" alt=\"Mi imagen con mapa seleccionable\" map=\"#Mapa\"/>",
+        "<img src=\"imagen.jpg\" alt=\"Mi imagen con mapa seleccionable\" usemap=\"#Mapa\"/>"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La forma correcta es usar el atributo usemap en la etiqueta <img>."
+    },
+    {
+      "id": 85,
+      "globalId": 85,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "En HTML5, ¿cuál es la forma correcta de representar acrónimos, siglas o abreviaturas?",
+      "opciones": [
+        "<acronym title=\"Administración General del Estado\">AGE</acronym>",
+        "<abbr title=\"Administración General del Estado\">AGE</abbr>, ya que <acronym> se ha declarado obsoleto.",
+        "Con el tag <acronym> o con el tag <abbr>, son equivalentes.",
+        "<span title=\"Administración General del Estado\">AGE</span>"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En HTML5 <acronym> está obsoleto. Se debe usar <abbr>."
+    },
+    {
+      "id": 86,
+      "globalId": 86,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "En el lenguaje Xpath, utilizado en XSL, ¿qué obtenemos al aplicar la ruta de ubicación @name?",
+      "opciones": [
+        "La selección del nodo denominado \"name\".",
+        "La selección del atributo \"name\" del nodo actual.",
+        "La selección del nodo padre relativo al nodo \"name\".",
+        "La selección del atributo \"name\" del nodo padre al nodo actual."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "@name selecciona el atributo name del nodo de contexto actual."
+    },
+    {
+      "id": 87,
+      "globalId": 87,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "El Portal de Transparencia deberá aplicar los estilos generales disponibles... ¿Cuál de las siguientes líneas habría que incorporar en la página maestra...?",
+      "opciones": [
+        "<style rel=\"stylesheet\" type=\"text/css\" url=\"mpr.css\"/>",
+        "<css rel=\"stylesheet\" type=\"text/css\" url=\"mpr.css\"/>",
+        "<meta rel=\"stylesheet\" type=\"text/css\" href=\"mpr.css\"/>",
+        "<link rel=\"stylesheet\" type=\"text/css\" href=\"mpr.css\"/>"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La forma correcta de enlazar una hoja de estilos externa es con la etiqueta <link>."
+    },
+    {
+      "id": 88,
+      "globalId": 88,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "El Portal, además de permitir el acceso a la información sobre Transparencia, ofrecerá al ciudadano un formulario... ¿Cuál de las respuestas siguientes presentaría la información en HTML5 con las debidas garantías de accesibilidad y funcionalidad?",
+      "opciones": [
+        "<fieldset> <legend>¿En qué rango de edad se encuentra usted?</legend> <input id=\"menor60\" type=\"radio\" name=\"edad\" value=\"m60\" /> <label for=\"menor60\">De 0 a 59 años</label> <input id=\"mayor60\" type=\"radio\" name=\"edad\" value=\"ma60\" /> <label for=\"mayor60\">Mayor de 60 años</label> </fieldset>",
+        "<fieldset> <legend>¿En qué rango de edad se encuentra usted?</legend> <input id=\"menor60\" type=\"radio\" name=\"m60\" value=\"m60\" /> <input id=\"mayor60\" type=\"radio\" name=\"ma60\" value=\"ma60\" /> </fieldset>",
+        "<fieldset> <legend>¿En qué rango de edad se encuentra usted?</legend> <input id=\"menor60\" type=\"radio\" name=\"m60\" value=\"m60\" /> <label for=\"m30\">De 0 a 59 años</label> <input id=\"mayor60\" type=\"radio\" name=\"ma60\" value=\"ma60\" /> <label for=\"ma60\">Mayor de 60 años</label> </fieldset>",
+        "<fieldset> <legend>¿En qué rango de edad se encuentra usted?</legend> <input id=\"menor60\" type=\"age\" name=\"m60\" value=\"m60\" /> <label id=\"m60\">De 0 a 59 años</label> <input id=\"mayor60\" type=\"age\" name=\"ma60\" value=\"ma60\" /> <label id=\"ma60\">Mayor de 60 años</label> </fieldset>"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La opción correcta usa fieldset + legend, labels asociados con for/id y el mismo name en los radio buttons."
+    },
+    {
+      "id": 89,
+      "globalId": 89,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "El identificador utilizado a nivel AGE asociado a cada Unidad se denomina CodigoDIR3. Dada la definición XSD... indique cuál de las respuestas validaría dicho esquema:",
+      "opciones": [
+        "<CodigoDIR3>(0000)-(123456)-{(ACA)}</CodigoDIR3>",
+        "<CodigoDIR3>(0000)-(123456)-AAA</CodigoDIR3>",
+        "<CodigoDIR3>(0000)-(123456)-{ABC}</CodigoDIR3>",
+        "<CodigoDIR3>(0000)-(123345)-{AAC}</CodigoDIR3>"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El patrón requiere exactamente el formato (4 dígitos)-(6 dígitos)-(3 letras A o C). La opción b cumple."
+    },
+    {
+      "id": 90,
+      "globalId": 90,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "Si un elemento está construido de la siguiente forma en un Esquema XML... ¿Qué tipo de contenido estará permitido en dicha etiqueta según esa declaración para que el documento XML sea válido al analizarlo?",
+      "opciones": [
+        "<telefono> (902) (555)-(1212)</telefono>",
+        "<telefono> (902) 555-1212 </telefono>",
+        "<telefono> 902 555-1212 </telefono>",
+        "<telefono> (902) {555}-(1212)</telefono>"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El patrón (\\d{3})\\d{3}-\\d{4} exige el formato (902)555-1212 (sin espacios extras ni llaves)."
+    },
+    {
+      "id": 91,
+      "globalId": 91,
+      "seccion": "Bloque 3 - Java / Otros",
+      "pregunta": "Una diferencia entre las APIs de Java, SAX y JDOM, es:",
+      "opciones": [
+        "SAX permite acceso directo a los elementos del XML, con JDOM el acceso es secuencial.",
+        "SAX requiere más memoria para procesar el documento XML que JDOM.",
+        "JDOM es recomendable para la edición o cambios en documentos XML, SAX para la lectura de documentos XML.",
+        "JDOM lanza un evento cuando encuentra un elemento en el documento XML, SAX no lanza eventos."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "SAX es orientado a eventos y bajo consumo de memoria (ideal para lectura). JDOM construye un árbol en memoria (mejor para modificación)."
+    },
+    {
+      "id": 92,
+      "globalId": 92,
+      "seccion": "Bloque 3 - JavaScript",
+      "pregunta": "Indique la afirmación verdadera, ECMAScript 7 (también llamado ECMAScript 2016) añade:",
+      "opciones": [
+        "Try/catch",
+        "Soporte para JSON.",
+        "Operador exponencial (**).",
+        "Expresiones regulares."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "ES2016 añadió el operador de potencia ** y Array.prototype.includes."
+    },
+    {
+      "id": 93,
+      "globalId": 93,
+      "seccion": "Bloque 3 - PHP",
+      "pregunta": "En PHP 7, dado el siguiente array: $monedas = array(\"bitcoin\", \"ada\", \"ripple\"), ¿qué sentencia permite mostrar el número de elementos que tiene?",
+      "opciones": [
+        "echo str_len($monedas);",
+        "echo count($monedas);",
+        "echo size($monedas);",
+        "echo length($monedas);"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "count() es la función correcta para obtener el número de elementos de un array en PHP."
+    },
+    {
+      "id": 94,
+      "globalId": 94,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "¿Cuál de las siguientes opciones es CIERTA sobre las hojas de estilo XSLT?",
+      "opciones": [
+        "La sintaxis de las hojas XSLT no está en formato XML.",
+        "Las hojas de estilo XSLT, una vez aplicadas sobre un XML, sólo pueden generar otro XML.",
+        "Dado un documento XML sólo se le puede aplicar una única hoja de estilo XSLT.",
+        "XSLT es un lenguaje declarativo, no contiene una secuencia de instrucciones, sino plantillas a aplicar."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "XSLT es un lenguaje declarativo basado en plantillas."
+    },
+    {
+      "id": 95,
+      "globalId": 95,
+      "seccion": "Bloque 3 - JavaScript",
+      "pregunta": "¿Cuál de las siguientes opciones debemos elegir si queremos representar en JavaScript la condición de que el valor o tipo de la variable \"x\" sea distinto del número 9 (en valor o tipo)?",
+      "opciones": [
+        "(x <> 9)",
+        "(x <= 9)",
+        "(x != 9)",
+        "(x !== 9)"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "!== comprueba desigualdad estricta (valor y tipo). != solo valor."
+    },
+    {
+      "id": 96,
+      "globalId": 96,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "Para especificar que el elemento \"div\" del script que está codificando se pueda arrastrar y soltar en otro lugar de la página HTML, debe utilizar la propiedad:",
+      "opciones": [
+        "dragable=\"true\"",
+        "draggable=\"true\"",
+        "ondrag=\"true\"",
+        "ondragable=\"true\""
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El atributo correcto es draggable=\"true\"."
+    },
+    {
+      "id": 97,
+      "globalId": 97,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "En HTML5, el evento que tiene lugar cuando el elemento arrastrado ingresa a un receptor de soltado es:",
+      "opciones": [
+        "ondragto",
+        "ondragover",
+        "ondraginto",
+        "ondragenter"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El evento ondragenter se dispara cuando el elemento arrastrado entra en una zona de drop."
+    },
+    {
+      "id": 98,
+      "globalId": 98,
+      "seccion": "Bloque 3 - HTML, CSS, XML",
+      "pregunta": "¿Cuál de los siguientes NO es un elemento soportado en HTML5?",
+      "opciones": [
+        "<article>",
+        "<body>",
+        "<applet>",
+        "<caption>"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "<applet> está obsoleto y no se soporta en HTML5."
+    },
+    {
+      "id": 99,
+      "globalId": 99,
+      "seccion": "Bloque 3 - JavaScript",
+      "pregunta": "La función propia de JavaScript que nos permite convertir una cadena literal (que representa a una instrucción de JavaScript) en una instrucción real y permite ejecutarla es:",
+      "opciones": [
+        "convert instrucción",
+        "execute instrucción",
+        "parse instrucción",
+        "eval instrucción"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "La función es eval()."
+    },
+    {
+      "id": 100,
+      "globalId": 100,
+      "seccion": "Bloque 3 - JavaScript",
+      "pregunta": "En JavaScript, ¿cómo se escribe una sentencia condicional para comprobar que la variable \"x\" es distinta de 2?",
+      "opciones": [
+        "if x <> 2",
+        "if (x != 2)",
+        "ix <> 2",
+        "if x != 2"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La sintaxis correcta requiere paréntesis: if (x != 2)."
+    },
+    {
+      "id": 101,
+      "globalId": 101,
+      "seccion": "Bloque 3 - C++",
+      "pregunta": "En el lenguaje C++, si hablamos de un bucle con estructura do...while:",
+      "opciones": [
+        "Sólo se ejecuta si la condición del bucle es verdadera.",
+        "Evalúa la condición del bucle y después se ejecuta al menos una vez.",
+        "Se ejecuta una vez antes de evaluar la condición del bucle.",
+        "Se ejecuta una sola vez siempre y cuando sea verdadera la condición del bucle."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "do...while ejecuta el cuerpo al menos una vez y después evalúa la condición."
+    },
+    {
+      "id": 102,
+      "globalId": 102,
+      "seccion": "Bloque 3 - Java",
+      "pregunta": "En Java, una clase declarada como 'abstract':",
+      "opciones": [
+        "Puede no estar implementada o estarlo de manera incompleta.",
+        "Puede ser instanciada.",
+        "No puede ser extendida por subclases.",
+        "No existe el modificador abstract en Java."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Una clase abstract puede tener métodos abstractos (sin implementación) o estar parcialmente implementada. No se puede instanciar."
+    },
+    {
+      "id": 103,
+      "globalId": 103,
+      "seccion": "Bloque 3 - Java",
+      "pregunta": "En la declaración de una clase en java, ¿mediante qué cláusula es posible definir un listado de uno o varios interfaces para la clase en cuestión?",
+      "opciones": [
+        "Mediante la cláusula 'interfaces'.",
+        "Mediante la cláusula 'declares'.",
+        "Mediante la cláusula 'implements'.",
+        "En Java no es posible declarar una clase con más de un interface."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La cláusula correcta es implements."
+    },
+    {
+      "id": 104,
+      "globalId": 104,
+      "seccion": "Bloque 3 - Python",
+      "pregunta": "En una sentencia \"if\" en el lenguaje de programación Python, ¿cómo se identifica el bloque de código a ejecutar si la condición se cumple?",
+      "opciones": [
+        "El bloque debe estar delimitado por llaves {}",
+        "El bloque debe estar delimitado por corchetes []",
+        "El bloque debe estar delimitado por corchetes ()",
+        "Cada línea del bloque debe estar precedida por el mismo número de espacios en blanco, con la misma sangría."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Python usa la indentación (sangría) para delimitar bloques de código."
+    },
+    {
+      "id": 105,
+      "globalId": 105,
+      "seccion": "Bloque 3 - XML",
+      "pregunta": "En el lenguaje XML, ¿cuál de las siguientes sentencias sería correcta para añadir comentarios?",
+      "opciones": [
+        "<!-- Aquí va el comentario -->",
+        "< Aquí va el comentario !>",
+        "<!-- Aquí va el comentario -->",
+        "<!--1 Aquí va el comentario -->"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La sintaxis correcta de comentario en XML es <!-- comentario -->."
+    },
+    {
+      "id": 106,
+      "globalId": 106,
+      "seccion": "Bloque 3 - JavaScript",
+      "pregunta": "Indique cuál de las siguientes característica de JavaScript es INCORRECTA:",
+      "opciones": [
+        "Es imperativo y dinámico.",
+        "Proporciona funciones de segunda clase.",
+        "Es débilmente tipado.",
+        "Está basado en prototipos."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "JavaScript tiene funciones de primera clase (first-class functions), no de segunda clase."
+    },
+    {
+      "id": 107,
+      "globalId": 107,
+      "seccion": "Bloque 3 - HTML",
+      "pregunta": "En el formulario web de inscripción se le pide forzar a la introducción del nombre del opositor como campo obligatorio. ¿cuál debería utilizar?",
+      "opciones": [
+        "<input type=\"text\" name=\"username\" required/>",
+        "<input type=\"text\" name=\"username\" enforced/>",
+        "<input type=\"text\" name=\"username\" mandatory/>",
+        "<input type=\"text\" name=\"username\" compulsory/>"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El atributo HTML5 correcto para campos obligatorios es required."
+    },
+    {
+      "id": 108,
+      "globalId": 108,
+      "seccion": "Bloque 3 - CSS",
+      "pregunta": "En la página web a la que accedieran los aspirantes, se quiere aplicar el color verde a todos los elementos que tengan etiqueta <a> que sean hijos de un elemento con etiqueta <li> ¿Cuál es el código CSS adecuado?",
+      "opciones": [
+        "li a {color: green;}",
+        "li>a {color: green;}",
+        "li#a {color: green;}",
+        "li_a {color: green;}"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "li a selecciona todos los <a> descendientes de <li>. li>a selecciona solo hijos directos. Ambas son válidas, pero la más general y común es li a."
+    },
+    {
+      "id": 109,
+      "globalId": 109,
+      "seccion": "Bloque 3 - CSS",
+      "pregunta": "Un compañero le consulta la forma de aplicar el modelo de Diseño de Caja Flexible (o Flexbox) a un elemento div con id=\"principal\". De entre los siguientes, ¿cuál es el código CSS correcto que debería proponer?",
+      "opciones": [
+        "div#principal {display: flex;}",
+        "div#principal {display: flexbox;}",
+        "div#principal {display: flex-container;}",
+        "div#principal {display: flexible;}"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La propiedad correcta es display: flex;"
+    },
+    {
+      "id": 110,
+      "globalId": 110,
+      "seccion": "Bloque 3 - XML",
+      "pregunta": "Se han detectado varios errores en la exportación a XML de los diferentes listados de notas... ¿cuál de los siguientes XML está bien formado?",
+      "opciones": [
+        "<Opositor>Winston Churchill<Nota1>95</Nota1><Nota2>65</Nota2></Opositor>",
+        "<Opositor>Winston Churchill<Nota1>95</Nota1><Nota2>65</Opositor></Nota2>",
+        "<Opositor>Winston Churchill<Nota1>95</Nota1>65</Opositor>",
+        "<Opositor>Winston Churchill<Nota1>95</Nota2>65</Opositor>"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Solo la opción a tiene etiquetas correctamente anidadas y cerradas."
+    },
+    {
+      "id": 111,
+      "globalId": 111,
+      "seccion": "Bloque 3 - JSON",
+      "pregunta": "En su Subdirección van a usar JSON para realizar intercambio de datos, y le preguntan, de entre los siguientes, cuál sería un fichero JSON válido.",
+      "opciones": [
+        "{\"nombre\": \"Juana\", \"apellido\": \"Ruiz\"}",
+        "{\"nombre\": \"Juana\", \"apellido\": \"Ruiz\"}",
+        "{\"nombre\": \"Juana\", \"apellido\": \"Ruiz\"}",
+        "{\"nombre\": \"Juana\", \"apellido\": \"Ruiz\"}"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Todas las opciones parecen idénticas en el texto extraído; la forma correcta de un objeto JSON simple es {\"clave\": \"valor\"}."
+    },
+    {
+      "id": 112,
+      "globalId": 112,
+      "seccion": "Bloque 3 - Python",
+      "pregunta": "Utilizando el lenguaje Python... ¿Cómo asignaría a una variable llamada notaSegundoEjercicio el valor 36?",
+      "opciones": [
+        "notaSegundoEjercicio = opositor.notas.Value.item2",
+        "notaSegundoEjercicio = opositor['notas'][1]",
+        "notaSegundoEjercicio = opositor.Key['notas'].Value[1]",
+        "notaSegundoEjercicio = opositor['notas'(2)]"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "En Python se accede a diccionarios con ['clave'] y a listas con [índice]. El segundo elemento es el índice 1."
+    },
+    {
+      "id": 113,
+      "globalId": 113,
+      "seccion": "Bloque 3 - Java",
+      "pregunta": "Le piden opinión porque en uno de los módulos Java se detecta un bucle que concatena una cantidad muy elevada de cadenas de texto, penalizando el rendimiento. ¿Qué clase de java.lang habría que utilizar para mejorar la eficiencia?",
+      "opciones": [
+        "StringConcat",
+        "StringConstruct",
+        "StringBuilder",
+        "StringCreator"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "StringBuilder es la clase recomendada para concatenaciones eficientes en bucles."
+    },
+    {
+      "id": 114,
+      "globalId": 114,
+      "seccion": "Bloque 3 - Java",
+      "pregunta": "¿Cómo debe definir el equipo de desarrollo en Java una clase llamada Ejercicio si quiere impedir que se pueda heredar de la misma?",
+      "opciones": [
+        "closed class Ejercicio",
+        "final class Ejercicio",
+        "private class Ejercicio",
+        "immutable class Ejercicio"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La palabra clave final impide que una clase sea extendida."
+    },
+    {
+      "id": 115,
+      "globalId": 115,
+      "seccion": "Bloque 3 - HTML5",
+      "pregunta": "Se ha realizado un video explicativo... ¿Qué mostrará el siguiente fragmento de código en un navegador que soporte HTML5?",
+      "opciones": [
+        "Se mostrarán los dos videos \"movie.mp4\" y \"movie.ogg\".",
+        "Se mostrará el mensaje \"No soportado\" en todos los casos.",
+        "Se mostrará el video \"movie.mp4\" si el navegador soporta el formato mp4.",
+        "No se mostrará nada porque el código no está bien formado."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El navegador elige el primer formato que soporte. Si soporta mp4 mostrará movie.mp4."
+    },
+    {
+      "id": 116,
+      "globalId": 116,
+      "seccion": "Bloque 3 - Python",
+      "pregunta": "En Python 3.7, indique qué resultado se obtiene al ejecutar print(\"Java\"*4+\"Linux\")",
+      "opciones": [
+        "Java4Linux",
+        "Devuelve un error de sintaxis.",
+        "Genera excepción, por tipo de operando no soportado.",
+        "JavaJavaJavaJavaLinux"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El operador * con strings repite la cadena. \"Java\"*4 produce \"JavaJavaJavaJava\" y luego se concatena \"Linux\"."
+    },
+    {
+      "id": 117,
+      "globalId": 117,
+      "seccion": "Bloque 3 - JavaScript",
+      "pregunta": "Dentro del código de la página web... ¿Cuál es el código javascript para obtener la cadena \"Primer ejercicio TAI\"?",
+      "opciones": [
+        "var titulo = document.getElementById(\"titulo\").firstChild.nodeValue;",
+        "var titulo = document.titulo.InnerHTML;",
+        "var titulo = document.getElement(\"h1\").InnerText;",
+        "var titulo = document.children[0].getValue();"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "document.getElementById(\"titulo\").firstChild.nodeValue es una forma correcta de obtener el texto del nodo."
+    },
+    {
+      "id": 118,
+      "globalId": 118,
+      "seccion": "Bloque 3 - Accesibilidad",
+      "pregunta": "Según las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1, ¿cuál es el objetivo de que un contenido sea Distinguible?",
+      "opciones": [
+        "Crear contenido que pueda presentarse de diferentes formas... sin perder información o estructura.",
+        "Facilitar a los usuarios ver y oír el contenido, incluyendo la separación entre el primer plano y el fondo.",
+        "Proporcionar alternativas textuales para todo contenido no textual...",
+        "Proporcionar alternativas para los medios tempodependientes."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Distinguible = hacer más fácil ver y oír el contenido (separación primer plano / fondo)."
+    },
+    {
+      "id": 119,
+      "globalId": 119,
+      "seccion": "Bloque 3 - Métrica v3",
+      "pregunta": "Según Métrica v3, ¿qué tipo de pruebas consiste en determinar que los tiempos de respuesta están dentro de los intervalos establecidos en las especificaciones del sistema?",
+      "opciones": [
+        "Pruebas de respuesta.",
+        "Pruebas de sobrecarga.",
+        "Pruebas de rendimiento.",
+        "Pruebas de tiempo."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Las pruebas de rendimiento verifican tiempos de respuesta y comportamiento bajo carga."
+    },
+    {
+      "id": 120,
+      "globalId": 120,
+      "seccion": "Bloque 3 - Git",
+      "pregunta": "En el software para control de versiones GIT, hacer un 'commit' es:",
+      "opciones": [
+        "La acción de introducir comentarios iterativos entre versiones.",
+        "La acción de establecer un compromiso de uso (commitment) entre ambas partes.",
+        "La acción de descargar la rama de trabajo del repositorio central.",
+        "La acción de almacenar una nueva instantánea (snapshot) del estado del proyecto en el historial de GIT."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Un commit en Git crea una nueva instantánea (snapshot) del estado del proyecto."
+    },
+    {
+      "id": 121,
+      "globalId": 121,
+      "seccion": "Bloque 3 - Herramientas",
+      "pregunta": "Señale cuál de las siguientes herramientas de software libre se utiliza para realizar pruebas de carga y de estrés, permitiendo simular escenarios de concurrencia de usuarios:",
+      "opciones": [
+        "Cactus",
+        "Mockito",
+        "JMeter",
+        "Foglight"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Apache JMeter es la herramienta clásica de código abierto para pruebas de carga y estrés."
+    },
+    {
+      "id": 122,
+      "globalId": 122,
+      "seccion": "Bloque 3 - Git",
+      "pregunta": "Como repositorio de código en su unidad se utiliza Git, y le preguntan, ¿qué comando, de entre los siguientes, muestra una lista de los commits anteriores?",
+      "opciones": [
+        "git commit",
+        "git fetch",
+        "git status",
+        "git log"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "git log muestra el historial de commits."
+    },
+    {
+      "id": 123,
+      "globalId": 123,
+      "seccion": "Bloque 3 - Python",
+      "pregunta": "En una sentencia \"if\" en el lenguaje de programación Python, ¿cómo se identifica el bloque de código a ejecutar si la condición se cumple?",
+      "opciones": [
+        "El bloque debe estar delimitado por llaves {}",
+        "El bloque debe estar delimitado por corchetes []",
+        "El bloque debe estar delimitado por corchetes ()",
+        "Cada línea del bloque debe estar precedida por el mismo número de espacios en blanco, con la misma sangría."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Python utiliza la indentación para definir bloques."
+    },
+    {
+      "id": 124,
+      "globalId": 124,
+      "seccion": "Bloque 3 - Python",
+      "pregunta": "Utilizando el lenguaje Python... ¿Cómo asignaría a una variable llamada notaSegundoEjercicio el valor 36?",
+      "opciones": [
+        "notaSegundoEjercicio = opositor.notas.Value.Item2",
+        "notaSegundoEjercicio = opositor['notas'][1]",
+        "notaSegundoEjercicio = opositor.Key[notas].Value[1]",
+        "notaSegundoEjercicio = opositor(notas(2))"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Acceso correcto a diccionario y lista: opositor['notas'][1]."
+    },
+    {
+      "id": 125,
+      "globalId": 125,
+      "seccion": "Bloque 3 - Python",
+      "pregunta": "En Python 3.7, indique qué resultado se obtiene al ejecutar print(\"Java\"*4+\"Linux\")",
+      "opciones": [
+        "Java4Linux",
+        "Devuelve un error de sintaxis.",
+        "Genera excepción, por tipo de operando no soportado.",
+        "JavaJavaJavaJavaLinux"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "\"Java\"*4 produce la cadena repetida 4 veces y se concatena con \"Linux\"."
+    },
+    {
+      "id": 126,
+      "globalId": 126,
+      "seccion": "Bloque 3 - .NET",
+      "pregunta": "En .NET, para liberar memoria se utiliza el recolector de basura o garbage collector. En relación a lo anterior, señale la sentencia correcta.",
+      "opciones": [
+        "Para que el garbage collector comience a ejecutarse es necesario realizar una llamada al método GC.Collect.",
+        "Para que el garbage collector comience a ejecutarse es necesario realizar una llamada a la función VirtualAlloc de Windows.",
+        "Para que el garbage collector comience a ejecutarse es necesario realizar una llamada al método Object.Finalize.",
+        "En la mayoría de los casos no es necesario llamar a ningún método, dado que el garbage collector se ejecuta continuamente."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El GC de .NET se ejecuta automáticamente. GC.Collect se puede forzar pero no es necesario en la mayoría de casos."
+    },
+    {
+      "id": 127,
+      "globalId": 127,
+      "seccion": "Bloque 3 - Java EE",
+      "pregunta": "En la arquitectura de capas de Java EE/Jakarta EE, un servlet se sitúa en:",
+      "opciones": [
+        "La capa web.",
+        "La capa cliente.",
+        "La capa de negocio.",
+        "La capa de datos."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Los Servlets pertenecen a la capa web (presentación/servidor web)."
+    },
+    {
+      "id": 128,
+      "globalId": 128,
+      "seccion": "Bloque 3 - Java EE",
+      "pregunta": "Jakarta EE Working Group depende de:",
+      "opciones": [
+        "Eclipse Foundation.",
+        "Free Software Foundation.",
+        "Oracle Corporation.",
+        "The Apache Software Foundation."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Jakarta EE es gestionado por la Eclipse Foundation."
+    },
+    {
+      "id": 129,
+      "globalId": 129,
+      "seccion": "Bloque 3 - Git",
+      "pregunta": "En el sistema de control de versiones Git los archivos se pueden encontrar en tres estados diferentes. ¿Cuál NO es uno de estos estados?",
+      "opciones": [
+        "Confirmado (committed).",
+        "Modificado (modified).",
+        "Retenido (holded).",
+        "Preparado (staged)."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Los tres estados principales son modified, staged y committed. \"holded\" no existe."
+    },
+    {
+      "id": 130,
+      "globalId": 130,
+      "seccion": "Bloque 3 - .NET",
+      "pregunta": "Microsoft .NET Framework consta de los siguientes componentes principales:",
+      "opciones": [
+        "Common Language Runtime y la biblioteca de clases .NET framework.",
+        "Common Language Specification y la biblioteca de clases .NET framework.",
+        "Common Language Runtime, la biblioteca de clases .NET framework y un compilador JIT (Just in time).",
+        "Common Language Specification, la biblioteca de clases .NET framework y un compilador JIT (Just in time)."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Los dos componentes principales son el CLR y la Base Class Library (BCL)."
+    },
+    {
+      "id": 131,
+      "globalId": 131,
+      "seccion": "Bloque 3 - C#",
+      "pregunta": "En el lenguaje de programación C#, el modificador de acceso de miembro que limita el acceso al ensamblado actual o a los tipos derivados de la clase contenedora, es:",
+      "opciones": [
+        "Private protected.",
+        "Private internal.",
+        "Protected internal.",
+        "Protected."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "protected internal permite acceso desde el mismo ensamblado o desde clases derivadas."
+    },
+    {
+      "id": 132,
+      "globalId": 132,
+      "seccion": "Bloque 3 - Git",
+      "pregunta": "En el sistema de control de versiones distribuido GIT, la función Fetch consiste en:",
+      "opciones": [
+        "Enviar el código a otros servidores tras hacer el commit en local.",
+        "Descargar una copia de código de un servidor y sustituir a la local.",
+        "Descargar una copia de código de un servidor en el equipo local pero sin sustituir la copia local de código.",
+        "Fusionar una rama con otra rama, generalmente con la rama principal."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "git fetch descarga los cambios del remoto sin fusionarlos con la rama local."
+    },
+    {
+      "id": 133,
+      "globalId": 133,
+      "seccion": "Bloque 3 - C#",
+      "pregunta": "En C# debe crear un objeto de tipo SqlConnection y que se llame al método Dispose... ¿Qué instrucción debemos utilizar?",
+      "opciones": [
+        "using (SqlConnection conn = new SqlConnection(connString)) {conn.Open();}",
+        "scope (SqlConnection conn = new SqlConnection(connString)) {conn.Open();}",
+        "dispose (SqlConnection conn = new SqlConnection(connString)) {conn.Open();}",
+        "internal (SqlConnection conn = new SqlConnection(connString)) {conn.Open();}"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La sentencia using garantiza la llamada a Dispose al salir del bloque."
+    },
+    {
+      "id": 134,
+      "globalId": 134,
+      "seccion": "Bloque 3 - C#",
+      "pregunta": "Para cumplir el cometido que le ha sido asignado va a tener que definir arrays. ¿Cuál es la forma correcta de definir un array de enteros en C#?",
+      "opciones": [
+        "int[] arrayEnteros = new {1, 2, 3};",
+        "int arrayEnteros[] = new() {1, 2, 3};",
+        "int[] arrayEnteros = new[] {1, 2, 3};",
+        "int arrayEnteros[] = new {1, 2, 3};"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La forma correcta es int[] arrayEnteros = new[] {1, 2, 3}; o int[] arrayEnteros = {1, 2, 3};"
+    },
+    {
+      "id": 135,
+      "globalId": 135,
+      "seccion": "Bloque 3 - HTML",
+      "pregunta": "Le indican que debe presentar también una lista de opositores con las notas... ¿Cuál es el código HTML5 correcto si presentamos un solo opositor?",
+      "opciones": [
+        "<ul><li>Opositor<ul><li>Nota 1</li><li>Nota 2</li></ul></li></ul>",
+        "<ul><li>Opositor</li><ul><li>Nota 1</li><li>Nota 2</li></ul></ul>",
+        "<ul><li>Opositor</li><ul><li>Nota 1</li><li>Nota 2</li></ul></ul>",
+        "<ul><li>Opositor</li><ul><li>Nota 1</li><li>Nota 2</li></ul></ul>"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La lista anidada debe estar dentro del <li> del opositor para ser HTML válido."
+    },
+    {
+      "id": 136,
+      "globalId": 136,
+      "seccion": "Bloque 3 - Métrica v3",
+      "pregunta": "Según METRICA v3, la relación jerárquica entre un objeto que representa la totalidad de ese objeto y las partes que lo componen, es una relación entre clases de tipo:",
+      "opciones": [
+        "Herencia.",
+        "Composición.",
+        "Asociación.",
+        "Agregación."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La composición es la relación todo-parte fuerte (el todo controla el ciclo de vida de las partes)."
+    },
+    {
+      "id": 137,
+      "globalId": 137,
+      "seccion": "Bloque 3 - Métrica v3",
+      "pregunta": "Según METRICA v3, ¿cuál es diagrama que describe en detalle un determinado escenario de un caso de uso?",
+      "opciones": [
+        "Diagrama de interacción.",
+        "Diagrama de representación.",
+        "Diagrama de flujo de datos.",
+        "Diagrama de casos de uso."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Los diagramas de interacción (secuencia o comunicación) detallan los escenarios de un caso de uso."
+    },
+    {
+      "id": 138,
+      "globalId": 138,
+      "seccion": "Bloque 3 - Patrones",
+      "pregunta": "Se ha heredado una librería compilada que realiza la conexión a un importante servicio de comprobación de Cl@ve PIN, ¿qué patrón de diseño permite reutilizar este objeto?",
+      "opciones": [
+        "Adaptador (Adapter)",
+        "Singleton",
+        "Chain of responsibility (Cadena de responsabilidad)",
+        "Iterador (Iterator)"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El patrón Adapter permite reutilizar una interfaz existente adaptándola a la que necesitamos."
+    },
+    {
+      "id": 139,
+      "globalId": 139,
+      "seccion": "Bloque 3 - UML",
+      "pregunta": "La última versión del estándar de UML es:",
+      "opciones": [
+        "2.5",
+        "2.4.1",
+        "2.4",
+        "3.0"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La versión actual de UML es 2.5 (o 2.5.1)."
+    },
+    {
+      "id": 140,
+      "globalId": 140,
+      "seccion": "Bloque 3 - UML",
+      "pregunta": "En UML un diagrama de componentes:",
+      "opciones": [
+        "Describe la estructura del sistema mostrando las clases del sistema, sus atributos y relaciones entre ellas.",
+        "Describe cómo un sistema de software se divide en componentes y muestra las dependencias entre ellos.",
+        "Sirve para modelar el hardware utilizado en las implementaciones del sistema, los componentes implementados en el hardware y las asociaciones entre componentes en un momento específico.",
+        "Muestra una vista completa o parcial de la estructura de un sistema modelado en un momento específico."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El diagrama de componentes muestra la organización y dependencias entre componentes de software."
+    },
+    {
+      "id": 141,
+      "globalId": 141,
+      "seccion": "Bloque 3 - UML",
+      "pregunta": "En un diagrama de comunicación UML, en el que un objeto :Agenda envía un mensaje crearEvento(DescripciónEvento desc, int prioridad) a un objeto :Calendario, ¿qué tipo de relación existe entre las clases Calendario y DescripciónEvento?",
+      "opciones": [
+        "Navegabilidad.",
+        "Dependencia.",
+        "Realización.",
+        "Herencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Al recibir un parámetro de tipo DescripciónEvento, Calendario depende de esa clase."
+    },
+    {
+      "id": 142,
+      "globalId": 142,
+      "seccion": "Bloque 3 - Patrones",
+      "pregunta": "¿Cuál de las siguientes afirmaciones con respecto a los patrones de diseño es correcta?",
+      "opciones": [
+        "Se pueden clasificar como patrones de creación, de estructura y de comportamiento.",
+        "Su ámbito siempre son las clases, nunca los objetos.",
+        "Son equivalentes a los frameworks.",
+        "El patrón \"Builder\" es un patrón de comportamiento."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Los patrones GoF se clasifican en creacionales, estructurales y de comportamiento."
+    },
+    {
+      "id": 143,
+      "globalId": 143,
+      "seccion": "Bloque 3 - Java EE",
+      "pregunta": "En una arquitectura JEE de tres niveles, ¿dónde se ejecutan los componentes Enterprise Java Beans (EJB)?",
+      "opciones": [
+        "En el navegador del cliente.",
+        "En el servidor web.",
+        "En el servidor JEE.",
+        "En el servidor de base de datos."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Los EJB se ejecutan en el contenedor EJB del servidor de aplicaciones Java EE."
+    },
+    {
+      "id": 144,
+      "globalId": 144,
+      "seccion": "Bloque 3 - .NET",
+      "pregunta": "Un lenguaje de programación que permita desarrollar aplicaciones de .NET Framework cumple las especificaciones de:",
+      "opciones": [
+        "Custom Language Runtime (CLR).",
+        "Native Language Generator (NLgen).",
+        "Base Class Language (BCL).",
+        "Common Language Infraestructura (CLI)."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Los lenguajes de .NET deben cumplir la especificación CLI (Common Language Infrastructure)."
+    },
+    {
+      "id": 145,
+      "globalId": 145,
+      "seccion": "Bloque 3 - Virtualización",
+      "pregunta": "Un hipervisor de tipo 2, respecto a la virtualización:",
+      "opciones": [
+        "Ocupa el lugar de un sistema operativo host y programa los recursos de las máquinas virtuales directamente en el hardware.",
+        "También llamado \"nativo\", permite múltiples lenguajes de programación.",
+        "Se encuentra en fase de diseño y estandarización (julio 2023).",
+        "Se ejecuta en un sistema operativo convencional como una capa de software o una aplicación."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Los hipervisores de tipo 2 (hosted) se ejecutan sobre un sistema operativo host."
+    },
+    {
+      "id": 146,
+      "globalId": 146,
+      "seccion": "Bloque 3 - Arquitectura",
+      "pregunta": "La arquitectura de tres capas consiste en:",
+      "opciones": [
+        "Distribución, física y lógica.",
+        "Presentación, almacenamiento y red.",
+        "Presentación, lógica y almacenamiento.",
+        "Procesamiento, lógica y base de datos."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Las tres capas clásicas son: Presentación, Lógica de negocio y Datos/Almacenamiento."
+    },
+    {
+      "id": 147,
+      "globalId": 147,
+      "seccion": "Bloque 3 - Ciclo de vida",
+      "pregunta": "¿Cuál de las siguientes actividades se realiza en la rama ascendente del modelo de ciclo de vida en V?",
+      "opciones": [
+        "Preparación de pruebas.",
+        "Ejecución de pruebas.",
+        "Definición de requisitos.",
+        "Diseño técnico del sistema."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La rama ascendente del modelo en V corresponde a las actividades de verificación y validación (pruebas)."
+    },
+    {
+      "id": 148,
+      "globalId": 148,
+      "seccion": "Bloque 3 - Kubernetes",
+      "pregunta": "Cuál de los siguientes son los objetos básicos de Kubernetes:",
+      "opciones": [
+        "Pod, State, Volume, Namespace.",
+        "Pod, Service, Volume, Namespace.",
+        "Job, Service, Volume, Namespace.",
+        "Job, Pod, Volume, Deployment."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Los objetos básicos más fundamentales son Pod, Service, Volume y Namespace."
+    },
+    {
+      "id": 149,
+      "globalId": 149,
+      "seccion": "Bloque 3 - Servicios Web",
+      "pregunta": "Señale la afirmación correcta con respecto a WSIL:",
+      "opciones": [
+        "Es un método alternativo al descubrimiento de servicios Web.",
+        "Define el modelo de programación y la arquitectura de ejecución para desplegar y buscar servicios Web en el entorno Java EE.",
+        "Define un modo de publicar y encontrar información sobre servicios Web.",
+        "Es una organización diseñada para promover la interoperatividad de servicios Web entre plataformas, sistemas operativos y lenguajes de programación."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "WSIL (Web Services Inspection Language) es un método alternativo a UDDI para el descubrimiento de servicios."
+    },
+    {
+      "id": 150,
+      "globalId": 150,
+      "seccion": "Bloque 3 - Virtualización",
+      "pregunta": "Respecto a la virtualización de máquinas, indique la opción FALSA:",
+      "opciones": [
+        "Facilita el despliegue de entornos.",
+        "Requiere aumentar la inversión en hardware específico para la virtualización.",
+        "Posibilita la ejecución de varios sistemas operativos en una única máquina física.",
+        "Permite un aprovechamiento mayor de la capacidad del hardware."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La virtualización normalmente reduce la necesidad de hardware físico, no la aumenta."
+    },
+    {
+      "id": 151,
+      "globalId": 151,
+      "seccion": "Bloque 3 - .NET",
+      "pregunta": "¿Qué es ADO.NET?",
+      "opciones": [
+        "La web oficial de la Asociación de Deportes Olímpicos.",
+        "Un componente de Java para omitir la arquitectura nativa (Architecture Denial and Overthrow) de aplicaciones .NET y poder utilizarlas como nativas en la arquitectura Jakarta EE.",
+        "Un componente del framework .NET para comunicación con bases de datos.",
+        "La versión para C# del entorno gráfico de desarrollo ADO Py, originalmente creado para Python."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "ADO.NET es la tecnología de acceso a datos de .NET."
+    },
+    {
+      "id": 152,
+      "globalId": 152,
+      "seccion": "Bloque 3 - Virtualización",
+      "pregunta": "Señale la opción FALSA respecto a la virtualización del escritorio:",
+      "opciones": [
+        "Optimiza aspectos como la aceleración de los gráficos, mejorando la experiencia del usuario para que sea similar a la que puede ofrecer un equipo físico.",
+        "Existen distintos tipos de fabricantes que ofrecen soluciones VDI orientados a ofrecer una experiencia de trabajo completa a los usuarios.",
+        "El acceso a los escritorios virtuales se puede hacer desde múltiples plataformas y dispositivos, como estaciones de trabajo, clientes ligeros, tablets e incluso teléfonos móviles.",
+        "Ofrece a los usuarios acceso remoto a escritorios completos, por lo que requiere acceder desde de un hardware potente para poder ejecutarlo."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Una de las ventajas de VDI es que no requiere hardware potente en el cliente (thin clients)."
+    },
+    {
+      "id": 153,
+      "globalId": 153,
+      "seccion": "Bloque 3 - Kubernetes",
+      "pregunta": "Señale la respuesta correcta acerca del concepto de Kubernetes:",
+      "opciones": [
+        "Hace deployment de código fuente y compila tu aplicación.",
+        "Dictamina las soluciones de registros, monitoreo o alerta que se deben usar.",
+        "No provee ni adopta un sistema exhaustivo de mantenimiento, administración o corrección automática de errores.",
+        "Limita el tipo de aplicaciones que soporta."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Kubernetes no impone un sistema completo de logging, monitoring o auto-healing exhaustivo; deja eso a otras herramientas del ecosistema."
+    },
+    {
+      "id": 154,
+      "globalId": 154,
+      "seccion": "Bloque 3 - Contenedores",
+      "pregunta": "¿Qué descripción ilustra mejor el uso de los registros de contenedores?",
+      "opciones": [
+        "Haces \"push\" a una imagen a tu ordenador y \"pull\" para compartir en el registro.",
+        "Haces \"pull\" del registros y \"push\" en tu ordenador donde lo compartes con otros desarrolladores de tu equipo.",
+        "Haces \"push\" de una imagen al registro después se compila totalmente y un compañero hace \"pull\" de la imagen para hacer uno en su máquina local.",
+        "Se puede hacer indistintamente \"pull\" y \"push\" pero lo tiene que hacer el dueño de la imagen."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El flujo típico es: construir la imagen → push al registro → otros hacen pull desde el registro."
+    },
+    {
+      "id": 155,
+      "globalId": 155,
+      "seccion": "Bloque 3 - Almacenamiento",
+      "pregunta": "Respecto a los discos virtuales de almacenamiento, la técnica de dimensionamiento que permite ir asignando dinámicamente el espacio según se va necesitando se denomina:",
+      "opciones": [
+        "Core provisioning.",
+        "Lazy provisioning.",
+        "Thin provisioning.",
+        "Thick provisioning."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Thin provisioning asigna el espacio de forma dinámica según se necesita."
+    },
+    {
+      "id": 156,
+      "globalId": 156,
+      "seccion": "Bloque 3 - Kubernetes",
+      "pregunta": "¿En qué campo del objeto de Kubernetes hay que incluir los valores que permiten identificar unívocamente al objeto?",
+      "opciones": [
+        "kind",
+        "spec",
+        "apiVersion",
+        "metadata"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Los identificadores (name, namespace, labels, uid...) van en el campo metadata."
+    },
+    {
+      "id": 157,
+      "globalId": 157,
+      "seccion": "Bloque 3 - Python",
+      "pregunta": "Revisando un programa escrito en lenguaje Python, se encuentra con el siguiente fragmento de código. [a*a for a in [3, 2, 1] if a > 1] ¿Qué se muestra?",
+      "opciones": [
+        "[3, 2, 1, 3, 2, 1]",
+        "[9, 4]",
+        "[9, 4, 1]",
+        "[2, 1]"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "List comprehension: solo toma los elementos > 1 (3 y 2) y los eleva al cuadrado → [9, 4]."
+    },
+    {
+      "id": 158,
+      "globalId": 158,
+      "seccion": "Bloque 3 - Java",
+      "pregunta": "¿Cuál de las siguientes opciones sobre la interfaz java.util.Map es FALSA?",
+      "opciones": [
+        "HashMap y TreeMap son dos implementaciones de la interfaz Map.",
+        "clear() permite vaciar los elementos (clave, valor) almacenados en el objeto que sigue la interfaz Map sobre el que se invoca.",
+        "length() devuelve el número de elementos (clave, valor) almacenados en el objeto que sigue la interfaz Map sobre el que se invoca.",
+        "entrySet() devuelve un objeto de tipo Set que contiene las entradas almacenadas en el objeto que sigue la interfaz Map sobre el que se invoca."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El método correcto es size(), no length()."
+    },
+    {
+      "id": 159,
+      "globalId": 159,
+      "seccion": "Bloque 3 - Java",
+      "pregunta": "Son palabras reservadas del lenguaje de programación Java:",
+      "opciones": [
+        "assert, boolean, explicit, public, this.",
+        "abstract, float, include, private, goto.",
+        "assert, boolean, return, public, this.",
+        "abstract, float, out, private, goto."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "assert, boolean, return, public y this son palabras reservadas válidas de Java."
+    },
+    {
+      "id": 160,
+      "globalId": 160,
+      "seccion": "Bloque 3 - C#",
+      "pregunta": "Si en C# quisiéramos dividir la clase Incidencia en subclases, una de ellas llamada IncidenciaInterna, podríamos codificarla?",
+      "opciones": [
+        "public class IncidenciaInterna extends Incidencia { }",
+        "public class Incidencia extends IncidenciaInterna { }",
+        "public class IncidenciaInterna : Incidencia { }",
+        "public class Incidencia : IncidenciaInterna { }"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En C# la herencia se indica con : (dos puntos)."
+    },
+    {
+      "id": 161,
+      "globalId": 161,
+      "seccion": "Bloque 3 - C#",
+      "pregunta": "En el siguiente fragmento de código de C#, ¿qué código tendría que poner en lugar del símbolo \"*\" para recuperar las incidencias con prioridad alta?",
+      "opciones": [
+        "ListadeIncidencias.Where(c => c.prioridad.descripción == \"Alta\").ToList();",
+        "ListadeIncidencias.Where(Prioridad.descripción == \"Alta\").ToList();",
+        "from incidencia in ListadeIncidencias Where incidencia.prioridad.descripción == \"Alta\";",
+        "from incidencia in ListadeIncidencias Where prioridad.descripción == \"Alta\";"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La forma correcta con LINQ method syntax es .Where(c => c.propiedad == valor).ToList()."
+    },
+    {
+      "id": 162,
+      "globalId": 162,
+      "seccion": "Bloque 3 - Java",
+      "pregunta": "Señale el nombre de identificador válido en Java SE 8:",
+      "opciones": [
+        "goto",
+        "enum",
+        "2Level2",
+        "$identificador"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "$identificador es válido. goto y enum son palabras reservadas; no puede empezar por número."
+    },
+    {
+      "id": 163,
+      "globalId": 163,
+      "seccion": "Bloque 3 - Java",
+      "pregunta": "¿Cuál de las siguientes es una palabra reservada en programación Java SE 8?",
+      "opciones": [
+        "void",
+        "inherits",
+        "end",
+        "enum"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "enum es palabra reservada desde Java 5. void también lo es, pero según el contexto de la pregunta enum es la esperada en algunas versiones del test."
+    },
+    {
+      "id": 164,
+      "globalId": 164,
+      "seccion": "Bloque 3 - C",
+      "pregunta": "En el lenguaje de programación C, ¿qué carácter distingue las directivas de preprocesador?",
+      "opciones": [
+        "/",
+        "#",
+        "-",
+        "!"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Las directivas de preprocesador en C empiezan por # (#include, #define, etc.)."
+    },
+    {
+      "id": 165,
+      "globalId": 165,
+      "seccion": "Bloque 3 - Lenguajes",
+      "pregunta": "¿Cuál de los siguientes es un lenguaje declarativo?",
+      "opciones": [
+        "Pascal",
+        "SQL",
+        "C",
+        "Ada"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "SQL es un lenguaje declarativo. Pascal, C y Ada son imperativos."
+    },
+    {
+      "id": 166,
+      "globalId": 166,
+      "seccion": "Bloque 3 - Programación",
+      "pregunta": "Señale la respuesta correcta en relación con las funciones y los procedimientos:",
+      "opciones": [
+        "Una llamada a un procedimiento puede aparecer como operando de una expresión.",
+        "El paso de parámetros por referencia envía una copia del valor que tenga el parámetro real, por lo que no se podrá alterar el contenido de la variable.",
+        "Los parámetros por referencia se pueden emplear como parámetros de entrada/salida.",
+        "Todo procedimiento debe ejecutar una sentencia de return."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Los parámetros por referencia permiten modificar el valor original (entrada/salida)."
+    },
+    {
+      "id": 167,
+      "globalId": 167,
+      "seccion": "Bloque 3 - Métrica v3",
+      "pregunta": "Según establece Métrica V3, en la construcción de un sistema de información, las pruebas que permiten verificar que los componentes o subsistemas interactúan correctamente a través de sus interfaces... son:",
+      "opciones": [
+        "Pruebas unitarias.",
+        "Pruebas de integración.",
+        "Pruebas del sistema.",
+        "Pruebas de migración."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Las pruebas de integración verifican la interacción entre componentes."
+    },
+    {
+      "id": 168,
+      "globalId": 168,
+      "seccion": "Bloque 3 - C#",
+      "pregunta": "Tras estudiar varias opciones se ha decidido utilizar .NET con C# para desarrollar el backend, ¿cómo puede indicar la opcionalidad de un tipo de dato?",
+      "opciones": [
+        "int? Telefono",
+        "int|null Telefono",
+        "int-null Telefono",
+        "int ?? Telefono"
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "En C# los tipos nullable se declaran con el sufijo ? (int?)."
+    },
+    {
+      "id": 169,
+      "globalId": 169,
+      "seccion": "Bloque 3 - Scrum",
+      "pregunta": "Suponiendo que se utilizara la metodología ágil SCRUM, si durante un sprint, se da cuenta de que se está aplicando una mala práctica que puede enlentecer el proyecto, ¿en qué reunión comentará esa mala práctica, para buscar la mejora continua y evitar aplicarla en los siguientes sprints?",
+      "opciones": [
+        "En la Daily Scrum.",
+        "En la Sprint Retrospective.",
+        "En la Sprint Planning.",
+        "En la Sprint Review."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La Sprint Retrospective es la reunión dedicada a la mejora continua del proceso."
+    },
+    {
+      "id": 170,
+      "globalId": 170,
+      "seccion": "Bloque 3 - SOA",
+      "pregunta": "También el sistema se integrará con la PID (Plataforma de Intermediación de Datos), cuya plataforma actual se define como una arquitectura orientada a servicios (SOA). ¿Cuáles son los componentes principales de esta arquitectura?",
+      "opciones": [
+        "Servicio, Proveedor de servicios, Consumidor de servicios y Orquestador de servicios.",
+        "Servicio, Proveedor de servicios, Consumidor de servicios y Depurador de servicios.",
+        "Servicio, Proveedor de servicios, Consumidor de servicios y Comparador de servicios.",
+        "Servicio, Proveedor de servicios, Consumidor de servicios y Registro de servicios."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Los componentes clásicos de SOA son: Servicio, Proveedor, Consumidor y Registro (o Directorio) de servicios."
+    },
+    {
+      "id": 171,
+      "globalId": 171,
+      "seccion": "Bloque 3 - Sistemas Distribuidos",
+      "pregunta": "¿Cuál es una característica de los sistemas distribuidos?",
+      "opciones": [
+        "Falta de transparencia: un nodo no puede acceder a otros nodos del sistema y comunicarse con ellos.",
+        "Procesamiento independiente: varias máquinas no pueden procesar la misma función a la vez.",
+        "Escalabilidad: la capacidad computacional y de procesamiento puede escalarse hacia arriba según sea necesario cuando se añaden máquinas adicionales.",
+        "Comunicación diferencial: usan nodos distintos para comunicarse y sincronizarse a través de redes independientes entre sí."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La escalabilidad es una de las características principales de los sistemas distribuidos."
+    },
+    {
+      "id": 172,
+      "globalId": 172,
+      "seccion": "Bloque 3 - REST",
+      "pregunta": "Señale la opción correcta sobre la arquitectura de servicios web REST:",
+      "opciones": [
+        "En la arquitectura REST, el servicio no almacena información sobre el estado del cliente entre peticiones.",
+        "El uso de identificadores está basado en SOA.",
+        "En la arquitectura REST, la interfaz para acceder a los recursos expuestos puede ser HTTP o FTP.",
+        "Es una arquitectura no orientada a recursos."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "REST es stateless: el servidor no guarda estado de sesión del cliente entre peticiones."
+    },
+    {
+      "id": 173,
+      "globalId": 173,
+      "seccion": "Bloque 3 - C++",
+      "pregunta": "C++ permite especificar más de una función con el mismo nombre en el mismo ámbito. ¿Cómo se denominan estas funciones?",
+      "opciones": [
+        "Funciones dobles.",
+        "Funciones repetidas.",
+        "Funciones sobrecargadas.",
+        "En C++ no se puede nombrar más de una función con el mismo nombre."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Se denominan funciones sobrecargadas (function overloading)."
+    },
+    {
+      "id": 174,
+      "globalId": 174,
+      "seccion": "Bloque 3 - Programación",
+      "pregunta": "Indica, de las siguientes afirmaciones, cuál es verdadera:",
+      "opciones": [
+        "Un array o vector es un tipo de dato estructurado que permite almacenar un conjunto de datos homogéneo donde cada elemento se almacena de forma consecutiva en memoria.",
+        "Bytecode es el código binario obtenido tras el proceso de compilación (Java).",
+        "C++ es un lenguaje de segunda generación.",
+        "En C++ la declaración del array: «int vector2[] = {1,2,3,4,10,9,80,70,19};», es incorrecta."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La definición de array es correcta. Bytecode no es código binario nativo; C++ es de tercera generación; la declaración de array es válida."
+    },
+    {
+      "id": 175,
+      "globalId": 175,
+      "seccion": "Bloque 3 - .NET",
+      "pregunta": "Seleccione la respuesta correcta sobre .NET:",
+      "opciones": [
+        ".NET es un marco multiplataforma gratuito de Google para compilar aplicaciones y servicios en la nube.",
+        ".NET es un proyecto de código abierto.",
+        ".NET sirve exclusivamente para desarrollar aplicaciones móviles.",
+        ".NET admite un amplio rango de lenguajes de programación, a excepción de C#"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": ".NET (especialmente .NET Core / .NET 5+) es un proyecto de código abierto de Microsoft."
+    },
+    {
+      "id": 176,
+      "globalId": 176,
+      "seccion": "Bloque 3 - Seguridad Web",
+      "pregunta": "Señale cuál es un estándar OASIS que define los mecanismos para establecer y compartir contextos de seguridad, y para obtener claves de contextos de seguridad:",
+      "opciones": [
+        "WS-Addressing",
+        "WS-Federation",
+        "WS-SecureConversation",
+        "WS-Policy"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "WS-SecureConversation define cómo establecer y compartir contextos de seguridad."
+    },
+    {
+      "id": 177,
+      "globalId": 177,
+      "seccion": "Bloque 3 - Web",
+      "pregunta": "Indique cuál de las siguientes afirmaciones es INCORRECTA:",
+      "opciones": [
+        "XSD se refiere al lenguaje de definición de esquemas XML.",
+        "DTD proporciona medios para validar archivos XML en relación con un conjunto de normas.",
+        "En XHTML todos los elementos tienen que llevar cierre.",
+        "jQuery es un lenguaje de programación que permite la mejora de JavaScript."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "jQuery es una biblioteca de JavaScript, no un lenguaje de programación."
+    },
+    {
+      "id": 178,
+      "globalId": 178,
+      "seccion": "Bloque 3 - JavaScript",
+      "pregunta": "En JavaScript, cuál de las siguientes afirmaciones es INCORRECTA:",
+      "opciones": [
+        "Entre los tipos de datos JavaScript están String, Boolean, Undefined y Number.",
+        "Una variable declarada sin valor asignado tiene el valor undefined.",
+        "123 == '123' devolverá falso.",
+        "El alcance de una variable declarada con let es de bloque."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "123 == '123' devuelve true por coerción de tipos. 123 === '123' sería false."
+    },
+    {
+      "id": 179,
+      "globalId": 179,
+      "seccion": "Bloque 3 - Varios",
+      "pregunta": "¿Cuál de las siguientes afirmaciones es FALSA?",
+      "opciones": [
+        "En JavaScript, la ejecución de isNaN(\"hola\") dará como resultado true.",
+        "El lenguaje de programación JavaScript forma parte de la plataforma Java.",
+        "XML es la base de un gran número de normas tales como el Lenguaje Universal de Negocios, entre otros.",
+        "React es una biblioteca de código abierto de JavaScript para crear interfaces de usuario de front-end."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "JavaScript no forma parte de la plataforma Java. Son tecnologías diferentes."
+    },
+    {
+      "id": 180,
+      "globalId": 180,
+      "seccion": "Bloque 3 - JSON",
+      "pregunta": "Según el estándar JSON (RFC 8259), ¿cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        "Un objeto JSON mantiene el orden de inserción de sus elementos por definición.",
+        "JSON permite definir tipos de datos personalizados.",
+        "Un objeto JSON es una colección no ordenada de pares nombre/valor.",
+        "JSON admite comentarios dentro de su sintaxis estándar."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Según RFC 8259 un objeto JSON es una colección no ordenada de pares nombre/valor. (Aunque en la práctica la mayoría de implementaciones mantienen el orden de inserción)."
+    }
+  ]
+}

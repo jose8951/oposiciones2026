@@ -1,14 +1,19 @@
 <div class="container-fluid mt-4 px-lg-5">
   @if (pdfUrl()) {
     <div class="card shadow-sm border-0">
-      <div class="card-body p-0 bg-dark rounded overflow-hidden">
-        <iframe 
-          [src]="pdfUrl()!" 
+      <div class="card-body p-0 bg-white rounded overflow-hidden" style="height: 1050px;">
+        <!-- Usamos <object> en lugar de iframe para compatibilidad total con Firefox -->
+        <object 
+          [data]="pdfUrl()!" 
+          type="application/pdf" 
           width="100%" 
-          height="850px" 
-          frameborder="0"
-          style="display: block;">
-        </iframe>
+          height="100%"
+          style="display: block; background-color: white;">
+          <p class="text-center p-4">
+            Tu navegador no puede mostrar el PDF directamente. 
+            <a [href]="pdfUrl()!" target="_blank">Descárgalo aquí</a>
+          </p>
+        </object>
       </div>
     </div>
   } @else {

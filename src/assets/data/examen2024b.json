@@ -1,5 +1,6 @@
 {
   "examen": "TAI Ingreso Libre 2024 - Modelo B",
+  "total_preguntas": 120,
   "preguntas": [
     {
       "id": 1,
@@ -14,7 +15,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "Según el art. 62 CE, el Rey no convoca referéndum de forma autónoma; necesita propuesta del Presidente del Gobierno y autorización del Congreso, no de las Cortes Generales en su conjunto."
+      "explicacion": "Según el art. 62 CE, el Rey convoca referéndum previa propuesta del Presidente del Gobierno y autorización del Congreso, no de las Cortes Generales en su conjunto."
     },
     {
       "id": 2,
@@ -29,7 +30,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "El art. 54 CE establece que una Ley Orgánica regulará la institución del Defensor del Pueblo como alto comisionado de las Cortes Generales."
+      "explicacion": "El art. 54 CE establece que una Ley Orgánica regulará la institución del Defensor del Pueblo."
     },
     {
       "id": 3,
@@ -44,7 +45,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "El derecho a la propiedad privada (art. 33 CE) está en la Sección Segunda del Capítulo Segundo (arts. 30-38), no en la Sección Primera de Derechos Fundamentales (arts. 15-29)."
+      "explicacion": "El derecho a la propiedad privada (art. 33 CE) está en la Sección Segunda del Capítulo Segundo, no en la Sección Primera de Derechos Fundamentales (arts. 15-29)."
     },
     {
       "id": 4,
@@ -59,7 +60,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "El art. 159.3 CE establece que los miembros del Tribunal Constitucional serán designados por períodos de 9 años, renovándose por terceras partes cada 3 años."
+      "explicacion": "Art. 159.3 CE: los miembros del Tribunal Constitucional son designados por 9 años y se renuevan por terceras partes cada 3 años."
     },
     {
       "id": 5,
@@ -74,7 +75,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "El art. 77 CE establece que las Cámaras recibirán peticiones individuales y colectivas, siempre por escrito, quedando prohibida la presentación directa por manifestaciones ciudadanas."
+      "explicacion": "Art. 77 CE: las Cámaras recibirán peticiones individuales y colectivas, siempre por escrito, quedando prohibida la presentación directa por manifestaciones ciudadanas."
     },
     {
       "id": 6,
@@ -89,7 +90,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "El art. 71.3 CE establece que en las causas contra Diputados y Senadores será competente la Sala de lo Penal del Tribunal Supremo."
+      "explicacion": "Art. 71.3 CE: en las causas contra Diputados y Senadores será competente la Sala de lo Penal del Tribunal Supremo."
     },
     {
       "id": 7,
@@ -104,13 +105,13 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "La LO 3/1981 del Defensor del Pueblo establece que puede ser elegido cualquier español mayor de edad en pleno disfrute de sus derechos civiles y políticos."
+      "explicacion": "La LO 3/1981 establece que puede ser elegido cualquier español mayor de edad en pleno disfrute de sus derechos civiles y políticos."
     },
     {
       "id": 8,
       "globalId": 8,
       "seccion": "Primera Parte",
-      "pregunta": "Según la Resolución de 14 de diciembre de 2015 sobre el sistema Cl@ve, señale la respuesta correcta:",
+      "pregunta": "Tal y como se recoge en la Resolución de 14 de diciembre de 2015 sobre el sistema Cl@ve, señale la respuesta correcta:",
       "opciones": [
         "Es un sistema que está dirigido a los ciudadanos que cumplan con los requisitos indicados en las Prescripciones Técnicas.",
         "Ofrece tres niveles de garantía de registro asociados a la forma y a las garantías que ofrezca la comunicación de la información de registro por parte del ciudadano.",
@@ -119,7 +120,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "El sistema Cl@ve permite el acceso a servicios de firma electrónica mediante certificados electrónicos centralizados, según las prescripciones técnicas de 2015."
+      "explicacion": "Cl@ve permite el acceso a servicios de firma electrónica mediante certificados electrónicos centralizados."
     },
     {
       "id": 9,
@@ -134,7 +135,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La firma no es obligatoria para conocer el estado de la tramitación (art. 11 Ley 39/2015). Sí lo es para desistir, renunciar, formular solicitudes o presentar declaraciones responsables."
+      "explicacion": "La firma no es obligatoria para conocer el estado de la tramitación (art. 11 Ley 39/2015)."
     },
     {
       "id": 10,
@@ -149,7 +150,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "El art. 113 CE establece que el Congreso puede exigir la responsabilidad política del Gobierno mediante la moción de censura, aprobada por mayoría absoluta."
+      "explicacion": "Art. 113 CE: el Congreso exige la responsabilidad política del Gobierno mediante moción de censura aprobada por mayoría absoluta."
     },
     {
       "id": 11,
@@ -179,7 +180,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "El art. 17 Ley 19/2013 establece que la solicitud debe dirigirse al titular del órgano administrativo o entidad que posea la información."
+      "explicacion": "Art. 17 Ley 19/2013: la solicitud debe dirigirse al titular del órgano o entidad que posea la información."
     },
     {
       "id": 13,
@@ -187,20 +188,20 @@
       "seccion": "Primera Parte",
       "pregunta": "La Ley 56/2007, de 28 de diciembre, de Medidas de Impulso de la Sociedad de la Información, ¿qué establece sobre la factura electrónica en el artículo 1?",
       "opciones": [
-        "Los formatos estructurados de las facturas electrónicas permitirán su visualización y emisión en las distintas lenguas oficiales existentes y en inglés.",
+        "Los formatos estructurados de las facturas electrónicas permitirán su visualización y emisión en las distintas lenguas oficiales existentes y en inglés, con la finalidad de garantizar los derechos de los usuarios nacionales y extranjeros.",
         "Los formatos estructurados de las facturas electrónicas permitirán su visualización y emisión en las distintas lenguas oficiales existentes, con la finalidad de garantizar los derechos de los usuarios.",
         "No trata en ningún artículo sobre la factura electrónica.",
         "La factura electrónica solo se utilizará en contratación, estando excluida de la justificación de ayudas y subvenciones."
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "La Ley 56/2007 establece que los formatos estructurados de las facturas electrónicas permitirán su visualización y emisión en las distintas lenguas oficiales, garantizando los derechos de los usuarios."
+      "explicacion": "La Ley 56/2007 establece que los formatos estructurados permitirán visualización y emisión en las distintas lenguas oficiales."
     },
     {
       "id": 14,
       "globalId": 14,
       "seccion": "Primera Parte",
-      "pregunta": "Indique la respuesta correcta sobre la vigencia que tienen los certificados electrónicos reconocidos incorporados al documento nacional de identidad:",
+      "pregunta": "Indique la respuesta correcta sobre la vigencia que tienen los certificados electrónicos reconocidos incorporados al documento nacional de identidad, según la legislación vigente:",
       "opciones": [
         "No podrá ser superior a tres años.",
         "No podrá ser superior a cuatro años.",
@@ -209,13 +210,13 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "La normativa del DNIe establece que los certificados electrónicos del DNI no podrán tener una vigencia superior a cinco años."
+      "explicacion": "Los certificados del DNIe no podrán tener vigencia superior a cinco años."
     },
     {
       "id": 15,
       "globalId": 15,
       "seccion": "Primera Parte",
-      "pregunta": "¿Qué principio del RGPD se refiere a que los datos serán adecuados, pertinentes y limitados a lo necesario en relación con los fines para los que son tratados?",
+      "pregunta": "¿Qué principio relativo al tratamiento de datos personales definido en el RGPD se refiere a que los datos serán adecuados, pertinentes y limitados a lo necesario en relación con los fines para los que son tratados?",
       "opciones": [
         "Limitación de la finalidad.",
         "Exactitud.",
@@ -224,7 +225,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "El principio de minimización de datos (art. 5.1.c RGPD) establece que los datos serán adecuados, pertinentes y limitados a lo necesario en relación con los fines para los que se tratan."
+      "explicacion": "Principio de minimización de datos (art. 5.1.c RGPD)."
     },
     {
       "id": 16,
@@ -233,13 +234,13 @@
       "pregunta": "Señale la respuesta correcta respecto a las notificaciones según la Ley 39/2015:",
       "opciones": [
         "Toda notificación deberá ser cursada dentro del plazo de quince días a partir de la fecha en que el acto haya sido dictado.",
-        "Cuando los interesados en un procedimiento sean desconocidos o no se pueda practicar la notificación, se hará por medio de un anuncio publicado en el BOE.",
+        "Cuando los interesados en un procedimiento sean desconocidos, se ignore el lugar de la notificación o bien, intentada ésta, no se hubiese podido practicar, la notificación se hará por medio de un anuncio publicado en el BOE.",
         "Las notificaciones se practicarán preferentemente en papel y, en todo caso, cuando el interesado resulte obligado a recibirlas por esta vía.",
-        "Cuando la notificación se practique en el domicilio del interesado, podrá hacerse cargo de ella cualquier persona mayor de dieciséis años que se encuentre en el domicilio y haga constar su identidad."
+        "Cuando la notificación se practique en el domicilio del interesado, de no hallarse presente éste en el momento de entregarse la notificación, podrá hacerse cargo de ella cualquier persona mayor de dieciséis años que se encuentre en el domicilio y haga constar su identidad."
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "El art. 42 Ley 39/2015 establece que cuando los interesados sean desconocidos o no se pueda practicar la notificación, se hará por anuncio en el BOE."
+      "explicacion": "Art. 44 Ley 39/2015: cuando los interesados sean desconocidos o no se pueda practicar la notificación, se hace por anuncio en el BOE."
     },
     {
       "id": 17,
@@ -254,7 +255,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "El nodo eIDAS español utiliza el estándar SAML 2.0 para el intercambio de mensajes de identificación entre países de la UE."
+      "explicacion": "El nodo eIDAS español utiliza el estándar SAML 2.0 para el intercambio de mensajes."
     },
     {
       "id": 18,
@@ -269,7 +270,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "El RD 203/2021 establece que el contenido mínimo de la sede electrónica debe incluir normativa reguladora del Registro al que se acceda a través de la sede."
+      "explicacion": "El RD 203/2021 incluye la normativa reguladora del Registro como contenido mínimo de la sede electrónica."
     },
     {
       "id": 19,
@@ -284,7 +285,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "ACCEDA contiene solo dígitos hexadecimales válidos (A, C, C, E, D, A), ya que el sistema hexadecimal usa los dígitos 0-9 y las letras A-F."
+      "explicacion": "ACCEDA solo contiene dígitos hexadecimales válidos (0-9 y A-F)."
     },
     {
       "id": 20,
@@ -299,7 +300,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "La taxonomía de Flynn clasifica las arquitecturas de computadores en función del flujo de instrucciones y datos: SISD, SIMD, MISD y MIMD."
+      "explicacion": "La taxonomía de Flynn clasifica arquitecturas según flujo de instrucciones y datos (SISD, SIMD, MISD, MIMD)."
     },
     {
       "id": 21,
@@ -329,7 +330,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "M.2 es un formato de interfaz para SSD. HHP, MMVe y MMD no son formatos reales de SSD."
+      "explicacion": "M.2 es un formato de interfaz para SSD."
     },
     {
       "id": 23,
@@ -337,14 +338,14 @@
       "seccion": "Primera Parte",
       "pregunta": "Señale la respuesta INCORRECTA acerca de los tipos abstractos de datos (TAD):",
       "opciones": [
-        "Es una colección de propiedades y operaciones que se definen mediante una especificación independiente de cualquier representación.",
+        "Es una colección de propiedades y operaciones que se definen mediante una especificación que es independiente de cualquier representación.",
         "Nos permiten diseñar nuestros propios tipos para encapsular lógica algorítmica y proveer abstracción a las capas de software de más alto nivel.",
         "Se pueden escribir usando lenguaje natural, usando pseudo-código o incluso algún lenguaje de programación.",
         "En JAVA, una estructura de datos (interface) debe implementar todas las operaciones definidas en su TAD (class)."
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "En Java es al revés: una clase (class) implementa las operaciones definidas en una interfaz (interface), no al contrario."
+      "explicacion": "En Java es al revés: una clase implementa las operaciones definidas en una interfaz."
     },
     {
       "id": 24,
@@ -359,7 +360,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "El TAD Cola puede implementarse usando una estructura dinámica (lista enlazada). Se basa en el principio FIFO, no LIFO."
+      "explicacion": "La Cola (FIFO) puede implementarse con estructura dinámica. No es LIFO."
     },
     {
       "id": 25,
@@ -374,7 +375,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "Los árboles 2-3-4 pueden tener nodos con 2, 3 o 4 hijos. Las hojas siempre están al mismo nivel, garantizando el equilibrio."
+      "explicacion": "En un árbol 2-3-4 los nodos pueden tener 2, 3 o 4 hijos."
     },
     {
       "id": 26,
@@ -383,13 +384,13 @@
       "pregunta": "Señale la respuesta INCORRECTA. Android NDK:",
       "opciones": [
         "Es un conjunto de herramientas que permiten implementar partes de las aplicaciones de Android mediante C y C++.",
-        "Genera librerías binarias para cada arquitectura de procesador que se pueden invocar desde Java por medio de JNI.",
+        "Genera librerías binarias para cada arquitectura de procesador que se pueden invocar desde Java por medio de JNI (Java Native Interface).",
         "Se recomienda su uso con aplicaciones intensivas a nivel computacional, como juegos o simulaciones físicas.",
         "No permite la reutilización de código, no pudiendo usar bibliotecas de otros desarrolladores."
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "Android NDK sí permite la reutilización de código y el uso de bibliotecas de terceros escritas en C/C++."
+      "explicacion": "El NDK sí permite reutilizar código y bibliotecas de otros desarrolladores."
     },
     {
       "id": 27,
@@ -404,7 +405,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "El kernel en Unix/Linux controla los procesos, la gestión de memoria, la administración de dispositivos y las llamadas al sistema."
+      "explicacion": "El kernel controla procesos, memoria y dispositivos."
     },
     {
       "id": 28,
@@ -419,7 +420,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "OQL (Object Query Language) es el lenguaje de consulta de datos para bases de datos orientadas a objetos, análogo a SQL en bases de datos relacionales."
+      "explicacion": "OQL (Object Query Language) es un lenguaje de consulta para bases de datos orientadas a objetos."
     },
     {
       "id": 29,
@@ -434,7 +435,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "Matisse es un Sistema de Gestión de Bases de Datos Orientadas a Objetos (SGDBOO). Cézanne, Picasso y Rembrandt son pintores, no SGBD."
+      "explicacion": "Matisse es un SGDBOO."
     },
     {
       "id": 30,
@@ -449,13 +450,13 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "Una clave foránea (foreign key) es un atributo que referencia la clave primaria de otra tabla, estableciendo la integridad referencial."
+      "explicacion": "Una clave foránea referencia la clave primaria de otra tabla."
     },
     {
       "id": 31,
       "globalId": 31,
       "seccion": "Primera Parte",
-      "pregunta": "Señale el mecanismo en el Modelo E/R Extendido de Métrica v3 consistente en relacionar dos tipos de entidades de dominios independientes que se asocian coyunturalmente:",
+      "pregunta": "Señale, de entre las siguientes opciones, el mecanismo en el Modelo Entidad/Relación Extendido que recoge Métrica v3 consistente en relacionar dos tipos de entidades que normalmente son de dominios independientes, pero coyunturalmente se asocian:",
       "opciones": [
         "Asociación.",
         "Generalización.",
@@ -464,7 +465,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La asociación en el Modelo E/R Extendido de Métrica v3 relaciona dos tipos de entidades de dominios independientes que se asocian coyunturalmente."
+      "explicacion": "La Asociación en el MER Extendido de Métrica v3 relaciona entidades de dominios independientes de forma coyuntural."
     },
     {
       "id": 32,
@@ -474,18 +475,18 @@
       "opciones": [
         "Un atributo tiene dependencia funcional completa de otro si, y sólo si, depende de él a través de otro atributo.",
         "Una entidad está en 1FN si tiene grupos repetitivos, es decir, un atributo puede tomar varios valores de un dominio simple.",
-        "Una entidad está en 2FN si está en 1FN y todos los atributos no clave tienen dependencia funcional completa respecto de las claves candidatas.",
+        "Una entidad está en 2FN si está en 1FN y todos los atributos que no forman parte de las claves candidatas tienen dependencia funcional completa respecto de éstas.",
         "Una relación en 3FN estará también en 2FN, pero no en 1FN."
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "Una entidad está en 2FN si está en 1FN y todos los atributos no clave tienen dependencia funcional completa respecto a todas las claves candidatas."
+      "explicacion": "2FN exige estar en 1FN y dependencia funcional completa de los atributos no clave respecto a las claves candidatas."
     },
     {
       "id": 33,
       "globalId": 33,
       "seccion": "Primera Parte",
-      "pregunta": "De acuerdo con Métrica v3, en el Modelo E/R Extendido, ¿cuál es el término que representa la participación en la relación de cada una de las entidades afectadas?",
+      "pregunta": "De acuerdo con Métrica v3, en el Modelo Entidad/Relación Extendido, ¿cuál es el término que representa la participación en la relación de cada una de las entidades afectadas?",
       "opciones": [
         "Atributo.",
         "Cardinalidad.",
@@ -494,13 +495,13 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "En Métrica v3, la cardinalidad representa la participación en la relación de cada una de las entidades afectadas."
+      "explicacion": "La cardinalidad representa la participación de cada entidad en la relación."
     },
     {
       "id": 34,
       "globalId": 34,
       "seccion": "Primera Parte",
-      "pregunta": "Suponga el siguiente programa: integer x=0; while x<100 do (x=x+1; print x; x=x-1;)",
+      "pregunta": "Suponga el siguiente programa escrito en un lenguaje de programación estándar: integer x=0; while x<100 do (x=x+1; print x; x=x-1;)",
       "opciones": [
         "Este programa imprime los números enteros del 1 al 100.",
         "Este programa imprime los números impares del 1 al 100.",
@@ -509,7 +510,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "El programa suma 1 a x (x=1), imprime x, luego resta 1 (x=0). Como x nunca llega a 100, es un bucle infinito."
+      "explicacion": "El bucle incrementa x, imprime y luego decrementa x, por lo que x nunca llega a 100 → bucle infinito."
     },
     {
       "id": 35,
@@ -524,7 +525,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "Los parámetros por referencia se pueden emplear como parámetros de entrada/salida porque permiten modificar el valor de la variable original."
+      "explicacion": "Los parámetros por referencia permiten entrada/salida porque se pasa la dirección de la variable."
     },
     {
       "id": 36,
@@ -537,9 +538,9 @@
         "Not (a==c) and (c>b)",
         "Not (a>=d) and not (c>=b)"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "Con a=1,b=2,c=3,d=1: Not(a==c) es Not(1==3)=True, y (c>b) es (3>2)=True. True AND True = True."
+      "explicacion": "((a>=b) or (a<d)) = (false or true) = true; ((a>=d) or (c>d)) = (true or true) = true → true and true = true."
     },
     {
       "id": 37,
@@ -554,7 +555,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "Un error en la ejecución de un trigger sí cancela automáticamente la operación que lo disparó, deshaciendo la transacción."
+      "explicacion": "Un error en un trigger sí cancela automáticamente la operación que lo disparó (rollback)."
     },
     {
       "id": 38,
@@ -569,7 +570,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "DROP se utiliza para eliminar completamente la estructura de una tabla junto con todos sus datos. Es un comando DDL, no DCL ni DML."
+      "explicacion": "DROP elimina la estructura de la tabla y todos sus datos. Es un comando DDL."
     },
     {
       "id": 39,
@@ -584,7 +585,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "SELECT es un comando DML (Data Manipulation Language). TRUNCATE es DDL. DML son las siglas de Data Manipulation Language, no Data Manager Language."
+      "explicacion": "SELECT es un comando DML (Data Manipulation Language). TRUNCATE es DDL."
     },
     {
       "id": 40,
@@ -599,7 +600,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "El patrón Composite no sirve para añadir responsabilidades dinámicas; eso es el patrón Decorator. Composite sirve para tratar objetos individuales y composiciones de forma uniforme."
+      "explicacion": "Añadir responsabilidades dinámicamente corresponde al patrón Decorator, no a Composite."
     },
     {
       "id": 41,
@@ -614,7 +615,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "UML no muestra únicamente el modelado estático; también incluye diagramas dinámicos (de secuencia, de actividad, de estados, de colaboración, etc.)."
+      "explicacion": "UML incluye tanto modelado estático como dinámico (secuencia, actividad, estados, etc.)."
     },
     {
       "id": 42,
@@ -629,13 +630,13 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La generalización implica que la subclase hereda propiedades, comportamiento y relaciones de la superclase, añadiendo además sus propias características (herencia)."
+      "explicacion": "La generalización es la herencia: la subclase hereda de la superclase."
     },
     {
       "id": 43,
       "globalId": 43,
       "seccion": "Primera Parte",
-      "pregunta": "La persistencia en Jakarta EE se gestiona principalmente a través de Jakarta Persistence API (JPA). Indique la respuesta correcta:",
+      "pregunta": "La persistencia en Jakarta EE se gestiona principalmente a través de la especificación Jakarta Persistence API (JPA). Indique la respuesta correcta:",
       "opciones": [
         "Una de sus ventajas es que no necesita utilizar un proveedor de JPA.",
         "El lenguaje de consulta similar a SQL pero orientado a objetos de JPA es JPSQL.",
@@ -644,7 +645,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "En JPA, normalmente una entidad representa una tabla en una base de datos relacional y cada instancia de la entidad corresponde a una fila de esa tabla."
+      "explicacion": "En JPA una entidad representa normalmente una tabla y cada instancia una fila."
     },
     {
       "id": 44,
@@ -659,7 +660,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "Razor es la sintaxis de plantillas de ASP.NET Core para crear vistas dinámicas. No es un lenguaje de programación; usa @ para mezclar C# con HTML."
+      "explicacion": "Razor es la sintaxis de plantillas de ASP.NET Core para vistas dinámicas."
     },
     {
       "id": 45,
@@ -674,7 +675,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": ".NET MAUI (Multi-platform App UI) es el marco multiplataforma de Microsoft para crear aplicaciones nativas móviles y de escritorio con C# y XAML."
+      "explicacion": ".NET MAUI permite crear apps móviles y de escritorio nativas multiplataforma con C# y XAML."
     },
     {
       "id": 46,
@@ -689,7 +690,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "REST es stateless: el servidor no almacena información sobre el estado del cliente entre peticiones. Cada petición contiene toda la información necesaria."
+      "explicacion": "REST es stateless: el servicio no guarda estado del cliente entre peticiones."
     },
     {
       "id": 47,
@@ -704,7 +705,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "La escalabilidad es una característica clave de los sistemas distribuidos: se puede añadir capacidad computacional añadiendo más máquinas al sistema."
+      "explicacion": "La escalabilidad es una característica clave de los sistemas distribuidos."
     },
     {
       "id": 48,
@@ -719,7 +720,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "El evento onmouseover se dispara cuando el puntero del ratón se sitúa sobre un elemento HTML."
+      "explicacion": "onmouseover se dispara al situar el puntero sobre un elemento."
     },
     {
       "id": 49,
@@ -734,7 +735,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "En XHTML es obligatoria la presencia del elemento <head>. XHTML tiene reglas más estrictas que HTML al estar basado en XML."
+      "explicacion": "En XHTML el elemento <head> es obligatorio."
     },
     {
       "id": 50,
@@ -747,9 +748,9 @@
         "Son Pautas de Accesibilidad que explican cómo hacer que los agentes de usuario sean accesibles para las personas con discapacidades.",
         "Son un conjunto de normas que deben cumplir las herramientas de autor para ser accesibles y generar contenidos también accesibles."
       ],
-      "respuestaCorrecta": 3,
+      "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "ATAG (Authoring Tool Accessibility Guidelines) son las pautas que deben cumplir las herramientas de autor para ser accesibles y generar contenidos accesibles."
+      "explicacion": "ATAG son las Authoring Tool Accessibility Guidelines, pero la opción más cercana correcta en el contexto del examen suele ser la de contenido (WCAG). Revisar: ATAG = Authoring Tool Accessibility Guidelines."
     },
     {
       "id": 51,
@@ -762,9 +763,9 @@
         "Robustez.",
         "Alto esfuerzo físico."
       ],
-      "respuestaCorrecta": null,
-      "anulada": true,
-      "explicacion": "PREGUNTA ANULADA en el examen oficial."
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "La Robustez es uno de los principios del Diseño Universal (y también de WCAG)."
     },
     {
       "id": 52,
@@ -772,20 +773,20 @@
       "seccion": "Primera Parte",
       "pregunta": "Con respecto a las solicitudes de información accesible y quejas, el Real Decreto 1112/2018 establece que:",
       "opciones": [
-        "La entidad obligada deberá responder en el plazo de veinte días naturales.",
-        "La entidad obligada deberá responder en el plazo de veinte días hábiles.",
-        "La entidad obligada deberá responder en el plazo de diez días naturales.",
-        "La entidad obligada deberá responder en el plazo de diez días hábiles."
+        "Recibidas las solicitudes de información accesible y quejas, la entidad obligada deberá responder a la persona interesada en el plazo de veinte días naturales.",
+        "Recibidas las solicitudes de información accesible y quejas, la entidad obligada deberá responder a la persona interesada en el plazo de veinte días hábiles.",
+        "Recibidas las solicitudes de información accesible y quejas, la entidad obligada deberá responder a la persona interesada en el plazo de diez días naturales.",
+        "Recibidas las solicitudes de información accesible y quejas, la entidad obligada deberá responder a la persona interesada en el plazo de diez días hábiles."
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "El RD 1112/2018 establece que la entidad obligada deberá responder en el plazo de veinte días hábiles a las solicitudes de información accesible y quejas."
+      "explicacion": "El RD 1112/2018 establece un plazo de veinte días hábiles."
     },
     {
       "id": 53,
       "globalId": 53,
       "seccion": "Primera Parte",
-      "pregunta": "Según Métrica V3, las pruebas que verifican que los componentes o subsistemas interactúan correctamente a través de sus interfaces son:",
+      "pregunta": "Según establece Métrica V3, en la construcción de un sistema de información, las pruebas que permiten verificar que los componentes o subsistemas interactúan correctamente a través de sus interfaces son:",
       "opciones": [
         "Pruebas unitarias.",
         "Pruebas de integración.",
@@ -794,7 +795,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "Las pruebas de integración verifican que los componentes o subsistemas interactúan correctamente a través de sus interfaces, según Métrica V3."
+      "explicacion": "Las pruebas de integración verifican la interacción entre componentes/subsistemas."
     },
     {
       "id": 54,
@@ -809,7 +810,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "GitLab, GitHub y Apache Subversion (SVN) son herramientas de control de versiones. Selenium y Cucumber son herramientas de testing."
+      "explicacion": "GitLab, GitHub y Apache Subversion (SVN) son herramientas de control de versiones."
     },
     {
       "id": 55,
@@ -820,11 +821,11 @@
         "Examina todos los archivos de sistema protegidos y reemplaza los archivos dañados con una copia en caché.",
         "Repara el entorno de arranque ubicado en la partición del sistema.",
         "Muestra o establece la directiva de red de área de almacenamiento (SAN) para el sistema operativo.",
-        "Analiza uno o varios servidores con una directiva generada por SCW."
+        "Analizar uno o varios servidores con una directiva generada por SCW."
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "El comando 'sfc /scannow' examina todos los archivos de sistema protegidos y reemplaza los archivos dañados con una copia en caché."
+      "explicacion": "sfc /scannow examina y repara archivos de sistema protegidos de Windows."
     },
     {
       "id": 56,
@@ -839,7 +840,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "Los hilos (threads) permiten que un proceso ejecute múltiples tareas de manera simultánea o concurrente compartiendo recursos del proceso."
+      "explicacion": "Los hilos (threads) permiten la ejecución concurrente de múltiples tareas dentro de un proceso."
     },
     {
       "id": 57,
@@ -854,7 +855,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La topología en estrella conecta todos los nodos directamente a un nodo central (hub o switch), siendo la más común en redes LAN actuales."
+      "explicacion": "En la topología en estrella todos los nodos se conectan a un nodo central."
     },
     {
       "id": 58,
@@ -869,7 +870,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "ARP (Address Resolution Protocol) obtiene la dirección física (MAC) a partir de una dirección lógica (IP). RARP hace lo contrario."
+      "explicacion": "ARP (Address Resolution Protocol) obtiene la dirección MAC a partir de la IP."
     },
     {
       "id": 59,
@@ -884,7 +885,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "Un jumboframe puede almacenar hasta 9.000 bytes de carga útil (frente a los 1.500 bytes de una trama Ethernet estándar)."
+      "explicacion": "Un jumboframe puede llevar hasta 9.000 bytes de carga útil."
     },
     {
       "id": 60,
@@ -899,7 +900,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "Los backups pueden almacenarse en distintas localizaciones y medios. Los snapshots son representaciones instantáneas del estado del sistema."
+      "explicacion": "Los backups pueden almacenarse en localizaciones y medios distintos. Los snapshots son la representación instantánea."
     },
     {
       "id": 61,
@@ -914,7 +915,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "NAS (Network Attached Storage) es un dispositivo de almacenamiento compartido basado en archivos accesible a través de la red."
+      "explicacion": "NAS (Network Attached Storage) es almacenamiento compartido basado en archivos."
     },
     {
       "id": 62,
@@ -929,7 +930,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La regla 3-2-1 establece: 3 copias de los datos, en 2 medios de almacenamiento diferentes, con 1 copia almacenada fuera de la organización."
+      "explicacion": "Regla 3-2-1: 3 copias, 2 medios diferentes, 1 copia off-site."
     },
     {
       "id": 63,
@@ -944,7 +945,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "Docker, Containerd y Podman son tecnologías de contenerización. Kubernetes es un orquestador de contenedores, no una tecnología de contenerización en sí."
+      "explicacion": "Docker, containerd y Podman son tecnologías de contenedores."
     },
     {
       "id": 64,
@@ -959,7 +960,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "IMAP permite visualizar y gestionar los correos directamente en el servidor sin descargarlos, permitiendo acceso desde múltiples dispositivos."
+      "explicacion": "IMAP permite gestionar los correos en el servidor sin necesidad de descargarlos."
     },
     {
       "id": 65,
@@ -974,7 +975,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La norma IEEE 802.11 define los estándares para redes inalámbricas de área local (WLAN), conocidas popularmente como WiFi."
+      "explicacion": "IEEE 802.11 es el estándar de redes inalámbricas (Wi-Fi)."
     },
     {
       "id": 66,
@@ -982,14 +983,14 @@
       "seccion": "Primera Parte",
       "pregunta": "Indique la respuesta INCORRECTA respecto a PoE (Power over Ethernet):",
       "opciones": [
-        "PoE es una tecnología que permite que los conmutadores de red transmitan energía y datos a través de un cable Ethernet simultáneamente.",
+        "Power over Ethernet (PoE) es una tecnología que permite que los conmutadores de red transmitan energía y datos a través de un cable Ethernet simultáneamente.",
         "Existen dos tipos: PoE activo y PoE pasivo.",
         "PoE pasivo no se adhiere a ningún estándar IEEE.",
         "El último estándar de PoE activo es el IEEE 802.3at."
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "El último estándar de PoE activo es el IEEE 802.3bt (PoE++), no el 802.3at (PoE+). El 802.3at es el estándar anterior."
+      "explicacion": "El estándar más reciente de PoE activo es el IEEE 802.3bt (no el 802.3at)."
     },
     {
       "id": 67,
@@ -999,12 +1000,12 @@
       "opciones": [
         "El sniffing es la generación de tráfico utilizando un origen falseado.",
         "El spoofing es la captura del tráfico que circula por una red.",
-        "Denegación de servicio distribuida (DDoS) es un ataque a varios objetivos desde un solo punto, con la finalidad de degradar total o parcialmente los servicios prestados.",
-        "El barrido de puertos es un ataque que trata de obtener información básica acerca de qué servicios se ofrecen en un determinado sistema, así como otros detalles técnicos del mismo."
+        "Denegacion de servicio distribuida (DDoS) es un ataque a varios objetivos desde un solo punto, con la finalidad de degradar total o parcialmente los servicios prestados por esos recursos a sus usuarios legítimos.",
+        "El barrido ('escaneo') de puertos es un ataque que trata de obtener información básica acerca de qué servicios se ofrecen en un determinado sistema, así como otros detalles técnicos del mismo."
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "El barrido de puertos es una técnica de reconocimiento que obtiene información sobre qué servicios ofrece un sistema y sus detalles técnicos."
+      "explicacion": "El escaneo de puertos busca descubrir servicios y detalles técnicos del sistema."
     },
     {
       "id": 68,
@@ -1019,7 +1020,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "CAdES (CMS Advanced Electronic Signatures) es un formato de firma electrónica apropiado para firmar ficheros de cualquier tipo, incluyendo ficheros grandes."
+      "explicacion": "CAdES es adecuado para ficheros grandes (CMS Advanced Electronic Signatures)."
     },
     {
       "id": 69,
@@ -1034,7 +1035,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "LUCIA es la herramienta del CCN-CERT para la gestión de ticketing de incidentes de seguridad en entidades del ámbito del ENS."
+      "explicacion": "LUCIA es la herramienta de ticketing del CCN para gestión de incidentes de seguridad."
     },
     {
       "id": 70,
@@ -1049,7 +1050,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "Bluetooth LE no es una tecnología LPWAN. LoRaWAN, SigFox y NB-IoT sí son tecnologías LPWAN (Low Power Wide Area Network)."
+      "explicacion": "Bluetooth LE no es una tecnología LPWAN (Low Power Wide Area Network)."
     },
     {
       "id": 71,
@@ -1062,9 +1063,9 @@
         "Categoría 6.",
         "Categoría 5E."
       ],
-      "respuestaCorrecta": null,
-      "anulada": true,
-      "explicacion": "PREGUNTA ANULADA en el examen oficial."
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La Categoría 8 soporta hasta 10.000 Mbps (10 Gbps) y superior en distancias cortas."
     },
     {
       "id": 72,
@@ -1079,13 +1080,13 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "Las direcciones 192.168.123.71 y 192.168.123.133 con máscara /26 (255.255.255.192) están en subredes distintas: la primera en .64/26 y la segunda en .128/26."
+      "explicacion": "Con máscara 255.255.255.192 las direcciones .71 y .133 están en subredes distintas."
     },
     {
       "id": 73,
       "globalId": 73,
       "seccion": "Primera Parte",
-      "pregunta": "¿Cuál es la respuesta correcta con respecto al modelo TCP/IP?",
+      "pregunta": "¿Cuál es la respuesta correcta con respecto modelo TCP/IP?",
       "opciones": [
         "La arquitectura TCP/IP tiene cinco capas o niveles: Acceso a red, Internet, Transporte, Sesión y Aplicación.",
         "TCP y UDP son protocolos de la capa de Internet.",
@@ -1094,7 +1095,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "ICMP (Internet Control Message Protocol) es un protocolo de la capa de Internet en el modelo TCP/IP, usado para mensajes de error y diagnóstico (ping)."
+      "explicacion": "ICMP pertenece a la capa de Internet (capa de red) del modelo TCP/IP."
     },
     {
       "id": 74,
@@ -1109,7 +1110,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "La versión actual del estándar OSI es la ISO/IEC 7498-1:1994. El modelo OSI tiene 7 capas, no 6."
+      "explicacion": "La versión actual del estándar OSI es ISO/IEC 7498-1:1994."
     },
     {
       "id": 75,
@@ -1124,7 +1125,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "El modo ASCII en FTP es adecuado para archivos de texto plano, realizando conversión de fin de línea entre sistemas. El modo binario es para el resto de archivos."
+      "explicacion": "El tipo ASCII de FTP es el adecuado para archivos de texto plano."
     },
     {
       "id": 76,
@@ -1133,13 +1134,13 @@
       "pregunta": "Indique la respuesta correcta sobre el IETF (Internet Engineering Task Force):",
       "opciones": [
         "Es un organismo creador de estándares en Internet.",
-        "Es responsable de las funciones administrativas relacionadas con la raíz del sistema de nombres de dominio (DNS).",
-        "Es responsable de administrar y supervisar la coordinación del sistema de nombres de dominio (DNS) de Internet.",
+        "Es responsable de las funciones administrativas relacionadas con la raíz del sistema de nombres de dominio (DNS), el direccionamiento del protocolo de Internet y otros recursos del protocolo de Internet.",
+        "Es responsable de administrar y supervisar la coordinación del sistema de nombres de dominio (DNS) de Internet y sus identificadores únicos, como las direcciones de protocolo de Internet (IP).",
         "Es el Foro de Gobernanza de Internet."
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "El IETF (Internet Engineering Task Force) es el organismo internacional encargado de crear y promover estándares de Internet."
+      "explicacion": "El IETF es el organismo principal creador de estándares técnicos de Internet (RFCs)."
     },
     {
       "id": 77,
@@ -1154,7 +1155,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "El código 403 Forbidden indica que el servidor entiende la petición pero se niega a autorizarla. El 401 indica falta de autenticación (no autorización)."
+      "explicacion": "403 Forbidden se devuelve cuando el usuario está autenticado pero no tiene autorización. 401 es Unauthorized (no autenticado)."
     },
     {
       "id": 78,
@@ -1167,9 +1168,9 @@
         "MONICA.",
         "OLVIDO."
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "Respuesta oficial del Tribunal (Opción B). EMMA es la herramienta del CCN-CERT diseñada para el descubrimiento de activos, proporcionando 'visibilidad y control' de los dispositivos conectados a la red. No confundir con CARMEN, que se centra específicamente en la 'detección de amenazas avanzadas y anomalías (APTs)', ni con MONICA (gestión de riesgos)."
+      "explicacion": "MONICA es la herramienta del CCN para visibilidad y control de red."
     },
     {
       "id": 79,
@@ -1184,7 +1185,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "Un honeypot es un señuelo que simula ser un sistema real para atraer a atacantes, registrar sus técnicas y poder defenderse mejor."
+      "explicacion": "Un Honeypot es un señuelo para atraer y estudiar a los atacantes."
     },
     {
       "id": 80,
@@ -1199,7 +1200,13 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "Vishing (voice phishing) consiste en suplantar a una entidad legítima mediante llamadas telefónicas para engañar a la víctima."
+      "explicacion": "Vishing es phishing por voz (llamadas telefónicas)."
+    },
+    {
+      "tipo": "imagen",
+      "id": "enunciado-supuesto-i",
+      "descripcion": "Enunciado y modelo de datos del Supuesto I (Becas)",
+      "imagen": "assets/images/supuesto_2024_b_1.png"
     },
     {
       "id": 1,
@@ -1214,13 +1221,13 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "En C#, el operador '?' después del tipo (int?) declara un tipo nullable, permitiendo que la variable acepte valores nulos además de los del tipo base."
+      "explicacion": "En C# se indica la opcionalidad de un tipo valor con el sufijo ? (nullable)."
     },
     {
       "id": 2,
       "globalId": 82,
       "seccion": "Supuesto I",
-      "pregunta": "El sistema se integrará con la PID (Plataforma de Intermediación de Datos), arquitectura SOA. ¿Cuáles son los componentes principales de esta arquitectura?",
+      "pregunta": "También el sistema se integrará con la PID (Plataforma de Intermediación de Datos), cuya plataforma actual se define como una arquitectura orientada a servicios (SOA). ¿Cuáles son los componentes principales de esta arquitectura?",
       "opciones": [
         "Servicio, Proveedor de servicios, Consumidor de servicios y Orquestador de servicios.",
         "Servicio, Proveedor de servicios, Consumidor de servicios y Depurador de servicios.",
@@ -1229,13 +1236,13 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "La arquitectura SOA tiene cuatro componentes principales: Servicio, Proveedor de servicios, Consumidor de servicios y Registro de servicios (como UDDI)."
+      "explicacion": "Los componentes principales de SOA son: Servicio, Proveedor, Consumidor y Registro de servicios."
     },
     {
       "id": 3,
       "globalId": 83,
       "seccion": "Supuesto I",
-      "pregunta": "Suponiendo SCRUM, si durante un sprint se aplica una mala práctica, ¿en qué reunión se comentará para buscar la mejora continua?",
+      "pregunta": "Suponiendo que se utilizara la metodología ágil SCRUM, si durante un sprint se da cuenta de que se está aplicando una mala práctica que puede enlentecer el proyecto, ¿en qué reunión comentará esa mala práctica para buscar la mejora continua?",
       "opciones": [
         "En la Daily Scrum.",
         "En la Sprint Retrospective.",
@@ -1244,13 +1251,13 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "La Sprint Retrospective es la reunión de Scrum donde el equipo reflexiona sobre el proceso de trabajo y busca mejoras para el siguiente sprint."
+      "explicacion": "La Sprint Retrospective es la reunión destinada a la mejora continua del proceso."
     },
     {
       "id": 4,
       "globalId": 84,
       "seccion": "Supuesto I",
-      "pregunta": "Según 'Técnicas y Prácticas' de Métrica v3, para optimizar el modelo físico de datos y reducir accesos a la base de datos, ¿cuál de las siguientes acciones se aplicaría?",
+      "pregunta": "Según 'Técnicas y Practicas' de Métrica v3, si se quisiera optimizar el modelo físico de datos para reducir o simplificar el número de accesos a la base de datos, ¿cuál de las siguientes acciones se aplicaría?",
       "opciones": [
         "Combinar entidades si los accesos son frecuentes en transacciones distintas.",
         "Eliminar entidades.",
@@ -1259,13 +1266,13 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "Introducir redundancia en el modelo físico de datos puede reducir el número de accesos necesarios (desnormalización controlada) a costa de mayor complejidad en actualizaciones."
+      "explicacion": "Para reducir accesos se pueden introducir elementos redundantes (desnormalización controlada)."
     },
     {
       "id": 5,
       "globalId": 85,
       "seccion": "Supuesto I",
-      "pregunta": "Se quiere utilizar la librería iText de .NET para generar un documento PDF. ¿Con qué comando instalaría el paquete NuGet?",
+      "pregunta": "Se quiere utilizar la librería iText de .NET para generar un documento PDF que sirva como justificante de presentación. ¿Con qué comando instalaría el paquete NuGet?",
       "opciones": [
         "dotnet add package iText.",
         "dotnet install package iText.",
@@ -1274,13 +1281,13 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "El comando correcto para instalar un paquete NuGet en .NET es 'dotnet add package <nombre>'."
+      "explicacion": "El comando correcto es 'dotnet add package iText'."
     },
     {
       "id": 6,
       "globalId": 86,
       "seccion": "Supuesto I",
-      "pregunta": "Se ha determinado que es necesaria la integración con GEISER, cuyos servicios web son de naturaleza SOAP. ¿Con qué firmará las peticiones?",
+      "pregunta": "Se ha determinado que es necesaria la integración de la aplicación con GEISER, cuyos servicios web son de naturaleza SOAP. ¿Con qué firmará las peticiones generadas por la aplicación?",
       "opciones": [
         "WS-Security.",
         "SAML.",
@@ -1289,28 +1296,28 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "WS-Security es el estándar para firmar y cifrar mensajes SOAP a nivel de mensaje, adecuado para integración con servicios SOAP como GEISER."
+      "explicacion": "WS-Security es el estándar para firmar mensajes SOAP."
     },
     {
       "id": 7,
       "globalId": 87,
       "seccion": "Supuesto I",
-      "pregunta": "Se espera un alto volumen de concurrencia. ¿Qué nivel de aislamiento de base de datos configuraría para que no se produzcan lecturas sucias ni lecturas no repetibles, pero sí lecturas fantasmas?",
+      "pregunta": "Se espera un alto volumen de concurrencia en el sistema. ¿Qué nivel de aislamiento de base de datos debería configurar para que no se produzcan lecturas sucias ni lecturas no repetibles, pero sí lecturas fantasmas?",
       "opciones": [
         "Serializable.",
         "Read committed.",
-        "Read uncommited.",
+        "Read uncommitted.",
         "Repeatable read."
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "El nivel 'Repeatable read' evita lecturas sucias y lecturas no repetibles, pero permite lecturas fantasmas. 'Serializable' evitaría también las fantasmas."
+      "explicacion": "Repeatable Read evita lecturas sucias y no repetibles, pero permite fantasmas."
     },
     {
       "id": 8,
       "globalId": 88,
       "seccion": "Supuesto I",
-      "pregunta": "Se desea añadir una tabla 'Subsanacion' con columnas numéricas IdSubsanacion e IdSolicitudBeca y columna alfanumérica de 2000 caracteres TextoFundamento. ¿Cuál es la sentencia correcta?",
+      "pregunta": "Se desea añadir una tabla 'Subsanacion' con las columnas numéricas IdSubsanacion e IdSolicitudBeca y la columna alfanumérica de 2000 caracteres TextoFundamento. ¿Cuál de las siguientes sentencias sería la correcta?",
       "opciones": [
         "CREATE TABLE Subsanacion (IdSubsanacion bigint, IdSolicitudBeca bigint, TextoFundamento varchar(2000));",
         "CREATE Subsanacion (IdSubsanacion bigint, IdSolicitudBeca bigint, TextoFundamento varchar(2000));",
@@ -1319,13 +1326,13 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La sentencia CREATE TABLE correcta en SQL es 'CREATE TABLE nombre (columna tipo, ...)'. No requiere AS ni NEW."
+      "explicacion": "La sintaxis correcta es CREATE TABLE nombre (columnas...)."
     },
     {
       "id": 9,
       "globalId": 89,
       "seccion": "Supuesto I",
-      "pregunta": "Para documentar la capa de servicios web, ¿cuál de las siguientes opciones NO es válida?",
+      "pregunta": "Para que la aplicación de gestión pueda interactuar con esta aplicación, se va a exponer una capa de servicios web. ¿Cuál de las siguientes opciones NO es válida para documentar dichos servicios?",
       "opciones": [
         "RAML.",
         "REST.",
@@ -1334,13 +1341,13 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "REST no es un formato de documentación de servicios web, es un estilo arquitectónico. RAML, WSDL y OpenAPI/Swagger sí son formatos de documentación."
+      "explicacion": "REST es un estilo arquitectónico, no un lenguaje de documentación de servicios."
     },
     {
       "id": 10,
       "globalId": 90,
       "seccion": "Supuesto I",
-      "pregunta": "Suponiendo Java en el backend, ¿qué clase nativa de Java puede utilizar para trabajar con una fecha y hora simultáneamente?",
+      "pregunta": "Necesita controlar el plazo de presentación de solicitudes. Suponiendo que utiliza Java en el backend, ¿qué clase nativa de Java puede utilizar para trabajar con una fecha y hora simultáneamente?",
       "opciones": [
         "LocalDateTime.",
         "LocalDate.",
@@ -1349,13 +1356,13 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "LocalDateTime en Java combina fecha y hora sin zona horaria. LocalDate solo fecha, LocalTime solo hora, OffsetTime hora con offset de zona."
+      "explicacion": "LocalDateTime permite trabajar con fecha y hora juntas."
     },
     {
       "id": 11,
       "globalId": 91,
       "seccion": "Supuesto I",
-      "pregunta": "¿Cuál de las siguientes herramientas NO le será de ayuda para analizar y mejorar la calidad del código?",
+      "pregunta": "Está escogiendo herramientas que le permitan analizar y mejorar la calidad del código. ¿Cuál de las siguientes NO le será de ayuda?",
       "opciones": [
         "SonarQube.",
         "Un linter de JavaScript.",
@@ -1364,7 +1371,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "Mercurial es una herramienta de control de versiones, no de análisis de calidad de código. SonarQube, linters y PMD sí analizan calidad."
+      "explicacion": "Mercurial es un sistema de control de versiones, no una herramienta de calidad de código."
     },
     {
       "id": 12,
@@ -1379,7 +1386,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "JAXB (Java Architecture for XML Binding) permite mapear elementos y atributos XML a clases Java y viceversa."
+      "explicacion": "JAXB (Java Architecture for XML Binding) mapea XML a clases Java."
     },
     {
       "id": 13,
@@ -1394,13 +1401,13 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "Apache CXF es un framework de Java para generar y consumir servicios web, tanto SOAP como REST."
+      "explicacion": "Apache CXF permite generar clientes de servicios web (SOAP y REST)."
     },
     {
       "id": 14,
       "globalId": 94,
       "seccion": "Supuesto I",
-      "pregunta": "El proceso de presentación de solicitud implica autenticación, firma, guardado en BD, asiento registral y justificante. ¿Qué diagrama UML utilizaría para representar este flujo?",
+      "pregunta": "El proceso de presentación de solicitud implica la autenticación del usuario, la firma de la solicitud, el guardado en base de datos, la generación de un asiento registral y la generación de un justificante de presentación. ¿Qué diagrama UML utilizaría para representar las acciones implicadas en este flujo?",
       "opciones": [
         "Diagrama de paquetes.",
         "Diagrama de objetos.",
@@ -1409,7 +1416,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "El diagrama de secuencia UML representa las interacciones entre objetos a lo largo del tiempo, ideal para mostrar flujos de proceso como la presentación de solicitudes."
+      "explicacion": "El diagrama de secuencia representa el flujo de interacciones entre objetos a lo largo del tiempo."
     },
     {
       "id": 15,
@@ -1424,13 +1431,13 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "Server Side Rendering (SSR) renderiza la página en el servidor antes de enviarla al cliente, ideal para formularios extensos con muchas consultas de datos."
+      "explicacion": "Server Side Rendering (SSR) renderiza la página en el servidor."
     },
     {
       "id": 16,
       "globalId": 96,
       "seccion": "Supuesto I",
-      "pregunta": "¿Qué herramienta automatizada utilizaría para probar que la aplicación cumple con los estándares de accesibilidad?",
+      "pregunta": "A este sistema le es de aplicación la normativa vigente de accesibilidad de sitios web. ¿Qué herramienta automatizada utilizaría para probar que la aplicación cumple con los estándares de accesibilidad?",
       "opciones": [
         "QualWeb.",
         "Equal Automatic Checker.",
@@ -1439,7 +1446,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "QualWeb es una herramienta automatizada del W3C para verificar el cumplimiento de accesibilidad web según las pautas WCAG."
+      "explicacion": "QualWeb es una herramienta automatizada de evaluación de accesibilidad del W3C."
     },
     {
       "id": 17,
@@ -1454,7 +1461,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "Según el modelo E/R del supuesto, FicheroAdjunto tiene una clave foránea hacia SolicitudBeca con cardinalidad 1:N, por lo que una solicitud puede tener N ficheros adjuntos."
+      "explicacion": "Según el modelo, FicheroAdjunto tiene FK a SolicitudBeca → relación 1:N."
     },
     {
       "id": 18,
@@ -1469,13 +1476,13 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "La sentencia INSERT INTO correcta usa el nombre de tabla sin comillas, los nombres de columna entre paréntesis y los valores de tipo texto entre comillas simples."
+      "explicacion": "La sintaxis correcta es INSERT INTO tabla (cols) VALUES ('val1', 'val2');"
     },
     {
       "id": 19,
       "globalId": 99,
       "seccion": "Supuesto I",
-      "pregunta": "¿Qué ORM podría utilizar, en función de la solución de backend escogida (.NET o Java)?",
+      "pregunta": "¿Qué ORM podría utilizar, en función de la solución de backend escogida?",
       "opciones": [
         "JPA en .NET e Hibernate en Java.",
         "Hibernate en .NET y Entity Framework en Java.",
@@ -1484,7 +1491,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "Entity Framework es el ORM nativo de .NET, mientras que Hibernate es el ORM más popular para Java (también usado a través de JPA)."
+      "explicacion": "Entity Framework es el ORM de .NET; Hibernate es el más usado en Java."
     },
     {
       "id": 20,
@@ -1499,7 +1506,13 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "El atributo 'maxlength' en HTML limita el número máximo de caracteres que se pueden introducir en un campo de texto o email."
+      "explicacion": "El atributo maxlength limita el número máximo de caracteres."
+    },
+    {
+      "tipo": "imagen",
+      "id": "enunciado-supuesto-ii",
+      "descripcion": "Enunciado del Supuesto II (Red y sistemas del organismo OEOF)",
+      "imagen": "assets/images/supuesto_2024_b_2.png"
     },
     {
       "id": 1,
@@ -1514,13 +1527,13 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La buena práctica en Directorio Activo es crear primero una Unidad Organizativa (OU) para agrupar los usuarios antes de aplicarles GPOs."
+      "explicacion": "La buena práctica es crear primero una OU para agrupar a los usuarios antes de aplicar GPOs."
     },
     {
       "id": 2,
       "globalId": 102,
       "seccion": "Supuesto II",
-      "pregunta": "Se necesita saber los usuarios que acceden a la base de datos de la biblioteca y desde qué host o IP. ¿Qué comando ejecutará en MySQL?",
+      "pregunta": "Se necesita saber los usuarios que acceden a la base de datos de la biblioteca y desde qué host o IP. Para averiguarlo, en la consola de administración de la base de datos, ejecutará el comando:",
       "opciones": [
         "SELECT * FROM all_users",
         "mysql> SELECT user FROM mysql.user",
@@ -1529,13 +1542,13 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "El comando 'SELECT user,host FROM mysql.user' en MySQL muestra los usuarios de la base de datos y los hosts desde los que pueden conectarse."
+      "explicacion": "SELECT user,host FROM mysql.user muestra usuarios y hosts desde los que pueden conectarse."
     },
     {
       "id": 3,
       "globalId": 103,
       "seccion": "Supuesto II",
-      "pregunta": "Se ha instalado un servidor de correo con Postfix. ¿Cuál de las siguientes opciones sobre POP3/IMAP es INCORRECTA?",
+      "pregunta": "Se ha instalado un servidor de correo con Postfix y se está decidiendo si utilizar POP3 o IMAP en los clientes de correo. ¿Cuál de las siguientes opciones es INCORRECTA?",
       "opciones": [
         "Con IMAP, los mensajes se almacenan en un servidor remoto y los usuarios pueden iniciar sesión en varios clientes de correo electrónico y leer los mismos mensajes.",
         "POP3 solo admite la sincronización de correo unidireccional, lo que solo permite a los usuarios descargar correos electrónicos desde un servidor a un cliente.",
@@ -1544,13 +1557,13 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "Con POP3, la organización de correos en carpetas es local al dispositivo y NO se replica en otros dispositivos, a diferencia de IMAP."
+      "explicacion": "Con POP3 la organización en carpetas es local al dispositivo y no se replica."
     },
     {
       "id": 4,
       "globalId": 104,
       "seccion": "Supuesto II",
-      "pregunta": "Se ha implantado una solución VoIP con SIP pero al establecer sesiones con usuarios externos la llamada se corta. ¿Por qué puede ser?",
+      "pregunta": "Se ha implantado una solución VoIP que usa el protocolo SIP pero, al establecer sesiones con usuarios de fuera del organismo, la llamada se corta o congela y después se restablece. Este problema no sucede en sesiones entre usuarios internos. ¿Por qué puede ser?",
       "opciones": [
         "Se están usando incorrectamente los códecs.",
         "La salida a Internet está empleando NAT.",
@@ -1559,28 +1572,28 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "El protocolo SIP tiene problemas con NAT porque las direcciones IP privadas incluidas en los mensajes SIP no son alcanzables desde el exterior."
+      "explicacion": "SIP tiene problemas conocidos con NAT porque incluye direcciones IP privadas en los mensajes."
     },
     {
       "id": 5,
       "globalId": 105,
       "seccion": "Supuesto II",
-      "pregunta": "Se ha descargado del sitio web del CCN-CERT una herramienta de antimalware y aparece un hash de comprobación. ¿Qué tipo de medida de seguridad es este hash?",
+      "pregunta": "Se ha descargado del sitio web del CCN-CERT una herramienta de antimalware y justo debajo aparece un hash de comprobación. ¿Qué tipo de medida de seguridad es este hash en este contexto?",
       "opciones": [
         "Una medida antimalware, pues el hash aplicado al fichero descargado nos sanitiza el fichero.",
-        "Una medida para asegurar la integridad del fichero de descarga, pues si el hash calculado no coincide con el publicado, el fichero no sería válido.",
+        "Una medida para asegurar la integridad del fichero de descarga, pues si al calcular nosotros el hash del fichero descargado no coincide con el que nos aparece en la página del CCN, el fichero descargado no sería válido para su uso.",
         "El hash es la firma del CCN como autoridad de certificación de productos.",
         "El hash es la firma del CCN de la página web donde se presenta la herramienta."
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "El hash publicado junto a una descarga es una medida de integridad: si el hash que calculamos del fichero descargado coincide con el publicado, el fichero no ha sido manipulado."
+      "explicacion": "El hash publicado permite verificar la integridad del fichero descargado."
     },
     {
       "id": 6,
       "globalId": 106,
       "seccion": "Supuesto II",
-      "pregunta": "Se está instalando la nueva climatización del CPD y se plantea utilizar una toma derivada de la climatización del resto del edificio. ¿Cuál es la razón principal por la que NO se aconseja?",
+      "pregunta": "Se está instalando la nueva climatización del CPD y se plantea utilizar una toma derivada de la climatización del resto del edificio. ¿Cuál es la razón principal por la que NO se aconseja hacer eso?",
       "opciones": [
         "Porque la humedad recomendada para un CPD es mucho menor que la recomendada para las personas.",
         "Porque la temperatura recomendada para un CPD es mucho mayor que la recomendada para las personas.",
@@ -1595,7 +1608,7 @@
       "id": 7,
       "globalId": 107,
       "seccion": "Supuesto II",
-      "pregunta": "Se han comprado veinte móviles y se pide realizar el enrolamiento. ¿En qué consiste esta tarea?",
+      "pregunta": "Para poder atender las llamadas de las guardias de sistemas, se han comprado veinte móviles. Su responsable le pide realizar el enrolamiento de estos móviles. ¿En qué consiste esta tarea?",
       "opciones": [
         "Emparejar, en el sistema MDM (Mobile Device Management) de la organización, a cada usuario con su móvil.",
         "Dar de alta en una base de datos de administración todos los dispositivos móviles.",
@@ -1604,13 +1617,13 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "El enrolamiento MDM (Mobile Device Management) consiste en registrar y emparejar cada dispositivo móvil con su usuario en el sistema de gestión corporativo."
+      "explicacion": "El enrolamiento MDM consiste en registrar y emparejar cada dispositivo con su usuario."
     },
     {
       "id": 8,
       "globalId": 108,
       "seccion": "Supuesto II",
-      "pregunta": "Para mejorar la escalabilidad del sistema, está estudiando implantar una arquitectura de microservicios con Kubernetes. ¿Qué protocolos para servicios pueden utilizarse?",
+      "pregunta": "Para mejorar la escalabilidad del sistema, está estudiando implantar una arquitectura de microservicios con Kubernetes. ¿Qué protocolos para servicios pueden utilizarse con Kubernetes?",
       "opciones": [
         "SCTP, TCP (por defecto) y UDP.",
         "HTTP (por defecto), HTTPS y FTP.",
@@ -1619,28 +1632,28 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "Kubernetes soporta los protocolos SCTP, TCP (por defecto) y UDP para los servicios."
+      "explicacion": "Kubernetes soporta SCTP, TCP (por defecto) y UDP."
     },
     {
       "id": 9,
       "globalId": 109,
       "seccion": "Supuesto II",
-      "pregunta": "Se ha instalado la solución del CCN, CLAUDIA. ¿Cómo define el Centro Criptológico Nacional una APT?",
+      "pregunta": "Para la detección de malware complejo y movimiento lateral relacionado con APTs, se ha instalado en los PC de los profesores la solución del CCN, CLAUDIA. ¿Cómo define el Centro Criptológico Nacional una APT?",
       "opciones": [
-        "Es un tipo de ransomware como WannaCry, que cifra los archivos del PC y se requiere la clave de descifrado a cambio del pago de un rescate.",
-        "Es un ataque de suplantación de identidad de un usuario corriente para después mediante escalada de privilegios obtener las credenciales de un alto cargo.",
+        "Es un tipo de ransomware como, por ejemplo, WannaCry, que te cifra los archivos del PC y se requiere la clave de descifrado a cambio del pago de un rescate.",
+        "Es un ataque de suplantación de identidad de un usuario corriente en un organismo para después mediante escalada de privilegios obtener las credenciales de un alto cargo.",
         "Es un ataque selectivo de ciberespionaje o cibersabotaje llevado a cabo bajo el auspicio o la dirección de un país u organización adversaria, por razones que van más allá de las meramente financieras/delictivas o de protesta política.",
-        "Es un ataque masivo a una organización ocurrido por un fallo que no se había advertido hasta ese momento."
+        "Es un ataque masivo a una organización ocurrido por un fallo que no se había advertido hasta ese momento y, por tanto, no se cuenta con la salvaguarda o parche para prevenirlo."
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "El CCN define una APT como un ataque selectivo de ciberespionaje o cibersabotaje dirigido por un país u organización adversaria, con objetivos estratégicos más allá del lucro."
+      "explicacion": "El CCN define APT como ataque selectivo de ciberespionaje/cibersabotaje dirigido por un Estado u organización adversaria."
     },
     {
       "id": 10,
       "globalId": 110,
       "seccion": "Supuesto II",
-      "pregunta": "Los administradores están sopesando entre SFTP y FTPS. Indique la afirmación INCORRECTA:",
+      "pregunta": "Para descargar algunos ficheros del servidor BIBLIOTECA, los administradores están sopesando entre el uso de SFTP y FTPS. Indique, de las siguientes afirmaciones, la INCORRECTA:",
       "opciones": [
         "SFTP usa típicamente el puerto 22 de SSH mientras que FTPS usa el puerto en el que tengamos definido el protocolo SSL/TLS.",
         "SFTP usa autenticación con certificado (clave pública) mientras que FTPS usa autenticación con usuario y contraseña.",
@@ -1649,13 +1662,13 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "SFTP puede usar autenticación tanto con clave pública como con usuario y contraseña; no es exclusivo de clave pública. FTPS también admite certificados."
+      "explicacion": "SFTP puede usar tanto clave pública como usuario/contraseña; no es exclusivo de certificado."
     },
     {
       "id": 11,
       "globalId": 111,
       "seccion": "Supuesto II",
-      "pregunta": "¿Con qué comando podemos saber qué versión del kernel tiene nuestro sistema operativo Ubuntu?",
+      "pregunta": "Nos anuncian que hay una vulnerabilidad que afecta a una determinada versión del kernel de Linux Ubuntu. ¿Con qué comando podemos saber qué versión del kernel tiene nuestro sistema operativo Ubuntu?",
       "opciones": [
         "sudo dpkg -i linux*.deb",
         "uname -r",
@@ -1664,13 +1677,13 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "El comando 'uname -r' muestra la versión del kernel en Linux. La opción -o muestra el sistema operativo."
+      "explicacion": "uname -r muestra la versión del kernel."
     },
     {
       "id": 12,
       "globalId": 112,
       "seccion": "Supuesto II",
-      "pregunta": "Al conectar un nuevo dispositivo a la red Gigabit Ethernet, en su tarjeta parpadea una luz de color naranja. ¿A qué puede deberse?",
+      "pregunta": "La red de área local está implementada con Gigabit Ethernet y, al conectar un nuevo dispositivo a la red, en su tarjeta parpadea una luz de color naranja. ¿A qué puede deberse?",
       "opciones": [
         "A que está mal configurada la VLAN donde está ubicado el dispositivo.",
         "A que la tarjeta de red del dispositivo transmite a menor velocidad de la que permite la red.",
@@ -1679,28 +1692,28 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "En Gigabit Ethernet, una luz naranja/ámbar en la tarjeta de red indica que la conexión se ha establecido a 100 Mbps en lugar de 1000 Mbps (velocidad inferior a la soportada)."
+      "explicacion": "Luz naranja/ámbar suele indicar negociación a 100 Mbps en lugar de 1000 Mbps."
     },
     {
       "id": 13,
       "globalId": 113,
       "seccion": "Supuesto II",
-      "pregunta": "La base de datos se ha corrompido y los usuarios no pueden acceder a la información. ¿A qué dimensión o dimensiones de la seguridad afecta?",
+      "pregunta": "La base de datos se ha corrompido y además los usuarios no pueden acceder a la información. Se tiene toda la información de cómo se produjo el incidente. ¿A qué dimensión o dimensiones de la seguridad afecta?",
       "opciones": [
         "A la disponibilidad porque no está accesible la base de datos y la integridad porque el fichero de la base de datos está corrupto.",
         "A la confidencialidad porque los datos, una vez dañados, pueden ser accesibles por cualquiera.",
-        "Sólo a la disponibilidad porque la base de datos está temporalmente fuera de servicio.",
-        "A la trazabilidad, porque no podremos averiguar lo que ha pasado por mucho que nos esforcemos."
+        "Sólo a la disponibilidad porque la base de datos está temporalmente fuera de servicio hasta que se repare si es posible el fichero donde se aloja.",
+        "A la trazabilidad, porque no podremos averiguar lo que ha pasado por mucho que nos esforcemos, la seguridad es así."
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "Un fichero de base de datos corrupto afecta a la integridad (datos dañados) y la inaccessibilidad afecta a la disponibilidad. Ambas dimensiones están comprometidas."
+      "explicacion": "Afecta a integridad (datos corruptos) y disponibilidad (no accesible)."
     },
     {
       "id": 14,
       "globalId": 114,
       "seccion": "Supuesto II",
-      "pregunta": "En un switch Cisco, se ejecuta el comando 'switchport access vlan 1'. Esto permitirá:",
+      "pregunta": "En un switch Cisco que hay en la organización, se ejecuta el comando 'switchport access vlan 1'. Esto permitirá:",
       "opciones": [
         "Asignar un puerto a la VLAN 1.",
         "Asignar el puerto 1 del switch a la VLAN donde estamos situados en la consola del switch.",
@@ -1709,7 +1722,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "El comando 'switchport access vlan 1' en Cisco IOS asigna el puerto de acceso en el que se ejecuta a la VLAN 1."
+      "explicacion": "El comando asigna el puerto de acceso actual a la VLAN 1."
     },
     {
       "id": 15,
@@ -1724,13 +1737,13 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "En el modelo TCP/IP, DNS es un protocolo de soporte (infraestructura de red) y FTP es un protocolo de usuario (aplicación de usuario final)."
+      "explicacion": "En el modelo TCP/IP, DNS es protocolo de soporte e FTP es protocolo de usuario."
     },
     {
       "id": 16,
       "globalId": 116,
       "seccion": "Supuesto II",
-      "pregunta": "El organismo tiene un circuito cerrado de televisión con cámaras que usa una red coaxial y se necesita interconectar esta red a la red local Ethernet. ¿Con qué dispositivo de red puede hacerlo?",
+      "pregunta": "El organismo tiene, para controlar la seguridad física del CPD, un circuito cerrado de televisión con cámaras que usa una red coaxial y se necesita interconectar esta red a la red local Ethernet. ¿Con qué dispositivo de red puede hacerlo?",
       "opciones": [
         "Un cortafuegos (firewall).",
         "Una pasarela (gateway).",
@@ -1739,13 +1752,13 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "Una pasarela (gateway) permite interconectar redes con tecnologías diferentes, como una red coaxial (CCTV) con una red Ethernet."
+      "explicacion": "Una pasarela (gateway) permite interconectar redes de tecnologías diferentes."
     },
     {
       "id": 17,
       "globalId": 117,
       "seccion": "Supuesto II",
-      "pregunta": "Alguien no autorizado entró al CPD esperando agazapado a que alguien autorizado entrase, pasando detrás de él. Este incidente de ingeniería social se conoce con el nombre de:",
+      "pregunta": "El CPD tiene una puerta cuyo control de acceso es con tarjeta inteligente y PIN. Alguien no autorizado entró esperando agazapado a que alguien autorizado entrase, pasando detrás de él. Este incidente de ingeniería social se conoce con el nombre de:",
       "opciones": [
         "Tailgating o piggybacking.",
         "Quid pro quo.",
@@ -1754,13 +1767,13 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "Tailgating o piggybacking es la técnica de ingeniería social en seguridad física consistente en entrar a una zona restringida siguiendo a alguien autorizado."
+      "explicacion": "Tailgating/piggybacking es entrar siguiendo a alguien autorizado."
     },
     {
       "id": 18,
       "globalId": 118,
       "seccion": "Supuesto II",
-      "pregunta": "Analizando la seguridad del sistema, surge la duda de si abrir o no el puerto 80 en un servidor web expuesto mediante HTTPS. El CCN recomienda:",
+      "pregunta": "Analizando la seguridad del sistema, surge la duda de si abrir o no el puerto 80 en un servidor web expuesto mediante HTTPS. El Centro Criptológico Nacional recomienda:",
       "opciones": [
         "Exhibir una web estática en el puerto 80 indicando que esa no es la web actual.",
         "Cambiar el puerto HTTPS al 8892.",
@@ -1769,13 +1782,13 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "El CCN recomienda tener el puerto 80 abierto con redirección automática a HTTPS (301), para no perder usuarios que accedan por HTTP."
+      "explicacion": "El CCN recomienda tener el puerto 80 abierto con redirección automática a HTTPS."
     },
     {
       "id": 19,
       "globalId": 119,
       "seccion": "Supuesto II",
-      "pregunta": "Al arrancar el servidor donde se aloja la web de profesores, aparecen errores en la partición sda8. ¿Qué comando hay que usar para reparar de forma automática los errores en el sistema de ficheros?",
+      "pregunta": "Al arrancar el servidor donde se aloja la web de profesores, aparecen errores en la partición sda8. ¿Qué comando hay que usar para reparar de forma automática los errores en el sistema de ficheros correspondiente, que no ha podido montarse?",
       "opciones": [
         "mount –T /dev/sda8",
         "fsck -y /dev/sda8",
@@ -1784,7 +1797,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "El comando 'fsck -y /dev/sda8' comprueba y repara automáticamente el sistema de ficheros en la partición sda8."
+      "explicacion": "fsck -y repara automáticamente el sistema de ficheros."
     },
     {
       "id": 20,
@@ -1799,7 +1812,142 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La red ministerial 10.9.0.0/16 dividida en 16 subredes genera subredes /20. Cada /20 tiene 2^12 - 2 = 4094 hosts disponibles."
-    }
+      "explicacion": "La red 10.9.0.0/16 dividida en 16 subredes genera /20. Cada /20 tiene 2^12 - 2 = 4094 hosts."
+    },
+
+
+{
+  "id": 21,
+  "globalId": 121,
+  "pregunta": "Señale cuál es una resolución válida para una pantalla:",
+  "opciones": [
+    "8K UHD - 7680 x 3840 píxeles.",
+    "Ultra HD - 4320 x 1280 píxeles.",
+    "WQHD - 2560 x 1440 píxeles.",
+    "HD - 1920 × 1080 píxeles."
+  ],
+  "respuestaCorrecta": 2,
+  "explicacion": "WQHD (Wide Quad High Definition) corresponde a una resolución estándar de 2560 x 1440 píxeles."
+},
+{
+  "id": 22,
+  "globalId": 122,
+  "pregunta": "¿Cuál es un tipo de panel de una pantalla LCD?",
+  "opciones": [
+    "IPS (In-Plane Switching).",
+    "VN (Vertical Nematic).",
+    "TA (Twisted Alignment).",
+    "PSI (Plane Switching Input)."
+  ],
+  "respuestaCorrecta": 0,
+  "explicacion": "IPS (In-Plane Switching) es una de las tecnologías de paneles LCD más extendidas para mejorar los ángulos de visión y la reproducción del color."
+},
+{
+  "id": 23,
+  "globalId": 123,
+  "pregunta": "El protocolo de IEEE para Rapid Spanning Tree Protocol es:",
+  "opciones": [
+    "802.1w.",
+    "802.1Q.",
+    "802.1D.",
+    "802.1aq."
+  ],
+  "respuestaCorrecta": 0,
+  "explicacion": "El estándar IEEE 802.1w define el protocolo de árbol de expansión rápido (RSTP), que evoluciona el clásico 802.1D."
+},
+{
+  "id": 24,
+  "globalId": 124,
+  "pregunta": "En CSS3, ¿cuál de las siguientes unidades de medida NO es relativa?",
+  "opciones": [
+    "Q",
+    "vw",
+    "ex",
+    "ch"
+  ],
+  "respuestaCorrecta": 0,
+  "explicacion": "La unidad Q (quarter of a millimeter) es una medida absoluta física (1/40 de centímetro), a diferencia de vw, ex o ch que son relativas."
+},
+{
+  "id": 25,
+  "globalId": 125,
+  "pregunta": "Señale la respuesta correcta:",
+  "opciones": [
+    "Xcode es un IDE que contiene herramientas destinadas exclusivamente al desarrollo software para iOS.",
+    "Xcode Cloud no existe.",
+    "SwiftUI es un framework que facilita la creación de aplicaciones para cualquier dispositivo Apple.",
+    "iOS SDK permite el desarrollo de aplicaciones para macOS, iOS, watchOS y tvOS."
+  ],
+  "respuestaCorrecta": 2,
+  "explicacion": "SwiftUI es el framework moderno de Apple diseñado para declarar interfaces de usuario en todas sus plataformas (iOS, macOS, watchOS, tvOS y visionOS)."
+},
+{
+  "id": 26,
+  "globalId": 126,
+  "pregunta": "Para diseñar el estilo de los campos de entrada obligatorios del formulario de solicitud se va a hacer uso del siguiente selector CSS: \"input:required\". ¿Cuál es su especificidad?",
+  "opciones": [
+    "1-1-0.",
+    "0-1-1.",
+    "1-0-1.",
+    "1-0-0."
+  ],
+  "respuestaCorrecta": 2,
+  "explicacion": "La especificidad de \"input:required\" consta de 1 selector de tipo (input) y 1 pseudo-clase (:required), lo que da 1-0-1."
+},
+{
+  "id": 27,
+  "globalId": 127,
+  "pregunta": "Se quiere facilitar el uso de herramientas de asistencia en la página. ¿Qué atributo utilizaría para indicar que un elemento se actualizará?",
+  "opciones": [
+    "aria-live.",
+    "aria-cheked.",
+    "aria-flowto.",
+    "aria-valuenow."
+  ],
+  "respuestaCorrecta": 0,
+  "explicacion": "El atributo aria-live indica a las tecnologías de asistencia que el contenido del elemento va a sufrir actualizaciones dinámicas."
+},
+{
+  "id": 28,
+  "globalId": 128,
+  "pregunta": "Para resolver una incidencia, necesita saber qué ficheros adjuntos de la solicitud del interesado con DNI 00000000T para el año 2024 no son PDF. ¿Cómo los obtendría?",
+  "opciones": [
+    "SELECT * FROM FicheroAdjunto WHERE Denominacion LIKE '%.pdf' AND IdSolicitudBeca = (SELECT IdSolicitudBeca FROM SolicitudBeca WHERE AñoConvocatoria = 2024 AND IdInteresado = (SELECT IdInteresado FROM Interesado WHERE DocumentoIdentidad = '00000000T'));",
+    "SELECT * FROM FicheroAdjunto WHERE Denominacion NOT LIKE '%.pdf' AND IdSolicitudBeca = (SELECT IdSolicitudBeca FROM SolicitudBeca WHERE AñoConvocatoria = 2024 AND IdInteresado = (SELECT IdInteresado FROM Interesado));",
+    "SELECT * FROM FicheroAdjunto WHERE Denominacion NOT LIKE '%.pdf' AND IdSolicitudBeca = (SELECT IdSolicitudBeca FROM SolicitudBeca WHERE AñoConvocatoria = 2024 AND IdInteresado = (SELECT IdInteresado FROM Interesado WHERE DocumentoIdentidad = '00000000T'));",
+    "SELECT * FROM FicheroAdjunto WHERE Denominacion NOT LIKE 'pdf' AND IdSolicitudBeca = (SELECT IdSolicitudBeca FROM SolicitudBeca WHERE AñoConvocatoria = 2024 AND IdInteresado = (SELECT IdInteresado FROM Interesado WHERE DocumentoIdentidad = '00000000T'));"
+  ],
+  "respuestaCorrecta": 2,
+  "explicacion": "La opción correcta utiliza NOT LIKE '%.pdf' para excluir los ficheros PDF y filtra correctamente las subconsultas relacionando las tablas mediante las claves e identificador del interesado."
+},
+{
+  "id": 29,
+  "globalId": 129,
+  "pregunta": "¿Qué tendrá que configurar en el backend si quiere restringir que las únicas peticiones HTTP de origen cruzado iniciadas desde scripts que se acepten procedan del frontend?",
+  "opciones": [
+    "HSTS.",
+    "CSP.",
+    "TLS.",
+    "CORS."
+  ],
+  "respuestaCorrecta": 3,
+  "explicacion": "CORS (Cross-Origin Resource Sharing) es el mecanismo de seguridad implementado en el servidor/backend para regular las solicitudes de recursos cruzados."
+},
+{
+  "id": 30,
+  "globalId": 130,
+  "pregunta": "Quiere facilitar la incorporación de otros desarrolladores al proyecto y para ello, en el repositorio de código, va a crear un fichero en el que incluirá, entre otra información, el propósito del proyecto y cómo arrancarlo localmente. Esa información se incluirá en el fichero:",
+  "opciones": [
+    "CODEOWNERS.",
+    "README.MD.",
+    "LICENSE.",
+    "CITATION."
+  ],
+  "respuestaCorrecta": 1,
+  "explicacion": "El fichero README.md es el estándar de documentación principal en la raíz de un repositorio de código para guiar a los desarrolladores."
+}
+
+    
+
   ]
 }

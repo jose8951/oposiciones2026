@@ -1276,6 +1276,18 @@
       "anulada": false,
       "explicacion": "El mecanismo Extended Advertising introducido en Bluetooth Core 5.0 utiliza 37 canales de publicidad (advertising channels) del espectro Bluetooth Low Energy."
     },
+
+
+{
+  "tipo": "imagen",
+  "id": "esquema-arquitectura-supuesto-1",
+  "descripcion": "Esquema de arquitectura y modelo de datos del supuesto práctico I",
+  "imagen": "assets/images/supuesto_2025_1.png"
+},
+
+
+
+
     {
       "id": 86,
       "globalId": 86,
@@ -1651,6 +1663,18 @@
       "anulada": false,
       "explicacion": "La sentencia correcta en Oracle para crear un usuario con contraseña es CREATE USER nombre_usuario IDENTIFIED BY contraseña;, siguiendo la sintaxis estándar de creación de usuarios en SQL/PLSQL de Oracle."
     },
+
+
+{
+  "tipo": "imagen",
+  "id": "esquema-arquitectura-supuesto-2",
+  "descripcion": "Esquema de arquitectura y modelo de datos del supuesto práctico II",
+  "imagen": "assets/images/supuesto_2025_2.png"
+},
+
+
+
+
     {
       "id": 111,
       "globalId": 111,

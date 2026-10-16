@@ -1,5 +1,5 @@
 {
-  "examen": "TAI Ingreso Libre 2025 - Caso Extraordinario",
+  "examen": "TAI Ingreso Libre 2026 - Caso Extraordinario",
   "preguntas": [
     {
       "id": 1,
@@ -1276,6 +1276,18 @@
       "anulada": false,
       "explicacion": "En UML, el diagrama de secuencia es un diagrama de interacción que detalla cómo los objetos colaboran a lo largo del tiempo mediante el intercambio secuencial de mensajes."
     },
+
+
+{
+  "tipo": "imagen",
+  "id": "enunciado-supuesto",
+  "descripcion": "Enunciado del supuesto práctico",
+  "imagen": "assets/images/enunciado_supuesto_2026.png"
+},
+
+
+
+
     {
       "id": 1,
       "globalId": 86,
@@ -1651,6 +1663,18 @@
       "anulada": false,
       "explicacion": "En proyectos gestionados con Maven en Java, la versión de la aplicación y sus dependencias se configuran en el archivo XML raíz llamado `pom.xml`."
     },
+
+
+{
+  "tipo": "imagen",
+  "id": "enunciado-supuesto-2",
+  "descripcion": "Enunciado del supuesto práctico II",
+  "imagen": "assets/images/enunciado_supuesto_2026_2.png"
+},
+
+
+
+
     {
       "id": 1,
       "globalId": 111,

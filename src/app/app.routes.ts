@@ -18,6 +18,7 @@ import { Tecnologia } from './pages/tecnologia/tecnologia';
 import { Bloque3 } from './pages/bloque3/bloque3';
 import { Normativa169 } from './pages/normativa169/normativa169';
 import { BancoFichasBoe } from './pages/banco-fichas-boe/banco-fichas-boe';
+import { Examenprofe } from './pages/examenprofe/examenprofe';
 
 
 // 🔒 GUARD DE SEGURIDAD (Simulado para el futuro Login)
@@ -53,6 +54,7 @@ export const routes: Routes = [
   { path: 'tecnologia', component: Tecnologia, canActivate: [authGuard] },
   { path: 'bloque3', component: Bloque3, canActivate: [authGuard] },
   { path: 'normativa169', component: Normativa169, canActivate: [authGuard] },
+  {path:'examenprofe',component:Examenprofe,canActivate:[authGuard]},
   {
     path: 'banco-fichas-boe',
     component: BancoFichasBoe,

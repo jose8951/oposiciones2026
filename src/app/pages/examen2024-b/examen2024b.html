@@ -1,43 +1,103 @@
 <div class="container mt-4">
   @if (cargando()) {
     <p>Cargando preguntas...</p>
-  } @else { 
-    @for (pregunta of preguntas(); track pregunta.globalId) {
-      <div class="card mb-3">
-        <div class="card-body">
-          <h6 class="fw-bold text-dark" style="color: #000000 !important;">
-            {{ pregunta.globalId }}. {{ pregunta.pregunta }}
-          </h6>
+  } @else {
 
-          @for (opcion of pregunta.opciones; track $index) {
-            <div class="form-check my-2">
-              <input
-                class="form-check-input"
-                type="radio"
-                [id]="'opcion-' + pregunta.globalId + '-' + $index"
-                [name]="'pregunta-' + pregunta.globalId"
-                [value]="$index"
-                (change)="responder(pregunta.globalId, $index)"
+    <form
+      #formularioExamen
+      autocomplete="off"
+      (submit)="$event.preventDefault()"
+    >
+
+      @for (pregunta of preguntas(); track $index) {
+
+        @if (pregunta.tipo === 'imagen') {
+
+          <div class="card mb-3 shadow-sm border-primary">
+            <div class="card-body text-center">
+
+              @if (pregunta.descripcion) {
+                <h5 class="card-title text-secondary mb-3 fw-bold">
+                  {{ pregunta.descripcion }}
+                </h5>
+              }
+
+              <img
+                [src]="pregunta.imagen"
+                alt="Enunciado o esquema"
+                class="img-fluid rounded border shadow-sm"
+                style="max-width: 100%; height: auto;"
               />
-              <label
-                class="form-check-label fw-medium"
-                [style.color]="(respuestas.has(pregunta.globalId) && (pregunta.respuestaCorrecta === $index || respuestas.get(pregunta.globalId) === $index)) ? null : '#000000'"
-                [for]="'opcion-' + pregunta.globalId + '-' + $index"
-                [class.text-success]="respuestas.has(pregunta.globalId) && pregunta.respuestaCorrecta === $index"
-                [class.text-danger]="respuestas.get(pregunta.globalId) === $index && esCorrecta(pregunta.globalId) === false"
-              >
-                {{ opcion }}
-              </label>
-            </div>
-          } 
 
-          @if (esCorrecta(pregunta.globalId) === true) {
-            <p class="text-success mt-2 fw-bold">✅ {{ pregunta.explicacion }}</p>
-          } @else if (esCorrecta(pregunta.globalId) === false) {
-            <p class="text-danger mt-2 fw-bold">❌ Incorrecta.</p>
-          }
-        </div>
-      </div>
-    } 
+            </div>
+          </div>
+
+        } @else {
+
+          <div class="card mb-3">
+            <div class="card-body">
+
+              <h6 class="fw-bold text-dark">
+                {{ pregunta.globalId }}. {{ pregunta.pregunta }}
+              </h6>
+
+              @for (opcion of pregunta.opciones; track $index; let iOpcion = $index) {
+
+                <div class="form-check">
+
+                  <label
+                    class="form-check-label d-flex align-items-center"
+                    style="cursor: pointer;"
+                    [class.text-success]="
+                      respuestas.has(pregunta.globalId) &&
+                      pregunta.respuestaCorrecta === iOpcion
+                    "
+                    [class.text-danger]="
+                      respuestas.get(pregunta.globalId) === iOpcion &&
+                      esCorrecta(pregunta.globalId) === false
+                    "
+                  >
+
+                    <input
+                      class="form-check-input me-2"
+                      type="radio"
+                      autocomplete="off"
+                      [name]="'grupo-' + pregunta.globalId"
+                      [value]="iOpcion"
+                      [checked]="respuestas.get(pregunta.globalId) === iOpcion"
+                      (change)="responder(pregunta.globalId, iOpcion)"
+                    />
+
+                    <span>{{ opcion }}</span>
+
+                  </label>
+
+                </div>
+
+              }
+
+              @if (esCorrecta(pregunta.globalId) === true) {
+
+                <p class="text-success mt-2">
+                  ✅ {{ pregunta.explicacion }}
+                </p>
+
+              } @else if (esCorrecta(pregunta.globalId) === false) {
+
+                <p class="text-danger mt-2">
+                  ❌ Incorrecta.
+                </p>
+
+              }
+
+            </div>
+          </div>
+
+        }
+
+      }
+
+    </form>
+
   }
 </div>

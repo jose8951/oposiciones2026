@@ -64,22 +64,22 @@
             📄 PDFs
           </a>
           <ul class="dropdown-menu dropdown-menu-end shadow-lg border-0 rounded-3 mt-lg-2" aria-labelledby="pdfDropdown">
-        @for (pdf of pdfs; track pdf.id; let last = $last) {
-  <li><h6 class="dropdown-header text-primary fw-bold">{{ pdf.titulo }}</h6></li>
-  <li>
-    <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'preguntas']" target="_blank">
-      📄 Cuestionario Preguntas{{ pdf.label }}
-    </a>
-  </li>
-  <li>
-    <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'resultados']" target="_blank">
-      ✅ Plantilla Corrección{{ pdf.label }}
-    </a>
-  </li>
-  @if (!last) {
-    <li><hr class="dropdown-divider my-1" /></li>
-  }
-}
+            @for (pdf of pdfs; track pdf.id; let last = $last) {
+              <li><h6 class="dropdown-header text-primary fw-bold">{{ pdf.titulo }}</h6></li>
+              <li>
+                <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'preguntas']">
+                  📄 Cuestionario Preguntas{{ pdf.label }}
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item py-2" [routerLink]="['/pdf', pdf.id, 'resultados']">
+                  ✅ Plantilla Corrección{{ pdf.label }}
+                </a>
+              </li>
+              @if (!last) {
+                <li><hr class="dropdown-divider my-1" /></li>
+              }
+            }
           </ul>
         </li>
 
@@ -90,7 +90,7 @@
           </a>
         </li>
 
-    <!-- Botón para descargar / abrir el BOE 470 desde fuera -->
+        <!-- Botón para descargar / abrir el BOE 470 desde fuera -->
         <li class="nav-item ms-lg-2">
           <a class="btn btn-outline-light btn-sm fw-bold px-3 rounded-pill shadow-sm" href="assets/data/Boe-470/BOE-470_Normativa.pdf" target="_blank" download>
             📥 Descargar BOE 470

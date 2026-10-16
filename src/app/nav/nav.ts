@@ -36,6 +36,7 @@ export class Nav {
     { label: '2023', route: '/examen2023' },
     { label: '2019', route: '/examen2019' },
     { label: '2018', route: '/examen2018' },
+    
   ];
 
   temariosBloques = [
@@ -45,6 +46,7 @@ export class Nav {
     { label: 'Bloque3', route: '/bloque3' },
     { label: 'Normativa', route: '/normativa169' },
     { label: 'Administración', route: '/banco-fichas-boe' },
+    { label: 'Examen Profe', route: '/examenprofe' },
   ];
 
   pdfs = [
@@ -77,6 +79,7 @@ export class Nav {
       id: 'pregunta_generales_bloque3_buscable',
       label: ' (Bloque 3)',
     },
+    { titulo: 'Examen Profe', id: 'Tai_oposion_profe', label: ' (Profe)' },
   ];
 
   onSearch() {

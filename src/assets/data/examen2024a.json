@@ -1201,6 +1201,19 @@
       "anulada": false,
       "explicacion": "Respuesta oficial del Tribunal (Opción B). EMMA es la herramienta del CCN-CERT diseñada para el descubrimiento de activos, proporcionando 'visibilidad y control' de los dispositivos conectados a la red. No confundir con CARMEN, que se centra específicamente en la 'detección de amenazas avanzadas y anomalías (APTs)', ni con MONICA (gestión de riesgos)."
     },
+
+
+{
+  "tipo": "imagen",
+  "id": "enunciado-supuesto-2024-1",
+  "descripcion": "Enunciado y esquema del supuesto práctico (2024)",
+  "imagen": "assets/images/supuesto_2024_1.png"
+},
+
+
+
+
+
     {
       "id": 1,
       "globalId": 81,
@@ -1501,6 +1514,19 @@
       "anulada": false,
       "explicacion": "En C#, el operador '?' después del tipo (int?) declara un tipo nullable, permitiendo que la variable acepte valores nulos además de los del tipo base."
     },
+
+
+
+{
+  "tipo": "imagen",
+  "id": "enunciado-supuesto-2024-2",
+  "descripcion": "Enunciado del supuesto práctico II (2024)",
+  "imagen": "assets/images/supuesto_2024_2.png"
+},
+
+
+
+
     {
       "id": 1,
       "globalId": 101,
@@ -1800,6 +1826,131 @@
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "La buena práctica en Directorio Activo es crear primero una Unidad Organizativa (OU) para agrupar los usuarios antes de aplicarles GPOs."
-    }
+    },
+
+
+
+    
+  {
+    "globalId": 1,
+    "pregunta": "Para diseñar el estilo de los campos de entrada obligatorios del formulario de solicitud se va a hacer uso del siguiente selector CSS: \"input:required\". ¿Cuál es su especificidad?",
+    "opciones": [
+      "1-1-0.",
+      "0-1-1.",
+      "1-0-1.",
+      "1-0-0."
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La especificidad del selector CSS \"input:required\" se compone de 1 selector de tipo (input) y 1 pseudo-clase (:required), lo que da como resultado 1-0-1."
+  },
+  {
+    "globalId": 2,
+    "pregunta": "Se quiere facilitar el uso de herramientas de asistencia en la página. ¿Qué atributo utilizaría para indicar que un elemento se actualizará?",
+    "opciones": [
+      "aria-live.",
+      "aria-cheked.",
+      "aria-flowto.",
+      "aria-valuenow."
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El atributo aria-live se utiliza para notificar a las tecnologías de asistencia que el contenido de un elemento ha cambiado dinámicamente."
+  },
+  {
+    "globalId": 3,
+    "pregunta": "Para resolver una incidencia, necesita saber qué ficheros adjuntos de la solicitud del interesado con DNI 00000000T para el año 2024 no son PDF. ¿Cómo los obtendría?",
+    "opciones": [
+      "SELECT * FROM FicheroAdjunto WHERE Denominacion LIKE '%.pdf' AND IdSolicitudBeca = (SELECT IdSolicitudBeca FROM SolicitudBeca WHERE AñoConvocatoria = 2024 AND IdInteresado = (SELECT IdInteresado FROM Interesado WHERE Documentoldentidad = '00000000T'));",
+      "SELECT * FROM FicheroAdjunto WHERE Denominacion NOT LIKE '%.pdf' AND IdSolicitudBeca = (SELECT IdSolicitudBeca FROM SolicitudBeca WHERE AñoConvocatoria = 2024 AND IdInteresado = (SELECT IdInteresado FROM Interesado WHERE Documentoldentidad = '00000000T'));",
+      "SELECT * FROM FicheroAdjunto WHERE Denominacion NOT LIKE '%.pdf' AND IdSolicitudBeca = (SELECT IdSolicitudBeca FROM SolicitudBeca WHERE AñoConvocatoria = 2024 AND IdInteresado = (SELECT IdInteresado FROM Interesado WHERE Documentoldentidad = '00000000T'))",
+      "SELECT * FROM FicheroAdjunto WHERE Denominacion NOT LIKE 'pdf' AND IdSolicitudBeca = (SELECT IdSolicitudBeca FROM SolicitudBeca WHERE AñoConvocatoria = 2024 AND IdInteresado = (SELECT IdInteresado FROM Interesado WHERE Documentoldentidad = '00000000T'));"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La opción correcta utiliza el operador NOT LIKE '%.pdf' para filtrar los adjuntos que no tengan esa extensión y enlaza correctamente las subconsultas por las claves foráneas e identificadores."
+  },
+  {
+    "globalId": 4,
+    "pregunta": "¿Qué tendrá que configurar en el backend si quiere restringir que las únicas peticiones HTTP de origen cruzado iniciadas desde scripts que se acepten procedan del frontend?",
+    "opciones": [
+      "HSTS.",
+      "CSP.",
+      "TLS.",
+      "CORS."
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "CORS (Cross-Origin Resource Sharing) es el mecanismo de seguridad implementado en el backend para controlar qué orígenes externos tienen permiso para realizar peticiones."
+  },
+  {
+    "globalId": 5,
+    "pregunta": "Quiere facilitar la incorporación de otros desarrolladores al proyecto y para ello, en el repositorio de código, va a crear un fichero en el que incluirá, entre otra información, el propósito del proyecto y cómo arrancarlo localmente. Esa información se incluirá en el fichero:",
+    "opciones": [
+      "CODEOWNERS.",
+      "README.MD.",
+      "LICENSE.",
+      "CITATION."
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El archivo README.md es el estándar para documentar la descripción, propósito e instrucciones de instalación y arranque del proyecto."
+  },
+  {
+    "globalId": 6,
+    "pregunta": "Como administrador de correo, quiere cambiar el mensaje HELO que aparece cuando se establecen conexiones al servidor SMTP. Actualmente aparece el nombre del servidor, pero quiere que muestre \"CORREOBIBLIOTECA\" y además, que el cambio se aplique en todos los servidores SMTP que existan, no solo en aquel en el que está trabajando. ¿Cómo lo haría?",
+    "opciones": [
+      "Editando el parámetro $client en el fichero /etc/postfix/main.cf y reiniciando posteriormente el servidor Postfix.",
+      "Accediendo al servidor SMTP y ejecutando EHLO -name CORREOBIBLIOTECA en la consola.",
+      "Editando el parámetro $my_helo en el fichero /etc/postfix/master.cf y reiniciando posteriormente el servidor Postfix.",
+      "Editando el parámetro $helo_name en /etc/postfix/main.cf y reiniciando posteriormente el servidor Postfix."
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Se configura mediante el parámetro correspondiente de identificación HELO/EHLO en el fichero de configuración principal de Postfix (/etc/postfix/main.cf)."
+  },
+  {
+    "globalId": 7,
+    "pregunta": "Como no hay suficientes tomas Ethernet en la zona física donde están los profesores, se va a instalar una red WiFi con protocolo WPA3-Enterprise. En este caso, para acceder a la red WiFi habrá que utilizar:",
+    "opciones": [
+      "Una contraseña de 64 bits.",
+      "Una contraseña de 128 bits.",
+      "Un servidor RADIUS o cualquier solución que permita EAP-TLS.",
+      "Una contraseña de 192 bits usando el algoritmo GMCP-256."
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "WPA3-Enterprise emplea autenticación basada en IEEE 802.1X, lo que requiere un servidor RADIUS o protocolos compatibles como EAP-TLS."
+  },
+  {
+    "globalId": 8,
+    "pregunta": "En la base de datos MySQL de Profesores, nos piden que añadamos una tabla de los profesores para el curso de INGLES BASICO, que se llamará \"ProfesoresIngles\" con sus nombres y apellidos. Para ello, y tras acceder como root a MYSQL, ingresaremos el comando:",
+    "opciones": [
+      "CREATE TABLE ProfesoresIngles (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, nombre VARCHAR(30), apellido1 VARCHAR(30), apellido2 VARCHAR(30));",
+      "CREATE TABLE ProfesoresIngles KEY id, nombre, apellidos;",
+      "CREAR TABLA ProfesoresIngles KEY apellidos, nombre;",
+      "CREATE TABLE ProfesoresIngles (nombre, apellido);"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La sentencia SQL correcta en MySQL especifica el nombre de la tabla, los tipos de datos con VARCHAR y la clave primaria autoincremental."
+  },
+  {
+    "globalId": 9,
+    "pregunta": "Ha instalado el servicio Nagios para monitorizar los servidores y servicios en su sistema y quiere monitorizar, además, la URL de profesores (https://profesores.es), pero antes quiere comprobar que este servicio está configurado correctamente. Para ello, utilizará el comando:",
+    "opciones": [
+      "nagios -v /usr/local/nagios/etc/nagios.cfg",
+      "/mnt/nagios -check",
+      "systemctl status nagios",
+      "https://profesores.es nagios"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El comando nagios -v permite verificar la sintaxis y los ficheros de configuración antes de arrancar o reiniciar el demonio."
+  },
+  {
+    "globalId": 10,
+    "pregunta": "Se ha instalado un servidor web con HTTPS y certificado SSL de servidor para proteger la conexión entre los clientes y el servidor, para lo cual la conexión usará TLS. Según las recomendaciones del Centro Criptológico Nacional, ¿cuál es la versión mínima y la recomendada a usar en TLS?",
+    "opciones": [
+      "La versión mínima aceptable es la 1.1 y se recomienda usar esa misma versión 1.1",
+      "La versión mínima aceptable es la 1.0 y se recomienda usar la 1.1",
+      "La versión mínima aceptable es la 1.2 y se recomienda usar la 1.3",
+      "La versión mínima aceptable es la 1.1 y se recomienda usar la 1.3"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Las guías y normativas del CCN-STIC establecen TLS 1.2 como la versión mínima aceptable y TLS 1.3 como la recomendada."
+  }
+
   ]
 }

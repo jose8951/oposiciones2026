@@ -1,0 +1,75 @@
+<div class="container mt-4 mb-5">
+  <h2 class="mb-4 fw-bold text-primary">{{ nombreExamen() }}</h2>
+
+  @if (cargando()) {
+    <div class="d-flex justify-content-center align-items-center py-5">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Cargando preguntas...</span>
+      </div>
+      <span class="ms-3 fw-medium">Cargando preguntas del profesor...</span>
+    </div>
+  } @else {
+    @for (item of preguntas(); track item.id || item.globalId) {
+
+      <!-- ==================== IMAGEN ==================== -->
+      @if (item.tipo === 'imagen') {
+        <div class="card mb-4 shadow-sm border-primary">
+          <div class="card-body text-center">
+            <h6 class="fw-bold text-primary mb-3">
+              {{ item.descripcion }}
+            </h6>
+            <img
+              [src]="item.imagen"
+              alt="Código C#"
+              class="img-fluid rounded border"
+              style="max-width: 100%; max-height: 550px;"
+            />
+          </div>
+        </div>
+      }
+
+      <!-- ==================== PREGUNTA NORMAL ==================== -->
+      @else {
+        <div class="card mb-3 shadow-sm border-1">
+          <div class="card-body">
+            <h6 class="fw-bold text-dark mb-3" style="color: #000000 !important;">
+              {{ item.globalId }}. {{ item.pregunta }}
+            </h6>
+
+            @for (opcion of item.opciones; track $index) {
+              <div class="form-check my-2">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  [id]="'opcion-' + item.globalId + '-' + $index"
+                  [name]="'pregunta-' + item.globalId"
+                  [value]="$index"
+                  (change)="responder(item.globalId, $index)"
+                />
+                <label
+                  class="form-check-label fw-medium"
+                  style="color: #000000 !important;"
+                  [for]="'opcion-' + item.globalId + '-' + $index"
+                  [class.text-success]="respuestas.has(item.globalId) && item.respuestaCorrecta === $index"
+                  [class.text-danger]="respuestas.get(item.globalId) === $index && esCorrecta(item.globalId) === false"
+                >
+                  {{ opcion }}
+                </label>
+              </div>
+            }
+
+            @if (esCorrecta(item.globalId) === true) {
+              <div class="alert alert-success mt-3 py-2 mb-0">
+                <p class="mb-0 fw-bold">✅ ¡Correcto! {{ item.explicacion }}</p>
+              </div>
+            } @else if (esCorrecta(item.globalId) === false) {
+              <div class="alert alert-danger mt-3 py-2 mb-0">
+                <p class="mb-0 fw-bold">❌ Incorrecta.</p>
+              </div>
+            }
+          </div>
+        </div>
+      }
+    }
+  }
+</div>

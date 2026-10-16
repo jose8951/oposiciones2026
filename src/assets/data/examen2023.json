@@ -1,11 +1,11 @@
 {
-  "examen": "TAI Ingreso Libre 2022",
+  "examen": "TAI Ingreso Libre 2023",
   "preguntas": [
     {
       "id": 1,
       "globalId": 1,
       "seccion": "Primera Parte",
-      "pregunta": "De acuerdo con el artículo 64 de la Constitución Española de 1978, los actos del Rey serán refrendados por:",
+      "pregunta": "De acuerdo con el artículo 64 de la Constitución Española de 1978 (en adelante CE), los actos del Rey, excepto la propuesta y el nombramiento del Presidente del Gobierno, y la disolución de las Cámaras prevista en el artículo 99, serán refrendados por:",
       "opciones": [
         "Los Presidentes del Congreso y el Senado.",
         "Los Ministros o los Secretarios de Estado en función de la materia.",
@@ -299,7 +299,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "WCAG son las pautas de accesibilidad de contenidos web promovidas por el W3C."
+      "explicacion": "WCAG (Web Content Accessibility Guidelines) son las pautas de accesibilidad de contenidos web promovidas por el W3C para garantizar que las páginas web sean accesibles para todas las personas, incluidas aquellas con discapacidades."
     },
     {
       "id": 21,
@@ -704,7 +704,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "Mockete no es una librería de la Apache Foundation. Las otras tres (Log4J, httpclient, commons-io) sí lo son."
+      "explicacion": "Mockete no existe; es una opción inventada que imita a Mockito (que sí es un framework de pruebas muy popular, aunque tampoco pertenece a la Fundación Apache). Las otras tres (Log4J, httpclient, commons-io) sí lo son."
     },
     {
       "id": 48,
@@ -779,7 +779,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "WSIL es un método alternativo al descubrimiento de servicios Web."
+      "explicacion": "WSIL (Web Services Inspection Language) es un método alternativo y descentralizado al descubrimiento de servicios web que permite inspeccionar directamente el punto de acceso (endpoint) del proveedor, a diferencia de los registros centralizados como UDDI."
     },
     {
       "id": 53,
@@ -1201,6 +1201,15 @@
       "anulada": true,
       "explicacion": "PREGUNTA ANULADA en el examen oficial."
     },
+
+{
+  "tipo": "imagen",
+  "id": "enunciado-supuesto-2023-1",
+  "descripcion": "Enunciado del supuesto práctico I (2023)",
+  "imagen": "assets/images/supuesto_2023_1.png"
+},
+
+
     {
       "id": 1,
       "globalId": 81,
@@ -1501,6 +1510,26 @@
       "anulada": false,
       "explicacion": "Jenkins es el software que permite automatizar la construcción y despliegue de un proyecto utilizando el concepto de pipelines."
     },
+
+
+    
+  {
+    "tipo": "imagen",
+    "id": "enunciado-supuesto-2023-2-parte1",
+    "descripcion": "Enunciado del supuesto práctico II (2023) - Parte 1",
+    "imagen": "assets/images/supuesto_2023_2.png"
+  },
+  {
+    "tipo": "imagen",
+    "id": "enunciado-supuesto-2023-2-parte2",
+    "descripcion": "Enunciado del supuesto práctico II (2023) - Parte 2",
+    "imagen": "assets/images/supuesto_2023_2_1.png"
+  },
+
+
+
+
+
     {
       "id": 1,
       "globalId": 101,
@@ -1800,6 +1829,154 @@
       "respuestaCorrecta": 2,
       "anulada": false,
       "explicacion": "El comando 'route print' en Windows muestra la tabla de enrutamiento de los equipos."
-    }
+    },
+
+
+
+
+
+
+
+{
+    "id": 21,
+    "globalId": 121,
+    "seccion": "Supuesto II",
+    "pregunta": "¿Qué valor mostraría la consola si ejecutamos este código: console.log(4 * 3 ** 2)?",
+    "opciones": [
+      "36",
+      "-1",
+      "24",
+      "Null"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El operador de exponenciación (**) tiene mayor precedencia que la multiplicación (*). Primero se calcula 3 ** 2 (que es 9) y luego se multiplica por 4, dando como resultado 36."
+  },
+  {
+    "id": 22,
+    "globalId": 122,
+    "seccion": "Supuesto II",
+    "pregunta": "¿Qué característica o atributo de seguridad de las cookies permite que el navegador solo envíe la cookie al servidor si ésta se originó en el mismo sitio web al que estamos intentando contactar?",
+    "opciones": [
+      "Domain",
+      "SameSite",
+      "Secure",
+      "HttpOnly"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El atributo SameSite controla si las cookies se envían en solicitudes de origen cruzado, protegiendo frente a ataques de falsificación de peticiones en sitios cruzados (CSRF)."
+  },
+  {
+    "id": 23,
+    "globalId": 123,
+    "seccion": "Supuesto II",
+    "pregunta": "En PHP, señale qué variable de entorno se puede usar para almacenar datos del inicio de sesión de un usuario:",
+    "opciones": [
+      "$_SESSION",
+      "$SESSION",
+      "$_GLOBAL",
+      "$GLOBAL"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El array superglobal $_SESSION en PHP se utiliza para registrar y persistir la información de la sesión de un usuario a lo largo de múltiples solicitudes."
+  },
+  {
+    "id": 24,
+    "globalId": 124,
+    "seccion": "Supuesto II",
+    "pregunta": "¿Qué conjunto de herramientas de presentación y comportamiento ofrece componentes para trabajar en la parte dinámica del frontal web HTML?",
+    "opciones": [
+      "NumPy",
+      "ActiveMQ",
+      "Bootstrap",
+      "TensorFlow"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Bootstrap es un framework front-end que incluye componentes CSS y JavaScript para diseñar interfaces web adaptables y dinámicas."
+  },
+  {
+    "id": 25,
+    "globalId": 125,
+    "seccion": "Supuesto II",
+    "pregunta": "¿Qué método estático usaría para convertir una cadena JSON en un valor u objeto javascript?:",
+    "opciones": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "let obj = JSON",
+      "let obj = New JSON"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El método estático JSON.parse() analiza una cadena de texto como JSON, construyendo el valor u objeto JavaScript correspondiente."
+  },
+  {
+    "id": 26,
+    "globalId": 126,
+    "seccion": "Supuesto II",
+    "pregunta": "¿Qué comando muestra información del conjunto resultante de directivas (RSoP) para un usuario y equipo de destino en los equipos Windows 10 de la Subred de PCs de Usuario del Modelo B?",
+    "opciones": [
+      "gpshow",
+      "gpprint",
+      "gpresult",
+      "gplist"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El comando gpresult se utiliza en entornos Windows para verificar y mostrar la información de la Directiva de Grupo (GPO) y el Conjunto Resultante de Directivas (RSoP)."
+  },
+  {
+    "id": 27,
+    "globalId": 127,
+    "seccion": "Supuesto II",
+    "pregunta": "Una vez implementado el acceso telemático a la oficina o \"teletrabajo\" mediante VPN, en relación con esta tecnología, indique en qué RFC está definido el protocolo PPTP:",
+    "opciones": [
+      "RFC 2661",
+      "RFC 2637",
+      "RFC 1661",
+      "RFC 2472"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El protocolo de túnel punto a punto (PPTP) está formalmente definido en el RFC 2637."
+  },
+  {
+    "id": 28,
+    "globalId": 128,
+    "seccion": "Supuesto II",
+    "pregunta": "Los dispositivos de interconexión de redes de nuestro sistema, son compatibles con PoE++. Señale la afirmación correcta con respecto a este término:",
+    "opciones": [
+      "Las siglas corresponden a Power-of-Ethernet.",
+      "Como estándar, recibe la denominación IEEE 802.3at.",
+      "La alimentación real recibida es de 25,50 Watts.",
+      "Se subdivide en dos tipos: Tipo 3 y Tipo 4."
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "PoE++ (IEEE 802.3bt) se divide en Tipo 3 (hasta 60W en el puerto) y Tipo 4 (hasta 90W en el puerto)."
+  },
+  {
+    "id": 29,
+    "globalId": 129,
+    "seccion": "Supuesto II",
+    "pregunta": "Si fuese el motor de Base de Datos ORACLE, indique cuál de los siguientes comandos utilizaría para crear una copia de seguridad de la base de datos origen:",
+    "opciones": [
+      "RMAN",
+      "DUMPALL",
+      "ORACLE_BCK",
+      "COPYDB"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "RMAN (Recovery Manager) es la herramienta nativa estándar de Oracle diseñada para la gestión de copias de seguridad y recuperación."
+  },
+  {
+    "id": 30,
+    "globalId": 130,
+    "seccion": "Supuesto II",
+    "pregunta": "Se ha decidido que la última IP válida de host para la Subred de Aplicaciones del Modelo B sea considerada como Puerta de Enlace o Default Gateway. Según este criterio, señale la opción correcta teniendo en cuenta que esta subred tiene el direccionamiento...",
+    "opciones": [
+      "10.20.30.191",
+      "10.20.30.190",
+      "10.20.30.193",
+      "10.20.30.192"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La última dirección IP utilizable (válida de host) en un rango de subred reservado precede siempre a la dirección de difusión (broadcast), correspondiendo en este caso operativo estándar a la terminada en .190."
+ }
+
   ]
 }
