@@ -1,18 +1,31 @@
-import { Component, inject, OnInit, signal } from '@angular/core';
-import { ExamenService } from '../../services/examen';
+import {
+  Component,
+  ElementRef,
+  HostListener,
+  ViewChild,
+  inject,
+  OnInit,
+  signal
+} from '@angular/core';
+
+import { CommonModule } from '@angular/common';
 import { Pregunta } from '../../models/pregunta.model';
+import { ExamenService } from '../../services/examen';
 
 @Component({
   selector: 'app-examen2019',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './examen2019.html',
   styleUrl: './examen2019.css',
 })
-export class Examen2019 implements OnInit{
+export class Examen2019 implements OnInit {
 
-   private examenService = inject(ExamenService);
+  private examenService = inject(ExamenService);
 
-  // Signals locales del componente (Garantizan la reactividad en F5)
+  @ViewChild('formularioExamen')
+  formularioExamen?: ElementRef<HTMLFormElement>;
+
+  // Signals locales del componente (Garantizan la reactividad)
   preguntas = signal<Pregunta[]>([]);
   cargando = signal<boolean>(false);
   nombreExamen = signal<string>('');
@@ -20,7 +33,7 @@ export class Examen2019 implements OnInit{
   respuestas = new Map<number, number>();
 
   ngOnInit(): void {
-     this.cargando.set(true);
+    this.cargando.set(true);
 
     // Le pedimos los datos al servicio y nos suscribimos desde el componente
     this.examenService.obtenerExamen('2019').subscribe({
@@ -36,14 +49,25 @@ export class Examen2019 implements OnInit{
     });
   }
 
+  @HostListener('window:pageshow')
+  limpiarRespuestasAlMostrar(): void {
+    this.respuestas.clear();
+    this.formularioExamen?.nativeElement.reset();
+  }
 
-    responder(globalId: number, indice: number) {
+  responder(globalId: number, indice: number): void {
     this.respuestas.set(globalId, indice);
   }
-  esCorrecta(globaId: number): boolean | null {
-    const pregunta = this.preguntas().find((p) => p.globalId === globaId);
-    if (!pregunta || !this.respuestas.has(globaId)) return null;
-    return this.respuestas.get(globaId) === pregunta.respuestaCorrecta;
+
+  esCorrecta(globalId: number): boolean | null {
+    const pregunta = this.preguntas().find(
+      (p) => p.globalId === globalId
+    );
+
+    if (!pregunta || !this.respuestas.has(globalId)) {
+      return null;
+    }
+
+    return this.respuestas.get(globalId) === pregunta.respuestaCorrecta;
   }
 }
-

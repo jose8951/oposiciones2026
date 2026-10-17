@@ -1093,6 +1093,21 @@
       "anulada": false,
       "explicacion": "La característica incorrecta es la B. UDP es un protocolo no fiable que no realiza verificaciones de entrega ni de estado [2, 11]."
     },
+
+
+
+
+
+    {
+      "tipo": "imagen",
+      "id": "enunciado-supuesto-2019-1",
+      "descripcion": "Enunciado del supuesto práctico I (2019)",
+      "imagen": "assets/images/supuesto_2019_1.png"
+    },
+
+
+
+
     {
       "id": 81,
       "globalId": 81,
@@ -1378,6 +1393,24 @@
       "anulada": false,
       "explicacion": "El comando 'git log' muestra el historial de confirmaciones (commits) del repositorio [20]."
     },
+
+
+
+
+
+    {
+      "tipo": "imagen",
+      "id": "enunciado-supuesto-2019-2",
+      "descripcion": "Enunciado del supuesto práctico II (2019)",
+      "imagen": "assets/images/supuesto_2019_2.png"
+    },
+
+
+
+
+
+
+
 
     {
       "id": 101,
@@ -1788,6 +1821,103 @@
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "Esta es una técnica clásica de Inyección SQL que busca alterar la lógica de la consulta a la base de datos para obtener acceso no autorizado [7, 8]."
+    },
+
+
+{
+      "id": 130,
+      "globalId": 130,
+      "seccion": "Reserva - Supuesto I",
+      "pregunta": "Un usuario introduce la cadena \"100 OR 1=1\" en un formulario. ¿Qué técnica está utilizando?",
+      "opciones": [
+        "Denial of Service.",
+        "Phishing",
+        "Malware attack.",
+        "SQL Injection."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Esta es una técnica clásica de Inyección SQL que busca alterar la lógica de la consulta a la base de datos para obtener acceso no autorizado [7, 8]."
+    },
+    {
+      "id": 131,
+      "globalId": 131,
+      "seccion": "Supuesto Práctico - TAI 2019",
+      "pregunta": "Con el objetivo de recabar información sobre los equipos Windows, disponen de un software de inventariado que necesita acceso por el puerto 4433 (TCP) en los equipos destino. ¿Qué comando utilizaría en estos últimos para añadir la regla al firewall?",
+      "opciones": [
+        "netsh advfirewall firewall create rule name= \"Inventariado\" dir=in action=allow protocol=TCP localport=4433",
+        "netsh advfirewall firewall add rule name= \"Inventariado\" dir=in action=permit protocol=TCP localport=4433",
+        "netsh advfirewall firewall add rule name= \"Inventariado\" dir=in action=allow protocol=TCP localport=4433",
+        "netsh advfirewall firewall new rule name= \"Inventariado\" dir=in action=allow protocol=TCP localport=4433"
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El comando correcto en Windows para añadir una regla al firewall mediante netsh es 'advfirewall firewall add rule' especificando la acción allow y el protocolo TCP junto al puerto local."
+    },
+    {
+      "id": 132,
+      "globalId": 132,
+      "seccion": "Supuesto Práctico - TAI 2019",
+      "pregunta": "Desde la unidad responsable de la red, le indican que por motivos de seguridad van a realizar la conexión por el puerto 422. ¿Qué comando debería utilizar en sus equipos RHEL para comprobar que la comunicación ya está abierta, si la IP destino es la 10.0.4.22 ?",
+      "opciones": [
+        "nc -v - ip 10.0.4.22 -port 422",
+        "nc -v 10.0.4.22 422",
+        "nc -v 422 10.0.4.22",
+        "nc -v 10.0.4.22:422"
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La sintaxis estándar de la utilidad netcat (nc) para comprobar la conectividad hacia una IP y puerto específicos en sistemas Linux/RHEL es 'nc -v <ip> <puerto>'."
+    },
+    {
+      "id": 133,
+      "globalId": 133,
+      "seccion": "Supuesto Práctico - TAI 2019",
+      "pregunta": "Durante el proceso de traslado, uno de los equipos Windows más importantes de la DCM da problemas de corrupción de datos y han decidido restaurar la copia de seguridad. Le indican que el dispositivo está cifrado. ¿Qué necesita que le proporcionen para poder restaurar la copia?",
+      "opciones": [
+        "El certificado digital.",
+        "La clave de BitLocker.",
+        "La clave privada.",
+        "La clave de sesión."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Cuando un dispositivo o unidad en entornos Windows se encuentra cifrado mediante BitLocker, se requiere la clave de recuperación de BitLocker para acceder o restaurar información en escenarios de recuperación."
+    },
+    {
+      "id": 134,
+      "globalId": 134,
+      "seccion": "Supuesto Práctico - TAI 2019",
+      "pregunta": "Desde su unidad también se está valorando el uso de RAID 10, ¿cuántos discos duros son necesarios para crearlo?",
+      "opciones": [
+        "2 discos duros.",
+        "3 discos duros.",
+        "Al menos 4 discos duros.",
+        "Es indiferente."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "RAID 10 combina duplicación (mirroring) y bandas (striping), requiriendo un mínimo de 4 discos duros para su configuración."
+    },
+    {
+      "id": 135,
+      "globalId": 135,
+      "seccion": "Supuesto Práctico - TAI 2019",
+      "pregunta": "Muchas de las comunicaciones se van a realizar mediante conexiones ssh y tiene que solicitar las reglas de firewall al equipo de comunicaciones. ¿Cuál es el puerto que debe solicitar?",
+      "opciones": [
+        "21",
+        "63",
+        "69",
+        "22"
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El protocolo SSH (Secure Shell) utiliza por defecto el puerto 22 TCP para las conexiones remotas seguras."
     }
+  
+
+
+
+
   ]
 }
