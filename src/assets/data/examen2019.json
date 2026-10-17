@@ -280,18 +280,17 @@
       "id": 20,
       "globalId": 20,
       "seccion": "Primera Parte",
-      "pregunta": "Conforme al artículo 30 de la Ley 39/2015... el cómputo de plazos señalados en días... se entienden como:",
-      "opciones": [
-        "Días hábiles, contados a partir del día siguiente...",
-        "Días hábiles, contados a partir del mismo día...",
-        "Días naturales, contados a partir del día siguiente...",
-        "Días naturales, contados a partir del mismo día..."
-      ],
+      "pregunta": "Conforme al artículo 30 de la Ley 39/2015, de Procedimiento Administrativo Común de las Administraciones Públicas, el cómputo de plazos señalados en días, siempre que por Ley o en el Derecho de la Unión Europea no se exprese otro cómputo, se entienden como:",
+"opciones": [
+    "Días hábiles, contados a partir del día siguiente\u00A0\u00A0\u00A0\u00A0a aquel que tenga la notificación o publicación del acto de que se trate.",
+    "Días hábiles, contados a partir del mismo día\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0a aquel que tenga la notificación o publicación del acto de que se trate.",
+    "Días naturales, contados a partir del día siguiente\u00A0a aquel que tenga la notificación o publicación del acto de que se trate.",
+    "Días naturales, contados a partir del mismo día\u00A0\u00A0\u00A0\u00A0\u00A0a aquel que tenga la notificación o publicación del acto de que se trate."
+  ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La respuesta es la A [2]. Los plazos en días se consideran hábiles y se cuentan desde el día siguiente a la notificación [15]."
+      "explicacion": "La respuesta es la A . Los plazos en días se consideran hábiles y se cuentan desde el día siguiente a la notificación."
     },
-
     {
       "id": 21,
       "globalId": 21,
@@ -305,7 +304,7 @@
       ],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "Según la plantilla oficial, la respuesta es la D. Los controles de cumplimiento del ENI se agrupan en marco organizativo, operacional y medidas técnicas [1], [3]."
+      "explicacion": "Según la plantilla oficial, la respuesta es la D. Los controles de cumplimiento del ENI se agrupan en marco organizativo, operacional y medidas técnicas [1, 3]."
     },
     {
       "id": 22,
@@ -320,7 +319,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "La respuesta es la C. El 'Protocolo de gestión de recursos' no figura como una NTI establecida por el ENI [1], [4]."
+      "explicacion": "La respuesta es la C. El 'Protocolo de gestión de recursos' no figura como una NTI establecida por el ENI [1, 4]."
     },
     {
       "id": 23,
@@ -335,7 +334,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "La respuesta correcta es la B. eVisor permite generar copias auténticas en papel y justificantes de documentos firmados electrónicamente [1], [4]."
+      "explicacion": "La respuesta correcta es la B. eVisor permite generar copias auténticas en papel y justificantes de documentos firmados electrónicamente [1, 4]."
     },
     {
       "id": 24,
@@ -345,7 +344,7 @@
       "opciones": ["SOROLLA2", "BADARAL", "NEDAES", "NOMINAe"],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "La respuesta es la C. NEDAES es la aplicación estándar para la gestión de nóminas en la Administración [1], [5]."
+      "explicacion": "La respuesta es la C. NEDAES es la aplicación estándar para la gestión de nóminas en la Administración [1, 5]."
     },
     {
       "id": 25,
@@ -360,7 +359,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La respuesta es la A. ARM es una arquitectura de microprocesadores basada en el diseño RISC (Reduced Instruction Set Computer) [1], [6]."
+      "explicacion": "La respuesta es la A. ARM es una arquitectura de microprocesadores basada en el diseño RISC (Reduced Instruction Set Computer) [1, 6]."
     },
     {
       "id": 26,
@@ -375,7 +374,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "La respuesta oficial es la C. USB 4.0 admite velocidades de transferencia de hasta 40 Gbps [1], [6]."
+      "explicacion": "La respuesta oficial es la C. USB 4.0 admite velocidades de transferencia de hasta 40 Gbps [1, 6]."
     },
     {
       "id": 27,
@@ -385,7 +384,7 @@
       "opciones": ["Thunderbird", "HIT", "Thunderbolt", "RISC"],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "La respuesta es la C. Thunderbolt es una interfaz hardware de alta velocidad para conectar periféricos [1], [7]."
+      "explicacion": "La respuesta es la C. Thunderbolt es una interfaz hardware de alta velocidad para conectar periféricos [1, 7]."
     },
     {
       "id": 28,
@@ -400,7 +399,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "La respuesta es la C. Las unidades de estado sólido (SSD) utilizan memorias flash no volátiles para el almacenamiento [1], [7]."
+      "explicacion": "La respuesta es la C. Las unidades de estado sólido (SSD) utilizan memorias flash no volátiles para el almacenamiento [1, 7]."
     },
     {
       "id": 29,
@@ -415,7 +414,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "La respuesta es la C. AV1 es un códec de vídeo abierto y libre de regalías [1], [8]."
+      "explicacion": "La respuesta es la C. AV1 es un códec de vídeo abierto y libre de regalías [1, 8]."
     },
     {
       "id": 30,
@@ -425,7 +424,7 @@
       "opciones": ["Preorden", "Inorden", "Postorden", "Reorden"],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La respuesta es la A. El recorrido Preorden visita primero la raíz y luego sus descendientes [1], [8]."
+      "explicacion": "La respuesta es la A. El recorrido Preorden visita primero la raíz y luego sus descendientes [1, 8]."
     },
     {
       "id": 31,
@@ -435,7 +434,7 @@
       "opciones": ["/root", "/bin", "/dev", "/etc"],
       "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "La respuesta es la D. El directorio /etc en Linux almacena los archivos de configuración del sistema [1], [8]."
+      "explicacion": "La respuesta es la D. El directorio /etc en Linux almacena los archivos de configuración del sistema [1, 8]."
     },
     {
       "id": 32,
@@ -450,7 +449,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "La respuesta es la C. 6 (RW), 4 (R) y 0 (nada) [1], [9]."
+      "explicacion": "La respuesta es la C. 6 (RW), 4 (R) y 0 (nada) [1, 9]."
     },
     {
       "id": 33,
@@ -465,7 +464,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "La respuesta es la B. 'Ruby Hibernation' no existe; el ORM conocido es Hibernate o NHibernate [1], [10]."
+      "explicacion": "La respuesta es la B. 'Ruby Hibernation' no existe; el ORM conocido es Hibernate o NHibernate [1, 10]."
     },
     {
       "id": 34,
@@ -480,7 +479,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "La respuesta es la C. Las reglas de Codd exigen 'independencia de la distribución', no que esta afecte al uso o programación [1], [10], [11]."
+      "explicacion": "La respuesta es la C. Las reglas de Codd exigen 'independencia de la distribución', no que esta afecte al uso o programación [1, 10, 11]."
     },
     {
       "id": 35,
@@ -495,7 +494,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "Según la plantilla oficial, la respuesta es la B [1], [12]."
+      "explicacion": "Según la plantilla oficial, la respuesta es la B [1, 12]."
     },
     {
       "id": 36,
@@ -510,7 +509,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "La respuesta es la B. La 3FN elimina las dependencias transitivas entre atributos no clave [1], [12]."
+      "explicacion": "La respuesta es la B. La 3FN elimina las dependencias transitivas entre atributos no clave [1, 12]."
     },
     {
       "id": 37,
@@ -525,7 +524,7 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "La respuesta es la B. Es la definición clásica de dependencia funcional en bases de datos [1], [13]."
+      "explicacion": "La respuesta es la B. Es la definición clásica de dependencia funcional en bases de datos [1, 13]."
     },
     {
       "id": 38,
@@ -540,7 +539,7 @@
       ],
       "respuestaCorrecta": 2,
       "anulada": false,
-      "explicacion": "La respuesta es la C. do...while garantiza al menos una ejecución antes de la comprobación [1], [14]."
+      "explicacion": "La respuesta es la C. do...while garantiza al menos una ejecución antes de la comprobación [1, 14]."
     },
     {
       "id": 39,
@@ -555,7 +554,7 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La respuesta es la A. Sass, Less y Stylus son herramientas que extienden las capacidades de CSS mediante preprocesamiento [1], [14]."
+      "explicacion": "La respuesta es la A. Sass, Less y Stylus son herramientas que extienden las capacidades de CSS mediante preprocesamiento [1, 14]."
     },
     {
       "id": 40,
@@ -570,9 +569,8 @@
       ],
       "respuestaCorrecta": 0,
       "anulada": false,
-      "explicacion": "La respuesta es la A. Una clase abstracta sirve como base y no puede instanciarse por sí misma [1], [15]."
+      "explicacion": "La respuesta es la A. Una clase abstracta sirve como base y no puede instanciarse por sí misma [1, 15]."
     },
-
     {
       "id": 41,
       "globalId": 41,
@@ -1093,21 +1091,12 @@
       "anulada": false,
       "explicacion": "La característica incorrecta es la B. UDP es un protocolo no fiable que no realiza verificaciones de entrega ni de estado [2, 11]."
     },
-
-
-
-
-
     {
       "tipo": "imagen",
       "id": "enunciado-supuesto-2019-1",
       "descripcion": "Enunciado del supuesto práctico I (2019)",
       "imagen": "assets/images/supuesto_2019_1.png"
     },
-
-
-
-
     {
       "id": 81,
       "globalId": 81,
@@ -1190,7 +1179,7 @@
       "pregunta": "¿Cuál de los siguientes XML está bien formado?",
       "opciones": [
         "<Opositor>Winston Churchill<Nota1>95</nota1><Nota2>65</Nota2></opositor>",
-        "<Opositor>Winston Churchill<Nota1>95</Nota1><Nota2>65</Opositor></Nota2>",
+        "<Opositor>Winston Churchill<Nota1>95</nota1><Nota2>65</Opositor></Nota2>",
         "<Opositor>Winston Churchill<Nota1/>95<Nota2/>65</Opositor>",
         "<Opositor>Winston Churchill<Nota1>95</><Nota2>65</></>"
       ],
@@ -1393,25 +1382,12 @@
       "anulada": false,
       "explicacion": "El comando 'git log' muestra el historial de confirmaciones (commits) del repositorio [20]."
     },
-
-
-
-
-
     {
       "tipo": "imagen",
       "id": "enunciado-supuesto-2019-2",
       "descripcion": "Enunciado del supuesto práctico II (2019)",
       "imagen": "assets/images/supuesto_2019_2.png"
     },
-
-
-
-
-
-
-
-
     {
       "id": 101,
       "globalId": 101,
@@ -1822,23 +1798,6 @@
       "anulada": false,
       "explicacion": "Esta es una técnica clásica de Inyección SQL que busca alterar la lógica de la consulta a la base de datos para obtener acceso no autorizado [7, 8]."
     },
-
-
-{
-      "id": 130,
-      "globalId": 130,
-      "seccion": "Reserva - Supuesto I",
-      "pregunta": "Un usuario introduce la cadena \"100 OR 1=1\" en un formulario. ¿Qué técnica está utilizando?",
-      "opciones": [
-        "Denial of Service.",
-        "Phishing",
-        "Malware attack.",
-        "SQL Injection."
-      ],
-      "respuestaCorrecta": 3,
-      "anulada": false,
-      "explicacion": "Esta es una técnica clásica de Inyección SQL que busca alterar la lógica de la consulta a la base de datos para obtener acceso no autorizado [7, 8]."
-    },
     {
       "id": 131,
       "globalId": 131,
@@ -1914,10 +1873,5 @@
       "anulada": false,
       "explicacion": "El protocolo SSH (Secure Shell) utiliza por defecto el puerto 22 TCP para las conexiones remotas seguras."
     }
-  
-
-
-
-
   ]
 }
