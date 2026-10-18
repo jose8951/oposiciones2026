@@ -5,6 +5,7 @@ import { Pregunta } from '../../models/pregunta.model';
 
 @Component({
   selector: 'app-tecnologia',
+  standalone: true,
   imports: [CommonModule],
   templateUrl: './tecnologia.html',
   styleUrl: './tecnologia.css',
@@ -17,15 +18,27 @@ export class Tecnologia implements OnInit {
   cargando = signal<boolean>(false);
   nombreExamen = signal<string>('');
 
-  respuestas = new Map<number, number>();
+  // Diccionario inmutable de respuestas seleccionadas (globalId -> indiceOpcion)
+  respuestas = signal<Record<number, number>>({});
 
   ngOnInit(): void {
+    this.cargarExamen();
+  }
+
+  cargarExamen() {
     this.cargando.set(true);
 
     this.examenService.obtenerExamen('tecnologia').subscribe({
       next: (resultado) => {
         this.nombreExamen.set(resultado.examen);
-        this.preguntas.set(resultado.preguntas);
+
+        // Reasignamos un globalId secuencial único (1, 2, 3...) solo para la memoria de este componente
+        const preguntasUnicas = (resultado.preguntas || []).map((pregunta: Pregunta, index: number) => ({
+          ...pregunta,
+          globalId: index + 1 // Garantiza que no haya IDs colisionados
+        }));
+
+        this.preguntas.set(preguntasUnicas);
         this.cargando.set(false);
       },
       error: (err) => {
@@ -36,12 +49,16 @@ export class Tecnologia implements OnInit {
   }
 
   responder(globalId: number, indice: number) {
-    this.respuestas.set(globalId, indice);
+    this.respuestas.update((prev) => ({
+      ...prev,
+      [globalId]: indice,
+    }));
   }
 
-  esCorrecta(globalId: number): boolean | null {
-    const pregunta = this.preguntas().find((p) => p.globalId === globalId);
-    if (!pregunta || !this.respuestas.has(globalId)) return null;
-    return this.respuestas.get(globalId) === pregunta.respuestaCorrecta;
+  esCorrecta(pregunta: Pregunta): boolean | null {
+    const seleccion = this.respuestas()[pregunta.globalId];
+    if (seleccion === undefined) return null;
+
+    return seleccion === pregunta.respuestaCorrecta;
   }
 }

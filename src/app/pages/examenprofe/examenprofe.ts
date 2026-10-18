@@ -13,21 +13,27 @@ import { Pregunta } from '../../models/pregunta.model';
 export class Examenprofe implements OnInit {
   private examenService = inject(ExamenService);
 
-  // Signals locales del componente (Garantizan la reactividad en F5)
   preguntas = signal<Pregunta[]>([]);
   cargando = signal<boolean>(false);
   nombreExamen = signal<string>('');
 
-  respuestas = new Map<number, number>();
+  // 1. Convertimos respuestas en un Signal usando Record para que sea 100% reactivo
+  respuestas = signal<Record<number, number>>({});
 
   ngOnInit(): void {
     this.cargando.set(true);
 
-    // Solicitamos los datos específicos del examen del profesor al servicio
     this.examenService.obtenerExamen('examenprofe').subscribe({
       next: (resultado) => {
         this.nombreExamen.set(resultado.examen || 'Examen Profe');
-        this.preguntas.set(resultado.preguntas || []);
+
+        // 2. Asignamos un globalId secuencial único (1, 2, 3...) para evitar problemas de ID
+        const preguntasUnicas = (resultado.preguntas || []).map((pregunta: Pregunta, index: number) => ({
+          ...pregunta,
+          globalId: pregunta.globalId || index + 1
+        }));
+
+        this.preguntas.set(preguntasUnicas);
         this.cargando.set(false);
       },
       error: (err) => {
@@ -38,12 +44,20 @@ export class Examenprofe implements OnInit {
   }
 
   responder(globalId: number, indice: number) {
-    this.respuestas.set(globalId, indice);
+    // 3. Actualizamos la señal de forma inmutable para que Angular detecte el cambio al instante
+    this.respuestas.update((prev) => ({
+      ...prev,
+      [globalId]: indice,
+    }));
   }
 
-  esCorrecta(globaId: number): boolean | null {
-    const pregunta = this.preguntas().find((p) => p.globalId === globaId);
-    if (!pregunta || !this.respuestas.has(globaId)) return null;
-    return this.respuestas.get(globaId) === pregunta.respuestaCorrecta;
+  esCorrecta(globalId: number): boolean | null {
+    const seleccion = this.respuestas()[globalId];
+    if (seleccion === undefined) return null;
+
+    const pregunta = this.preguntas().find((p) => p.globalId === globalId);
+    if (!pregunta) return null;
+
+    return seleccion === pregunta.respuestaCorrecta;
   }
 }

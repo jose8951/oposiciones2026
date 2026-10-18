@@ -9,7 +9,7 @@
       <span class="ms-3 fw-medium">Cargando preguntas del profesor...</span>
     </div>
   } @else {
-    @for (item of preguntas(); track item.id || item.globalId) {
+    @for (item of preguntas(); track item.globalId) {
 
       <!-- ==================== IMAGEN ==================== -->
       @if (item.tipo === 'imagen') {
@@ -36,7 +36,7 @@
               {{ item.globalId }}. {{ item.pregunta }}
             </h6>
 
-            @for (opcion of item.opciones; track $index) {
+        @for (opcion of item.opciones; track $index) {
               <div class="form-check my-2">
                 <input
                   class="form-check-input"
@@ -44,14 +44,14 @@
                   [id]="'opcion-' + item.globalId + '-' + $index"
                   [name]="'pregunta-' + item.globalId"
                   [value]="$index"
+                  [checked]="respuestas()[item.globalId] === $index"
                   (change)="responder(item.globalId, $index)"
                 />
                 <label
                   class="form-check-label fw-medium"
-                  style="color: #000000 !important;"
                   [for]="'opcion-' + item.globalId + '-' + $index"
-                  [class.text-success]="respuestas.has(item.globalId) && item.respuestaCorrecta === $index"
-                  [class.text-danger]="respuestas.get(item.globalId) === $index && esCorrecta(item.globalId) === false"
+                  [class.text-success]="respuestas()[item.globalId] !== undefined && item.respuestaCorrecta === $index"
+                  [class.text-danger]="respuestas()[item.globalId] === $index && esCorrecta(item.globalId) === false"
                 >
                   {{ opcion }}
                 </label>

@@ -5,6 +5,7 @@ import { Pregunta } from '../../models/pregunta.model';
 
 @Component({
   selector: 'app-desarrollo-a',
+  standalone: true,
   imports: [CommonModule],
   templateUrl: './desarrollo-a.html',
   styleUrl: './desarrollo-a.css',
@@ -16,7 +17,7 @@ export class DesarrolloA implements OnInit {
   cargando = signal<boolean>(false);
   nombreExamen = signal<string>('');
 
-  // Diccionario inmutable de respuestas seleccionadas
+  // Diccionario inmutable de respuestas seleccionadas (globalId -> indiceOpcion)
   respuestas = signal<Record<number, number>>({});
 
   ngOnInit(): void {
@@ -29,7 +30,14 @@ export class DesarrolloA implements OnInit {
     this.examenService.obtenerExamen('desarrollo-a').subscribe({
       next: (resultado) => {
         this.nombreExamen.set(resultado.examen);
-        this.preguntas.set(resultado.preguntas);
+
+        // Mapeamos las preguntas para garantizar que cada una tenga un globalId 100% único
+        const preguntasUnicas = (resultado.preguntas || []).map((pregunta: Pregunta, index: number) => ({
+          ...pregunta,
+          globalId: index + 1 // ID secuencial único (1, 2, 3...)
+        }));
+
+        this.preguntas.set(preguntasUnicas);
         this.cargando.set(false);
       },
       error: (err) => {

@@ -11,21 +11,34 @@ import { Pregunta } from '../../models/pregunta.model';
   styleUrl: './bloque3.css',
 })
 export class Bloque3 implements OnInit {
+
   private examenService = inject(ExamenService);
 
   preguntas = signal<Pregunta[]>([]);
   cargando = signal<boolean>(false);
   nombreExamen = signal<string>('');
 
-  // Usamos el índice de la pregunta (posición en el array) como clave del Map
-  respuestas = signal<Map<number, number>>(new Map());
+  // Diccionario inmutable de respuestas seleccionadas (globalId -> indiceOpcion)
+  respuestas = signal<Record<number, number>>({});
 
   ngOnInit(): void {
+    this.cargarExamen();
+  }
+
+  cargarExamen() {
     this.cargando.set(true);
+
     this.examenService.obtenerExamen('bloque3').subscribe({
       next: (resultado) => {
         this.nombreExamen.set(resultado.examen);
-        this.preguntas.set(resultado.preguntas);
+
+        // Reasignamos un globalId secuencial único (1, 2, 3...) solo para la memoria de este componente
+        const preguntasUnicas = (resultado.preguntas || []).map((pregunta: Pregunta, index: number) => ({
+          ...pregunta,
+          globalId: index + 1 // Garantiza que no haya IDs colisionados
+        }));
+
+        this.preguntas.set(preguntasUnicas);
         this.cargando.set(false);
       },
       error: (err) => {
@@ -35,18 +48,17 @@ export class Bloque3 implements OnInit {
     });
   }
 
-  // Guardamos la respuesta usando el índice de la pregunta en la lista
-  responder(preguntaIndex: number, indiceOpcion: number) {
-    const nuevoMapa = new Map(this.respuestas());
-    nuevoMapa.set(preguntaIndex, indiceOpcion);
-    this.respuestas.set(nuevoMapa);
+  responder(globalId: number, indice: number) {
+    this.respuestas.update((prev) => ({
+      ...prev,
+      [globalId]: indice,
+    }));
   }
 
-  // Comprobamos el acierto basándonos en el índice de la pregunta
-  esCorrecta(preguntaIndex: number): boolean | null {
-    const pregunta = this.preguntas()[preguntaIndex];
-    const mapaActual = this.respuestas();
-    if (!pregunta || !mapaActual.has(preguntaIndex)) return null;
-    return mapaActual.get(preguntaIndex) === pregunta.respuestaCorrecta;
+  esCorrecta(pregunta: Pregunta): boolean | null {
+    const seleccion = this.respuestas()[pregunta.globalId];
+    if (seleccion === undefined) return null;
+
+    return seleccion === pregunta.respuestaCorrecta;
   }
 }

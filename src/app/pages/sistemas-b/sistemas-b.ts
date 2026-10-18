@@ -5,6 +5,7 @@ import { Pregunta } from '../../models/pregunta.model';
 
 @Component({
   selector: 'app-sistemas-b',
+  standalone: true,
   imports: [CommonModule],
   templateUrl: './sistemas-b.html',
   styleUrl: './sistemas-b.css',
@@ -17,42 +18,46 @@ export class SistemasB implements OnInit {
   cargando = signal<boolean>(false);
   nombreExamen = signal<string>('');
 
-  // Reemplazamos el Map por una Signal con un Record plano
+  // Diccionario inmutable de respuestas seleccionadas (globalId -> indiceOpcion)
   respuestas = signal<Record<number, number>>({});
 
   ngOnInit(): void {
+    this.cargarExamen();
+  }
+
+  cargarExamen() {
     this.cargando.set(true);
 
     this.examenService.obtenerExamen('sistemas-b').subscribe({
       next: (resultado) => {
         this.nombreExamen.set(resultado.examen);
-        this.preguntas.set(resultado.preguntas);
+
+        // Reasignamos un globalId secuencial único (1, 2, 3...) solo para la memoria de este componente
+        const preguntasUnicas = (resultado.preguntas || []).map((pregunta: Pregunta, index: number) => ({
+          ...pregunta,
+          globalId: index + 1 // Garantiza que no haya IDs colisionados
+        }));
+
+        this.preguntas.set(preguntasUnicas);
         this.cargando.set(false);
       },
       error: (err) => {
-        console.error('Error cargando el examen', err);
+        console.error('Error cargando el examen de Sistemas B', err);
         this.cargando.set(false);
       },
     });
   }
 
-  responder(event: Event, globalId: number, indice: number) {
-    // Detiene el comportamiento por defecto y la propagación de eventos que alteran el scroll
-    event.stopPropagation();
-
-    // Actualización inmutable para notificar cambios precisos a la vista
+  responder(globalId: number, indice: number) {
     this.respuestas.update((prev) => ({
       ...prev,
       [globalId]: indice,
     }));
   }
 
-  esCorrecta(globalId: number): boolean | null {
-    const seleccion = this.respuestas()[globalId];
+  esCorrecta(pregunta: Pregunta): boolean | null {
+    const seleccion = this.respuestas()[pregunta.globalId];
     if (seleccion === undefined) return null;
-
-    const pregunta = this.preguntas().find((p) => p.globalId === globalId);
-    if (!pregunta) return null;
 
     return seleccion === pregunta.respuestaCorrecta;
   }

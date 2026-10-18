@@ -1,6 +1,6 @@
 <div class="container mt-4" style="min-height: 100vh;">
   
-  <!-- Spinner de carga sin destruir el bloque inferior -->
+  <!-- Spinner de carga -->
   @if (cargando()) {
     <div class="text-center my-4">
       <div class="spinner-border text-primary" role="status">
@@ -35,24 +35,26 @@
         </h6>
 
         <!-- Opciones de Respuesta -->
-        @for (opcion of pregunta.opciones; track $index) {
-          <div class="form-check my-2">
+        @for (opcion of pregunta.opciones; track opcion) {
+          <div
+            class="my-1 p-1 ps-2 d-flex align-items-center rounded"
+            style="cursor: pointer"
+            (click)="responder(pregunta.globalId, $index)"
+          >
             <input
-              class="form-check-input"
+              class="form-check-input me-2 mt-0"
               type="radio"
               [id]="'opcion-' + pregunta.globalId + '-' + $index"
               [name]="'pregunta-' + pregunta.globalId"
               [value]="$index"
-              [disabled]="pregunta.anulada"
+             [disabled]="pregunta.anulada" 
               [checked]="respuestas()[pregunta.globalId] === $index"
-              (change)="responder($event, pregunta.globalId, $index)"
             />
             <label
-              class="form-check-label"
-              [for]="'opcion-' + pregunta.globalId + '-' + $index"
-              (click)="$event.preventDefault(); responder($event, pregunta.globalId, $index)"
+              class="form-check-label mb-0"
+              style="pointer-events: none"
               [class.text-success]="respuestas()[pregunta.globalId] !== undefined && pregunta.respuestaCorrecta === $index"
-              [class.text-danger]="respuestas()[pregunta.globalId] === $index && esCorrecta(pregunta.globalId) === false"
+              [class.text-danger]="respuestas()[pregunta.globalId] === $index && pregunta.respuestaCorrecta !== $index"
             >
               {{ opcion }}
             </label>
@@ -60,9 +62,9 @@
         } 
         
         <!-- Retroalimentación / Explicación -->
-        @if (esCorrecta(pregunta.globalId) === true) {
+        @if (esCorrecta(pregunta) === true) {
           <p class="text-success mt-3 fw-bold">✅ {{ pregunta.explicacion }}</p>
-        } @else if (esCorrecta(pregunta.globalId) === false) {
+        } @else if (esCorrecta(pregunta) === false) {
           <p class="text-danger mt-3 fw-bold">❌ Incorrecta.</p>
         }
       </div>

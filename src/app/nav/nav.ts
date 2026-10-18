@@ -74,11 +74,11 @@ export class Nav {
     { titulo: 'Examen 2023', id: 'Tai_oposion_2023', label: '' },
     { titulo: 'Examen 2019', id: 'Tai_oposion_2019', label: '' },
     { titulo: 'Examen 2018', id: 'Tai_oposion_2018', label: '' },
-    {
-      titulo: 'Bloque 3',
-      id: 'pregunta_generales_bloque3_buscable',
-      label: ' (Bloque 3)',
-    },
+    // {
+    //   titulo: 'Bloque 3',
+    //   id: 'pregunta_generales_bloque3_buscable',
+    //   label: ' (Bloque 3)',
+    // },
     { titulo: 'Examen Profe', id: 'Tai_oposion_profe', label: ' (Profe)' },
   ];
 

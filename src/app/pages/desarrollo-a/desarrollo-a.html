@@ -8,8 +8,8 @@
   </div>
   }
 
-  <!-- Lista de preguntas: tracking por globalId para NO destruir el DOM al responder -->
-  @for (pregunta of preguntas(); track pregunta.globalId) {
+  <!-- Lista de preguntas: tracking por $index para evitar duplicados en el DOM -->
+  @for (pregunta of preguntas(); track $index) {
   <div class="card mb-3 shadow-sm" [class.border-warning]="pregunta.anulada">
     <div class="card-body">
       <!-- Header con Metadatos -->
