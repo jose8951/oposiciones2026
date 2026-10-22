@@ -19,7 +19,7 @@ import { Bloque3 } from './pages/bloque3/bloque3';
 import { Normativa169 } from './pages/normativa169/normativa169';
 import { BancoFichasBoe } from './pages/banco-fichas-boe/banco-fichas-boe';
 import { Examenprofe } from './pages/examenprofe/examenprofe';
-
+import { Ayala1Con } from './pages/ayala-1-con/ayala-1-con';
 
 // 🔒 GUARD DE SEGURIDAD (Simulado para el futuro Login)
 const authGuard: CanActivateFn = (route, state) => {
@@ -54,7 +54,8 @@ export const routes: Routes = [
   { path: 'tecnologia', component: Tecnologia, canActivate: [authGuard] },
   { path: 'bloque3', component: Bloque3, canActivate: [authGuard] },
   { path: 'normativa169', component: Normativa169, canActivate: [authGuard] },
-  {path:'examenprofe',component:Examenprofe,canActivate:[authGuard]},
+  { path: 'examenprofe', component: Examenprofe, canActivate: [authGuard] },
+  { path: 'ayala-1-con', component: Ayala1Con, canActivate: [authGuard] },
   {
     path: 'banco-fichas-boe',
     component: BancoFichasBoe,
@@ -62,7 +63,6 @@ export const routes: Routes = [
   },
 
   { path: 'ce', component: CE, canActivate: [authGuard] },
-  
 
   // 🔍 BUSCADOR GENERAL DE PREGUNTAS
   { path: 'buscar', component: Buscar, canActivate: [authGuard] },

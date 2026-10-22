@@ -1,0 +1,1507 @@
+{
+  "examen": "Cuestionario AyalaTest - Constitución Española y Organización del Estado (Bloque 1)",
+  "descripcion": "Banco de 100 preguntas reales de test procedentes del documento AyalaTest.pdf centradas en la Constitución Española de 1978, Organización del Estado, Las Cortes Generales, El Gobierno y El Tribunal Constitucional.",
+  "total_preguntas": 100,
+  "preguntas": [
+    {
+      "id": 1,
+      "globalId": 1,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿Cuántos miembros integran el Tribunal Constitucional?",
+      "opciones": [
+        "12 miembros.",
+        "15 miembros.",
+        "10 miembros.",
+        "20 miembros."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El artículo 159.1 de la Constitución Española establece que el Tribunal Constitucional se compone de 12 miembros nombrados por el Rey."
+    },
+    {
+      "id": 2,
+      "globalId": 2,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El secuestro de publicaciones, grabaciones y otros medios de información podrá llevarse a cabo:",
+      "opciones": [
+        "Mediante resolución administrativa.",
+        "Mediante resolución administrativa motivada.",
+        "Durante la vigencia del estado de alarma.",
+        "Mediante resolución judicial."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El artículo 20.5 de la Constitución determina que solo podrá acordarse el secuestro de publicaciones y otros medios de información en virtud de resolución judicial."
+    },
+    {
+      "id": 3,
+      "globalId": 3,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El Estado podrá celebrar tratados de doble nacionalidad:",
+      "opciones": [
+        "Sólo con países iberoamericanos.",
+        "Con países iberoamericanos o con aquellos que hayan tenido o tengan una especial vinculación con España.",
+        "Con cualquier estado.",
+        "Sólo con países de la Unión Europea."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 11.3 de la CE: El Estado podrá concertar tratados de doble nacionalidad con los países iberoamericanos o con aquellos que hayan tenido o tengan una especial vinculación con España."
+    },
+    {
+      "id": 4,
+      "globalId": 4,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "De acuerdo con la Constitución Española, los miembros del Tribunal Constitucional nombrados a propuesta del Senado son:",
+      "opciones": [
+        "Dos, por mayoría de tres quintos de sus miembros.",
+        "Cuatro, por mayoría de tres quintos de sus miembros.",
+        "Tres, por mayoría absoluta de la cámara.",
+        "Cuatro, por mayoría absoluta de la cámara."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El artículo 159.1 de la CE dispone que cuatro miembros son propuestos por el Senado por mayoría de tres quintos de sus miembros."
+    },
+    {
+      "id": 5,
+      "globalId": 5,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El Congreso propone a 4 Magistrados del Tribunal Constitucional, por mayoría:",
+      "opciones": [
+        "El Congreso no propone a 4, sino a 2 Magistrados.",
+        "De 2/3.",
+        "De 3/5.",
+        "Absoluta."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 159.1 de la CE: Cuatro a propuesta del Congreso por mayoría de tres quintos de sus miembros."
+    },
+    {
+      "id": 6,
+      "globalId": 6,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Se puede suspender de forma individual y con la necesaria intervención judicial y el adecuado control parlamentario, en relación con las investigaciones correspondientes a la actuación de bandas armadas o elementos terroristas, el derecho a:",
+      "opciones": [
+        "El derecho al honor, a la intimidad personal y familiar y propia imagen.",
+        "La libertad ideológica, religiosa y de culto.",
+        "El derecho a la integridad física y moral.",
+        "El tiempo máximo de detención preventiva."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El artículo 55.2 de la CE contempla la suspensión individual del plazo máximo de detención preventiva (art. 17.2), inviolabilidad del domicilio (art. 18.2) y secreto de comunicaciones (art. 18.3) para investigaciones de bandas armadas o terrorismo."
+    },
+    {
+      "id": 7,
+      "globalId": 7,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Propone el candidato a la Presidencia del Gobierno:",
+      "opciones": [
+        "El presidente de las Cortes Generales.",
+        "El presidente del Congreso.",
+        "El Rey, a través del presidente del Congreso.",
+        "El presidente del Gobierno en funciones."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 99.1 CE: Tras cada renovación del Congreso, el Rey, previa consulta con los representantes políticos, propondrá un candidato a la Presidencia del Gobierno a través del Presidente del Congreso."
+    },
+    {
+      "id": 8,
+      "globalId": 8,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Respecto a la sindicación de los funcionarios públicos, la Constitución Española establece en su artículo 28:",
+      "opciones": [
+        "La ley regulará las peculiaridades de su ejercicio.",
+        "La Constitución Española no recoge nada distinto que para los trabajadores por cuenta ajena.",
+        "La ley podrá limitar o exceptuar el ejercicio de este derecho.",
+        "La ley regulará las prohibiciones de ejercicio de este derecho."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 28.1 CE: Todos tienen derecho a sindicarse libremente... La ley podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas Armadas o Institutos Armados y regulará las peculiaridades de su ejercicio para los funcionarios públicos."
+    },
+    {
+      "id": 9,
+      "globalId": 9,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según el artículo 27 de la Constitución, tienen derecho a la educación:",
+      "opciones": [
+        "Todos los españoles.",
+        "Todos.",
+        "Todos los españoles de origen.",
+        "Los nacidos en España."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 27.1 CE: 'Todos tienen el derecho a la educación. Se reconoce la libertad de enseñanza.'"
+    },
+    {
+      "id": 10,
+      "globalId": 10,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "De conformidad con el artículo 5 de la Ley 50/1997, de 27 de noviembre, del Gobierno, señale la respuesta correcta en relación con el Consejo de Ministros:",
+      "opciones": [
+        "Propone al Congreso la declaración del estado de sitio.",
+        "Manifiesta el consentimiento del Estado para obligarse por medio de Tratados Internacionales.",
+        "Aprueba los Presupuestos Generales del Estado.",
+        "Es un órgano superior de la Administración General del Estado."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Al Consejo de Ministros le corresponde acordar la manifestación del consentimiento del Estado para obligarse por Tratados Internacionales (art. 5.1.d Ley del Gobierno)."
+    },
+    {
+      "id": 11,
+      "globalId": 11,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Señala la FALSA:",
+      "opciones": [
+        "El Príncipe heredero, desde su nacimiento o desde que se produzca el hecho que origine el llamamiento, tendrá la dignidad de Príncipe de Asturias.",
+        "La sucesión en el trono seguirá el orden regular de primogenitura y representación.",
+        "El Regente debe ser español y mayor de edad.",
+        "Corresponde al Rey declarar la guerra o hacer la paz, previa autorización del Congreso."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Es falsa la d. El artículo 63.3 CE exige la previa autorización de las Cortes Generales (Congreso y Senado), no solo del Congreso."
+    },
+    {
+      "id": 12,
+      "globalId": 12,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El artículo 9.3 de la Constitución Española NO garantiza:",
+      "opciones": [
+        "La jerarquía normativa.",
+        "El principio de legalidad.",
+        "La publicidad de las normas.",
+        "El principio de retroactividad de las disposiciones sancionadoras."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 9.3 CE garantiza la IRRETROACTIVIDAD de las disposiciones sancionadoras no favorables o restrictivas de derechos individuales, no la retroactividad."
+    },
+    {
+      "id": 13,
+      "globalId": 13,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "NO garantiza el artículo 9.3 de la Constitución:",
+      "opciones": [
+        "El principio de legalidad.",
+        "La responsabilidad y la interdicción de la arbitrariedad de los poderes públicos.",
+        "El principio de solidaridad.",
+        "La publicidad de las normas."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El principio de solidaridad se reconoce en el artículo 2 de la CE, no en las garantías del artículo 9.3."
+    },
+    {
+      "id": 14,
+      "globalId": 14,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Señala la FALSA:",
+      "opciones": [
+        "Los particulares tendrán derecho a ser indemnizados por toda lesión que sufran salvo en casos de fuerza mayor.",
+        "Las Cámaras y sus Comisiones pueden reclamar la presencia de los miembros del Gobierno.",
+        "Una ley ordinaria regulará la composición y competencia del Consejo de Estado.",
+        "Las Cámaras y sus Comisiones podrán recabar la información y ayuda que precisen del Gobierno."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Es falsa la c: El artículo 107 de la CE establece que una LEY ORGÁNICA (no ordinaria) regulará la composición y competencia del Consejo de Estado."
+    },
+    {
+      "id": 15,
+      "globalId": 15,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿Quién podrá ser obligado a declarar sobre su ideología, religión o creencias?",
+      "opciones": [
+        "Sólo aquellos a los que se les ordene por resolución judicial motivada.",
+        "Nadie.",
+        "Sólo aquellos que establezca una ley orgánica.",
+        "Sólo aquellos que establezca la ley."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 16.2 CE: 'Nadie podrá ser obligado a declarar sobre su ideología, religión o creencias.'"
+    },
+    {
+      "id": 16,
+      "globalId": 16,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "De acuerdo con el artículo 70.1 de la Constitución Española, la ley electoral determinará las causas de ineligibilidad e incompatibilidad de los Diputados y Senadores, que comprenderán en todo caso a:",
+      "opciones": [
+        "Al Defensor del Pueblo.",
+        "A los miembros del Gobierno.",
+        "A los Secretarios de Estado.",
+        "A los Directores Generales de los Ministerios."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El artículo 70.1.a) de la CE señala explícitamente a los componentes del Tribunal Constitucional, altos cargos de la Administración del Estado que determine la ley (excepto miembros del Gobierno) y al Defensor del Pueblo."
+    },
+    {
+      "id": 17,
+      "globalId": 17,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El Gobierno podrá impugnar ante el Tribunal Constitucional las disposiciones y resoluciones adoptadas por los órganos de las Comunidades Autónomas. La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, deberá ratificarla o levantarla en un plazo:",
+      "opciones": [
+        "No inferior a cinco meses.",
+        "Superior a tres meses.",
+        "No superior a tres meses.",
+        "No superior a cinco meses."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 161.2 de la CE: El Tribunal deberá ratificar o levantar la suspensión en un plazo no superior a cinco meses."
+    },
+    {
+      "id": 18,
+      "globalId": 18,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Un extranjero puede votar y ser candidato en las elecciones municipales del municipio en el que resida en España si un español residente en el extranjero tiene el mismo derecho en el país de origen del extranjero. A esto se denomina:",
+      "opciones": [
+        "Ambigüedad.",
+        "Interdicción.",
+        "Reciprocidad.",
+        "Irretroactividad."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 13.2 de la CE: Reconoce el derecho de sufragio activo y pasivo en elecciones municipales a los extranjeros atendiendo a criterios de reciprocidad establecidos por tratado o ley."
+    },
+    {
+      "id": 19,
+      "globalId": 19,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Tienen el derecho y el deber de defender a España:",
+      "opciones": [
+        "Los españoles.",
+        "Los españoles y extranjeros.",
+        "Todos.",
+        "Los españoles e iberoamericanos."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 30.1 CE: 'Los españoles tienen el derecho y el deber de defender a España.'"
+    },
+    {
+      "id": 20,
+      "globalId": 20,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Señale la afirmación correcta. De acuerdo con la Ley del Gobierno, los Secretarios de Estado:",
+      "opciones": [
+        "Son miembros del Gobierno.",
+        "Son órganos superiores directamente responsables de la ejecución de la acción del Gobierno en un sector de actividad específica.",
+        "Dirigen los servicios comunes del Departamento ministerial.",
+        "Son los titulares de los órganos directivos encargados de la gestión de las áreas del Ministerio correspondiente."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Según la Ley 50/1997 del Gobierno y la Ley 40/2015, los Secretarios de Estado son órganos superiores de la Administración General del Estado."
+    },
+    {
+      "id": 21,
+      "globalId": 21,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿Es preceptiva la asistencia de letrado y procurador para acudir al Defensor del Pueblo?",
+      "opciones": [
+        "Es preceptiva la asistencia de Letrado, pero no la de Procurador.",
+        "Sí.",
+        "Es preceptiva la asistencia de Procurador, pero no la de Letrado.",
+        "No."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 15.2 de la Ley Orgánica 3/1981 del Defensor del Pueblo: Las actuaciones ante el Defensor del Pueblo son gratuitas y no se exige la intervención de letrado ni procurador."
+    },
+    {
+      "id": 22,
+      "globalId": 22,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "La primera Constitución Española es de:",
+      "opciones": [
+        "1919.",
+        "1812.",
+        "1920.",
+        "1819."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La primera Constitución propiamente dicha de la historia de España fue promulgada el 19 de marzo de 1812 (La Pepa)."
+    },
+    {
+      "id": 23,
+      "globalId": 23,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "La cuestión de confianza planteada por el Presidente del Gobierno se aprueba por:",
+      "opciones": [
+        "La mayoría absoluta de las Cortes Generales.",
+        "La mayoría simple de los Diputados.",
+        "La mayoría simple de las Cortes Generales.",
+        "La mayoría absoluta del Congreso."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 112 de la CE: La confianza se entenderá otorgada cuando vote a favor de la misma la mayoría simple de los Diputados."
+    },
+    {
+      "id": 24,
+      "globalId": 24,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Durante la vigencia del estado de sitio se puede suspender:",
+      "opciones": [
+        "El derecho a participar en asunto públicos.",
+        "El derecho al honor, intimidad personal y familiar y propia imagen.",
+        "La inviolabilidad del domicilio y el secreto de comunicaciones.",
+        "La libertad ideológica, religiosa y de culto."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El artículo 55.1 de la CE permite suspender el art. 18.2 (inviolabilidad del domicilio) y art. 18.3 (secreto de las comunicaciones) en estados de excepción y sitio."
+    },
+    {
+      "id": 25,
+      "globalId": 25,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según el artículo 98 de la Constitución, el Gobierno se compone de:",
+      "opciones": [
+        "Presidente y Ministros.",
+        "Presidente, vicepresidente y Ministros.",
+        "Presidente, de los Vicepresidentes en su caso, de los Ministros y de los demás miembros que establezca la ley.",
+        "Ninguna es cierta."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 98.1 CE: 'El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley.'"
+    },
+    {
+      "id": 26,
+      "globalId": 26,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según establece el artículo 20 de la Constitución Española, la libertad de expresión tiene su límite en el respeto de los derechos del Título I y en especial en:",
+      "opciones": [
+        "El derecho al honor, a la intimidad, a la propia imagen y a la protección de la juventud y de la infancia.",
+        "El derecho a la vida y a la integridad física.",
+        "El derecho de reunión y asociación.",
+        "El derecho a la tutela judicial efectiva."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 20.4 CE: Estas libertades tienen su límite en el respeto a los derechos reconocidos en este Título... y, especialmente, en el derecho al honor, a la intimidad, a la propia imagen y a la protección de la juventud y de la infancia."
+    },
+    {
+      "id": 27,
+      "globalId": 27,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El derecho a la huelga de los trabajadores para la defensa de sus intereses está reconocido en el artículo:",
+      "opciones": [
+        "28.2 de la Constitución Española.",
+        "35.1 de la Constitución Española.",
+        "15 de la Constitución Española.",
+        "37.2 de la Constitución Española."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El artículo 28.2 de la CE reconoce el derecho a la huelga de los trabajadores para la defensa de sus intereses."
+    },
+    {
+      "id": 28,
+      "globalId": 28,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "La autorización de la celebración de un referéndum consultivo se realiza:",
+      "opciones": [
+        "Por el Congreso de los Diputados, a propuesta del Rey.",
+        "Por el Senado, a propuesta del Gobierno.",
+        "Por las Cortes Generales, a propuesta exclusiva del Gobierno.",
+        "Por el Congreso de los Diputados, previa propuesta del Presidente del Gobierno y convocado por el Rey."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 92.2 de la CE: El referéndum será convocado por el Rey, mediante propuesta del Presidente del Gobierno, previamente autorizada por el Congreso de los Diputados."
+    },
+    {
+      "id": 29,
+      "globalId": 29,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Se puede suspender durante la vigencia del estado de excepción:",
+      "opciones": [
+        "El derecho a la sindicación.",
+        "El derecho de petición.",
+        "El derecho de reunión.",
+        "El derecho de asociación."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El artículo 55.1 de la CE permite suspender los derechos del artículo 21 (derecho de reunión y manifestación) en el estado de excepción o sitio."
+    },
+    {
+      "id": 30,
+      "globalId": 30,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿Cuál de las siguientes NO es atribución del Tribunal Constitucional?",
+      "opciones": [
+        "Los recursos de amparo.",
+        "Los conflictos en defensa de la autonomía local.",
+        "Los recursos de casación.",
+        "Los recursos de inconstitucionalidad."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Los recursos de casación son competencia de la jurisdicción ordinaria (Tribunal Supremo), no del Tribunal Constitucional (art. 161 CE y LOTC)."
+    },
+    {
+      "id": 31,
+      "globalId": 31,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Se exige previa deliberación del Consejo de Ministros:",
+      "opciones": [
+        "Para que el Presidente del Gobierno plantee al Congreso una cuestión de confianza.",
+        "Para que el Presidente del Gobierno designe a los demás miembros del mismo.",
+        "Para que el Presidente del Gobierno proponga al Rey la disolución del Congreso, del Senado o de las Cortes Generales.",
+        "A y C son ciertas."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Tanto la disolución de las Cámaras (art. 115 CE) como el planteamiento de la cuestión de confianza (art. 112 CE) exigen la previa deliberación del Consejo de Ministros."
+    },
+    {
+      "id": 32,
+      "globalId": 32,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Los miembros del Tribunal Constitucional son:",
+      "opciones": [
+        "Doce solamente.",
+        "Doce, ampliables a propuesta del Congreso de los Diputados.",
+        "Doce ampliables en caso de sentencias con empate a votos.",
+        "Doce, ampliables a propuesta del Consejo General del Poder Judicial."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El número de magistrados del Tribunal Constitucional está fijado en 12 por el artículo 159.1 de la Constitución Española y no es ampliable."
+    },
+    {
+      "id": 33,
+      "globalId": 33,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según recoge el artículo 116 de la Constitución Española el plazo máximo de duración inicial del estado de excepción es de:",
+      "opciones": [
+        "30 días.",
+        "1 mes.",
+        "10 días.",
+        "15 días."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 116.3 CE: El plazo máximo de duración del estado de excepción no podrá exceder de treinta días, prorrogable por otro plazo igual."
+    },
+    {
+      "id": 34,
+      "globalId": 34,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Puede interponer un recurso de amparo:",
+      "opciones": [
+        "El Ministerio Fiscal.",
+        "50 Diputados.",
+        "Presidente del Gobierno.",
+        "Un órgano judicial."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 162.1.b) de la CE: Están legitimados para interponer recurso de amparo toda persona natural o jurídica que invoque un interés legítimo, así como el Defensor del Pueblo y el Ministerio Fiscal."
+    },
+    {
+      "id": 35,
+      "globalId": 35,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Toda queja al Defensor del Pueblo se presentará en el plazo máximo, contado a partir del momento en que tuviera conocimiento de los hechos objeto de la misma, de:",
+      "opciones": [
+        "3 meses.",
+        "1 año.",
+        "5 años.",
+        "6 meses."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 15.1 de la LO 3/1981 del Defensor del Pueblo: Toda queja se presentará en el plazo máximo de un año."
+    },
+    {
+      "id": 36,
+      "globalId": 36,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "En las causas contra Diputados y Senadores será competente:",
+      "opciones": [
+        "La Sala de lo Penal de la Audiencia Nacional.",
+        "La Sala de lo Penal del Tribunal Superior de Justicia.",
+        "La Sala de lo Penal del Tribunal Supremo.",
+        "La Jurisdicción ordinaria."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 71.3 de la CE: En las causas contra Diputados y Senadores será competente la Sala de lo Penal del Tribunal Supremo."
+    },
+    {
+      "id": 37,
+      "globalId": 37,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "La elección del Presidente del Tribunal Constitucional se lleva a cabo:",
+      "opciones": [
+        "En votación secreta.",
+        "En votación ordinaria.",
+        "En votación especial.",
+        "En votación nominal."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 9.1 de la Ley Orgánica 2/1979 del Tribunal Constitucional: El Tribunal en Pleno elige de entre sus miembros por votación secreta a su Presidente."
+    },
+    {
+      "id": 38,
+      "globalId": 38,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Las sentencias del Tribunal Constitucional tienen valor de cosa juzgada:",
+      "opciones": [
+        "A los 20 días de su publicación en el Boletín Oficial del Estado.",
+        "El día de su publicación en el Boletín Oficial del Estado.",
+        "A partir del día siguiente de su publicación en el Boletín Oficial del Estado.",
+        "A los 30 días de su publicación en el Boletín Oficial del Estado."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 164.1 de la CE: Tienen el valor de cosa juzgada a partir del día siguiente de su publicación en el Boletín Oficial del Estado."
+    },
+    {
+      "id": 39,
+      "globalId": 39,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Señale la afirmación correcta. Los Diputados y Senadores:",
+      "opciones": [
+        "Gozarán de inviolabilidad por las opiniones manifestadas en el ejercicio de sus funciones y no podrán ser detenidos durante su mandato sin la previa autorización de la Cámara respectiva.",
+        "Gozarán de inviolabilidad por las opiniones y actuaciones realizadas durante su mandato.",
+        "Gozarán de inviolabilidad por las opiniones manifestadas en el ejercicio de sus funciones, e inmunidad durante su mandato.",
+        "No podrán ser inculpados ni procesados sin la previa autorización de la Cámara respectiva."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 71.2 CE: Durante el período de su mandato los Diputados y Senadores gozarán asimismo de inmunidad y sólo podrán ser detenidos en caso de flagrante delito. No podrán ser inculpados ni procesados sin la previa autorización de la Cámara respectiva."
+    },
+    {
+      "id": 40,
+      "globalId": 40,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Respecto al Tribunal Constitucional, señale la FALSA:",
+      "opciones": [
+        "Es el intérprete supremo de la Constitución.",
+        "No es único en su orden.",
+        "Extiende su jurisdicción a todo el territorio nacional.",
+        "Es independiente de los demás órganos constitucionales y sólo se encuentra sometido a la Constitución y a su ley orgánica."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Es falsa la b: El artículo 1.1 de la LOTC establece que el Tribunal Constitucional es ÚNICO en su orden y extiende su jurisdicción a todo el territorio nacional."
+    },
+    {
+      "id": 41,
+      "globalId": 41,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿En qué fecha votó el pueblo español en referéndum la actual Constitución Española?",
+      "opciones": [
+        "El 6 de Diciembre de 1978.",
+        "El 30 de Octubre de 1978.",
+        "El 27 de Diciembre de 1978.",
+        "El 31 de Octubre de 1978."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La Constitución Española fue ratificada por el pueblo español en referéndum el 6 de diciembre de 1978."
+    },
+    {
+      "id": 42,
+      "globalId": 42,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "De la suspensión de derechos y libertades trata la Constitución en su artículo:",
+      "opciones": [
+        "Artículo 53.",
+        "Artículo 54.",
+        "Artículo 56.",
+        "Artículo 55."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El artículo 55 de la Constitución Española regula la suspensión de los derechos y libertades."
+    },
+    {
+      "id": 43,
+      "globalId": 43,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "La reforma constitucional se regula en la Constitución en su Título:",
+      "opciones": [
+        "VIII.",
+        "VII.",
+        "X.",
+        "IX."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El Título X de la Constitución Española (artículos 166 a 169) está dedicado a la reforma constitucional."
+    },
+    {
+      "id": 44,
+      "globalId": 44,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Señale la afirmación correcta respecto al recurso de inconstitucionalidad, según la Constitución Española:",
+      "opciones": [
+        "Pueden interponerlo 1/10 parte de los Diputados del Congreso.",
+        "Está legitimado para interponerlo el Ministerio Fiscal.",
+        "Está legitimado para interponerlo toda persona natural o jurídica que invoque un interés legítimo.",
+        "Se interpone contra leyes y disposiciones normativas con rango de ley."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 161.1.a) CE: El recurso de inconstitucionalidad se interpone contra leyes y disposiciones normativas con fuerza o rango de ley."
+    },
+    {
+      "id": 45,
+      "globalId": 45,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "En relación con las Cortes Generales, señale la afirmación correcta:",
+      "opciones": [
+        "Las poblaciones de Ceuta y Melilla estarán representadas cada una de ellas por un Diputado.",
+        "Las provincias de Ceuta y Melilla estarán representadas por dos Diputados cada una de ellas.",
+        "Nadie podrá ser miembro de las dos Cámaras simultáneamente.",
+        "Los Diputados y Senadores gozan de inmunidad no pudiendo ser detenidos sin la previa autorización de la Cámara respectiva."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 67.1 CE: Nadie podrá ser miembro de ambas Cámaras simultáneamente, ni acumular el acta de una Asamblea de Comunidad Autónoma con la de Diputado al Congreso."
+    },
+    {
+      "id": 46,
+      "globalId": 46,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según recoge el artículo 159.5 de la Constitución Española, los miembros del Tribunal Constitucional serán, en el ejercicio de su mandato:",
+      "opciones": [
+        "Independientes e inviolables.",
+        "Independientes e inamovibles.",
+        "Inamovibles pero no independientes.",
+        "Independientes pero no inamovibles."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 159.5 CE: Los miembros del Tribunal Constitucional serán independientes e inamovibles en el ejercicio de su mandato."
+    },
+    {
+      "id": 47,
+      "globalId": 47,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Señale, de las enumeradas a continuación, la función que corresponde al Consejo de Ministros:",
+      "opciones": [
+        "Proponer al Rey la convocatoria de un referéndum consultivo, previa autorización del Congreso de los Diputados.",
+        "Interponer el recurso de inconstitucionalidad.",
+        "Declarar los estados de alarma y excepción y proponer al Congreso la declaración del estado de sitio.",
+        "Dirigir la política de defensa y ejercer respecto de las Fuerzas Armadas las funciones previstas en la legislación."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El Consejo de Ministros declara el estado de alarma y el estado de excepción, y propone al Congreso de los Diputados la declaración del estado de sitio (art. 116 CE y art. 5 Ley del Gobierno)."
+    },
+    {
+      "id": 48,
+      "globalId": 48,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "La Regencia se ejercerá:",
+      "opciones": [
+        "Durante el tiempo de minoría de edad del rey.",
+        "Para ejercer las funciones de educación del rey menor.",
+        "Si el rey se inhabilitare para el ejercicio de su autoridad y la imposibilidad fuere reconocida por las Cortes Generales.",
+        "A y C son ciertas."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El artículo 59 de la CE contempla la Regencia tanto en caso de minoría de edad del Rey como en caso de inhabilitación reconocida por las Cortes Generales."
+    },
+    {
+      "id": 49,
+      "globalId": 49,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El Gobierno NO cesa:",
+      "opciones": [
+        "Tras la convocatoria de elecciones.",
+        "El gobierno cesa en los casos citados.",
+        "Por la pérdida de la confianza parlamentaria.",
+        "Por dimisión o fallecimiento del Presidente del Gobierno."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 101.1 CE: El Gobierno cesa tras la CELEBRACIÓN de elecciones generales (no tras la simple convocatoria), por pérdida de la confianza parlamentaria o por dimisión/fallecimiento del Presidente."
+    },
+    {
+      "id": 50,
+      "globalId": 50,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Se protege por el recurso de amparo:",
+      "opciones": [
+        "El derecho a la propiedad privada y a la herencia.",
+        "El derecho protección de la salud.",
+        "El derecho de petición.",
+        "El derecho a la una vivienda digna y adecuada."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 53.2 CE: Se tutelan por recurso de amparo los artículos 14 a 29 (que incluyen el derecho de petición del art. 29) y la objeción de conciencia del art. 30."
+    },
+    {
+      "id": 51,
+      "globalId": 51,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Respecto a la protección de los hijos, el artículo 39 de la Constitución establece, entre otras cuestiones que:",
+      "opciones": [
+        "La ley posibilitará la investigación de la paternidad.",
+        "La ley obligará a la investigación de la paternidad.",
+        "La ley no obligará a la investigación de la paternidad.",
+        "La ley no impedirá la investigación de la paternidad."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 39.2 CE: 'Los poderes públicos aseguran, asimismo, la protección integral de los hijos... La ley posibilitará la investigación de la paternidad.'"
+    },
+    {
+      "id": 52,
+      "globalId": 52,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Señala la FALSA:",
+      "opciones": [
+        "Si la acusación a un miembro del gobierno fuere por traición o por cualquier delito contra la seguridad del Estado en el ejercicio de sus funciones, sólo podrá ser planteada por iniciativa de la cuarta parte de los miembros del Congreso.",
+        "Y con la aprobación de la mayoría absoluta del mismo.",
+        "La prerrogativa real de gracia será aplicable a estos supuestos.",
+        "La prerrogativa real de gracia no será aplicable a ninguno de estos supuestos."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 102.3 CE: 'La prerrogativa real de gracia no será aplicable a ninguno de los supuestos del presente artículo.'"
+    },
+    {
+      "id": 53,
+      "globalId": 53,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El Defensor del Pueblo se designa por las Cortes Generales para la defensa de los derechos:",
+      "opciones": [
+        "Del Título I Capítulo II Sección 2ª.",
+        "Del Título I Capítulo II.",
+        "Del Título I Capítulo II Sección 1ª.",
+        "Del Título I."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 54 CE: El Defensor del Pueblo es un alto comisionado de las Cortes Generales designado para la defensa de los derechos comprendidos en todo el Título I."
+    },
+    {
+      "id": 54,
+      "globalId": 54,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según dispone el artículo 1.1 de la Constitución, España se constituye en un Estado:",
+      "opciones": [
+        "Bicameral.",
+        "Social y democrático de derecho.",
+        "Autonómico.",
+        "Descentralizado."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 1.1 CE: 'España se constituye en un Estado social y democrático de Derecho, que propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político.'"
+    },
+    {
+      "id": 55,
+      "globalId": 55,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según el artículo 27 de la Constitución, es obligatoria y gratuita:",
+      "opciones": [
+        "La enseñanza hasta los 18 años.",
+        "La enseñanza básica.",
+        "La enseñanza.",
+        "La participación en la enseñanza."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 27.4 CE: 'La enseñanza básica es obligatoria y gratuita.'"
+    },
+    {
+      "id": 56,
+      "globalId": 56,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El Gobierno podrá impugnar ante el Tribunal Constitucional las disposiciones y resoluciones adoptadas por los órganos de las Comunidades Autónomas. La impugnación producirá la suspensión de la disposición o resolución recurrida, pero el Tribunal, en su caso, deberá ratificarla o levantarla en un plazo:",
+      "opciones": [
+        "No superior a cinco meses.",
+        "No superior a tres meses.",
+        "Superior a tres meses.",
+        "No inferior a cinco meses."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 161.2 CE: El Tribunal Constitucional deberá ratificar o levantar la suspensión en un plazo no superior a cinco meses."
+    },
+    {
+      "id": 57,
+      "globalId": 57,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "La primera reforma de la Constitución Española hasta la fecha es de:",
+      "opciones": [
+        "25 de marzo de 1992.",
+        "27 de Agosto de 1992.",
+        "1 de Enero de 1996.",
+        "La Constitución no ha tenido ninguna reforma."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La primera reforma constitucional se aprobó el 27 de agosto de 1992 para modificar el artículo 13.2 adaptándolo al Tratado de Maastricht."
+    },
+    {
+      "id": 58,
+      "globalId": 58,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Señale la afirmación correcta en relación con las competencias del Consejo de Ministros:",
+      "opciones": [
+        "Le corresponde proponer al Rey la convocatoria de referéndum consultivo.",
+        "Le corresponde crear, modificar y suprimir por Real Decreto los Departamentos Ministeriales.",
+        "Le corresponde interponer el recurso de inconstitucionalidad.",
+        "Le corresponde crear, modificar y suprimir los órganos directivos de los Departamentos Ministeriales."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Al Consejo de Ministros le corresponde proponer al Rey la convocatoria de un referéndum consultivo, previa autorización del Congreso de los Diputados (art. 5.1.c Ley del Gobierno)."
+    },
+    {
+      "id": 59,
+      "globalId": 59,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Los miembros del Tribunal Constitucional son designados:",
+      "opciones": [
+        "Por un período de nueve años y se renuevan por terceras partes cada tres.",
+        "Por un período de seis años, prorrogable otros tres años más.",
+        "La duración del mandato depende de la voluntad del órgano que propuso su nombramiento.",
+        "Por un periodo de nueve años, prorrogables por otros tres, como máximo."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 159.3 CE: Los miembros del Tribunal Constitucional serán designados por períodos de nueve años y se renovarán por terceras partes cada tres."
+    },
+    {
+      "id": 60,
+      "globalId": 60,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "De acuerdo con la Constitución Española, los miembros del Tribunal Constitucional nombrados a propuesta del Senado son:",
+      "opciones": [
+        "Cuatro, por mayoría de tres quintos de sus miembros.",
+        "Tres, por mayoría absoluta de la cámara.",
+        "Dos, por mayoría de tres quintos de sus miembros.",
+        "Cuatro, por mayoría absoluta de la cámara."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 159.1 CE: Cuatro a propuesta del Senado por mayoría de tres quintos de sus miembros."
+    },
+    {
+      "id": 61,
+      "globalId": 61,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Se tutelan por el recurso de amparo:",
+      "opciones": [
+        "Los derechos fundamentales y libertades públicas.",
+        "Los derechos fundamentales y libertades públicas, el artículo 14 de la Constitución y el artículo 30 de la Constitución, en cuanto a la objeción de conciencia.",
+        "Los principios rectores de la política social y económica.",
+        "Los derechos fundamentales y libertades públicas y el artículo 14 de la Constitución."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 53.2 CE: Se tutelan ante el Tribunal Constitucional mediante el recurso de amparo los derechos reconocidos en el artículo 14, la Sección 1ª del Capítulo II (arts. 15-29) y la objeción de conciencia del artículo 30."
+    },
+    {
+      "id": 62,
+      "globalId": 62,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Se protege por el recurso de amparo:",
+      "opciones": [
+        "El derecho al trabajo.",
+        "El derecho a la propiedad privada y a la herencia.",
+        "El derecho a participar en asuntos públicos.",
+        "El derecho a la salud."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El derecho a participar en los asuntos públicos se encuentra en el artículo 23 de la CE (Sección 1ª del Capítulo II del Título I), por lo que sí goza de protección mediante recurso de amparo."
+    },
+    {
+      "id": 63,
+      "globalId": 63,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "De acuerdo con el artículo 167 de la Constitución, aprobada la reforma constitucional por las Cortes Generales, será sometida a referéndum para su ratificación si:",
+      "opciones": [
+        "En ningún caso.",
+        "Si lo solicita 1/10 parte de los miembros de ambas cámaras en un plazo de 15 días.",
+        "En todo caso.",
+        "Si lo solicita 1/10 parte de los miembros de cualquiera de las Cámaras dentro de los quince días siguientes a su aprobación."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 167.3 CE: Aprobada la reforma por las Cortes Generales, será sometida a referéndum cuando así lo soliciten, dentro de los quince días siguientes a su aprobación, una décima parte de los miembros de cualquiera de las Cámaras."
+    },
+    {
+      "id": 64,
+      "globalId": 64,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El derecho de fundación para fines de interés general está regulado en la Constitución en:",
+      "opciones": [
+        "Los principios rectores de la política social y económica.",
+        "Los derechos y deberes de los ciudadanos.",
+        "Los derechos fundamentales y libertades públicas.",
+        "Los derechos y libertades."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 34 CE: Se reconoce el derecho de fundación para fines de interés general, con arreglo a la ley. Se ubica en la Sección 2ª del Capítulo II del Título I (Derechos y deberes de los ciudadanos)."
+    },
+    {
+      "id": 65,
+      "globalId": 65,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿Quién NO puede ser privado de la nacionalidad española?",
+      "opciones": [
+        "Ningún español que adquiera la nacionalidad por carta de naturaleza.",
+        "Ningún español de origen.",
+        "Ningún español.",
+        "Ningún español de nacionalidad adquirida."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 11.2 CE: 'Ningún español de origen podrá ser privado de su nacionalidad.'"
+    },
+    {
+      "id": 66,
+      "globalId": 66,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "De los actos del Rey será responsable:",
+      "opciones": [
+        "El presidente del Gobierno.",
+        "Las personas que los refrendan.",
+        "Nadie, dado que su persona es inviolable.",
+        "El propio Rey."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 64.2 CE: De los actos del Rey serán responsables las personas que los refrendan."
+    },
+    {
+      "id": 67,
+      "globalId": 67,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿A quién corresponde autorizar la declaración de guerra?",
+      "opciones": [
+        "A las Cortes Generales.",
+        "Al Congreso.",
+        "Al Rey.",
+        "Al Gobierno."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 63.3 CE: Corresponde al Rey declarar la guerra y hacer la paz, previa autorización de las Cortes Generales."
+    },
+    {
+      "id": 68,
+      "globalId": 68,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "La Constitución garantiza, salvo resolución judicial, el secreto de las comunicaciones y en especial de las:",
+      "opciones": [
+        "Postales, telegráficas y telefónicas.",
+        "Electrónicas, postales y telefónicas.",
+        "Telefónicas e informáticas.",
+        "Postales y electrónicas."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 18.3 CE: 'Se garantiza el secreto de las comunicaciones y, en especial, de las postales, telegráficas y telefónicas, salvo resolución judicial.'"
+    },
+    {
+      "id": 69,
+      "globalId": 69,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El Defensor del Pueblo dará cuenta de su gestión:",
+      "opciones": [
+        "A las Cortes Generales en un informe anual.",
+        "Al Gobierno en un informe trimestral.",
+        "Al Congreso en un informe semestral.",
+        "Al Tribunal Constitucional."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 54 CE y Ley Orgánica 3/1981: El Defensor del Pueblo dará cuenta a las Cortes Generales de su gestión en un informe anual."
+    },
+    {
+      "id": 70,
+      "globalId": 70,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿Cuál de las siguientes es una característica de la Constitución Española?",
+      "opciones": [
+        "Consensuada.",
+        "Corta.",
+        "Flexible.",
+        "Todas las anteriores son características de la Constitución española."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La Constitución de 1978 es consensuada, rígida (no flexible) y relativamente extensa (169 artículos, no corta)."
+    },
+    {
+      "id": 71,
+      "globalId": 71,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según el artículo 11 de la Constitución Española, la nacionalidad se adquiere, conserva y pierde:",
+      "opciones": [
+        "Según lo que disponga una ley orgánica.",
+        "Conforme a la normativa del Registro Civil.",
+        "De acuerdo con lo establecido por la ley.",
+        "Según disponga un Real Decreto del Consejo de Ministros."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 11.1 CE: 'La nacionalidad española se adquiere, se conserva y se pierde de acuerdo con lo establecido por la ley.'"
+    },
+    {
+      "id": 72,
+      "globalId": 72,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según recoge el artículo 1.2 de la Constitución Española, los poderes del Estado emanan de:",
+      "opciones": [
+        "La Constitución.",
+        "El pueblo español.",
+        "De la Constitución y el pueblo español.",
+        "El Rey."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 1.2 CE: 'La soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado.'"
+    },
+    {
+      "id": 73,
+      "globalId": 73,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "De los españoles y extranjeros trata el Título I de la Constitución en su:",
+      "opciones": [
+        "Capítulo III.",
+        "Capítulo I.",
+        "Capítulo II.",
+        "Capítulo V."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El Capítulo Primero del Título I de la Constitución Española (artículos 11 a 13) se titula 'De los españoles y los extranjeros'."
+    },
+    {
+      "id": 74,
+      "globalId": 74,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Respecto a los honores y distinciones con arreglo a las leyes, corresponde al Rey:",
+      "opciones": [
+        "Otorgar.",
+        "Conceder.",
+        "Expedir.",
+        "Conferir."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 62.f) CE: Corresponde al Rey conferir los empleos civiles y militares y conceder honores y distinciones con arreglo a las leyes."
+    },
+    {
+      "id": 75,
+      "globalId": 75,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según recoge el artículo 35 de la Constitución Española, un Estatuto de los Trabajadores lo regula:",
+      "opciones": [
+        "Una Ley orgánica.",
+        "Una Orden Ministerial del Ministerio de Trabajo.",
+        "Un Real Decreto del Consejo de Ministros.",
+        "La ley."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 35.2 CE: 'La ley regulará un estatuto de los trabajadores.'"
+    },
+    {
+      "id": 76,
+      "globalId": 76,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según establece el artículo 18.4 de la Constitución, para garantizar el honor y la intimidad personal y familiar de los ciudadanos, la ley limitará el uso de:",
+      "opciones": [
+        "Las comunicaciones.",
+        "Las telecomunicaciones.",
+        "La informática.",
+        "La correspondencia."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 18.4 CE: 'La ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos.'"
+    },
+    {
+      "id": 77,
+      "globalId": 77,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El Defensor del Pueblo es elegido inicialmente:",
+      "opciones": [
+        "Por el Congreso por mayoría absoluta.",
+        "Por las Cortes Generales por mayoría absoluta.",
+        "Por el Congreso y el Senado por mayoría de 3/5.",
+        "Por el Congreso por mayoría de 3/5."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Según la Ley Orgánica 3/1981 del Defensor del Pueblo (art. 2), el candidato se elige por mayoría de tres quintos del Congreso de los Diputados y posteriormente de tres quintos del Senado."
+    },
+    {
+      "id": 78,
+      "globalId": 78,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Puede crear una Comisión de Investigación:",
+      "opciones": [
+        "La pueden crear ambas Cámaras conjuntamente.",
+        "Las Cámaras no pueden crear una comisión de investigación.",
+        "El Congreso y el Senado o, en su caso, ambas Cámaras conjuntamente.",
+        "Sólo el Congreso."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 76.1 CE: El Congreso y el Senado, y, en su caso, ambas Cámaras conjuntamente, podrán nombrar comisiones de investigación sobre cualquier asunto de interés público."
+    },
+    {
+      "id": 79,
+      "globalId": 79,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según la Constitución, la legitimación para interponer tanto el recurso de inconstitucionalidad como el recurso de amparo corresponderá a:",
+      "opciones": [
+        "Toda persona natural o legítima que invoque un interés legítimo.",
+        "50 Diputados y 50 Senadores.",
+        "El Presidente del Gobierno.",
+        "El Defensor del Pueblo."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 162 CE: El Defensor del Pueblo está legitimado tanto para interponer el recurso de inconstitucionalidad (art. 162.1.a) como el recurso de amparo (art. 162.1.b)."
+    },
+    {
+      "id": 80,
+      "globalId": 80,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Si el Rey se inhabilitare para el ejercicio de su autoridad, reconocen la inhabilitación del Rey:",
+      "opciones": [
+        "El Congreso.",
+        "Las personas que refrendan los actos del Rey.",
+        "El Regente.",
+        "Las Cortes Generales."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 59.2 CE: Si el Rey se inhabilitare para el ejercicio de su autoridad y la imposibilidad fuere reconocida por las Cortes Generales, entrará a ejercer inmediatamente la Regencia..."
+    },
+    {
+      "id": 81,
+      "globalId": 81,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según el artículo 30 de la Constitución Española, defender a España:",
+      "opciones": [
+        "Es una obligación moral de los españoles.",
+        "Es un deber de los españoles.",
+        "Es un derecho y un deber de los españoles.",
+        "Es un derecho de los españoles."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 30.1 CE: 'Los españoles tienen el derecho y el deber de defender a España.'"
+    },
+    {
+      "id": 82,
+      "globalId": 82,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿A quién prevé la Constitución en primer lugar para ocupar el cargo de Regente del Rey menor?",
+      "opciones": [
+        "A la persona que designen las Cortes Generales.",
+        "Al pariente mayor de edad más próximo a la Sucesión.",
+        "Al padre o madre del Rey.",
+        "Al Presidente del Gobierno."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 59.1 CE: Cuando el Rey fuere menor de edad, el padre o la madre del Rey y, en su defecto, el pariente mayor de edad más próximo a suceder en la Corona... entrará a ejercer la Regencia."
+    },
+    {
+      "id": 83,
+      "globalId": 83,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Los Secretarios de Estado son nombrados por:",
+      "opciones": [
+        "Real Decreto del Presidente del Gobierno.",
+        "Orden Ministerial del Ministro en el que se encuentre adscrita la Secretaría de Estado.",
+        "Real Decreto Ley de nombramiento del Rey a propuesta del presidente del Gobierno.",
+        "Real Decreto del Consejo de Ministros."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Según la Ley 40/2015 del Régimen Jurídico del Sector Público, los Secretarios de Estado son nombrados y separados por Real Decreto del Consejo de Ministros a propuesta del Presidente del Gobierno o del Miembro del Consejo correspondiente."
+    },
+    {
+      "id": 84,
+      "globalId": 84,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿Quién resuelve un conflicto de competencias entre el Estado y las Comunidades Autónomas o de éstas entre sí?",
+      "opciones": [
+        "La Audiencia Nacional.",
+        "El Tribunal Supremo.",
+        "El Tribunal Constitucional.",
+        "La Audiencia Provincial."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 161.1.c) CE: El Tribunal Constitucional es competente para conocer de los conflictos de competencia entre el Estado y las Comunidades Autónomas o de éstas entre sí."
+    },
+    {
+      "id": 85,
+      "globalId": 85,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El Tribunal Constitucional se regula en el Título IX de la Constitución Española y en:",
+      "opciones": [
+        "Un Real Decreto legislativo.",
+        "Una ley orgánica.",
+        "Una ley ordinaria.",
+        "Un Real Decreto del Consejo de Ministros."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El Tribunal Constitucional se rige por su Ley Orgánica (Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional)."
+    },
+    {
+      "id": 86,
+      "globalId": 86,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿En qué fecha aprobaron las Cortes Generales la actual Constitución Española?",
+      "opciones": [
+        "El 6 de Diciembre de 1978.",
+        "El 31 de Octubre de 1978.",
+        "El 27 de Diciembre de 1978.",
+        "El 29 de Diciembre de 1978."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Las Cortes Generales (Congreso y Senado en sesiones separadas) aprobaron el texto constitucional el 31 de octubre de 1978."
+    },
+    {
+      "id": 87,
+      "globalId": 87,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según la Constitución, queda abolida la pena de muerte:",
+      "opciones": [
+        "Salvo lo que pueda disponer el código penal para tiempos de guerra.",
+        "En todo caso.",
+        "Salvo lo que puedan disponer las leyes penales militares para delitos de terrorismo.",
+        "Salvo lo que puedan disponer las leyes penales militares para tiempos de guerra."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 15 CE: 'Queda abolida la pena de muerte, salvo lo que puedan disponer las leyes penales militares para tiempos de guerra.'"
+    },
+    {
+      "id": 88,
+      "globalId": 88,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la moción de censura. Para que prospere la moción de censura actualmente, deben votar a favor un mínimo de:",
+      "opciones": [
+        "176 Diputados.",
+        "210 Diputados.",
+        "175 Diputados.",
+        "No puede saberse."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El artículo 113.1 de la CE exige la mayoría absoluta del Congreso (176 de 350 escaños) para que la moción de censura sea adoptada."
+    },
+    {
+      "id": 89,
+      "globalId": 89,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "La elección del Presidente del Tribunal Constitucional se lleva a cabo:",
+      "opciones": [
+        "En votación ordinaria.",
+        "En votación nominal.",
+        "En votación secreta.",
+        "En votación especial."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 9.1 de la LOTC: El Pleno del Tribunal Constitucional elige a su Presidente en votación secreta de entre sus miembros."
+    },
+    {
+      "id": 90,
+      "globalId": 90,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "La renovación parcial de los magistrados del Tribunal Constitucional se produce cada:",
+      "opciones": [
+        "9 años.",
+        "3 años.",
+        "5 años.",
+        "4 años."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 159.3 CE: Los miembros del Tribunal Constitucional son nombrados por 9 años y se renuevan por terceras partes (4 magistrados) cada 3 años."
+    },
+    {
+      "id": 91,
+      "globalId": 91,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿Quién controla la legalidad de la actuación administrativa, así como el sometimiento de ésta a los fines que la justifican?",
+      "opciones": [
+        "Los Tribunales.",
+        "Las Cortes Generales.",
+        "El Congreso.",
+        "El Gobierno."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 106.1 CE: 'Los Tribunales controlan la potestad reglamentaria y la legalidad de la actuación administrativa, así como el sometimiento de ésta a los fines que la justifican.'"
+    },
+    {
+      "id": 92,
+      "globalId": 92,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El mandato inicial del Presidente del Tribunal Constitucional es de:",
+      "opciones": [
+        "6 años.",
+        "5 años.",
+        "4 años.",
+        "3 años."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 160 CE y art. 9 LOTC: El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno, por un período de tres años."
+    },
+    {
+      "id": 93,
+      "globalId": 93,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿De qué trata el Título VII de la Constitución?",
+      "opciones": [
+        "De Economía y Hacienda.",
+        "De la organización territorial del estado.",
+        "Del Gobierno y la Administración.",
+        "Del Poder Judicial."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El Título VII de la Constitución Española (artículos 128 a 136) se titula 'Economía y Hacienda'."
+    },
+    {
+      "id": 94,
+      "globalId": 94,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El Defensor del Pueblo puede interponer ante el Tribunal Constitucional:",
+      "opciones": [
+        "El recurso de amparo y el recurso de inconstitucionalidad.",
+        "Sólo el recurso de inconstitucionalidad.",
+        "Sólo el recurso de amparo.",
+        "Sólo la cuestión de inconstitucionalidad."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 162.1 CE: El Defensor del Pueblo está legitimado para interponer tanto el recurso de inconstitucionalidad como el recurso de amparo."
+    },
+    {
+      "id": 95,
+      "globalId": 95,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El derecho de fundación para fines de interés general está regulado en la Constitución en:",
+      "opciones": [
+        "Los derechos fundamentales y libertades públicas.",
+        "Los derechos y libertades.",
+        "Los principios rectores de la política social y económica.",
+        "Los derechos y deberes de los ciudadanos."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El derecho de fundación (art. 34 CE) se ubica en el Capítulo II, Sección 2ª del Título I: 'De los derechos y deberes de los ciudadanos'."
+    },
+    {
+      "id": 96,
+      "globalId": 96,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "El Presidente del Tribunal Constitucional es nombrado por:",
+      "opciones": [
+        "El Congreso de los Diputados.",
+        "El Rey, a propuesta del Pleno del propio Tribunal.",
+        "Las Cortes Generales.",
+        "El Gobierno."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 160 CE: El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno."
+    },
+    {
+      "id": 97,
+      "globalId": 97,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Según recoge el artículo 116 de la Constitución Española, el plazo máximo de duración inicial del estado de alarma es de:",
+      "opciones": [
+        "15 días.",
+        "10 días.",
+        "30 días.",
+        "1 mes."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 116.2 CE: El estado de alarma será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros por un plazo máximo de quince días."
+    },
+    {
+      "id": 98,
+      "globalId": 98,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "¿A cuántos miembros del Tribunal Constitucional propone el Gobierno?",
+      "opciones": [
+        "A 3 miembros.",
+        "A 6 miembros.",
+        "A 4 miembros.",
+        "A 2 miembros."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 159.1 CE: Dos a propuesta del Gobierno, y dos a propuesta del Consejo General del Poder Judicial."
+    },
+    {
+      "id": 99,
+      "globalId": 99,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "Las Fuerzas Armadas están constituidas por:",
+      "opciones": [
+        "El Ejército de Tierra, la Armada y el Ejército del Aire.",
+        "El Ejército de Tierra, la Armada, el Ejército del Aire y las Fuerzas y Cuerpos de Seguridad.",
+        "El Ejército de Tierra, la Armada, el Ejército del Aire y la Guardia Civil.",
+        "El Ejército de Tierra, la Armada, el Ejército del Aire y Caballería de Marina."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 8.1 CE: 'Las Fuerzas Armadas, constituidas por el Ejército de Tierra, la Armada y el Ejército del Aire, tienen como misión garantizar la soberanía e independencia de España...'"
+    },
+    {
+      "id": 100,
+      "globalId": 100,
+      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+      "pregunta": "NO es un valor superior del ordenamiento jurídico:",
+      "opciones": [
+        "La igualdad.",
+        "El pluralismo político.",
+        "La equidad.",
+        "La libertad."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 1.1 CE: España propugna como valores superiores de su ordenamiento jurídico la libertad, la justicia, la igualdad y el pluralismo político. La equidad no figura entre ellos."
+    }
+  ]
+}

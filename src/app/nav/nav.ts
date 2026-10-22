@@ -16,15 +16,24 @@ export class Nav {
   // Estados independientes para cada desplegable
   isExamenesOpen = false;
   isTemariosOpen = false;
+  isAyalaOpen = false;
 
   toggleExamenes() {
     this.isExamenesOpen = !this.isExamenesOpen;
     this.isTemariosOpen = false; // Cierra el otro si está abierto
+    this.isAyalaOpen = false;
   }
 
   toggleTemarios() {
     this.isTemariosOpen = !this.isTemariosOpen;
     this.isExamenesOpen = false; // Cierra el otro si está abierto
+    this.isAyalaOpen = false;
+  }
+  toggleAyala() {
+    // 👈 Nuevo toggle
+    this.isAyalaOpen = !this.isAyalaOpen;
+    this.isExamenesOpen = false;
+    this.isTemariosOpen = false;
   }
 
   examenesAnios = [
@@ -36,7 +45,6 @@ export class Nav {
     { label: '2023', route: '/examen2023' },
     { label: '2019', route: '/examen2019' },
     { label: '2018', route: '/examen2018' },
-    
   ];
 
   temariosBloques = [
@@ -47,6 +55,13 @@ export class Nav {
     { label: 'Normativa', route: '/normativa169' },
     { label: 'Administración', route: '/banco-fichas-boe' },
     { label: 'Examen Profe', route: '/examenprofe' },
+  ];
+
+  // 👈 Nuevo array para los enlaces de la academia Ayala
+  ayalaLinks = [
+    { label: 'Ayala 1 Constitución', route: '/ayala-1-con' },
+    // Aquí podrás añadir más fácilmente:
+    // { label: 'Ayala 2 Ley del Gobierno', route: '/ayala-2-gob' },
   ];
 
   pdfs = [

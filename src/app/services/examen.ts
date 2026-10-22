@@ -25,6 +25,8 @@ export class ExamenService {
     'normativa169': 'assets/data/normativa_tai-v2.json',
     'banco-fichas-boe': 'assets/data/banco_fichas_boe.json',
     'examenprofe': 'assets/data/examenProfe.json',
+    'ayala_1_con':'assets/data/ayala_1_con.json',
+
   };
 
   // 🗄️ Caché para exámenes individuales y para la búsqueda general

@@ -1,0 +1,48 @@
+<div class="container mt-4">
+  @if (cargando()) {
+    <p class="text-dark">Cargando preguntas de la Constitución...</p>
+  } @else {
+    @if (nombreExamen()) {
+      <h3 class="mb-3 text-primary fw-bold">{{ nombreExamen() }}</h3>
+    }
+
+    @for (pregunta of preguntas(); track pregunta.globalId) {
+      <div class="card mb-3 shadow-sm">
+        <div class="card-body">
+          <h6 class="fw-bold text-dark">
+            {{ pregunta.globalId }}. {{ pregunta.pregunta }}
+          </h6>
+
+          @for (opcion of pregunta.opciones; track $index) {
+            <div class="form-check my-2">
+              <input
+                class="form-check-input"
+                type="radio"
+                [id]="'opcion-' + pregunta.globalId + '-' + $index"
+                [name]="'pregunta-' + pregunta.globalId"
+                [value]="$index"
+                (change)="responder(pregunta.globalId, $index)"
+              />
+              <label
+                class="form-check-label fw-medium"
+                [for]="'opcion-' + pregunta.globalId + '-' + $index"
+                [class.text-success]="respuestas.has(pregunta.globalId) && pregunta.respuestaCorrecta === $index"
+                [class.fw-bold]="respuestas.has(pregunta.globalId) && pregunta.respuestaCorrecta === $index"
+                [class.text-danger]="respuestas.get(pregunta.globalId) === $index && esCorrecta(pregunta.globalId) === false"
+                [class.text-dark]="!respuestas.has(pregunta.globalId)"
+              >
+                {{ opcion }}
+              </label>
+            </div>
+          }
+
+          @if (esCorrecta(pregunta.globalId) === true) {
+            <p class="text-success mt-2 fw-bold">✅ {{ pregunta.explicacion }}</p>
+          } @else if (esCorrecta(pregunta.globalId) === false) {
+            <p class="text-danger mt-2 fw-bold">❌ Incorrecta.</p>
+          }
+        </div>
+      </div>
+    }
+  }
+</div>
