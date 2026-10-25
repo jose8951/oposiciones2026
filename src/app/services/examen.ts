@@ -26,6 +26,11 @@ export class ExamenService {
     'banco-fichas-boe': 'assets/data/banco_fichas_boe.json',
     'examenprofe': 'assets/data/examenProfe.json',
     'ayala_1_con':'assets/data/ayala_1_con.json',
+     'ayala_2_con':'assets/data/ayala_2_con.json',
+     'ayala_3_con':'assets/data/ayala_3_con.json',
+      'ayala_4_con':'assets/data/ayala_4_con.json',
+       'ayala_5_con':'assets/data/ayala_5_con.json',
+        'ayala_6_con':'assets/data/ayala_6_con.json',
 
   };
 

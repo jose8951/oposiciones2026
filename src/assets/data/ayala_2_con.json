@@ -1,0 +1,1507 @@
+{
+  "examen": "Cuestionario AyalaTest 2 - Cortes Generales, Tribunal Constitucional y Defensor del Pueblo",
+  "descripcion": "Banco de 100 preguntas de test sobre las Cortes Generales (Congreso y Senado), el Tribunal Constitucional y el Defensor del Pueblo.",
+  "total_preguntas": 100,
+  "preguntas": [
+    {
+      "id": 1,
+      "globalId": 1,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Contra las sentencias del Tribunal Constitucional:",
+      "opciones": [
+        "No cabe recurso alguno.",
+        "Cabe recurso para la unificación de doctrina.",
+        "Cabe recurso de casación en interés de ley.",
+        "Cabe recurso especial de apelación ante el Tribunal Supremo, en los casos establecidos por la ley."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 164.1 CE: Las sentencias del Tribunal Constitucional se publicarán en el boletín oficial del Estado con los votos particulares, si los hubiere. Tienen el valor de cosa juzgada a partir del día siguiente a su publicación y no cabe recurso alguno contra ellas."
+    },
+    {
+      "id": 2,
+      "globalId": 2,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El Defensor del Pueblo es el alto comisionado de las Cortes Generales para la defensa de los derechos del:",
+      "opciones": [
+        "Título I Capítulo II Sección 2ª.",
+        "Título I.",
+        "Título I Capítulo II Sección 1ª.",
+        "Título I Capítulo II."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 54 CE: Una ley orgánica regulará la institución del Defensor del Pueblo, como alto comisionado de las Cortes Generales, designado por éstas para la defensa de los derechos comprendidos en este Título (Título I)."
+    },
+    {
+      "id": 3,
+      "globalId": 3,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "¿Cuántos miembros integran el Tribunal Constitucional?",
+      "opciones": [
+        "12 miembros.",
+        "10 miembros.",
+        "20 miembros.",
+        "15 miembros."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 159.1 CE: El Tribunal Constitucional se compone de 12 miembros nombrados por el Rey."
+    },
+    {
+      "id": 4,
+      "globalId": 4,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El Defensor del Pueblo es nombrado por las Cortes Generales para un periodo de:",
+      "opciones": [
+        "Cuatro años.",
+        "Cinco años.",
+        "Seis años.",
+        "Tres años."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Ley Orgánica 3/1981 del Defensor del Pueblo, Art. 2: El Defensor del Pueblo será elegido por las Cortes Generales para un período de cinco años."
+    },
+    {
+      "id": 5,
+      "globalId": 5,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La moción de censura debe ser propuesta al menos por:",
+      "opciones": [
+        "La décima parte de los Diputados.",
+        "La quinta parte de los Diputados.",
+        "La mayoría absoluta del Congreso.",
+        "Cincuenta Diputados."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 113.2 CE: La moción de censura deberá ser propuesta al menos por la décima parte de los Diputados."
+    },
+    {
+      "id": 6,
+      "globalId": 6,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "En caso de extraordinaria y urgente necesidad, el Gobierno podrá dictar disposiciones legislativas provisionales que tomarán la forma de:",
+      "opciones": [
+        "Leyes Orgánicas.",
+        "Decretos-Leyes.",
+        "Decretos Legislativos.",
+        "Reglamentos."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 86.1 CE: En caso de extraordinaria y urgente necesidad, el Gobierno podrá dictar disposiciones legislativas provisionales que tomarán la forma de Decretos-leyes."
+    },
+    {
+      "id": 7,
+      "globalId": 7,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El control de la constitucionalidad de las disposiciones normativas con fuerza de ley corresponde a:",
+      "opciones": [
+        "El Tribunal Supremo.",
+        "El Tribunal Constitucional.",
+        "El Consejo de Estado.",
+        "Las Cortes Generales."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 161.1.a CE: El Tribunal Constitucional tiene jurisdicción en todo el territorio español y es competente para conocer del recurso de inconstitucionalidad contra leyes y disposiciones normativas con fuerza de ley."
+    },
+    {
+      "id": 8,
+      "globalId": 8,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Una cuestión de inconstitucionalidad la puede promover:",
+      "opciones": [
+        "50 Senadores.",
+        "50 Diputados.",
+        "El Presidente del Gobierno.",
+        "Un órgano judicial."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 163 CE: Cuando un órgano judicial considere, en algún proceso, que una norma con rango de ley de cuya validez dependa el fallo pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Constitucional."
+    },
+    {
+      "id": 9,
+      "globalId": 9,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "¿Cuál de las siguientes NO es atribución del Tribunal Constitucional?",
+      "opciones": [
+        "Los recursos de amparo.",
+        "Los recursos de inconstitucionalidad.",
+        "Los recursos de casación.",
+        "Los conflictos de competencia entre el Estado y las Comunidades Autónomas."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El recurso de casación es competencia de la jurisdicción ordinaria (Tribunal Supremo), no del Tribunal Constitucional."
+    },
+    {
+      "id": 10,
+      "globalId": 10,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "¿Es preceptiva la asistencia de Letrado y Procurador para acudir al Defensor del Pueblo?",
+      "opciones": [
+        "No.",
+        "Es preceptiva la asistencia de Letrado, pero no la de Procurador.",
+        "Sí.",
+        "Es preceptiva la asistencia de Procurador, pero no la de Letrado."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Ley Orgánica 3/1981, Art. 15.2: Las actuaciones del Defensor del Pueblo son gratuitas y no es preceptiva la asistencia de abogado ni de procurador."
+    },
+    {
+      "id": 11,
+      "globalId": 11,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Señale la afirmación correcta en relación con el Tribunal Constitucional:",
+      "opciones": [
+        "Está compuesto por 12 miembros nombrados por el Rey.",
+        "Sus miembros son nombrados para un periodo de 6 años.",
+        "Su Presidente es nombrado por el Gobierno.",
+        "Los miembros se renuevan en su totalidad cada 9 años."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 159.1 CE: El Tribunal Constitucional se compone de 12 miembros nombrados por el Rey."
+    },
+    {
+      "id": 12,
+      "globalId": 12,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La renovación parcial de los miembros del Tribunal Constitucional se produce cada:",
+      "opciones": [
+        "3 años por terceras partes.",
+        "4 años por mitades.",
+        "5 años en su totalidad.",
+        "2 años por cuartas partes."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 159.3 CE: Los miembros del Tribunal Constitucional serán designados por un período de nueve años y se renuevarán por terceras partes cada tres."
+    },
+    {
+      "id": 13,
+      "globalId": 13,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El Presidente del Tribunal Constitucional es nombrado entre sus miembros por el Rey, a propuesta del:",
+      "opciones": [
+        "Mismo Tribunal en pleno.",
+        "Congreso de los Diputados.",
+        "Consejo General del Poder Judicial.",
+        "Presidente del Gobierno."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 160 CE: El Presidente del Tribunal Constitucional será nombrado entre sus miembros por el Rey, a propuesta del mismo Tribunal en pleno."
+    },
+    {
+      "id": 14,
+      "globalId": 14,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El mandato del Presidente del Tribunal Constitucional es de:",
+      "opciones": [
+        "Tres años.",
+        "Cuatro años.",
+        "Cinco años.",
+        "Nueve años."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 160 CE: El Presidente del Tribunal Constitucional será nombrado por un período de tres años."
+    },
+    {
+      "id": 15,
+      "globalId": 15,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Señale la afirmación correcta. Corresponde ejercer las facultades de policía en el interior de las respectivas Cámaras a:",
+      "opciones": [
+        "Los Presidentes de las Cámaras.",
+        "La Mesa.",
+        "Los Grupos Parlamentarios.",
+        "La Junta de Portavoces."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 72.3 CE: Los Presidentes de las Cámaras ejercen en nombre de las mismas todos los poderes administrativos y facultades de policía en el interior de sus respectivas sedes."
+    },
+    {
+      "id": 16,
+      "globalId": 16,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La iniciativa legislativa corresponde al Gobierno, al Congreso y al Senado, de acuerdo con la Constitución y los Reglamentos de las Cámaras, y también a:",
+      "opciones": [
+        "Las Asambleas de las Comunidades Autónomas y la iniciativa popular.",
+        "Únicamente al Presidente del Gobierno.",
+        "Al Tribunal Supremo y al Tribunal Constitucional.",
+        "Al Consejo de Estado y al Consejo General del Poder Judicial."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 87 CE: La iniciativa legislativa corresponde al Gobierno, al Congreso y al Senado, así como a las Asambleas de las CCAA y la iniciativa popular."
+    },
+    {
+      "id": 17,
+      "globalId": 17,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Se protege mediante el recurso de amparo constitucional los derechos reconocidos en los artículos:",
+      "opciones": [
+        "14 a 29 y la objeción de conciencia del artículo 30.",
+        "14 a 38 de la Constitución.",
+        "1 a 9 de la Constitución.",
+        "39 a 52 de la Constitución."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 53.2 CE: Cualquier ciudadano podrá recabar la tutela de las libertades y derechos reconocidos en el artículo 14 y la Sección primera del Capítulo segundo mediante el recurso de amparo, aplicable también a la objeción de conciencia del art. 30."
+    },
+    {
+      "id": 18,
+      "globalId": 18,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La renovación parcial del Tribunal Constitucional afecta a:",
+      "opciones": [
+        "4 Magistrados cada 3 años.",
+        "6 Magistrados cada 3 años.",
+        "3 Magistrados cada 2 años.",
+        "2 Magistrados cada 4 años."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 159.3 CE: Al renovarse por terceras partes (12/3 = 4), cada 3 años se renuevan 4 Magistrados."
+    },
+    {
+      "id": 19,
+      "globalId": 19,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "¿A quién corresponde sancionar y promulgar las leyes?",
+      "opciones": [
+        "Al Rey.",
+        "Al Presidente del Gobierno.",
+        "Al Presidente del Congreso.",
+        "Al Presidente del Tribunal Constitucional."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 91 CE: El Rey sancionará en el plazo de quince días las leyes aprobadas por las Cortes Generales, y las promulgará y ordenará su inmediata publicación."
+    },
+    {
+      "id": 20,
+      "globalId": 20,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los Decretos Legislativos son disposiciones del Gobierno que contienen legislación delegada otorgada por las Cortes Generales mediante:",
+      "opciones": [
+        "Ley de bases (para textos articulados) o ley ordinaria (para refundir textos).",
+        "Ley Orgánica obligatoriamente.",
+        "Real Decreto del Consejo de Ministros.",
+        "Resolución de la Mesa del Congreso."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 82.2 CE: La delegación legislativa deberá otorgarse mediante una ley de bases cuando su objeto sea la formación de textos articulados o por una ley ordinaria cuando se trate de refundir varios textos legales."
+    },
+    {
+      "id": 21,
+      "globalId": 21,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Las Cortes Generales se componen de:",
+      "opciones": [
+        "El Congreso de los Diputados y el Senado.",
+        "El Congreso y el Gobierno.",
+        "El Senado y el Consejo de Estado.",
+        "El Congreso, el Senado y el Rey."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 66.1 CE: Las Cortes Generales representan al pueblo español y están formadas por el Congreso de los Diputados y el Senado."
+    },
+    {
+      "id": 22,
+      "globalId": 22,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "¿Cuál es la duración del mandato de las Cámaras (Congreso y Senado)?",
+      "opciones": [
+        "4 años.",
+        "5 años.",
+        "3 años.",
+        "6 años."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 68.4 y 69.6 CE: El Congreso y el Senado son elegidos por cuatro años."
+    },
+    {
+      "id": 23,
+      "globalId": 23,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "¿Quién aprueba los Presupuestos Generales del Estado?",
+      "opciones": [
+        "Las Cortes Generales.",
+        "El Gobierno.",
+        "El Ministerio de Hacienda.",
+        "El Tribunal de Cuentas."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 66.2 CE: Las Cortes Generales ejercen la potestad legislativa del Estado, aprueban sus Presupuestos y controlan la acción del Gobierno."
+    },
+    {
+      "id": 24,
+      "globalId": 24,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "¿A quién corresponde la resolución de los conflictos de competencias entre el Estado y las Comunidades Autónomas?",
+      "opciones": [
+        "Al Tribunal Constitucional.",
+        "Al Tribunal Supremo.",
+        "Al Consejo de Estado.",
+        "A la Audiencia Nacional."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 161.1.c CE: El Tribunal Constitucional es competente para conocer de los conflictos de competencia entre el Estado y las CCAA o de éstas entre sí."
+    },
+    {
+      "id": 25,
+      "globalId": 25,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Respecto al Tribunal Constitucional, señale la afirmación FALSA:",
+      "opciones": [
+        "No es único en su orden.",
+        "Es el intérprete supremo de la Constitución.",
+        "Extiende su jurisdicción a todo el territorio nacional.",
+        "Es independiente de los demás órganos constitucionales."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El Tribunal Constitucional es único en su orden y extiende su jurisdicción a todo el territorio nacional."
+    },
+    {
+      "id": 26,
+      "globalId": 26,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "¿Quién propone el nombramiento de los 12 miembros del Tribunal Constitucional?",
+      "opciones": [
+        "4 por el Congreso, 4 por el Senado, 2 por el Gobierno y 2 por el CGPJ.",
+        "6 por el Congreso y 6 por el Senado.",
+        "8 por las Cortes y 4 por el Gobierno.",
+        "12 por el Consejo General del Poder Judicial."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 159.1 CE: 4 a propuesta del Congreso, 4 a propuesta del Senado, 2 a propuesta del Gobierno y 2 a propuesta del CGPJ."
+    },
+    {
+      "id": 27,
+      "globalId": 27,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La mayoría requerida en el Congreso y Senado para proponer a sus Magistrados del TC es de:",
+      "opciones": [
+        "Tres quintos de sus miembros.",
+        "Mayoría absoluta.",
+        "Dos tercios de sus miembros.",
+        "Mayoría simple."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 159.1 CE: Propuestos por el Congreso y el Senado por mayoría de tres quintos de sus miembros."
+    },
+    {
+      "id": 28,
+      "globalId": 28,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La condición de miembro del Tribunal Constitucional es incompatible con:",
+      "opciones": [
+        "Cualquier mandato representativo o cargo político o administrativo.",
+        "La docencia universitaria.",
+        "La investigación académica.",
+        "El ejercicio de los derechos civiles."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 159.4 CE: El cargo de miembro del TC es incompatible con todo mandato representativo, cargos políticos o administrativos, etc."
+    },
+    {
+      "id": 29,
+      "globalId": 29,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los miembros del Tribunal Constitucional en el ejercicio de su mandato serán:",
+      "opciones": [
+        "Independientes e inamovibles.",
+        "Dependientes del órgano que los propuso.",
+        "Revocables en cualquier momento por el Gobierno.",
+        "Sujetos a mandato imperativo."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 159.5 CE: Los miembros del Tribunal Constitucional serán independientes e inamovibles en el ejercicio de su mandato."
+    },
+    {
+      "id": 30,
+      "globalId": 30,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "¿Quién puede interponer el recurso de inconstitucionalidad?",
+      "opciones": [
+        "El Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores y Gobiernos/Asambleas de CCAA.",
+        "Cualquier ciudadano mediante acción popular.",
+        "Cualquier Juez o Tribunal de oficio.",
+        "Únicamente el Presidente del Congreso."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 162.1.a CE: Están legitimados el Presidente del Gobierno, el Defensor del Pueblo, 50 Diputados, 50 Senadores, los órganos colegiados ejecutivos de las CCAA y sus Asambleas."
+    },
+    {
+      "id": 31,
+      "globalId": 31,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El Defensor del Pueblo da cuenta de sus gestiones a las Cortes Generales mediante un informe presentado:",
+      "opciones": [
+        "Anualmente.",
+        "Semestralmente.",
+        "Trimestralmente.",
+        "Cada dos años."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Ley Orgánica 3/1981, Art. 32: El Defensor del Pueblo dará cuenta anualmente a las Cortes Generales de la gestión realizada."
+    },
+    {
+      "id": 32,
+      "globalId": 32,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "¿A quién se dirigen las Cortes Generales para la supervisión de la actividad de la Administración?",
+      "opciones": [
+        "Al Defensor del Pueblo.",
+        "Al Tribunal de Cuentas.",
+        "Al Consejo de Estado.",
+        "Al Fiscal General del Estado."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 54 CE: El Defensor del Pueblo supervisa la actividad de la Administración dando cuenta a las Cortes Generales."
+    },
+    {
+      "id": 33,
+      "globalId": 33,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Las comisiones de investigación en el Congreso y el Senado:",
+      "opciones": [
+        "No sus resoluciones no serán vinculantes para los Tribunales.",
+        "Tienen carácter judicial y sus penas son obligatorias.",
+        "Solo pueden crearse en el Senado.",
+        "Son permanentes durante la legislatura."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 76.1 CE: Sus conclusiones no serán vinculantes para los Tribunales ni afectarán a las resoluciones judiciales."
+    },
+    {
+      "id": 34,
+      "globalId": 34,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El Congreso de los Diputados está integrado por un mínimo de 300 y un máximo de:",
+      "opciones": [
+        "400 Diputados.",
+        "350 Diputados.",
+        "450 Diputados.",
+        "500 Diputados."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 68.1 CE: El Congreso se compone de un mínimo de 300 y un máximo de 400 Diputados."
+    },
+    {
+      "id": 35,
+      "globalId": 35,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La circunscripción electoral en las elecciones al Congreso es:",
+      "opciones": [
+        "La provincia.",
+        "El municipio.",
+        "La Comunidad Autónoma.",
+        "El partido judicial."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 68.2 CE: La circunscripción electoral es la provincia."
+    },
+    {
+      "id": 36,
+      "globalId": 36,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Las poblaciones de Ceuta y Melilla están representadas en el Congreso por:",
+      "opciones": [
+        "Un Diputado cada una.",
+        "Dos Diputados cada una.",
+        "Tres Diputados cada una.",
+        "Un Diputado compartido."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 68.2 CE: Ceuta y Melilla estarán representadas cada una de ellas por un Diputado."
+    },
+    {
+      "id": 37,
+      "globalId": 37,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El Senado es la Cámara de representación:",
+      "opciones": [
+        "Territorial.",
+        "Corporativa.",
+        "Sindical.",
+        "Judicial."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 69.1 CE: El Senado es la Cámara de representación territorial."
+    },
+    {
+      "id": 38,
+      "globalId": 38,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "En cada provincia se elegirán mediante sufragio universal en el Senado a:",
+      "opciones": [
+        "4 Senadores.",
+        "3 Senadores.",
+        "5 Senadores.",
+        "2 Senadores."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 69.2 CE: En cada provincia se elegirán cuatro Senadores por sufragio universal, libre, igual, directo y secreto."
+    },
+    {
+      "id": 39,
+      "globalId": 39,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "En las provincias insulares, Gran Canaria, Tenerife y Mallorca eligen cada una a:",
+      "opciones": [
+        "3 Senadores.",
+        "2 Senadores.",
+        "4 Senadores.",
+        "1 Senador."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 69.3 CE: En las provincias insulares, cada isla o agrupación de ellas con Cabildo o Consejo Insular constituirá una circunscripción: tres a cada una de las islas mayores (Gran Canaria, Tenerife y Mallorca)."
+    },
+    {
+      "id": 40,
+      "globalId": 40,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Las Comunidades Autónomas designarán además en el Senado un Senador y otro más por cada:",
+      "opciones": [
+        "Millón de habitantes de su respectivo territorio.",
+        "500.000 habitantes.",
+        "2 millones de habitantes.",
+        "Provincia de la Comunidad."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 69.5 CE: Las CCAA designarán además un Senador y otro más por cada millón de habitantes de su respectivo territorio."
+    },
+    {
+      "id": 41,
+      "globalId": 41,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El período ordinario de sesiones de las Cámaras comprende los meses de:",
+      "opciones": [
+        "Septiembre a diciembre y febrero a junio.",
+        "Enero a mayo y septiembre a noviembre.",
+        "Octubre a enero y marzo a julio.",
+        "Todo el año sin interrupción."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 73.1 CE: Las Cámaras se reunirán anualmente en dos períodos ordinarios de sesiones: el primero, de septiembre a diciembre; y el segundo, de febrero a junio."
+    },
+    {
+      "id": 42,
+      "globalId": 42,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Las sesiones extraordinarias de las Cámaras deberán convocarse a petición de:",
+      "opciones": [
+        "La Diputación Permanente, la mayoría absoluta o el Gobierno.",
+        "El Rey en cualquier momento.",
+        "Cualquier Grupo Parlamentario.",
+        "El Presidente del Tribunal Constitucional."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 73.2 CE: Las sesiones extraordinarias habrán de convocarse a petición del Gobierno, de la Diputación Permanente o de la mayoría absoluta de los miembros de cualquiera de las Cámaras."
+    },
+    {
+      "id": 43,
+      "globalId": 43,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "En cada Cámara habrá una Diputación Permanente presidida por el Presidente de la Cámara respectiva y compuesta por un mínimo de:",
+      "opciones": [
+        "21 miembros.",
+        "15 miembros.",
+        "30 miembros.",
+        "10 miembros."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 78.1 CE: En cada Cámara habrá una Diputación Permanente compuesta por un mínimo de veintiún miembros."
+    },
+    {
+      "id": 44,
+      "globalId": 44,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Para la adopción de acuerdos, las Cámaras deben estar reunidas reglamentariamente y con la asistencia de:",
+      "opciones": [
+        "La mayoría de sus miembros.",
+        "Dos tercios de sus miembros.",
+        "Al menos 50 miembros.",
+        "Un tercio de sus miembros."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 79.1 CE: Para adoptar acuerdos, las Cámaras deben estar reunidas reglamentariamente y con la asistencia de la mayoría de sus miembros."
+    },
+    {
+      "id": 45,
+      "globalId": 45,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los votos en las Cámaras son:",
+      "opciones": [
+        "Personales e indelegables.",
+        "Delegables en el Portavoz del Grupo.",
+        "Secretos en todos los casos.",
+        "Públicos y por escrito obligatoriamente."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 79.3 CE: El voto de los Senadores y Diputados es personal e indelegable."
+    },
+    {
+      "id": 46,
+      "globalId": 46,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Las Leyes Orgánicas son las relativas al desarrollo de los derechos fundamentales y de las libertades públicas, las que aprueben los Estatutos de Autonomía y:",
+      "opciones": [
+        "El régimen electoral general y las demás previstas en la Constitución.",
+        "Los Presupuestos Generales del Estado.",
+        "La legislación civil y mercantil.",
+        "El código penal únicamente."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 81.1 CE: Son leyes orgánicas las relativas al desarrollo de los derechos fundamentales y de las libertades públicas, las que aprueben los Estatutos de Autonomía y el régimen electoral general y las demás previstas en la Constitución."
+    },
+    {
+      "id": 47,
+      "globalId": 47,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La aprobación, modificación o derogación de las leyes orgánicas exigirá en una votación final sobre el conjunto del proyecto la mayoría:",
+      "opciones": [
+        "Absoluta del Congreso.",
+        "Simple del Congreso.",
+        "Tres quintos de ambas Cámaras.",
+        "Dos tercios del Senado."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 81.2 CE: La aprobación, modificación o derogación de las leyes orgánicas exigirá mayoría absoluta del Congreso, en una votación final sobre el conjunto del proyecto."
+    },
+    {
+      "id": 48,
+      "globalId": 48,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "No podrán ser objeto de delegación legislativa en el Gobierno las materias reservadas a:",
+      "opciones": [
+        "Ley Orgánica.",
+        "Ley Ordinaria.",
+        "Reglamento.",
+        "Decreto del Consejo de Ministros."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 82.1 CE: Las Cortes Generales podrán delegar en el Gobierno la facultad de dictar normas con rango de ley sobre materias determinadas no incluidas en el artículo anterior (Leyes Orgánicas)."
+    },
+    {
+      "id": 49,
+      "globalId": 49,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los Decretos-leyes deberán ser sometidos inmediatamente a debate y votación de totalidad en el Congreso en el plazo de los:",
+      "opciones": [
+        "30 días siguientes a su promulgación.",
+        "15 días siguientes.",
+        "60 días siguientes.",
+        "10 días siguientes."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 86.2 CE: Los Decretos-leyes deberán ser sometidos inmediatamente a debate y votación de totalidad al Congreso de los Diputados en el plazo de los treinta días siguientes a su promulgación."
+    },
+    {
+      "id": 50,
+      "globalId": 50,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Durante el plazo de 30 días, las Cortes podrán tramitar los Decretos-leyes como proyectos de ley por el procedimiento de:",
+      "opciones": [
+        "Urgencia.",
+        "Lectura única.",
+        "Comisión permanente.",
+        "Ley orgánica."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 86.3 CE: Durante el plazo establecido en el apartado anterior, las Cortes podrán tramitarlos como proyectos de ley por el procedimiento de urgencia."
+    },
+    {
+      "id": 51,
+      "globalId": 51,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La iniciativa popular para la presentación de proposiciones de ley requiere al menos:",
+      "opciones": [
+        "500.000 firmas acreditadas.",
+        "100.000 firmas.",
+        "250.000 firmas.",
+        "1.000.000 de firmas."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 87.3 CE: La iniciativa popular requerirá no menos de 500.000 firmas acreditadas."
+    },
+    {
+      "id": 52,
+      "globalId": 52,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "No procede la iniciativa popular en materias propias de:",
+      "opciones": [
+        "Ley orgánica, tributarias, de carácter internacional o prerrogativa de gracia.",
+        "Cualquier ley ordinaria.",
+        "Derecho laboral.",
+        "Educación y sanidad."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 87.3 CE: No procederá dicha iniciativa en materias propias de ley orgánica, tributarias o de carácter internacional, ni en lo relativo a la prerrogativa de gracia."
+    },
+    {
+      "id": 53,
+      "globalId": 53,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los proyectos de ley serán aprobados en Consejo de Ministros y sometidos al:",
+      "opciones": [
+        "Congreso de los Diputados.",
+        "Senado.",
+        "Tribunal Constitucional.",
+        "Consejo de Estado."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 88 CE: Los proyectos de ley serán aprobados en Consejo de Ministros, que los someterá al Congreso de los Diputados."
+    },
+    {
+      "id": 54,
+      "globalId": 54,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Aprobado un proyecto de ley por el Congreso, su Presidente dará cuenta del mismo al Presidente del Senado, el cual lo someterá a la deliberación de éste durante un plazo de:",
+      "opciones": [
+        "Dos meses.",
+        "Un mes.",
+        "Tres meses.",
+        "Quince días."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 90.2 CE: El Senado en el plazo de dos meses a partir del día de la recepción del texto puede vetar o enmendar el proyecto."
+    },
+    {
+      "id": 55,
+      "globalId": 55,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El plazo de dos meses de que dispone el Senado para vetar o enmendar un proyecto de ley se reducirá en los proyectos declarados urgentes a:",
+      "opciones": [
+        " Veinte días naturales.",
+        "Quince días.",
+        "Treinta días.",
+        "Diez días."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 90.3 CE: El plazo de dos meses de que dispone el Senado se reducirá al de veinte días naturales en los proyectos declarados urgentes por el Gobierno o por el Congreso."
+    },
+    {
+      "id": 56,
+      "globalId": 56,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El Rey podrá abstraerse de la sanción y promulgación de las leyes:",
+      "opciones": [
+        "En ningún caso, es un acto obligatorio y debidamente refrendado.",
+        "Si considera inapropiada la ley.",
+        "Si se lo solicita el Presidente del Senado.",
+        "Si el Tribunal Constitucional lo autoriza."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 91 CE: El Rey sancionará en el plazo de 15 días las leyes aprobadas por las Cortes. Es un acto debido y reglado."
+    },
+    {
+      "id": 57,
+      "globalId": 57,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La prestación del consentimiento del Estado para obligarse por medio de tratados de carácter político o militar requiere la previa autorización de:",
+      "opciones": [
+        "Las Cortes Generales.",
+        "El Gobierno en exclusiva.",
+        "El Rey de forma unipersonal.",
+        "El Tribunal Supremo."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 94.1 CE: La prestación del consentimiento del Estado para obligarse por medio de tratados o convenios requerirá la previa autorización de las Cortes Generales en los casos de carácter político, militar, etc."
+    },
+    {
+      "id": 58,
+      "globalId": 58,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La celebración de un tratado internacional que contenga estipulaciones contrarias a la Constitución exigirá:",
+      "opciones": [
+        "La previa revisión constitucional.",
+        "La aprobación por Decreto del Gobierno.",
+        "La simple ratificación del Rey.",
+        "Un acuerdo del Tribunal Supremo."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 95.1 CE: La celebración de un tratado internacional que contenga estipulaciones contrarias a la Constitución exigirá la previa revisión constitucional."
+    },
+    {
+      "id": 59,
+      "globalId": 59,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El Gobierno o cualquiera de las Cámaras puede requerir al Tribunal Constitucional para que declare si existe o no contradicción entre la Constitución y un Tratado en trámite de celebración mediante:",
+      "opciones": [
+        "Requerimiento previo de inconstitucionalidad.",
+        "Recurso de amparo.",
+        "Cuestión de confianza.",
+        "Moción de censura."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 95.2 CE: El Gobierno o cualquiera de las Cámaras puede requerir al Tribunal Constitucional para que declare si existe o no esa contradicción."
+    },
+    {
+      "id": 60,
+      "globalId": 60,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Corresponde al Tribunal de Cuentas la fiscalización externa de las cuentas y de la gestión económica del Estado y del sector público, dependiendo directamente de:",
+      "opciones": [
+        "Las Cortes Generales.",
+        "El Ministerio de Hacienda.",
+        "El Presidente del Gobierno.",
+        "El Banco de España."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 136.1 CE: El Tribunal de Cuentas es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado, dependiente directamente de las Cortes Generales."
+    },
+    {
+      "id": 61,
+      "globalId": 61,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El Presidente del Tribunal de Cuentas será nombrado por el Rey, a propuesta del:",
+      "opciones": [
+        "Mismo Tribunal en pleno.",
+        "Congreso de los Diputados.",
+        "Presidente del Gobierno.",
+        "Consejo General del Poder Judicial."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Ley Orgánica 2/1982 del Tribunal de Cuentas: Su Presidente es elegido por el Pleno del Tribunal y nombrado por el Rey."
+    },
+    {
+      "id": 62,
+      "globalId": 62,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los miembros del Tribunal de Cuentas gozarán de la misma independencia e inamovilidad y estarán sometidos a las mismas incompatibilidades que los:",
+      "opciones": [
+        "Jueces.",
+        "Diputados.",
+        "Concejales.",
+        "Ministros."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 136.3 CE: Los miembros del Tribunal de Cuentas gozarán de la misma independencia e inamovilidad y estarán sometidos a las mismas incompatibilidades que los Jueces."
+    },
+    {
+      "id": 63,
+      "globalId": 63,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "En el Título I de la Constitución, los derechos fundamentales y libertades públicas se estructuran en el Capítulo II, Sección:",
+      "opciones": [
+        "1ª (Artículos 15 a 29).",
+        "2ª (Artículos 30 a 38).",
+        "3ª (Artículos 39 a 52).",
+        "Preliminar (Artículos 1 a 9)."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Capítulo II, Sección 1ª del Título I de la CE: 'De los derechos fundamentales y de las libertades públicas'."
+    },
+    {
+      "id": 64,
+      "globalId": 64,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La educación, según el artículo 27 de la Constitución, tiene por objeto:",
+      "opciones": [
+        "El pleno desarrollo de la personalidad humana en el respeto a los principios democráticos de convivencia.",
+        "La capacitación técnica para el empleo público.",
+        "El aprendizaje exclusivo de materias científicas.",
+        "La adscripción ideológica del alumnado."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 27.2 CE: La educación tendrá por objeto el pleno desarrollo de la personalidad humana en el respeto a los principios democráticos de convivencia y a los derechos y libertades fundamentales."
+    },
+    {
+      "id": 65,
+      "globalId": 65,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Se reconoce la autonomía de las Universidades en los términos que establezca:",
+      "opciones": [
+        "La ley.",
+        "El Gobierno por Real Decreto.",
+        "El Claustro universitario.",
+        "La Junta de Andalucía u otra CA exclusivamente."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 27.10 CE: Se reconoce la autonomía de las Universidades, en los términos que establezca la ley."
+    },
+    {
+      "id": 66,
+      "globalId": 66,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Todos tienen derecho a sindicarse libremente, pudiendo la ley limitar o exceptuar el ejercicio de este derecho a:",
+      "opciones": [
+        "Las Fuerzas o Cuerpos armados o a los demás Cuerpos sometidos a disciplina militar.",
+        "Los funcionarios civiles del Estado.",
+        "Los trabajadores del sector público.",
+        "Los empleados del sector bancario."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 28.1 CE: La ley podrá limitar o exceptuar el ejercicio de este derecho a las Fuerzas o Cuerpos armados o a los demás Cuerpos sometidos a disciplina militar."
+    },
+    {
+      "id": 67,
+      "globalId": 67,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Se reconoce el derecho a la huelga de los trabajadores para la defensa de sus intereses, debiendo la ley garantizar:",
+      "opciones": [
+        "El mantenimiento de los servicios esenciales de la comunidad.",
+        "La gratuidad del transporte público.",
+        "El pago del salario durante los días de huelga.",
+        "La presencia policial en todas las manifestaciones."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 28.2 CE: La ley que regule el ejercicio de este derecho establecerá las garantías precisas para asegurar el mantenimiento de los servicios esenciales de la comunidad."
+    },
+    {
+      "id": 68,
+      "globalId": 68,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Todos los ciudadanos tienen el derecho de petición individual y colectiva, por escrito, en la forma y con los efectos que determine la ley, salvo para:",
+      "opciones": [
+        "Los miembros de las Fuerzas o Cuerpos armados o institutos sometidos a disciplina militar (solo individual).",
+        "Los profesores de universidad.",
+        "Los estudiantes mayores de edad.",
+        "Los médicos de la sanidad pública."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 29.2 CE: Los miembros de las Fuerzas o Cuerpos armados o de los Cuerpos sometidos a disciplina militar podrán ejercer este derecho sólo individualmente."
+    },
+    {
+      "id": 69,
+      "globalId": 69,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los españoles tienen el derecho y el deber de defender a España, correspondiendo a la ley fijar:",
+      "opciones": [
+        "Las obligaciones militares de los españoles y la objeción de conciencia.",
+        "El pago obligatorio de tributos extraordinarios.",
+        "Las penas de prisión para los desertores.",
+        "El servicio civil obligatorio permanente."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 30.2 CE: La ley fijará las obligaciones militares de los españoles y regulará la objeción de conciencia."
+    },
+    {
+      "id": 70,
+      "globalId": 70,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El sistema tributario español se basará en los principios de:",
+      "opciones": [
+        "Igualdad y progresividad, sin que en ningún caso tenga alcance confiscatorio.",
+        "Proporcionalidad estricta e igual cuota.",
+        "Contribución libre y voluntaria.",
+        "Prioridad al gasto militar."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 31.1 CE: Todos contribuirán al sostenimiento de los gastos públicos de acuerdo con su capacidad económica mediante un sistema tributario justo inspirado en los principios de igualdad y progresividad que, en ningún caso, tendrá alcance confiscatorio."
+    },
+    {
+      "id": 71,
+      "globalId": 71,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El gasto público realizará una asignación equitativa de los recursos públicos, y su programación y ejecución responderán a los criterios de:",
+      "opciones": [
+        "Eficiencia y economía.",
+        "Velocidad y rentabilidad comercial.",
+        "Gasto máximo anual.",
+        "Libre disposición presupuestaria."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 31.2 CE: El gasto público realizará una asignación equitativa de los recursos públicos, y su programación y ejecución responderán a los criterios de eficiencia y economía."
+    },
+    {
+      "id": 72,
+      "globalId": 72,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Se reconoce el derecho a la propiedad privada y a la herencia, cuya función social delimitará su contenido de acuerdo con:",
+      "opciones": [
+        "Las leyes.",
+        "Las órdenes ministeriales.",
+        "Las decisiones del alcalde.",
+        "Los reglamentos de policía."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 33.2 CE: La función social de estos derechos delimitará su contenido, de acuerdo con las leyes."
+    },
+    {
+      "id": 73,
+      "globalId": 73,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Nadie podrá ser privado de sus bienes y derechos sino por causa justificada de utilidad pública o interés social, mediante la correspondiente:",
+      "opciones": [
+        "Indemnización y de conformidad con lo dispuesto por las leyes.",
+        "Confiscación gratuita en todo caso.",
+        "Resolución del Gobernador Civil.",
+        "Decisión del Tribunal Constitucional."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 33.3 CE: Nadie podrá ser privado de sus bienes y derechos sino por causa justificada de utilidad pública o interés social, mediante la correspondiente indemnización y de conformidad con lo dispuesto por las leyes."
+    },
+    {
+      "id": 74,
+      "globalId": 74,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Se reconoce el derecho de fundación para fines de interés general, de acuerdo con:",
+      "opciones": [
+        "La ley.",
+        "El Código de Comercio.",
+        "El Registro Mercantil.",
+        "El Ministerio del Interior."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 34.1 CE: Se reconoce el derecho de fundación para fines de interés general, con arreglo a la ley."
+    },
+    {
+      "id": 75,
+      "globalId": 75,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Todos los españoles tienen el deber de trabajar y el derecho al trabajo, a la libre elección de profesión u oficio, a la promoción a través del trabajo y a:",
+      "opciones": [
+        "Una remuneración suficiente para satisfacer sus necesidades y las de su familia.",
+        "Un subsidio estatal garantizado sin trabajar.",
+        "Un puesto público vitalicio asignado al nacer.",
+        "La propiedad de los medios de producción."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 35.1 CE: Todos los españoles tienen el deber de trabajar y el derecho al trabajo... a una remuneración suficiente para satisfacer sus necesidades y las de su familia, sin que en ningún caso pueda hacerse discriminación por razón de sexo."
+    },
+    {
+      "id": 76,
+      "globalId": 76,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La ley regulará las peculiaridades propias del régimen jurídico de los Colegios Profesionales y el ejercicio de las profesiones tituladas. La estructura interna y el funcionamiento de los Colegios deberán ser:",
+      "opciones": [
+        "Democráticos.",
+        "Jerárquicos.",
+        "Secretos.",
+        "Empresariales."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 36 CE: La estructura interna y el funcionamiento de los Colegios deberán ser democráticos."
+    },
+    {
+      "id": 77,
+      "globalId": 77,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La ley regulará el estatuto de los trabajadores y el derecho a la negociación colectiva laboral entre los representantes de los trabajadores y empresarios, garantizando la fuerza vinculante de:",
+      "opciones": [
+        "Los convenios.",
+        "Las promesas verbales.",
+        "Las costumbres locales.",
+        "Los reglamentos internos de empresa."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 37.1 CE: La ley garantizará el derecho a la negociación colectiva laboral entre los representantes de los trabajadores y empresarios, así como la fuerza vinculante de los convenios."
+    },
+    {
+      "id": 78,
+      "globalId": 78,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Se reconoce la libertad de empresa en el marco de la economía de mercado, correspondiendo a los poderes públicos garantizar y proteger su ejercicio y la defensa de la productividad, de acuerdo con:",
+      "opciones": [
+        "Las exigencias de la economía general y, en su caso, de la planificación.",
+        "El interés exclusivo de los grandes inversores.",
+        "Las directivas comunitarias únicamente.",
+        "Los acuerdos colectivos de trabajo."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 38 CE: Se reconoce la libertad de empresa en el marco de la economía de mercado. Los poderes públicos garantizan y protegen su ejercicio... de acuerdo con las exigencias de la economía general y, en su caso, de la planificación."
+    },
+    {
+      "id": 79,
+      "globalId": 79,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los poderes públicos aseguran la protección social, económica y jurídica de la familia, así como la protección integral de los hijos:",
+      "opciones": [
+        "Iguales éstos ante la ley con independencia de su filiación.",
+        "Diferenciando según hayan nacido dentro o fuera del matrimonio.",
+        "Únicamente en familias numerosas.",
+        "Solo si residen en territorio nacional."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 39.2 CE: Los poderes públicos aseguran asimismo la protección integral de los hijos, iguales éstos ante la ley con independencia de su filiación."
+    },
+    {
+      "id": 80,
+      "globalId": 80,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los poderes públicos promoverán las condiciones favorables para el progreso social y económico y para una distribución de la renta regional y personal más equitativa, en el marco de una política de:",
+      "opciones": [
+        "Estabilidad económica.",
+        "Endeudamiento ilimitado.",
+        "Aumento continuo de impuestos.",
+        "Privatización de servicios básicos."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 40.1 CE: Los poderes públicos promoverán las condiciones favorables para el progreso social y económico y para una distribución de la renta regional y personal más equitativa, en el marco de una política de estabilidad económica."
+    },
+    {
+      "id": 81,
+      "globalId": 81,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El Estado velará especialmente por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero y orientará su política hacia:",
+      "opciones": [
+        "Su retorno.",
+        "Su nacionalización en el país de destino.",
+        "Su permanencia indefinida fuera de España.",
+        "Su renuncia a la ciudadanía española."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 42 CE: El Estado velará especialmente por la salvaguardia de los derechos económicos y sociales de los trabajadores españoles en el extranjero y orientará su política hacia su retorno."
+    },
+    {
+      "id": 82,
+      "globalId": 82,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Se reconoce el derecho a la protección de la salud, correspondiendo a los poderes públicos organizar y tutelar la salud pública a través de:",
+      "opciones": [
+        "Medidas preventivas y de las prestaciones y servicios necesarios.",
+        "Sanidad privada de pago directo obligatoria.",
+        "Centros de beneficencia únicamente.",
+        "Seguros de accidentes de trabajo exclusivamente."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 43.2 CE: Compete a los poderes públicos organizar y tutelar la salud pública a través de medidas preventivas y de las prestaciones y servicios necesarios."
+    },
+    {
+      "id": 83,
+      "globalId": 83,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Todos tienen el derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona, así como el deber de:",
+      "opciones": [
+        "Conservarlo.",
+        "Explotarlo comercialmente.",
+        "Urbanizarlo.",
+        "Industrializarlo sin límites."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 45.1 CE: Todos tienen el derecho a disfrutar de un medio ambiente adecuado para el desarrollo de la persona, así como el deber de conservarlo."
+    },
+    {
+      "id": 84,
+      "globalId": 84,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los poderes públicos promoverán y tutelarán el acceso a la cultura, a la que todos tienen derecho, así como:",
+      "opciones": [
+        "La ciencia y la investigación científica y técnica en beneficio del interés general.",
+        "La censura previa de contenidos indeseados.",
+        "La gratuidad de todas las obras artísticas.",
+        "La patente obligatoria del Estado sobre toda invención."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 44.2 CE: Los poderes públicos promoverán la ciencia y la investigación científica y técnica en beneficio del interés general."
+    },
+    {
+      "id": 85,
+      "globalId": 85,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Todos los españoles tienen derecho a disfrutar de una vivienda digna y adecuada, correspondiendo a los poderes públicos promover las condiciones necesarias y establecer las normas pertinentes para hacer efectivo este derecho, regulando la utilización del suelo de acuerdo con el interés general para impedir:",
+      "opciones": [
+        "La especulación.",
+        "La edificación de pisos.",
+        "El alquiler de viviendas.",
+        "La propiedad privada inmobiliaria."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 47 CE: Los poderes públicos promoverán las condiciones necesarias... regulando la utilización del suelo de acuerdo con el interés general para impedir la especulación."
+    },
+    {
+      "id": 86,
+      "globalId": 86,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los poderes públicos garantizarán la libre participación de la juventud en el desarrollo político, social, económico y cultural mediante políticas de:",
+      "opciones": [
+        "Juventud e integración.",
+        "Servicio militar obligatorio.",
+        "Restricción de voto.",
+        "Trabajo no remunerado."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 48 CE: Los poderes públicos promoverán las condiciones para la participación libre y eficaz de la juventud en el desarrollo político, social, económico y cultural."
+    },
+    {
+      "id": 87,
+      "globalId": 87,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los poderes públicos realizarán una política de previsión, tratamiento, rehabilitación e integración de los disminuidos físicos, sensoriales y psíquicos, a los que prestarán:",
+      "opciones": [
+        "La atención especializada que requieran.",
+        "Una ayuda económica simbólica única.",
+        "La incapacitación legal obligatoria.",
+        "El ingreso en instituciones cerradas."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 49 CE: Los poderes públicos prestarán la atención especializada que requieran los disminuidos físicos, sensoriales y psíquicos y los ampararán especialmente."
+    },
+    {
+      "id": 88,
+      "globalId": 88,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los poderes públicos garantizarán, mediante pensiones adecuadas y periódicamente actualizadas, la suficiencia económica a los ciudadanos durante la:",
+      "opciones": [
+        "Tercera edad.",
+        "Juventud.",
+        "Incapacidad temporal.",
+        "Búsqueda del primer empleo."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 50 CE: Los poderes públicos garantizarán, mediante pensiones adecuadas y periódicamente actualizadas, la suficiencia económica a los ciudadanos durante la tercera edad."
+    },
+    {
+      "id": 89,
+      "globalId": 89,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Los poderes públicos garantizarán la defensa de los consumidores y usuarios, protegiendo, mediante procedimientos eficaces:",
+      "opciones": [
+        "La seguridad, la salud y los legítimos intereses económicos de los mismos.",
+        "Las ganancias de los distribuidores.",
+        "La publicidad engañosa de las marcas.",
+        "La libre fijación de precios sin control sanitario."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 51.1 CE: Los poderes públicos garantizarán la defensa de los consumidores y usuarios, protegiendo, mediante procedimientos eficaces, la seguridad, la salud y los legítimos intereses económicos de los mismos."
+    },
+    {
+      "id": 90,
+      "globalId": 90,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La ley regulará las organizaciones profesionales que contribuyan a la defensa de los intereses económicos que les sean propios. Su estructura interna y funcionamiento deberán ser:",
+      "opciones": [
+        "Democráticos.",
+        "Mercantiles.",
+        "Jerárquicos.",
+        "Confidenciales."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 52 CE: Su estructura interna y funcionamiento deberán ser democráticos."
+    },
+    {
+      "id": 91,
+      "globalId": 91,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El Rey es el Jefe del Estado, símbolo de su unidad y permanencia, y arbitra y modera:",
+      "opciones": [
+        "El funcionamiento regular de las instituciones.",
+        "El poder legislativo directamente.",
+        "Las sentencias del Tribunal Supremo.",
+        "Los presupuestos generales del Estado."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 56.1 CE: El Rey es el Jefe del Estado, símbolo de su unidad y permanencia, arbitra y modera el funcionamiento regular de las instituciones."
+    },
+    {
+      "id": 92,
+      "globalId": 92,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La persona del Rey es inviolable y no está sujeta a responsabilidad. Sus actos estarán siempre refrendados por:",
+      "opciones": [
+        "El Presidente del Gobierno y, en su caso, los Ministros competentes.",
+        "El Presidente del Tribunal Constitucional.",
+        "El Tribunal Supremo.",
+        "El Defensor del Pueblo."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 56.3 CE y 64 CE: La persona del Rey es inviolable y no está sujeta a responsabilidad. Sus actos estarán siempre refrendados por el Presidente del Gobierno y, en su caso, los Ministros competentes."
+    },
+    {
+      "id": 93,
+      "globalId": 93,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "La Corona de España es hereditaria en los sucesores de S. M. Don Juan Carlos I de Borbón, legítimo heredero de la dinastía histórica. La sucesión en el trono seguirá el orden regular de:",
+      "opciones": [
+        "Primogenitura y representación.",
+        "Elección parlamentaria directa.",
+        "Designación voluntaria del Rey anterior.",
+        "Sorteo entre los miembros de la familia real."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 57.1 CE: La Corona de España es hereditaria... La sucesión en el trono seguirá el orden regular de primogenitura y representación."
+    },
+    {
+      "id": 94,
+      "globalId": 94,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "En la sucesión a la Corona, dentro del mismo grado, se preferirá:",
+      "opciones": [
+        "El varón a la mujer.",
+        "La mujer al varón.",
+        "El de mayor edad independientemente del sexo.",
+        "El que elijan las Cortes Generales."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 57.1 CE: En el mismo grado, el varón a la mujer; en el mismo sexo, la persona de más edad a la de menos."
+    },
+    {
+      "id": 95,
+      "globalId": 95,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Extinguidas todas las líneas llamadas en Derecho a la sucesión a la Corona, las Cortes Generales proveerán a la sucesión en la forma que:",
+      "opciones": [
+        "Más convenga a los intereses de España.",
+        "Indique el Presidente del Gobierno.",
+        "Decida la Unión Europea.",
+        "Determine el Tribunal Constitucional."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 57.3 CE: Extinguidas todas las líneas llamadas en Derecho, las Cortes Generales proveerán a la sucesión en la forma que más convenga a los intereses de España."
+    },
+    {
+      "id": 96,
+      "globalId": 96,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Si la Regencia se nombrara por las Cortes Generales, se compondrá de:",
+      "opciones": [
+        "Una, tres o cinco personas.",
+        "Dos personas obligatoriamente.",
+        "Siete personas.",
+        "Cuatro personas."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 59.3 CE: Si no hubiere ninguna persona a quien corresponda la Regencia, ésta será nombrada por las Cortes Generales, y se compondrá de una, tres o cinco personas."
+    },
+    {
+      "id": 97,
+      "globalId": 97,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Para ejercer la Regencia es preciso ser español y:",
+      "opciones": [
+        "Mayor de edad.",
+        "Mayor de 30 años.",
+        "Mayor de 25 años.",
+        "Licenciado en Derecho."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 59.4 CE: Para ejercer la Regencia es preciso ser español y mayor de edad."
+    },
+    {
+      "id": 98,
+      "globalId": 98,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de desempeñar fielmente sus funciones, guardar y hacer guardar la Constitución y las leyes y respetar los derechos de los ciudadanos y de las:",
+      "opciones": [
+        "Comunidades Autónomas.",
+        "Provincias.",
+        "Instituciones internacionales.",
+        "Fuerzas Armadas."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 61.1 CE: El Rey, al ser proclamado ante las Cortes Generales, prestará juramento de... respetar los derechos de los ciudadanos y de las Comunidades Autónomas."
+    },
+    {
+      "id": 99,
+      "globalId": 99,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Corresponde al Rey manifestar el consentimiento del Estado para obligarse internacionalmente por medio de:",
+      "opciones": [
+        "Tratados, de conformidad con la Constitución y las leyes.",
+        "Leyes orgánicas aprobadas por el Gobierno.",
+        "Decretos del Consejo de Ministros.",
+        "Resoluciones del Tribunal Supremo."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 63.2 CE: Al Rey corresponde manifestar el consentimiento del Estado para obligarse internacionalmente por medio de tratados, de conformidad con la Constitución y las leyes."
+    },
+    {
+      "id": 100,
+      "globalId": 100,
+      "seccion": "Constitución Española - AyalaTest 2",
+      "pregunta": "Al Rey corresponde declarar la guerra y hacer la paz, previa autorización de:",
+      "opciones": [
+        "Las Cortes Generales.",
+        "El Gobierno.",
+        "El Congreso únicamente.",
+        "El Senado exclusivamente."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 63.3 CE: Al Rey corresponde, previa autorización de las Cortes Generales, declarar la guerra y hacer la paz."
+    }
+  ]
+}

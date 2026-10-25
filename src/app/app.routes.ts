@@ -20,6 +20,11 @@ import { Normativa169 } from './pages/normativa169/normativa169';
 import { BancoFichasBoe } from './pages/banco-fichas-boe/banco-fichas-boe';
 import { Examenprofe } from './pages/examenprofe/examenprofe';
 import { Ayala1Con } from './pages/ayala-1-con/ayala-1-con';
+import { Ayala2Con } from './pages/ayala-2-con/ayala-2-con';
+import { Ayala3Con } from './pages/ayala-3-con/ayala-3-con';
+import { Ayala4Con } from './pages/ayala-4-con/ayala-4-con';
+import { Ayala5Con } from './pages/ayala-5-con/ayala-5-con';
+import { Ayala6Con } from './pages/ayala-6-con/ayala-6-con';
 
 // 🔒 GUARD DE SEGURIDAD (Simulado para el futuro Login)
 const authGuard: CanActivateFn = (route, state) => {
@@ -56,6 +61,12 @@ export const routes: Routes = [
   { path: 'normativa169', component: Normativa169, canActivate: [authGuard] },
   { path: 'examenprofe', component: Examenprofe, canActivate: [authGuard] },
   { path: 'ayala-1-con', component: Ayala1Con, canActivate: [authGuard] },
+  { path: 'ayala-2-con', component: Ayala2Con, canActivate: [authGuard] },
+   { path: 'ayala-3-con', component: Ayala3Con, canActivate: [authGuard] },
+    { path: 'ayala-4-con', component: Ayala4Con, canActivate: [authGuard] },
+      { path: 'ayala-5-con', component: Ayala5Con, canActivate: [authGuard] },
+        { path: 'ayala-6-con', component: Ayala6Con, canActivate: [authGuard] },
+  
   {
     path: 'banco-fichas-boe',
     component: BancoFichasBoe,

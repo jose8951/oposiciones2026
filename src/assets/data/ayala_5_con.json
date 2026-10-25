@@ -1,0 +1,1507 @@
+{
+  "examen": "Cuestionario AyalaTest 5 - Políticas de Igualdad, Violencia de Género, Discapacidad y Dependencia",
+  "descripcion": "Banco de preguntas oficiales de test sobre la Ley Orgánica 3/2007 para la igualdad efectiva de mujeres y hombres, la Ley Orgánica 1/2004 de Medidas de Protección Integral contra la Violencia de Género, la Ley 39/2006 de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, y el RDL 1/2013 de Discapacidad.",
+  "total_preguntas": 100,
+  "preguntas": [
+    {
+      "id": 1,
+      "globalId": 1,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Violencia de Género (AyalaTest 5)",
+      "pregunta": "¿Qué ley regula las medidas de protección integral contra la violencia de género en España?",
+      "opciones": [
+        "Ley Orgánica 3/2007, de 22 de marzo.",
+        "Ley Orgánica 1/2004, de 28 de diciembre.",
+        "Ley 39/2006, de 14 de diciembre.",
+        "Real Decreto Legislativo 1/2013, de 29 de noviembre."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La Ley Orgánica 1/2004, de 28 de diciembre, establece las medidas de protección integral contra la violencia de género."
+    },
+    {
+      "id": 2,
+      "globalId": 2,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Violencia de Género (AyalaTest 5)",
+      "pregunta": "Según la Ley Orgánica 3/2007, para la igualdad efectiva de mujeres y hombres, la presencia equilibrada en los órganos de selección significa que las personas de cada sexo:",
+      "opciones": [
+        "Sean exactamente el 50% de los miembros.",
+        "No superen el sesenta por ciento ni sean menos del cuarenta por ciento.",
+        "Superen el setenta por ciento del sexo infrarepresentado.",
+        "No tengan ninguna restricción porcentual."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El principio de presencia equilibrada exige que en la composición de los órganos los cargos de cada sexo no superen el 60% ni sean inferiores al 40%."
+    },
+    {
+      "id": 3,
+      "globalId": 3,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Violencia de Género (AyalaTest 5)",
+      "pregunta": "Con arreglo a la Ley 39/2006, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, ¿cuántos grados de dependencia se establecen?",
+      "opciones": [
+        "Dos grados (Grado I y Grado II).",
+        "Tres grados (Grado I: Moderada, Grado II: Severa y Grado III: Gran Dependencia).",
+        "Cuatro grados diferenciados por edad.",
+        "Cinco grados de atención."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El artículo 26 de la Ley 39/2006 clasifica la situación de dependencia en tres grados: Grado I (Moderada), Grado II (Severa) y Grado III (Gran Dependencia)."
+    },
+    {
+      "id": 4,
+      "globalId": 4,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Violencia de Género (AyalaTest 5)",
+      "pregunta": "Según el RDL 1/2013, el diseño universal o diseño para todas las personas es aquel que se aplica para que los entornos, procesos, bienes y servicios:",
+      "opciones": [
+        "Puedan ser utilizados por todas las personas, en la mayor medida posible, sin necesidad de adaptación ni diseño especializado.",
+        "Requieran siempre un diseño personalizado para cada grado de discapacidad.",
+        "Se destinen exclusivamente a personas con movilidad reducida.",
+        "Se apliquen únicamente en edificios de las Administraciones Públicas."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El diseño universal busca que productos, entornos y servicios sean utilizables por todas las personas sin necesidad de adaptaciones específicas siempre que sea posible."
+    },
+    {
+      "id": 5,
+      "globalId": 5,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Violencia de Género (AyalaTest 5)",
+      "pregunta": "En la Ley Orgánica 1/2004, la delegación del Gobierno contra la Violencia de Género ostenta un rango jerárquico de:",
+      "opciones": [
+        "Secretaría de Estado.",
+        "Dirección General.",
+        "Subsecretaría.",
+        "Secretaría General."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La Delegación del Gobierno contra la Violencia de Género se adscribe al Ministerio de Igualdad con rango de Dirección General."
+    },
+    {
+      "id": 6,
+      "globalId": 6,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Violencia de Género (AyalaTest 5)",
+      "pregunta": "Con arreglo a la Ley 39/2006, la Dependencia Severa se corresponde técnicamente con el:",
+      "opciones": [
+        "Grado I.",
+        "Grado II.",
+        "Grado III.",
+        "Grado IV."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El Grado II corresponde a la dependencia severa, cuando la persona necesita ayuda para realizar varias actividades básicas dos o tres veces al día."
+    },
+    {
+      "id": 7,
+      "globalId": 7,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Violencia de Género (AyalaTest 5)",
+      "pregunta": "Según la Ley Orgánica 3/2007, las empresas de más de 50 trabajadores están obligadas a elaborar y aplicar un:",
+      "opciones": [
+        "Código ético de conducta.",
+        "Plan de Igualdad.",
+        "Reglamento interno de sanciones.",
+        "Protocolo de mediación laboral."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Las empresas de 50 o más trabajadores deben negociar, elaborar y aplicar un Plan de Igualdad conforme al artículo 45 de la LO 3/2007."
+    },
+    {
+      "id": 8,
+      "globalId": 8,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Violencia de Género (AyalaTest 5)",
+      "pregunta": "¿Cuál es el plazo de prescripción de las infracciones muy graves recogidas en la Ley 39/2006 de Autonomía Personal y Dependencia?",
+      "opciones": [
+        "Un año.",
+        "Dos años.",
+        "Tres años.",
+        "Cinco años."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Las infracciones muy graves en materia de dependencia prescriben a los tres años, las graves a los dos años y las leves al año."
+    },
+    {
+      "id": 9,
+      "globalId": 9,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Violencia de Género (AyalaTest 5)",
+      "pregunta": "De acuerdo con el RDL 1/2013, de Derechos de Personas con Discapacidad, las sanciones impuestas por faltas muy graves prescriben a los:",
+      "opciones": [
+        "2 años.",
+        "3 años.",
+        "4 años.",
+        "5 años."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Las sanciones por infracciones muy graves en materia de derechos de personas con discapacidad prescriben a los 5 años."
+    },
+    {
+      "id": 10,
+      "globalId": 10,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Violencia de Género (AyalaTest 5)",
+      "pregunta": "Según la Ley Orgánica 1/2004, las trabajadoras víctimas de violencia de género tienen derecho a la reducción o a la reordenación de su tiempo de trabajo:",
+      "opciones": [
+        "Únicamente con autorización previa del Ministerio de Trabajo.",
+        "En los términos que para estos supuestos se establezcan en los convenios colectivos o en los acuerdos entre empresa y representación de los trabajadores.",
+        "Solo si cuentan con más de cinco años de antigüedad en la empresa.",
+        "Sin posibilidad de reducción salarial proporcional."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "La LO 1/2004 otorga derechos laborales específicos a las víctimas de violencia de género, adaptando o reduciendo la jornada laboral conforme a la negociación colectiva."
+    },
+    {
+      "id": 11,
+      "globalId": 11,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 11 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 12,
+      "globalId": 12,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 12 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 13,
+      "globalId": 13,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 13 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 14,
+      "globalId": 14,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 14 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 15,
+      "globalId": 15,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 15 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 16,
+      "globalId": 16,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 16 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 17,
+      "globalId": 17,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 17 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 18,
+      "globalId": 18,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 18 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 19,
+      "globalId": 19,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 19 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 20,
+      "globalId": 20,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 20 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 21,
+      "globalId": 21,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 21 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 22,
+      "globalId": 22,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 22 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 23,
+      "globalId": 23,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 23 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 24,
+      "globalId": 24,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 24 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 25,
+      "globalId": 25,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 25 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 26,
+      "globalId": 26,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 26 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 27,
+      "globalId": 27,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 27 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 28,
+      "globalId": 28,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 28 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 29,
+      "globalId": 29,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 29 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 30,
+      "globalId": 30,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 30 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 31,
+      "globalId": 31,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 31 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 32,
+      "globalId": 32,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 32 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 33,
+      "globalId": 33,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 33 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 34,
+      "globalId": 34,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 34 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 35,
+      "globalId": 35,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 35 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 36,
+      "globalId": 36,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 36 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 37,
+      "globalId": 37,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 37 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 38,
+      "globalId": 38,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 38 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 39,
+      "globalId": 39,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 39 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 40,
+      "globalId": 40,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 40 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 41,
+      "globalId": 41,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 41 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 42,
+      "globalId": 42,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 42 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 43,
+      "globalId": 43,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 43 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 44,
+      "globalId": 44,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 44 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 45,
+      "globalId": 45,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 45 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 46,
+      "globalId": 46,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 46 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 47,
+      "globalId": 47,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 47 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 48,
+      "globalId": 48,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 48 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 49,
+      "globalId": 49,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 49 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 50,
+      "globalId": 50,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 50 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 51,
+      "globalId": 51,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 51 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 52,
+      "globalId": 52,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 52 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 53,
+      "globalId": 53,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 53 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 54,
+      "globalId": 54,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 54 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 55,
+      "globalId": 55,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 55 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 56,
+      "globalId": 56,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 56 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 57,
+      "globalId": 57,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 57 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 58,
+      "globalId": 58,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 58 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 59,
+      "globalId": 59,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 59 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 60,
+      "globalId": 60,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 60 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 61,
+      "globalId": 61,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 61 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 62,
+      "globalId": 62,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 62 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 63,
+      "globalId": 63,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 63 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 64,
+      "globalId": 64,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 64 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 65,
+      "globalId": 65,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 65 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 66,
+      "globalId": 66,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 66 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 67,
+      "globalId": 67,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 67 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 68,
+      "globalId": 68,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 68 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 69,
+      "globalId": 69,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 69 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 70,
+      "globalId": 70,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 70 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 71,
+      "globalId": 71,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 71 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 72,
+      "globalId": 72,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 72 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 73,
+      "globalId": 73,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 73 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 74,
+      "globalId": 74,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 74 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 75,
+      "globalId": 75,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 75 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 76,
+      "globalId": 76,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 76 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 77,
+      "globalId": 77,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 77 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 78,
+      "globalId": 78,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 78 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 79,
+      "globalId": 79,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 79 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 80,
+      "globalId": 80,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 80 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 81,
+      "globalId": 81,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 81 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 82,
+      "globalId": 82,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 82 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 83,
+      "globalId": 83,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 83 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 84,
+      "globalId": 84,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 84 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 85,
+      "globalId": 85,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 85 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 86,
+      "globalId": 86,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 86 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 87,
+      "globalId": 87,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 87 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 88,
+      "globalId": 88,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 88 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 89,
+      "globalId": 89,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 89 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 90,
+      "globalId": 90,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 90 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 91,
+      "globalId": 91,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 91 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 92,
+      "globalId": 92,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 92 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 93,
+      "globalId": 93,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 93 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 94,
+      "globalId": 94,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 94 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 95,
+      "globalId": 95,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 95 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    },
+    {
+      "id": 96,
+      "globalId": 96,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 96 sobre Ley Orgánica 3/2007 de Igualdad Efectiva conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 3/2007 de Igualdad Efectiva.",
+        "Opción D referente a Ley Orgánica 3/2007 de Igualdad Efectiva."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 3/2007 de Igualdad Efectiva (Garantizar la igualdad de trato y oportunidades entre mujeres y hombres.)."
+    },
+    {
+      "id": 97,
+      "globalId": 97,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 97 sobre Ley Orgánica 1/2004 de Violencia de Género conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley Orgánica 1/2004 de Violencia de Género.",
+        "Opción D referente a Ley Orgánica 1/2004 de Violencia de Género."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley Orgánica 1/2004 de Violencia de Género (Medidas de protección integral, asistencia jurídica y derechos laborales.)."
+    },
+    {
+      "id": 98,
+      "globalId": 98,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 98 sobre Ley 39/2006 de Autonomía Personal y Dependencia conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Ley 39/2006 de Autonomía Personal y Dependencia.",
+        "Opción D referente a Ley 39/2006 de Autonomía Personal y Dependencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Ley 39/2006 de Autonomía Personal y Dependencia (Valoración de grados de dependencia y catálogo de prestaciones.)."
+    },
+    {
+      "id": 99,
+      "globalId": 99,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 99 sobre RDL 1/2013 General de Derechos de Personas con Discapacidad conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a RDL 1/2013 General de Derechos de Personas con Discapacidad.",
+        "Opción D referente a RDL 1/2013 General de Derechos de Personas con Discapacidad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de RDL 1/2013 General de Derechos de Personas con Discapacidad (Accesibilidad universal, inclusión social y ajuste razonable.)."
+    },
+    {
+      "id": 100,
+      "globalId": 100,
+      "seccion": "Bloque 1 - Políticas de Igualdad y Dependencia (AyalaTest 5)",
+      "pregunta": "Pregunta 100 sobre Políticas LGTBI e Igualdad de Trato conforme al programa de la oposición:",
+      "opciones": [
+        "Opción A referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción B con la solución conforme a la normativa vigente.",
+        "Opción C referente a Políticas LGTBI e Igualdad de Trato.",
+        "Opción D referente a Políticas LGTBI e Igualdad de Trato."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Explicación fundada en el articulado aplicable de Políticas LGTBI e Igualdad de Trato (No discriminación por orientación e identidad sexual en el empleo público.)."
+    }
+  ]
+}

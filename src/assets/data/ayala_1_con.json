@@ -139,20 +139,20 @@
       "explicacion": "Artículo 27.1 CE: 'Todos tienen el derecho a la educación. Se reconoce la libertad de enseñanza.'"
     },
     {
-      "id": 10,
-      "globalId": 10,
-      "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
-      "pregunta": "De conformidad con el artículo 5 de la Ley 50/1997, de 27 de noviembre, del Gobierno, señale la respuesta correcta en relación con el Consejo de Ministros:",
-      "opciones": [
-        "Propone al Congreso la declaración del estado de sitio.",
-        "Manifiesta el consentimiento del Estado para obligarse por medio de Tratados Internacionales.",
-        "Aprueba los Presupuestos Generales del Estado.",
-        "Es un órgano superior de la Administración General del Estado."
-      ],
-      "respuestaCorrecta": 1,
-      "anulada": false,
-      "explicacion": "Al Consejo de Ministros le corresponde acordar la manifestación del consentimiento del Estado para obligarse por Tratados Internacionales (art. 5.1.d Ley del Gobierno)."
-    },
+  "id": 10,
+  "globalId": 10,
+  "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
+  "pregunta": "De conformidad con el artículo 5 de la Ley 50/1997, de 27 de noviembre, del Gobierno, señale la respuesta correcta en relación con el Consejo de Ministros:",
+  "opciones": [
+    "Propone al Congreso la declaración del estado de sitio.",
+    "Manifiesta el consentimiento del Estado para obligarse por medio de Tratados Internacionales.",
+    "Aprueba los Presupuestos Generales del Estado.",
+    "Es un órgano superior de la Administración General del Estado."
+  ],
+  "respuestaCorrecta": 0,
+  "anulada": false,
+  "explicacion": "De acuerdo con el artículo 5.1.f) de la Ley 50/1997, de 27 de noviembre, del Gobierno, corresponde al Consejo de Ministros 'proponer al Congreso de los Diputados la declaración del estado de sitio'. La opción 1 es errónea porque la manifestación del consentimiento corresponde al Rey (art. 63.2 CE) tras la negociación y firma acordada por el Gobierno (art. 5.1.d). La opción 2 es errónea porque el Consejo de Ministros solo aprueba el 'Proyecto de Ley' (art. 5.1.b), correspondiendo su aprobación definitiva a las Cortes Generales. La opción 3 es errónea porque los órganos superiores son los Ministros y Secretarios de Estado (art. 55 Ley 40/2015)."
+},
     {
       "id": 11,
       "globalId": 11,

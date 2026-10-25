@@ -60,8 +60,11 @@ export class Nav {
   // 👈 Nuevo array para los enlaces de la academia Ayala
   ayalaLinks = [
     { label: 'Ayala 1 Constitución', route: '/ayala-1-con' },
-    // Aquí podrás añadir más fácilmente:
-    // { label: 'Ayala 2 Ley del Gobierno', route: '/ayala-2-gob' },
+    { label: 'Ayala 2 Cortes Generales', route: '/ayala-2-con' },
+    { label: 'Ayala 3 El Gobierno', route: '/ayala-3-con' },
+    { label: 'Ayala 4 EBEP y Transparencia', route: '/ayala-4-con' },
+    { label: 'Ayala 5 Igualdad y Dependencia', route: '/ayala-5-con' },
+    { label: 'Ayala 6 Protección de Datos', route: '/ayala-6-con' },
   ];
 
   pdfs = [

@@ -1,0 +1,1087 @@
+{
+  "examen": "Cuestionario AyalaTest 3 - El Gobierno y la Administración",
+  "descripcion": "Banco de 72 preguntas reales de test del documento AyalaTest_3.pdf sobre la composición, nombramiento y cese del Gobierno, sus funciones y las relaciones entre el Gobierno y las Cortes Generales.",
+  "total_preguntas": 72,
+  "preguntas": [
+    {
+      "id": 1,
+      "globalId": 1,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La Constitución garantiza el acceso de los ciudadanos a archivos y registros, salvo en lo que afecte a:",
+      "opciones": [
+        "La intimidad de las personas.",
+        "La seguridad y defensa del Estado.",
+        "La averiguación de los delitos.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El artículo 105.b) de la CE garantiza el acceso de los ciudadanos a los archivos y registros administrativos, salvo en lo que afecte a la seguridad y defensa del Estado, la averiguación de los delitos y la intimidad de las personas."
+    },
+    {
+      "id": 2,
+      "globalId": 2,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La ley regulará:",
+      "opciones": [
+        "El estatuto de los funcionarios públicos.",
+        "El acceso a la función pública de acuerdo con los principios de mérito y capacidad.",
+        "Las peculiaridades del ejercicio de su derecho a sindicación, el sistema de incompatibilidades y las garantías para la imparcialidad.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El artículo 103.3 de la CE establece que la ley regulará el estatuto de los funcionarios públicos, el acceso a la función pública conforme a mérito y capacidad, la sindicación, incompatibilidades e imparcialidad."
+    },
+    {
+      "id": 3,
+      "globalId": 3,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "De acuerdo con el artículo 103.1 de la Constitución Española, la Administración Pública actúa de acuerdo con los principios de:",
+      "opciones": [
+        "Eficacia, jerarquía, descentralización, desconcentración y coordinación.",
+        "Eficacia, jerarquía, concentración, descentralización y coordinación.",
+        "Eficacia, eficiencia, descentralización y coordinación.",
+        "Jerarquía, centralización, desconcentración y coordinación."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El artículo 103.1 CE establece que la Administración Pública sirve con objetividad los intereses generales y actúa de acuerdo con los principios de eficacia, jerarquía, descentralización, desconcentración y coordinación."
+    },
+    {
+      "id": 4,
+      "globalId": 4,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Además del Título IV de la Constitución, el estatuto e incompatibilidades de los miembros del Gobierno se regula:",
+      "opciones": [
+        "En un Real Decreto.",
+        "En una Ley orgánica.",
+        "En una Ley (Ley 50/1997 del Gobierno).",
+        "En un Real Decreto Ley."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El artículo 98.4 CE remite a la Ley la regulación del estatuto e incompatibilidades de los miembros del Gobierno (desarrollado por la Ley 50/1997, de 27 de noviembre, del Gobierno)."
+    },
+    {
+      "id": 5,
+      "globalId": 5,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "¿Qué sucede si el Congreso no aprueba una cuestión de confianza propuesta por el Presidente del Gobierno?",
+      "opciones": [
+        "El Rey disuelve las Cortes Generales y convoca elecciones.",
+        "El Gobierno presenta su dimisión al Rey, procediéndose a la designación de Presidente según el art. 99.",
+        "El Congreso propone directamente un nuevo candidato.",
+        "El Presidente puede volver a someterla a votación en 48 horas."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 114.1 CE: Si el Congreso niega su confianza al Gobierno, éste presentará su dimisión al Rey, procediéndose a continuación a la designación de Presidente del Gobierno según el artículo 99."
+    },
+    {
+      "id": 6,
+      "globalId": 6,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Según el artículo 98 de la Constitución, el Gobierno se compone de:",
+      "opciones": [
+        "Presidente y Ministros.",
+        "Presidente, Vicepresidente y Ministros.",
+        "Presidente, de los Vicepresidentes en su caso, de los Ministros y de los demás miembros que establezca la ley.",
+        "Presidente, Ministros y Secretarios de Estado."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 98.1 CE: El Gobierno se compone del Presidente, de los Vicepresidentes, en su caso, de los Ministros y de los demás miembros que establezca la ley."
+    },
+    {
+      "id": 7,
+      "globalId": 7,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Según el artículo 112 de la Constitución Española, puede plantear una cuestión de confianza:",
+      "opciones": [
+        "La mayoría absoluta de los Diputados del Congreso.",
+        "El Presidente del Gobierno, previa deliberación del Consejo de Ministros.",
+        "Una décima parte de los Diputados.",
+        "El Gobierno en su conjunto."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 112 CE: El Presidente del Gobierno, previa deliberación del Consejo de Ministros, puede plantear ante el Congreso de los Diputados la cuestión de confianza sobre su programa o una declaración de política general."
+    },
+    {
+      "id": 8,
+      "globalId": 8,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Los miembros del Gobierno no podrán ejercer otras funciones públicas que las derivadas de su mandato parlamentario, ni actividad profesional o mercantil alguna. Esto se regula en:",
+      "opciones": [
+        "Artículo 98.3 de la Constitución Española.",
+        "Artículo 103 de la Constitución Española.",
+        "Artículo 113 de la Constitución Española.",
+        "Artículo 97 de la Constitución Española."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 98.3 CE: Los miembros del Gobierno no podrán ejercer otras funciones públicas que las derivadas de su mandato parlamentario, ni otra actividad profesional o mercantil alguna."
+    },
+    {
+      "id": 9,
+      "globalId": 9,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Señale la afirmación FALSA sobre el Gobierno y la Administración en la CE:",
+      "opciones": [
+        "Los particulares tendrán derecho a ser indemnizados por toda lesión que sufran salvo fuerza mayor si es consecuencia del funcionamiento de servicios públicos.",
+        "Una ley ordinaria regulará la composición y competencia del Consejo de Estado.",
+        "Las Cámaras y sus Comisiones pueden reclamar la presencia de los miembros del Gobierno.",
+        "Una ley orgánica regulará la composición y competencia del Consejo de Estado."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El artículo 107 CE determina que una ley orgánica (no una ley ordinaria) regulará la composición y la competencia del Consejo de Estado como supremo órgano consultivo del Gobierno."
+    },
+    {
+      "id": 10,
+      "globalId": 10,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Señale la afirmación FALSA en relación con el Gobierno:",
+      "opciones": [
+        "El Gobierno dirige la política interior y exterior.",
+        "Si la acusación por traición a un miembro del Gobierno la plantea la cuarta parte del Congreso, requiere la aprobación de la mayoría absoluta del mismo.",
+        "El Gobierno cesante continuará en funciones hasta la toma de posesión del nuevo Gobierno.",
+        "El Presidente del Gobierno puede ser juzgado por la jurisdicción ordinaria en cualquier caso por delitos cometidos en el ejercicio de su cargo."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 102.1 CE: La responsabilidad penal del Presidente y demás miembros del Gobierno será exigible, en su caso, ante la Sala de lo Penal del Tribunal Supremo."
+    },
+    {
+      "id": 11,
+      "globalId": 11,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "El Título de la Constitución dedicado al Gobierno y a la Administración es:",
+      "opciones": [
+        "Título II.",
+        "Título III.",
+        "Título IV.",
+        "Título V."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El Título IV de la Constitución Española de 1978 se titula 'Del Gobierno y de la Administración' (artículos 97 a 107)."
+    },
+    {
+      "id": 12,
+      "globalId": 12,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Según recoge el artículo 116 de la Constitución Española, el plazo máximo de duración inicial del estado de alarma es de:",
+      "opciones": [
+        "30 días.",
+        "1 mes.",
+        "15 días.",
+        "10 días."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 116.2 CE: El estado de alarma será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros por un plazo máximo de quince días."
+    },
+    {
+      "id": 13,
+      "globalId": 13,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Según recoge el artículo 116 de la Constitución Española, el plazo máximo de duración inicial del estado de excepción es de:",
+      "opciones": [
+        "1 mes.",
+        "10 días.",
+        "15 días.",
+        "30 días."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 116.3 CE: El estado de excepción será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros, previa autorización del Congreso de los Diputados, y su plazo no podrá exceder de treinta días."
+    },
+    {
+      "id": 14,
+      "globalId": 14,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "En aplicación de la Ley 50/1997, de 27 de noviembre, del Gobierno, los Secretarios de Estado son considerados:",
+      "opciones": [
+        "Miembros del Gobierno.",
+        "Órganos superiores de la Administración General del Estado.",
+        "Órganos directivos de los departamentos ministeriales.",
+        "Altos comisionados de las Cortes."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "De acuerdo con la Ley 50/1997 del Gobierno y la Ley 40/2015 de Régimen Jurídico del Sector Público, los Secretarios de Estado son órganos superiores de la Administración General del Estado, pero no son miembros del Gobierno."
+    },
+    {
+      "id": 15,
+      "globalId": 15,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La cuestión de confianza planteada por el Presidente del Gobierno se considera otorgada cuando vote a favor:",
+      "opciones": [
+        "La mayoría simple de los Diputados del Congreso.",
+        "La mayoría absoluta del Congreso de los Diputados.",
+        "La mayoría absoluta de las Cortes Generales.",
+        "La mayoría simple de las Cortes Generales."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 112 CE: La confianza se entenderá otorgada cuando vote a favor de la misma la mayoría simple de los Diputados."
+    },
+    {
+      "id": 16,
+      "globalId": 16,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La moción de censura para exigir la responsabilidad política del Gobierno debe ser aprobada por:",
+      "opciones": [
+        "La mayoría simple de los Diputados.",
+        "La mayoría absoluta del Congreso de los Diputados.",
+        "La mayoría simple de las Cortes Generales.",
+        "La mayoría absoluta de las Cortes Generales."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 113.1 CE: El Congreso de los Diputados puede exigir la responsabilidad política del Gobierno mediante la adopción por mayoría absoluta de la moción de censura."
+    },
+    {
+      "id": 17,
+      "globalId": 17,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Corresponde al Presidente del Gobierno:",
+      "opciones": [
+        "Aprobar el Proyecto de Ley de Presupuestos Generales del Estado.",
+        "Nombrar los órganos directivos de la Administración.",
+        "Interponer el recurso de inconstitucionalidad.",
+        "Aprobar los reglamentos para el desarrollo y ejecución de las leyes."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 162.1.a) CE y Ley del Gobierno: El Presidente del Gobierno está legitimado para interponer el recurso de inconstitucionalidad ante el Tribunal Constitucional."
+    },
+    {
+      "id": 18,
+      "globalId": 18,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Podrán recabar la información que precisen del Gobierno y de sus Departamentos:",
+      "opciones": [
+        "Sólo las Comisiones de las Cámaras.",
+        "Sólo las Comisiones de investigación.",
+        "Las Cámaras y sus Comisiones.",
+        "Sólo las Cámaras en pleno."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 109 CE: Las Cámaras y sus Comisiones podrán recabar, a través de sus Presidentes, la información y ayuda que precisen del Gobierno y de sus Departamentos."
+    },
+    {
+      "id": 19,
+      "globalId": 19,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Los Secretarios de Estado son nombrados y separados por:",
+      "opciones": [
+        "Real Decreto del Consejo de Ministros, a propuesta del Presidente del Gobierno o del Ministro del departamento.",
+        "Real Decreto del Presidente del Gobierno.",
+        "Orden Ministerial del Ministro correspondiente.",
+        "Ley aprobada por las Cortes Generales."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Según la Ley 50/1997 del Gobierno, los Secretarios de Estado son nombrados y separados por Real Decreto del Consejo de Ministros."
+    },
+    {
+      "id": 20,
+      "globalId": 20,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Según el artículo 113.3 de la Constitución Española, una vez presentada una moción de censura, podrán presentarse mociones alternativas en:",
+      "opciones": [
+        "Los diez primeros días.",
+        "Los dos primeros días.",
+        "Los tres primeros días.",
+        "Los cinco primeros días."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 113.3 CE: La moción de censura no podrá ser votada hasta que transcurran cinco días desde su presentación. En los dos primeros días de dicho plazo podrán presentarse mociones alternativas."
+    },
+    {
+      "id": 21,
+      "globalId": 21,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Según establece el artículo 103.1 de la Constitución, los órganos de la Administración del Estado son creados, regidos y coordinados:",
+      "opciones": [
+        "De acuerdo con la Ley.",
+        "Mediante Real Decreto.",
+        "Por orden del Ministro competente.",
+        "Por la Ley Orgánica del Gobierno."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 103.2 CE: Los órganos de la Administración del Estado son creados, regidos y coordinados de acuerdo con la ley."
+    },
+    {
+      "id": 22,
+      "globalId": 22,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "El Consejo de Ministros, como órgano colegiado del Gobierno, aprueba:",
+      "opciones": [
+        "Los proyectos de ley y su remisión al Congreso de los Diputados.",
+        "Los Reales Decretos-Leyes y Reales Decretos Legislativos.",
+        "El proyecto de Ley de Presupuestos Generales del Estado.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Según el artículo 5 de la Ley 50/1997 del Gobierno, al Consejo de Ministros le corresponde aprobar los proyectos de ley, los Reales Decretos-Leyes, los Reales Decretos Legislativos y el proyecto de Ley de Presupuestos Generales del Estado."
+    },
+    {
+      "id": 23,
+      "globalId": 23,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Según el artículo 97 de la Constitución Española, el Gobierno dirige:",
+      "opciones": [
+        "La política interior y exterior.",
+        "La Administración civil y militar.",
+        "La defensa del Estado.",
+        "Todas las anteriores son funciones del Gobierno."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 97 CE: El Gobierno dirige la política interior y exterior, la Administración civil y militar y la defensa del Estado. Ejerce la función ejecutiva y la potestad reglamentaria de acuerdo con la Constitución y las leyes."
+    },
+    {
+      "id": 24,
+      "globalId": 24,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "El estado de sitio se declara:",
+      "opciones": [
+        "Por las Cortes Generales, a propuesta exclusiva del Gobierno.",
+        "Por la mayoría absoluta del Congreso de los Diputados, a propuesta exclusiva del Gobierno.",
+        "Por el Senado, a propuesta del Gobierno.",
+        "Por el Gobierno, con la previa autorización del Congreso."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 116.4 CE: El estado de sitio será declarado por la mayoría absoluta del Congreso de los Diputados, a propuesta exclusiva del Gobierno."
+    },
+    {
+      "id": 25,
+      "globalId": 25,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Corresponde al Consejo de Ministros:",
+      "opciones": [
+        "Declarar los estados de alarma y de excepción y proponer al Congreso el estado de sitio.",
+        "Disolver las Cortes Generales.",
+        "Interponer de forma directa la cuestión de confianza.",
+        "Dirigir las negociaciones de los tratados internacionales sin propuesta del Ministro."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Según el art. 116 CE y la Ley del Gobierno, el Consejo de Ministros declara el estado de alarma, el estado de excepción (previa autorización del Congreso) y propone al Congreso la declaración del estado de sitio."
+    },
+    {
+      "id": 26,
+      "globalId": 26,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La creación, modificación y supresión de los Departamentos Ministeriales y de las Secretarías de Estado se establece mediante:",
+      "opciones": [
+        "Real Decreto del Presidente del Gobierno.",
+        "Ley aprobada por las Cortes Generales.",
+        "Real Decreto del Consejo de Ministros.",
+        "Ley Orgánica de la Administración General del Estado."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 2.2.j) de la Ley 50/1997 del Gobierno: Corresponde al Presidente del Gobierno crear, modificar y suprimir, por Real Decreto, los Departamentos Ministeriales, así como las Secretarías de Estado."
+    },
+    {
+      "id": 27,
+      "globalId": 27,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Se pone en marcha el mecanismo de investidura previsto en el artículo 99 de la Constitución:",
+      "opciones": [
+        "Después de cada renovación del Congreso de los Diputados.",
+        "En los casos de dimisión o fallecimiento del Presidente del Gobierno.",
+        "En el caso de rechazo de una cuestión de confianza.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El procedimiento del artículo 99 CE se aplica tras las elecciones generales (renovación del Congreso), dimisión o fallecimiento del Presidente, o cuando el Congreso niega su confianza al Presidente."
+    },
+    {
+      "id": 28,
+      "globalId": 28,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La Ley 40/2015 y la Ley 50/1997 definen a los Secretarios de Estado como:",
+      "opciones": [
+        "Miembros del Gobierno.",
+        "Presidentes de las Comisiones Delegadas del Gobierno.",
+        "Órganos superiores de la Administración General del Estado.",
+        "Órganos directivos de la Administración."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En la organización central de la Administración General del Estado, los Ministros y los Secretarios de Estado son los órganos superiores."
+    },
+    {
+      "id": 29,
+      "globalId": 29,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Disuelto el Congreso o expirado su mandato, si se produjere alguna de las situaciones que dan lugar a los estados de alarma, excepción o sitio:",
+      "opciones": [
+        "Las competencias del Congreso serán asumidas por su Diputación Permanente.",
+        "Los podrá declarar el Gobierno sin intervención parlamentaria.",
+        "No se pueden declarar dichos estados hasta convocar nuevas Cortes.",
+        "El Congreso se autoconvoca de inmediato disolviendo el decreto."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 116.5 CE: Disuelto el Congreso o expirado su mandato, las competencias constitucionales del Congreso en relación con los estados del art. 116 serán asumidas por su Diputación Permanente."
+    },
+    {
+      "id": 30,
+      "globalId": 30,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Según el artículo 101.1 de la Constitución Española, el Gobierno cesa:",
+      "opciones": [
+        "Tras la celebración de elecciones generales.",
+        "En los casos de pérdida de la confianza parlamentaria.",
+        "Por dimisión o fallecimiento de su Presidente.",
+        "Todas las respuestas son causas de cese del Gobierno."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 101.1 CE: El Gobierno cesa tras la celebración de elecciones generales, en los casos de pérdida de la confianza parlamentaria previstos en la Constitución, o por dimisión o fallecimiento de su Presidente."
+    },
+    {
+      "id": 31,
+      "globalId": 31,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "El Consejo de Estado se regula en la Constitución Española como:",
+      "opciones": [
+        "El supremo órgano consultivo del Gobierno.",
+        "El supremo órgano fiscalizador de las cuentas del Estado.",
+        "El órgano de gobierno del Poder Judicial.",
+        "El tribunal de garantías constitucionales."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 107 CE: El Consejo de Estado es el supremo órgano consultivo del Gobierno. Una ley orgánica regulará su composición y competencia."
+    },
+    {
+      "id": 32,
+      "globalId": 32,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La prórroga del estado de alarma requiere obligatoriamente:",
+      "opciones": [
+        "La autorización del Congreso de los Diputados.",
+        "La aprobación por mayoría absoluta del Senado.",
+        "Un Real Decreto Ley del Presidente del Gobierno.",
+        "Un informe favorable del Consejo de Estado."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 116.2 CE: El estado de alarma se declara por 15 días; no podrá prorrogarse sin la expresa autorización del Congreso de los Diputados."
+    },
+    {
+      "id": 33,
+      "globalId": 33,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "El control de la potestad reglamentaria y de la legalidad de la actuación administrativa corresponde a:",
+      "opciones": [
+        "Los Tribunales.",
+        "El Congreso de los Diputados.",
+        "Las Cortes Generales.",
+        "El Consejo de Estado."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 106.1 CE: Los Tribunales controlan la potestad reglamentaria y la legalidad de la actuación administrativa, así como el sometimiento de ésta a los fines que la justifican."
+    },
+    {
+      "id": 34,
+      "globalId": 34,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "¿Quién controla la legalidad de la actuación administrativa, así como el sometimiento de ésta a los fines que la justifican?",
+      "opciones": [
+        "Los Tribunales.",
+        "Las Cortes Generales.",
+        "El Gobierno.",
+        "El Congreso."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 106.1 de la CE: Corresponde a los Tribunales el control de la potestad reglamentaria y la legalidad de la actuación administrativa."
+    },
+    {
+      "id": 35,
+      "globalId": 35,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La cuestión de confianza que plantea el Presidente del Gobierno versará sobre:",
+      "opciones": [
+        "Su programa o una declaración de política general.",
+        "Un proyecto de ley presupuestaria exclusivamente.",
+        "La aprobación de un Tratado Internacional.",
+        "La reforma del Reglamento del Congreso."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 112 CE: El Presidente del Gobierno puede plantear ante el Congreso la cuestión de confianza sobre su programa o sobre una declaración de política general."
+    },
+    {
+      "id": 36,
+      "globalId": 36,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Según la Ley 50/1997 del Gobierno, las reuniones del Consejo de Ministros tienen carácter:",
+      "opciones": [
+        "Público.",
+        "Secretó o reservado.",
+        "Abierto a los medios de comunicación.",
+        "Oficial publicado en el BOE en acta íntegra."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 5.3 de la Ley 50/1997 del Gobierno: Las deliberaciones del Consejo de Ministros serán secretas."
+    },
+    {
+      "id": 37,
+      "globalId": 37,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La responsabilidad penal del Presidente y de los demás miembros del Gobierno es exigible ante:",
+      "opciones": [
+        "La Sala de lo Penal del Tribunal Supremo.",
+        "La Audiencia Nacional.",
+        "El Tribunal Constitucional.",
+        "El Juzgado Central de lo Penal."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 102.1 CE: La responsabilidad penal del Presidente y demás miembros del Gobierno será exigible, en su caso, ante la Sala de lo Penal del Tribunal Supremo."
+    },
+    {
+      "id": 38,
+      "globalId": 38,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Las Fuerzas y Cuerpos de Seguridad, bajo la dependencia del Gobierno, tienen como misión:",
+      "opciones": [
+        "Proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana.",
+        "Garantizar la soberanía e independencia de España.",
+        "Defender la integridad territorial y el ordenamiento constitucional.",
+        "Vigilar el cumplimiento de las leyes presupuestarias."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 104.1 CE: Las Fuerzas y Cuerpos de Seguridad, bajo la dependencia del Gobierno, tendrán como misión proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana."
+    },
+    {
+      "id": 39,
+      "globalId": 39,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "En relación con los Ministros, señale la afirmación correcta:",
+      "opciones": [
+        "Son nombrados y separados por el Rey, a propuesta del Presidente del Gobierno.",
+        "Son elegidos por votación directa en el Congreso.",
+        "Deben ser necesariamente Diputados o Senadores.",
+        "Tienen potestad para declarar el estado de alarma individualmente."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 100 CE: Los demás miembros del Gobierno serán nombrados y separados por el Rey, a propuesta de su Presidente."
+    },
+    {
+      "id": 40,
+      "globalId": 40,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Según el artículo 104 de la Constitución Española, las funciones, principios básicos de actuación y estatuto de las Fuerzas y Cuerpos de Seguridad se regulan por:",
+      "opciones": [
+        "Real Decreto del Consejo de Ministros.",
+        "Orden Ministerial del Interior.",
+        "Ley Orgánica (Ley Orgánica 2/1986).",
+        "Ley Ordinaria."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 104.2 CE: Una ley orgánica determinará las funciones, principios básicos de actuación y estatutos de las Fuerzas y Cuerpos de Seguridad."
+    },
+    {
+      "id": 41,
+      "globalId": 41,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Al Presidente del Gobierno:",
+      "opciones": [
+        "Lo propone el Rey (tras previa consulta con los representantes políticos).",
+        "Lo otorga la confianza el Congreso de los Diputados.",
+        "Lo nombra el Rey.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "De acuerdo con el artículo 99 CE, el candidato a Presidente del Gobierno es propuesto por el Rey, recibe la confianza del Congreso de los Diputados y es nombrado formalmente por el Rey."
+    },
+    {
+      "id": 42,
+      "globalId": 42,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Señale la opción INCORRECTA respecto a los principios de la Administración Pública del artículo 103.1 CE:",
+      "opciones": [
+        "Descentralización.",
+        "Eficacia y jerarquía.",
+        "Desconcentración y coordinación.",
+        "Descoordinación y subjetividad."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El artículo 103.1 CE menciona objetividad, eficacia, jerarquía, descentralización, desconcentración y coordinación. 'Descoordinación' y 'subjetividad' son totalmente opuestos a la norma."
+    },
+    {
+      "id": 43,
+      "globalId": 43,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "¿Pueden los miembros del Gobierno ser Diputados o Senadores?",
+      "opciones": [
+        "No, es totalmente incompatible.",
+        "Sólo en el caso de los Vicepresidentes.",
+        "Sí, es compatible la condición de miembro del Gobierno con la de parlamentario.",
+        "Deben ser obligatoriamente parlamentarios para ser nombrados."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "En el sistema español es plenamente compatible ser miembro del Gobierno y Diputado o Senador (artículo 98.3 CE permite las funciones derivadas de su mandato parlamentario)."
+    },
+    {
+      "id": 44,
+      "globalId": 44,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Para la aprobación de una moción de censura en el Congreso se exige:",
+      "opciones": [
+        "Mayoría simple de los votos emitidos.",
+        "Mayoría absoluta del número de miembros del Congreso (mínimo 176).",
+        "Mayoría de dos tercios de la Cámara.",
+        "Mayoría de tres quintos del Congreso y del Senado."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 113.1 CE: Exige mayoría absoluta del Congreso de los Diputados para prosperar la moción de censura."
+    },
+    {
+      "id": 45,
+      "globalId": 45,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Si la moción de censura no fuere aprobada por el Congreso:",
+      "opciones": [
+        "El Presidente del Gobierno debe presentar la dimisión.",
+        "Sus signatarios no podrán presentar otra en el mismo período de sesiones.",
+        "Se disuelven las Cortes automáticamente.",
+        "Se convoca una cuestión de confianza de forma obligatoria."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 113.4 CE: Si la moción de censura no fuere aprobada por el Congreso, sus signatarios no podrán presentar otra durante el mismo período de sesiones."
+    },
+    {
+      "id": 46,
+      "globalId": 46,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Si el Congreso aprueba una moción de censura:",
+      "opciones": [
+        "El Gobierno presentará su dimisión al Rey.",
+        "El candidato incluido en la moción se entenderá investido de la confianza de la Cámara.",
+        "El Rey nombrará Presidente del Gobierno al candidato propuesto en la moción.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 114.2 CE: Si el Congreso adopta una moción de censura, el Gobierno presentará su dimisión al Rey y el candidato incluido en aquélla se entenderá investido de la confianza de la Cámara. El Rey le nombrará Presidente del Gobierno."
+    },
+    {
+      "id": 47,
+      "globalId": 47,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La moción de censura debe incluir obligatoriamente:",
+      "opciones": [
+        "Un programa económico detallado.",
+        "Un candidato a la Presidencia del Gobierno.",
+        "El respaldo de al menos 50 Senadores.",
+        "La firma de la mayoría absoluta de los Diputados."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 113.2 CE: La moción de censura deberá ser propuesta al menos por la décima parte de los Diputados y habrá de incluir un candidato a la Presidencia del Gobierno (moción destructiva y constructiva a la vez)."
+    },
+    {
+      "id": 48,
+      "globalId": 48,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "¿Cuál es el supremo órgano consultivo del Gobierno?",
+      "opciones": [
+        "El Consejo de Estado.",
+        "El Consejo de Ministros.",
+        "El Consejo General del Poder Judicial.",
+        "El Tribunal de Cuentas."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 107 CE: El Consejo de Estado es el supremo órgano consultivo del Gobierno."
+    },
+    {
+      "id": 49,
+      "globalId": 49,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Se requiere que lo declare el Gobierno mediante decreto acordado en Consejo de Ministros, previa autorización del Congreso:",
+      "opciones": [
+        "La declaración del estado de excepción.",
+        "La declaración del estado de alarma.",
+        "La declaración del estado de sitio.",
+        "La prórroga del estado de sitio."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 116.3 CE: El estado de excepción será declarado por el Gobierno mediante decreto acordado en Consejo de Ministros, previa autorización del Congreso de los Diputados."
+    },
+    {
+      "id": 50,
+      "globalId": 50,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Según el artículo 113 de la Constitución Española, puede proponer una moción de censura:",
+      "opciones": [
+        "Al menos una cuarta parte de los Diputados.",
+        "La mayoría absoluta de los Diputados.",
+        "Al menos la décima parte de los Diputados (35 Diputados).",
+        "La mayoría simple de los Diputados."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 113.2 CE: La moción de censura deberá ser propuesta al menos por la décima parte de los Diputados."
+    },
+    {
+      "id": 51,
+      "globalId": 51,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "El Gobierno en funciones limita su gestión a:",
+      "opciones": [
+        "Facilitar el normal desarrollo del proceso de formación del nuevo Gobierno y el traspaso de poderes.",
+        "El despacho ordinario de los asuntos públicos.",
+        "Abstenerse de adoptar, salvo casos de urgencia debidamente acreditados, cualesquiera otras medidas.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 21.3 de la Ley 50/1997 del Gobierno: El Gobierno en funciones facilitará el traspaso de poderes y limitará su gestión al despacho ordinario de los asuntos públicos, absteniéndose de aprobar proyectos de ley o presupuestos."
+    },
+    {
+      "id": 52,
+      "globalId": 52,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Las Fuerzas y Cuerpos de Seguridad tienen como misión:",
+      "opciones": [
+        "Proteger el libre ejercicio de los derechos y libertades.",
+        "Garantizar la seguridad ciudadana.",
+        "Ambas respuestas son correctas.",
+        "Ninguna de las respuestas es correcta."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 104.1 CE: Las Fuerzas y Cuerpos de Seguridad tendrán como misión proteger el libre ejercicio de los derechos y libertades y garantizar la seguridad ciudadana."
+    },
+    {
+      "id": 53,
+      "globalId": 53,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Cuando cesa el Gobierno, el Gobierno cesante continuará en funciones hasta:",
+      "opciones": [
+        "La disolución de las Cortes Generales.",
+        "La celebración de nuevas elecciones.",
+        "La toma de posesión del nuevo Gobierno.",
+        "La sesión constitutiva del Congreso."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "Artículo 101.2 CE: El Gobierno cesante continuará en funciones hasta la toma de posesión del nuevo Gobierno."
+    },
+    {
+      "id": 54,
+      "globalId": 54,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "El principio de desconcentración administrativa implica:",
+      "opciones": [
+        "La transferencia de titularidad o ejercicio de competencias a órganos jerárquicamente dependientes dentro de la misma administración.",
+        "La transferencia de competencias a entidades con personalidad jurídica propia e independiente.",
+        "La eliminación de controles parlamentarios sobre los órganos directivos.",
+        "La privatización de servicios públicos no esenciales."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La desconcentración (art. 103.1 CE y Ley 40/2015) traspasa titularidad y/o ejercicio de competencias entre órganos de una misma persona jurídica o Administración Pública."
+    },
+    {
+      "id": 55,
+      "globalId": 55,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Los Secretarios Generales Técnicos de los Ministerios tienen la consideración de:",
+      "opciones": [
+        "Órganos superiores.",
+        "Órganos directivos.",
+        "Miembros del Gobierno.",
+        "Personal de gabinete reservado."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Según la Ley 40/2015 (art. 55), los Subsecretarios, Secretarios Generales, Secretarios Generales Técnicos y Directores Generales tienen la condición de órganos directivos."
+    },
+    {
+      "id": 56,
+      "globalId": 56,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Las Comisiones Delegadas del Gobierno son creadas, modificadas y suprimidas por:",
+      "opciones": [
+        "Real Decreto del Consejo de Ministros, a propuesta del Presidente del Gobierno.",
+        "Ley Orgánica de las Cortes Generales.",
+        "Orden del Ministerio de la Presidencia.",
+        "Real Decreto del Presidente del Gobierno únicamente."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 6.2 de la Ley 50/1997 del Gobierno: La creación, modificación y supresión de las Comisiones Delegadas del Gobierno se acordará por el Consejo de Ministros mediante Real Decreto, a propuesta del Presidente del Gobierno."
+    },
+    {
+      "id": 57,
+      "globalId": 57,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Los Ministros son nombrados y separados por el Rey a propuesta exclusiva de:",
+      "opciones": [
+        "El Consejo de Ministros.",
+        "El Presidente del Gobierno.",
+        "El Congreso de los Diputados.",
+        "El Presidente del Congreso."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "Artículo 100 CE: Los demás miembros del Gobierno serán nombrados y separados por el Rey, a propuesta de su Presidente."
+    },
+    {
+      "id": 58,
+      "globalId": 58,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La moción de censura no podrá ser votada hasta que transcurran desde su presentación:",
+      "opciones": [
+        "Cinco días.",
+        "Tres días.",
+        "Dos días.",
+        "Diez días."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 113.3 CE: La moción de censura no podrá ser votada hasta que transcurran cinco días desde su presentación."
+    },
+    {
+      "id": 59,
+      "globalId": 59,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Del Gobierno y la Administración trata el siguiente Título de la Constitución Española:",
+      "opciones": [
+        "Título III.",
+        "Título IV.",
+        "Título V.",
+        "Título VI."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El Título IV de la Constitución abarca los artículos 97 a 107 y trata 'Del Gobierno y de la Administración'."
+    },
+    {
+      "id": 60,
+      "globalId": 60,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Señale cómo se reúnen de forma colegiada los miembros del Gobierno:",
+      "opciones": [
+        "En Consejo de Ministros y en Comisiones Delegadas del Gobierno.",
+        "En Consejo de Ministros y en Consejo de Estado.",
+        "En Consejo de Ministros y en Comisiones Legislativas de las Cortes.",
+        "En Consejo de Ministros y en Conferencia de Presidentes."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 1.3 de la Ley 50/1997 del Gobierno: Los miembros del Gobierno se reúnen en Consejo de Ministros y en Comisiones Delegadas del Gobierno."
+    },
+    {
+      "id": 61,
+      "globalId": 61,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Para ser elegido Presidente del Gobierno en 2ª votación de investidura, el candidato necesita:",
+      "opciones": [
+        "Mayoría simple del Congreso de los Diputados.",
+        "Mayoría absoluta del Congreso de los Diputados.",
+        "Mayoría de dos tercios del Congreso de los Diputados.",
+        "Mayoría absoluta del Senado."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 99.3 CE: Si no se alcanzase la mayoría absoluta en primera votación, se someterá la misma propuesta a nueva votación cuarenta y ocho horas después, y la confianza se entenderá otorgada si obtuviere la mayoría simple."
+    },
+    {
+      "id": 62,
+      "globalId": 62,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La aprobación de la estructura orgánica de un Ministerio se realiza mediante:",
+      "opciones": [
+        "Real Decreto del Consejo de Ministros.",
+        "Real Decreto del Presidente del Gobierno.",
+        "Orden del Ministerio correspondiente.",
+        "Ley aprobada por las Cortes."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "La estructura orgánica básica de cada Departamento Ministerial se aprueba mediante Real Decreto del Consejo de Ministros (a propuesta del Ministro del departamento)."
+    },
+    {
+      "id": 63,
+      "globalId": 63,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "¿Quién controla la potestad reglamentaria del Gobierno y de la Administración?",
+      "opciones": [
+        "Los Tribunales de la jurisdicción contencioso-administrativa.",
+        "Las Cortes Generales.",
+        "El Congreso de los Diputados.",
+        "El Tribunal Constitucional exclusivamente."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 106.1 CE: Los Tribunales controlan la potestad reglamentaria y la legalidad de la actuación administrativa."
+    },
+    {
+      "id": 64,
+      "globalId": 64,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La ley regulará en el ámbito de la función pública:",
+      "opciones": [
+        "El estatuto de los funcionarios públicos.",
+        "El acceso a la función pública de acuerdo con mérito y capacidad.",
+        "El sistema de incompatibilidades y las garantías de imparcialidad.",
+        "Todas las respuestas anteriores son correctas."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 103.3 CE: La ley regulará el estatuto de los funcionarios públicos, el acceso a la función pública según mérito y capacidad, la sindicación, incompatibilidades e imparcialidad."
+    },
+    {
+      "id": 65,
+      "globalId": 65,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Los Delegados del Gobierno en las Comunidades Autónomas son nombrados por:",
+      "opciones": [
+        "Real Decreto del Consejo de Ministros, a propuesta del Presidente del Gobierno.",
+        "Real Decreto del Presidente del Gobierno directamente.",
+        "Elección directa por la Asamblea Legislativa de la Comunidad Autónoma.",
+        "Orden del Ministerio del Interior."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 73 de la Ley 40/2015: Los Delegados del Gobierno son nombrados y separados por Real Decreto del Consejo de Ministros, a propuesta del Presidente del Gobierno."
+    },
+    {
+      "id": 66,
+      "globalId": 66,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "El Delegado del Gobierno en la Comunidad Autónoma dirige:",
+      "opciones": [
+        "La Administración del Estado en el territorio de la Comunidad Autónoma y la coordina con la Administración propia de la Comunidad.",
+        "El Gobierno autonómico en caso de suspensión de competencias.",
+        "Las Asambleas Legislativas autonómicas.",
+        "Los Tribunal Superiores de Justicia autonómicos."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 154 CE: Un Delegado nombrado por el Gobierno dirigirá la Administración del Estado en el territorio de la Comunidad Autónoma y la coordinará, cuando proceda, con la Administración propia de la Comunidad."
+    },
+    {
+      "id": 67,
+      "globalId": 67,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "La prerrogativa real de gracia (indulto) no será aplicable en ningún caso a:",
+      "opciones": [
+        "Los supuestos de responsabilidad penal de los miembros del Gobierno acusados de traición o delitos contra la seguridad del Estado.",
+        "Los delitos cometidos por funcionarios públicos.",
+        "Las faltas administrativas impuestas por la Administración.",
+        "Los delitos juzgados por el Tribunal Constitucional."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 102.3 CE: La prerrogativa real de gracia no será aplicable a ninguno de los supuestos del presente artículo (traición o delito contra la seguridad del Estado en el ejercicio de sus funciones)."
+    },
+    {
+      "id": 68,
+      "globalId": 68,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "El Consejo de Ministros se reúne habitualmente convocadamente por:",
+      "opciones": [
+        "El Presidente del Gobierno, que actúa como su Presidente.",
+        "El Rey en todas sus sesiones ordinarias.",
+        "El Presidente del Congreso de los Diputados.",
+        "El Ministro de la Presidencia."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "De acuerdo con la Ley 50/1997 del Gobierno, corresponde al Presidente del Gobierno convocar y presidir las sesiones del Consejo de Ministros (salvo cuando lo presida el Rey a petición del Presidente)."
+    },
+    {
+      "id": 69,
+      "globalId": 69,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "De acuerdo con la Ley del Gobierno, los Secretarios de Estado son:",
+      "opciones": [
+        "Órganos superiores de la Administración General del Estado directamente responsables de la ejecución de la acción del Gobierno en un sector de actividad específica.",
+        "Titulares de los departamentos ministeriales con voz y voto en el Consejo de Ministros.",
+        "Órganos directivos encargados exclusivamente de la gestión común del departamento.",
+        "Miembros del Gobierno de pleno derecho."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "De acuerdo con la Ley 50/1997 del Gobierno y la Ley 40/2015 de Régimen Jurídico del Sector Público, los Secretarios de Estado son órganos superiores directamente responsables de la ejecución de la acción del Gobierno."
+    },
+    {
+      "id": 70,
+      "globalId": 70,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "De conformidad con el artículo 5 de la Ley 50/1997 del Gobierno, al Consejo de Ministros le corresponde:",
+      "opciones": [
+        "Aprobar los Presupuestos Generales del Estado.",
+        "Proponer al Congreso la declaración del estado de sitio.",
+        "Aprobar los Reales Decretos-Leyes y los Reales Decretos Legislativos.",
+        "Todas las respuestas son correctas."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Artículo 5 de la Ley 50/1997: Al Consejo de Ministros le corresponde aprobar el proyecto de Ley de Presupuestos Generales del Estado, proponer la declaración del estado de sitio y aprobar los Reales Decretos-Leyes y Reales Decretos Legislativos."
+    },
+    {
+      "id": 71,
+      "globalId": 71,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Si 40 Diputados del Congreso proponen una moción de censura en el mes de septiembre y no es aprobada:",
+      "opciones": [
+        "No pueden presentar otra moción de censura durante el mismo período de sesiones (hasta febrero).",
+        "Pueden volver a presentarla al mes siguiente.",
+        "No pueden volver a presentar otra en toda la legislatura.",
+        "Tienen sanción de suspensión de su condición de parlamentario."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "Artículo 113.4 CE: Si la moción de censura no fuere aprobada por el Congreso, sus signatarios no podrán presentar otra durante el mismo período de sesiones (los períodos ordinarios son de septiembre a diciembre y de febrero a junio)."
+    },
+    {
+      "id": 72,
+      "globalId": 72,
+      "seccion": "El Gobierno y la Administración - AyalaTest 3",
+      "pregunta": "Corresponde al Presidente del Gobierno:",
+      "opciones": [
+        "Proponer al Rey la disolución del Congreso, del Senado o de las Cortes Generales, previa deliberación del Consejo de Ministros.",
+        "Planteamiento ante el Congreso de los Diputados de la cuestión de confianza, previa deliberación del Consejo de Ministros.",
+        "Proponer al Rey la convocatoria de un referéndum consultivo, previa autorización del Congreso de los Diputados.",
+        "Todas las respuestas anteriores son funciones del Presidente del Gobierno."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "De acuerdo con el artículo 2.2 de la Ley 50/1997 del Gobierno y los artículos 92, 112 y 115 de la Constitución, todas las anteriores son atribuciones propias del Presidente del Gobierno."
+    }
+  ]
+}

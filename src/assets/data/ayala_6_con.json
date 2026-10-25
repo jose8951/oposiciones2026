@@ -1,0 +1,307 @@
+{
+  "examen": "Cuestionario AyalaTest 6 - Protección de Datos y Seguridad",
+  "descripcion": "Banco de 20 preguntas reales de test del documento AyalaTest_6.pdf centradas en la Ley Orgánica de Protección de Datos (LOPD) y el Reglamento General de Protección de Datos (RGPD) del Bloque 1 de TAI.",
+  "total_preguntas": 20,
+  "preguntas": [
+    {
+      "id": 1,
+      "globalId": 1,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Con arreglo al artículo 7 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, con carácter general, el tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea:",
+      "opciones": [
+        "Mayor de dieciséis años.",
+        "Mayor de quince años.",
+        "Mayor de doce años.",
+        "Mayor de catorce años."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El artículo 7.1 de la LO 3/2018 (LOPDGDD) establece que el tratamiento de los datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años."
+    },
+    {
+      "id": 2,
+      "globalId": 2,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Según el artículo 13 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, los derechos de acceso, rectificación, supresión o limitación del tratamiento podrán ser denegados:",
+      "opciones": [
+        "En ningún caso.",
+        "Cuando así lo determine motivadamente el responsable del tratamiento.",
+        "Cuando sea necesario para prevenir un peligro real y grave para la seguridad pública.",
+        "Cuando el ejercicio se realice en más de una ocasión durante el plazo de seis meses, a menos que exista causa legítima para ello."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El artículo 13 de la LOPDGDD indica que el ejercicio repetido en un plazo inferior a seis meses puede ser considerado repetitivo y denegarse salvo causa legítima."
+    },
+    {
+      "id": 3,
+      "globalId": 3,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "¿Cuál de los siguientes NO es un derecho recogido en los derechos de las personas regulados en el Capítulo II del Título III de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales?",
+      "opciones": [
+        "Derecho de rectificación.",
+        "Derecho de supresión.",
+        "Derecho de retrospección.",
+        "Derecho a la limitación del tratamiento."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El 'derecho de retrospección' no existe dentro del catálogo de derechos de los afectados en la LOPDGDD / RGPD (ARCO-POL: acceso, rectificación, supresión, oposición, portabilidad, limitación)."
+    },
+    {
+      "id": 4,
+      "globalId": 4,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Según establece el artículo 34.3 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, los responsables y encargados del tratamiento comunicarán a la Agencia Española de Protección de Datos las designaciones, nombramientos y ceses de los Delegados de Protección de Datos en el plazo de:",
+      "opciones": [
+        "3 meses.",
+        "10 días.",
+        "1 mes.",
+        "15 días."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El artículo 34.3 de la LOPDGDD establece el plazo de 10 días para comunicar a la AEPD la designación, nombramiento o cese del Delegado de Protección de Datos (DPD)."
+    },
+    {
+      "id": 5,
+      "globalId": 5,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "¿Qué artículo de la Constitución Española recoge que 'la ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar de los ciudadanos y el pleno ejercicio de sus derechos'?",
+      "opciones": [
+        "El Artículo 16.2 de la Constitución Española.",
+        "El Artículo 16.4 de la Constitución Española.",
+        "El Artículo 18.4 de la Constitución Española.",
+        "El Artículo 17.2 de la Constitución Española."
+      ],
+      "respuestaCorrecta": 2,
+      "anulada": false,
+      "explicacion": "El artículo 18.4 de la Constitución Española mandata que la ley limitará el uso de la informática para garantizar el honor y la intimidad personal y familiar."
+    },
+    {
+      "id": 6,
+      "globalId": 6,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "La Agencia Española de Protección de Datos es:",
+      "opciones": [
+        "Un órgano jurisdiccional independiente de ámbito estatal.",
+        "Una autoridad judicial independiente de ámbito estatal.",
+        "Una autoridad administrativa dependiente de ámbito estatal.",
+        "Una autoridad administrativa independiente de ámbito estatal."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "Según el artículo 44 de la LOPDGDD, la AEPD es una autoridad administrativa independiente de ámbito estatal con personalidad jurídica y plena capacidad pública y privada."
+    },
+    {
+      "id": 7,
+      "globalId": 7,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Indique según el Título X de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál de los siguientes derechos NO se recoge expresamente en el citado Título X?",
+      "opciones": [
+        "Derecho al olvido en servicios de redes sociales y servicios equivalentes.",
+        "Derecho a la desconexión digital en el ámbito laboral.",
+        "Derecho al testamento digital.",
+        "Derecho a la igualdad y a la no discriminación en el entorno digital."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El Título X de la LOPDGDD regula los derechos digitales (arts. 80 a 97). El 'derecho a la igualdad y a la no discriminación en el entorno digital' no está nominado expresamente como artículo en dicho catálogo."
+    },
+    {
+      "id": 8,
+      "globalId": 8,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Según el artículo 4 del Reglamento (UE) 2016/679 (RGPD), se considera Encargado del Tratamiento:",
+      "opciones": [
+        "A la persona física o jurídica que determine los fines y medios del tratamiento.",
+        "A la persona física o jurídica, autoridad pública, servicio u otro organismo que trate datos personales por cuenta del responsable del tratamiento.",
+        "A la persona física o jurídica dedicada a una actividad económica, independientemente de su forma jurídica.",
+        "A la persona física titular de los datos personales."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El art. 4.8 del RGPD define 'encargado del tratamiento' como la persona física o jurídica, autoridad pública, servicio u otro organismo que trate datos personales por cuenta del responsable."
+    },
+    {
+      "id": 9,
+      "globalId": 9,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Según el artículo 4 del Reglamento (UE) 2016/679 (RGPD), se considera Responsable del Tratamiento:",
+      "opciones": [
+        "A la persona física o jurídica, autoridad pública, servicio u otro organismo al que se comuniquen datos personales, se trate o no de un tercero.",
+        "A la persona física o jurídica, autoridad pública, servicio u otro organismo que trate datos personales por cuenta del responsable del tratamiento.",
+        "A la persona física o jurídica dedicada a una actividad económica, independientemente de su forma jurídica.",
+        "A la persona física o jurídica, autoridad pública, servicio u otro organismo que, solo o junto con otros, determine los fines y medios del tratamiento."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El art. 4.7 del RGPD define 'responsable del tratamiento' como la persona física o jurídica, autoridad pública, servicio u otro organismo que, solo o junto con otros, determine los fines y medios del tratamiento."
+    },
+    {
+      "id": 10,
+      "globalId": 10,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Según el artículo 39 del Reglamento (UE) 2016/679 (RGPD), actuar como punto de contacto de la autoridad de control para cuestiones relativas al tratamiento es una función de:",
+      "opciones": [
+        "El delegado de protección de datos.",
+        "El encargado de protección de datos.",
+        "El encargado del tratamiento de datos.",
+        "El responsable del tratamiento de datos."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El artículo 39.1.e) del RGPD asigna expresamente al Delegado de Protección de Datos (DPD) la función de actuar como punto de contacto con la autoridad de control."
+    },
+    {
+      "id": 11,
+      "globalId": 11,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Según el artículo 51 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, la actividad de investigación de la Agencia Española de Protección de Datos se llevará a cabo:",
+      "opciones": [
+        "Siempre por personal funcionario adscrito al Consejo General del Poder Judicial o a la Fiscalía General del Estado.",
+        "En aras de la independencia de las actuaciones, exclusivamente por personal funcionario ajeno a la Agencia Española de Protección de Datos.",
+        "Exclusivamente por personal funcionario de la Agencia Española de Protección de Datos.",
+        "Por personal funcionario de la Agencia Española de Protección de Datos o por personal funcionario ajeno a ella habilitado expresamente por su Presidencia."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El art. 51 de la LOPDGDD prevé que la actividad de investigación la realice personal funcionario de la AEPD o personal de otras AAPP habilitado por su Presidencia."
+    },
+    {
+      "id": 12,
+      "globalId": 12,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Según el Reglamento (UE) 2016/679 (RGPD), se entiende prestado el consentimiento del interesado para el tratamiento de sus datos personales:",
+      "opciones": [
+        "Mediante una declaración o una clara acción afirmativa.",
+        "Mediante la inacción.",
+        "De forma presunta.",
+        "Mediante una declaración o una clara acción negativa."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El art. 4.11 y Considerando 32 del RGPD exigen que el consentimiento se manifieste mediante una declaración o una clara acción afirmativa; el silencio, las casillas ya marcadas o la inacción no constituyen consentimiento."
+    },
+    {
+      "id": 13,
+      "globalId": 13,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Según el artículo 7.1 del Reglamento (UE) 2016/679 (RGPD), cuando el tratamiento de datos de carácter personal se base en el consentimiento del interesado, el responsable del tratamiento debe ser capaz de demostrar que aquel:",
+      "opciones": [
+        "Se otorgó por escrito ante fedatario público.",
+        "Ha consentido el tratamiento de sus datos personales.",
+        "Ha recibido una contraprestación económica a cambio.",
+        "Es mayor de edad en todo caso."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El art. 7.1 del RGPD (Principio de responsabilidad proactiva) establece que el responsable debe ser capaz de demostrar que el interesado consintió el tratamiento."
+    },
+    {
+      "id": 14,
+      "globalId": 14,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Según el artículo 33 del Reglamento (UE) 2016/679 (RGPD), en caso de violación de la seguridad de los datos personales, el responsable del tratamiento la notificará a la autoridad de control competente sin dilación indebida y, a más tardar, en un plazo (a menos que sea improbable que entrañe un riesgo para los derechos y las libertades de las personas físicas) de:",
+      "opciones": [
+        "5 días hábiles desde que se tenga constancia de la brecha de seguridad.",
+        "72 horas desde que se tenga constancia de la brecha de seguridad.",
+        "24 horas desde que se tenga constancia de la brecha de seguridad.",
+        "48 horas desde que se tenga constancia de la brecha de seguridad."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El art. 33.1 del RGPD fija el plazo máximo de notificación de violaciones de seguridad a la AEPD en 72 horas desde que se tenga constancia de las mismas."
+    },
+    {
+      "id": 15,
+      "globalId": 15,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "¿A qué tipo de información o categoría de datos resulta de aplicación el Reglamento (UE) 2016/679 (RGPD)?",
+      "opciones": [
+        "Al tratamiento total o parcialmente automatizado de datos personales, así como al tratamiento no automatizado de datos personales contenidos o destinados a ser incluidos en un fichero.",
+        "Únicamente a los tratamientos automatizados de datos almacenados en formato electrónico.",
+        "Exclusivamente a los ficheros de titularidad pública de la Unión Europea.",
+        "A la actividad de las autoridades competentes con fines de prevención o investigación de delitos o de protección frente a amenazas a la seguridad pública."
+      ],
+      "respuestaCorrecta": 0,
+      "anulada": false,
+      "explicacion": "El art. 2.1 del RGPD establece su ámbito de aplicación material: tratamiento automatizado o no automatizado de datos personales contenidos o destinados a un fichero."
+    },
+    {
+      "id": 16,
+      "globalId": 16,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "De acuerdo con el artículo 48.5 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿cuál será la duración del mandato de la Presidencia y del Adjunto de la Agencia Española de Protección de Datos?",
+      "opciones": [
+        "De cinco y cuatro años para la Presidencia y Adjunto respectivamente, no renovables.",
+        "De cinco años no renovables.",
+        "De cinco años y puede ser renovado para otro período de igual duración.",
+        "De cuatro años y puede ser renovado solo en el caso de la Presidencia."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El art. 48.5 de la LOPDGDD determina que el mandato de la Presidencia y del Adjunto a la AEPD tiene una duración de cinco años no renovables."
+    },
+    {
+      "id": 17,
+      "globalId": 17,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Según lo dispuesto en el Reglamento (UE) 2016/679 (RGPD), se considera destinatario de los datos:",
+      "opciones": [
+        "Únicamente a las autoridades públicas que puedan recibir datos personales en el marco de una investigación concreta.",
+        "A la persona física o jurídica, autoridad pública, servicio u otro organismo al que se comuniquen datos personales, se trate o no de un tercero.",
+        "Al encargado del tratamiento exclusivamente.",
+        "A las empresas proveedoras de servicios en la nube."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El art. 4.9 del RGPD define 'destinatario' como la persona física o jurídica, autoridad pública, servicio u otro organismo al que se comuniquen datos personales, se trate o no de un tercero."
+    },
+    {
+      "id": 18,
+      "globalId": 18,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Según el artículo 3 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, ¿pueden los herederos solicitar al responsable o encargado del tratamiento de datos el acceso a los de carácter personal de la persona fallecida?",
+      "opciones": [
+        "Solo en el caso de que el fallecido fuese una persona discapacitada o menor de edad.",
+        "No, porque lo prohíbe expresamente la Ley Orgánica 3/2018, de 5 de diciembre.",
+        "Solo para acceder a los datos de carácter patrimonial del causante.",
+        "Sí, salvo que el fallecido lo hubiere prohibido expresamente o así lo establezca una ley."
+      ],
+      "respuestaCorrecta": 3,
+      "anulada": false,
+      "explicacion": "El art. 3.1.a) de la LOPDGDD permite a las personas vinculadas al fallecido por razones familiares o de hecho, o sus herederos, acceder a sus datos personales salvo prohibición expresa del fallecido o de una ley."
+    },
+    {
+      "id": 19,
+      "globalId": 19,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Según el artículo 12.5 del Reglamento (UE) 2016/679 (RGPD), las actuaciones del responsable del tratamiento para dar respuesta a las solicitudes de los derechos de los interesados serán con carácter general:",
+      "opciones": [
+        "Con un coste fijo regulado en tasas administrativas.",
+        "Gratuitas.",
+        "De pago previo salvo exención judicial.",
+        "Gratuitas solo para la primera consulta del año natural."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El art. 12.5 del RGPD establece con carácter general la gratuidad del ejercicio de derechos por parte de los interesados."
+    },
+    {
+      "id": 20,
+      "globalId": 20,
+      "seccion": "Protección de Datos Personales y Derechos Digitales (AyalaTest 6)",
+      "pregunta": "Con arreglo a la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, señale cuál es la naturaleza jurídica de la Agencia Española de Protección de Datos:",
+      "opciones": [
+        "Organismo autónomo.",
+        "Autoridad administrativa independiente.",
+        "Autoridad administrativa dependiente.",
+        "Entidad pública empresarial."
+      ],
+      "respuestaCorrecta": 1,
+      "anulada": false,
+      "explicacion": "El artículo 44 de la LOPDGDD califica formalmente a la AEPD como Autoridad Administrativa Independiente con personalidad jurídica propia."
+    }
+  ]
+}
