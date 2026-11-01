@@ -583,11 +583,11 @@
         "Gozarán de inviolabilidad por las opiniones y actuaciones realizadas durante su mandato.",
         "Gozarán de inviolabilidad por las opiniones manifestadas en el ejercicio de sus funciones, e inmunidad durante su mandato.",
         "No podrán ser inculpados ni procesados sin la previa autorización de la Cámara respectiva."
-      ],
-      "respuestaCorrecta": 3,
-      "anulada": false,
-      "explicacion": "Artículo 71.2 CE: Durante el período de su mandato los Diputados y Senadores gozarán asimismo de inmunidad y sólo podrán ser detenidos en caso de flagrante delito. No podrán ser inculpados ni procesados sin la previa autorización de la Cámara respectiva."
-    },
+  ],
+  "respuestaCorrecta": 2,
+  "anulada": false,
+  "explicacion": "Artículo 71 CE: 1. Los Diputados y Senadores gozarán de inviolabilidad por las opiniones manifestadas en el ejercicio de sus funciones. 2. Durante el período de su mandato gozarán asimismo de inmunidad y sólo podrán ser detenidos en caso de flagrante delito. No podrán ser inculpados ni procesados sin la previa autorización de la Cámara respectiva."
+},
     {
       "id": 40,
       "globalId": 40,
