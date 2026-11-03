@@ -858,7 +858,7 @@
       "anulada": false,
       "explicacion": "La primera reforma constitucional se aprobó el 27 de agosto de 1992 para modificar el artículo 13.2 adaptándolo al Tratado de Maastricht."
     },
-    {
+{
       "id": 58,
       "globalId": 58,
       "seccion": "Bloque 1 - Constitución Española y Organización del Estado (AyalaTest)",
@@ -869,9 +869,9 @@
         "Le corresponde interponer el recurso de inconstitucionalidad.",
         "Le corresponde crear, modificar y suprimir los órganos directivos de los Departamentos Ministeriales."
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "anulada": false,
-      "explicacion": "Al Consejo de Ministros le corresponde proponer al Rey la convocatoria de un referéndum consultivo, previa autorización del Congreso de los Diputados (art. 5.1.c Ley del Gobierno)."
+      "explicacion": "Al Consejo de Ministros le corresponde la creación, modificación y supresión de los órganos directivos de los Departamentos Ministeriales (art. 5.1 de la Ley 50/1997, del Gobierno). Las otras tres opciones son competencias exclusivas del Presidente del Gobierno (art. 2 de la Ley del Gobierno)."
     },
     {
       "id": 59,
