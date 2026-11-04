@@ -1109,10 +1109,10 @@
         "Expedir.",
         "Conferir."
       ],
-      "respuestaCorrecta": 3,
-      "anulada": false,
-      "explicacion": "Artículo 62.f) CE: Corresponde al Rey conferir los empleos civiles y militares y conceder honores y distinciones con arreglo a las leyes."
-    },
+ "respuestaCorrecta": 1,
+  "anulada": false,
+  "explicacion": "Artículo 62.f) CE: Corresponde al Rey 'conceder honores y distinciones con arreglo a las leyes'. Ten en cuenta el desglose literal del Art. 62 para no confundir los verbos: 1) Conceder -> honores y distinciones (Art. 62.f). 2) Conferir -> empleos civiles y militares (Art. 62.f). 3) Expedir -> decretos acordados en el Consejo de Ministros (Art. 62.g)."
+},
     {
       "id": 75,
       "globalId": 75,
