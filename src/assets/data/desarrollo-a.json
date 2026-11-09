@@ -263,12 +263,7 @@
       "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
       "año": 2026,
       "pregunta": "Uno de sus compañeros ha desarrollado un servicio REST que recibe un JSON y le ha pedido ayuda para probar su funcionamiento, para lo cual va a utilizar la herramienta Postman versión 12. ¿Con qué tipo de dato debería enviar el cuerpo de la petición?",
-      "opciones": [
-        "none",
-        "GraphQL",
-        "raw",
-        "x-www-form-urlencoded"
-      ],
+      "opciones": ["none", "GraphQL", "raw", "x-www-form-urlencoded"],
       "respuestaCorrecta": 2,
       "anulada": false,
       "explicacion": "En Postman, para enviar cargas de datos en formatos crudos estructurados (como JSON o XML), se debe seleccionar el formato 'raw' y especificar el tipo MIME correspondiente (ej. application/json)."
@@ -311,12 +306,7 @@
       "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
       "año": 2026,
       "pregunta": "Para evitar ataques de denegación de servicio se ha decidido implementar un control de peticiones máximas en un periodo de tiempo concreto (rate limiting). ¿Qué código HTTP deberá devolverse cuando un usuario alcance el límite establecido?",
-      "opciones": [
-        "425",
-        "429",
-        "502",
-        "503"
-      ],
+      "opciones": ["425", "429", "502", "503"],
       "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "El código de estado '429 Too Many Requests' indica específicamente que el cliente ha enviado demasiadas peticiones dentro de una ventana de tiempo predefinida."
@@ -327,12 +317,7 @@
       "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
       "año": 2026,
       "pregunta": "¿Con qué tipo de fichero debe trabajar si desea implementar pruebas unitarias en un componente del frontend?",
-      "opciones": [
-        "component.ts",
-        "test.ts",
-        "module.ts",
-        "spec.ts"
-      ],
+      "opciones": ["component.ts", "test.ts", "module.ts", "spec.ts"],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "En frameworks de frontend como Angular, los archivos que contienen las especificaciones y pruebas unitarias de los componentes se nombran tradicionalmente con la extensión '.spec.ts'."
@@ -343,12 +328,7 @@
       "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
       "año": 2026,
       "pregunta": "En uno de los componentes del frontend detecta la siguiente expresión regular para controlar el campo de entrada del teléfono:\n[\\+34|34]*[ -]*(3)[0-9]{8}\n¿Cuál de las siguientes opciones cumple la expresión regular?",
-      "opciones": [
-        "641992011",
-        "641 992 011",
-        "+34 641992011",
-        "+34641992011"
-      ],
+      "opciones": ["641992011", "641 992 011", "+34 641992011", "+34641992011"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "Nota técnica: Aunque el tribunal publicó en su plantilla como correcta la opción A (641992011), existe una errata en la expresión regular de la pregunta ya que requiere que el número empiece obligatoriamente por '3' ((3)), cuando los móviles de España inician por '6' o '7'."
@@ -359,12 +339,7 @@
       "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
       "año": 2026,
       "pregunta": "Le consultan si conoce alguna herramienta para formatear el código de la aplicación. ¿Cuál de las siguientes es una opción válida para ello?",
-      "opciones": [
-        "SonarQube.",
-        "Prettier.",
-        "Quokka.",
-        "PMD."
-      ],
+      "opciones": ["SonarQube.", "Prettier.", "Quokka.", "PMD."],
       "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "Prettier es un formateador de código (code formatter) de opinión consolidada compatible con múltiples lenguajes que automatiza los saltos y espaciados de línea."
@@ -375,12 +350,7 @@
       "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
       "año": 2026,
       "pregunta": "En la Subdirección se han sustituido los ordenadores utilizados para desarrollar aplicaciones, y por tanto, debe clonarse el repositorio de código de la aplicación para continuar su trabajo. ¿Con qué comando de Git puede hacerlo?",
-      "opciones": [
-        "git clone",
-        "git init",
-        "git add",
-        "git create"
-      ],
+      "opciones": ["git clone", "git init", "git add", "git create"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "El comando 'git clone' se utiliza para crear una copia exacta local de un repositorio Git que reside en un servidor remoto."
@@ -391,12 +361,7 @@
       "seccion": "Oposición TAI 2026 - Ejercicio Oficial (Opción A: Desarrollo de Sistemas)",
       "año": 2026,
       "pregunta": "Tras realizar una modificación en la API de Java se necesita aumentar el número de versión de la API. ¿Qué fichero deberá modificar para ello, suponiendo que se usa Maven 3.9?",
-      "opciones": [
-        "package.json",
-        "pom.xml",
-        ".csproj",
-        "package-lock.json"
-      ],
+      "opciones": ["package.json", "pom.xml", ".csproj", "package-lock.json"],
       "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "En proyctos de Java construidos con Maven, la configuración del proycto y la declaración de su versión se administran de forma centralizada en el archivo XML llamado 'pom.xml' (Project Object Model)."
@@ -647,12 +612,7 @@
       "seccion": "Oposición TAI 2026 - Caso Extraordinario (Caso EDUCA-DATA 2030) (Opción A)",
       "año": 2026,
       "pregunta": "El sistema implementa un Web Service REST que permite registrar un nuevo alumno en la base de datos. Lo utiliza una aplicación administrativa que envía una solicitud al backend para crear el nuevo registro. Tras crear correctamente el recurso en la base de datos, el Web Service debe devolver el código HTTP adecuado conforme a los estándares REST. ¿Cuál es el código de estado HTTP que existe específicamente para responder a este caso?",
-      "opciones": [
-        "200 OK",
-        "201 Created",
-        "204 No Content",
-        "202 Accepted"
-      ],
+      "opciones": ["200 OK", "201 Created", "204 No Content", "202 Accepted"],
       "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "El código de estado '201 Created' indica específicamente que la solicitud HTTP se ha procesado con éxito y se ha creado un nuevo recurso en el servidor."
@@ -887,12 +847,7 @@
       "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
       "año": 2025,
       "pregunta": "Se ha determinado que es necesaria la integración de la aplicación con GEISER, cuyos servicios web son de naturaleza SOAP. ¿Con qué firmará las peticiones generadas por la aplicación?",
-      "opciones": [
-        "WS-Security.",
-        "SAML.",
-        "JWT.",
-        "XML-Encryption."
-      ],
+      "opciones": ["WS-Security.", "SAML.", "JWT.", "XML-Encryption."],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "WS-Security es una especificación SOAP estándar que dota de mecanismos de integridad y firma digital para el intercambio de mensajes XML seguros."
@@ -935,12 +890,7 @@
       "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
       "año": 2025,
       "pregunta": "Para que la aplicación de gestión pueda interactuar con esta aplicación, se va a exponer una capa de servicios web. ¿Cuál de las siguientes opciones NO es válida para documentar dichos servicios?",
-      "opciones": [
-        "RAML.",
-        "REST.",
-        "WSDL.",
-        "OpenAPI/Swagger."
-      ],
+      "opciones": ["RAML.", "REST.", "WSDL.", "OpenAPI/Swagger."],
       "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "REST (Representational State Transfer) es un estilo arquitectónico de servicios web, no un lenguaje o formato de especificación documental, a diferencia de RAML, WSDL u OpenAPI."
@@ -951,12 +901,7 @@
       "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
       "año": 2025,
       "pregunta": "Necesita controlar el plazo de presentación de solicitudes. Suponiendo que utiliza Java en el backend, ¿qué clase nativa de Java puede utilizar para trabajar con una fecha y hora simultáneamente?",
-      "opciones": [
-        "LocalDateTime.",
-        "LocalDate.",
-        "LocalTime.",
-        "OffsetTime."
-      ],
+      "opciones": ["LocalDateTime.", "LocalDate.", "LocalTime.", "OffsetTime."],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "La clase nativa 'java.time.LocalDateTime' introducida en Java 8 permite encapsular de forma limpia una fecha y hora completa sin huso horario."
@@ -983,12 +928,7 @@
       "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
       "año": 2025,
       "pregunta": "En un entorno de desarrollo Java, ¿qué utilizaría para mapear elementos XML a clases?",
-      "opciones": [
-        "JAXB.",
-        "JPA.",
-        "JAXR.",
-        "JAX-RS."
-      ],
+      "opciones": ["JAXB.", "JPA.", "JAXR.", "JAX-RS."],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "JAXB (Java Architecture for XML Binding) es la especificación para el mapeo mutuo y bidireccional entre documentos XML y clases de Java."
@@ -1127,12 +1067,7 @@
       "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
       "año": 2025,
       "pregunta": "Para diseñar el estilo de los campos de entrada obligatorios del formulario de solicitud se va a hacer uso del siguiente selector CSS: “input:required”. ¿Cuál es su especificidad?",
-      "opciones": [
-        "1-1-0.",
-        "0-1-1.",
-        "1-0-1.",
-        "1-0-0."
-      ],
+      "opciones": ["1-1-0.", "0-1-1.", "1-0-1.", "1-0-0."],
       "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "La especificidad del selector tiene 0 ID, 1 pseudoclase (:required), y 1 etiqueta (input), lo que resulta en un valor de 0-1-1."
@@ -1175,12 +1110,7 @@
       "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
       "año": 2025,
       "pregunta": "¿Qué tendrá que configurar en el backend si quiere restringir que las únicas peticiones HTTP de origen cruzado iniciadas desde scripts que se acepten procedan del frontend?",
-      "opciones": [
-        "HSTS.",
-        "CSP.",
-        "TLS.",
-        "CORS."
-      ],
+      "opciones": ["HSTS.", "CSP.", "TLS.", "CORS."],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "CORS (Cross-Origin Resource Sharing) es la especificación de cabeceras HTTP que determina si los recursos web expuestos pueden ser consumidos desde un origen o dominio diferente."
@@ -1191,12 +1121,7 @@
       "seccion": "Oposición TAI 2025 - Caso Extraordinario (Opción A)",
       "año": 2025,
       "pregunta": "Quiere facilitar la incorporación de otros desarrolladores al proyecto y para ello, en el repositorio de código, va a crear un fichero en el que incluirá, entre otra información, el propósito del proyecto y cómo arrancarlo localmente. Esa información se incluirá en el fichero:",
-      "opciones": [
-        "CODEOWNERS.",
-        "README.MD.",
-        "LICENSE.",
-        "CITATION."
-      ],
+      "opciones": ["CODEOWNERS.", "README.MD.", "LICENSE.", "CITATION."],
       "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "Por convención, el archivo con formato markdown llamado 'README.md' ubicado en la raíz del repositorio de código se utiliza para documentar el alcance del proyecto."
@@ -1208,14 +1133,14 @@
       "año": 2022,
       "pregunta": "En el diagrama de clases la relación existente entre “Solicitud Representación” y “Trámite”, ¿qué multiplicidades serían compatibles con los requisitos planteados en el enunciado?",
       "opciones": [
-        "‘1’ en el recuadro “SR>T” y ‘1’ en el recuadro “T>SR”.",
-        "‘1’ en el recuadro “SR>T” y ‘0..N’ en el recuadro “T>SR”.",
-        "‘0..N’ en el recuadro “SR>T” y ‘1’ en el recuadro “T>SR”.",
-        "‘1..N’ en el recuadro “SR>T” y ‘0..N’ en el recuadro “T>SR”."
+        "‘1’ en el recuadro “SR&gt;T” y ‘1’ en el recuadro “T&gt;SR”.",
+        "‘1’ en el recuadro “SR&gt;T” y ‘0..N’ en el recuadro “T&gt;SR”.",
+        "‘0..N’ en el recuadro “SR&gt;T” y ‘1’ en el recuadro “T&gt;SR”.",
+        "‘1..N’ en el recuadro “SR&gt;T” y ‘0..N’ en el recuadro “T&gt;SR”."
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "Una solicitud de representación se asocia a un único trámite ('1' en la clase Trámite), mientras que un trámite puede ser solicitado por múltiples o ninguna solicitud de representación ('0..N' en la clase Solicitud)."
+      "explicacion": "La respuesta correcta es la opción B (índice 1). Según el enunciado del supuesto práctico, una solicitud de representación solo es válida para un trámite a la vez ('1' en el recuadro SR&gt;T), mientras que un trámite puede ser solicitado por un número cualquiera de interesados ('0..N' en el recuadro T&gt;SR)."
     },
     {
       "id": 77,
@@ -1239,12 +1164,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "Para almacenar los datos de las solicitudes de representación de un interesado en Java SE 17, sabiendo que no se admiten duplicados en el listado de solicitudes, ¿qué tipo de colección de java.util utilizaría?",
-      "opciones": [
-        "List",
-        "Stack",
-        "Collection",
-        "Set"
-      ],
+      "opciones": ["List", "Stack", "Collection", "Set"],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "La interfaz 'Set' de java.util representa una colección que no permite elementos duplicados, garantizando la unicidad de las solicitudes almacenadas."
@@ -1271,12 +1191,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "Si fuese el motor de Base de Datos ORACLE, indique cuál de los siguientes es un lenguaje de procedimiento cuya sintaxis permite insertar sentencias SQL y se almacena compilado dentro de la base de datos:",
-      "opciones": [
-        "TRANSACT SQL",
-        "PL/SQL",
-        "FORTRAN",
-        "COBOL"
-      ],
+      "opciones": ["TRANSACT SQL", "PL/SQL", "FORTRAN", "COBOL"],
       "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "PL/SQL (Procedural Language/Structured Query Language) es el lenguaje procedimental de Oracle que amplía el estándar SQL con estructuras de programación de control."
@@ -1303,12 +1218,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "La última versión del estándar de UML es:",
-      "opciones": [
-        "2.5",
-        "2.4.1",
-        "2.4",
-        "3.0"
-      ],
+      "opciones": ["2.5", "2.4.1", "2.4", "3.0"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "La versión de UML ampliamente adoptada y estandarizada por el Object Management Group (OMG) es la versión 2.5."
@@ -1335,12 +1245,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "¿Qué framework se puede usar para aplicaciones de escritorio nativas .NET?",
-      "opciones": [
-        ".NET MAUI",
-        "Blazor Hybrid",
-        "JavaFX",
-        "WebView"
-      ],
+      "opciones": [".NET MAUI", "Blazor Hybrid", "JavaFX", "WebView"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": ".NET MAUI (Multi-platform App UI) es el framework de Microsoft de nueva generación para el diseño de aplicaciones nativas multiplataforma de escritorio y móviles."
@@ -1415,12 +1320,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "¿Cuál es una herramienta de análisis de seguridad y calidad de código?",
-      "opciones": [
-        "SonarQube",
-        "SonarCode",
-        "SonarCuality",
-        "SonarSrc"
-      ],
+      "opciones": ["SonarQube", "SonarCode", "SonarCuality", "SonarSrc"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "SonarQube es una plataforma líder para la inspección continua de la calidad y la seguridad del código mediante el análisis estático de código fuente."
@@ -1431,12 +1331,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "¿Cuál de los siguientes es un protocolo de seguridad usado en las comunicaciones HTTP?",
-      "opciones": [
-        "TLS",
-        "SSL",
-        "STARTTLS",
-        "WPA2"
-      ],
+      "opciones": ["TLS", "SSL", "STARTTLS", "WPA2"],
       "respuestaCorrecta": 0,
       "anulada": true,
       "explicacion": "Pregunta anulada por la comisión de selección. El protocolo estándar moderno para dotar de seguridad y cifrado al protocolo HTTP es TLS (Transport Layer Security)."
@@ -1447,12 +1342,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "¿Qué tecnología de las siguientes es adecuada para implementar la recepción de notificaciones nativas en los teléfonos inteligentes del representante y del interesado?",
-      "opciones": [
-        "WebView",
-        "Mobile push",
-        "CDMA",
-        "Wi-Fi"
-      ],
+      "opciones": ["WebView", "Mobile push", "CDMA", "Wi-Fi"],
       "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "La tecnología de Mobile Push Notifications (notificaciones push móviles) se utiliza para transmitir mensajes en tiempo real directamente al sistema operativo de dispositivos móviles."
@@ -1463,12 +1353,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "¿Cuál de los siguientes lenguajes de estilos emplearía si le piden modificar el color de un botón en el frontal web?",
-      "opciones": [
-        "XML",
-        "SGML",
-        "XSL",
-        "CSS"
-      ],
+      "opciones": ["XML", "SGML", "XSL", "CSS"],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "CSS (Cascading Style Sheets) es el lenguaje de diseño y de presentación utilizado para dar estilo a los elementos y estructuras de las páginas HTML."
@@ -1511,12 +1396,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "Señale el software que permite automatizar la construcción y despliegue de un proyecto utilizando el concepto de pipelines:",
-      "opciones": [
-        "Jenkins",
-        "RabbitMQ",
-        "Apache Kafka",
-        "Subversion"
-      ],
+      "opciones": ["Jenkins", "RabbitMQ", "Apache Kafka", "Subversion"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "Jenkins es una de las principales herramientas de servidor de automatización de código abierto que se utiliza para implementar la Integración Continuas y la Entrega Continua (CI/CD) mediante tuberías (pipelines)."
@@ -1527,12 +1407,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "En JSON, ¿qué valor mostraría la consola si ejecutamos este código: console.log(4 * 3 ** 2)?",
-      "opciones": [
-        "36",
-        "-1",
-        "24",
-        "Null"
-      ],
+      "opciones": ["36", "-1", "24", "Null"],
       "respuestaCorrecta": 0,
       "anulada": true,
       "explicacion": "Pregunta anulada por la comisión de selección. El operador de exponenciación '**' calcula 3^2 = 9, y luego se multiplica por 4, dando un resultado matemático de 36."
@@ -1543,12 +1418,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "¿Qué característica o atributo de seguridad de las cookies, permite que el navegador solo envíe la cookie al servidor si ésta se originó en el mismo sitio web al que estamos intentando contactar?",
-      "opciones": [
-        "Domain",
-        "SameSite",
-        "Secure",
-        "HttpOnly"
-      ],
+      "opciones": ["Domain", "SameSite", "Secure", "HttpOnly"],
       "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "El atributo 'SameSite' de las cookies restringe el envío cruzado (cross-site) de las cookies al navegador para mitigar ataques CSRF."
@@ -1559,12 +1429,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "En PHP, señale qué variable de entorno se puede usar para almacenar datos del inicio de sesión de un usuario:",
-      "opciones": [
-        "$_SESSION",
-        "$SESSION",
-        "$_GLOBAL",
-        "$GLOBAL"
-      ],
+      "opciones": ["$_SESSION", "$SESSION", "$_GLOBAL", "$GLOBAL"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "En PHP, la superglobal '$_SESSION' es una matriz asociativa que mantiene la persistencia de datos del usuario a lo largo de las solicitudes del cliente."
@@ -1575,12 +1440,7 @@
       "seccion": "Oposición TAI OEP 2022 - Supuesto Práctico I (Opción A)",
       "año": 2022,
       "pregunta": "¿Qué conjunto de herramientas de presentación y comportamiento ofrece componentes para trabajar en la parte dinámica del frontal web HTML?",
-      "opciones": [
-        "NumPy",
-        "ActiveMQ",
-        "Bootstrap",
-        "TensorFlow"
-      ],
+      "opciones": ["NumPy", "ActiveMQ", "Bootstrap", "TensorFlow"],
       "respuestaCorrecta": 2,
       "anulada": false,
       "explicacion": "Bootstrap es un potente toolkit de front-end que ofrece una estructura CSS y componentes basados en JavaScript interactivo para interfaces adaptables."
@@ -1719,12 +1579,7 @@
       "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
       "año": 2019,
       "pregunta": "Dentro de las tecnologías para el desarrollo web utilizadas en su unidad, se contempla utilizar javascript. ¿Qué valor devuelve la siguiente función javascript? Function prueba() { var i = 1; var j = 0; while (i < 7) { j += i; i += 2; } return j; }",
-      "opciones": [
-        "2",
-        "9",
-        "6",
-        "0"
-      ],
+      "opciones": ["2", "9", "6", "0"],
       "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "El bucle se ejecuta tres veces para i = 1, 3 y 5 (acumulando j = 1 + 3 + 5 = 9). En i = 7 el bucle termina, devolviendo el valor 9."
@@ -1751,12 +1606,7 @@
       "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
       "año": 2019,
       "pregunta": "Se está valorando la realización de otros desarrollos de Machine Learning para Python y le preguntan cuál de las siguientes podría ser una librería válida para ello.",
-      "opciones": [
-        "Keras",
-        "Yum",
-        "Mahotas",
-        "Openpyxl"
-      ],
+      "opciones": ["Keras", "Yum", "Mahotas", "Openpyxl"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "Keras es una biblioteca de código abierto escrita en Python diseñada para facilitar la creación y experimentación con redes neuronales profundas."
@@ -1911,12 +1761,7 @@
       "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
       "año": 2019,
       "pregunta": "Como repositorio de código en su unidad se utiliza Git, y le preguntan, ¿qué comando, de entre los siguientes, muestra una lista de los commits anteriores?",
-      "opciones": [
-        "git commit",
-        "git fetch",
-        "git status",
-        "git log"
-      ],
+      "opciones": ["git commit", "git fetch", "git status", "git log"],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "El comando 'git log' se utiliza para explorar el historial de confirmaciones de la rama de trabajo actual en orden cronológico inverso."
@@ -1959,12 +1804,7 @@
       "seccion": "Oposición TAI OEP 2019 - Supuesto Práctico I (Opción A)",
       "año": 2019,
       "pregunta": "Entre los lenguajes contemplados para el nuevo sistema de información se encuentra Python. De entre los siguientes, ¿cuál es un framework para desarrollo web en Python?",
-      "opciones": [
-        "Django",
-        "Keras",
-        "Pip",
-        "Numpy"
-      ],
+      "opciones": ["Django", "Keras", "Pip", "Numpy"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "Django es un framework de desarrollo web de alto nivel, gratuito y de código abierto, escrito en Python que fomenta el diseño rápido."

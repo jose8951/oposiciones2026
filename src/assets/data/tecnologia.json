@@ -73,12 +73,7 @@
       "idEnExamen": 25,
       "globalId": 25,
       "pregunta": "¿Cuál de los siguientes algoritmos de planificación de CPU asigna un quantum de tiempo de CPU a cada proceso?",
-      "opciones": [
-        "FCFS.",
-        "SJF.",
-        "Por prioridades.",
-        "Round Robin."
-      ],
+      "opciones": ["FCFS.", "SJF.", "Por prioridades.", "Round Robin."],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "El algoritmo Round Robin (RR) está diseñado especialmente para sistemas de tiempo compartido. Asigna una pequeña unidad de tiempo de CPU llamada 'quantum' o 'time slice' de manera cíclica a cada proceso listo.",
@@ -90,12 +85,7 @@
       "idEnExamen": 26,
       "globalId": 26,
       "pregunta": "Considerando el nodo raíz como nivel 1, ¿cuál es el número máximo de nodos en un árbol binario que tiene 4 niveles?",
-      "opciones": [
-        "15",
-        "9",
-        "16",
-        "10"
-      ],
+      "opciones": ["15", "9", "16", "10"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "El número máximo de nodos en un árbol binario de altura h es 2^h - 1. Para 4 niveles, el número máximo de nodos es 2^4 - 1 = 16 - 1 = 15.",
@@ -226,12 +216,7 @@
       "idEnExamen": 34,
       "globalId": 34,
       "pregunta": "Señale cuál de las siguientes es una base datos orientada a grafos:",
-      "opciones": [
-        "DynamoDB.",
-        "CouchDB.",
-        "JanusGraph.",
-        "HBase."
-      ],
+      "opciones": ["DynamoDB.", "CouchDB.", "JanusGraph.", "HBase."],
       "respuestaCorrecta": 2,
       "anulada": false,
       "explicacion": "JanusGraph es una base de datos NoSQL orientada a grafos de código abierto. DynamoDB es clave-valor/documental, CouchDB es documental y HBase es de familias de columnas.",
@@ -328,12 +313,7 @@
       "idEnExamen": 40,
       "globalId": 40,
       "pregunta": "En el sistema gestor de base de datos Oracle, indique qué valor numérico devolverá la ejecución de la siguiente sentencia: SELECT INSTR('Corporate Floor','or', 3, 2) \"Prueba\" FROM DUAL;",
-      "opciones": [
-        "2",
-        "5",
-        "13",
-        "14"
-      ],
+      "opciones": ["2", "5", "13", "14"],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "La función `INSTR(string, substring, start, occurrence)` en Oracle devuelve la posición de la ocurrencia buscada. En 'Corporate Floor', buscando 'or' empezando en la posición 3, la primera ocurrencia que encuentra está en la posición 5 ('Corp**or**ate') y la segunda está en la posición 14 ('Flo**or**').",
@@ -396,12 +376,7 @@
       "idEnExamen": 24,
       "globalId": 24,
       "pregunta": "¿Qué nivel de caché está integrado físicamente dentro del núcleo del procesador, es el más rápido y tiene la menor capacidad de almacenamiento?",
-      "opciones": [
-        "Caché L1.",
-        "Caché L2.",
-        "Caché L3.",
-        "Caché L4."
-      ],
+      "opciones": ["Caché L1.", "Caché L2.", "Caché L3.", "Caché L4."],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "La caché L1 (Level 1) se encuentra integrada físicamente dentro de cada núcleo del procesador, funcionando a la misma velocidad que el propio núcleo (lo que la hace la más rápida) pero con una capacidad de almacenamiento muy limitada.",
@@ -447,12 +422,7 @@
       "idEnExamen": 27,
       "globalId": 27,
       "pregunta": "¿Cuál es el ancho de banda máximo de la especificación HDMI 2.1?",
-      "opciones": [
-        "10 Gbps.",
-        "18 Gbps.",
-        "32 Gbps.",
-        "48 Gbps."
-      ],
+      "opciones": ["10 Gbps.", "18 Gbps.", "32 Gbps.", "48 Gbps."],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "La especificación HDMI 2.1 introdujo mejoras sustanciales en la transmisión de vídeo y audio de alta resolución, alcanzando un ancho de banda máximo de 48 Gbps.",
@@ -583,12 +553,7 @@
       "idEnExamen": 35,
       "globalId": 35,
       "pregunta": "En el contexto de las bases de datos orientadas a objetos, ¿cuál de los siguientes NO es considerado un constructor de tipo de colección?",
-      "opciones": [
-        "Columna.",
-        "Array.",
-        "Bolsa.",
-        "Lista."
-      ],
+      "opciones": ["Columna.", "Array.", "Bolsa.", "Lista."],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "Los constructores de colecciones típicos del estándar ODMG en bases de datos orientadas a objetos son: set, bag (bolsa), list (lista) y array. 'Columna' es un elemento estructurado relacional clásico.",
@@ -600,12 +565,7 @@
       "idEnExamen": 36,
       "globalId": 36,
       "pregunta": "¿Cuál de las siguientes bases de datos utiliza Cypher como lenguaje de consulta de información?",
-      "opciones": [
-        "MongoDB.",
-        "CouchDB.",
-        "Cassandra.",
-        "Neo4j."
-      ],
+      "opciones": ["MongoDB.", "CouchDB.", "Cassandra.", "Neo4j."],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "Cypher es el lenguaje de consultas declarativo diseñado específicamente para interrogar y manipular bases de datos orientadas a grafos, siendo el lenguaje por excelencia de Neo4j.",
@@ -668,12 +628,7 @@
       "idEnExamen": 40,
       "globalId": 40,
       "pregunta": "En JavaScript, siendo a = 10, b = 4 y c = 4, la expresión condicional (a + b) % 2 == 0 ? c + 4 : c - 2 da como resultado:",
-      "opciones": [
-        "8",
-        "4",
-        "7",
-        "9"
-      ],
+      "opciones": ["8", "4", "7", "9"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "La expresión comprueba si la suma (10 + 4 = 14) es divisible por 2 (14 % 2 es igual a 0). Dado que se cumple la condición, se ejecuta la primera parte del operador ternario: c + 4 == 4 + 4 == 8.",
@@ -719,12 +674,7 @@
       "idEnExamen": 20,
       "globalId": 20,
       "pregunta": "Indique, de las siguientes palabras, cuál indica además un número hexadecimal válido:",
-      "opciones": [
-        "EBOCA",
-        "BECADAS",
-        "ACCEDA",
-        "CEGADA"
-      ],
+      "opciones": ["EBOCA", "BECADAS", "ACCEDA", "CEGADA"],
       "respuestaCorrecta": 2,
       "anulada": false,
       "explicacion": "El sistema hexadecimal utiliza los caracteres del 0 al 9 y de la A a la F. La palabra 'ACCEDA' solo contiene letras válidas dentro del rango A-F, por lo que representa un número hexadecimal válido.",
@@ -736,12 +686,7 @@
       "idEnExamen": 21,
       "globalId": 21,
       "pregunta": "Señale cuál de las siguientes es un formato de interfaz SSD:",
-      "opciones": [
-        "HHP",
-        "MMVe",
-        "MMD",
-        "M.2"
-      ],
+      "opciones": ["HHP", "MMVe", "MMD", "M.2"],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "M.2 (anteriormente NGFF) es una especificación para tarjetas de expansión internas y conectores asociados que se utiliza de forma estándar para los SSD de estado sólido de alta velocidad.",
@@ -872,12 +817,7 @@
       "idEnExamen": 29,
       "globalId": 29,
       "pregunta": "¿Cuál de los siguientes es un Sistema de Gestión de Bases de Datos Orientadas a Objetos (SGDBOO)?",
-      "opciones": [
-        "Cézanne.",
-        "Picasso.",
-        "Matisse.",
-        "Rembrandt."
-      ],
+      "opciones": ["Cézanne.", "Picasso.", "Matisse.", "Rembrandt."],
       "respuestaCorrecta": 2,
       "anulada": false,
       "explicacion": "Matisse es un reconocido sistema comercial de gestión de bases de datos relacionales orientadas a objetos (SGBDOO) de alto rendimiento.",
@@ -906,12 +846,7 @@
       "idEnExamen": 31,
       "globalId": 31,
       "pregunta": "Señale, de entre las siguientes opciones, el mecanismo en el Modelo Entidad/Relación Extendido que recoge Métrica v3 consistente en relacionar dos tipos de entidades que normalmente son de dominios independientes, pero coyunturalmente se asocian:",
-      "opciones": [
-        "Asociación.",
-        "Generalización.",
-        "PERT.",
-        "Regresión."
-      ],
+      "opciones": ["Asociación.", "Generalización.", "PERT.", "Regresión."],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "En el modelado Entidad-Relación extendido de Métrica v3, la asociación permite conectar semánticamente dos tipos de entidades que operan en dominios de aplicación independientes pero que circunstancialmente interactúan.",
@@ -1076,12 +1011,7 @@
       "idEnExamen": 21,
       "globalId": 21,
       "pregunta": "¿Cuál de los siguientes es el nombre de un conector usado para carga y datos creado por el fabricante Apple?",
-      "opciones": [
-        "USB-Tipo C",
-        "iUSB",
-        "iFirewire",
-        "Lightning"
-      ],
+      "opciones": ["USB-Tipo C", "iUSB", "iFirewire", "Lightning"],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "Lightning es la interfaz propietaria de transmisión de datos y carga eléctrica desarrollada por Apple para dispositivos móviles como el iPhone y iPad.",
@@ -1178,12 +1108,7 @@
       "idEnExamen": 27,
       "globalId": 27,
       "pregunta": "¿Cuál de las siguientes es una tecnología de almacenamiento en disco mediante bus serie?",
-      "opciones": [
-        "SATA",
-        "ATA",
-        "SCSI",
-        "DLT"
-      ],
+      "opciones": ["SATA", "ATA", "SCSI", "DLT"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "SATA (Serial Advanced Technology Attachment) es una interfaz de bus serie utilizada para conectar dispositivos de almacenamiento como discos duros y SSDs. ATA y SCSI son buses paralelos clásicos, y DLT es almacenamiento en cinta.",
@@ -1467,12 +1392,7 @@
       "idEnExamen": 24,
       "globalId": 24,
       "pregunta": "¿Qué solución común permite la gestión de la nómina de empleados públicos?",
-      "opciones": [
-        "SOROLLA2",
-        "BADARAL",
-        "NEDAES",
-        "NOMINAe"
-      ],
+      "opciones": ["SOROLLA2", "BADARAL", "NEDAES", "NOMINAe"],
       "respuestaCorrecta": 2,
       "anulada": false,
       "explicacion": "NEDAES es la aplicación estándar proporcionada por la administración del Estado diseñada para la gestión completa y centralizada de la nómina del personal de las Administraciones públicas.",
@@ -1518,12 +1438,7 @@
       "idEnExamen": 27,
       "globalId": 27,
       "pregunta": "Indique cuál de las siguientes es una tecnología de interfaz hardware:",
-      "opciones": [
-        "Thunderbird",
-        "HIT",
-        "Thunderbolt",
-        "RISC"
-      ],
+      "opciones": ["Thunderbird", "HIT", "Thunderbolt", "RISC"],
       "respuestaCorrecta": 2,
       "anulada": false,
       "explicacion": "Thunderbolt es la interfaz de bus hardware de alta velocidad desarrollada por Intel en colaboración con Apple para conectar periféricos de almacenamiento y pantallas.",
@@ -1569,12 +1484,7 @@
       "idEnExamen": 30,
       "globalId": 30,
       "pregunta": "Si un árbol binario lo recorremos siguiendo el orden siguiente: raíz, subárbol izquierdo, subárbol derecho, ¿cuál de los siguientes tipos de recorrido estamos utilizando?",
-      "opciones": [
-        "Preorden",
-        "Inorden",
-        "Postorden",
-        "Reorden"
-      ],
+      "opciones": ["Preorden", "Inorden", "Postorden", "Reorden"],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "El recorrido Raíz-Izquierda-Derecha (RID) corresponde de manera inequívoca al recorrido en Preorden de un árbol binario.",
@@ -1586,12 +1496,7 @@
       "idEnExamen": 31,
       "globalId": 31,
       "pregunta": "En una distribución Linux, ¿qué directorio contiene, entre otros, los ficheros de configuración tanto a nivel de componentes del sistema operativo en sí, como de los programas y aplicaciones instaladas a posteriori?",
-      "opciones": [
-        "/root",
-        "/bin",
-        "/dev",
-        "/etc"
-      ],
+      "opciones": ["/root", "/bin", "/dev", "/etc"],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "El directorio `/etc` es el lugar dedicado por el estándar FHS en Linux para almacenar todos los archivos de configuración locales del sistema y las aplicaciones.",
@@ -1653,7 +1558,7 @@
     {
       "idEnExamen": 35,
       "globalId": 35,
-      "pregunta": "Indique la afirmación FALSA en referencia a los diagramas de flujo de datos de Métrica v3:",
+      "pregunta": "Indique la definición correcta en referencia a los diagramas de flujo de datos de Métrica v3:",
       "opciones": [
         "Almacén de datos: representa la información en movimiento utilizada por el sistema.",
         "Proceso de control: representa procesos que coordinan y sincronizan las actividades de otros procesos del diagrama de flujo de datos.",
@@ -1662,11 +1567,11 @@
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "En Métrica v3, un almacén de datos representa información en reposo, mientras que el flujo de datos representa información en movimiento. Por lo tanto, la opción que describe el almacén como 'información en movimiento' es falsa (y por tanto la correcta). Wait, let's verify if the answer key is B (1). Yes, in plantilla 695: 'Supuesto I' wait, first part 35 is B (1).",
-      "seccion": "Oposición TAI OEP 2019 - Ejercicio Oficial (Bloque II: Tecnología Básica)",
+      "explicacion": "En Métrica v3, el proceso de control coordina y sincroniza las actividades de otros procesos del DFD. El almacén representa datos en reposo, no en movimiento; el movimiento lo representan los flujos de datos.",
       "año": 2019,
       "id": 98
     },
+
     {
       "idEnExamen": 36,
       "globalId": 36,

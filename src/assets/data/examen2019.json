@@ -281,12 +281,12 @@
       "globalId": 20,
       "seccion": "Primera Parte",
       "pregunta": "Conforme al artículo 30 de la Ley 39/2015, de Procedimiento Administrativo Común de las Administraciones Públicas, el cómputo de plazos señalados en días, siempre que por Ley o en el Derecho de la Unión Europea no se exprese otro cómputo, se entienden como:",
-"opciones": [
-    "Días hábiles, contados a partir del día siguiente\u00A0\u00A0\u00A0\u00A0a aquel que tenga la notificación o publicación del acto de que se trate.",
-    "Días hábiles, contados a partir del mismo día\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0a aquel que tenga la notificación o publicación del acto de que se trate.",
-    "Días naturales, contados a partir del día siguiente\u00A0a aquel que tenga la notificación o publicación del acto de que se trate.",
-    "Días naturales, contados a partir del mismo día\u00A0\u00A0\u00A0\u00A0\u00A0a aquel que tenga la notificación o publicación del acto de que se trate."
-  ],
+      "opciones": [
+        "Días hábiles, contados a partir del día siguiente\u00A0\u00A0\u00A0\u00A0a aquel que tenga la notificación o publicación del acto de que se trate.",
+        "Días hábiles, contados a partir del mismo día\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0a aquel que tenga la notificación o publicación del acto de que se trate.",
+        "Días naturales, contados a partir del día siguiente\u00A0a aquel que tenga la notificación o publicación del acto de que se trate.",
+        "Días naturales, contados a partir del mismo día\u00A0\u00A0\u00A0\u00A0\u00A0a aquel que tenga la notificación o publicación del acto de que se trate."
+      ],
       "respuestaCorrecta": 0,
       "anulada": false,
       "explicacion": "La respuesta es la A . Los plazos en días se consideran hábiles y se cuentan desde el día siguiente a la notificación."
@@ -485,17 +485,18 @@
       "id": 35,
       "globalId": 35,
       "seccion": "Primera Parte",
-      "pregunta": "Indique la respuesta FALSA, referida al Diagrama de Flujo de Datos (DFD):",
+      "pregunta": "Indique la definición correcta en referencia a los diagramas de flujo de datos de Métrica v3:",
       "opciones": [
-        "Almacén de datos: representa la información en movimiento...",
-        "Proceso de control: representa procesos que coordinan y sincronizan actividades...",
+        "Almacén de datos: representa la información en movimiento utilizada por el sistema.",
+        "Proceso de control: representa procesos que coordinan y sincronizan las actividades de otros procesos del diagrama de flujo de datos.",
         "Flujo de control: representa el flujo entre dos procesos de control.",
-        "Flujo de datos: representa el movimiento de los datos..."
+        "Flujo de datos: representa el movimiento de los datos, y establece la comunicación entre dos almacenes."
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "falta datos para explicar la pregunta."
+      "explicacion": "La respuesta correcta es la B (índice 1). En Métrica v3 (DFD), el proceso de control coordina y sincroniza la actividad de otros procesos. Las demás opciones son erróneas: a) el almacén representa información en reposo; c) el flujo de control transmite señales entre procesos de control y procesos ordinarios; d) en DFD está prohibido conectar directamente dos almacenes de datos sin un proceso intermediario."
     },
+
     {
       "id": 36,
       "globalId": 36,
@@ -1863,12 +1864,7 @@
       "globalId": 135,
       "seccion": "Supuesto Práctico - TAI 2019",
       "pregunta": "Muchas de las comunicaciones se van a realizar mediante conexiones ssh y tiene que solicitar las reglas de firewall al equipo de comunicaciones. ¿Cuál es el puerto que debe solicitar?",
-      "opciones": [
-        "21",
-        "63",
-        "69",
-        "22"
-      ],
+      "opciones": ["21", "63", "69", "22"],
       "respuestaCorrecta": 3,
       "anulada": false,
       "explicacion": "El protocolo SSH (Secure Shell) utiliza por defecto el puerto 22 TCP para las conexiones remotas seguras."
