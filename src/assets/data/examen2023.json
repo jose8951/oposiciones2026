@@ -1221,7 +1221,7 @@
         "'0..N' en el recuadro SR>T y '1' en el recuadro T>SR.",
         "'1..N' en el recuadro SR>T y '0..N' en el recuadro T>SR."
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "anulada": false,
       "explicacion": "Cada Solicitud de Representación es válida para un único Trámite (1 en SR>T), pero un Trámite puede tener N solicitudes de representación (0..N en T>SR)."
     },
