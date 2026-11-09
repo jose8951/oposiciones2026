@@ -1133,10 +1133,10 @@
       "año": 2022,
       "pregunta": "En el diagrama de clases la relación existente entre “Solicitud Representación” y “Trámite”, ¿qué multiplicidades serían compatibles con los requisitos planteados en el enunciado?",
       "opciones": [
-        "'1' en el recuadro 'SR&gt;T' y '1' en el recuadro 'T&gt;SR'.",
-        "'1' en el recuadro 'SR&gt;T' y '0..N' en el recuadro 'T&gt;SR'.",
-        "'0..N' en el recuadro 'SR&gt;T' y '1' en el recuadro 'T&gt;SR'.",
-        "'1..N' en el recuadro 'SR&gt;T' y '0..N' en el recuadro 'T&gt;SR'."
+        "'1' en el recuadro 'SR>T' y '1' en el recuadro 'T>SR'.",
+        "'1' en el recuadro 'SR>T' y '0..N' en el recuadro 'T>SR'.",
+        "'0..N' en el recuadro 'SR>T' y '1' en el recuadro 'T>SR'.",
+        "'1..N' en el recuadro 'SR>T' y '0..N' en el recuadro 'T>SR'."
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
