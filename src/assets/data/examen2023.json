@@ -661,21 +661,21 @@
       "anulada": false,
       "explicacion": "GRASP (General Responsibility Assignment Software Patterns) son patrones generales de software para asignación de responsabilidades en el diseño orientado a objetos."
     },
-    {
-      "id": 45,
-      "globalId": 45,
-      "seccion": "Primera Parte",
-      "pregunta": "Según METRICA v3, la relación jerárquica entre un objeto que representa la totalidad de ese objeto y las partes que lo componen, es una relación entre clases de tipo:",
-      "opciones": [
-        "Herencia.",
-        "Composición.",
-        "Asociación.",
-        "Agregación."
-      ],
-      "respuestaCorrecta": null,
-      "anulada": true,
-      "explicacion": "PREGUNTA ANULADA en el examen oficial."
-    },
+{
+  "id": 45,
+  "globalId": 45,
+  "seccion": "Primera Parte",
+  "pregunta": "Según METRICA v3, la relación jerárquica entre un objeto que representa la totalidad de ese objeto y las partes que lo componen, es una relación entre clases de tipo:",
+  "opciones": [
+    "Herencia.",
+    "Composición.",
+    "Asociación.",
+    "Agregación."
+  ],
+  "respuestaCorrecta": 1,
+  "anulada": false,
+  "explicacion": "La composición es la relación estructural de todo-parte fuerte donde el objeto contenedor y las partes comparten un ciclo de vida estrictamente dependiente."
+},
     {
       "id": 46,
       "globalId": 46,
