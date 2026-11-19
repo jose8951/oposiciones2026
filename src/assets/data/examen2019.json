@@ -1217,16 +1217,16 @@
       "id": 89,
       "globalId": 89,
       "seccion": "Supuesto I",
-      "pregunta": "En Python, dada la variable opositor = {'nombre': 'Sandra Gomez', 'notas': [10-12]}, ¿cómo asignaría el valor 36 a una variable?",
+  "pregunta": "Utilizando el lenguaje Python, a continuación se muestra la variable opositor, en la que se almacena el nombre y las puntuaciones de tres ejercicios por orden: opositor = {'nombre': 'Sandra Gomez', 'notas': [27, 36, 12]}. ¿Cómo asignaría a una variable llamada notaSegundoEjercicio el valor 36?",
       "opciones": [
         "notaSegundoEjercicio = opositor.notas.Value.Item2",
-        "notaSegundoEjercicio = opositor['notas'][13]",
-        "notaSegundoEjercicio = opositor.Key[notas].Value[13]",
+        "notaSegundoEjercicio = opositor['notas'][1]",
+        "notaSegundoEjercicio = opositor.Key[notas].Value[1]",
         "notaSegundoEjercicio = opositor(notas(2))"
       ],
       "respuestaCorrecta": 1,
       "anulada": false,
-      "explicacion": "En Python, se accede a los diccionarios por clave ['notas'] y a las listas por índice de base cero (índice 1 para el segundo valor) [9]."
+      "explicacion": "En Python, se accede a los diccionarios por clave ['notas'] y a las listas por índice de base cero (índice 1 para el segundo valor, 36, dentro de [27, 36, 12])."
     },
     {
       "id": 90,
